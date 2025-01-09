@@ -1,0 +1,30 @@
+{
+  "name": "pcjc",
+  "version": "1.0.0",
+  "description": "New mobile website for Pacific Central Judging Center (orchid society)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smhenderson89/PCJCWebsite.git"
+  },
+  "keywords": [
+    "Orchid",
+    "Society"
+  ],
+  "author": "Scott Henderson, Patrick Clawson, Daniel Williamson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smhenderson89/PCJCWebsite/issues"
+  },
+  "homepage": "https://github.com/smhenderson89/PCJCWebsite#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
