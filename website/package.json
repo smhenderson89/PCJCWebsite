@@ -22,9 +22,12 @@
   },
   "homepage": "https://github.com/smhenderson89/PCJCWebsite#readme",
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "ts-node": "^10.9.2"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
   }
 }
