@@ -13,7 +13,7 @@ def lookfor (searchterm, lines, regextext, offsetlines):
       try:
         foundvalue = re.search(regextext, lines[foundlinenum]).group(1)
       except AttributeError:
-        foundvalue = 'not found' # apply your error handling
+        foundvalue = 'not found'
       return foundvalue
   return 'no match'
 
@@ -52,14 +52,14 @@ def scrape_award (filename):
           datevalue = datevalue.strip()
           location = location.strip()
         except AttributeError:
-          datevalue = 'not found' # apply your error handling
+          datevalue = 'not found'
     
         crosslinenum = lines.index(row) + 9
         try:
           crossvalue = re.search('">(.+?)$', lines[crosslinenum]).group(1)
           crossvalue = crossvalue.strip()
         except AttributeError:
-          crossvalue = 'not found' # apply your error handling
+          crossvalue = 'not found' 
     #print('DEBUG: The date is {} location is {}'.format(datevalue,location))
     #print('DEBUG: The cross is {}'.format(crossvalue))
 
@@ -74,7 +74,7 @@ def scrape_award (filename):
           awardvalue = re.search('">(.+?)$', lines[awardlinenum]).group(1)
           (award, awardpoints) = awardvalue.split()
         except AttributeError:
-          awardvalue = 'not found' # apply your error handling
+          awardvalue = 'not found' 
     #print('DEBUG: The award is {} points {}'.format(award,awardpoints))
 
     photographer = lookfor('Photographer', lines, 'Photographer: (.+?)$', 0)
@@ -125,15 +125,33 @@ def scrape_award (filename):
     # get the description
     for row in lines:
       if row.find('"+1">Description</font') != -1:
-        descStartlinenum  = lines.index(row) 
+        descStartlinenum  = lines.index(row) +1
+        #print('DEBUG: Description starts on line {}'.format(descStartlinenum))
+        #print('DEBUG: the line is {}'.format(lines[descStartlinenum]))
         try:
-          description = "Description starts on line {}".format(descStartlinenum)
+          description = "not implemented"
         except AttributeError:
-          description = 'not found' # apply your error handling
-    
-    for row in lines:
-      if row.find('</font>' != -1:
-        descEndlinenum = lines.index(row)
+          description = 'not found' 
+    for row in lines[descStartlinenum:]:
+        if row.find('</font>') != -1:
+          descEndlinenum = lines.index(row) -1
+          #print('DEBUG: Description ends on line {}'.format(descEndlinenum))
+          #print('DEBUG: the line is -{}-'.format(lines[descEndlinenum]))
+          break
+    #print('DEBUG: after break')
+    #print('DEBUG: The description is {}'.format(description))
+    description = ""
+    for row in lines[descStartlinenum:descEndlinenum]:
+      # look for strange characters in the row, if so, escape them
+      # remove extra spaces and line breaks
+      cleanRow = row.strip()
+      # convert any " to '
+      cleanRow = re.sub(r'"', "'", cleanRow)
+      # escape any strange characters
+      # if the row is not empty, append it
+      if len(cleanRow) > 1:
+        description = description + " " + cleanRow
+    description = description.strip()
     print('DEBUG: The description is {}'.format(description))
 
     awardfile.close()
@@ -149,7 +167,3 @@ def main(argv):
 if __name__ == "__main__":
   main(sys.argv)
 
-
-
-
-# found: 1234
