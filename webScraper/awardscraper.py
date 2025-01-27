@@ -4,6 +4,9 @@ import sys
 import os.path
 import re
 
+#qi3?*Y{b*AsE
+#paccent
+
 def lookfor (searchterm, lines, regextext, offsetlines):
   for row in lines:
     # Look for the searchterm
@@ -18,6 +21,7 @@ def lookfor (searchterm, lines, regextext, offsetlines):
   return 'no match'
 
 def scrape_award (filename):
+  print ("awardnum, genus, species, clone, datevalue, location, crossvalue, awardpoints, photographer, nsnum, nsvnum, dswnum, dslnum, petwnum, petlnum, lswnum, lipwnum, liplnum, numflwrs, numbuds, numinfl, description")
   print ("DEBUG: opening file {}".format(filename))
   # open the file
   with open(filename, 'r') as awardfile:
@@ -148,12 +152,16 @@ def scrape_award (filename):
       # convert any " to '
       cleanRow = re.sub(r'"', "'", cleanRow)
       # escape any strange characters
+      
       # if the row is not empty, append it
       if len(cleanRow) > 1:
         description = description + " " + cleanRow
     description = description.strip()
-    print('DEBUG: The description is {}'.format(description))
+    #print('DEBUG: The description is {}'.format(description))
 
+    # output the data
+    print('{},{},{},{},"{}",{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},"{}"'.format(awardnum, genus, species, clone, datevalue, location, crossvalue, awardpoints, photographer, nsnum, nsvnum, dswnum, dslnum, petwnum, petlnum, lswnum, lipwnum, liplnum, numflwrs, numbuds, numinfl, description))
+    
     awardfile.close()
   return
 
