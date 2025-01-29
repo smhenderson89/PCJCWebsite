@@ -12,6 +12,13 @@
     "vite": "^6.0.5"
   },
   "dependencies": {
+    "async": "^3.2.6",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.19.0",
+    "express": "^4.21.2",
+    "sass": "^1.83.4",
     "vitest": "^3.0.0"
   }
 }
