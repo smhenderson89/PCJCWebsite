@@ -38,6 +38,15 @@ app.get('/calendar', function(req, res) {
   res.render('pages/calendar')
 })
 
+// awards list
+app.get('/awardslist', function(req, res) {
+  res.render('pages/awardslist')
+})
+
+// plantpage
+app.get('/plantpage', function(req, res) {
+  res.render('pages/plantpage')
+})
 
 
 app.listen(port, hostname, function() {
