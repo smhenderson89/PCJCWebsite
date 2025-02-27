@@ -6,23 +6,22 @@
   },
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^6.0.5"
+    "dev": "node server.js",
+    "build": "noded build",
+    "test": "node test"
   },
   "dependencies": {
     "async": "^3.2.6",
-    "axios": "^1.7.9",
+    "axios": "^1.8.1",
     "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
     "express": "^4.21.2",
-    "handlebars": "^4.7.8",
-    "sass": "^1.83.4",
-    "vitest": "^3.0.0"
+    "nodemon": "^3.1.9",
+    "pnpm": "^10.5.1",
+    "sass": "^1.85.1"
   }
 }
