@@ -19,15 +19,18 @@ app.get("/", async (req, res) => {
     const client = await auth.getClient();
 
     // Instance of Google Sheets API
-    const googleSheets = google.sheets({ version: "v4", auth: client });
+    const googleSheets = google.sheets({ version: "v3", auth: client });
+
+    const spreadsheetId = process.env.SHEET_ID
 
     // Get metadata about spreadsheet
-    // const metaData = await googleSheets.spreadsheets.get({
-    //     auth,
-    //     SHEET_ID
-    // });
+    const metaData = await googleSheets.spreadsheets.get({
+        auth,
+        spreadsheetId,
+      });
 
-    res.send("Hello World")
+
+    res.send(metaData)
 });
 
 app.listen(port, () => {
