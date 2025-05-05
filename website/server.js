@@ -12,7 +12,24 @@ app.use(cors())
 const hostname = "127.0.0.1"
 const port = 8000
 
-// use res.render to load up an ejs view file
+
+// Require livereload and connectLiveReload
+const livereload = require("livereload")
+const connectLiveReload = require("connect-livereload")
+
+// Create a server with livereload and fire it up
+const liveReloadServer = livereload.createServer()
+
+// Refresh the browser after each saved change on the server with a delay of 100 ms
+liveReloadServer.server.once("connection", () => {
+    setTimeout(() => {
+        liveReloadServer.refresh("/")
+    }, 100)
+})
+
+// Add livereload script to the response
+app.use(connectLiveReload())
+
 
 // index page
 app.get('/', function(req, res) {
