@@ -6,6 +6,7 @@
     <title>Bootstrap demo</title>
       <!-- Load up CSS Styles-->
       <link rel="stylesheet" type="text/css" href="/website/css/index.css">
+      <link rel="stylesheet" type="text/css" href="/website/css/form.css">
 
       <script src = "/website/functions/formSubmit.js"></script>
 
@@ -15,65 +16,62 @@
   <body>
     <h1 class = "text-center">Pacific Central Judging Center - Submission Form</h1>
     <div class = "container" id = "formContainer">
-        <div class = "row justify-content-center">
-            <div>Form Submission. If the question doesn't apply, leave it blank or type "N/A"</div>
+        <div class = "row">
+            <div class = "text-align">Form Submission. If the question doesn't apply, leave it blank or type "N/A"</div>
             <br>
             <br>
         </div>
         <form id = "submissionForm">
-                <div class = "form-label">
-                    Award Type (AM, HCC, CCE, etc..)
-                </div>
+            <div class = "form-label">
+                Award Type (AM, HCC, CCE, etc..)
+            </div>
 
-                <select class="form-select" id = "awardType" aria-label="Default select example">
-                    <option selected>Open this select menu</option>
-                    <option value="FCC">FCC</option>
-                    <option value="AM">AM</option>
-                    <option value="HCC">HCC</option>
-                    <option value="CCE">CCE</option>
-                    <option value="CCM">CCM</option>
-                    <option value="CHM">CHM</option>
-                    <option value="CBR">CBR</option>
-                    <option value="AD">AD</option>
-                    <option value="AQ">AQ</option>
-                    <option value="JC">JC</option>
-                    <option value="N/A">N/A</option>
-                  </select>
-                <div class = "form-text">If option not on the list, select NA and see the next question</div>
-                <br>
+            <select class="form-select" id = "awardType" name = "awardType" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="FCC">FCC</option>
+                <option value="AM">AM</option>
+                <option value="HCC">HCC</option>
+                <option value="CCE">CCE</option>
+                <option value="CCM">CCM</option>
+                <option value="CHM">CHM</option>
+                <option value="CBR">CBR</option>
+                <option value="AD">AD</option>
+                <option value="AQ">AQ</option>
+                <option value="JC">JC</option>
+                <option value="N/A">N/A</option>
+                </select>
+            <div class = "form-text">If option not on the list, select NA and see the next question</div>
             <div class = "form-label">
                 If Award option is not found on the above list, enter it here
             </div>
-            <input type="email" class="form-control" id="awardTypeNotFound" placeholder="Award Name">
+            <input type="email" class="form-control" id="awardTypeNotFound" name = "awardNotFound" placeholder="Award Name">
             
             <div class = "form-label">Event Title</div>
-            <input type="email" class="form-control" id="awardValue" placeholder="Event Title">
+            <input type="email" class="form-control" name = "event Title" id="awardValue" placeholder="Event Title">
 
-            <label for="birthday">Event Date:</label>
+            <div for="form-label">Event Date</div>
             <input type="date" id="eventDate" name="eventDate">
 
             <div class = "form-label">Genus</div>
-            <input type="email" class="form-control" id="genus" placeholder="Genus">
+            <input type="email" class="form-control" id="genus" name = "genus" placeholder="Genus">
 
             <div class = "form-label">Hybrid/species</div>
-            <input type="email" class="form-control" id="Hybrid/species" placeholder="X / X">
+            <input type="email" class="form-control" name = "hybrid/species" id="Hybrid/species" placeholder="X / X">
 
             <div class = "form-label">Clonal Name (don't incldue quotes around the name)</div>
-            <input type="email" class="form-control" id="awardValue" placeholder="Award Value">
+            <input type="email" class="form-control" id="clonalName" name = "clonalName" placeholder="Clonal Name">
 
             <div class = "form-label">Cross (don't incldue quotes around the name)</div>
-            <input type="email" class="form-control" id="awardValue" placeholder="Award Value">
+            <input type="email" class="form-control" id="crossName" name = "crossName" placeholder="Cross">
 
             <div class = "form-label">Exhibited By</div>
-            <input type="email" class="form-control" id="awardValue" placeholder="Award Value">
+            <input type="email" class="form-control" id="exhibitor" name = "exhibitor" placeholder="Exhibited By">
 
-            <div class = "form-label">Award Photo</div>
-            <label for="formFile" class="form-label">Award Photo (submit uncompressed)</label>
-            <input class="form-control" type="file" id="formFile">
-
-
+            <div for="formFile" class="form-label">Award Photo (submit uncompressed)</div>
+            <input class="form-control" type="file" id="awardPhoto" name = "awardPhoto">
 
             <!-- TODO: Submit form data to text file while database is being built-->
+             <br>
             <input type = "button" class = "btn btn-secondary" onclick = "submitForm()" value = "Submit Form">
         </form>
 

@@ -1,14 +1,28 @@
-
+// import { response } from "express";
 
 function submitForm() {
 
-    let form = document.getElementById("submissionForm");
+    console.log('button clicked')
+    // event.preventDefault() // Prevent default form submission
 
-    const formData = new FormData()
+    let form = document.getElementById("submissionForm");
     
     let awardType = document.getElementById("awardType").value
     let awardNotFound = document.getElementById("awardTypeNotFound").value
     let awardValue = document.getElementById("awardValue").value;
 
-    // TODO: Write data to a text file while database is built
+    const formData = new FormData(form)
+
+    const formObject = Object.fromEntries(formData.entries())
+    console.log(formObject);
+
+    fetch('http://localhost:3000/submit', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.log('Error: ', error))
+
+
 }
