@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>PCJC Submissions Form</title>
       <!-- Load up CSS Styles-->
       <link rel="stylesheet" type="text/css" href="/website/css/index.css">
       <link rel="stylesheet" type="text/css" href="/website/css/form.css">
@@ -47,28 +47,97 @@
             <input type="email" class="form-control" id="awardTypeNotFound" name = "awardNotFound" placeholder="Award Name">
             
             <div class = "form-label">Event Title</div>
-            <input type="email" class="form-control" name = "event Title" id="awardValue" placeholder="Event Title">
+            <input type="form control" class="form-control" name = "event Title" id="awardValue" placeholder="Event Title">
 
-            <div for="form-label">Event Date</div>
+            <div class="form-label">Event Date</div>
             <input type="date" id="eventDate" name="eventDate">
 
             <div class = "form-label">Genus</div>
-            <input type="email" class="form-control" id="genus" name = "genus" placeholder="Genus">
+            <input type="form control" class="form-control" id="genus" name = "genus" placeholder="Genus">
 
             <div class = "form-label">Hybrid/species</div>
-            <input type="email" class="form-control" name = "hybrid/species" id="Hybrid/species" placeholder="X / X">
+            <input type="form control" class="form-control" name = "hybrid/species" id="Hybrid/species" placeholder="X / X">
 
             <div class = "form-label">Clonal Name (don't incldue quotes around the name)</div>
-            <input type="email" class="form-control" id="clonalName" name = "clonalName" placeholder="Clonal Name">
+            <input type="form control" class="form-control" id="clonalName" name = "clonalName" placeholder="Clonal Name">
 
             <div class = "form-label">Cross (don't incldue quotes around the name)</div>
-            <input type="email" class="form-control" id="crossName" name = "crossName" placeholder="Cross">
+            <input type="form control" class="form-control" id="crossName" name = "crossName" placeholder="Cross">
 
             <div class = "form-label">Exhibited By</div>
-            <input type="email" class="form-control" id="exhibitor" name = "exhibitor" placeholder="Exhibited By">
+            <input type="form control" class="form-control" id="exhibitor" name = "exhibitor" placeholder="Exhibited By">
 
-            <div for="formFile" class="form-label">Award Photo (submit uncompressed)</div>
+            <div class = "form-label">Photographed By</div>
+            <input type="form control" class="form-control" id="photographer" name = "photographer" placeholder="Photographer">
+
+            <div for="formFile" class="form-label">Award Photo (submit file uncompressed)</div>
             <input class="form-control" type="file" id="awardPhoto" name = "awardPhoto">
+
+            <div class = "bold">Measurements (in centimeters)</div>
+
+            <div class = "form-label">Natural Spread (NS)</div>
+            <input type="form control" class="form-control" id="NS" name = "NS" placeholder="XX">
+
+            <div class = "form-label">Natural Spread Vertical (NSV)</div>
+            <input type="form control" class="form-control" id="NSV" name = "NSV" placeholder="XX">
+
+            <div class = "form-label">Dorsal Speal Width (DSW)</div>
+            <input type="form control" class="form-control" id="DSW" name = "DSW" placeholder="XX">
+
+            <div class = "form-label">Dorsal Speal Length (DSL)</div>
+            <input type="form control" class="form-control" id="DSL" name = "DSL" placeholder="XX">
+            
+            <div class = "form-label">Petal Width (PETW)</div>
+            <input type="form control" class="form-control" id="PETW" name = "PETW" placeholder="XX">
+
+            <div class = "form-label">Petal Length (PETL)</div>
+            <input type="form control" class="form-control" id="PETL" name = "PETL" placeholder="XX">
+
+            <div class = "form-label">Pick Pouch and Synsepal or Lip and Lateral Sepal measurements</div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Pouch&Synsepal" id="Pouch&Synsepal">
+                <label class="form-check-label" for="Pouch&Synsepal">
+                Pouch and Synsepal
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Lip&LateralSepal" id="Lip&LateralSepal" checked>
+                <label class="form-check-label" for="Lip&LateralSepal">
+                Lip and Lateral Sepal
+                </label>
+              </div>
+
+            <div class = "form-label">Lateral Sepal Width (LSW) or Synsepal Width (SYNSW)</div>
+            <input type="form control" class="form-control" id="question1" name = "question1" placeholder="XX">
+
+            <div class = "form-label">Pouch Width (PCHW) or Lip Width (LIPW)</div>
+            <input type="form control" class="form-control" id="question2" name = "question2" placeholder="XX">
+
+            <div class = "form-label">Pouch Length (SYNSL) or Lip Length (LIPL)</div>
+            <input type="form control" class="form-control" id="question3" name = "question3" placeholder="XX">
+
+            <div class = "form-label">Number of Flowers</div>
+            <input type="form control" class="form-control" id="numflowers" name = "numflowers" placeholder="XX">
+
+            <div class = "form-label">Number of Buds</div>
+            <input type="form control" class="form-control" id="numBuds" name = "numBuds" placeholder="XX">
+
+            <div class = "form-label">Number of Inflorescences</div>
+            <input type="form control" class="form-control" id="numInfloresecnes" name = "numInfloresecnes" placeholder="XX">
+
+            <div class = "form-label">Inflorescence Length</div>
+            <input type="form control" class="form-control" id="infloLength" name = "infloLength" placeholder="XX">
+
+            <div class = "form-label">Plant Width/Diameter</div>
+            <input type="form control" class="form-control" id="width" name = "width" placeholder="XX">
+
+            <div class = "form-label">Dorsal Height</div>
+            <input type="form control" class="form-control" id="height" name = "height" placeholder="XX">
+
+            <div class = "form-label">Plant description</label>
+            <textarea class="form-control" id="description" name = "description" rows="5"></textarea>
+
+
 
             <!-- TODO: Submit form data to text file while database is being built-->
              <br>
