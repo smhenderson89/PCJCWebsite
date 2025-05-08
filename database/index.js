@@ -1,38 +1,33 @@
 // Load env variable
-require('dotenv').config()
+import dotenv from "dotenv"
+import express from "express";
 
-const express = require("express");
-const { google } = require("googleapis");
+const hostname = "127.0.0.1"
 const port = 3000;
 
+import cors from 'cors' // Use CORS
 
 const app = express();
 
-app.get("/", async (req, res) => {
-    const auth = new google.auth.GoogleAuth({
-        keyFile: "secrets.json",
-        scopes: "https://www.googleapis.com/auth/spreadsheets",
+// Enable CORS for all routes
+app.use(cors());
 
-    });
+// Optional: Only allow certain origins
+// app.use(cors({ origin: 'http://localhost:5173' }));
 
-    // Create client instance for auth
-    const client = await auth.getClient();
-
-    // Instance of Google Sheets API
-    const googleSheets = google.sheets({ version: "v3", auth: client });
-
-    const spreadsheetId = process.env.SHEET_ID
-
-    // Get metadata about spreadsheet
-    const metaData = await googleSheets.spreadsheets.get({
-        auth,
-        spreadsheetId,
-      });
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 
-    res.send(metaData)
+app.get("/", (req, res) => {
+  res.send('Hello World!')
+
 });
 
+app.post('/submit', (req, res) => {
+  res.json({message: 'Form received!'});
+})
+
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
+    console.log(`Backend listening on ${hostname}:${port}`)
   })
