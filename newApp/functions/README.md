@@ -1,1 +1,1 @@
-page shared or shared logic, modules
+Server side logic, not exposed to browser
