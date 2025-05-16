@@ -8,7 +8,7 @@
     "version": "0.0.0",
     "type": "module",
     "scripts": {
-      "dev": "nodemon server.js -e js,ejs",
+      "dev": "nodemon app.js -e js,ejs",
       "build": "noded build",
       "test": "node test"
     },
