@@ -87,7 +87,6 @@ app.use(
 );
 
 
-
 // Routing folders - splitting up routes into seperate folders
 const formRoute = require('./routes/formRoute')
 app.use('/formSubmission', formRoute);
