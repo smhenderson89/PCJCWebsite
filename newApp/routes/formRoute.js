@@ -1,29 +1,28 @@
 const express = require("express")
-const multer = require('multer');
+const fs = require('fs') // Express write
+const path = require('path'); // for recognizing the path
+const multer = require('multer'); // managing data as send by post
 const router = express.Router()
 
-
-// Setup storage on disk for image files eventually
-const storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, 'uploads/'); // folder where files will be saved
-  },
-  filename: function (req, file, cb) {
-    // Save with original filename + timestamp
-    const uniqueName = Date.now() + '-' + file.originalname;
-    cb(null, uniqueName);
-  }
-});
-
+// Handling Image -  Use memory storage (doesn't write to disk)
+const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
 router.get('/', (req, res) => {
   res.json({message: 'Hello World'});
 })
 
-router.post('/', upload.none(), (req, res) => {
-  console.log('Form Body', req.body);
-  res.json({message: 'Form received!'});
+router.post('/', upload.single('awardPhoto'), (req, res) => {
+    console.log('Form Body', req.body);
+    console.log('Uploaded file', req.file)
+
+    res.json({
+    message: 'Form data received successfully!',
+    filename: req.file.originalname,
+    size: req.file.size,
+    type: req.file.mimetype,
+    fields: req.body
+  });
 })
 
 module.exports = router;
