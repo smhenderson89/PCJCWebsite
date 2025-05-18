@@ -5,3 +5,13 @@
 .form-label {
     padding-top: 1rem;
 }
+
+#pouchSynsepalGroup {
+    border: black;
+    border-style: dashed;
+}
+
+#lipLateralGroup {
+    border: red;
+    border-style: dashed;
+}

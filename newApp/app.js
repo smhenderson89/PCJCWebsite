@@ -1,8 +1,12 @@
+
+// Boilerplate Information
+
 const hostname = "127.0.0.1"
 const port = 3000;
 const helmet = require("helmet")
 
-var express = require('express');
+const express = require('express');
+
 var app = express();
 
 // DEBUG - show current time
@@ -12,6 +16,10 @@ var renderTime = d.toLocaleTimeString();
 // set the view engine to ejs
 // use res.render to load up an ejs view file
 app.set('view engine', 'ejs');
+
+// Enable body parsing globally
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Security
 const isProduction = process.env.NODE_ENV === 'production';
@@ -91,6 +99,8 @@ app.use(
 const formRoute = require('./routes/formRoute')
 app.use('/formSubmission', formRoute);
 
+// Static serving for uploads if you want to access uploaded files later
+app.use('/uploads', express.static('uploads'));
 
 // server static files
 app.use(express.static('public'))

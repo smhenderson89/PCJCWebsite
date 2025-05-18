@@ -43,7 +43,7 @@
             <input type="email" class="form-control" id="awardTypeNotFound" name = "awardNotFound" placeholder="Award Name">
             
             <div class = "form-label">Event Title</div>
-            <input type="form control" class="form-control" name = "event Title" id="awardValue" placeholder="Event Title" required>
+            <input type="form control" class="form-control" name = "event Title" id="eventTitle" placeholder="Event Title" required>
 
             <div class="form-label">Event Date</div>
             <input type="date" id="eventDate" name="eventDate" required>
@@ -67,7 +67,7 @@
             <input type="form control" class="form-control" id="photographer" name = "photographer" placeholder="Photographer" required>
 
             <div for="formFile" class="form-label">Award Photo (submit file uncompressed)</div>
-            <input class="form-control" type="file" id="awardPhoto" name = "awardPhoto">
+            <input class="form-control" type="file" id="awardPhoto" name = "awardPhoto" requried>
             <br>
             <div class = "bold">Measurements (in centimeters)</div>
 
@@ -109,26 +109,26 @@
             <br>
 
             <div class = "row" id = "pouchSynsepalGroup">
-                <h6>Pounch and Synsepal</h6>
+                <h5>Pounch and Synsepal</h5>
                 <div class = "form-label">Lateral Sepal Width (LSW)</div>
-                <input type="form control" class="form-control" id="lsw" name = "lsw" placeholder="XX" required>
+                <input type="form control" class="form-control" id="lsw" name = "lsw" placeholder="XX">
 
                 <div class = "form-label">Pouch Width (PCHW)</div>
-                <input type="form control" class="form-control" id="pchw" name = "pchw" placeholder="XX" required>
+                <input type="form control" class="form-control" id="pchw" name = "pchw" placeholder="XX">
 
                 <div class = "form-label">Pouch Length (SYNSL)</div>
-                <input type="form control" class="form-control" id="synsl" name = "synsl" placeholder="XX" required>
+                <input type="form control" class="form-control" id="synsl" name = "synsl" placeholder="XX">
             </div>
             <div class = "row" id = "lipLateralGroup" style="display: none;">
-                <h6>Lip and Lateral Speal</h6>
+                <h5>Lip and Lateral Speal</h5>
                 <div class = "form-label">Synsepal Width (SYNSW)</div>
-                <input type="form control" class="form-control" id="synsw" name = "synsw" placeholder="XX" required>
+                <input type="form control" class="form-control" id="synsw" name = "synsw" placeholder="XX">
     
                 <div class = "form-label">Lip Width (LIPW)</div>
-                <input type="form control" class="form-control" id="lipw" name = "lipw" placeholder="XX" required>
+                <input type="form control" class="form-control" id="lipw" name = "lipw" placeholder="XX" >
     
                 <div class = "form-label">Lip Length (LIPL)</div>
-                <input type="form control" class="form-control" id="lipl" name = "lipl" placeholder="XX" required>
+                <input type="form control" class="form-control" id="lipl" name = "lipl" placeholder="XX">
             </div>   
 
             <div class = "form-label">Number of Flowers</div>
@@ -156,6 +156,7 @@
              <br>
             <input id = "submitBtn" type = "button" class = "btn btn-secondary" value = "Submit Form">
             <input type = "button" class = "btn btn-info" disabled onclick = "" value = "Put N/A for empty measurements">
+            <input id = "testBtn" type = "button" class = "btn btn-success" value = "Test Submission">
         </form>
 
     </div>
