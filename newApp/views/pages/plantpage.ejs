@@ -7,33 +7,46 @@
 
 <header>
   <%- include('../partials/header'); %>
+  <link rel="stylesheet" type="text/css" href="/css/plantpage.css">
 </header>
 
 <main>
   <div class = "container" id = "plantInfo">
     <div class="row">
-      <div class="col-sm-8">
-          <h3>Plant Award Page</h3>
-      </div>
-      <div class ="row">
-        <img src = "https://www.espoma.com/wp-content/uploads/2021/03/lead-image.jpg" class = "img-test" alt = "...">
-      </div>
-      <div class ="row">
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Cymbidium goeringii 'Pink Lady'</h5>
-            <p class="card-text">Cross: Cymbidium erythraeum x Cymbidium tracyanum</p>
-            <p class="card-text">Award: AM 81</p>
-            <p class="card-text">Exhibited by: Pierre Pujol</p>
-            <p class="card-text">Photographer: Chaunie Langland</p>
-            <p class="card-text">Award: 20255250</p>
+      <div class="col">
+          <div class = "text-center">
+            <h3>Plant Award Page</h3>
           </div>
+      </div>
+      <div class = "row">
+        <div class = "awardElement">
+          <img class = "awardImage" src = "/images/image02.jpg" class = "img-test" alt = "image of flower">
+        </div>
+      </div>
+
+      <div class ="row">
+        <div class = "col">
+          <div class = "cardElement">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Cymbidium goeringii 'Pink Lady'</h5>
+                <p class="card-text">Cross: Cymbidium erythraeum x Cymbidium tracyanum</p>
+                <p class="card-text">Award: AM 81</p>
+                <p class="card-text">Exhibited by: Pierre Pujol</p>
+                <p class="card-text">Photographer: Chaunie Langland</p>
+                <p class="card-text">Award: 20255250</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class = "col">
+          <%- include('../partials/plantdata'); %>
         </div>
       </div>
     </div>
 
     </div>
-      <%- include('../partials/plantdata'); %>
+
 
   </div>
 </main>

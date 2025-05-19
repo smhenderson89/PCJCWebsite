@@ -25,14 +25,14 @@ if (isProduction) {
   cspDirectives.styleSrc = [self, bootstrapCDN, "'unsafe-inline'"]; // still needed for Bootstrap
 }
 
-app.use(
-  helmet.contentSecurityPolicy({
-    directives: cspDirectives,
-  })
-);
-
 module.exports = function setupMiddleware(app) {
-  app.use(helmet());
+  app.use(
+    helmet({
+      contentSecurityPolicy: {
+        directives: cspDirectives,
+      },
+    })
+  );
   app.use(cors());
   app.use(morgan('dev'));
   app.use(express.static('public'));
