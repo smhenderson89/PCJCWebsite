@@ -58,6 +58,12 @@ app.get('/awardyear', function(req, res) {
   res.render('pages/awardyear');
 });
 
+// Login Page 
+app.get('/login', function(req, res) {
+  res.render('pages/login');
+});
+
+
 // plant page example
 app.get('/plantpage', function(req, res) {
   res.render('pages/plantpage');
