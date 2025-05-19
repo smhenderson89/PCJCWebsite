@@ -119,12 +119,4 @@ function placeholderData() {
   document.getElementById("description").value = "This is a test description"
 
   alert("Test fields added");
-
-  
-  
-
-
-
-
-
 }

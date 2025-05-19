@@ -3,78 +3,33 @@ const cors = require('cors'); // Cross Origin Resource Sharing
 const helmet = require('helmet'); // Security
 const morgan = require('morgan'); // Request Logger middleware
 const compression = require('compression') // Compression middleware for fetch responses
+var app = express();
 
-// Common allowed sources (adjust to your needs)
-const bootstrapCDN = 'https://cdn.jsdelivr.net';
+// Security
+const isProduction = process.env.NODE_ENV === 'production';
+
 const self = "'self'";
+const bootstrapCDN = 'https://cdn.jsdelivr.net';
 
-const cspDirectivesDev = {
+const cspDirectives = {
   defaultSrc: [self],
-  scriptSrc: [
-    self,
-    bootstrapCDN,
-    "'unsafe-inline'",    // allow inline scripts for easy dev
-    "'unsafe-eval'",     // allow eval() for debugging tools (e.g. React devtools)
-  ],
-  styleSrc: [
-    self,
-    bootstrapCDN,
-    "'unsafe-inline'",   // allow inline styles (Bootstrap needs this)
-  ],
-  imgSrc: [
-    self,
-    'data:',            // allow embedded images, favicons
-    bootstrapCDN,
-  ],
-  fontSrc: [
-    self,
-    bootstrapCDN,
-  ],
+  scriptSrc: [self, bootstrapCDN, "'unsafe-inline'", "'unsafe-eval'"],
+  styleSrc: [self, bootstrapCDN, "'unsafe-inline'"],
+  fontSrc: [self, bootstrapCDN],
+  imgSrc: [self, 'data:', bootstrapCDN],
 };
 
-const cspDirectivesProd = {
-  defaultSrc: [self],
-  scriptSrc: [
-    self,
-    bootstrapCDN,
-    // No unsafe-inline or unsafe-eval here for security
-  ],
-  styleSrc: [
-    self,
-    bootstrapCDN,
-    "'unsafe-inline'",  // Bootstrap CSS still requires this inline style allowance
-  ],
-  imgSrc: [
-    self,
-    'data:',
-    bootstrapCDN,
-  ],
-  fontSrc: [
-    self,
-    bootstrapCDN,
-  ],
-};
+if (isProduction) {
+  // Strip unsafe sources in production
+  cspDirectives.scriptSrc = [self, bootstrapCDN];
+  cspDirectives.styleSrc = [self, bootstrapCDN, "'unsafe-inline'"]; // still needed for Bootstrap
+}
 
 app.use(
   helmet.contentSecurityPolicy({
-    directives: isProduction ? cspDirectivesProd : cspDirectivesDev,
+    directives: cspDirectives,
   })
 );
-
-// Security for Helmet
-app.use(
-  helmet.contentSecurityPolicy({
-    directives: {
-      defaultSrc: ["'self'"],
-      scriptSrc: ["'self'", "https://cdn.jsdelivr.net"],
-      styleSrc: ["'self'", "https://cdn.jsdelivr.net", "'unsafe-inline'"],
-      fontSrc: ["'self'", "https://cdn.jsdelivr.net"],
-      imgSrc: ["'self'", "data:"], // ✅ Add "data:" here to allow embedded SVGs
-    },
-  })
-);
-
-
 
 module.exports = function setupMiddleware(app) {
   app.use(helmet());
