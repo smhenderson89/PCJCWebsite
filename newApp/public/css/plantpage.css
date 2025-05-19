@@ -1,0 +1,14 @@
+.awardImage {
+    max-width: 75vw;
+    height: auto;
+}
+
+.awardElement {
+    text-align: center;
+}
+
+.cardElement {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

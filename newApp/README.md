@@ -1,0 +1,1 @@
+Server side rendering for the website, using EJS (Embedded Javasript Templates) and Express (Javascript framework)
