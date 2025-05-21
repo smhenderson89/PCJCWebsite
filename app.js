@@ -26,8 +26,6 @@ app.use(express.urlencoded({ extended: true }));
 // Routing folders - splitting up routes into seperate folders
 const formRoute = require('./routes/formRoute')
 app.use('/formSubmission', formRoute);
-const authRoutes = require('./routes/auth');
-app.use('/auth', authRoutes);
 
 // Static serving for uploads if you want to access uploaded files later
 app.use('/uploads', express.static('uploads'));
