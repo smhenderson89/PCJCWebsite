@@ -93,5 +93,37 @@
     "numBuds": "5",
     "numInfloresecnes": "2",
     "description": "Five flowers and five buds on two up to 26-cm upright inflorescences; sepals and petals pink, stippled darker pink distally; lip white, overlaid lavender-pink sidelobe exterior and midlobe tip, ruffled side lobes and midlobe; column white blushed pink, anther cap light yellow; substance hard; texture crystalline."
-}
+},
+{
+    "awardType": "AM",
+    "awardNotFound": "",
+    "awardValue": "81",
+    "event Title": "San Francisco Monthly",
+    "eventDate": "2024-02-02",
+    "genus": "Paphiopedilum",
+    "hybrid/species": "Helen Milton",
+    "clonalName": "Merlot",
+    "crossName": "Paphiopedilum sukhakulii x Paphiopedilum violascens",
+    "exhibitor": "Dave Sorokowsky",
+    "photographer": "Ken Jacobsen",
+    "awardPhoto": {"url" : "https://www.paccentraljc.org/20240102/20245350.jpg"},
+    "NS": "12.5",
+    "NSV": "10.3",
+    "DSW": "5.0",
+    "DSL": "5.1",
+    "PETW": "2.6",
+    "PETL": "7.3",
+    "measurements": "on",
+    "lipOrSepal": "Pouch&Synsepal",
+    "lsw": "",
+    "pchw": "3.4",
+    "synsl": "4.0",
+    "synsw": "2.8",
+    "lipw": "",
+    "lipl": "",
+    "numflowers": "1",
+    "numBuds": "0",
+    "numInfloresecnes": "1",
+    "description": "One well-presented flower on one 16.3-cm inflorescence; dorsal sepal white, green veins, blushed burgundy basally, margins hirsute; synsepal white, green veins; petals chartreuse, green veins, burgundy spots, margins blushed burgundy, hairsute; pouch chartreuse, overlaid brown; staminode pale green, darker green markings centrally; substance medium; texture glossy, pouch waxy."
+    }
 ]

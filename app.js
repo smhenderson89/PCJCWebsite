@@ -5,6 +5,9 @@ const hostname = "127.0.0.1"
 const port = 3000;
 const helmet = require("helmet")
 
+// testData
+const testData = require('./public/sampleData.json');
+
 const express = require('express');
 
 var app = express();
@@ -27,6 +30,9 @@ app.use(express.urlencoded({ extended: true }));
 const formRoute = require('./routes/formRoute')
 app.use('/formSubmission', formRoute);
 
+const testTemplate = require('./routes/testTemplate')
+app.use('/testData', testTemplate)
+
 // Static serving for uploads if you want to access uploaded files later
 app.use('/uploads', express.static('uploads'));
 
@@ -37,6 +43,10 @@ app.use(express.static('public'))
 app.get('/', function(req, res) {
   res.render('pages/index');
 });
+
+app.get('/hello', function(req, res) {
+  res.send('helloWorld');
+})
 
 // form submission
 app.get('/form', function(req, res) {
@@ -62,7 +72,6 @@ app.get('/awardyear', function(req, res) {
 app.get('/login', function(req, res) {
   res.render('pages/login');
 });
-
 
 // plant page example
 app.get('/plantpage', function(req, res) {
