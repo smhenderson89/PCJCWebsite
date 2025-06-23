@@ -105,6 +105,7 @@ function placeholderData() {
   let radioBtn = document.getElementById("Pouch&Synsepal")
   radioBtn.checked = true;
 
+  document.getElementById("lsl").value = 1.0
   document.getElementById("lsw").value = 1.0
   document.getElementById("pchw").value = 1.0
   document.getElementById("synsl").value = 1.0
