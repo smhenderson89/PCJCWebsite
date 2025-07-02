@@ -1,15 +1,17 @@
-const express = require("express")
-const path = require('path'); // for recognizing the path
-const router = express.Router()
+import express from 'express';
+import { Router } from 'express';
+
 
 // import test JSON file
-const testData = require('../public/sampleData.json');
+import testData from '../db/testData/singleData.json' assert { type: 'json' };
 
-router.get('/', (req, res) => {
+const testDataRoute = express.Router();
+
+testDataRoute.get('/', (req, res) => {
   res.json({message: 'Test Data'});
 })
 
-router.get('/years', (req, res) => {
+testDataRoute.get('/years', (req, res) => {
     /* Look at JSON, eventdate, put those into buckets for various years */
 
     let yearsCounts = {};
@@ -29,6 +31,6 @@ router.get('/years', (req, res) => {
 })
 
 
-module.exports = router;
+export default testDataRoute;
 
 

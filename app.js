@@ -3,20 +3,21 @@
 
 const hostname = "127.0.0.1"
 const port = 3000;
-const helmet = require("helmet")
 
 // testData
-const testData = require('./public/sampleData.json');
 
-const express = require('express');
+import express from 'express'
+
+import setupMiddleware from './config/middleware.js';
+import setupViewEngine from './config/viewEngine.js';
 
 var app = express();
 
 // Middleware Routes
-require('./config/middleware')(app);
+setupMiddleware(app);
 
 // View Engine Route
-require('./config/viewEngine')(app);
+setupViewEngine(app);
 
 // DEBUG - show current time
 var d = new Date();
@@ -27,11 +28,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routing folders - splitting up routes into seperate folders
-const formRoute = require('./routes/formRoute')
+import formRoute from './routes/formRoute.js';
 app.use('/formSubmission', formRoute);
 
-const testTemplate = require('./routes/testTemplate')
-app.use('/testData', testTemplate)
+import testData from './routes/testData.js';
+app.use('/testData', testData)
 
 // Static serving for uploads if you want to access uploaded files later
 app.use('/uploads', express.static('uploads'));
@@ -60,7 +61,9 @@ app.get('/personnel', function(req, res) {
 
 // awards list
 app.get('/awardlist', function(req, res) {
-  res.render('pages/awardlist');
+  /* Render information based on data from sample data */
+
+  res.render('pages/awardlist',);
 });
 
 // award by year 
