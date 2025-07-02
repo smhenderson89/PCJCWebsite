@@ -7,7 +7,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 async function loadTestData() {
-    console.log('test function ran')
   try {
     const jsonPath = path.join(__dirname, '../db/testData/singleData.json');
     const jsonData = await fs.readFile(jsonPath, 'utf-8');
@@ -20,6 +19,8 @@ async function loadTestData() {
 
 async function getYearsData(req, res, next) {
     let yearsCounts = {};
+
+    testData = loadTestData();
     
     // Get plant year from year award
     testData.forEach(entry => {

@@ -32,6 +32,7 @@ import formRoute from './routes/formRoute.js';
 app.use('/formSubmission', formRoute);
 
 import testData from './routes/testData.js';
+import { loadTestData } from './controllers/databaseCalls.js';
 app.use('/testData', testData)
 
 // Static serving for uploads if you want to access uploaded files later
@@ -60,11 +61,27 @@ app.get('/personnel', function(req, res) {
 });
 
 // awards list
-app.get('/awardlist', function(req, res) {
-  /* Render information based on data from sample data */
+app.get('/awardlist', async function(req, res) {
+  try {
+    const data = await loadTestData();
+    let yearsCounts = {};
+    data.forEach(entry => {
+      const [year] = entry.eventDate.split("-");
+      const entryYear = year;
 
-  res.render('pages/awardlist',);
-});
+    if (!yearsCounts[entryYear]) {
+        yearsCounts[entryYear] = 0
+    }
+    yearsCounts[entryYear]++;
+  });
+
+  res.render('pages/awardlist', {years : yearsCounts}); 
+  
+  } catch (error) {
+      console.log('Error loading data', error)
+      res.status(500).send('Internal Service Error')
+    }
+  });
 
 // award by year 
 app.get('/awardyear', function(req, res) {
