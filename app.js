@@ -69,13 +69,23 @@ app.get('/awardlist', async function(req, res) {
       const [year] = entry.eventDate.split("-");
       const entryYear = year;
 
-    if (!yearsCounts[entryYear]) {
-        yearsCounts[entryYear] = 0
+      if (!yearsCounts[entryYear]) {
+          yearsCounts[entryYear] = 0
+      }
+      yearsCounts[entryYear]++;
     }
-    yearsCounts[entryYear]++;
+  );
+  
+  // Organize the data latest to earliest
+  const sortedYears = Object.keys(yearsCounts).sort((a, b) => b - a);
+  let sortedCounts = {};
+  sortedYears.forEach(year => {
+    sortedCounts[year] = yearsCounts[year];
   });
 
-  res.render('pages/awardlist', {years : yearsCounts}); 
+  res.render('pages/awardlist', {years : sortedCounts}); 
+
+
   
   } catch (error) {
       console.log('Error loading data', error)
