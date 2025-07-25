@@ -95,6 +95,8 @@ app.get('/awardlist', async function(req, res) {
 
 // award by year 
 app.get('/awardyear', function(req, res) {
+
+  
   res.render('pages/awardyear');
 });
 
