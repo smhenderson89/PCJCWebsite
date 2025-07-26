@@ -3,7 +3,7 @@ import { Router } from 'express';
 
 
 // import test JSON file
-import testData from '../db/testData/singleData.json' assert { type: 'json' };
+import testData from '../db/testData/fakeAwardData.json' assert { type: 'json' };
 
 const testDataRoute = express.Router();
 

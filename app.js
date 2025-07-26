@@ -75,30 +75,39 @@ app.get('/awardlist', async function(req, res) {
       yearsCounts[entryYear]++;
     }
   );
-  
   // Organize the data latest to earliest
-  const sortedYears = Object.keys(yearsCounts).sort((a, b) => b - a);
-  let sortedCounts = {};
-  sortedYears.forEach(year => {
-    sortedCounts[year] = yearsCounts[year];
-  });
-
-  res.render('pages/awardlist', {years : sortedCounts}); 
+  const sortedCountsArray = Object.entries(yearsCounts)
+  .sort((a, b) => parseInt(b[0]) - parseInt(a[0]));
 
 
-  
+  res.render('pages/awardlist', {years : sortedCountsArray}); 
   } catch (error) {
       console.log('Error loading data', error)
       res.status(500).send('Internal Service Error')
     }
   });
 
-// award by year 
-app.get('/awardyear', function(req, res) {
+// award by requested year 
+app.get('/awardyear/:year', async function(req, res) {
+  try {
+    // Load Data
+    let yearLookUp = req.params.year;
+    const data = await loadTestData();
+    let returnObject = data.filter(entry => {
+      return entry.eventDate.startsWith(yearLookUp)      
+    })
 
-  
-  res.render('pages/awardyear');
-});
+    console.log(yearLookUp);
+
+    res.render('pages/awardyear', {
+      year: yearLookUp,
+      awards: returnObject
+    });
+  } catch (error) {
+      console.log('Error loading data', error)
+      res.status(500).send('Internal Service Error')
+    }
+  });
 
 // Login Page 
 app.get('/login', function(req, res) {

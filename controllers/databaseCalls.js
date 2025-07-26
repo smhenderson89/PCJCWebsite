@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 
 async function loadTestData() {
   try {
-    const jsonPath = path.join(__dirname, '../db/testData/singleData.json');
+    const jsonPath = path.join(__dirname, '../db/testData/fakeAwardData.json');
     const jsonData = await fs.readFile(jsonPath, 'utf-8');
     return JSON.parse(jsonData);
   } catch (error) {
@@ -32,6 +32,7 @@ async function getYearsData(req, res, next) {
         }
         yearsCounts[entryYear]++;
     })
+    console.log(yearsCounts);
     
 }
 
