@@ -1,0 +1,32 @@
+{
+  "name": "newsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apps.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
+    "start": "NODE_ENV=production node app.js",
+    "dev": "NODE_ENV=development nodemon app.js",
+    "build": "NODE_ENV=production nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "bcrypt": "^6.0.0",
+    "better-sqlite3": "^11.10.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "ejs": "^3.1.10",
+    "eslint": "^9.31.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jest": "^30.0.5",
+    "morgan": "^1.10.1",
+    "multer": "1.4.5-lts.2",
+    "nodemon": "^3.1.10"
+  },
+  "type": "module"
+}
