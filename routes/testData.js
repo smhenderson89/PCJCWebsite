@@ -1,35 +1,46 @@
-import express from 'express';
-import { Router } from 'express';
+const express = require("express");
+const router = express.Router();
 
 // import test JSON file
-import testData from '../db/testData/fakeAwardData.json' assert { type: 'json' };
+const testData = require("../db/realData/June05data.json");
 
-const testDataRoute = express.Router();
+// Define controllers used
 
-testDataRoute.get('/', (req, res) => {
+router.get('/', (req, res) => {
   res.json({message: 'Test Data'});
 })
 
-testDataRoute.get('/years', (req, res) => {
-    /* Look at JSON, eventdate, put those into buckets for various years */
+router.get('/years', (req, res) => {
+    try {
+        /* Look at JSON, eventdate, put those into buckets for various years */
 
-    let yearsCounts = {};
-    
-    // Get plant year from year award
-    testData.forEach(entry => {
-        const [year, month, day] = entry.eventDate.split("-");
-        const entryYear = year;
+        let yearsCounts = {};
+        testData = loadTestData();
+        
+        // Get plant year from year award
+        testData.forEach(entry => {
+            let fullDate = new Date(entry['datevalue']);
+            let entryYear = fullDate.getFullYear();
 
-        if (!yearsCounts[entryYear]) {
-            yearsCounts[entryYear] = 0
-        }
-        yearsCounts[entryYear]++;
-    })
-    
-    res.send(yearsCounts);
+            if (!yearsCounts[entryYear]) {
+                yearsCounts[entryYear] = 0
+            }
+            yearsCounts[entryYear]++;
+        })
+        console.log(yearsCounts);
+
+        const sortedCountsArray = Object.entries(yearsCounts)
+        .sort((a, b) => parseInt(b[0]) - parseInt(a[0]));
+
+        res.send(sortedCountsArray);
+
+    } catch (error) {
+        console.error("Error in getYearsData:", error);
+        next(error); // pass error to Express error handler
+    }
+
 })
 
-
-export default testDataRoute;
+module.exports = router;
 
 

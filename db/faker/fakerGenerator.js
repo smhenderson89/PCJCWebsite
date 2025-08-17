@@ -1,5 +1,5 @@
-import fs from 'fs';
-import { faker } from '@faker-js/faker';
+const fs = require("fs");
+const {  faker  } = require("@faker-js/faker");
 
 function getRandomFloat(min, max, decimals = 1) {
   const str = (Math.random() * (max - min) + min).toFixed(decimals);

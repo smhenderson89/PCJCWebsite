@@ -1,8 +1,8 @@
-import express from 'express';
-import cors from 'cors'; // Cross Origin Resource Sharing
-import helmet from 'helmet'; // Security
-import morgan from 'morgan'; // Request Logger middleware
-import compression from 'compression'; // Compression middleware for fetch responses
+const express = require("express");
+const cors = require("cors"); // Cross Origin Resource Sharing
+const helmet = require("helmet"); // Security
+const morgan = require("morgan"); // Request Logger middleware
+const compression = require("compression"); // Compression middleware for fetch responses
 
 var app = express();
 
@@ -26,7 +26,7 @@ if (isProduction) {
   cspDirectives.styleSrc = [self, bootstrapCDN, "'unsafe-inline'"]; // still needed for Bootstrap
 }
 
-export default function setupMiddleware(app) {
+module.exports = function setupMiddleware(app) {
   app.use(
     helmet({
       contentSecurityPolicy: {

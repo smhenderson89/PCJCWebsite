@@ -1,7 +1,7 @@
-import express from 'express';
+// const express = require("express");
 
 /* TOOD: Needs rework once we have database setup */
 
-const loginRouter = express.Router();
+// const loginRouter = express.Router();
 
-export default loginRoute
+// module.exports = loginRoute

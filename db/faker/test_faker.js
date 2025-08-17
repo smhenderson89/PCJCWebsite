@@ -1,3 +1,3 @@
-import { faker } from '@faker-js/faker';
+const {  faker  } = require("@faker-js/faker");
 
 console.log(faker.person.fullName());

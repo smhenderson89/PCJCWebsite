@@ -1,20 +1,18 @@
-import express from 'express';
-import fs from 'fs'; // Express write
-import path from 'path'; // for recognizing the path
-import multer from 'multer'; // managing data as send by post
-import { Router } from 'express';
-
-const formRoute = express.Router();
+const express = require("express");
+const fs = require("fs"); // Express write
+const path = require("path"); // for recognizing the path
+const multer = require("multer"); // managing data as send by post
+const router = express.Router();
 
 // Handling Image -  Use memory storage (doesn't write to disk)
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
-formRoute.get('/', (req, res) => {
+router.get('/', (req, res) => {
   res.json({message: 'Hello World'});
 })
 
-formRoute.post('/', upload.single('awardPhoto'), (req, res) => {
+router.post('/', upload.single('awardPhoto'), (req, res) => {
     console.log('Form Body', req.body);
     console.log('Uploaded file', req.file)
 
@@ -27,4 +25,4 @@ formRoute.post('/', upload.single('awardPhoto'), (req, res) => {
   });
 })
 
-export default formRoute
+module.exports = router;

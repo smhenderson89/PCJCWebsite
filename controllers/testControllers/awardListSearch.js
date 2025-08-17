@@ -1,4 +1,4 @@
-import testData from '../../db/testData/fakeAwardData.json' assert { type: 'json' };
+const testData = require("../../db/testData/fakeAwardData.json"); assert { type: 'json' };
 
 let yearLookUp = '2025'
 
