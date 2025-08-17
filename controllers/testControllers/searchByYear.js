@@ -1,4 +1,4 @@
-import testData from '../testData/fakeAwardData.json' assert { type: 'json' };
+import testData from '../../db/testData/fakeAwardData.json' assert { type: 'json' };
 
 // Return an object of object of orchids belonging to one year
 
