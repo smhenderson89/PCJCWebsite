@@ -1,0 +1,102 @@
+{
+  "generated": "2025-10-04T05:58:53.480Z",
+  "year": "2024",
+  "summary": {
+    "totalHtmlFiles": 73,
+    "totalImageFiles": 63,
+    "pagesMissingImages": 10,
+    "note": "These are primarily event index/summary pages that don't require individual orchid images"
+  },
+  "pagesMissingImages": [
+    {
+      "pageNumber": "20240120",
+      "fileName": "20240120.html",
+      "expectedImage": "20240120.jpg",
+      "pageType": "event_index",
+      "title": "January 20, 2024 - Filoli Historic House",
+      "description": "January 20, 2024 - Filoli Historic House January 20, 2024 - Filoli Historic House Note: all awards are considered pending until published in the AOS Orchid Pro &nbsp; Cattleya coccinea 'Robert Clair' ...",
+      "reason": "Event index/summary page - does not represent a single orchid award, so no individual image is needed"
+    },
+    {
+      "pageNumber": "20240215",
+      "fileName": "20240215.html",
+      "expectedImage": "20240215.jpg",
+      "pageType": "event_index",
+      "title": "February 15, 2024 - Pacific Orchid Exposition",
+      "description": "February 15, 2024 - Pacific Orchid Exposition February 15, 2024 - Pacific Orchid Exposition Note: all awards are considered pending until published in the AOS Orchid Pro &nbsp; Cymbidium Samurai Spiri...",
+      "reason": "Event index/summary page - does not represent a single orchid award, so no individual image is needed"
+    },
+    {
+      "pageNumber": "20240217",
+      "fileName": "20240217.html",
+      "expectedImage": "20240217.jpg",
+      "pageType": "event_index",
+      "title": "February 17, 2024 - Filoli Historic House",
+      "description": "February 17, 2024 - Filoli Historic House February 17, 2024 - Filoli Historic House Note: all awards are considered pending until published in the AOS Orchid Pro &nbsp; Cymbidium unregistered hybrid '...",
+      "reason": "Event index/summary page - does not represent a single orchid award, so no individual image is needed"
+    },
+    {
+      "pageNumber": "20240305",
+      "fileName": "20240305.html",
+      "expectedImage": "20240305.jpg",
+      "pageType": "event_index",
+      "title": "March 5, 2024 - San Francisco",
+      "description": "March 5, 2024 - San Francisco March 5, 2024 - San Francisco Note: all awards are considered pending until published in the AOS Orchid Pro &nbsp; Paphiopedilum Fumi's Delight 'Carol Z' (Paphiopedilum a...",
+      "reason": "Event index/summary page - does not represent a single orchid award, so no individual image is needed"
+    },
+    {
+      "pageNumber": "20240316",
+      "fileName": "20240316.html",
+      "expectedImage": "20240316.jpg",
+      "pageType": "event_index",
+      "title": "March 16, 2024 - Filoli Historic House",
+      "description": "March 16, 2024 - Filoli Historic House March 16, 2024 - Filoli Historic House Note: all awards are considered pending until published in the AOS Orchid Pro &nbsp; Angraecum elephantinum 'Gogebec' spec...",
+      "reason": "Event index/summary page - does not represent a single orchid award, so no individual image is needed"
+    },
+    {
+      "pageNumber": "20240323",
+      "fileName": "20240323.html",
+      "expectedImage": "20240323.jpg",
+      "pageType": "event_index",
+      "title": "March 23, 2024 - Sonoma County OS Show",
+      "description": "March 23, 2024 - Sonoma County OS Show March 23, 2024 - Sonoma County OS Show Note: all awards are considered pending until published in the AOS Orchid Pro &nbsp; Masdevallia Bella Donna 'Sasha' (Masd...",
+      "reason": "Event index/summary page - does not represent a single orchid award, so no individual image is needed"
+    },
+    {
+      "pageNumber": "20240402",
+      "fileName": "20240402.html",
+      "expectedImage": "20240402.jpg",
+      "pageType": "event_index",
+      "title": "April 2, 2024 - San Francisco",
+      "description": "April 2, 2024 - San Francisco April 2, 2024 - San Francisco Note: all awards are considered pending until published in the AOS Orchid Pro &nbsp; Cymbidium Jeff Trimble 'Pearl River' (Cymbidium Love th...",
+      "reason": "Event index/summary page - does not represent a single orchid award, so no individual image is needed"
+    },
+    {
+      "pageNumber": "20240420",
+      "fileName": "20240420.html",
+      "expectedImage": "20240420.jpg",
+      "pageType": "event_index",
+      "title": "April 20, 2024 - Filoli Historic House",
+      "description": "April 20, 2024 - Filoli Historic House April 20, 2024 - Filoli Historic House Note: all awards are considered pending until published in the AOS Orchid Pro &nbsp; Sarcochilus Val 'Gracie' (Sarcochilus...",
+      "reason": "Event index/summary page - does not represent a single orchid award, so no individual image is needed"
+    },
+    {
+      "pageNumber": "20240427",
+      "fileName": "20240427.html",
+      "expectedImage": "20240427.jpg",
+      "pageType": "event_index",
+      "title": "April 27, 2024 - Peninsula Orchid Society and Gold Coast Cymbidium Society Show",
+      "description": "April 27, 2024 - Peninsula Orchid Society and Gold Coast Cymbidium Society Show April 27, 2024 - Peninsula Orchid Society and Gold Coast Cymbidium Society Show Note: all awards are considered pending ...",
+      "reason": "Event index/summary page - does not represent a single orchid award, so no individual image is needed"
+    },
+    {
+      "pageNumber": "20240518",
+      "fileName": "20240518.html",
+      "expectedImage": "20240518.jpg",
+      "pageType": "event_index",
+      "title": "May 18, 2024 - Filoli Historic House",
+      "description": "May 18, 2024 - Filoli Historic House May 18, 2024 - Filoli Historic House Note: all awards are considered pending until published in the AOS Orchid Pro &nbsp; Cattleya schilleriana 'True Blue' species...",
+      "reason": "Event index/summary page - does not represent a single orchid award, so no individual image is needed"
+    }
+  ]
+}

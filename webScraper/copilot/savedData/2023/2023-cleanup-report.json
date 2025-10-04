@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-10-04T06:54:35.111Z",
+  "summary": {
+    "totalFiles": 92,
+    "cleanedFiles": 92,
+    "filesWithMeasurements": 92,
+    "filesWithoutMeasurements": 0,
+    "measurementCoverage": "100.0"
+  },
+  "details": {
+    "missingMeasurementFiles": [],
+    "errors": []
+  }
+}

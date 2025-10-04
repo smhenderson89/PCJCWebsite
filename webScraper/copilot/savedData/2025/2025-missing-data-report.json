@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-04T06:39:00.902Z",
+  "summary": {
+    "totalJsonFiles": 96,
+    "totalImages": 101,
+    "missingImageRefs": 0,
+    "nullGenus": 0,
+    "nullSpecies": 0,
+    "orphanedImages": 5
+  },
+  "details": {
+    "missingImageReferences": [],
+    "nullGenusAwards": [],
+    "nullSpeciesAwards": [],
+    "orphanedImages": [
+      "xcamera",
+      "xcenter",
+      "xindex",
+      "xlink",
+      "xlocation"
+    ]
+  }
+}

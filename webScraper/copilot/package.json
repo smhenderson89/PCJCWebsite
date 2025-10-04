@@ -1,0 +1,33 @@
+{
+  "name": "orchid-award-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for orchid award data from AOS Pacific Central Judging Center",
+  "main": "orchid-scraper.js",
+  "scripts": {
+    "download": "cd localCopy && ./download-orchid-site.sh",
+    "process-2025": "node utilities/process-all-2025.js",
+    "detailed-json-2025": "node utilities/update-detailed-json.js",
+    "analyze-2025": "node utilities/analyze-2025-data.js",
+    "clean-2025": "node utilities/clean-2025-data.js",
+    "scrape-2024": "node utilities/scrape-2024-awards.js",
+    "detailed-json-2024": "node utilities/update-detailed-json-2024.js",
+    "thumbnails-2024": "node utilities/download-thumbnails-2024.js",
+    "clean-thumbnails-2024": "node utilities/clean-null-thumbnails-2024.js",
+    "verify-2024": "node utilities/verify-2024-json-completeness.js",
+    "validate-2024": "node utilities/validate-2024-structure.js",
+    "scrape-2023": "node utilities/scrape-2023-awards.js",
+    "detailed-json-2023": "node utilities/update-detailed-json-2023.js",
+    "clean-2023": "node utilities/clean-2023-json.js",
+    "clean-json-all": "node utilities/clean-json-files.js",
+    "reanalyze-2024": "node utilities/reanalyze-2024-data.js",
+    "analyze-missing-2024": "node utilities/analyze-missing-data-2024.js"
+  },
+  "keywords": ["orchid", "scraper", "awards", "aos", "cheerio"],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.0",
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "fs-extra": "^11.3.2"
+  }
+}
