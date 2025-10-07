@@ -1,0 +1,117 @@
+{
+  "timestamp": "2025-10-07T00:33:33.541Z",
+  "summary": {
+    "totalProcessed": 17,
+    "successful": 17,
+    "skipped": 0,
+    "failed": 0
+  },
+  "results": {
+    "successful": [
+      {
+        "oldFilename": "20220219.html",
+        "newFilename": "2022-02-19-filoli-historic-house-index.html",
+        "dateStr": "2022-02-19",
+        "location": "filoli-historic-house"
+      },
+      {
+        "oldFilename": "20220224.html",
+        "newFilename": "2022-02-24-pacific-orchid-exposition-index.html",
+        "dateStr": "2022-02-24",
+        "location": "pacific-orchid-exposition"
+      },
+      {
+        "oldFilename": "20220319.html",
+        "newFilename": "2022-03-19-filoli-historic-house-index.html",
+        "dateStr": "2022-03-19",
+        "location": "filoli-historic-house"
+      },
+      {
+        "oldFilename": "20220326.html",
+        "newFilename": "2022-03-26-sonoma-county-orchid-society-show-index.html",
+        "dateStr": "2022-03-26",
+        "location": "sonoma-county-orchid-society-show"
+      },
+      {
+        "oldFilename": "20220405.html",
+        "newFilename": "2022-04-05-san-francisco-index.html",
+        "dateStr": "2022-04-05",
+        "location": "san-francisco"
+      },
+      {
+        "oldFilename": "20220416.html",
+        "newFilename": "2022-04-16-filoli-historic-house-index.html",
+        "dateStr": "2022-04-16",
+        "location": "filoli-historic-house"
+      },
+      {
+        "oldFilename": "20220508.html",
+        "newFilename": "2022-05-08-peninsula-orchid-society-show-index.html",
+        "dateStr": "2022-05-08",
+        "location": "peninsula-orchid-society-show"
+      },
+      {
+        "oldFilename": "20220521.html",
+        "newFilename": "2022-05-21-filoli-historic-house-index.html",
+        "dateStr": "2022-05-21",
+        "location": "filoli-historic-house"
+      },
+      {
+        "oldFilename": "20220618.html",
+        "newFilename": "2022-06-18-filoli-historic-house-index.html",
+        "dateStr": "2022-06-18",
+        "location": "filoli-historic-house"
+      },
+      {
+        "oldFilename": "20220716.html",
+        "newFilename": "2022-07-16-filoli-historic-house-index.html",
+        "dateStr": "2022-07-16",
+        "location": "filoli-historic-house"
+      },
+      {
+        "oldFilename": "20220906.html",
+        "newFilename": "2022-09-06-san-francisco-index.html",
+        "dateStr": "2022-09-06",
+        "location": "san-francisco"
+      },
+      {
+        "oldFilename": "20220917.html",
+        "newFilename": "2022-09-17-filoli-historic-house-index.html",
+        "dateStr": "2022-09-17",
+        "location": "filoli-historic-house"
+      },
+      {
+        "oldFilename": "20221004.html",
+        "newFilename": "2022-10-04-san-francisco-index.html",
+        "dateStr": "2022-10-04",
+        "location": "san-francisco"
+      },
+      {
+        "oldFilename": "20221015.html",
+        "newFilename": "2022-10-15-filoli-historic-house-index.html",
+        "dateStr": "2022-10-15",
+        "location": "filoli-historic-house"
+      },
+      {
+        "oldFilename": "20221119.html",
+        "newFilename": "2022-11-19-filoli-historic-house-index.html",
+        "dateStr": "2022-11-19",
+        "location": "filoli-historic-house"
+      },
+      {
+        "oldFilename": "20221206.html",
+        "newFilename": "2022-12-06-san-francisco-index.html",
+        "dateStr": "2022-12-06",
+        "location": "san-francisco"
+      },
+      {
+        "oldFilename": "20221217.html",
+        "newFilename": "2022-12-17-filoli-historic-house-index.html",
+        "dateStr": "2022-12-17",
+        "location": "filoli-historic-house"
+      }
+    ],
+    "failed": [],
+    "skipped": []
+  }
+}

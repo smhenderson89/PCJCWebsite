@@ -1,7 +1,7 @@
 {
   "awardNum": "20245280",
   "award": "HCC",
-  "awardpoints": null,
+  "awardpoints": 90,
   "location": "",
   "date": "April 27, 2024",
   "genus": "Cattleya",
@@ -32,5 +32,16 @@
   "scrapedDate": "2025-10-04T07:01:12.827Z",
   "sourceUrl": "https://www.paccentraljc.org/awards/20245280",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245280.html",
-  "year": 2024
+  "year": 2024,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:52:15.260Z",
+      "type": "automated_fix_from_html",
+      "fields": [
+        "award",
+        "awardpoints"
+      ],
+      "source": "HTML file 20245280.html"
+    }
+  ]
 }

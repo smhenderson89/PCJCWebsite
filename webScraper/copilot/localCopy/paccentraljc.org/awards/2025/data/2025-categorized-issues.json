@@ -1,0 +1,357 @@
+{
+  "timestamp": "2025-10-06T03:35:37.237Z",
+  "purpose": "Categorized analysis of null values: recoverable vs author errors vs minor issues",
+  "summary": {
+    "totalFiles": 96,
+    "filesWithNullValues": 24,
+    "recoverableIssues": 13,
+    "authorErrors": 3,
+    "minorIssues": 8
+  },
+  "categories": {
+    "recoverableFromHtml": [
+      {
+        "fileName": "20255275.json",
+        "awardNum": "20255275",
+        "plantName": "Victoria Kam",
+        "exhibitor": "Pierre Pujol",
+        "nullFieldsList": [
+          "award",
+          "awardpoints"
+        ],
+        "nullCount": 2,
+        "issue": "Critical award data missing - should be recoverable from HTML source",
+        "priority": "HIGH"
+      },
+      {
+        "fileName": "20255283.json",
+        "awardNum": "20255283",
+        "plantName": "Fran Weaver",
+        "exhibitor": "Bill Weaver",
+        "nullFieldsList": [
+          "awardpoints"
+        ],
+        "nullCount": 1,
+        "issue": "Critical award data missing - should be recoverable from HTML source",
+        "priority": "HIGH"
+      },
+      {
+        "fileName": "20255290.json",
+        "awardNum": "20255290",
+        "plantName": "Microcoelia koehleri",
+        "exhibitor": "Jim Heilig",
+        "nullFieldsList": [
+          "awardpoints"
+        ],
+        "nullCount": 1,
+        "issue": "Critical award data missing - should be recoverable from HTML source",
+        "priority": "HIGH"
+      },
+      {
+        "fileName": "20255291.json",
+        "awardNum": "20255291",
+        "plantName": "Kulnura Opus",
+        "exhibitor": "Cheri Wagner",
+        "nullFieldsList": [
+          "award",
+          "awardpoints"
+        ],
+        "nullCount": 2,
+        "issue": "Critical award data missing - should be recoverable from HTML source",
+        "priority": "HIGH"
+      },
+      {
+        "fileName": "20255294.json",
+        "awardNum": "20255294",
+        "plantName": "Cholita Cuencana",
+        "exhibitor": "Linsie Hu",
+        "nullFieldsList": [
+          "award",
+          "awardpoints"
+        ],
+        "nullCount": 2,
+        "issue": "Critical award data missing - should be recoverable from HTML source",
+        "priority": "HIGH"
+      },
+      {
+        "fileName": "20255295.json",
+        "awardNum": "20255295",
+        "plantName": "Epidendrum camposii",
+        "exhibitor": "Evan Shen",
+        "nullFieldsList": [
+          "awardpoints"
+        ],
+        "nullCount": 1,
+        "issue": "Critical award data missing - should be recoverable from HTML source",
+        "priority": "HIGH"
+      },
+      {
+        "fileName": "20255297.json",
+        "awardNum": "20255297",
+        "plantName": "Neil McCormick",
+        "exhibitor": "Chaunie Langland",
+        "nullFieldsList": [
+          "award",
+          "awardpoints"
+        ],
+        "nullCount": 2,
+        "issue": "Critical award data missing - should be recoverable from HTML source",
+        "priority": "HIGH"
+      },
+      {
+        "fileName": "20255304.json",
+        "awardNum": "20255304",
+        "plantName": "Hsin Venus",
+        "exhibitor": "Tom Waugh",
+        "nullFieldsList": [
+          "award",
+          "awardpoints"
+        ],
+        "nullCount": 2,
+        "issue": "Critical award data missing - should be recoverable from HTML source",
+        "priority": "HIGH"
+      },
+      {
+        "fileName": "20255322.json",
+        "awardNum": "20255322",
+        "plantName": "Jungle Beau",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "nullFieldsList": [
+          "award",
+          "awardpoints"
+        ],
+        "nullCount": 2,
+        "issue": "Critical award data missing - should be recoverable from HTML source",
+        "priority": "HIGH"
+      },
+      {
+        "fileName": "20255353.json",
+        "awardNum": "20255353",
+        "plantName": "Oncidium cheirophorum",
+        "exhibitor": "Tom Waugh",
+        "nullFieldsList": [
+          "award",
+          "awardpoints"
+        ],
+        "nullCount": 2,
+        "issue": "Critical award data missing - should be recoverable from HTML source",
+        "priority": "HIGH"
+      },
+      {
+        "fileName": "20255357.json",
+        "awardNum": "20255357",
+        "plantName": "Lycaste Rakuhoku",
+        "exhibitor": "Ramon de los Santos",
+        "nullFieldsList": [
+          "award",
+          "awardpoints"
+        ],
+        "nullCount": 2,
+        "issue": "Critical award data missing - should be recoverable from HTML source",
+        "priority": "HIGH"
+      },
+      {
+        "fileName": "20255360.json",
+        "awardNum": "20255360",
+        "plantName": "Dendrobium kingianum",
+        "exhibitor": "Pierre Pujol",
+        "nullFieldsList": [
+          "award",
+          "awardpoints"
+        ],
+        "nullCount": 2,
+        "issue": "Critical award data missing - should be recoverable from HTML source",
+        "priority": "HIGH"
+      },
+      {
+        "fileName": "20255362.json",
+        "awardNum": "20255362",
+        "plantName": "Silver King",
+        "exhibitor": "Golden Gate Orchids",
+        "nullFieldsList": [
+          "award",
+          "awardpoints"
+        ],
+        "nullCount": 2,
+        "issue": "Critical award data missing - should be recoverable from HTML source",
+        "priority": "HIGH"
+      }
+    ],
+    "authorErrorsOnSource": [
+      {
+        "fileName": "20255318.json",
+        "awardNum": "20255318",
+        "plantName": "Filoli Historic",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "nullFieldsList": [
+          "awardpoints",
+          "clone",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.numFlowers",
+          "measurements.numBuds",
+          "measurements.numInflorescences",
+          "measurements.description",
+          "measurements.LSW",
+          "measurements.LSL",
+          "measurements.LIPW",
+          "measurements.LIPL"
+        ],
+        "nullCount": 16,
+        "issue": "Source page incomplete - likely author error on original website"
+      },
+      {
+        "fileName": "20255363.json",
+        "awardNum": "20255363",
+        "plantName": "Pacific Orchid",
+        "exhibitor": "Marin Orchid Society",
+        "nullFieldsList": [
+          "awardpoints",
+          "clone",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.numFlowers",
+          "measurements.numBuds",
+          "measurements.numInflorescences",
+          "measurements.LSW",
+          "measurements.LSL",
+          "measurements.LIPW",
+          "measurements.LIPL"
+        ],
+        "nullCount": 15,
+        "issue": "Source page incomplete - likely author error on original website"
+      },
+      {
+        "fileName": "20255364.json",
+        "awardNum": "20255364",
+        "plantName": "Pacific Orchid",
+        "exhibitor": "Marin Orchid Society",
+        "nullFieldsList": [
+          "clone",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.numFlowers",
+          "measurements.numBuds",
+          "measurements.numInflorescences",
+          "measurements.LSW",
+          "measurements.LSL",
+          "measurements.LIPW",
+          "measurements.LIPL"
+        ],
+        "nullCount": 14,
+        "issue": "Source page incomplete - likely author error on original website"
+      }
+    ],
+    "minorDescriptionIssues": [
+      {
+        "fileName": "20255260.json",
+        "awardNum": "20255260",
+        "plantName": "Emperor Amber",
+        "exhibitor": "Linsie Hu",
+        "nullFieldsList": [
+          "measurements.description"
+        ],
+        "nullCount": 1,
+        "issue": "Minor missing descriptions or optional measurements",
+        "priority": "LOW"
+      },
+      {
+        "fileName": "20255261.json",
+        "awardNum": "20255261",
+        "plantName": "Exeter Jadeite",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "nullFieldsList": [
+          "measurements.description"
+        ],
+        "nullCount": 1,
+        "issue": "Minor missing descriptions or optional measurements",
+        "priority": "LOW"
+      },
+      {
+        "fileName": "20255262.json",
+        "awardNum": "20255262",
+        "plantName": "Cattleya loddigesii",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "nullFieldsList": [
+          "measurements.description"
+        ],
+        "nullCount": 1,
+        "issue": "Minor missing descriptions or optional measurements",
+        "priority": "LOW"
+      },
+      {
+        "fileName": "20255263.json",
+        "awardNum": "20255263",
+        "plantName": "Laelia anceps",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "nullFieldsList": [
+          "measurements.description"
+        ],
+        "nullCount": 1,
+        "issue": "Minor missing descriptions or optional measurements",
+        "priority": "LOW"
+      },
+      {
+        "fileName": "20255264.json",
+        "awardNum": "20255264",
+        "plantName": "Laelia anceps",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "nullFieldsList": [
+          "measurements.description"
+        ],
+        "nullCount": 1,
+        "issue": "Minor missing descriptions or optional measurements",
+        "priority": "LOW"
+      },
+      {
+        "fileName": "20255361.json",
+        "awardNum": "20255361",
+        "plantName": "China Moon",
+        "exhibitor": "Jason Douglass",
+        "nullFieldsList": [
+          "measurements.SYNSL",
+          "measurements.SYNSW"
+        ],
+        "nullCount": 2,
+        "issue": "Minor missing descriptions or optional measurements",
+        "priority": "LOW"
+      },
+      {
+        "fileName": "20255373.json",
+        "awardNum": "20255373",
+        "plantName": "Disa Watsonii",
+        "exhibitor": "Evan Shen",
+        "nullFieldsList": [
+          "measurements.description"
+        ],
+        "nullCount": 1,
+        "issue": "Minor missing descriptions or optional measurements",
+        "priority": "LOW"
+      },
+      {
+        "fileName": "20255374.json",
+        "awardNum": "20255374",
+        "plantName": "Disa uniflora",
+        "exhibitor": "Evan Shen",
+        "nullFieldsList": [
+          "measurements.description"
+        ],
+        "nullCount": 1,
+        "issue": "Minor missing descriptions or optional measurements",
+        "priority": "LOW"
+      }
+    ]
+  }
+}

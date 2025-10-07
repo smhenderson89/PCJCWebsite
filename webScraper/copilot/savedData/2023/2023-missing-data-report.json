@@ -1,0 +1,553 @@
+{
+  "timestamp": "2025-10-06T04:11:01.047Z",
+  "analysisVersion": "2.1",
+  "summary": {
+    "totalJsonFiles": 92,
+    "completeFiles": 78,
+    "filesWithMissingCoreData": 5,
+    "filesWithNullValues": 14,
+    "filesWithEmptyStrings": 0,
+    "filesWithMissingMeasurements": 0,
+    "filesWithIncompleteSpecies": 92,
+    "validFiles": 87,
+    "authorErrorFiles": 5,
+    "locationConflicts": 0,
+    "locationsPopulated": 0,
+    "conflictsResolved": 0,
+    "filesUpdated": 0
+  },
+  "details": {
+    "completeFiles": [
+      "20235250.json",
+      "20235251.json",
+      "20235252.json",
+      "20235253.json",
+      "20235254.json",
+      "20235255.json",
+      "20235256.json",
+      "20235258.json",
+      "20235259.json",
+      "20235260.json",
+      "20235261.json",
+      "20235262.json",
+      "20235263.json",
+      "20235264.json",
+      "20235266.json",
+      "20235267.json",
+      "20235268.json",
+      "20235269.json",
+      "20235270.json",
+      "20235271.json",
+      "20235272.json",
+      "20235273.json",
+      "20235274.json",
+      "20235276.json",
+      "20235277.json",
+      "20235278.json",
+      "20235279.json",
+      "20235280.json",
+      "20235281.json",
+      "20235282.json",
+      "20235283.json",
+      "20235284.json",
+      "20235285.json",
+      "20235286.json",
+      "20235287.json",
+      "20235288.json",
+      "20235289.json",
+      "20235290.json",
+      "20235291.json",
+      "20235292.json",
+      "20235293.json",
+      "20235294.json",
+      "20235295.json",
+      "20235296.json",
+      "20235297.json",
+      "20235298.json",
+      "20235299.json",
+      "20235300.json",
+      "20235301.json",
+      "20235302.json",
+      "20235303.json",
+      "20235304.json",
+      "20235305.json",
+      "20235306.json",
+      "20235307.json",
+      "20235350.json",
+      "20235351.json",
+      "20235352.json",
+      "20235354.json",
+      "20235362.json",
+      "20235366.json",
+      "20235367.json",
+      "20235368.json",
+      "20235369.json",
+      "20235372.json",
+      "20235373.json",
+      "20235374.json",
+      "20235375.json",
+      "20235376.json",
+      "20235377.json",
+      "20235378.json",
+      "20235379.json",
+      "20235380.json",
+      "20235381.json",
+      "20235382.json",
+      "20235383.json",
+      "20235384.json",
+      "20235385.json"
+    ],
+    "filesWithMissingCoreData": [
+      {
+        "file": "20235257.json",
+        "awardNum": "20235257",
+        "plantName": "Peninsula Orchid",
+        "exhibitor": "Cal-Orchid",
+        "missingFields": [],
+        "nullFields": [
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "emptyStringFields": []
+      },
+      {
+        "file": "20235265.json",
+        "awardNum": "20235265",
+        "plantName": "Pinata Magic",
+        "exhibitor": "Pierre Pujol",
+        "missingFields": [],
+        "nullFields": [
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW",
+          "photo"
+        ],
+        "emptyStringFields": []
+      },
+      {
+        "file": "20235358.json",
+        "awardNum": "20235358",
+        "plantName": "Leonard Smith",
+        "exhibitor": "Gold Country Orchids",
+        "missingFields": [],
+        "nullFields": [
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "emptyStringFields": []
+      },
+      {
+        "file": "20235364.json",
+        "awardNum": "20235364",
+        "plantName": "Pacific Orchid",
+        "exhibitor": "Golden Gate Orchids",
+        "missingFields": [],
+        "nullFields": [
+          "award",
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW",
+          "clone"
+        ],
+        "emptyStringFields": []
+      },
+      {
+        "file": "20235365.json",
+        "awardNum": "20235365",
+        "plantName": "Pacific Orchid",
+        "exhibitor": "Golden Gate Orchids",
+        "missingFields": [],
+        "nullFields": [
+          "award",
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW",
+          "clone"
+        ],
+        "emptyStringFields": []
+      }
+    ],
+    "filesWithNullValues": [
+      {
+        "file": "20235257.json",
+        "awardNum": "20235257",
+        "plantName": "Peninsula Orchid",
+        "exhibitor": "Cal-Orchid",
+        "nullFields": [
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "nullCount": 11
+      },
+      {
+        "file": "20235265.json",
+        "awardNum": "20235265",
+        "plantName": "Pinata Magic",
+        "exhibitor": "Pierre Pujol",
+        "nullFields": [
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW",
+          "photo"
+        ],
+        "nullCount": 12
+      },
+      {
+        "file": "20235353.json",
+        "awardNum": "20235353",
+        "plantName": "Emma Decker",
+        "exhibitor": "Sunset Valley Orchids",
+        "nullFields": [
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "nullCount": 2
+      },
+      {
+        "file": "20235355.json",
+        "awardNum": "20235355",
+        "plantName": "Robert Hamilton",
+        "exhibitor": "John Leathers",
+        "nullFields": [
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "nullCount": 4
+      },
+      {
+        "file": "20235356.json",
+        "awardNum": "20235356",
+        "plantName": "Robert Hamilton",
+        "exhibitor": "John Leathers",
+        "nullFields": [
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "nullCount": 4
+      },
+      {
+        "file": "20235357.json",
+        "awardNum": "20235357",
+        "plantName": "Smooth Sailing",
+        "exhibitor": "Golden Gate Orchids",
+        "nullFields": [
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "nullCount": 2
+      },
+      {
+        "file": "20235358.json",
+        "awardNum": "20235358",
+        "plantName": "Leonard Smith",
+        "exhibitor": "Gold Country Orchids",
+        "nullFields": [
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "nullCount": 11
+      },
+      {
+        "file": "20235359.json",
+        "awardNum": "20235359",
+        "plantName": "Urban Vogue",
+        "exhibitor": "Dave Sorokowski",
+        "nullFields": [
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "nullCount": 2
+      },
+      {
+        "file": "20235360.json",
+        "awardNum": "20235360",
+        "plantName": "Dracula chestertonii",
+        "exhibitor": "John Leathers",
+        "nullFields": [
+          "measurements.PETL",
+          "measurements.PETW"
+        ],
+        "nullCount": 2
+      },
+      {
+        "file": "20235361.json",
+        "awardNum": "20235361",
+        "plantName": "Masdevallia Flamenco",
+        "exhibitor": "John Leathers",
+        "nullFields": [
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "nullCount": 2
+      },
+      {
+        "file": "20235364.json",
+        "awardNum": "20235364",
+        "plantName": "Pacific Orchid",
+        "exhibitor": "Golden Gate Orchids",
+        "nullFields": [
+          "award",
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW",
+          "clone"
+        ],
+        "nullCount": 13
+      },
+      {
+        "file": "20235365.json",
+        "awardNum": "20235365",
+        "plantName": "Pacific Orchid",
+        "exhibitor": "Golden Gate Orchids",
+        "nullFields": [
+          "award",
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW",
+          "clone"
+        ],
+        "nullCount": 13
+      },
+      {
+        "file": "20235370.json",
+        "awardNum": "20235370",
+        "plantName": "Richard Buchter",
+        "exhibitor": "Dave Sorokowsky",
+        "nullFields": [
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "nullCount": 2
+      },
+      {
+        "file": "20235371.json",
+        "awardNum": "20235371",
+        "plantName": "Paphiopedilum venustum",
+        "exhibitor": "Japheth Ko",
+        "nullFields": [
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "nullCount": 2
+      }
+    ],
+    "authorErrorFiles": [
+      {
+        "file": "20235257.json",
+        "awardNum": "20235257",
+        "plantName": "Peninsula Orchid",
+        "exhibitor": "Cal-Orchid",
+        "nullFields": [
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "nullCount": 11,
+        "severity": "High"
+      },
+      {
+        "file": "20235265.json",
+        "awardNum": "20235265",
+        "plantName": "Pinata Magic",
+        "exhibitor": "Pierre Pujol",
+        "nullFields": [
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW",
+          "photo"
+        ],
+        "nullCount": 12,
+        "severity": "High"
+      },
+      {
+        "file": "20235358.json",
+        "awardNum": "20235358",
+        "plantName": "Leonard Smith",
+        "exhibitor": "Gold Country Orchids",
+        "nullFields": [
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW"
+        ],
+        "nullCount": 11,
+        "severity": "High"
+      },
+      {
+        "file": "20235364.json",
+        "awardNum": "20235364",
+        "plantName": "Pacific Orchid",
+        "exhibitor": "Golden Gate Orchids",
+        "nullFields": [
+          "award",
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW",
+          "clone"
+        ],
+        "nullCount": 13,
+        "severity": "High"
+      },
+      {
+        "file": "20235365.json",
+        "awardNum": "20235365",
+        "plantName": "Pacific Orchid",
+        "exhibitor": "Golden Gate Orchids",
+        "nullFields": [
+          "award",
+          "awardpoints",
+          "measurements.NS",
+          "measurements.NSV",
+          "measurements.DSL",
+          "measurements.DSW",
+          "measurements.PETL",
+          "measurements.PETW",
+          "measurements.LSL",
+          "measurements.LSW",
+          "measurements.LIPL",
+          "measurements.LIPW",
+          "clone"
+        ],
+        "nullCount": 13,
+        "severity": "High"
+      }
+    ],
+    "locationConflicts": [],
+    "locationStats": {},
+    "measurementStats": {
+      "Lip&LateralSepal": 88,
+      "Pouch&Sepal": 4
+    },
+    "measurementFieldCounts": {
+      "LIPL": 13,
+      "LIPW": 13,
+      "PETL": 8,
+      "PETW": 8,
+      "NS": 5,
+      "NSV": 5,
+      "DSL": 5,
+      "DSW": 5,
+      "LSL": 5,
+      "LSW": 5
+    }
+  }
+}

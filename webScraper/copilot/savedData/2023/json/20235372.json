@@ -1,7 +1,7 @@
 {
   "awardNum": "20235372",
-  "award": null,
-  "awardpoints": null,
+  "award": "CCM",
+  "awardpoints": 86,
   "location": "",
   "date": "April 1, 2023",
   "genus": "Leptotes",
@@ -31,5 +31,17 @@
   "scrapedDate": "2025-10-04T06:48:23.731Z",
   "sourceUrl": "https://www.paccentraljc.org/awards/20235372",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235372.html",
-  "year": 2023
+  "year": 2023,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T04:10:31.830Z",
+      "type": "enhanced_html_parsing_2023",
+      "fields": [
+        "award",
+        "awardpoints"
+      ],
+      "source": "HTML file 20235372.html",
+      "note": "Enhanced parsing for non-point awards (JC, CBR, CHM) set to N/A"
+    }
+  ]
 }

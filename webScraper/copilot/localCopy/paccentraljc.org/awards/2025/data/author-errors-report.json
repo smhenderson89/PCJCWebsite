@@ -1,0 +1,65 @@
+{
+  "timestamp": "2025-10-06T03:39:34.565Z",
+  "purpose": "Report incomplete award pages to website author for correction",
+  "summary": {
+    "totalAuthorErrors": 3,
+    "totalMissingFields": 45
+  },
+  "message": "The following award pages appear to be incomplete on the source website and need author attention:",
+  "pagesNeedingCorrection": [
+    {
+      "pageNumber": 1,
+      "awardNumber": "20255318",
+      "plantName": "Filoli Historic",
+      "exhibitor": "Amy and Ken Jacobsen",
+      "missingFieldsCount": 16,
+      "primaryIssues": [
+        "awardpoints",
+        "clone",
+        "measurements.NS",
+        "measurements.NSV",
+        "measurements.DSL"
+      ],
+      "websiteUrl": "https://paccentraljc.org/awards/20255318",
+      "alternativeUrl": "https://paccentraljc.org/awards/53/20255318.html",
+      "severity": "Critical",
+      "description": "Award page for Filoli Historic (20255318) is missing 16 essential fields including awardpoints, clone, measurements.NS and others."
+    },
+    {
+      "pageNumber": 2,
+      "awardNumber": "20255363",
+      "plantName": "Pacific Orchid",
+      "exhibitor": "Marin Orchid Society",
+      "missingFieldsCount": 15,
+      "primaryIssues": [
+        "awardpoints",
+        "clone",
+        "measurements.NS",
+        "measurements.NSV",
+        "measurements.DSL"
+      ],
+      "websiteUrl": "https://paccentraljc.org/awards/20255363",
+      "alternativeUrl": "https://paccentraljc.org/awards/53/20255363.html",
+      "severity": "Critical",
+      "description": "Award page for Pacific Orchid (20255363) is missing 15 essential fields including awardpoints, clone, measurements.NS and others."
+    },
+    {
+      "pageNumber": 3,
+      "awardNumber": "20255364",
+      "plantName": "Pacific Orchid",
+      "exhibitor": "Marin Orchid Society",
+      "missingFieldsCount": 14,
+      "primaryIssues": [
+        "clone",
+        "measurements.NS",
+        "measurements.NSV",
+        "measurements.DSL",
+        "measurements.DSW"
+      ],
+      "websiteUrl": "https://paccentraljc.org/awards/20255364",
+      "alternativeUrl": "https://paccentraljc.org/awards/53/20255364.html",
+      "severity": "High",
+      "description": "Award page for Pacific Orchid (20255364) is missing 14 essential fields including clone, measurements.NS, measurements.NSV and others."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "awardNum": "20245267",
   "award": "CBR",
-  "awardpoints": null,
+  "awardpoints": "N/A",
   "location": "",
   "date": "March 23, 2024",
   "genus": "Chiloschista",
@@ -32,5 +32,17 @@
   "scrapedDate": "2025-10-04T06:14:09.485Z",
   "sourceUrl": "https://www.paccentraljc.org/awards/20245267",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245267.html",
-  "year": 2024
+  "year": 2024,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T04:01:53.284Z",
+      "type": "enhanced_html_parsing",
+      "fields": [
+        "award",
+        "awardpoints"
+      ],
+      "source": "HTML file 20245267.html",
+      "note": "Enhanced parsing for non-point awards (JC, CBR, CHM) set to N/A"
+    }
+  ]
 }

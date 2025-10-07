@@ -1,0 +1,861 @@
+{
+  "timestamp": "2025-10-06T20:53:16.107Z",
+  "year": "2022",
+  "summary": {
+    "totalFullImages": 0,
+    "totalThumbnails": 93,
+    "totalSkipped": 0,
+    "totalErrors": 96,
+    "totalSizeDownloaded": 2783310
+  },
+  "directories": {
+    "imagesDir": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images",
+    "thumbnailsDir": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails"
+  },
+  "fullImages": [],
+  "thumbnailImages": [
+    {
+      "fileName": "20225301thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220219/20225301thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225301thumb.jpg",
+      "dateFolder": "20220219",
+      "sourceFile": "20220219.html",
+      "size": 3023
+    },
+    {
+      "fileName": "20225302thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220219/20225302thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225302thumb.jpg",
+      "dateFolder": "20220219",
+      "sourceFile": "20220219.html",
+      "size": 3859
+    },
+    {
+      "fileName": "20225303thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220219/20225303thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225303thumb.jpg",
+      "dateFolder": "20220219",
+      "sourceFile": "20220219.html",
+      "size": 3486
+    },
+    {
+      "fileName": "20225304thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220219/20225304thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225304thumb.jpg",
+      "dateFolder": "20220219",
+      "sourceFile": "20220219.html",
+      "size": 3909
+    },
+    {
+      "fileName": "20225305thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220219/20225305thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225305thumb.jpg",
+      "dateFolder": "20220219",
+      "sourceFile": "20220219.html",
+      "size": 3780
+    },
+    {
+      "fileName": "20225401thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225401thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225401thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 67465
+    },
+    {
+      "fileName": "20225402thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225402thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225402thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 66973
+    },
+    {
+      "fileName": "20225403thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225403thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225403thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 68301
+    },
+    {
+      "fileName": "20225404thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225404thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225404thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 67383
+    },
+    {
+      "fileName": "20225405thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225405thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225405thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 67914
+    },
+    {
+      "fileName": "20225406thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225406thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225406thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 67409
+    },
+    {
+      "fileName": "20225407thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225407thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225407thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 67777
+    },
+    {
+      "fileName": "20225408thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225408thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225408thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 67605
+    },
+    {
+      "fileName": "20225409thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225409thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225409thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 68601
+    },
+    {
+      "fileName": "20225410thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225410thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225410thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 67261
+    },
+    {
+      "fileName": "20225411thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225411thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225411thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 68127
+    },
+    {
+      "fileName": "20225412thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225412thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225412thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 69083
+    },
+    {
+      "fileName": "20225413thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225413thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225413thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 67462
+    },
+    {
+      "fileName": "20225414thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225414thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225414thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 66040
+    },
+    {
+      "fileName": "20225415thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225415thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225415thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 66040
+    },
+    {
+      "fileName": "20225416thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220224/20225416thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225416thumb.jpg",
+      "dateFolder": "20220224",
+      "sourceFile": "20220224.html",
+      "size": 62906
+    },
+    {
+      "fileName": "20225306thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220319/20225306thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225306thumb.jpg",
+      "dateFolder": "20220319",
+      "sourceFile": "20220319.html",
+      "size": 3625
+    },
+    {
+      "fileName": "20225307thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220319/20225307thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225307thumb.jpg",
+      "dateFolder": "20220319",
+      "sourceFile": "20220319.html",
+      "size": 3272
+    },
+    {
+      "fileName": "20225308thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220319/20225308thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225308thumb.jpg",
+      "dateFolder": "20220319",
+      "sourceFile": "20220319.html",
+      "size": 3888
+    },
+    {
+      "fileName": "20225309thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220319/20225309thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225309thumb.jpg",
+      "dateFolder": "20220319",
+      "sourceFile": "20220319.html",
+      "size": 3799
+    },
+    {
+      "fileName": "20225310thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220319/20225310thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225310thumb.jpg",
+      "dateFolder": "20220319",
+      "sourceFile": "20220319.html",
+      "size": 68050
+    },
+    {
+      "fileName": "20225417-1thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220326/20225417-1thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225417-1thumb.jpg",
+      "dateFolder": "20220326",
+      "sourceFile": "20220326.html",
+      "size": 70272
+    },
+    {
+      "fileName": "20225418-1thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220326/20225418-1thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225418-1thumb.jpg",
+      "dateFolder": "20220326",
+      "sourceFile": "20220326.html",
+      "size": 67873
+    },
+    {
+      "fileName": "20225419-1thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220326/20225419-1thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225419-1thumb.jpg",
+      "dateFolder": "20220326",
+      "sourceFile": "20220326.html",
+      "size": 67942
+    },
+    {
+      "fileName": "20225420-1thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220326/20225420-1thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225420-1thumb.jpg",
+      "dateFolder": "20220326",
+      "sourceFile": "20220326.html",
+      "size": 67977
+    },
+    {
+      "fileName": "20225421thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220326/20225421thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225421thumb.jpg",
+      "dateFolder": "20220326",
+      "sourceFile": "20220326.html",
+      "size": 69134
+    },
+    {
+      "fileName": "20225251-1thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220405/20225251-1thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225251-1thumb.jpg",
+      "dateFolder": "20220405",
+      "sourceFile": "20220405.html",
+      "size": 68198
+    },
+    {
+      "fileName": "20225252-1thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220405/20225252-1thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225252-1thumb.jpg",
+      "dateFolder": "20220405",
+      "sourceFile": "20220405.html",
+      "size": 68654
+    },
+    {
+      "fileName": "20225253-1thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220405/20225253-1thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225253-1thumb.jpg",
+      "dateFolder": "20220405",
+      "sourceFile": "20220405.html",
+      "size": 68466
+    },
+    {
+      "fileName": "20225254-1thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220405/20225254-1thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225254-1thumb.jpg",
+      "dateFolder": "20220405",
+      "sourceFile": "20220405.html",
+      "size": 68186
+    },
+    {
+      "fileName": "20225255-1thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220405/20225255-1thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225255-1thumb.jpg",
+      "dateFolder": "20220405",
+      "sourceFile": "20220405.html",
+      "size": 67763
+    },
+    {
+      "fileName": "20225256-1thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220405/20225256-1thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225256-1thumb.jpg",
+      "dateFolder": "20220405",
+      "sourceFile": "20220405.html",
+      "size": 67583
+    },
+    {
+      "fileName": "20225257-1thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220405/20225257-1thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225257-1thumb.jpg",
+      "dateFolder": "20220405",
+      "sourceFile": "20220405.html",
+      "size": 68525
+    },
+    {
+      "fileName": "20225258-1thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220405/20225258-1thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225258-1thumb.jpg",
+      "dateFolder": "20220405",
+      "sourceFile": "20220405.html",
+      "size": 68404
+    },
+    {
+      "fileName": "20225311thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225311thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225311thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 4256
+    },
+    {
+      "fileName": "20225312thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225312thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225312thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 3902
+    },
+    {
+      "fileName": "20225313thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225313thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225313thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 3816
+    },
+    {
+      "fileName": "20225314thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225314thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225314thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 4268
+    },
+    {
+      "fileName": "20225315thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225315thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225315thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 3855
+    },
+    {
+      "fileName": "20225316thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225316thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225316thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 3818
+    },
+    {
+      "fileName": "20225317thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225317thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225317thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 3892
+    },
+    {
+      "fileName": "20225318thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225318thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225318thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 3652
+    },
+    {
+      "fileName": "20225319thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225319thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225319thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 4640
+    },
+    {
+      "fileName": "20225320thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225320thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225320thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 3644
+    },
+    {
+      "fileName": "20225321thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225321thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225321thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 3519
+    },
+    {
+      "fileName": "20225322thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225322thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225322thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 4368
+    },
+    {
+      "fileName": "20225323thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225323thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225323thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 3996
+    },
+    {
+      "fileName": "20225324thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225324thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225324thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 4614
+    },
+    {
+      "fileName": "20225325thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225325thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225325thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 3872
+    },
+    {
+      "fileName": "20225326thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220416/20225326thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225326thumb.jpg",
+      "dateFolder": "20220416",
+      "sourceFile": "20220416.html",
+      "size": 3662
+    },
+    {
+      "fileName": "20225422thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220508/20225422thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225422thumb.jpg",
+      "dateFolder": "20220508",
+      "sourceFile": "20220508.html",
+      "size": 27608
+    },
+    {
+      "fileName": "20225423thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220508/20225423thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225423thumb.jpg",
+      "dateFolder": "20220508",
+      "sourceFile": "20220508.html",
+      "size": 31032
+    },
+    {
+      "fileName": "20225424thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220508/20225424thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225424thumb.jpg",
+      "dateFolder": "20220508",
+      "sourceFile": "20220508.html",
+      "size": 30797
+    },
+    {
+      "fileName": "20225425thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220508/20225425thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225425thumb.jpg",
+      "dateFolder": "20220508",
+      "sourceFile": "20220508.html",
+      "size": 41408
+    },
+    {
+      "fileName": "20225327thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220521/20225327thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225327thumb.jpg",
+      "dateFolder": "20220521",
+      "sourceFile": "20220521.html",
+      "size": 4025
+    },
+    {
+      "fileName": "20225328thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220521/20225328thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225328thumb.jpg",
+      "dateFolder": "20220521",
+      "sourceFile": "20220521.html",
+      "size": 3969
+    },
+    {
+      "fileName": "20225329thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220521/20225329thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225329thumb.jpg",
+      "dateFolder": "20220521",
+      "sourceFile": "20220521.html",
+      "size": 3526
+    },
+    {
+      "fileName": "20225330thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220521/20225330thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225330thumb.jpg",
+      "dateFolder": "20220521",
+      "sourceFile": "20220521.html",
+      "size": 3456
+    },
+    {
+      "fileName": "20225331thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220618/20225331thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225331thumb.jpg",
+      "dateFolder": "20220618",
+      "sourceFile": "20220618.html",
+      "size": 5037
+    },
+    {
+      "fileName": "20225332thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220618/20225332thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225332thumb.jpg",
+      "dateFolder": "20220618",
+      "sourceFile": "20220618.html",
+      "size": 5467
+    },
+    {
+      "fileName": "20225333thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220618/20225333thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225333thumb.jpg",
+      "dateFolder": "20220618",
+      "sourceFile": "20220618.html",
+      "size": 4521
+    },
+    {
+      "fileName": "20225334thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220618/20225334thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225334thumb.jpg",
+      "dateFolder": "20220618",
+      "sourceFile": "20220618.html",
+      "size": 4114
+    },
+    {
+      "fileName": "20225335thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220618/20225335thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225335thumb.jpg",
+      "dateFolder": "20220618",
+      "sourceFile": "20220618.html",
+      "size": 4036
+    },
+    {
+      "fileName": "20225336thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220618/20225336thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225336thumb.jpg",
+      "dateFolder": "20220618",
+      "sourceFile": "20220618.html",
+      "size": 4584
+    },
+    {
+      "fileName": "20225337thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220716/20225337thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225337thumb.jpg",
+      "dateFolder": "20220716",
+      "sourceFile": "20220716.html",
+      "size": 4100
+    },
+    {
+      "fileName": "20225338thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220716/20225338thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225338thumb.jpg",
+      "dateFolder": "20220716",
+      "sourceFile": "20220716.html",
+      "size": 4459
+    },
+    {
+      "fileName": "20225339thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220716/20225339thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225339thumb.jpg",
+      "dateFolder": "20220716",
+      "sourceFile": "20220716.html",
+      "size": 4824
+    },
+    {
+      "fileName": "20225260thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220906/20225260thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225260thumb.jpg",
+      "dateFolder": "20220906",
+      "sourceFile": "20220906.html",
+      "size": 67369
+    },
+    {
+      "fileName": "20225261thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220906/20225261thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225261thumb.jpg",
+      "dateFolder": "20220906",
+      "sourceFile": "20220906.html",
+      "size": 68507
+    },
+    {
+      "fileName": "20225341thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220917/20225341thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225341thumb.jpg",
+      "dateFolder": "20220917",
+      "sourceFile": "20220917.html",
+      "size": 4521
+    },
+    {
+      "fileName": "20225342thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220917/20225342thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225342thumb.jpg",
+      "dateFolder": "20220917",
+      "sourceFile": "20220917.html",
+      "size": 3876
+    },
+    {
+      "fileName": "20225343thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220917/20225343thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225343thumb.jpg",
+      "dateFolder": "20220917",
+      "sourceFile": "20220917.html",
+      "size": 4201
+    },
+    {
+      "fileName": "20225344thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220917/20225344thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225344thumb.jpg",
+      "dateFolder": "20220917",
+      "sourceFile": "20220917.html",
+      "size": 3986
+    },
+    {
+      "fileName": "20225345thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220917/20225345thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225345thumb.jpg",
+      "dateFolder": "20220917",
+      "sourceFile": "20220917.html",
+      "size": 3972
+    },
+    {
+      "fileName": "20225346thumb.jpg",
+      "url": "https://www.paccentraljc.org/20220917/20225346thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225346thumb.jpg",
+      "dateFolder": "20220917",
+      "sourceFile": "20220917.html",
+      "size": 4554
+    },
+    {
+      "fileName": "20225262-02thumb.jpg",
+      "url": "https://www.paccentraljc.org/20221004/20225262-02thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225262-02thumb.jpg",
+      "dateFolder": "20221004",
+      "sourceFile": "20221004.html",
+      "size": 67162
+    },
+    {
+      "fileName": "20225263-01thumb.jpg",
+      "url": "https://www.paccentraljc.org/20221004/20225263-01thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225263-01thumb.jpg",
+      "dateFolder": "20221004",
+      "sourceFile": "20221004.html",
+      "size": 68125
+    },
+    {
+      "fileName": "20225347thumb.jpg",
+      "url": "https://www.paccentraljc.org/20221015/20225347thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225347thumb.jpg",
+      "dateFolder": "20221015",
+      "sourceFile": "20221015.html",
+      "size": 4426
+    },
+    {
+      "fileName": "20225348thumb.jpg",
+      "url": "https://www.paccentraljc.org/20221015/20225348thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225348thumb.jpg",
+      "dateFolder": "20221015",
+      "sourceFile": "20221015.html",
+      "size": 4639
+    },
+    {
+      "fileName": "20225349thumb.jpg",
+      "url": "https://www.paccentraljc.org/20221015/20225349thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225349thumb.jpg",
+      "dateFolder": "20221015",
+      "sourceFile": "20221015.html",
+      "size": 4673
+    },
+    {
+      "fileName": "20225350thumb.jpg",
+      "url": "https://www.paccentraljc.org/20221015/20225350thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225350thumb.jpg",
+      "dateFolder": "20221015",
+      "sourceFile": "20221015.html",
+      "size": 4311
+    },
+    {
+      "fileName": "20225351thumb.jpg",
+      "url": "https://www.paccentraljc.org/20221119/20225351thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225351thumb.jpg",
+      "dateFolder": "20221119",
+      "sourceFile": "20221119.html",
+      "size": 4031
+    },
+    {
+      "fileName": "20225352thumb.jpg",
+      "url": "https://www.paccentraljc.org/20221119/20225352thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225352thumb.jpg",
+      "dateFolder": "20221119",
+      "sourceFile": "20221119.html",
+      "size": 3760
+    },
+    {
+      "fileName": "20225353thumb.jpg",
+      "url": "https://www.paccentraljc.org/20221119/20225353thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225353thumb.jpg",
+      "dateFolder": "20221119",
+      "sourceFile": "20221119.html",
+      "size": 3999
+    },
+    {
+      "fileName": "20225264thumb.jpg",
+      "url": "https://www.paccentraljc.org/20221206/20225264thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225264thumb.jpg",
+      "dateFolder": "20221206",
+      "sourceFile": "20221206.html",
+      "size": 64925
+    },
+    {
+      "fileName": "20225265thumb.jpg",
+      "url": "https://www.paccentraljc.org/20221206/20225265thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225265thumb.jpg",
+      "dateFolder": "20221206",
+      "sourceFile": "20221206.html",
+      "size": 66883
+    },
+    {
+      "fileName": "20225354thumb.jpg",
+      "url": "https://www.paccentraljc.org/20221217/20225354thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225354thumb.jpg",
+      "dateFolder": "20221217",
+      "sourceFile": "20221217.html",
+      "size": 4666
+    },
+    {
+      "fileName": "20225355thumb.jpg",
+      "url": "https://www.paccentraljc.org/20221217/20225355thumb.jpg",
+      "localPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/paccentraljc.org/awards/2022/images/thumbnails/20225355thumb.jpg",
+      "dateFolder": "20221217",
+      "sourceFile": "20221217.html",
+      "size": 3972
+    }
+  ],
+  "skipped": [],
+  "errors": [
+    "Failed to download 20225250-1_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225251.jpg: HTTP 404: Not Found",
+    "Failed to download 20225252.jpg: HTTP 404: Not Found",
+    "Failed to download 20225253.jpg: HTTP 404: Not Found",
+    "Failed to download 20225254.jpg: HTTP 404: Not Found",
+    "Failed to download 20225255.jpg: HTTP 404: Not Found",
+    "Failed to download 20225256.jpg: HTTP 404: Not Found",
+    "Failed to download 20225257.jpg: HTTP 404: Not Found",
+    "Failed to download 20225258.jpg: HTTP 404: Not Found",
+    "Failed to download 20225259.jpg: HTTP 404: Not Found",
+    "Failed to download 20225260.jpg: HTTP 404: Not Found",
+    "Failed to download 20225261.jpg: HTTP 404: Not Found",
+    "Failed to download 20225262-02_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225263-01_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225264.jpg: HTTP 404: Not Found",
+    "Failed to download 20225265.jpg: HTTP 404: Not Found",
+    "Failed to download 20225301.jpg: HTTP 404: Not Found",
+    "Failed to download 20225302.jpg: HTTP 404: Not Found",
+    "Failed to download 20225303.jpg: HTTP 404: Not Found",
+    "Failed to download 20225304.jpg: HTTP 404: Not Found",
+    "Failed to download 20225305.jpg: HTTP 404: Not Found",
+    "Failed to download 20225306_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225307_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225308_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225309_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225310_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225311_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225312_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225313_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225314_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225315_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225316_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225317_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225318.jpg: HTTP 404: Not Found",
+    "Failed to download 20225319.jpg: HTTP 404: Not Found",
+    "Failed to download 20225320.jpg: HTTP 404: Not Found",
+    "Failed to download 20225321.jpg: HTTP 404: Not Found",
+    "Failed to download 20225322.jpg: HTTP 404: Not Found",
+    "Failed to download 20225323.jpg: HTTP 404: Not Found",
+    "Failed to download 20225324.jpg: HTTP 404: Not Found",
+    "Failed to download 20225325.jpg: HTTP 404: Not Found",
+    "Failed to download 20225326.jpg: HTTP 404: Not Found",
+    "Failed to download 20225327_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225328_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225329_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225330_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225331_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225332_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225333_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225334_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225335_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225336_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225337_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225338_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225339_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225340.jpg: HTTP 404: Not Found",
+    "Failed to download 20225341.jpg: HTTP 404: Not Found",
+    "Failed to download 20225342.jpg: HTTP 404: Not Found",
+    "Failed to download 20225343.jpg: HTTP 404: Not Found",
+    "Failed to download 20225344.jpg: HTTP 404: Not Found",
+    "Failed to download 20225345.jpg: HTTP 404: Not Found",
+    "Failed to download 20225346.jpg: HTTP 404: Not Found",
+    "Failed to download 20225347_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225348_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225349_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225350_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225351.jpg: HTTP 404: Not Found",
+    "Failed to download 20225352.jpg: HTTP 404: Not Found",
+    "Failed to download 20225353.jpg: HTTP 404: Not Found",
+    "Failed to download 20225354.jpg: HTTP 404: Not Found",
+    "Failed to download 20225355.jpg: HTTP 404: Not Found",
+    "Failed to download 20225401.jpg: HTTP 404: Not Found",
+    "Failed to download 20225402.jpg: HTTP 404: Not Found",
+    "Failed to download 20225403.jpg: HTTP 404: Not Found",
+    "Failed to download 20225404.jpg: HTTP 404: Not Found",
+    "Failed to download 20225405.jpg: HTTP 404: Not Found",
+    "Failed to download 20225406.jpg: HTTP 404: Not Found",
+    "Failed to download 20225407.jpg: HTTP 404: Not Found",
+    "Failed to download 20225408.jpg: HTTP 404: Not Found",
+    "Failed to download 20225409.jpg: HTTP 404: Not Found",
+    "Failed to download 20225410.jpg: HTTP 404: Not Found",
+    "Failed to download 20225411.jpg: HTTP 404: Not Found",
+    "Failed to download 20225412.jpg: HTTP 404: Not Found",
+    "Failed to download 20225413.jpg: HTTP 404: Not Found",
+    "Failed to download 20225414.jpg: HTTP 404: Not Found",
+    "Failed to download 20225415.jpg: HTTP 404: Not Found",
+    "Failed to download 20225416.jpg: HTTP 404: Not Found",
+    "Failed to download 20225417-1_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225418-1_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225419-1_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225420-1_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225421_540.jpg: HTTP 404: Not Found",
+    "Failed to download 20225422.jpg: HTTP 404: Not Found",
+    "Failed to download 20225423.jpg: HTTP 404: Not Found",
+    "Failed to download 20225424.jpg: HTTP 404: Not Found",
+    "Failed to download 20225425.jpg: HTTP 404: Not Found"
+  ]
+}

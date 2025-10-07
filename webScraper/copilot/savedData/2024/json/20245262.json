@@ -1,7 +1,7 @@
 {
   "awardNum": "20245262",
   "award": "JC",
-  "awardpoints": null,
+  "awardpoints": "N/A",
   "location": "",
   "date": "March 16, 2024",
   "genus": "Cymbidium",
@@ -32,5 +32,17 @@
   "scrapedDate": "2025-10-04T06:14:09.477Z",
   "sourceUrl": "https://www.paccentraljc.org/awards/20245262",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245262.html",
-  "year": 2024
+  "year": 2024,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T04:01:53.275Z",
+      "type": "enhanced_html_parsing",
+      "fields": [
+        "award",
+        "awardpoints"
+      ],
+      "source": "HTML file 20245262.html",
+      "note": "Enhanced parsing for non-point awards (JC, CBR, CHM) set to N/A"
+    }
+  ]
 }

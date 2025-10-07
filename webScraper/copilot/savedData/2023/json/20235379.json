@@ -1,7 +1,7 @@
 {
   "awardNum": "20235379",
-  "award": null,
-  "awardpoints": null,
+  "award": "CCE",
+  "awardpoints": 93,
   "location": "",
   "date": "May 3, 2023",
   "genus": "Sarcochilus",
@@ -31,5 +31,17 @@
   "scrapedDate": "2025-10-04T06:48:23.739Z",
   "sourceUrl": "https://www.paccentraljc.org/awards/20235379",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235379.html",
-  "year": 2023
+  "year": 2023,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T04:10:31.835Z",
+      "type": "enhanced_html_parsing_2023",
+      "fields": [
+        "award",
+        "awardpoints"
+      ],
+      "source": "HTML file 20235379.html",
+      "note": "Enhanced parsing for non-point awards (JC, CBR, CHM) set to N/A"
+    }
+  ]
 }

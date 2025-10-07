@@ -1,0 +1,48 @@
+{
+  "message": "The following award pages need to be fixed on the website - they are missing important information:",
+  "totalPages": 7,
+  "pages": [
+    {
+      "plantName": "Sonoma County",
+      "exhibitor": "Sonoma County Orchid Society",
+      "missingItems": 13,
+      "websiteLink": "https://paccentraljc.org/awards/20245268"
+    },
+    {
+      "plantName": "Sonoma County",
+      "exhibitor": "Sonoma County Orchid Society",
+      "missingItems": 13,
+      "websiteLink": "https://paccentraljc.org/awards/20245269"
+    },
+    {
+      "plantName": "Cymbidium Samurai",
+      "exhibitor": "Pierre Pujol",
+      "missingItems": 12,
+      "websiteLink": "https://paccentraljc.org/awards/20245352"
+    },
+    {
+      "plantName": "Paphiopedilum Sierra",
+      "exhibitor": "Dave Sorokowsky",
+      "missingItems": 12,
+      "websiteLink": "https://paccentraljc.org/awards/20245355"
+    },
+    {
+      "plantName": "Coelogyne tenella",
+      "exhibitor": "Susan Anderson",
+      "missingItems": 8,
+      "websiteLink": "https://paccentraljc.org/awards/20245363"
+    },
+    {
+      "plantName": "Unknown Unknown",
+      "exhibitor": "Marin Orchid Society",
+      "missingItems": 15,
+      "websiteLink": "https://paccentraljc.org/awards/20245368"
+    },
+    {
+      "plantName": "Unknown Unknown",
+      "exhibitor": "Marin Orchid Society",
+      "missingItems": 13,
+      "websiteLink": "https://paccentraljc.org/awards/20245369"
+    }
+  ]
+}
