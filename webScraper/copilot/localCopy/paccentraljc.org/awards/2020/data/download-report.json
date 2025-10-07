@@ -1,0 +1,205 @@
+{
+  "timestamp": "2025-10-07T03:59:12.114Z",
+  "year": "2020",
+  "summary": {
+    "htmlFiles": 30,
+    "dateIndexFiles": 36,
+    "images": 0,
+    "totalErrors": 30
+  },
+  "details": {
+    "htmlFiles": [
+      "20205400.html",
+      "20205401.html",
+      "20205402.html",
+      "20205250.html",
+      "20205251.html",
+      "20205252.html",
+      "20205253.html",
+      "20205254.html",
+      "20205255.html",
+      "20205256.html",
+      "20205257.html",
+      "20205403.html",
+      "20205404.html",
+      "20205301.html",
+      "20205302.html",
+      "20205303.html",
+      "20205304.html",
+      "20205305.html",
+      "20205306.html",
+      "20205307.html",
+      "20205308.html",
+      "20205309.html",
+      "20205310.html",
+      "20205311.html",
+      "20205312.html",
+      "20205313.html",
+      "20205314.html",
+      "20205315.html",
+      "20205316.html",
+      "20205317.html"
+    ],
+    "dateIndexFiles": [
+      "2020-01-18-index.html",
+      "2020-01-18-index.html",
+      "2020-01-18-index.html",
+      "2020-01-18-index.html",
+      "2020-01-24-index.html",
+      "2020-01-24-index.html",
+      "2020-01-24-index.html",
+      "2020-01-24-index.html",
+      "2020-01-24-index.html",
+      "2020-01-24-index.html",
+      "2020-01-24-index.html",
+      "2020-02-04-index.html",
+      "2020-02-04-index.html",
+      "2020-02-04-index.html",
+      "2020-02-15-index.html",
+      "2020-02-15-index.html",
+      "2020-02-15-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-02-20-index.html",
+      "2020-03-03-index.html",
+      "2020-03-03-index.html",
+      "2020-03-03-index.html",
+      "2020-03-03-index.html"
+    ],
+    "images": [],
+    "errors": [
+      {
+        "file": "20205250.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205251.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205252.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205253.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205254.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205255.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205256.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205257.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205301.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205302.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205303.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205304.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205305.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205306.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205307.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205308.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205309.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205310.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205311.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205312.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205313.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205314.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205315.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205316.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205317.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205400.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205401.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205402.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205403.jpg",
+        "error": "HTTP 404: Not Found"
+      },
+      {
+        "file": "20205404.jpg",
+        "error": "HTTP 404: Not Found"
+      }
+    ]
+  }
+}
