@@ -1,0 +1,300 @@
+{
+  "timestamp": "2025-10-08T01:31:42.050Z",
+  "year": "2022",
+  "totalFiles": 96,
+  "exhibitorStats": {
+    "withExhibitor": 96,
+    "withoutExhibitor": 0,
+    "emptyExhibitor": 0
+  },
+  "missingExhibitors": [],
+  "exhibitorList": {
+    "Geoff Harris": {
+      "count": 1,
+      "awards": [
+        "20225250"
+      ]
+    },
+    "Pierre Pujol": {
+      "count": 14,
+      "awards": [
+        "20225251",
+        "20225252",
+        "20225257",
+        "20225258",
+        "20225312",
+        "20225313",
+        "20225314",
+        "20225320",
+        "20225321",
+        "20225341",
+        "20225408",
+        "20225409",
+        "20225423",
+        "20225424"
+      ]
+    },
+    "Tanya Lam": {
+      "count": 2,
+      "awards": [
+        "20225253",
+        "20225254"
+      ]
+    },
+    "Japheth Ko": {
+      "count": 4,
+      "awards": [
+        "20225255",
+        "20225263",
+        "20225307",
+        "20225309"
+      ]
+    },
+    "Amy and Ken Jacobsen": {
+      "count": 29,
+      "awards": [
+        "20225256",
+        "20225302",
+        "20225310",
+        "20225311",
+        "20225315",
+        "20225316",
+        "20225317",
+        "20225324",
+        "20225331",
+        "20225332",
+        "20225333",
+        "20225334",
+        "20225335",
+        "20225342",
+        "20225343",
+        "20225345",
+        "20225346",
+        "20225347",
+        "20225348",
+        "20225349",
+        "20225350",
+        "20225351",
+        "20225352",
+        "20225353",
+        "20225355",
+        "20225417",
+        "20225419",
+        "20225422",
+        "20225425"
+      ]
+    },
+    "Chris Neitro": {
+      "count": 2,
+      "awards": [
+        "20225259",
+        "20225265"
+      ]
+    },
+    "Any and Ken Jacobsen": {
+      "count": 3,
+      "awards": [
+        "20225260",
+        "20225261",
+        "20225318"
+      ]
+    },
+    "Christian Nietro": {
+      "count": 1,
+      "awards": [
+        "20225262"
+      ]
+    },
+    "Chaunie Langland": {
+      "count": 4,
+      "awards": [
+        "20225264",
+        "20225330",
+        "20225340",
+        "20225344"
+      ]
+    },
+    "Sylvia Darr": {
+      "count": 4,
+      "awards": [
+        "20225301",
+        "20225304",
+        "20225336",
+        "20225354"
+      ]
+    },
+    "Diane Bond": {
+      "count": 1,
+      "awards": [
+        "20225303"
+      ]
+    },
+    "Jim Heilig": {
+      "count": 2,
+      "awards": [
+        "20225305",
+        "20225308"
+      ]
+    },
+    "Weegie Caughlan": {
+      "count": 4,
+      "awards": [
+        "20225306",
+        "20225319",
+        "20225322",
+        "20225326"
+      ]
+    },
+    "Carol Klonowski": {
+      "count": 1,
+      "awards": [
+        "20225323"
+      ]
+    },
+    "Andy Cameron": {
+      "count": 3,
+      "awards": [
+        "20225325",
+        "20225327",
+        "20225328"
+      ]
+    },
+    "Echo Valley Orchids": {
+      "count": 1,
+      "awards": [
+        "20225329"
+      ]
+    },
+    "Dale Martin": {
+      "count": 2,
+      "awards": [
+        "20225337",
+        "20225339"
+      ]
+    },
+    "Paul and Phyllis Chim": {
+      "count": 1,
+      "awards": [
+        "20225338"
+      ]
+    },
+    "Dave Sorokowsky": {
+      "count": 1,
+      "awards": [
+        "20225401"
+      ]
+    },
+    "Dawn Dawson": {
+      "count": 1,
+      "awards": [
+        "20225402"
+      ]
+    },
+    "Tom Pickford": {
+      "count": 2,
+      "awards": [
+        "20225403",
+        "20225418"
+      ]
+    },
+    "Mary Gerritsen": {
+      "count": 1,
+      "awards": [
+        "20225404"
+      ]
+    },
+    "John Leathers": {
+      "count": 5,
+      "awards": [
+        "20225405",
+        "20225406",
+        "20225410",
+        "20225413",
+        "20225416"
+      ]
+    },
+    "Sunset Valley Orchids": {
+      "count": 1,
+      "awards": [
+        "20225407"
+      ]
+    },
+    "Golden Gate Orchids": {
+      "count": 1,
+      "awards": [
+        "20225411"
+      ]
+    },
+    "Lynne Murrell": {
+      "count": 1,
+      "awards": [
+        "20225412"
+      ]
+    },
+    "Marin Orchid Society": {
+      "count": 2,
+      "awards": [
+        "20225414",
+        "20225415"
+      ]
+    },
+    "David Sorokowsky": {
+      "count": 1,
+      "awards": [
+        "20225420"
+      ]
+    },
+    "Sonoma Orchid Society": {
+      "count": 1,
+      "awards": [
+        "20225421"
+      ]
+    }
+  },
+  "summary": {
+    "exhibitorCoverage": "100.0",
+    "uniqueExhibitors": 29,
+    "mostActiveExhibitors": [
+      {
+        "name": "Amy and Ken Jacobsen",
+        "awardCount": 29
+      },
+      {
+        "name": "Pierre Pujol",
+        "awardCount": 14
+      },
+      {
+        "name": "John Leathers",
+        "awardCount": 5
+      },
+      {
+        "name": "Japheth Ko",
+        "awardCount": 4
+      },
+      {
+        "name": "Chaunie Langland",
+        "awardCount": 4
+      },
+      {
+        "name": "Sylvia Darr",
+        "awardCount": 4
+      },
+      {
+        "name": "Weegie Caughlan",
+        "awardCount": 4
+      },
+      {
+        "name": "Any and Ken Jacobsen",
+        "awardCount": 3
+      },
+      {
+        "name": "Andy Cameron",
+        "awardCount": 3
+      },
+      {
+        "name": "Tanya Lam",
+        "awardCount": 2
+      }
+    ]
+  }
+}

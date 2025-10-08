@@ -1,0 +1,30 @@
+{
+  "awardNum": "20215333",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Filoli Historic House",
+  "date": "August 21, 2021",
+  "genus": "Paphiopedilum",
+  "species": "Hilo Jewel",
+  "clone": "Emerald",
+  "cross": "Paphiopedilum Hsinying Majakun x Paphiopedilum Hsinying Jewel",
+  "exhibitor": "Japheth Ko",
+  "photographer": "",
+  "photo": "images/20215333.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 11.9,
+    "NSV": 11.3,
+    "DSW": 7.7,
+    "DSL": 6.1,
+    "PETW": 2.6,
+    "PETL": 7.7,
+    "description": "One flower on one 22-cm inflorescence on a single growth plant; dorsal sepal white striped bright green; synsepal light green striped bright green; petals hirsute, ivory striped green, fading distally, translucent stripe lower half, warts upper half; pouch pale green, veined green; staminode pale green tessellated dark green centrally; substance firm; texture waxy."
+  },
+  "scrapedDate": "2025-10-08T01:01:39.605Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20215333",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215333.html",
+  "year": 2021
+}

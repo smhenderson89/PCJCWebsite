@@ -1,0 +1,3571 @@
+{
+  "timestamp": "2025-10-08T01:31:42.003Z",
+  "year": "2022",
+  "totalFiles": 96,
+  "fieldStats": {
+    "awardNum": {
+      "total": 96,
+      "null": 0,
+      "empty": 0,
+      "populated": 96,
+      "percentage": "0.0"
+    },
+    "award": {
+      "total": 96,
+      "null": 0,
+      "empty": 2,
+      "populated": 94,
+      "percentage": "2.1"
+    },
+    "awardpoints": {
+      "total": 96,
+      "null": 3,
+      "empty": 0,
+      "populated": 93,
+      "percentage": "3.1"
+    },
+    "location": {
+      "total": 96,
+      "null": 0,
+      "empty": 5,
+      "populated": 91,
+      "percentage": "5.2"
+    },
+    "date": {
+      "total": 96,
+      "null": 0,
+      "empty": 6,
+      "populated": 90,
+      "percentage": "6.3"
+    },
+    "genus": {
+      "total": 96,
+      "null": 0,
+      "empty": 3,
+      "populated": 93,
+      "percentage": "3.1"
+    },
+    "species": {
+      "total": 96,
+      "null": 0,
+      "empty": 3,
+      "populated": 93,
+      "percentage": "3.1"
+    },
+    "clone": {
+      "total": 96,
+      "null": 0,
+      "empty": 9,
+      "populated": 87,
+      "percentage": "9.4"
+    },
+    "cross": {
+      "total": 96,
+      "null": 0,
+      "empty": 36,
+      "populated": 60,
+      "percentage": "37.5"
+    },
+    "exhibitor": {
+      "total": 96,
+      "null": 0,
+      "empty": 0,
+      "populated": 96,
+      "percentage": "0.0"
+    },
+    "photographer": {
+      "total": 96,
+      "null": 0,
+      "empty": 0,
+      "populated": 96,
+      "percentage": "0.0"
+    },
+    "photo": {
+      "total": 96,
+      "null": 0,
+      "empty": 0,
+      "populated": 96,
+      "percentage": "0.0"
+    },
+    "measurements": {
+      "total": 96,
+      "null": 0,
+      "empty": 0,
+      "populated": 96,
+      "percentage": "0.0"
+    },
+    "scrapedDate": {
+      "total": 96,
+      "null": 0,
+      "empty": 0,
+      "populated": 96,
+      "percentage": "0.0"
+    },
+    "sourceUrl": {
+      "total": 96,
+      "null": 0,
+      "empty": 0,
+      "populated": 96,
+      "percentage": "0.0"
+    },
+    "htmlReference": {
+      "total": 96,
+      "null": 0,
+      "empty": 0,
+      "populated": 96,
+      "percentage": "0.0"
+    },
+    "year": {
+      "total": 96,
+      "null": 0,
+      "empty": 0,
+      "populated": 96,
+      "percentage": "0.0"
+    },
+    "measurements.type": {
+      "total": 96,
+      "null": 0,
+      "empty": 0,
+      "populated": 96,
+      "percentage": "0.0"
+    },
+    "measurements.numFlowers": {
+      "total": 96,
+      "null": 0,
+      "empty": 96,
+      "populated": 0,
+      "percentage": "100.0"
+    },
+    "measurements.numBuds": {
+      "total": 96,
+      "null": 0,
+      "empty": 96,
+      "populated": 0,
+      "percentage": "100.0"
+    },
+    "measurements.NS": {
+      "total": 96,
+      "null": 5,
+      "empty": 0,
+      "populated": 91,
+      "percentage": "5.2"
+    },
+    "measurements.NSV": {
+      "total": 96,
+      "null": 5,
+      "empty": 0,
+      "populated": 91,
+      "percentage": "5.2"
+    },
+    "measurements.DSW": {
+      "total": 96,
+      "null": 5,
+      "empty": 0,
+      "populated": 91,
+      "percentage": "5.2"
+    },
+    "measurements.DSL": {
+      "total": 96,
+      "null": 5,
+      "empty": 0,
+      "populated": 91,
+      "percentage": "5.2"
+    },
+    "measurements.PETW": {
+      "total": 96,
+      "null": 8,
+      "empty": 0,
+      "populated": 88,
+      "percentage": "8.3"
+    },
+    "measurements.PETL": {
+      "total": 96,
+      "null": 8,
+      "empty": 0,
+      "populated": 88,
+      "percentage": "8.3"
+    },
+    "measurements.LSW": {
+      "total": 96,
+      "null": 7,
+      "empty": 0,
+      "populated": 89,
+      "percentage": "7.3"
+    },
+    "measurements.LSL": {
+      "total": 96,
+      "null": 8,
+      "empty": 0,
+      "populated": 88,
+      "percentage": "8.3"
+    },
+    "measurements.LIPW": {
+      "total": 96,
+      "null": 15,
+      "empty": 0,
+      "populated": 81,
+      "percentage": "15.6"
+    },
+    "measurements.LIPL": {
+      "total": 96,
+      "null": 15,
+      "empty": 0,
+      "populated": 81,
+      "percentage": "15.6"
+    },
+    "measurements.description": {
+      "total": 96,
+      "null": 0,
+      "empty": 0,
+      "populated": 96,
+      "percentage": "0.0"
+    },
+    "display": {
+      "total": 96,
+      "null": 90,
+      "empty": 0,
+      "populated": 6,
+      "percentage": "93.8"
+    },
+    "arrangement": {
+      "total": 96,
+      "null": 95,
+      "empty": 0,
+      "populated": 1,
+      "percentage": "99.0"
+    }
+  },
+  "nullFiles": [
+    {
+      "awardNum": "20225250",
+      "file": "20225250.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225251",
+      "file": "20225251.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225252",
+      "file": "20225252.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225253",
+      "file": "20225253.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225254",
+      "file": "20225254.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225255",
+      "file": "20225255.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225256",
+      "file": "20225256.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225257",
+      "file": "20225257.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225258",
+      "file": "20225258.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225259",
+      "file": "20225259.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225260",
+      "file": "20225260.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225261",
+      "file": "20225261.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225262",
+      "file": "20225262.json",
+      "nullCount": 7,
+      "nullFields": [
+        {
+          "field": "location",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "date",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225263",
+      "file": "20225263.json",
+      "nullCount": 7,
+      "nullFields": [
+        {
+          "field": "location",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "date",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225264",
+      "file": "20225264.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225265",
+      "file": "20225265.json",
+      "nullCount": 8,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.LSW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LSL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225301",
+      "file": "20225301.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225302",
+      "file": "20225302.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225303",
+      "file": "20225303-display.json",
+      "nullCount": 17,
+      "nullFields": [
+        {
+          "field": "genus",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "species",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "clone",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.NS",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.NSV",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.DSW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.DSL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.PETW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.PETL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LSW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LSL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225304",
+      "file": "20225304.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225305",
+      "file": "20225305.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225306",
+      "file": "20225306.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225307",
+      "file": "20225307.json",
+      "nullCount": 7,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225308",
+      "file": "20225308.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225309",
+      "file": "20225309.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225310",
+      "file": "20225310.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225311",
+      "file": "20225311.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225312",
+      "file": "20225312.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225313",
+      "file": "20225313.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225314",
+      "file": "20225314.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225315",
+      "file": "20225315.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225316",
+      "file": "20225316.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225317",
+      "file": "20225317.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225318",
+      "file": "20225318.json",
+      "nullCount": 16,
+      "nullFields": [
+        {
+          "field": "awardpoints",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "clone",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.NS",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.NSV",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.DSW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.DSL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.PETW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.PETL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LSW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LSL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225319",
+      "file": "20225319.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225320",
+      "file": "20225320.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "clone",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225321",
+      "file": "20225321.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "clone",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225322",
+      "file": "20225322.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225323",
+      "file": "20225323.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225324",
+      "file": "20225324.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225325",
+      "file": "20225325.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225326",
+      "file": "20225326.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225327",
+      "file": "20225327.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225328",
+      "file": "20225328.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225329",
+      "file": "20225329.json",
+      "nullCount": 7,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225330",
+      "file": "20225330.json",
+      "nullCount": 8,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.LSW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LSL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225331",
+      "file": "20225331.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225332",
+      "file": "20225332.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225333",
+      "file": "20225333.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225334",
+      "file": "20225334.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225335",
+      "file": "20225335.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225336",
+      "file": "20225336.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225337",
+      "file": "20225337.json",
+      "nullCount": 6,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225338",
+      "file": "20225338.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225339",
+      "file": "20225339.json",
+      "nullCount": 6,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225340",
+      "file": "20225340.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225341",
+      "file": "20225341.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225342",
+      "file": "20225342.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225343",
+      "file": "20225343.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225344",
+      "file": "20225344.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225345",
+      "file": "20225345.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225346",
+      "file": "20225346.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225347",
+      "file": "20225347.json",
+      "nullCount": 7,
+      "nullFields": [
+        {
+          "field": "location",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "date",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225348",
+      "file": "20225348.json",
+      "nullCount": 7,
+      "nullFields": [
+        {
+          "field": "location",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "date",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225349",
+      "file": "20225349.json",
+      "nullCount": 7,
+      "nullFields": [
+        {
+          "field": "location",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "date",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225350",
+      "file": "20225350.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "date",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225351",
+      "file": "20225351.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225352",
+      "file": "20225352.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225353",
+      "file": "20225353.json",
+      "nullCount": 6,
+      "nullFields": [
+        {
+          "field": "genus",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "species",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "clone",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225354",
+      "file": "20225354.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225355",
+      "file": "20225355.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225401",
+      "file": "20225401.json",
+      "nullCount": 6,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225402",
+      "file": "20225402.json",
+      "nullCount": 6,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225403",
+      "file": "20225403.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.LSL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225404",
+      "file": "20225404.json",
+      "nullCount": 7,
+      "nullFields": [
+        {
+          "field": "award",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "awardpoints",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225405",
+      "file": "20225405.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225406",
+      "file": "20225406.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225407",
+      "file": "20225407.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225408",
+      "file": "20225408.json",
+      "nullCount": 6,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225409",
+      "file": "20225409.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225410",
+      "file": "20225410.json",
+      "nullCount": 7,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.PETW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.PETL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225411",
+      "file": "20225411.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225412",
+      "file": "20225412.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225413",
+      "file": "20225413.json",
+      "nullCount": 7,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.PETW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.PETL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225414",
+      "file": "20225414-display.json",
+      "nullCount": 15,
+      "nullFields": [
+        {
+          "field": "clone",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.NS",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.NSV",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.DSW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.DSL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.PETW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.PETL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LSW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LSL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225415",
+      "file": "20225415-display.json",
+      "nullCount": 15,
+      "nullFields": [
+        {
+          "field": "clone",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.NS",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.NSV",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.DSW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.DSL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.PETW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.PETL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LSW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LSL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225416",
+      "file": "20225416.json",
+      "nullCount": 7,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.PETW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.PETL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225417",
+      "file": "20225417.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225418",
+      "file": "20225418.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225419",
+      "file": "20225419.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225420",
+      "file": "20225420-display.json",
+      "nullCount": 8,
+      "nullFields": [
+        {
+          "field": "genus",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "species",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "clone",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225421",
+      "file": "20225421-display.json",
+      "nullCount": 15,
+      "nullFields": [
+        {
+          "field": "clone",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.NS",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.NSV",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.DSW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.DSL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.PETW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.PETL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LSW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LSL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPW",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "measurements.LIPL",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225422",
+      "file": "20225422.json",
+      "nullCount": 7,
+      "nullFields": [
+        {
+          "field": "award",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "awardpoints",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225423",
+      "file": "20225423.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225424",
+      "file": "20225424.json",
+      "nullCount": 4,
+      "nullFields": [
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    },
+    {
+      "awardNum": "20225425",
+      "file": "20225425.json",
+      "nullCount": 5,
+      "nullFields": [
+        {
+          "field": "cross",
+          "value": "",
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numFlowers",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "measurements.numBuds",
+          "value": 0,
+          "type": "empty"
+        },
+        {
+          "field": "display",
+          "value": null,
+          "type": "null"
+        },
+        {
+          "field": "arrangement",
+          "value": null,
+          "type": "null"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "filesWithNulls": 96,
+    "percentageWithNulls": "100.0",
+    "mostProblematicFields": [
+      {
+        "field": "measurements.numFlowers",
+        "percentage": "100.0"
+      },
+      {
+        "field": "measurements.numBuds",
+        "percentage": "100.0"
+      },
+      {
+        "field": "arrangement",
+        "percentage": "99.0"
+      },
+      {
+        "field": "display",
+        "percentage": "93.8"
+      },
+      {
+        "field": "cross",
+        "percentage": "37.5"
+      },
+      {
+        "field": "measurements.LIPW",
+        "percentage": "15.6"
+      },
+      {
+        "field": "measurements.LIPL",
+        "percentage": "15.6"
+      }
+    ]
+  }
+}

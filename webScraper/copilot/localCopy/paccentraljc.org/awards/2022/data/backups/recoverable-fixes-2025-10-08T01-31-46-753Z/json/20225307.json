@@ -1,0 +1,32 @@
+{
+  "awardNum": "20225307",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Filoli Historic House Monthly",
+  "date": "March 19, 2022",
+  "genus": "Paphiopedilum",
+  "species": "fairrieanum",
+  "clone": "Second Chance",
+  "cross": "",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225307.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 6,
+    "NSV": 7.1,
+    "DSW": 4,
+    "DSL": 4,
+    "PETW": 1.3,
+    "PETL": 3.5,
+    "LSW": 2.1,
+    "LSL": 3.5,
+    "description": "One large flower on one 14-cm staked inflorescence; dorsal sepal recurved, downy, white, veined purple, distal strong reticulations purple; synsepal white, veined purple; petals down-swept, recurved, white, veined purple, overlaid green proximally, superior margins edged purple, hirsute, margins undulate; pouch pale chartreuse, veined light mahogany, darker mahogany vein centrally, heavily speckled purple internally; staminode chartreuse, stippled purple, superior half reticulated green; substance firm; texture velvet, pouch glossy."
+  },
+  "scrapedDate": "2025-10-07T00:53:07.632Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20225307",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225307.html",
+  "year": 2022
+}

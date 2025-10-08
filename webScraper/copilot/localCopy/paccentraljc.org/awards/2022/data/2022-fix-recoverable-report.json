@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-10-08T01:31:46.776Z",
+  "year": "2022",
+  "totalAttempts": 6,
+  "successful": 6,
+  "failed": 0,
+  "fixes": [
+    {
+      "awardNum": "20225262",
+      "fieldsFixed": [],
+      "originalIssues": 3,
+      "fixedIssues": 0
+    },
+    {
+      "awardNum": "20225263",
+      "fieldsFixed": [],
+      "originalIssues": 3,
+      "fixedIssues": 0
+    },
+    {
+      "awardNum": "20225347",
+      "fieldsFixed": [],
+      "originalIssues": 3,
+      "fixedIssues": 0
+    },
+    {
+      "awardNum": "20225348",
+      "fieldsFixed": [],
+      "originalIssues": 3,
+      "fixedIssues": 0
+    },
+    {
+      "awardNum": "20225349",
+      "fieldsFixed": [],
+      "originalIssues": 3,
+      "fixedIssues": 0
+    },
+    {
+      "awardNum": "20225350",
+      "fieldsFixed": [],
+      "originalIssues": 1,
+      "fixedIssues": 0
+    }
+  ],
+  "errors": []
+}

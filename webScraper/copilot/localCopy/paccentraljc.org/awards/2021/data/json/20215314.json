@@ -1,0 +1,30 @@
+{
+  "awardNum": "20215314",
+  "award": "AM",
+  "awardpoints": 85,
+  "location": "Filoli Historic House",
+  "date": "May 15, 2021",
+  "genus": "Paphiopedilum",
+  "species": "Magically Fred",
+  "clone": "Cherry Cordial",
+  "cross": "Paphiopedilum President Fred x Paphiopedilum Magically Wood",
+  "exhibitor": "",
+  "photographer": "",
+  "photo": "images/20215314.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 12.3,
+    "NSV": 9.8,
+    "DSW": 7,
+    "DSL": 5.9,
+    "PETW": 3.3,
+    "PETL": 6.9,
+    "description": "One stately flat full flower on one sturdy 25.5-cm inflorescence; dorsal sepal white, veined green-brown, overlaid green basal half, transitioning to light burgundy on marginal two-thirds; synsepal green, burgundy stripes; petals green basal half transitioning to medium burgundy marginally, heavy dark mahogany warts, upper margin hirsute; pouch burgundy, veined darker burgundy; staminode pale green, darker green centrally; substance medium; texture waxy."
+  },
+  "scrapedDate": "2025-10-08T01:01:39.573Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20215314",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215314.html",
+  "year": 2021
+}

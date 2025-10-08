@@ -1,0 +1,30 @@
+{
+  "awardNum": "20215339",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "Filoli Historic House",
+  "date": "November 20, 2021",
+  "genus": "Paphiopedilum",
+  "species": "Memoria Vickie Lynn Nagy",
+  "clone": "Helen",
+  "cross": "Paphiopedilum Odette's Fantasy x Paphiopedilum Gyorgy Nagy",
+  "exhibitor": "Dan Williamson",
+  "photographer": "",
+  "photo": "images/20215339.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 11.2,
+    "NSV": 11.5,
+    "DSW": 6.9,
+    "DSL": 5.8,
+    "PETW": 2.1,
+    "PETL": 7.3,
+    "description": "One flower on one 28.3-cm inflorescence; dorsal sepal mucronate, light burgundy striated saturated-burgundy; synsepal burgundy, striated saturated-burgundy; petals ciliate, saturated burgundy, streaked light burgundy distally; pouch downy, black-burgundy; staminode green basally, light burgundy distally; substance hard; texture glossy."
+  },
+  "scrapedDate": "2025-10-08T01:01:39.612Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20215339",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215339.html",
+  "year": 2021
+}
