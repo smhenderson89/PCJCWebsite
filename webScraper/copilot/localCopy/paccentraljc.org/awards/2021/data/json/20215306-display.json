@@ -17,9 +17,19 @@
     "numBuds": 0,
     "description": "Group of 13 plants; consistent full shape and good overall color, base color ranging from cream to chatreuse, overlaid pink; one AM (20215304) and two HCCs (20215303, 20215304) were awarded in this group, one AM (20194867) and one HCC (20194861) were previously awarded on the same cross but were not exhibited at this judging."
   },
-  "scrapedDate": "2025-10-08T01:01:39.556Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215306",
+  "scrapedDate": "2025-10-08T04:08:27.687Z",
+  "sourceUrl": "https://www.paccentraljc.org/210417/20215306.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215306.html",
   "year": 2021,
-  "display": true
+  "display": true,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.843Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215306",
+      "newValue": "https://www.paccentraljc.org/210417/20215306.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

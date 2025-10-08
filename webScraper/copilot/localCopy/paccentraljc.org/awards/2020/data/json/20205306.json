@@ -1,0 +1,40 @@
+{
+  "awardNum": "20205306",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 20, 2020",
+  "genus": "Paphiopedilum",
+  "species": "Hawaiian Peacock",
+  "clone": "Chancellor",
+  "cross": "Paphiopedilum Hawaiian Illusion x Paphiopedilum Petula's Peacock",
+  "exhibitor": "",
+  "photographer": "",
+  "photo": "images/20205306.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 11.3,
+    "NSV": 8.4,
+    "DSW": 6.8,
+    "DSL": 5.3,
+    "PETW": 2.2,
+    "PETL": 6.4,
+    "description": "One flower and one bud on one 17-cm inflorescence; dorsal sepal cream heavily overlaid mahogany, prominately veined darker mahogany, chartreuse proximally; synsepal cream overlaid mahogany proximal third and edges, veined darker mahogany, chartreuse proximally; petals burgundy, chartreuse proximally, hirsute edges; pouch burgundy; staminode chartreuse, burgundy distal edge; substance firm; texture glossy."
+  },
+  "scrapedDate": "2025-10-08T04:13:57.426Z",
+  "sourceUrl": "https://www.paccentraljc.org/200220/20205306.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205306.html",
+  "year": 2020,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:15:06.154Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20205306",
+      "newValue": "https://www.paccentraljc.org/200220/20205306.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

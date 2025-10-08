@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255323",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Filoli Historic House Monthly",
+  "date": "August 16, 2025",
+  "genus": "Quintal",
+  "species": "Wonder",
+  "clone": "Kate",
+  "cross": "Paphiopedilum Quintal Wonder × Paphiopedilum lowii",
+  "exhibitor": "Carol Klonowski",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255323.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 12.2,
+    "NSV": 10,
+    "DSL": 5.3,
+    "DSW": 3.5,
+    "PETL": 7.7,
+    "PETW": 1.4,
+    "numFlowers": 2,
+    "numBuds": 3,
+    "numInflorescences": 1,
+    "description": "Two striking flowers and three buds on one staked, 64-cm inflorescence; dorsal sepal narrowly deltoid, basal margin strongly recurved, apical margin incurved, cream-yellow, overlaid light green veins, darker centrally; synsepal elliptic, cream-yellow, overlaid light green veins; petals narrowly spatulate, twisting forward apically, cream-yellow, overlaid light green veins, blushed lavender apically; pouch light green, darker green veins, light lavender blush laterally; staminode pale yellow, light green centrally; substance firm; texture satin, pouch waxy.",
+    "LSW": 3.2,
+    "LSL": 5.6,
+    "LIPW": 1.7,
+    "LIPL": 3.6
+  },
+  "scrapedDate": "2025-10-04T06:36:44.386Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255323",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255323.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.911Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Filoli Historic House Monthly",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

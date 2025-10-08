@@ -18,8 +18,18 @@
     "description": "Large 130-square-foot display of a wide variety of genera well grown by society members; well balanced arrangement with taller plants on both sides and smaller growing plants towards center; a globe at the center and national flags throughout the display to highlight the theme of global exploration."
   },
   "scrapedDate": "2025-10-07T00:53:07.737Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225421",
+  "sourceUrl": "https://www.paccentraljc.org/220326/20225421.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225421.html",
   "year": 2022,
-  "display": true
+  "display": true,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.202Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225421",
+      "newValue": "https://www.paccentraljc.org/220326/20225421.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

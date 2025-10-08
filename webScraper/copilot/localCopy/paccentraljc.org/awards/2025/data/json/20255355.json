@@ -28,7 +28,7 @@
     "SYNSW": 5.3
   },
   "scrapedDate": "2025-10-04T06:36:44.392Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20255355",
+  "sourceUrl": "https://www.paccentraljc.org/250227/20255355.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255355.html",
   "year": 2025,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "Pacific Orchid Exposition",
       "source": "automated-location-population",
       "reason": "Location populated from HTML page (equivalent to index)"
+    },
+    {
+      "timestamp": "2025-10-08T03:49:18.720Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20255355",
+      "newValue": "https://www.paccentraljc.org/250227/20255355.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
     }
   ]
 }

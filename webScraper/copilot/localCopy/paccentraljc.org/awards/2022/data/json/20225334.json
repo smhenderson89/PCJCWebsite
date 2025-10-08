@@ -28,7 +28,17 @@
     "description": "Three well-arranged flowers on one 19-cm inflorescence; sepals and petals light yellow, suffused rose, iridescent rose veins; petals ruffled edges, darker rose proximally; lip ruffled edges, white, veined dark magenta throughout, distal half heavily overlaid dark magenta, tip lighter magenta, white picotee; substance firm; texture crystalline."
   },
   "scrapedDate": "2025-10-07T00:53:07.675Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225334",
+  "sourceUrl": "https://www.paccentraljc.org/220618/20225334.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225334.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.179Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225334",
+      "newValue": "https://www.paccentraljc.org/220618/20225334.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

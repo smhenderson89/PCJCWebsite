@@ -1,0 +1,54 @@
+{
+  "awardNum": "20255275",
+  "award": "CCE",
+  "awardpoints": 93,
+  "location": "Peninsula OS/Gold Coast Cymbidium Show",
+  "date": "April 5, 2025",
+  "genus": "Victoria",
+  "species": "Kam",
+  "clone": "Fascination",
+  "cross": "Rhyncholaeliocattleya Sylvia Fry × Cattleya loddigesii",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255275.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 15,
+    "NSV": 16.7,
+    "DSL": 8.7,
+    "DSW": 3.5,
+    "PETL": 8.7,
+    "PETW": 6.5,
+    "numFlowers": 40,
+    "numBuds": 0,
+    "numInflorescences": 14,
+    "description": "Forty immaculate flowers on 14 up to 30-cm inflorescences, well spaced around plant; 108-cm x 50-cm plant, 30-cm plastic pot, bark; sepals and petals pink-lavender; lip heavily ruffled, pink-lavender overlaid dark magenta distally, bright yellow centrally, side lobes cream; column cream, anther cap white; substance firm; texture matte.",
+    "LSW": 3.6,
+    "LSL": 7,
+    "LIPW": 5.8,
+    "LIPL": 7.8
+  },
+  "scrapedDate": "2025-10-04T06:36:44.318Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255275",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255275.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.869Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Peninsula OS/Gold Coast Cymbidium Show",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    },
+    {
+      "timestamp": "2025-10-06T03:39:18.146Z",
+      "changes": [
+        "award: null → \"CCE\"",
+        "awardpoints: null → 93"
+      ],
+      "reason": "Fixed missing award data from HTML source",
+      "source": "automated-html-extraction"
+    }
+  ]
+}

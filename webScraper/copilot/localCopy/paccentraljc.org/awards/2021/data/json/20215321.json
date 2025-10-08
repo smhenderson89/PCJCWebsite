@@ -27,8 +27,18 @@
     "LIPL": 5.5,
     "description": "Three erect flowers on one upright unstaked inflorescence; sepals light lavender; petals slightly frilled, light lavender, faintly striated darker lavender; lip frilled, darker lavender to purple distally, yellow throat; column bulbous, white, purple spot distal edge; substance firm; texture matte."
   },
-  "scrapedDate": "2025-10-08T01:01:39.586Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215321",
+  "scrapedDate": "2025-10-08T04:08:27.717Z",
+  "sourceUrl": "https://www.paccentraljc.org/210619/20215321.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215321.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.851Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215321",
+      "newValue": "https://www.paccentraljc.org/210619/20215321.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

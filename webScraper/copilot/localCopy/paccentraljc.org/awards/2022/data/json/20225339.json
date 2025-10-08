@@ -26,7 +26,17 @@
     "description": "Four flowers crowded on a 27.1-cm inflorescence; dorsal sepal chartreuse, striped mahogany, diffuse centrally; synsepal chartreuse, striped mahogany; petals hirsute edges, chartreuse, mahogany spots basally, fusing to dark mahogany distally; pouch charteuse, partially overlaid light brown; staminode light yellow, mahogany sides, canescent; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.683Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225339",
+  "sourceUrl": "https://www.paccentraljc.org/220716/20225339.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225339.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.181Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225339",
+      "newValue": "https://www.paccentraljc.org/220716/20225339.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

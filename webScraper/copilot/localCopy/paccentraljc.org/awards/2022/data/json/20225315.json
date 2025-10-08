@@ -28,7 +28,17 @@
     "description": "Five flowers on one 12-cm upright inflorescence; sepals lanceolate, white marked green at the tip; petals white overlaid light purple on the edge and dark purple on the distal half; lip strongly frilled at the central margin, side lobes partially closed over the column, white, strongly marked purple at the margins; column white mostly overlaid purple, anther cap white, substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.647Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225315",
+  "sourceUrl": "https://www.paccentraljc.org/220416/20225315.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225315.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.168Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225315",
+      "newValue": "https://www.paccentraljc.org/220416/20225315.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

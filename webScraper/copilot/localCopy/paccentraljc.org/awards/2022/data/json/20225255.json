@@ -28,7 +28,17 @@
     "description": "Three full flowers on one upright 14-cm inflorescence; sepals lavender; petals full, crossing, ruffled edges, medium-dark lavender, white centrally proximally; lip frilly, dark lavender edges, dark lavender veins, yellow proximally, overlaid partially dark lavender veins; column white, dark lavender marks, anther cap white; substance firm; texture slightly crystalline."
   },
   "scrapedDate": "2025-10-07T00:53:07.593Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225255",
+  "sourceUrl": "https://www.paccentraljc.org/220405/20225255.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225255.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.148Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225255",
+      "newValue": "https://www.paccentraljc.org/220405/20225255.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

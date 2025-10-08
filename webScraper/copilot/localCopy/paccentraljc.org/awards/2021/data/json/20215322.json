@@ -27,8 +27,18 @@
     "LIPL": 5.4,
     "description": "Three closely arranged flowers on one upright inflorescence; sepals medium lavender; petals spatulate, slightly undulate and dentiuclate, medium lavender, close purple spotting on midrib; lip broadly flared, undulate and denticulate, lavender, strong purple triangular splash apically, white throat; column bulbous, white; substance very firm; texture matte."
   },
-  "scrapedDate": "2025-10-08T01:01:39.589Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215322",
+  "scrapedDate": "2025-10-08T04:08:27.721Z",
+  "sourceUrl": "https://www.paccentraljc.org/210619/20215322.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215322.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.851Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215322",
+      "newValue": "https://www.paccentraljc.org/210619/20215322.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

@@ -28,7 +28,17 @@
     "description": "Twelve well shaped flowers on one somewhat crowded 79-cm inflorescence; sepals and petals cream overlaid pink, slightly darker venation; lip white, spotted red distally, keel downy, yellow; column cream, overlaid dark pink; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.636Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225309",
+  "sourceUrl": "https://www.paccentraljc.org/220319/20225309.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225309.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.164Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225309",
+      "newValue": "https://www.paccentraljc.org/220319/20225309.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

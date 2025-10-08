@@ -1,0 +1,14 @@
+{
+  "summary": {
+    "totalProcessed": 96,
+    "successfullyUpdated": 96,
+    "skipped": 0,
+    "errors": 0
+  },
+  "details": {
+    "skippedFiles": [],
+    "errors": []
+  },
+  "timestamp": "2025-10-08T03:49:18.730Z",
+  "operation": "fix-2025-source-urls"
+}

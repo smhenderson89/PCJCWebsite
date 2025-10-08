@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255314",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "Filoli Historic House Monthly",
+  "date": "July 19, 2025",
+  "genus": "Cattleya",
+  "species": "purpurata",
+  "clone": "Hot Bubbles",
+  "cross": "home",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255314.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 16.1,
+    "NSV": 15.4,
+    "DSL": 9.3,
+    "DSW": 2.1,
+    "PETL": 9,
+    "PETW": 5.2,
+    "numFlowers": 7,
+    "numBuds": 0,
+    "numInflorescences": 3,
+    "description": "Seven flowers on three up to 35.2-cm inflorescences; sepals acuminate, cream, suffused and veined dark magenta; petals acute, ruffled, cream, heavily overlaid dark magenta mid-petal vein and suffused dark magenta edges; lip ruffled, tubular over column, throat yellow veined dark magenta; column cream, anther cap cream; substance medium, texture crystalline.",
+    "LSW": 2.2,
+    "LSL": 8.9,
+    "LIPW": 4.1,
+    "LIPL": 7.9
+  },
+  "scrapedDate": "2025-10-04T06:36:44.373Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255314",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255314.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.905Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Filoli Historic House Monthly",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

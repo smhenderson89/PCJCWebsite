@@ -30,7 +30,7 @@
           }
         ],
         "severity": "recoverable",
-        "fixStrategy": "Check HTML source for missing data"
+        "fixStrategy": "Photographer is missing from html data, put N/A if unknown. Exhibitor is in the source html, needs to be added."
       },
       {
         "awardNum": "20215302",
@@ -50,7 +50,7 @@
           }
         ],
         "severity": "recoverable",
-        "fixStrategy": "Check HTML source for missing data"
+        "fixStrategy": "Photographer is missing from html data, put N/A if unknown. Exhibitor is in the source html, needs to be added."
       },
       {
         "awardNum": "20215303",
@@ -70,7 +70,7 @@
           }
         ],
         "severity": "recoverable",
-        "fixStrategy": "Check HTML source for missing data"
+        "fixStrategy": "Photographer is missing from html data, put N/A if unknown. Exhibitor is in the source html, needs to be added."
       },
       {
         "awardNum": "20215304",
@@ -90,7 +90,7 @@
           }
         ],
         "severity": "recoverable",
-        "fixStrategy": "Check HTML source for missing data"
+        "fixStrategy": "Photographer is missing from html data, put N/A if unknown. Exhibitor is in the source html, needs to be added."
       },
       {
         "awardNum": "20215305",
@@ -110,7 +110,7 @@
           }
         ],
         "severity": "recoverable",
-        "fixStrategy": "Check HTML source for missing data"
+        "fixStrategy": "Photographer is missing from html data, put N/A if unknown. Exhibitor is in the source html, needs to be added."
       },
       {
         "awardNum": "20215308",

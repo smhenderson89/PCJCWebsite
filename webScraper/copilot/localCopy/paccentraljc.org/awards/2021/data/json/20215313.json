@@ -27,8 +27,18 @@
     "LIPL": 0.6,
     "description": "Forty-three flowers and 55 buds on eight up to 24-cm upright or slightly arching inflorescences; sepals and petals white, blotched and spotted pink, barred dark red basally, spotted red centrally on reverse; lip white, blotched yellow, saccate; substance firm; texture crystalline."
   },
-  "scrapedDate": "2025-10-08T01:01:39.571Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215313",
+  "scrapedDate": "2025-10-08T04:08:27.702Z",
+  "sourceUrl": "https://www.paccentraljc.org/210417/20215313.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215313.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.847Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215313",
+      "newValue": "https://www.paccentraljc.org/210417/20215313.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

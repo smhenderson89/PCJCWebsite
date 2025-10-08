@@ -27,8 +27,18 @@
     "LIPL": 0.6,
     "description": "Twenty-eight flat full flowers and 38 buds on six mature inflorescences, longest 32cm; sepals and petals pure white barred burgundy proximally; saccate lip bold yellow, tip light orange; substance medium; texture diamond dust."
   },
-  "scrapedDate": "2025-10-08T01:01:39.566Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215310",
+  "scrapedDate": "2025-10-08T04:08:27.696Z",
+  "sourceUrl": "https://www.paccentraljc.org/210417/20215310.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215310.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.846Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215310",
+      "newValue": "https://www.paccentraljc.org/210417/20215310.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

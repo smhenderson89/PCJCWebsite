@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255292",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "Santa Cruz Orchid Society Show",
+  "date": "May 3, 2025",
+  "genus": "Angraecum",
+  "species": "florulentum",
+  "clone": "Niles",
+  "cross": "home",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255292.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 7,
+    "NSV": 5.6,
+    "DSL": 3.5,
+    "DSW": 0.6,
+    "PETL": 3.2,
+    "PETW": 1.1,
+    "numFlowers": 9,
+    "numBuds": 0,
+    "numInflorescences": 3,
+    "description": "Nine large, stellate bright white flowers on three branched, up to 21-cm, inflorescences; dorsal sepal recurved margins; petals lanceolate; lip sagittate, involute apical third, nectary 13.5 cm, light green; column white, anther cap cream; substance firm; texture matte.",
+    "LSW": 0.6,
+    "LSL": 3.1,
+    "LIPW": 0.6,
+    "LIPL": 2.7
+  },
+  "scrapedDate": "2025-10-04T06:36:44.345Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255292",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255292.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.881Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Santa Cruz Orchid Society Show",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

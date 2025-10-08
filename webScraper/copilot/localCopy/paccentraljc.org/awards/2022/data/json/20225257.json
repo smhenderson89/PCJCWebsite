@@ -28,7 +28,17 @@
     "description": "Sixty-eight flowers on three 70-cm arching inflorescences; sepals yellow overlaid light red, stronger apically; petals yellow overlaid light red, stronger medially; lip bright yellow blotched red, darker orange-red bar distally on midlobe; column yellow overlaid red, anther cap white; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.597Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225257",
+  "sourceUrl": "https://www.paccentraljc.org/220405/20225257.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225257.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.150Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225257",
+      "newValue": "https://www.paccentraljc.org/220405/20225257.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

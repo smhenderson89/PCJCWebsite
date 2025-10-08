@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255281",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Filoli Historic House Monthly",
+  "date": "April 19, 2025",
+  "genus": "Ken",
+  "species": "Jacobsen",
+  "clone": "Peaches",
+  "cross": "Cymbidium Memoria Amelia Earhart × Cymbidium Woody Wilson",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20255281.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 9.4,
+    "NSV": 9.9,
+    "DSL": 6.2,
+    "DSW": 3.5,
+    "PETL": 5.7,
+    "PETW": 3.1,
+    "numFlowers": 11,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eleven flat flowers on one 78-cm arching inflorescence; sepals obovate, yellow sparsely speckled burgundy; petals eliptical, yellow, sparsely speckled burgundy, burgundy midrib; lip white overlaid burgundy reverse, marked burgundy heavily apical third, center burgundy stripe, sparsely spotted burgundy proximal two-thirds, densely speckled burgundy mid-lobe edges, keels yellow spotted burgundy; column cream, overlaid burgundy, spotted burgundy ventral surface, anther cap white; substance firm; texture matte.",
+    "LSW": 3.8,
+    "LSL": 5.6,
+    "LIPW": 4.5,
+    "LIPL": 4.2
+  },
+  "scrapedDate": "2025-10-04T06:36:44.328Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255281",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255281.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.874Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Filoli Historic House Monthly",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

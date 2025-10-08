@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "totalProcessed": 96,
+    "successfullyUpdated": 90,
+    "skipped": 0,
+    "errors": 6
+  },
+  "details": {
+    "skippedFiles": [],
+    "errors": [
+      {
+        "file": "20225262",
+        "error": "No date field found"
+      },
+      {
+        "file": "20225263",
+        "error": "No date field found"
+      },
+      {
+        "file": "20225347",
+        "error": "No date field found"
+      },
+      {
+        "file": "20225348",
+        "error": "No date field found"
+      },
+      {
+        "file": "20225349",
+        "error": "No date field found"
+      },
+      {
+        "file": "20225350",
+        "error": "No date field found"
+      }
+    ]
+  },
+  "timestamp": "2025-10-08T03:54:44.204Z",
+  "operation": "fix-2022-source-urls"
+}

@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255266",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "Filoli Historic House Monthly",
+  "date": "March 15, 2025",
+  "genus": "Cymbidium",
+  "species": "Rockstar",
+  "clone": "Rina",
+  "cross": "Cymbidium Aurora Malano Mendoza × Cymbidium Steve Cantrell",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255266.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 10.4,
+    "NSV": 9,
+    "DSL": 8.2,
+    "DSW": 5.7,
+    "PETL": 6.8,
+    "PETW": 4.1,
+    "numFlowers": 16,
+    "numBuds": 14,
+    "numInflorescences": 2,
+    "description": "Sixteen flowers on one 104-cm inflorescence and 14 buds on one immature inflorescence; sepals and petals ovate, white, strongly blushed dark rose, heavily spotted and blotched dark burgundy, especially along midvein; lip white, side lobes heavily marked dark burgundy, midlobe central burgundy stripe, yellow centrally each side of medial marking, heavily marked burgundy distally, picotee, keels yellow marked burgundy; column white overlaid and marked dark burgundy, anther cap cream; substance firm; texture matte, lip velvety.",
+    "LSW": 5.2,
+    "LSL": 6.1,
+    "LIPW": 3.8,
+    "LIPL": 4
+  },
+  "scrapedDate": "2025-10-04T06:36:44.304Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255266",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255266.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.863Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Filoli Historic House Monthly",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

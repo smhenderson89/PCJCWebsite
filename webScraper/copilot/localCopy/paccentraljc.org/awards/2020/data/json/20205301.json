@@ -1,0 +1,40 @@
+{
+  "awardNum": "20205301",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 20, 2020",
+  "genus": "Masdevallia",
+  "species": "Bay Breeze",
+  "clone": "Red Velvet",
+  "cross": "Masdevallia Fraseri x Masdevallia John Tomaschke",
+  "exhibitor": "",
+  "photographer": "",
+  "photo": "images/20205301.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 3.2,
+    "NSV": 9.7,
+    "DSW": 1.9,
+    "DSL": 6.8,
+    "LSW": 2.4,
+    "LSL": 6.3,
+    "description": "One flower on one upright inflorescence; dorsal sepal light yellow, lightly overlaid red, deep red veins and cauda; lateral sepals red, deep red veins and caudae; petals deep red; lip deep red; substance heavy; texture velvety."
+  },
+  "scrapedDate": "2025-10-08T04:13:57.411Z",
+  "sourceUrl": "https://www.paccentraljc.org/200220/20205301.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205301.html",
+  "year": 2020,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:15:06.150Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20205301",
+      "newValue": "https://www.paccentraljc.org/200220/20205301.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

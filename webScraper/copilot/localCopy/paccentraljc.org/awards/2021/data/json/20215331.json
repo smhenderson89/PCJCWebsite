@@ -27,8 +27,18 @@
     "LIPL": 4,
     "description": "Twenty-four flowers and 30 buds on six 46-cm inflorescences; sepals and petals uniformly rich orange-red; lip ruffled apically, cream heavily overlaid magenta on margin, finely veined magenta centrally, diffused lighter rust-red apically; substance medium; texture satin."
   },
-  "scrapedDate": "2025-10-08T01:01:39.602Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215331",
+  "scrapedDate": "2025-10-08T04:08:27.733Z",
+  "sourceUrl": "https://www.paccentraljc.org/210808/20215331.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215331.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.854Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215331",
+      "newValue": "https://www.paccentraljc.org/210808/20215331.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

@@ -28,8 +28,18 @@
     "description": "Thirteen well-presented flowers on two upright up to 22.5-cm inflorescences; sepals flat, petals lightly ruffled, sepals and petals pale pink; lip ruffled, white, centrally light yellow, edged light pink, throat magenta; column white, anther cap dark pink; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.700Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225353",
+  "sourceUrl": "https://www.paccentraljc.org/221119/20225353.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225353.html",
   "year": 2022,
-  "display": true
+  "display": true,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.189Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225353",
+      "newValue": "https://www.paccentraljc.org/221119/20225353.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

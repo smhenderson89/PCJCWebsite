@@ -27,9 +27,19 @@
     "LIPL": 3.1,
     "description": "Two flowers on two 12.5-cm inflorescences, two emerging inflorescences; flower light green; lateral sepals falcate; petals porrect; lip perpendicular, darker green centrally, callus light green; column and anther cap white; substance hard; texture waxy."
   },
-  "scrapedDate": "2025-10-08T01:01:39.619Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215342",
+  "scrapedDate": "2025-10-08T04:08:27.754Z",
+  "sourceUrl": "https://www.paccentraljc.org/211218/20215342.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215342.html",
   "year": 2021,
-  "display": true
+  "display": true,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.863Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215342",
+      "newValue": "https://www.paccentraljc.org/211218/20215342.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

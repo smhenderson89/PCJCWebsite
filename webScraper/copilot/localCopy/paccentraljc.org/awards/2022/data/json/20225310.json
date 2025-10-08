@@ -28,7 +28,17 @@
     "description": "Six slightly cupped flowers and 17 buds on three upright to arching inflorescences measuring up to 12.5cm long; sepals and petals vibrant electric purple; lip half-tubular, white, dark purple overlay; column white; substance firm; texture slightly waxy."
   },
   "scrapedDate": "2025-10-07T00:53:07.639Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225310",
+  "sourceUrl": "https://www.paccentraljc.org/220319/20225310.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225310.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.165Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225310",
+      "newValue": "https://www.paccentraljc.org/220319/20225310.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

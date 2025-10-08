@@ -27,8 +27,18 @@
     "LIPL": 1.7,
     "description": "Five-hundred fifty flowers and 28 buds on 50 pendant inflorescences; fully displayed around a 161x119-cm cleanly grown plant in a 20-cm plastic azalea pot, bark media; sepals and petals pale chartreuse, midrib maroon; lip pale yellow, side lobes striped maroon, midlobe velvet dark maroon, calli ochre; column black-maroon, anther cap yellow; substance medium; texture glossy."
   },
-  "scrapedDate": "2025-10-08T01:01:39.536Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215256",
+  "scrapedDate": "2025-10-08T04:08:27.671Z",
+  "sourceUrl": "https://www.paccentraljc.org/211102/20215256.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215256.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.835Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215256",
+      "newValue": "https://www.paccentraljc.org/211102/20215256.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

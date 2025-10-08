@@ -26,7 +26,17 @@
     "description": "Fifty-nine well arranged flowers on five arching, 75-cm average, inflorescences well presented above gracefully arching leaves; 63-cm x 104-cm plant grown in 17-cm one-gallon plastic pot in a mixture of coconut chips, perlite, bark; dorsal sepal hooded, sepals and petals pale yellow-green overlaid dusty rose, irregular cordovan spots and stripes; lip side lobes light yellow, irregular cordovan markings, midlobe white, irregular burgundy-red markings, keel light yellow, sparsely spotted burgundy red; column cream, inferior surface randomly spotted maroon, superior surface overlaid rose, anther cap white; substance firm; texture matte; also awarded an AM, #20225409."
   },
   "scrapedDate": "2025-10-07T00:53:07.717Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225408",
+  "sourceUrl": "https://www.paccentraljc.org/220224/20225408.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225408.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.194Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225408",
+      "newValue": "https://www.paccentraljc.org/220224/20225408.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

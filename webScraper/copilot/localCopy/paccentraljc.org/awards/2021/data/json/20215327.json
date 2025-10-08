@@ -27,8 +27,18 @@
     "LIPL": 2.2,
     "description": "Five hundred twenty-seven ruffled flowers and 108 buds well displayed above the foliage on eight strong multi-branched inflorescences; well-grown plant in 25-cm bulb pan, clean foliage; sepals, pleasantly swept back, and petals bright yellow, barred mahogany; lip bright yellow, central calyx yellow, ridges red, side lobes barred mahogany; column and anther cap yellow; substance firm; texture glossy, lip matte; also received CCE, award #20215328."
   },
-  "scrapedDate": "2025-10-08T01:01:39.595Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215327",
+  "scrapedDate": "2025-10-08T04:08:27.728Z",
+  "sourceUrl": "https://www.paccentraljc.org/210717/20215327.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215327.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.853Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215327",
+      "newValue": "https://www.paccentraljc.org/210717/20215327.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

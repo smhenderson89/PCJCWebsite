@@ -28,7 +28,17 @@
     "description": "Two hundred seventy-six flowers and 516 buds on 12 inflorescences up to 32cm in length; sepals and petals chartreuse boldly marked dark cordovan coalescent blotches; lip yellow-green sidelobes overlaid brown stripes fusing to solid distally, midlobe yellow overlaid brown basally, bright yellow distally; column light green weakly overlaid brown spots, anther cap yellow; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.742Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225425",
+  "sourceUrl": "https://www.paccentraljc.org/220508/20225425.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225425.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.204Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225425",
+      "newValue": "https://www.paccentraljc.org/220508/20225425.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

@@ -28,7 +28,17 @@
     "description": "Thirty one flat flowers on one branched, arched, 77-cm inflorescence; dorsal sepal pink faintly stippled darker pink; lateral sepals pink, stippled dark rose basally; petals pink, flushed darker pink centrally; lip cream, callus yellow, stippled darker rose, side lobes spotted and barred maroon, midlobe dark pink, darker pink speckles; column and anther cap pink; substance medium; texture crystalline."
   },
   "scrapedDate": "2025-10-07T00:53:07.634Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225308",
+  "sourceUrl": "https://www.paccentraljc.org/220319/20225308.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225308.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.164Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225308",
+      "newValue": "https://www.paccentraljc.org/220319/20225308.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

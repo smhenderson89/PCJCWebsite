@@ -28,7 +28,17 @@
     "description": "Twenty-one flowers on three upright inflorescences up to 60cm length; sepals yellow suffused burgundy, most intense on superior surface of lateral sepals; petals yellow, burgundy central vein; lip pale yellow striped dark burgundy distally, spotted dark burgundy centrally; anther cap pale yellow; substance very firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.653Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225319",
+  "sourceUrl": "https://www.paccentraljc.org/220416/20225319.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225319.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.170Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225319",
+      "newValue": "https://www.paccentraljc.org/220416/20225319.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

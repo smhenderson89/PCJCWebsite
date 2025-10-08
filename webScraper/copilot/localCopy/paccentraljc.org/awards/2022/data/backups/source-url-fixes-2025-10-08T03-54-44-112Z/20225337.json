@@ -1,0 +1,32 @@
+{
+  "awardNum": "20225337",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Filoli Historic House & Garden",
+  "date": "July 16, 2022",
+  "genus": "Paphiopedilum",
+  "species": "Dale's Dragon",
+  "clone": "Austin Creek",
+  "cross": "Paphiopedilum Stoned Susan x Paphiopedilum sanderianum",
+  "exhibitor": "Dale Martin",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225337.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 8.9,
+    "NSV": 33,
+    "DSW": 3.8,
+    "DSL": 7.2,
+    "PETW": 1.3,
+    "PETL": 29.5,
+    "LSW": 3.5,
+    "LSL": 7.1,
+    "description": "Eight well-arranged and spaced flowers on two 37-cm inflorescences; sepals ovate, green striped mahogany, suffuse mahogany basally; petals nodding, twisted, green, spotted and striped mahogany, hirsute edges spotted brown; pouch chartreuse, overlaid cordovan; staminode chartreuse, suffused mahogany; substance firm; texture matte."
+  },
+  "scrapedDate": "2025-10-07T00:53:07.680Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20225337",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225337.html",
+  "year": 2022
+}

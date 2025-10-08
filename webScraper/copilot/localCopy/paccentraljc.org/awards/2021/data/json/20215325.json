@@ -27,8 +27,18 @@
     "LIPL": 1.7,
     "description": "Forty-one flowers and seven buds at the distal ends of two arching inflorescences, longest 150cm; sepals and petals bright pink; lip pink overlaid green centrally; column dark pink, stippled purple centrally, anther cap white; substance medium; texture matte."
   },
-  "scrapedDate": "2025-10-08T01:01:39.592Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215325",
+  "scrapedDate": "2025-10-08T04:08:27.725Z",
+  "sourceUrl": "https://www.paccentraljc.org/210717/20215325.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215325.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.852Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215325",
+      "newValue": "https://www.paccentraljc.org/210717/20215325.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

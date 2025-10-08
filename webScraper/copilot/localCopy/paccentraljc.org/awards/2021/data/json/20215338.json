@@ -27,8 +27,18 @@
     "LIPL": 1.7,
     "description": "Fifteen flowers and 23 buds well-distributed on an upright branched inflorescence of 22cm; sepals and petals white striped pink, petals lightly flushed pink; lip white, side lobes striped pink, midlobe darker pink, central callus bright yellow; column flushed dark pink, anther cap white; substance medium; texture diamond dust."
   },
-  "scrapedDate": "2025-10-08T01:01:39.611Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215338",
+  "scrapedDate": "2025-10-08T04:08:27.742Z",
+  "sourceUrl": "https://www.paccentraljc.org/211016/20215338.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215338.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.859Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215338",
+      "newValue": "https://www.paccentraljc.org/211016/20215338.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

@@ -1,0 +1,30 @@
+{
+  "awardNum": "20215317",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Filoli Historic House",
+  "date": "May 15, 2021",
+  "genus": "Paphiopedilum",
+  "species": "Magic Paradise",
+  "clone": "Tanya Lam",
+  "cross": "Paphiopedilum liemianum x Paphiopedilum Avalon Magic",
+  "exhibitor": "",
+  "photographer": "",
+  "photo": "images/20215317.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 10,
+    "NSV": 8.1,
+    "DSW": 5.3,
+    "DSL": 4.1,
+    "PETW": 1.7,
+    "PETL": 5.2,
+    "description": "One flower and two buds on a 16.0-cm slightly arching inflorescence; dorsal sepal green, veined cordovan, wide white margin; synsepal pale green, veined darker green; petals hirsute, twisted, slightly reflexed, pale green spotted oxblood; pouch pale green, overlaid rose, stippled darker rose; staminode largely green, centrally lighter, margin velvet, tinted cordovan; substance firm; texture waxy."
+  },
+  "scrapedDate": "2025-10-08T04:08:27.709Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20215317",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215317.html",
+  "year": 2021
+}

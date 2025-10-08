@@ -26,8 +26,18 @@
     "description": "Six flowers of good form and dark color and four buds on two upright 40-cm inflorescences; dorsal sepal white, overlaid chartreuse centrally, heavily overlaid maroon proximally, veined maroon; petals chartreuse, blotched mahogany proximally, consistently rolled, spathulate, purple distally; synsepal chartreuse, veined darker; pouch chartreuse, overlaid mahogany, veined darker, staminode chartreuse, mottled darker green; substance firm; texture matte, pouch texture glossy."
   },
   "scrapedDate": "2025-10-07T00:53:07.734Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225420",
+  "sourceUrl": "https://www.paccentraljc.org/220326/20225420.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225420.html",
   "year": 2022,
-  "display": true
+  "display": true,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.201Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225420",
+      "newValue": "https://www.paccentraljc.org/220326/20225420.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

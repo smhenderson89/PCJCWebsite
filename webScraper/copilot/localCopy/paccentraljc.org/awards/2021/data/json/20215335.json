@@ -27,8 +27,18 @@
     "LIPL": 4,
     "description": "Nine flowers on two inflorescences to 40cm long; sepals and petals green heavily suffused maroon to appear dense bronze; lip white, flushed and veined bright purple, crest light lavender; column green fully overlaid black basally, mottled at tip, anther cap green; substance firm; texture matte."
   },
-  "scrapedDate": "2025-10-08T01:01:39.607Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215335",
+  "scrapedDate": "2025-10-08T04:08:27.738Z",
+  "sourceUrl": "https://www.paccentraljc.org/210918/20215335.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215335.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.858Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215335",
+      "newValue": "https://www.paccentraljc.org/210918/20215335.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

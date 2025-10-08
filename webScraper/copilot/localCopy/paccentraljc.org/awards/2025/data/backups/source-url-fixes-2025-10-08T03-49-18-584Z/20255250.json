@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255250",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Filoli Historic House Monthly",
+  "date": "January 18, 2025",
+  "genus": "Ken",
+  "species": "Siew",
+  "clone": "Filoli",
+  "cross": "Cymbidium erythraeum × Cymbidium tracyanum",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255250.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 10.7,
+    "NSV": 3.8,
+    "DSL": 5,
+    "DSW": 1.2,
+    "PETL": 5.2,
+    "PETW": 0.6,
+    "numFlowers": 34,
+    "numBuds": 1,
+    "numInflorescences": 3,
+    "description": "Thirty-four flowers and one bud on three up to 72-cm inflorescences; sepals and petals lanceolate, light olive green, boldly striped light mahogany, dorsal sepal very hooded; lip slightly recurved distally, side lobes erect, cream overlaid light yellow distal half, side lobes striped brown, midlobe spotted mahogany, central mahogany stripe, keel cream spotted mahogany; column white overlaid yellow anterior, striped mahogany interior, anther cap cream, mahogany picotee; substance firm; texture matte.",
+    "LSW": 1.2,
+    "LSL": 4.2,
+    "LIPW": 3,
+    "LIPL": 3.8
+  },
+  "scrapedDate": "2025-10-04T06:36:44.267Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255250",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255250.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.842Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Filoli Historic House Monthly",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

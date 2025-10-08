@@ -28,7 +28,17 @@
     "description": "Thirty-seven very small flowers and nine buds on seven mature and three juvenile infloresences between 3.8 to 4.0cm long; plant 42.5cm high by 48.9cm wide, 44 slender upright bamboo-like growths, leaves lancolate, well separated along slender growths, leaves average 11.2cm by 1.2cm, grown in bark and perlite, 14-cm plastic pot; sepals and petals magenta; lip u-shaped, fringed, white overlaid magenta distally, two red blotches centrally; column white overlaid magenta, two black dots at tip; substance hard; texture matte; spent flower bracts green."
   },
   "scrapedDate": "2025-10-07T00:53:07.738Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225422",
+  "sourceUrl": "https://www.paccentraljc.org/220508/20225422.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225422.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.202Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225422",
+      "newValue": "https://www.paccentraljc.org/220508/20225422.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

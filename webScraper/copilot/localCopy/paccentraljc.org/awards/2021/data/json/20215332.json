@@ -27,8 +27,18 @@
     "LIPL": 1.4,
     "description": "Five flowers and two buds on one 29.2-cm inflorescence; sepals cream boldly striped deep rose; petals porrect, cream marked rose, deep rose stripe at midline; lip recurved distal edge, cream, blotched deep rose; column pale yellow, anther cap yellow; substance firm; texture matte."
   },
-  "scrapedDate": "2025-10-08T01:01:39.603Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215332",
+  "scrapedDate": "2025-10-08T04:08:27.734Z",
+  "sourceUrl": "https://www.paccentraljc.org/210821/20215332.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215332.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.854Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215332",
+      "newValue": "https://www.paccentraljc.org/210821/20215332.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

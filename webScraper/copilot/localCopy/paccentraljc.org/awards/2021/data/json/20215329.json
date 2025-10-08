@@ -23,8 +23,18 @@
     "LSL": 5.3,
     "description": "Six flowers and one bud on seven 17-cm inflorescences; flowers magenta, gold caudae, dorsal cauda 4.8cm, lateral caudae 3.0cm, dorsal sepal lighter magneta, lateral sepals intense magenta, dark purple veins; petals minute, purple; lip purple; column white; substance very firm; texture velvet."
   },
-  "scrapedDate": "2025-10-08T01:01:39.599Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215329",
+  "scrapedDate": "2025-10-08T04:08:27.731Z",
+  "sourceUrl": "https://www.paccentraljc.org/210808/20215329.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215329.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.853Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215329",
+      "newValue": "https://www.paccentraljc.org/210808/20215329.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

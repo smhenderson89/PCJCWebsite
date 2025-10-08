@@ -23,8 +23,18 @@
     "PETL": 7.7,
     "description": "One flower on one 22-cm inflorescence on a single growth plant; dorsal sepal white striped bright green; synsepal light green striped bright green; petals hirsute, ivory striped green, fading distally, translucent stripe lower half, warts upper half; pouch pale green, veined green; staminode pale green tessellated dark green centrally; substance firm; texture waxy."
   },
-  "scrapedDate": "2025-10-08T01:01:39.605Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215333",
+  "scrapedDate": "2025-10-08T04:08:27.736Z",
+  "sourceUrl": "https://www.paccentraljc.org/210821/20215333.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215333.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.854Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215333",
+      "newValue": "https://www.paccentraljc.org/210821/20215333.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

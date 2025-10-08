@@ -28,7 +28,17 @@
     "description": "Six star-shaped flowers and three buds on one 16-cm cut inflorescence; sepals and petals light chartreuse, speckled maroon, petals rotated 90 degrees downward; lip light chartreuse, overlaid bright maroon, creating longitudinal cream stripes; anther cap light yellow; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.678Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225336",
+  "sourceUrl": "https://www.paccentraljc.org/220618/20225336.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225336.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.180Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225336",
+      "newValue": "https://www.paccentraljc.org/220618/20225336.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

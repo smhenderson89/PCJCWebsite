@@ -28,7 +28,17 @@
     "description": "Five flowers and five buds on a 47-cm inflorescence; sepals and petals cream, uniformly flushed light pink; lip spatulate, white veined dark magenta distal half; column pale yellow, uniform magenta speckels, anther cap light yellow; substance medium; texture crystalline."
   },
   "scrapedDate": "2025-10-07T00:53:07.613Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225264",
+  "sourceUrl": "https://www.paccentraljc.org/221206/20225264.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225264.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.156Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225264",
+      "newValue": "https://www.paccentraljc.org/221206/20225264.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

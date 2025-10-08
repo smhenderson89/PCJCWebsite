@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255303",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Filoli Historic House Monthly",
+  "date": "June 21, 2025",
+  "genus": "Hsin",
+  "species": "Venus",
+  "clone": "Debby",
+  "cross": "Phalaenopsis Dragon's Gold × Phalaenopsis I-Hsin Viola Tris",
+  "exhibitor": "Tom Waugh",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255303.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 5.2,
+    "NSV": 4.5,
+    "DSL": 2.8,
+    "DSW": 2.1,
+    "PETL": 2.5,
+    "PETW": 1.8,
+    "numFlowers": 20,
+    "numBuds": 30,
+    "numInflorescences": 6,
+    "description": "Twenty flat flowers and 30 buds on six staked, branched, up to 23-cm inflorescences; 33-cm wide by 35-cm tall plant, 12-cm clay pot, grown in sphagnum moss; sepals and petals gold-chartreuse overlaid magenta, dorsal sepal oval, lateral sepals and petals elliptic; lip white overlaid dark fuchsia, side lobes erect, rhomboid, midlobe spatulate, apex white, callus yellow; column white, flushed light magenta basally, anther cap white; substance firm; texture crystallne; also received award 20255304.",
+    "LSW": 2.1,
+    "LSL": 2.6,
+    "LIPW": 1.3,
+    "LIPL": 2
+  },
+  "scrapedDate": "2025-10-04T06:36:44.359Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255303",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255303.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.893Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Filoli Historic House Monthly",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

@@ -27,8 +27,18 @@
     "LIPL": 2.1,
     "description": "Approximately 2288 flowers in very fine condition and three buds on 12 highly branched inflorescences approximately 151cm long; exceptionally well-grown 137x103-cm plant in bark, 36 flat pseudobulbs 13.5x6cm, leathery leaves 47x9.2cm, 31-cm bulb pan; sepals and petals reflexed, coiled, light chartreuse barred light mahogany; lip white, ruffled side lobes, spotted light brown, claw white spotted light brown, callus yellow spotted light brown; column chartreuse, column wings white spotted light brown, anther cap chartreuse; substance soft; texture matte; all flowers in peak condition influenced the cultural award; see award #20215323 also."
   },
-  "scrapedDate": "2025-10-08T01:01:39.591Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215324",
+  "scrapedDate": "2025-10-08T04:08:27.723Z",
+  "sourceUrl": "https://www.paccentraljc.org/210717/20215324.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215324.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.852Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215324",
+      "newValue": "https://www.paccentraljc.org/210717/20215324.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

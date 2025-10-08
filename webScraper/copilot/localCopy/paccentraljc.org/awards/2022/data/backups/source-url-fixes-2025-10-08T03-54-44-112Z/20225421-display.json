@@ -1,0 +1,25 @@
+{
+  "awardNum": "20225421",
+  "award": "SHOW TROPHY",
+  "awardpoints": "N/A",
+  "location": "Sonoma County Orchid Society Show",
+  "date": "March 26, 2022",
+  "genus": "Display",
+  "species": "Display",
+  "clone": "",
+  "cross": "",
+  "exhibitor": "Sonoma Orchid Society",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225421.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "description": "Large 130-square-foot display of a wide variety of genera well grown by society members; well balanced arrangement with taller plants on both sides and smaller growing plants towards center; a globe at the center and national flags throughout the display to highlight the theme of global exploration."
+  },
+  "scrapedDate": "2025-10-07T00:53:07.737Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20225421",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225421.html",
+  "year": 2022,
+  "display": true
+}

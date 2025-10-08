@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255364",
+  "award": "SC",
+  "awardpoints": 85,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 27, 2025",
+  "genus": "Pacific",
+  "species": "Orchid",
+  "clone": null,
+  "cross": "home",
+  "exhibitor": "Marin Orchid Society",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20255364.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": null,
+    "NSV": null,
+    "DSL": null,
+    "DSW": null,
+    "PETL": null,
+    "PETW": null,
+    "numFlowers": null,
+    "numBuds": null,
+    "numInflorescences": null,
+    "description": "Multi-level display 122 cm x 400 cm, wide variety of genera, species and hybrids, includng dendrobium, cattleya, cymbidium, coelogyne, masdevallia, paphiopedilum, lycaste, and maxillaria, colors flowing from pink to yellow to orange, focal point a Dendrobium speciosum; also received the Show Trophy, 20255363.",
+    "LSW": null,
+    "LSL": null,
+    "LIPW": null,
+    "LIPL": null
+  },
+  "scrapedDate": "2025-10-04T06:36:44.402Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255364",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255364.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.927Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Pacific Orchid Exposition",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

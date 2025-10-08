@@ -28,7 +28,17 @@
     "description": "One thousand nine hundred fourteen flowers and 174 buds on 87 32-cm inflorescences; displayed fully around an immaculately grown 143-cm x 75-cm plant in a 25-cm plastic pot; flowers white; lip speckled lavender; substance average; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.722Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225412",
+  "sourceUrl": "https://www.paccentraljc.org/220224/20225412.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225412.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.196Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225412",
+      "newValue": "https://www.paccentraljc.org/220224/20225412.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

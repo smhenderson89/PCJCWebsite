@@ -1,0 +1,44 @@
+{
+  "awardNum": "20205256",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "San Francisco",
+  "date": "February 4, 2020",
+  "genus": "Cymbidium",
+  "species": "Kimberley Beauty",
+  "clone": "Woodside",
+  "cross": "Cymbidium Red Beauty x Cymbidium Kirbey Lesh",
+  "exhibitor": "",
+  "photographer": "",
+  "photo": "images/20205256.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 11.5,
+    "NSV": 9,
+    "DSW": 4.3,
+    "DSL": 6.8,
+    "PETW": 3.7,
+    "PETL": 7,
+    "LSW": 4.4,
+    "LSL": 6.8,
+    "LIPW": 3.9,
+    "LIPL": 4.3,
+    "description": "Eleven flowers on one upright inflorescence; sepals and petals slightly cupped, cream, striped and overlaid pink-rose; lip cream, side lobes speckled pink rose upper edge, midlobe spotted and edged maroon, keels yellow, speckled maroon; column dark maroon, anther cap cream, lightly speckled maroon; substance firm; texture matte."
+  },
+  "scrapedDate": "2025-10-08T04:13:57.405Z",
+  "sourceUrl": "https://www.paccentraljc.org/200204/20205256.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205256.html",
+  "year": 2020,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:15:06.149Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20205256",
+      "newValue": "https://www.paccentraljc.org/200204/20205256.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

@@ -27,8 +27,18 @@
     "LIPL": 5,
     "description": "Ten flowers on two 43-cm canes; sepals and petals lavender, white proixmal end, darker lavender veins, white spot distally; lip flat, white proximally, prominent purple veins, white spot distally; column white; substance firm; texture crystalline."
   },
-  "scrapedDate": "2025-10-08T01:01:39.600Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215330",
+  "scrapedDate": "2025-10-08T04:08:27.732Z",
+  "sourceUrl": "https://www.paccentraljc.org/210808/20215330.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215330.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.854Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215330",
+      "newValue": "https://www.paccentraljc.org/210808/20215330.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

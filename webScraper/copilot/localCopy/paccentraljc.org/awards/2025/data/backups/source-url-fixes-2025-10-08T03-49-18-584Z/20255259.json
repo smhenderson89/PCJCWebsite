@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255259",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Filoli Historic House Monthly",
+  "date": "February 15, 2025",
+  "genus": "Camryn",
+  "species": "Quest",
+  "clone": "Voyage",
+  "cross": "Cymbidium Dorothy Rowe × Cymbidium Red Beauty",
+  "exhibitor": "Ceajay Palanca",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255259.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 12,
+    "NSV": 11.2,
+    "DSL": 6,
+    "DSW": 4.1,
+    "PETL": 6.3,
+    "PETW": 4.3,
+    "numFlowers": 18,
+    "numBuds": 6,
+    "numInflorescences": 2,
+    "description": "Eighteen slightly starry flowers on one 107-cm staked, upright inflorescence, six buds on a juvenile inflorescence; sepals and petals cream overlaid rose, darker rose veining, narrow white edges; lip cream, midlobe boldly barred and marked bugundy, edged white, keels yellow marked burgundy, side lobes barred and marked burgundy; column superior surface rose shading to dark rose distally, inferior surface barred burgundy, anther cap white; substance medium; texture matte.",
+    "LSW": 4.3,
+    "LSL": 6.6,
+    "LIPW": 4.5,
+    "LIPL": 5.2
+  },
+  "scrapedDate": "2025-10-04T06:36:44.291Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255259",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255259.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.855Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Filoli Historic House Monthly",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

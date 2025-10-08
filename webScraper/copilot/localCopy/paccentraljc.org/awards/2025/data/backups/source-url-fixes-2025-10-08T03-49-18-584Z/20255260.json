@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255260",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Gold Coast Cymbidium Society Outreach",
+  "date": "February 21, 2025",
+  "genus": "Emperor",
+  "species": "Amber",
+  "clone": "Linsie",
+  "cross": "Cymbidium Chaohung Golden Jade × Cymbidium Chaohung Royal Topaz",
+  "exhibitor": "Linsie Hu",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255260.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 12.1,
+    "NSV": 9.6,
+    "DSL": 9.2,
+    "DSW": 5.8,
+    "PETL": 8.6,
+    "PETW": 3.9,
+    "numFlowers": 15,
+    "numBuds": 3,
+    "numInflorescences": 2,
+    "description": null,
+    "LSW": 5.2,
+    "LSL": 9.2,
+    "LIPW": 4,
+    "LIPL": 4.9
+  },
+  "scrapedDate": "2025-10-04T06:36:44.294Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255260",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255260.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.856Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Gold Coast Cymbidium Society Outreach",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

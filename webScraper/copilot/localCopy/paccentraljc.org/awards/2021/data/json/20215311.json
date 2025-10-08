@@ -27,8 +27,18 @@
     "LIPL": 0.5,
     "description": "Fifty-seven flowers and 47 buds on nine gracefully arched inflorescences; sepals and petals white flushed rose-pink, concentrically barred scarlet proximally; saccate lip white, spotted yellow centrally; substance firm; texture matte."
   },
-  "scrapedDate": "2025-10-08T01:01:39.567Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215311",
+  "scrapedDate": "2025-10-08T04:08:27.698Z",
+  "sourceUrl": "https://www.paccentraljc.org/210417/20215311.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215311.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.846Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215311",
+      "newValue": "https://www.paccentraljc.org/210417/20215311.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

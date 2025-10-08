@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255253",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "Filoli Historic House Monthly",
+  "date": "January 18, 2025",
+  "genus": "Cattleya",
+  "species": "walkeriana",
+  "clone": "Maximo",
+  "cross": "home",
+  "exhibitor": "Steven Christoffersen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255253.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 10.3,
+    "NSV": 9.8,
+    "DSL": 5.9,
+    "DSW": 2.3,
+    "PETL": 5.5,
+    "PETW": 4.8,
+    "numFlowers": 2,
+    "numBuds": 2,
+    "numInflorescences": 2,
+    "description": "Two flowers and two buds on two up to 12-cm inflorescences; sepals and petals lavender, veined darker lavender; lip side lobes enclose column, lavender, midlobe spatulate, white overlaid dark lavender distal half, veined dark lavender proximally; column wide, white blushed lavender; substance firm; textured crystalline.",
+    "LSW": 2,
+    "LSL": 5.2,
+    "LIPW": 4.2,
+    "LIPL": 5
+  },
+  "scrapedDate": "2025-10-04T06:36:44.278Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255253",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255253.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.850Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Filoli Historic House Monthly",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

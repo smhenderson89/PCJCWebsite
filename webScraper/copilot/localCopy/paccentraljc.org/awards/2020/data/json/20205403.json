@@ -1,0 +1,40 @@
+{
+  "awardNum": "20205403",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "February 15, 2020",
+  "genus": "Paphiopedilum",
+  "species": "Big Thunder",
+  "clone": "Monterey Bay",
+  "cross": "Paphiopedilum Big Smile x Paphiopedilum Thunder World",
+  "exhibitor": "",
+  "photographer": "",
+  "photo": "images/20205403.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 12.5,
+    "NSV": 10.4,
+    "DSW": 11,
+    "DSL": 7.3,
+    "PETW": 5.6,
+    "PETL": 7,
+    "description": "One flower on one 25.5-cm inflorescence; sepals white, yellow-green centrally, heavy distinct dark burgundy spots; petals yellow-green, few spots apically, overlaid cordovan; pouch yellow-green, heavily overlaid dark cordovan; substance firm; texture waxy."
+  },
+  "scrapedDate": "2025-10-08T04:13:57.464Z",
+  "sourceUrl": "https://www.paccentraljc.org/200215/20205403.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205403.html",
+  "year": 2020,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:15:06.162Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20205403",
+      "newValue": "https://www.paccentraljc.org/200215/20205403.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

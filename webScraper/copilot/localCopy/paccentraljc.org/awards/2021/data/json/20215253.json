@@ -27,8 +27,18 @@
     "LIPL": 1.3,
     "description": "Twenty-one flowers and 21 buds on 42 1.2-cm inflorescences; sepals and petals clear pale green; lip circular, clear pale green overlaid burgundy, stronger centrally; anther cap ivory; substance medium; texture waxy."
   },
-  "scrapedDate": "2025-10-08T01:01:39.528Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215253",
+  "scrapedDate": "2025-10-08T04:08:27.660Z",
+  "sourceUrl": "https://www.paccentraljc.org/211005/20215253.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215253.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.834Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215253",
+      "newValue": "https://www.paccentraljc.org/211005/20215253.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

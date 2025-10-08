@@ -1,0 +1,44 @@
+{
+  "awardNum": "20205309",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 20, 2020",
+  "genus": "Dendrobium",
+  "species": "Greta Snow",
+  "clone": "Cheryl",
+  "cross": "Dendrobium Jayden x Dendrobium speciosum",
+  "exhibitor": "",
+  "photographer": "",
+  "photo": "images/20205309.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 5,
+    "NSV": 8.2,
+    "DSW": 1.9,
+    "DSL": 5.2,
+    "PETW": 1.9,
+    "PETL": 4.4,
+    "LSW": 1.1,
+    "LSL": 4.2,
+    "LIPW": 1.2,
+    "LIPL": 2,
+    "description": "One hundred thirteen flowers and 79 buds on seven 28-cm to 42-cm inflorescences, 21 buds on one 28-cm immature inflorescence; sepals and petals cream-white; lip cream-white, keel yellow; anther cap white; substance firm; texture crystalline."
+  },
+  "scrapedDate": "2025-10-08T04:13:57.434Z",
+  "sourceUrl": "https://www.paccentraljc.org/200220/20205309.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205309.html",
+  "year": 2020,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:15:06.157Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20205309",
+      "newValue": "https://www.paccentraljc.org/200220/20205309.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

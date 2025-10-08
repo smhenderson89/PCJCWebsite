@@ -28,7 +28,17 @@
     "description": "Eleven well-presented stellate flowers on a 60.0-cm cut inflorescence; sepals and petals green overlaid cordovan veins, diffused cordovan between veins; lip heavily recurved, white, burgundy spots, hirsuite centrally, side lobes heavily stripped burgundy; column cream, burgundy tip, underside spotted burgundy; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.701Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225354",
+  "sourceUrl": "https://www.paccentraljc.org/221217/20225354.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225354.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.190Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225354",
+      "newValue": "https://www.paccentraljc.org/221217/20225354.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

@@ -23,8 +23,18 @@
     "PETL": 5.2,
     "description": "One flower and two buds on a 16.0-cm slightly arching inflorescence; dorsal sepal green, veined cordovan, wide white margin; synsepal pale green, veined darker green; petals hirsute, twisted, slightly reflexed, pale green spotted oxblood; pouch pale green, overlaid rose, stippled darker rose; staminode largely green, centrally lighter, margin velvet, tinted cordovan; substance firm; texture waxy."
   },
-  "scrapedDate": "2025-10-08T01:01:39.578Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215317",
+  "scrapedDate": "2025-10-08T04:08:27.709Z",
+  "sourceUrl": "https://www.paccentraljc.org/210515/20215317.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215317.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.849Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215317",
+      "newValue": "https://www.paccentraljc.org/210515/20215317.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

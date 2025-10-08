@@ -27,8 +27,18 @@
     "LIPL": 4.8,
     "description": "Four non-resupinate female flowers on one 10-cm inflorescence; sepals and petals green-yellow, midrib more prominant green; lip cream overlaid green distally, callus dark green; column green; substance very firm; texture waxy."
   },
-  "scrapedDate": "2025-10-08T01:01:39.521Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215251",
+  "scrapedDate": "2025-10-08T04:08:27.656Z",
+  "sourceUrl": "https://www.paccentraljc.org/210907/20215251.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215251.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.834Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215251",
+      "newValue": "https://www.paccentraljc.org/210907/20215251.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

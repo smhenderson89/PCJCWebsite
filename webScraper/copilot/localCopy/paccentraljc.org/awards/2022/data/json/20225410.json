@@ -26,7 +26,17 @@
     "description": "Four flowers and one bud on five inflorescences, longest inflorescence 9.3cm; hooded dorsal sepal yellow, marked maroon, cauda green-yellow; lateral sepals rolled proximal three-quarters, yellow overlaid burgundy, caudae green-yellow; small petals yellow, marked maroon; lip maroon; anther cap bright yellow; substance firm; texture waxy."
   },
   "scrapedDate": "2025-10-07T00:53:07.720Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225410",
+  "sourceUrl": "https://www.paccentraljc.org/220224/20225410.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225410.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.195Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225410",
+      "newValue": "https://www.paccentraljc.org/220224/20225410.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

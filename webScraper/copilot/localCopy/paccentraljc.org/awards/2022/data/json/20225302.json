@@ -28,7 +28,17 @@
     "description": "Forty-one slightly cupped flowers and 45 buds on 19 erect 17-cm average inflorescences; sepals and petals white overlaid vibrant fuchsia distal three-fourths; lip white overlaid light fuchsia, darker centrally; column bright fuchsia, anther cap white; substance firm; texture crystalline."
   },
   "scrapedDate": "2025-10-07T00:53:07.620Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225302",
+  "sourceUrl": "https://www.paccentraljc.org/220219/20225302.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225302.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.159Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225302",
+      "newValue": "https://www.paccentraljc.org/220219/20225302.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

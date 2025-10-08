@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255359",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 27, 2025",
+  "genus": "Phyllis",
+  "species": "Chim",
+  "clone": "Phyllis",
+  "cross": "Cymbidium So Bold × Cymbidium Cora Paddison",
+  "exhibitor": "Paula Shiu",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20255359.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 11.4,
+    "NSV": 9,
+    "DSL": 8,
+    "DSW": 4.9,
+    "PETL": 6,
+    "PETW": 4.5,
+    "numFlowers": 10,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Ten striking flowers on one 70-cm inflorescence; sepals and petals golden yellow, veins burgundy, darker burgundy midrib; lip golden yellow overlaid white internally, yellow picotee, burgundy apically, randomly spotted burgundy, keels white spotted burgundy; column gold stippled burgundy, anther cap white; substance hard; texture waxy, lip diamond dust.",
+    "LSW": 4.8,
+    "LSL": 6.6,
+    "LIPW": 4.8,
+    "LIPL": 5
+  },
+  "scrapedDate": "2025-10-04T06:36:44.397Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255359",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255359.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.921Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Pacific Orchid Exposition",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

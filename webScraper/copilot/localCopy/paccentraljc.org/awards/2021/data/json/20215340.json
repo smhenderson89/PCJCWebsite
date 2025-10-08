@@ -23,8 +23,18 @@
     "PETL": 7.5,
     "description": "One striking flower on one staked 23.0-cm upright inflorescence; dorsal sepal apiculate, cream heavily overlaid burgundy, veined black-burgundy; synsepal burgundy, striated saturated-burgundy; petals ciliate, cream, proximally blushed green, heavily overlaid burgundy distally and on upper margins; pouch downy, black-burgundy; staminode cream, suffused rose apically, burgundy distally; substance firm; texture glossy."
   },
-  "scrapedDate": "2025-10-08T01:01:39.616Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215340",
+  "scrapedDate": "2025-10-08T04:08:27.747Z",
+  "sourceUrl": "https://www.paccentraljc.org/211120/20215340.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215340.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.862Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215340",
+      "newValue": "https://www.paccentraljc.org/211120/20215340.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

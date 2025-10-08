@@ -29,7 +29,7 @@
     "LIPL": 4
   },
   "scrapedDate": "2025-10-04T06:36:44.396Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20255358",
+  "sourceUrl": "https://www.paccentraljc.org/250227/20255358.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255358.html",
   "year": 2025,
   "corrections": [
@@ -40,6 +40,14 @@
       "newValue": "Pacific Orchid Exposition",
       "source": "automated-location-population",
       "reason": "Location populated from HTML page (equivalent to index)"
+    },
+    {
+      "timestamp": "2025-10-08T03:49:18.722Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20255358",
+      "newValue": "https://www.paccentraljc.org/250227/20255358.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
     }
   ]
 }

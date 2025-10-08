@@ -26,7 +26,17 @@
     "description": "One full flower on one 18-cm inflorescence; dorsal sepal white, light green basally, large thick dark burgundy spots, plentiful centrally; synsepal white overlaid chartreuse, dark burgundy spots lined vertically; petals chartreuse, overlaid mahogany, thick dark burgundy spots basally; pouch chartreuse, overlaid mahogany, rimmed chartreuse; staminode chartreuse, lightly spotted burgundy; substance firm; texture waxy."
   },
   "scrapedDate": "2025-10-07T00:53:07.705Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225401",
+  "sourceUrl": "https://www.paccentraljc.org/220224/20225401.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225401.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.191Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225401",
+      "newValue": "https://www.paccentraljc.org/220224/20225401.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

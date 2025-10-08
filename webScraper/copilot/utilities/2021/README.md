@@ -2,7 +2,7 @@
 
 This folder contains the essential utilities for analyzing 2021 PCJC orchid awards data, adapted from the successful 2022 workflow.
 
-## Essential Files (4 total):
+## Essential Files (5 total):
 
 ### 1. `extract-2021-ENHANCED-display-aware.js`
 - **Purpose**: Extract structured JSON data from 2021 HTML award files
@@ -39,11 +39,22 @@ This folder contains the essential utilities for analyzing 2021 PCJC orchid awar
 - **Usage**: Modify correction mapping in file, then `node apply-2021-corrections.js`
 - **Dependency**: Requires categorized issues from step 3
 
+### 5. `fix-2021-source-urls.js`
+- **Purpose**: Fix source URL structure to reflect actual website architecture
+- **Features**:
+  - Updates sourceUrl from generic `/awards/` format to specific `/YYMMDD/awardNum.html` format
+  - Automatic date parsing and YYMMDD conversion (e.g., "September 07, 2021" → "210907")
+  - Creates backups before modifications and detailed correction tracking
+  - Adds correction entries to track all sourceUrl changes
+- **Usage**: `node fix-2021-source-urls.js`
+- **Results**: ✅ **COMPLETED** - All 50 files successfully updated (100% success rate)
+
 ## Workflow:
-1. Extract data → 2. Analyze → 3. Categorize issues → 4. Apply corrections
+1. Extract data → 2. Analyze → 3. Categorize issues → 4. Apply corrections → 5. Fix source URLs
 
 ## Status: 
 ✅ Scripts adapted from successful 2022 workflow  
+✅ Source URL corrections complete (50/50 files updated)
 🎯 Ready to process 2021 data (65 HTML files + 100 images available)
 📋 Based on proven methodology that successfully processed 2022 data
 

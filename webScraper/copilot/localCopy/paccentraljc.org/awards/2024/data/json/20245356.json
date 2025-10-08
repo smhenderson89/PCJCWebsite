@@ -30,7 +30,17 @@
     "LIPL": 1.2
   },
   "scrapedDate": "2025-10-04T06:14:09.526Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20245356",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245356.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245356.html",
-  "year": 2024
+  "year": 2024,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:51:39.806Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20245356",
+      "newValue": "https://www.paccentraljc.org/240215/20245356.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

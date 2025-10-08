@@ -1,0 +1,41 @@
+{
+  "awardNum": "20205317",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 20, 2020",
+  "genus": "",
+  "species": "",
+  "clone": "",
+  "cross": "",
+  "exhibitor": "",
+  "photographer": "",
+  "photo": "images/20205317.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 14.1,
+    "NSV": 12.5,
+    "DSW": 4,
+    "DSL": 6,
+    "PETW": 1.7,
+    "PETL": 7.9,
+    "description": "One flower on one 19.2-cm inflorescence; sepals cream, flushed and veined dark green; hirsute petals cream, green centrally, flushed and veined mahogany fading apically; pouch green, heavily flushed dark mahogany; staminode dark green, darker green veins centrally; substance thick; texture hirsute."
+  },
+  "scrapedDate": "2025-10-08T04:13:57.454Z",
+  "sourceUrl": "https://www.paccentraljc.org/200220/20205317.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205317.html",
+  "year": 2020,
+  "display": true,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:15:06.161Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20205317",
+      "newValue": "https://www.paccentraljc.org/200220/20205317.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

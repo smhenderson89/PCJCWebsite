@@ -26,7 +26,17 @@
     "description": "Three well presented flowers on a 46-cm erect inflorescence; dorsal sepal vibrant chartreuse, heavily striped dark mahogany; synsepal vibrant chartreuse, mahogany stripes; petals symetrically twisted, light green, spotted and barred mahogany basally, coalesced into solid mahogany distally, proximal margins ruffled, sparsely hirsute; pouch light green overlaid mahogany except distal tip; staminode light green-yellow, mahogany cilia edges; substance firm; texture matte, pouch glossy."
   },
   "scrapedDate": "2025-10-07T00:53:07.667Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225329",
+  "sourceUrl": "https://www.paccentraljc.org/220521/20225329.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225329.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.176Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225329",
+      "newValue": "https://www.paccentraljc.org/220521/20225329.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

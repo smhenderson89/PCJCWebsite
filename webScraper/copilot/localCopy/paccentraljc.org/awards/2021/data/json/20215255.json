@@ -27,8 +27,18 @@
     "LIPL": 6.1,
     "description": "Seven flowers and one bud crowded on two 8.5-cm inflorescences; sepals gold, dusted rose; petals gold, heavily overlaid rose; lip yellow, overlaid rose distally, rose stripe up center; column yellow, anther cap white; substance very firm; texture matte."
   },
-  "scrapedDate": "2025-10-08T01:01:39.534Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215255",
+  "scrapedDate": "2025-10-08T04:08:27.667Z",
+  "sourceUrl": "https://www.paccentraljc.org/211102/20215255.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215255.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.835Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215255",
+      "newValue": "https://www.paccentraljc.org/211102/20215255.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

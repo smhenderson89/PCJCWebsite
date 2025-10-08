@@ -28,7 +28,17 @@
     "description": "Four round, flat, full flowers on two 11.2-cm inflorescences; sepals and petals deep magenta; lip dark magenta distally, throat golden yellow; column white overlaid pale lavendar, anther cap white; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.604Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225260",
+  "sourceUrl": "https://www.paccentraljc.org/220906/20225260.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225260.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.153Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225260",
+      "newValue": "https://www.paccentraljc.org/220906/20225260.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

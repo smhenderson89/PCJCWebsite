@@ -1,0 +1,44 @@
+{
+  "awardNum": "20205310",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 20, 2020",
+  "genus": "Dracula",
+  "species": "ubangina",
+  "clone": "Colomborquideas",
+  "cross": "",
+  "exhibitor": "",
+  "photographer": "",
+  "photo": "images/20205310.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 7.5,
+    "NSV": 11,
+    "DSW": 2.4,
+    "DSL": 8.5,
+    "PETW": 0.2,
+    "PETL": 0.6,
+    "LSW": 2.7,
+    "LSL": 9.6,
+    "LIPW": 1.6,
+    "LIPL": 1.6,
+    "description": "One striking flat flower on one inflorescence; dorsal and lateral sepals cream heavily overlaid dark cordovan; caudae deep cordovan fading to tan at apex; petals cream spotted deep cordovan; lip cream; substance heavy; texture matte."
+  },
+  "scrapedDate": "2025-10-08T04:13:57.437Z",
+  "sourceUrl": "https://www.paccentraljc.org/200220/20205310.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205310.html",
+  "year": 2020,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:15:06.157Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20205310",
+      "newValue": "https://www.paccentraljc.org/200220/20205310.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

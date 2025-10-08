@@ -26,7 +26,17 @@
     "description": "Two flowers on two 4.6-cm inflorescences; dorsal sepal strongly yellow speckled purple, concentrated at midrib, cauda yellow-green, 5.9cm of the 7.4-cm dorsal length; lateral sepals white, caudae yellow-green, 5.0cm of the 7.2-cm lateral length ; petals minute, white; lip white, edged purple, purple spots; substance light-medium; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.727Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225416",
+  "sourceUrl": "https://www.paccentraljc.org/220224/20225416.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225416.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.199Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225416",
+      "newValue": "https://www.paccentraljc.org/220224/20225416.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

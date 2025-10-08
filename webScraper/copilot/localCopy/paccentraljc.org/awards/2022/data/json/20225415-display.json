@@ -18,8 +18,18 @@
     "description": "An attractive 17-ft x 5-ft rectangular, multi-tiered table and floor display with background lighting along the entire length; accents for Masquerade theme interspersed with many specimen-sized plants of a wide variety of genera; color flowed from cool to neutral to warm, left to right; flowers from over 70 plants including Dendrobium, Cattleya, Cymbidium, Paphiopedilum; Miltonia, and Leptotes; also received the Show Trophy, #20225414."
   },
   "scrapedDate": "2025-10-07T00:53:07.726Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225415",
+  "sourceUrl": "https://www.paccentraljc.org/220224/20225415.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225415.html",
   "year": 2022,
-  "display": true
+  "display": true,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.198Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225415",
+      "newValue": "https://www.paccentraljc.org/220224/20225415.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

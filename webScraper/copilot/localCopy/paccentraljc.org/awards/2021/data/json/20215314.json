@@ -23,8 +23,18 @@
     "PETL": 6.9,
     "description": "One stately flat full flower on one sturdy 25.5-cm inflorescence; dorsal sepal white, veined green-brown, overlaid green basal half, transitioning to light burgundy on marginal two-thirds; synsepal green, burgundy stripes; petals green basal half transitioning to medium burgundy marginally, heavy dark mahogany warts, upper margin hirsute; pouch burgundy, veined darker burgundy; staminode pale green, darker green centrally; substance medium; texture waxy."
   },
-  "scrapedDate": "2025-10-08T01:01:39.573Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215314",
+  "scrapedDate": "2025-10-08T04:08:27.704Z",
+  "sourceUrl": "https://www.paccentraljc.org/210515/20215314.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215314.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.848Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215314",
+      "newValue": "https://www.paccentraljc.org/210515/20215314.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

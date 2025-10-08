@@ -28,7 +28,17 @@
     "description": "Twenty-eight large, full segmented, flat flowers and 34 buds on five up to 26.5-cm inflorescences; sepals and petals white; lip base color white, side lobes pale yellow, spotted dark orange; column and anther cap yellow; substance firm; texture crystalline."
   },
   "scrapedDate": "2025-10-07T00:53:07.664Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225327",
+  "sourceUrl": "https://www.paccentraljc.org/220521/20225327.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225327.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.175Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225327",
+      "newValue": "https://www.paccentraljc.org/220521/20225327.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

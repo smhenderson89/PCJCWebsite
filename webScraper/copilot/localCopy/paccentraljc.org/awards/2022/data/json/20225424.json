@@ -28,7 +28,17 @@
     "description": "Thirteen slightly cupped flowers on one arching 53-cm inflorescence; dorsal sepal pale yellow, midrib finely spotted light burgundy; lateral sepals pale yellow, veins lightly spotted burgundy; petals pale yellow, midrib finely spotted light burgundy; lip white, sidelobes burgundy at margins, midlobe randomly marked large oxblood spots, centrally dark burgundy stripe, keels yellow; column light magenta, anther cap white; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.741Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225424",
+  "sourceUrl": "https://www.paccentraljc.org/220508/20225424.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225424.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.203Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225424",
+      "newValue": "https://www.paccentraljc.org/220508/20225424.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

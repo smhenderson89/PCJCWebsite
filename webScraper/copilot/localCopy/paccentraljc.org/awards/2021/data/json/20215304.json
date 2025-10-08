@@ -27,8 +27,18 @@
     "LIPL": 4.8,
     "description": "Nineteen full well-proportioned flowers and four buds on two inflorescences, longest 70cm; sepals and petals pale green, fine maroon speckling, denser distally; unusual cream-colored lip, overlaid broad rose band distally, darkening to maroon band apically; column rose, ventral surface spotted burgundy, anther cap yellow; substance firm; texture matte."
   },
-  "scrapedDate": "2025-10-08T01:01:39.550Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215304",
+  "scrapedDate": "2025-10-08T04:08:27.684Z",
+  "sourceUrl": "https://www.paccentraljc.org/210417/20215304.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215304.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.842Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215304",
+      "newValue": "https://www.paccentraljc.org/210417/20215304.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

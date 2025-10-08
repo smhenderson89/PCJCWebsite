@@ -1,0 +1,36 @@
+{
+  "awardNum": "20205314",
+  "award": "SHOW TROPHY",
+  "awardpoints": "N/A",
+  "location": "Pacific Orchid Exposition",
+  "date": "February 20, 2020",
+  "genus": "",
+  "species": "",
+  "clone": "",
+  "cross": "",
+  "exhibitor": "",
+  "photographer": "",
+  "photo": "images/20205314.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "LIPL": 4.2,
+    "description": "Six-foot round table display, artistically arranged with extremely high quality species plants evenly displayed around the table, abundance of specimen size plants, using multiple elevations, labels clear, not distracting."
+  },
+  "scrapedDate": "2025-10-08T04:13:57.446Z",
+  "sourceUrl": "https://www.paccentraljc.org/200220/20205314.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205314.html",
+  "year": 2020,
+  "display": true,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:15:06.159Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20205314",
+      "newValue": "https://www.paccentraljc.org/200220/20205314.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

@@ -28,7 +28,17 @@
     "description": "Three hundred eighty-eight flat flowers on 15 upright 12-cm inflorescences; plant 41cm wide x 39.5cm tall, grown in 24-cm pot, no media; sepals and petals light pink; lip dark pink; column pink, anther cap intense pink; substance average; texture matte; also awarded #20225253 AM 83 points."
   },
   "scrapedDate": "2025-10-07T00:53:07.590Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225254",
+  "sourceUrl": "https://www.paccentraljc.org/220405/20225254.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225254.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.147Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225254",
+      "newValue": "https://www.paccentraljc.org/220405/20225254.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

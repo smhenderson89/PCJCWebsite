@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255350",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "San Francisco Monthly",
+  "date": "January 7, 2025",
+  "genus": "Cymbidium",
+  "species": "goeringii",
+  "clone": "Pink Lady",
+  "cross": "home",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20255350.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 5.5,
+    "NSV": 4.8,
+    "DSL": 3.4,
+    "DSW": 0.9,
+    "PETL": 2.5,
+    "PETW": 1.1,
+    "numFlowers": 1,
+    "numBuds": 2,
+    "numInflorescences": 3,
+    "description": "One flower and two buds on three upright up-to 14-cm inflorescences; sepals lanceolate, dusty rose, veined darker rose; petals porrect, dusty rose coalescing to solid maroon basally; lip recurved, white striped maroon longitudinally; substance firm; texture matte.",
+    "LSW": 0.8,
+    "LSL": 3.2,
+    "LIPW": 0.9,
+    "LIPL": 1.4
+  },
+  "scrapedDate": "2025-10-04T06:36:44.387Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255350",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255350.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.912Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "San Francisco Monthly",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

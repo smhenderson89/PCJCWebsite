@@ -28,7 +28,17 @@
     "description": "Three slightly cupped non-resupinate flowers on three 0.8-cm inflorescences; dorsal sepal white overlaid fuchsia basal two-thirds; lateral sepals white heavily overlaid fuchsia except outer edge; petals white overlaid fuchsia basal one-third; lip white suffused fuchsia meeting burnt orange at edge, dark brown margin; substance firm; texture crystalline."
   },
   "scrapedDate": "2025-10-07T00:53:07.684Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225340",
+  "sourceUrl": "https://www.paccentraljc.org/220820/20225340.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225340.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.182Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225340",
+      "newValue": "https://www.paccentraljc.org/220820/20225340.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

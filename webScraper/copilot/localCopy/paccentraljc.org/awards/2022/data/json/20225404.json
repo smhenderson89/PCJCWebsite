@@ -28,7 +28,17 @@
     "description": "Approximately 240 flowers and six buds on 24 7.9-cm inflorescences; arising from leaf axils on four fanlike growths on a 7-cm x 5-cm cork mount, leaves 0.6cm wide, 5.5cm long, fine white roots with white hairs, root tips green; flowers translucent white; sepals and petals lanceolate; spadelike lip translucent white; anther cap bright green; pollinia yellow; substance translucent; texture crystalline; light, grass like fragrance."
   },
   "scrapedDate": "2025-10-07T00:53:07.711Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225404",
+  "sourceUrl": "https://www.paccentraljc.org/220224/20225404.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225404.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.192Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225404",
+      "newValue": "https://www.paccentraljc.org/220224/20225404.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

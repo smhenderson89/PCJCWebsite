@@ -27,8 +27,18 @@
     "LIPL": 0.6,
     "description": "Eight flowers and five buds on one upright 18-cm inflorescence; sepals and petals crystalline white, barred orange-red centrally; saccate lip orange, side lobes barred red, orange at tip ; substance medium; texture cryatalline."
   },
-  "scrapedDate": "2025-10-08T01:01:39.544Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215301",
+  "scrapedDate": "2025-10-08T04:08:27.677Z",
+  "sourceUrl": "https://www.paccentraljc.org/210417/20215301.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215301.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.841Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215301",
+      "newValue": "https://www.paccentraljc.org/210417/20215301.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

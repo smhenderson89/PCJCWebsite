@@ -28,7 +28,17 @@
     "description": "Forty-five flowers and 18 buds on five upright inflorescences up to 10cm; dorsal sepal curved forward, lavender; lateral sepals slightly cupped, lavender, fading to white at margin; petals cupped, lavender outside, streaked white and lavender inside; lip broad, flat, trilobed, dark lavender, lighter shade at the margin; substance good; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.674Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225333",
+  "sourceUrl": "https://www.paccentraljc.org/220618/20225333.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225333.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.178Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225333",
+      "newValue": "https://www.paccentraljc.org/220618/20225333.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

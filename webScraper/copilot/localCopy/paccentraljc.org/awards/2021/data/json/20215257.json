@@ -27,8 +27,18 @@
     "LIPL": 6,
     "description": "Two flat flowers well-arranged on one 7.0-cm upright inflorescence; sepals and petals deep charise; lip ruffled, yellow, fully flushed cerise, darker at margins, midlobe bright magenta distally; substance medium; texture matte."
   },
-  "scrapedDate": "2025-10-08T01:01:39.539Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215257",
+  "scrapedDate": "2025-10-08T04:08:27.673Z",
+  "sourceUrl": "https://www.paccentraljc.org/211102/20215257.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215257.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.836Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215257",
+      "newValue": "https://www.paccentraljc.org/211102/20215257.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

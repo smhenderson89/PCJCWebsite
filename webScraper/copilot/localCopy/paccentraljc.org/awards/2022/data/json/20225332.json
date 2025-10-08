@@ -28,7 +28,17 @@
     "description": "Twenty-four flowers and 16 buds spherically presented on two upright 9-cm inflorescences; flowers white; petals overlaid bold purple centrally, white picotee; lip trilobed, sidelobes overlaid purple centrally, leaving white edges, central lobe bold purple, white picotee, nectary white, 0.7cm ; substance firm; texture velvet; commended for strong lip color."
   },
   "scrapedDate": "2025-10-07T00:53:07.672Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225332",
+  "sourceUrl": "https://www.paccentraljc.org/220618/20225332.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225332.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.178Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225332",
+      "newValue": "https://www.paccentraljc.org/220618/20225332.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255298",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Filoli Historic House Monthly",
+  "date": "May 17, 2025",
+  "genus": "Kulnura",
+  "species": "Momentum",
+  "clone": "Elkhorn",
+  "cross": "Sarcochilus Kulnura Spice × Sarcochilus Sweetheart",
+  "exhibitor": "Sylvia Darr",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255298.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 2.9,
+    "NSV": 3,
+    "DSL": 1.6,
+    "DSW": 1.3,
+    "PETL": 1.6,
+    "PETW": 1,
+    "numFlowers": 62,
+    "numBuds": 42,
+    "numInflorescences": 7,
+    "description": "Sixty-two flat flowers and 42 buds on seven up to 26-cm inflorescences; sepals and petals white, marked dark red proximally, blushed dark pink distally, sepals broadly ovate, petals ovate-spatulate; lip saccate, cream, orange markings, side lobes red; column white, anther cap white; substance firm; texture slightly crystalline.",
+    "LSW": 1.2,
+    "LSL": 1.6,
+    "LIPW": 0.6,
+    "LIPL": 0.6
+  },
+  "scrapedDate": "2025-10-04T06:36:44.353Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255298",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255298.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.887Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Filoli Historic House Monthly",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

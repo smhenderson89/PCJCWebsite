@@ -29,7 +29,7 @@
     "LIPL": 1.8
   },
   "scrapedDate": "2025-10-04T06:36:44.414Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20255374",
+  "sourceUrl": "https://www.paccentraljc.org/250603/20255374.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255374.html",
   "year": 2025,
   "corrections": [
@@ -40,6 +40,14 @@
       "newValue": "San Francisco",
       "source": "automated-location-population",
       "reason": "Location populated from HTML page (only source available)"
+    },
+    {
+      "timestamp": "2025-10-08T03:49:18.729Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20255374",
+      "newValue": "https://www.paccentraljc.org/250603/20255374.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
     }
   ]
 }

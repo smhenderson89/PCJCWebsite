@@ -1,0 +1,44 @@
+{
+  "awardNum": "20205302",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 20, 2020",
+  "genus": "Cattleya",
+  "species": "Sacramento Rose",
+  "clone": "Kodiak",
+  "cross": "Cattleya Mini Purple x Cattleya alaorii",
+  "exhibitor": "",
+  "photographer": "",
+  "photo": "images/20205302.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 8.3,
+    "NSV": 8,
+    "DSW": 2.2,
+    "DSL": 4.9,
+    "PETW": 3.8,
+    "PETL": 4.3,
+    "LSW": 2.2,
+    "LSL": 5,
+    "LIPW": 2.9,
+    "LIPL": 4.2,
+    "description": "Two flowers on two 8.3 cm inflorescences; sepals and petals lavender; lip lavender, overlaid deep purple, throat brushed yellow, purple veins; substance firm; texture crystalline."
+  },
+  "scrapedDate": "2025-10-08T04:13:57.414Z",
+  "sourceUrl": "https://www.paccentraljc.org/200220/20205302.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205302.html",
+  "year": 2020,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:15:06.152Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20205302",
+      "newValue": "https://www.paccentraljc.org/200220/20205302.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

@@ -28,7 +28,17 @@
     "description": "Nine flowers on two 25-cm inflorescences; sepals and petals white blushed lavender, petals darker at lateral margins; lip white, blushed lavender, midlobe magenta, side lobes magenta at the distal margin; column blushed lavender; pollen cap pale yellow; substance firm; texture crystalline"
   },
   "scrapedDate": "2025-10-07T00:53:07.731Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225418",
+  "sourceUrl": "https://www.paccentraljc.org/220326/20225418.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225418.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.200Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225418",
+      "newValue": "https://www.paccentraljc.org/220326/20225418.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

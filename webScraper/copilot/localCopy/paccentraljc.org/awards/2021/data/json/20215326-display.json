@@ -27,9 +27,19 @@
     "LIPL": 8.1,
     "description": "Five nicely arranged flowers on one upright 32-cm inflorescence; sepals white; petals white striated slate-purple; lip white, heavily overlaid slate-purple apical two thirds, darker slate-purple veins, throat white, well defined dark slate-purple veins; column white; substance firm; texture crystalline."
   },
-  "scrapedDate": "2025-10-08T01:01:39.594Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215326",
+  "scrapedDate": "2025-10-08T04:08:27.726Z",
+  "sourceUrl": "https://www.paccentraljc.org/210717/20215326.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215326.html",
   "year": 2021,
-  "display": true
+  "display": true,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.853Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215326",
+      "newValue": "https://www.paccentraljc.org/210717/20215326.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

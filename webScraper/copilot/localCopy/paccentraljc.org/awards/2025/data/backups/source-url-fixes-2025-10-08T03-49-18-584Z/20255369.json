@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255369",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "San Francisco Monthly",
+  "date": "May 6, 2025",
+  "genus": "Kulnura",
+  "species": "Need",
+  "clone": "Bentley",
+  "cross": "Sarcochilus Kulnura Need × Sarcochilus Kulnura Euphoria",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20255369.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 3,
+    "NSV": 2.9,
+    "DSL": 1.5,
+    "DSW": 0.9,
+    "PETL": 1.9,
+    "PETW": 1.2,
+    "numFlowers": 41,
+    "numBuds": 3,
+    "numInflorescences": 7,
+    "description": "Forty-one flowers and three buds on seven up to 20-cm inflorescences; sepals and petals white heavily marked burgundy, sepals obovate, petals elliptical; lip saccate, white, some burgundy spots; column white, anther cap white; substance firm; texture matte.",
+    "LSW": 0.8,
+    "LSL": 1.2,
+    "LIPW": 0.4,
+    "LIPL": 0.6
+  },
+  "scrapedDate": "2025-10-04T06:36:44.409Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255369",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255369.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.933Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "San Francisco Monthly",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}

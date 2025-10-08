@@ -27,8 +27,18 @@
     "LIPL": 0.5,
     "description": "Twelve intensely colored flowers and 14 buds on two inflorescences, longest 18cm; flowers white heavily overlaid dark red blotches; lip saccate, yellow, diffused orange centrally; substance firm; texture crystalline."
   },
-  "scrapedDate": "2025-10-08T01:01:39.583Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20215319",
+  "scrapedDate": "2025-10-08T04:08:27.715Z",
+  "sourceUrl": "https://www.paccentraljc.org/210515/20215319.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215319.html",
-  "year": 2021
+  "year": 2021,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T04:08:57.850Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20215319",
+      "newValue": "https://www.paccentraljc.org/210515/20215319.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

@@ -28,7 +28,17 @@
     "description": "Two flowers on one 23-cm inflorescence; sepals and petals cordovan-bronze, darker veins, petals tend towards porrect; lip slightly reflexed, yellow, burgundy splotch at tip, burgundy markings throughout; column green overlaid cordovan-bronze markings on top, burgundy markings underside, anther cap white; substance towards firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.618Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225301",
+  "sourceUrl": "https://www.paccentraljc.org/220219/20225301.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225301.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.158Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225301",
+      "newValue": "https://www.paccentraljc.org/220219/20225301.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

@@ -28,7 +28,17 @@
     "description": "Three flowers on one 15-cm inflorescence; flowers green overlaid dusty rose-bronze; sepals spotted dark purple, more concentrated on lateral sepals; petals heavily spotted dark purple; reverse of flower heavly spotted dark purple; lip white, side lobes yellow centrally blushed pink, ruffled midlobe flushed bright magenta; substance very firm; texture waxy, lip diamond dust."
   },
   "scrapedDate": "2025-10-07T00:53:07.688Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225343",
+  "sourceUrl": "https://www.paccentraljc.org/220917/20225343.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225343.html",
-  "year": 2022
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.184Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225343",
+      "newValue": "https://www.paccentraljc.org/220917/20225343.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
 }

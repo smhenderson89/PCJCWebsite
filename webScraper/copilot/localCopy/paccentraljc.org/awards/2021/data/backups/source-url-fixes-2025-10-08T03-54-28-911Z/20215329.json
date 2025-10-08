@@ -1,0 +1,30 @@
+{
+  "awardNum": "20215329",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Peninsula Orchid Society Show",
+  "date": "August 8, 2021",
+  "genus": "Masdevallia",
+  "species": "Purple Haze",
+  "clone": "Lise",
+  "cross": "Masdevallia discoidea x Masdevallia infracta",
+  "exhibitor": "",
+  "photographer": "",
+  "photo": "images/20215329.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 3.5,
+    "NSV": 9,
+    "DSW": 1.2,
+    "DSL": 7.5,
+    "LSW": 1.7,
+    "LSL": 5.3,
+    "description": "Six flowers and one bud on seven 17-cm inflorescences; flowers magenta, gold caudae, dorsal cauda 4.8cm, lateral caudae 3.0cm, dorsal sepal lighter magneta, lateral sepals intense magenta, dark purple veins; petals minute, purple; lip purple; column white; substance very firm; texture velvet."
+  },
+  "scrapedDate": "2025-10-08T01:01:39.599Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20215329",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215329.html",
+  "year": 2021
+}

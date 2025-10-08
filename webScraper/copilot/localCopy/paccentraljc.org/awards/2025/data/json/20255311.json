@@ -29,7 +29,7 @@
     "LIPL": 6.7
   },
   "scrapedDate": "2025-10-04T06:36:44.370Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20255311",
+  "sourceUrl": "https://www.paccentraljc.org/250719/20255311.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255311.html",
   "year": 2025,
   "corrections": [
@@ -40,6 +40,14 @@
       "newValue": "Filoli Historic House Monthly",
       "source": "automated-location-population",
       "reason": "Location populated from HTML page (equivalent to index)"
+    },
+    {
+      "timestamp": "2025-10-08T03:49:18.709Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20255311",
+      "newValue": "https://www.paccentraljc.org/250719/20255311.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
     }
   ]
 }

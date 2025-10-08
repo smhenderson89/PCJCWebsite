@@ -1,0 +1,45 @@
+{
+  "awardNum": "20255319",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Filoli Historic House Monthly",
+  "date": "August 16, 2025",
+  "genus": "Mini",
+  "species": "Purple",
+  "clone": "s Mini-Quinee ",
+  "cross": "Cattleya Mini Purple × Cattleya intermedia",
+  "exhibitor": "Linsie Hu",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255319.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 9.4,
+    "NSV": 10,
+    "DSL": 6.5,
+    "DSW": 2.1,
+    "PETL": 6.1,
+    "PETW": 3.3,
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Four flowers on two up to 15.2-cm supported inflorescences; sepals lanceolate, pale lavender; petals ovate, pale lavender overlaid dark purple distally; lip oval, cleft, slightly ruffled, pale lavender overlaid dark purple distally and center stripe, throat white; column white blushed pale lavender, anther cap dark purple; substance medium-firm; texture matte.",
+    "LSW": 2.2,
+    "LSL": 6.1,
+    "LIPW": 3.5,
+    "LIPL": 5.8
+  },
+  "scrapedDate": "2025-10-04T06:36:44.381Z",
+  "sourceUrl": "https://www.paccentraljc.org/awards/20255319",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255319.html",
+  "year": 2025,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T03:17:48.909Z",
+      "field": "location",
+      "oldValue": "",
+      "newValue": "Filoli Historic House Monthly",
+      "source": "automated-location-population",
+      "reason": "Location populated from HTML page (equivalent to index)"
+    }
+  ]
+}
