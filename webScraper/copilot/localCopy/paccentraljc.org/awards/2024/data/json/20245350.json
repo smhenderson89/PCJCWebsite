@@ -28,7 +28,7 @@
     "SYNSW": 2.8
   },
   "scrapedDate": "2025-10-04T06:14:09.517Z",
-  "sourceUrl": "https://www.paccentraljc.org/240102/20245350.html",
+  "sourceUrl": "https://www.paccentraljc.org/20240102/20245350.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245350.html",
   "year": 2024,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/240102/20245350.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:27:35.268Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/240102/20245350.html",
+      "newValue": "https://www.paccentraljc.org/20240102/20245350.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

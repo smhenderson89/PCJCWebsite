@@ -1,0 +1,46 @@
+{
+  "awardNum": "20245255",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "",
+  "date": "February 17, 2024",
+  "genus": "Cymbidium",
+  "species": "Sylvia Darr",
+  "clone": "Simply Elegant #2",
+  "cross": "Cymbidium Pinata Magic × Cymbidium erythraeum",
+  "exhibitor": "Sylvia Darr",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245255.jpg",
+  "thumbnail": "images/thumbnail/20245255thumb.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 10,
+    "NSV": 5,
+    "DSL": 5.2,
+    "DSW": 2,
+    "PETL": 5.2,
+    "PETW": 1.2,
+    "numFlowers": 11,
+    "numBuds": 14,
+    "numInflorescences": 1,
+    "description": "Eleven flowers and 14 buds on one arching 106-cm inflorescence; dorsal sepal hooded, lanceolate, light yellow, densely spotted burgundy; lateral sepals and petals lanceolate, yellow, spotted, blotched and diffused burgundy; lip white overlaid yellow basally, spotted burgundy; column chartreuse, spotted burgundy, anther cap white; substance average; texture matte.",
+    "LSW": 1.5,
+    "LSL": 4.7,
+    "LIPW": 2.2,
+    "LIPL": 4.6
+  },
+  "scrapedDate": "2025-10-04T07:01:12.763Z",
+  "sourceUrl": "https://www.paccentraljc.org/240217/20245255.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245255.html",
+  "year": 2024,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:51:39.779Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20245255",
+      "newValue": "https://www.paccentraljc.org/240217/20245255.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

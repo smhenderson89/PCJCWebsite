@@ -1,0 +1,44 @@
+{
+  "awardNum": "20225328",
+  "award": "AM",
+  "awardpoints": 85,
+  "location": "Filoli Historic House & Garden",
+  "date": "May 21, 2022",
+  "genus": "Sarcochilus",
+  "species": "Kulnura Snowflake",
+  "clone": "Elkhorn",
+  "cross": "Sarcochilus Kulnura Vision x Sarcochilus Heidi",
+  "exhibitor": "Andy Cameron",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225328.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 3.1,
+    "NSV": 3,
+    "DSW": 1.5,
+    "DSL": 1.8,
+    "PETW": 1.1,
+    "PETL": 1.7,
+    "LSW": 1.3,
+    "LSL": 1.8,
+    "LIPW": 0.5,
+    "LIPL": 0.6,
+    "description": "Thirty well balanced flat flowers and 72 buds on nine up to 20.5-cm inflorescences; sepals and petals white; lip white overlaid light yellow, banded orange near tip, side lobes speckled orange; column and anther cap cream; substance firm; texture diamond dust."
+  },
+  "scrapedDate": "2025-10-07T00:53:07.665Z",
+  "sourceUrl": "https://www.paccentraljc.org/220521/20225328.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225328.html",
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.175Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225328",
+      "newValue": "https://www.paccentraljc.org/220521/20225328.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

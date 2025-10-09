@@ -1,0 +1,46 @@
+{
+  "awardNum": "20245369",
+  "award": "SC",
+  "awardpoints": 88,
+  "location": "",
+  "date": "February 15, 2024",
+  "genus": null,
+  "species": null,
+  "clone": null,
+  "cross": "home",
+  "exhibitor": "Marin Orchid Society",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245369.jpg",
+  "thumbnail": "images/thumbnail/20245369thumb.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": null,
+    "NSV": null,
+    "DSL": null,
+    "DSW": null,
+    "PETL": null,
+    "PETW": null,
+    "numFlowers": null,
+    "numBuds": null,
+    "numInflorescences": null,
+    "description": "A striking, well-balanced 3.8-m by 1.5-m multilevel three-sided display up to 2-m high with many ribbon trophy and AOS award winners, a wide variety of genera including Masevallia, Cymbidium, Cattelya, Dendrobium, Paphiopedilum and Coelogyne, both species and hybrids, leading the eye toward the focal point, a large specimen of Coelogyne tenella.",
+    "LSW": null,
+    "LSL": null,
+    "LIPW": null,
+    "LIPL": null
+  },
+  "scrapedDate": "2025-10-04T06:14:09.550Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245369.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245369.html",
+  "year": 2024,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:51:39.813Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20245369",
+      "newValue": "https://www.paccentraljc.org/240215/20245369.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

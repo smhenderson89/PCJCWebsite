@@ -27,7 +27,7 @@
     "description": "Twenty-two flowers on five 11-cm inflorescences, ten buds on three immature inflorescences; sepals and petals deep burgundy-red; lip velvety burgundy-red, side lobes golden yellow, edged burgundy-red; column cream; substance firm; texture waxy."
   },
   "scrapedDate": "2025-10-07T00:53:07.710Z",
-  "sourceUrl": "https://www.paccentraljc.org/220224/20225403.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220224/20225403.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225403.html",
   "year": 2022,
   "corrections": [
@@ -38,6 +38,14 @@
       "newValue": "https://www.paccentraljc.org/220224/20225403.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.184Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220224/20225403.html",
+      "newValue": "https://www.paccentraljc.org/20220224/20225403.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

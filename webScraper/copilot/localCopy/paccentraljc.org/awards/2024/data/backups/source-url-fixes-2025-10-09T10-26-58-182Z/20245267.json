@@ -1,0 +1,56 @@
+{
+  "awardNum": "20245267",
+  "award": "CBR",
+  "awardpoints": "N/A",
+  "location": "",
+  "date": "March 23, 2024",
+  "genus": "Chiloschista",
+  "species": "lindstroemii",
+  "clone": "Lace",
+  "cross": "home",
+  "exhibitor": "Mark Pendleton",
+  "photographer": "Lynne Murrell",
+  "photo": "images/20245267.jpg",
+  "thumbnail": "images/thumbnail/20245267thumb.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 1.2,
+    "NSV": 1.1,
+    "DSL": 0.5,
+    "DSW": 0.5,
+    "PETL": 0.5,
+    "PETW": 0.5,
+    "numFlowers": 25,
+    "numBuds": 2,
+    "numInflorescences": 2,
+    "description": "Twenty-five flowers and two buds well-spaced on two up to 16-cm inflorescences; sepals and petals lime green; lip saccate, white, barred light brown interior; column white, anther cap light yellow; substance firm; texture crystalline.",
+    "LSW": 0.5,
+    "LSL": 0.4,
+    "LIPW": 0.5,
+    "LIPL": 0.5
+  },
+  "scrapedDate": "2025-10-04T06:14:09.485Z",
+  "sourceUrl": "https://www.paccentraljc.org/240323/20245267.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245267.html",
+  "year": 2024,
+  "corrections": [
+    {
+      "timestamp": "2025-10-06T04:01:53.284Z",
+      "type": "enhanced_html_parsing",
+      "fields": [
+        "award",
+        "awardpoints"
+      ],
+      "source": "HTML file 20245267.html",
+      "note": "Enhanced parsing for non-point awards (JC, CBR, CHM) set to N/A"
+    },
+    {
+      "timestamp": "2025-10-08T03:51:39.785Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20245267",
+      "newValue": "https://www.paccentraljc.org/240323/20245267.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

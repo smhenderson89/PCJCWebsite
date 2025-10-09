@@ -28,7 +28,7 @@
     "description": "Three nicely spaced flowers on one 5.2 cm inflorescence, originating from the base of a pseudobulb, and three buds on one immature inflorescence; three fans of seven to eight leaves, largest leaf 2.9 cm x 63 cm, three ovate leafless backbulbs 13 cm X 14 cm, grown in bark in 15-cm plastic pot; flower white; sepals light pink cast, tiny dark pink speckles proximally; petals short red line mid-rib distally; lip dark burgundy splotches throughout, overlaid yellow centrally, callus yellow, dark burgundy splotches; column white, anther cap white; substance firm; texture matte; reference www.holalanvietnam.org, Hoi Hoa Lan Viet Nam Cymbidium sanderae by Dang Buiafer plant ID; origin Vietnam; awarded for color of white with attractively patterned dark burgundy spots; this should invalidate award 20194134, which was awarded to a Cymbidium parishii."
   },
   "scrapedDate": "2025-10-07T00:53:07.566Z",
-  "sourceUrl": "https://www.paccentraljc.org/220301/20225250.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220301/20225250.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225250.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220301/20225250.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.119Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220301/20225250.html",
+      "newValue": "https://www.paccentraljc.org/20220301/20225250.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

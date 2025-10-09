@@ -28,7 +28,7 @@
     "description": "Six flowers and one bud on one 70-cm arching inflorescence; dorsal sepal arching forward, yellow heavily overlaid dark red, veins and margins very dark; lateral sepals slightly reflexed, yellow heavily overlaid dark red except centrally on each side of very dark central vein; petals reflexed, some curling at side margins, yellow overlaid dark red, darker mid-rib, distal edges yellow; lip white, purple markings, callus white, purple markings, side-lobes yellow, purple markings; column arched, yellow, purple spotting; substance firm; texture matte. AD is awarded for maintaining the erythraeum species charm while introducing intense color from a standard cymbidium. Hybridizer Santa Barbara Orchid Estate."
   },
   "scrapedDate": "2025-10-07T00:53:07.626Z",
-  "sourceUrl": "https://www.paccentraljc.org/220219/20225304.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220219/20225304.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225304.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220219/20225304.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.142Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220219/20225304.html",
+      "newValue": "https://www.paccentraljc.org/20220219/20225304.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

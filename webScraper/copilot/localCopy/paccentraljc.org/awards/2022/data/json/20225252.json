@@ -28,7 +28,7 @@
     "description": "Eleven flowers on two 45-cm inflorescences; sepals yellow-green, bronze veins; petals yellow-green, bronze veins, brown-burgundy marking proximal three-fourths, widest at base, narrowing along petal; lip white overlaid green, burgundy stripe center vein distally, additional burgundy marks each side of stripe; column green-yellow, anther cap white; substance medium; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.583Z",
-  "sourceUrl": "https://www.paccentraljc.org/220405/20225252.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220405/20225252.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225252.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220405/20225252.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.121Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220405/20225252.html",
+      "newValue": "https://www.paccentraljc.org/20220405/20225252.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

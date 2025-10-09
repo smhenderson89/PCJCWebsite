@@ -26,7 +26,7 @@
     "description": "One flower and two buds on three 21-cm inflorescences; sepals cream, light green centrally, veins dark brown, dark brown centrally outside light green area, caudae purple, straight; petals cream, central dark brown stripe; lip cream overlaid golden yellow; column yellow; substance medium; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.723Z",
-  "sourceUrl": "https://www.paccentraljc.org/220224/20225413.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220224/20225413.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225413.html",
   "year": 2022,
   "corrections": [
@@ -37,6 +37,14 @@
       "newValue": "https://www.paccentraljc.org/220224/20225413.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.194Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220224/20225413.html",
+      "newValue": "https://www.paccentraljc.org/20220224/20225413.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

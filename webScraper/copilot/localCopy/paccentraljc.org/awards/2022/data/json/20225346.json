@@ -28,7 +28,7 @@
     "description": "Eighteen flowers on four upright 14.5-cm inflorescences; sepals and petals dark green fully flushed red-bronze, speckled dark purple, more concentrated distally, petals very slightly ruffled; lip white, midlobe bright fucshia; column white, lightly flushed fuchsia, anther cap white; substance firm; texture glossy, lip diamond dust; commended for improvement in color and lip."
   },
   "scrapedDate": "2025-10-07T00:53:07.692Z",
-  "sourceUrl": "https://www.paccentraljc.org/220917/20225346.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220917/20225346.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225346.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220917/20225346.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.176Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220917/20225346.html",
+      "newValue": "https://www.paccentraljc.org/20220917/20225346.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

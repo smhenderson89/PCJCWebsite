@@ -28,7 +28,7 @@
     "description": "Thirty-one ovoid flowers and twenty-one buds on twenty-four gently arching inflorescences of 12cm length; sepals golden yellow, greatly fused lateral sepals overlaid rose medially; minute petals light translucent green; lip pale translucent green, rose medially; substance soft; texture crystalline."
   },
   "scrapedDate": "2025-10-07T00:53:07.713Z",
-  "sourceUrl": "https://www.paccentraljc.org/220224/20225405.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220224/20225405.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225405.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220224/20225405.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.186Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220224/20225405.html",
+      "newValue": "https://www.paccentraljc.org/20220224/20225405.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

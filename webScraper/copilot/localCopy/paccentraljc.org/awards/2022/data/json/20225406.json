@@ -28,7 +28,7 @@
     "description": "One imposing flower and one bud on two 33-cm inflorescences; sepals bright yellow veined darker yellow, caudae transition to orange at tips; petals pale yellow; lip pale yellow, medium yellow at tip; substance very hard; texture waxy, diamond dust."
   },
   "scrapedDate": "2025-10-07T00:53:07.714Z",
-  "sourceUrl": "https://www.paccentraljc.org/220224/20225406.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220224/20225406.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225406.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220224/20225406.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.188Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220224/20225406.html",
+      "newValue": "https://www.paccentraljc.org/20220224/20225406.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

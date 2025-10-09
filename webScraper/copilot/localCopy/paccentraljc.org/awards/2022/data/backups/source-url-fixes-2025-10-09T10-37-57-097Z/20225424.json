@@ -1,0 +1,44 @@
+{
+  "awardNum": "20225424",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Peninsula Orchid Society Show",
+  "date": "May 8, 2022",
+  "genus": "Cymbidium",
+  "species": "Ken Jacobsen",
+  "clone": "Woodside",
+  "cross": "Cymbidium Memoria Amelia Earhart 'Geyserland' x Cymbidium Woody Wilson 'Ann'",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Japheth Ko",
+  "photo": "images/20225424.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 8.3,
+    "NSV": 8.2,
+    "DSW": 4.1,
+    "DSL": 5.9,
+    "PETW": 3.4,
+    "PETL": 6,
+    "LSW": 4,
+    "LSL": 5.9,
+    "LIPW": 3.7,
+    "LIPL": 4,
+    "description": "Thirteen slightly cupped flowers on one arching 53-cm inflorescence; dorsal sepal pale yellow, midrib finely spotted light burgundy; lateral sepals pale yellow, veins lightly spotted burgundy; petals pale yellow, midrib finely spotted light burgundy; lip white, sidelobes burgundy at margins, midlobe randomly marked large oxblood spots, centrally dark burgundy stripe, keels yellow; column light magenta, anther cap white; substance firm; texture matte."
+  },
+  "scrapedDate": "2025-10-07T00:53:07.741Z",
+  "sourceUrl": "https://www.paccentraljc.org/220508/20225424.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225424.html",
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.203Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225424",
+      "newValue": "https://www.paccentraljc.org/220508/20225424.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

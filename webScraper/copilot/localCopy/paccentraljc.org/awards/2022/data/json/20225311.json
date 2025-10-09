@@ -28,7 +28,7 @@
     "description": "Thirty-eight full flowers and 25 buds on six upright inflorescences up to 21.5cm; sepals and petals white, marked medium burgundy basally, light burgundy edges; lip white, midlobe marked dark yellow, sidelobes marked burgundy; anther cap white; substance hard; texture slightly crystalline."
   },
   "scrapedDate": "2025-10-07T00:53:07.642Z",
-  "sourceUrl": "https://www.paccentraljc.org/220416/20225311.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220416/20225311.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225311.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220416/20225311.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.147Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220416/20225311.html",
+      "newValue": "https://www.paccentraljc.org/20220416/20225311.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

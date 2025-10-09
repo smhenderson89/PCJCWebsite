@@ -5,7 +5,7 @@
  * 
  * Updates the sourceUrl field in 2024 JSON files to reflect the actual source URL structure:
  * From: "https://www.paccentraljc.org/awards/[awardNum]"
- * To: "https://www.paccentraljc.org/[YYMMDD]/[awardNum].html"
+ * To: "https://www.paccentraljc.org/[YYYYMMDD]/[awardNum].html"
  * 
  * Usage: node fix-2024-source-urls.js
  */
@@ -26,14 +26,14 @@ class SourceUrlFixer2024 {
     }
 
     /**
-     * Convert date string to YYMMDD format
+     * Convert date string to YYYYMMDD format
      * @param {string} dateStr - Date string like "January 20, 2024"
-     * @returns {string} - YYMMDD format like "240120"
+     * @returns {string} - YYYYMMDD format like "20240120"
      */
-    formatDateToYYMMDD(dateStr) {
+    formatDateToYYYYMMDD(dateStr) {
         try {
             const date = new Date(dateStr);
-            const year = date.getFullYear().toString().slice(-2); // Get last 2 digits
+            const year = date.getFullYear().toString(); // Get full 4-digit year
             const month = (date.getMonth() + 1).toString().padStart(2, '0');
             const day = date.getDate().toString().padStart(2, '0');
             return `${year}${month}${day}`;
@@ -70,7 +70,13 @@ class SourceUrlFixer2024 {
             this.results.processed++;
 
             // Check if this file needs updating
-            if (!data.sourceUrl || !data.sourceUrl.includes('/awards/')) {
+            // Need to fix if: contains '/awards/' OR has 6-digit date format (240120 instead of 20240120)
+            const needsFixing = data.sourceUrl && (
+                data.sourceUrl.includes('/awards/') ||
+                /\/\d{6}\//.test(data.sourceUrl) // Matches /YYMMDD/ pattern
+            );
+            
+            if (!data.sourceUrl || !needsFixing) {
                 this.results.skipped.push({
                     file: fileName,
                     reason: 'No source URL or already in correct format',
@@ -95,11 +101,11 @@ class SourceUrlFixer2024 {
                 return;
             }
 
-            // Convert date to YYMMDD format
-            const yymmdd = this.formatDateToYYMMDD(data.date);
+            // Convert date to YYYYMMDD format
+            const yyyymmdd = this.formatDateToYYYYMMDD(data.date);
             
             // Create the new source URL
-            const newSourceUrl = `https://www.paccentraljc.org/${yymmdd}/${data.awardNum}.html`;
+            const newSourceUrl = `https://www.paccentraljc.org/${yyyymmdd}/${data.awardNum}.html`;
             const oldSourceUrl = data.sourceUrl;
 
             // Update the source URL
@@ -116,7 +122,7 @@ class SourceUrlFixer2024 {
                 oldValue: oldSourceUrl,
                 newValue: newSourceUrl,
                 source: 'automated-source-url-correction',
-                reason: 'Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)'
+                reason: 'Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)'
             });
 
             // Write back to file

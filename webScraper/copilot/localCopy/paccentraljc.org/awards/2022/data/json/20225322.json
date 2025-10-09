@@ -28,7 +28,7 @@
     "description": "Eighteen flowers on two upright staked inflorescences up to 66cm length; sepals and petals yellow blushed dark rose centrally; lip yellow, burgundy blotches distally, midlobes blushed rose marginally; anther cap ivory; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.658Z",
-  "sourceUrl": "https://www.paccentraljc.org/220416/20225322.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220416/20225322.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225322.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220416/20225322.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.156Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220416/20225322.html",
+      "newValue": "https://www.paccentraljc.org/20220416/20225322.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

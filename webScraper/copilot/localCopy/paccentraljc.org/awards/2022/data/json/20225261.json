@@ -28,7 +28,7 @@
     "description": "Sixteen stellate flowers and four buds on seven upright inflorescences to 13cm; sepals and petals light green, very light brown venation; lip cream, throat golden yellow, magenta venation, side lobes rose-pink transverse; column cream, speckled magenta, anther cap light yellow, speckled magenta; substance medium; texture satin."
   },
   "scrapedDate": "2025-10-07T00:53:07.606Z",
-  "sourceUrl": "https://www.paccentraljc.org/220906/20225261.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220906/20225261.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225261.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220906/20225261.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.136Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220906/20225261.html",
+      "newValue": "https://www.paccentraljc.org/20220906/20225261.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

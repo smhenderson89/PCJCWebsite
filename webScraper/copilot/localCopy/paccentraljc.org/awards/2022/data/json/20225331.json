@@ -28,7 +28,7 @@
     "description": "Four flowers on three inflorescences up to 1.5cm; sepals and petals slightly recurved apically, white completely overlaid pale lavender; petals overlapping the sepals, slightly fringed marginally; lip tubular, distinctly ruffled, throat white overlaid yellow, light lavender elsewhere; column white, tip dark lavender, anther cap white; substance good; texture crystalline."
   },
   "scrapedDate": "2025-10-07T00:53:07.671Z",
-  "sourceUrl": "https://www.paccentraljc.org/220618/20225331.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220618/20225331.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225331.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220618/20225331.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.164Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220618/20225331.html",
+      "newValue": "https://www.paccentraljc.org/20220618/20225331.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

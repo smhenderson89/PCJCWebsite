@@ -28,7 +28,7 @@
     "description": "Twenty-five flowers and seven buds on two arching infloresences up to 72cm long; sepals and petals yellow-green overlaid bronze in veinated pattern; lip bright yellow spotted red; column yellow suffused rose, distally speckled rose ventrally, anther cap white; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.662Z",
-  "sourceUrl": "https://www.paccentraljc.org/220416/20225325.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220416/20225325.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225325.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220416/20225325.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.158Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220416/20225325.html",
+      "newValue": "https://www.paccentraljc.org/20220416/20225325.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

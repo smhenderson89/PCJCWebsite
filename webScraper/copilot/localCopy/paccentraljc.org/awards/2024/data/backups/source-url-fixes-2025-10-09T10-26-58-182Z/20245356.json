@@ -1,0 +1,46 @@
+{
+  "awardNum": "20245356",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "",
+  "date": "February 15, 2024",
+  "genus": "Dracula",
+  "species": "hirtzii",
+  "clone": "Alex",
+  "cross": "home",
+  "exhibitor": "Joe Parker",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245356.jpg",
+  "thumbnail": "images/thumbnail/20245356thumb.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 15.5,
+    "NSV": 25,
+    "DSL": 11.8,
+    "DSW": 3.2,
+    "PETL": null,
+    "PETW": null,
+    "numFlowers": 1,
+    "numBuds": 1,
+    "numInflorescences": 2,
+    "description": "One flat hanging flower and one bud on two pendulous inflorescences up to 18 cm; sepals cream, suffused brown, more laterally, spotted dark brown overall, caudae brown basally to red-brown apically; petals minute, cream, brown centrally; lip cream; substance medium-firm; texture downy.",
+    "LSW": 3.5,
+    "LSL": 13.6,
+    "LIPW": 1.2,
+    "LIPL": 1.2
+  },
+  "scrapedDate": "2025-10-04T06:14:09.526Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245356.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245356.html",
+  "year": 2024,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:51:39.806Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20245356",
+      "newValue": "https://www.paccentraljc.org/240215/20245356.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

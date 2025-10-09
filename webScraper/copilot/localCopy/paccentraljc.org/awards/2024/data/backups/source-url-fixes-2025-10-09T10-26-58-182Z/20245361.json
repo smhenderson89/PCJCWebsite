@@ -1,0 +1,46 @@
+{
+  "awardNum": "20245361",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "",
+  "date": "February 15, 2024",
+  "genus": "Dendrobium",
+  "species": "glomeratum",
+  "clone": "Marjorie",
+  "cross": "Dendrobium glomeratum × Dendrobium chrysopterum",
+  "exhibitor": "Ron Norris",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245361.jpg",
+  "thumbnail": "images/thumbnail/20245361thumb.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 4,
+    "NSV": 5.3,
+    "DSL": 2.9,
+    "DSW": 1,
+    "PETL": 1.8,
+    "PETW": 1.1,
+    "numFlowers": 96,
+    "numBuds": 0,
+    "numInflorescences": 15,
+    "description": "Ninety-six flowers on 15 inflorescences on three flowering canes up to 87 cm; sepals and petals fuchsia, spur orange; lip bright orange; column yellow-orange, anther cap cream, pollinia black; substance medium; texture sparkling.",
+    "LSW": 1.7,
+    "LSL": 4.1,
+    "LIPW": 1.2,
+    "LIPL": 2.7
+  },
+  "scrapedDate": "2025-10-04T06:14:09.537Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245361.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245361.html",
+  "year": 2024,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:51:39.809Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20245361",
+      "newValue": "https://www.paccentraljc.org/240215/20245361.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

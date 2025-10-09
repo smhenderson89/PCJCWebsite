@@ -1,0 +1,46 @@
+{
+  "awardNum": "20245270",
+  "award": "CCM",
+  "awardpoints": 84,
+  "location": "",
+  "date": "March 23, 2024",
+  "genus": "Brassia",
+  "species": "Rex",
+  "clone": "Waloma Spotless",
+  "cross": "home",
+  "exhibitor": "Lynne Murrell",
+  "photographer": "Lynne Murrell",
+  "photo": "images/20245270.jpg",
+  "thumbnail": "images/thumbnail/20245270thumb.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 13.4,
+    "NSV": 25.5,
+    "DSL": 11.9,
+    "DSW": 1,
+    "PETL": 7.3,
+    "PETW": 0.8,
+    "numFlowers": 43,
+    "numBuds": 3,
+    "numInflorescences": 4,
+    "description": "Forty-three flowers and three buds on four up to 63.6-cm inflorescences; plant 82 cm x 52 cm in bark and perlite mix in 20-cm wide pot; sepals and petals lime green; lip pale green, callus gold; column lime green, anther cap pale green; substance heavy; texture crystalline.",
+    "LSW": 1,
+    "LSL": 14,
+    "LIPW": 5,
+    "LIPL": 5.9
+  },
+  "scrapedDate": "2025-10-04T07:01:12.796Z",
+  "sourceUrl": "https://www.paccentraljc.org/240323/20245270.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245270.html",
+  "year": 2024,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:51:39.787Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20245270",
+      "newValue": "https://www.paccentraljc.org/240323/20245270.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

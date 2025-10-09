@@ -1,0 +1,42 @@
+{
+  "awardNum": "20225401",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Pacific Orchid & Garden Exposition",
+  "date": "February 24, 2022",
+  "genus": "Paphiopedilum",
+  "species": "Space Invaders",
+  "clone": "Barolo",
+  "cross": "Paphiopedilum Space Shuttle x Paphiopedilum Memoria Sabrina Mark",
+  "exhibitor": "Dave Sorokowsky",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225401.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 13,
+    "NSV": 11.6,
+    "DSW": 9.7,
+    "DSL": 5.6,
+    "PETW": 6,
+    "PETL": 7.5,
+    "LSW": 7,
+    "LSL": 6.5,
+    "description": "One full flower on one 18-cm inflorescence; dorsal sepal white, light green basally, large thick dark burgundy spots, plentiful centrally; synsepal white overlaid chartreuse, dark burgundy spots lined vertically; petals chartreuse, overlaid mahogany, thick dark burgundy spots basally; pouch chartreuse, overlaid mahogany, rimmed chartreuse; staminode chartreuse, lightly spotted burgundy; substance firm; texture waxy."
+  },
+  "scrapedDate": "2025-10-07T00:53:07.705Z",
+  "sourceUrl": "https://www.paccentraljc.org/220224/20225401.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225401.html",
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.191Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225401",
+      "newValue": "https://www.paccentraljc.org/220224/20225401.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "awardNum": "20225259",
+  "award": "CHM",
+  "awardpoints": 80,
+  "location": "San Francisco",
+  "date": "June 7, 2022",
+  "genus": "Phalaenopsis",
+  "species": "lueddemanniana",
+  "clone": "Rainbow Orchids",
+  "cross": "species",
+  "exhibitor": "Chris Neitro",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225259.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 5,
+    "NSV": 4.4,
+    "DSW": 1.1,
+    "DSL": 2.5,
+    "PETW": 1.1,
+    "PETL": 2.7,
+    "LSW": 1.5,
+    "LSL": 2.5,
+    "LIPW": 0.7,
+    "LIPL": 2,
+    "description": "Seven flowers and one bud on three up to 11-cm inflorescences; sepals and petals white barred pale amethyst proximally, marked ochre distally; lip white overlaid pale amethyst, side lobes marked pale orange distally; substance firm; texture waxy; recognized for a new direction in color."
+  },
+  "scrapedDate": "2025-10-07T00:53:07.602Z",
+  "sourceUrl": "https://www.paccentraljc.org/220607/20225259.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225259.html",
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.152Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225259",
+      "newValue": "https://www.paccentraljc.org/220607/20225259.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

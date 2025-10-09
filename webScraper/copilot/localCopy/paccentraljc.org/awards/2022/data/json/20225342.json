@@ -28,7 +28,7 @@
     "description": "Five flat cream-yellow flowers clustered at the top of one 10-cm inflorescence; lip narrow, tubular, almost meeting over column, overlaid bright yellow distally; column light green, anther cap bright yellow; substance medium; texture crystalline. Submitted for SITF verification."
   },
   "scrapedDate": "2025-10-07T00:53:07.687Z",
-  "sourceUrl": "https://www.paccentraljc.org/220917/20225342.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220917/20225342.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225342.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220917/20225342.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.172Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220917/20225342.html",
+      "newValue": "https://www.paccentraljc.org/20220917/20225342.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

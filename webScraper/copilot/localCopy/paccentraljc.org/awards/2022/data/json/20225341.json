@@ -28,7 +28,7 @@
     "description": "Twelve flowers clustered at the top of one very strong 26-cm inflorescence; sepals cream-white suffused rose pink, spotted dark pink, green distal tip; petals cream-white suffused dark pink, distal half spotted darker pink; lip cream-white, side lobes blushed pink, midlobe overlaid dark purple distally; column cream-white, blushed pink margins, anther cap cream-white, pink spot; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.685Z",
-  "sourceUrl": "https://www.paccentraljc.org/220917/20225341.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220917/20225341.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225341.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220917/20225341.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.171Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220917/20225341.html",
+      "newValue": "https://www.paccentraljc.org/20220917/20225341.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

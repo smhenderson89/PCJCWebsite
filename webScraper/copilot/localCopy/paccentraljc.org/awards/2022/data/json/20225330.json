@@ -24,7 +24,7 @@
     "description": "Two dangling flowers and three buds on two inflorescences up to 62cm; dorsal sepal completely recurved into a tube, barely visible white background overlaid rose except basally; synsepal white marked marginally rose, more pronounced at the midrib and margin; petals twisted one quarter turn, white mostly overlaid rose, lighter at the lower margin; pouch full, white blushed rose frontally, spotted purple, sparse rose blothching internally; staminode hirsute, white overlaid rose, more strongly at margin; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.668Z",
-  "sourceUrl": "https://www.paccentraljc.org/220521/20225330.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220521/20225330.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225330.html",
   "year": 2022,
   "corrections": [
@@ -35,6 +35,14 @@
       "newValue": "https://www.paccentraljc.org/220521/20225330.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.163Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220521/20225330.html",
+      "newValue": "https://www.paccentraljc.org/20220521/20225330.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

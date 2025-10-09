@@ -28,7 +28,7 @@
     "description": "Six non-resupinate flowers and one bud on seven inflorescences; sepals and petals ivory; lip ivory, orange margin overlaid burgundy, white picotee; column white, anther cap white; substance firm; texture diamond dust."
   },
   "scrapedDate": "2025-10-07T00:53:07.721Z",
-  "sourceUrl": "https://www.paccentraljc.org/220224/20225411.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220224/20225411.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225411.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220224/20225411.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.193Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220224/20225411.html",
+      "newValue": "https://www.paccentraljc.org/20220224/20225411.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

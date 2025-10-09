@@ -1,0 +1,44 @@
+{
+  "awardNum": "20225423",
+  "award": "CCM",
+  "awardpoints": 82,
+  "location": "Peninsula Orchid Society Show",
+  "date": "May 8, 2022",
+  "genus": "Sarcochilus",
+  "species": "Kulnura Ruby",
+  "clone": "Woodside",
+  "cross": "Sarcochilus Kulnura Dazzel x Sarcochilus Kulnura Vibrance",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Japheth Ko",
+  "photo": "images/20225423.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 3,
+    "NSV": 3.2,
+    "DSW": 1.2,
+    "DSL": 1.5,
+    "PETW": 0.9,
+    "PETL": 1.4,
+    "LSW": 1,
+    "LSL": 1.6,
+    "LIPW": 0.5,
+    "LIPL": 0.7,
+    "description": "Two hundred fifty-four flowers and 30 buds on 26 inflorescences average 20cm long; well-grown multiple growth plant, 43cm tall by 58cm wide, 17-cm plastic pot; sepals and petals dusty rose; lip white overlaid orange, sidelobes white, fine dusty rose spots; column white, anther cap white; substance firm; texture matte."
+  },
+  "scrapedDate": "2025-10-07T00:53:07.739Z",
+  "sourceUrl": "https://www.paccentraljc.org/220508/20225423.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225423.html",
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.203Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225423",
+      "newValue": "https://www.paccentraljc.org/220508/20225423.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

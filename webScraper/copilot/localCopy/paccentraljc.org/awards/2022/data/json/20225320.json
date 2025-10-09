@@ -28,7 +28,7 @@
     "description": "One hundred fifty-one flowers and 183 buds on 25 upright inflorescences up to 24cm length; plant diameter 43cm, height 28cm, grown in 16-cm black scotch pot; sepals and petals deep rose, lightly barred red basally; lip saccate, yellow, orange markings; pollen cap white; substance firm; texture crystalline; received CCM award 20225321."
   },
   "scrapedDate": "2025-10-07T00:53:07.654Z",
-  "sourceUrl": "https://www.paccentraljc.org/220416/20225320.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220416/20225320.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225320.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220416/20225320.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.155Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220416/20225320.html",
+      "newValue": "https://www.paccentraljc.org/20220416/20225320.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

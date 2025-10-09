@@ -26,7 +26,7 @@
     "description": "Eight well-arranged and spaced flowers on two 37-cm inflorescences; sepals ovate, green striped mahogany, suffuse mahogany basally; petals nodding, twisted, green, spotted and striped mahogany, hirsute edges spotted brown; pouch chartreuse, overlaid cordovan; staminode chartreuse, suffused mahogany; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-07T00:53:07.680Z",
-  "sourceUrl": "https://www.paccentraljc.org/220716/20225337.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220716/20225337.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225337.html",
   "year": 2022,
   "corrections": [
@@ -37,6 +37,14 @@
       "newValue": "https://www.paccentraljc.org/220716/20225337.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.168Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220716/20225337.html",
+      "newValue": "https://www.paccentraljc.org/20220716/20225337.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

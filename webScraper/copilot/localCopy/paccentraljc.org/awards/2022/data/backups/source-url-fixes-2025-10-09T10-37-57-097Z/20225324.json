@@ -1,0 +1,44 @@
+{
+  "awardNum": "20225324",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Filoli Historic House & Garden",
+  "date": "April 16, 2022",
+  "genus": "Sarcochilus",
+  "species": "Kulnura Leppard",
+  "clone": "Bentley",
+  "cross": "Sarcochilus Kulnura Sanctuary x Sarcochilus Kulnura Gifted",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225324.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "NS": 2.6,
+    "NSV": 2.7,
+    "DSW": 1.1,
+    "DSL": 1.3,
+    "PETW": 0.8,
+    "PETL": 1.3,
+    "LSW": 1,
+    "LSL": 1.5,
+    "LIPW": 0.5,
+    "LIPL": 0.5,
+    "description": "Twenty-four flowers and two buds on four upright infloresences up to 14cm long; sepals and petals overlapping, generally flat, depressed centrally, white speckled uniformly dusty mauve; lip white, marked gold distally, side lobes striped purple; column white, anther cap white; substance firm; texture crystalline."
+  },
+  "scrapedDate": "2025-10-07T00:53:07.661Z",
+  "sourceUrl": "https://www.paccentraljc.org/220416/20225324.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225324.html",
+  "year": 2022,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:54:44.173Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20225324",
+      "newValue": "https://www.paccentraljc.org/220416/20225324.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

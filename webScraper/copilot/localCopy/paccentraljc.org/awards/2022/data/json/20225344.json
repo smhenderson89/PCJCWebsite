@@ -28,7 +28,7 @@
     "description": "One flower and one bud on two up to 5.8-cm inflorescences; sepals cream suffused light amethyst, dorsal sepal slightly recurved; petals cream suffused light amethyst, lighter on midridge; lip tubular, cream, saturated purple on side edges, keels saturated purple; substance medium; texture crystalline."
   },
   "scrapedDate": "2025-10-07T00:53:07.689Z",
-  "sourceUrl": "https://www.paccentraljc.org/220917/20225344.html",
+  "sourceUrl": "https://www.paccentraljc.org/20220917/20225344.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225344.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/220917/20225344.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.173Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/220917/20225344.html",
+      "newValue": "https://www.paccentraljc.org/20220917/20225344.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }

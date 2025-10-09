@@ -1,0 +1,46 @@
+{
+  "awardNum": "20245260",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "",
+  "date": "March 16, 2024",
+  "genus": "Angraecum",
+  "species": "elephantinum",
+  "clone": "Gogebec",
+  "cross": "home",
+  "exhibitor": "Jim Heilig",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245260.jpg",
+  "thumbnail": "images/thumbnail/20245260thumb.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 8.3,
+    "NSV": 9.4,
+    "DSL": 5.3,
+    "DSW": 0.7,
+    "PETL": 4.2,
+    "PETW": 0.5,
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One stellate flower on one 4.4-cm inflorescence; flower off-white, green basally; 14.5-cm spur curved, light green; column green; substance firm; texture crystalline.",
+    "LSW": 0.6,
+    "LSL": 5.3,
+    "LIPW": 1.8,
+    "LIPL": 4
+  },
+  "scrapedDate": "2025-10-04T06:14:09.472Z",
+  "sourceUrl": "https://www.paccentraljc.org/240316/20245260.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245260.html",
+  "year": 2024,
+  "corrections": [
+    {
+      "timestamp": "2025-10-08T03:51:39.782Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/awards/20245260",
+      "newValue": "https://www.paccentraljc.org/240316/20245260.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ]
+}

@@ -28,7 +28,7 @@
     "description": "Three flowers well-presented on one upright 5.0-cm inflorescence; sepals and petals bright yellow heavily overlaid scarlet, petals transition to bright yellow proximally; lip bright yellow, distal margin bright scarlet; substance very firm; texture crystalline."
   },
   "scrapedDate": "2025-10-07T00:53:07.698Z",
-  "sourceUrl": "https://www.paccentraljc.org/221119/20225352.html",
+  "sourceUrl": "https://www.paccentraljc.org/20221119/20225352.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225352.html",
   "year": 2022,
   "corrections": [
@@ -39,6 +39,14 @@
       "newValue": "https://www.paccentraljc.org/221119/20225352.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T10:37:57.180Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/221119/20225352.html",
+      "newValue": "https://www.paccentraljc.org/20221119/20225352.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
     }
   ]
 }
