@@ -8,8 +8,8 @@
   "species": "",
   "clone": "",
   "cross": "Cymbidium Hazel Tyers 'Santa Maria' x Cymbidium Satin Dragon 'Cinnabar'",
-  "exhibitor": "",
-  "photographer": "",
+  "exhibitor": "Weegie Caughlan",
+  "photographer": "N/A",
   "photo": "images/20215306.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
@@ -18,7 +18,7 @@
     "description": "Group of 13 plants; consistent full shape and good overall color, base color ranging from cream to chatreuse, overlaid pink; one AM (20215304) and two HCCs (20215303, 20215304) were awarded in this group, one AM (20194867) and one HCC (20194861) were previously awarded on the same cross but were not exhibited at this judging."
   },
   "scrapedDate": "2025-10-08T04:08:27.687Z",
-  "sourceUrl": "https://www.paccentraljc.org/210417/20215306.html",
+  "sourceUrl": "https://www.paccentraljc.org/20210417/20215306.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215306.html",
   "year": 2021,
   "display": true,
@@ -30,6 +30,26 @@
       "newValue": "https://www.paccentraljc.org/210417/20215306.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-09T22:09:23.783Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/210417/20215306.html",
+      "newValue": "https://www.paccentraljc.org/20210417/20215306.html",
+      "source": "automated-2021-source-url-correction",
+      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
+    },
+    {
+      "timestamp": "2025-10-09T23:12:06.104Z",
+      "field": "multiple",
+      "changes": [
+        "Set exhibitor to \"Weegie Caughlan\" from HTML",
+        "Set photographer to N/A (not found in HTML)"
+      ],
+      "source": "automated-2021-cleanup-and-fix",
+      "reason": "Cleaned up malformed data and applied proper fixes"
     }
   ]
 }

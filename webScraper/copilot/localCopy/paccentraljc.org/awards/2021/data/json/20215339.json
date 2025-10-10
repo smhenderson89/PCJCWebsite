@@ -24,7 +24,7 @@
     "description": "One flower on one 28.3-cm inflorescence; dorsal sepal mucronate, light burgundy striated saturated-burgundy; synsepal burgundy, striated saturated-burgundy; petals ciliate, saturated burgundy, streaked light burgundy distally; pouch downy, black-burgundy; staminode green basally, light burgundy distally; substance hard; texture glossy."
   },
   "scrapedDate": "2025-10-08T04:08:27.746Z",
-  "sourceUrl": "https://www.paccentraljc.org/211120/20215339.html",
+  "sourceUrl": "https://www.paccentraljc.org/20211120/20215339.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215339.html",
   "year": 2021,
   "corrections": [
@@ -35,6 +35,16 @@
       "newValue": "https://www.paccentraljc.org/211120/20215339.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-09T22:09:23.831Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/211120/20215339.html",
+      "newValue": "https://www.paccentraljc.org/20211120/20215339.html",
+      "source": "automated-2021-source-url-correction",
+      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
     }
   ]
 }

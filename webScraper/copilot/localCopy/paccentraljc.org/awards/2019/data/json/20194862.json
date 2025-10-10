@@ -1,0 +1,57 @@
+{
+  "awardNum": "20194862",
+  "award": "CCM 86",
+  "awardpoints": 86,
+  "location": "Gold Coast Cymbidium Growers Show",
+  "date": "April 13, 2019",
+  "genus": "",
+  "species": "",
+  "clone": "GENERATOR",
+  "cross": "Cymbidium Sara Jean x Cymbidium insigne",
+  "exhibitor": "Carol Armendariz",
+  "photographer": "N/A",
+  "photo": "images/20194862.jpg",
+  "measurements": {
+    "NS": 5.6,
+    "NSV": 5.2,
+    "DSW": 2.1,
+    "DSL": 4.4,
+    "PETW": 1.8,
+    "PETL": 3.7,
+    "LSW": 1.8,
+    "LSL": 4.2,
+    "LIPW": 2.5,
+    "LIPL": 3.3,
+    "numFlowers": 280,
+    "numBuds": 0,
+    "numInflorescences": 14,
+    "type": "Lip&LateralSepal"
+  },
+  "sourceUrl": "https://www.paccentraljc.org/20190413/20194862.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194862.html",
+  "year": 2019,
+  "scrapedDate": "2025-10-10T02:43:24.662Z",
+  "lastModified": "2025-10-10T02:44:34.971Z",
+  "fixesApplied": 5,
+  "fixVersion": "2019-v1.0",
+  "corrections": [
+    {
+      "timestamp": "2025-10-10T02:44:34.971Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/20194862.html",
+      "newValue": "https://www.paccentraljc.org/20190413/20194862.html",
+      "source": "automated-2019-url-standardization",
+      "reason": "Converted from simple to date-based URL format"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-10T02:44:34.971Z",
+      "action": "source-url-format-update",
+      "changes": [
+        "Updated sourceUrl to date-based format"
+      ],
+      "script": "fix-2019-source-url-format.js"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "awardNum": "20194865",
+  "award": "CCE 91",
+  "awardpoints": 91,
+  "location": "Gold Coast Cymbidium Growers Show",
+  "date": "April 13, 2019",
+  "genus": "Microcoelia",
+  "species": "stolzii",
+  "clone": "GENERATOR",
+  "cross": "species",
+  "exhibitor": "Margaret and Terry Boomer",
+  "photographer": "N/A",
+  "photo": "images/20194865.jpg",
+  "measurements": {
+    "NS": 0.3,
+    "NSV": 0.4,
+    "DSW": 0.2,
+    "DSL": 0.3,
+    "PETW": 0.2,
+    "PETL": 0.3,
+    "LSW": 0.2,
+    "LSL": 0.3,
+    "LIPW": 0.1,
+    "LIPL": 0.3,
+    "numFlowers": 1700,
+    "numBuds": 440,
+    "numInflorescences": 60,
+    "type": "Lip&LateralSepal"
+  },
+  "sourceUrl": "https://www.paccentraljc.org/20190413/20194865.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194865.html",
+  "year": 2019,
+  "scrapedDate": "2025-10-10T02:43:24.663Z",
+  "lastModified": "2025-10-10T02:44:34.972Z",
+  "fixesApplied": 5,
+  "fixVersion": "2019-v1.0",
+  "corrections": [
+    {
+      "timestamp": "2025-10-10T02:44:34.972Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/20194865.html",
+      "newValue": "https://www.paccentraljc.org/20190413/20194865.html",
+      "source": "automated-2019-url-standardization",
+      "reason": "Converted from simple to date-based URL format"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-10T02:44:34.972Z",
+      "action": "source-url-format-update",
+      "changes": [
+        "Updated sourceUrl to date-based format"
+      ],
+      "script": "fix-2019-source-url-format.js"
+    }
+  ]
+}

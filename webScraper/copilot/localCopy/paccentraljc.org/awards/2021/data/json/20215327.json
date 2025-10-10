@@ -8,8 +8,8 @@
   "species": "Exeter Fireworks",
   "clone": "Bentley",
   "cross": "Oncidium oliganthum x Oncidium tigrinum",
-  "exhibitor": "",
-  "photographer": "",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
   "photo": "images/20215327.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
@@ -28,7 +28,7 @@
     "description": "Five hundred twenty-seven ruffled flowers and 108 buds well displayed above the foliage on eight strong multi-branched inflorescences; well-grown plant in 25-cm bulb pan, clean foliage; sepals, pleasantly swept back, and petals bright yellow, barred mahogany; lip bright yellow, central calyx yellow, ridges red, side lobes barred mahogany; column and anther cap yellow; substance firm; texture glossy, lip matte; also received CCE, award #20215328."
   },
   "scrapedDate": "2025-10-08T04:08:27.728Z",
-  "sourceUrl": "https://www.paccentraljc.org/210717/20215327.html",
+  "sourceUrl": "https://www.paccentraljc.org/20210717/20215327.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215327.html",
   "year": 2021,
   "corrections": [
@@ -39,6 +39,35 @@
       "newValue": "https://www.paccentraljc.org/210717/20215327.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-09T22:09:23.809Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/210717/20215327.html",
+      "newValue": "https://www.paccentraljc.org/20210717/20215327.html",
+      "source": "automated-2021-source-url-correction",
+      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
+    },
+    {
+      "timestamp": "2025-10-09T23:08:56.009Z",
+      "field": "multiple",
+      "changes": [
+        "Set exhibitor to \"Amy and Ken Jacobsen Award 20215327 All awards considered pending until published in the AOS Orchids Plus. Pictures are not the AOS Award photos. Descriptions are subject to revision in final publication. &nbsp;Measurements in cm. &nbsp;NS &nbsp; 4.5 &nbsp;NSV &nbsp; 3.3 &nbsp;DSW &nbsp; 1.0 &nbsp;DSL &nbsp; 1.8 &nbsp;PETW &nbsp; 0.7 &nbsp;PETL &nbsp; 1.7 &nbsp;LSW &nbsp; 0.3 &nbsp;LSL &nbsp; 1.2 &nbsp;LIPW &nbsp; 2.2 &nbsp;LIPL &nbsp; 2.2 &nbsp;# flwrs 527 &nbsp;# buds 108 &nbsp;# infl 8 &nbsp; &nbsp; Description : Five hundred twenty-seven ruffled flowers and 108 buds well displayed above the foliage on eight strong multi-branched inflorescences; well-grown plant in 25-cm bulb pan, clean foliage; sepals, pleasantly swept back, and petals bright yellow, barred mahogany; lip bright yellow, central calyx yellow, ridges red, side lobes barred mahogany; column and anther cap yellow; substance firm; texture glossy, lip matte; also received CCE, award #20215328. &nbsp; Copyright 2021 AOS Pacific Central Judging Center ( home )\" from HTML",
+        "Set photographer to N/A (not found in HTML)"
+      ],
+      "source": "automated-2021-fix-strategy",
+      "reason": "Applied fix strategy: Check HTML source for missing data"
+    },
+    {
+      "timestamp": "2025-10-09T23:12:06.099Z",
+      "field": "multiple",
+      "changes": [
+        "Fixed exhibitor to \"Amy and Ken Jacobsen\""
+      ],
+      "source": "automated-2021-cleanup-and-fix",
+      "reason": "Cleaned up malformed data and applied proper fixes"
     }
   ]
 }

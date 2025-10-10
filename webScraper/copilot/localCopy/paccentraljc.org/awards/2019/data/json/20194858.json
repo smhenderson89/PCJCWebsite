@@ -1,0 +1,57 @@
+{
+  "awardNum": "20194858",
+  "award": "AM 81",
+  "awardpoints": 81,
+  "location": "",
+  "date": "March 9, 2019",
+  "genus": "Cymbidium",
+  "species": "x",
+  "clone": "GENERATOR",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194858.jpg",
+  "measurements": {
+    "NS": 4.7,
+    "NSV": 3.5,
+    "DSW": 1.1,
+    "DSL": 2.2,
+    "PETW": 1.1,
+    "PETL": 1.5,
+    "LSW": 1,
+    "LSL": 1.4,
+    "LIPW": 1,
+    "LIPL": 1.1,
+    "numFlowers": 25,
+    "numBuds": 3,
+    "numInflorescences": 10,
+    "type": "Lip&LateralSepal"
+  },
+  "sourceUrl": "https://www.paccentraljc.org/20190309/20194858.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194858.html",
+  "year": 2019,
+  "scrapedDate": "2025-10-10T02:43:24.661Z",
+  "lastModified": "2025-10-10T02:44:34.969Z",
+  "fixesApplied": 4,
+  "fixVersion": "2019-v1.0",
+  "corrections": [
+    {
+      "timestamp": "2025-10-10T02:44:34.969Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/20194858.html",
+      "newValue": "https://www.paccentraljc.org/20190309/20194858.html",
+      "source": "automated-2019-url-standardization",
+      "reason": "Converted from simple to date-based URL format"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-10T02:44:34.969Z",
+      "action": "source-url-format-update",
+      "changes": [
+        "Updated sourceUrl to date-based format"
+      ],
+      "script": "fix-2019-source-url-format.js"
+    }
+  ]
+}

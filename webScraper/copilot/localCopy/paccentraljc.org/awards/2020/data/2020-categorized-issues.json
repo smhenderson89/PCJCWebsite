@@ -1,0 +1,942 @@
+{
+  "timestamp": "2025-10-09T23:24:33.119Z",
+  "year": "2020",
+  "analysisVersion": "2.0",
+  "purpose": "Categorize null/empty field issues by fixability and severity for 2020 data",
+  "summary": {
+    "totalFiles": 30,
+    "filesWithIssues": 30,
+    "recoverableIssues": 0,
+    "problematicFiles": 4,
+    "minorIssues": 26,
+    "perfectFiles": 0
+  },
+  "categories": {
+    "recoverable": [],
+    "problematic": [
+      {
+        "awardNum": "20205254",
+        "file": "20205254-display.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "clone",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20205313",
+        "file": "20205313.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20205314",
+        "file": "20205314-display.json",
+        "issues": [
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "clone",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20205317",
+        "file": "20205317-display.json",
+        "issues": [
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "clone",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing",
+        "fixStrategy": "Ask Toby how to handle missing info."
+      }
+    ],
+    "minor": [
+      {
+        "awardNum": "20205250",
+        "file": "20205250.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205251",
+        "file": "20205251.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205252",
+        "file": "20205252.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205253",
+        "file": "20205253.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205255",
+        "file": "20205255.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205256",
+        "file": "20205256.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205257",
+        "file": "20205257.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205301",
+        "file": "20205301.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205302",
+        "file": "20205302.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205303",
+        "file": "20205303.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205304",
+        "file": "20205304.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205305",
+        "file": "20205305.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205306",
+        "file": "20205306.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205307",
+        "file": "20205307.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205308",
+        "file": "20205308.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205309",
+        "file": "20205309.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205310",
+        "file": "20205310.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205311",
+        "file": "20205311.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205312",
+        "file": "20205312.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205315",
+        "file": "20205315.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205316",
+        "file": "20205316.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205400",
+        "file": "20205400.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205401",
+        "file": "20205401.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205402",
+        "file": "20205402.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205403",
+        "file": "20205403.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      },
+      {
+        "awardNum": "20205404",
+        "file": "20205404.json",
+        "issues": [
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "minor",
+        "notes": "Only optional fields missing"
+      }
+    ],
+    "perfect": []
+  },
+  "fieldAnalysis": {
+    "awardNum": {
+      "total": 30,
+      "missing": 0,
+      "present": 30,
+      "completenessPercent": 100,
+      "fieldType": "critical"
+    },
+    "award": {
+      "total": 30,
+      "missing": 2,
+      "present": 28,
+      "completenessPercent": 93.3,
+      "fieldType": "critical"
+    },
+    "genus": {
+      "total": 30,
+      "missing": 3,
+      "present": 27,
+      "completenessPercent": 90,
+      "fieldType": "critical"
+    },
+    "date": {
+      "total": 30,
+      "missing": 0,
+      "present": 30,
+      "completenessPercent": 100,
+      "fieldType": "important"
+    },
+    "location": {
+      "total": 30,
+      "missing": 0,
+      "present": 30,
+      "completenessPercent": 100,
+      "fieldType": "important"
+    },
+    "species": {
+      "total": 30,
+      "missing": 3,
+      "present": 27,
+      "completenessPercent": 90,
+      "fieldType": "important"
+    },
+    "exhibitor": {
+      "total": 30,
+      "missing": 0,
+      "present": 30,
+      "completenessPercent": 100,
+      "fieldType": "important"
+    },
+    "photographer": {
+      "total": 30,
+      "missing": 30,
+      "present": 0,
+      "completenessPercent": 0,
+      "fieldType": "optional"
+    },
+    "cross": {
+      "total": 30,
+      "missing": 13,
+      "present": 17,
+      "completenessPercent": 56.7,
+      "fieldType": "optional"
+    },
+    "clone": {
+      "total": 30,
+      "missing": 3,
+      "present": 27,
+      "completenessPercent": 90,
+      "fieldType": "optional"
+    },
+    "awardpoints": {
+      "total": 30,
+      "missing": 3,
+      "present": 27,
+      "completenessPercent": 90,
+      "fieldType": "optional"
+    },
+    "photo": {
+      "total": 30,
+      "missing": 0,
+      "present": 30,
+      "completenessPercent": 100,
+      "fieldType": "supplementary"
+    },
+    "measurements": {
+      "total": 30,
+      "missing": 0,
+      "present": 30,
+      "completenessPercent": 100,
+      "fieldType": "supplementary"
+    },
+    "sourceURL": {
+      "total": 30,
+      "missing": 30,
+      "present": 0,
+      "completenessPercent": 0,
+      "fieldType": "supplementary"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "downloadDate": "2025-10-10T03:47:04.885Z",
+  "year": 2015,
+  "type": "event-day-index-pages",
+  "totalPages": 19,
+  "successful": 19,
+  "alreadyExisted": 0,
+  "failed": 0,
+  "successRate": "100.0%",
+  "pages": [
+    {
+      "dateStr": "20150123",
+      "sourceUrl": "https://www.paccentraljc.org/20150123/20150123.html",
+      "targetFilename": "20150123-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20150216",
+      "sourceUrl": "https://www.paccentraljc.org/20150216/20150216.html",
+      "targetFilename": "20150216-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20150219",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20150219.html",
+      "targetFilename": "20150219-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20150303",
+      "sourceUrl": "https://www.paccentraljc.org/20150303/20150303.html",
+      "targetFilename": "20150303-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20150321",
+      "sourceUrl": "https://www.paccentraljc.org/20150321/20150321.html",
+      "targetFilename": "20150321-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20150407",
+      "sourceUrl": "https://www.paccentraljc.org/20150407/20150407.html",
+      "targetFilename": "20150407-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20150417",
+      "sourceUrl": "https://www.paccentraljc.org/20150417/20150417.html",
+      "targetFilename": "20150417-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20150420",
+      "sourceUrl": "https://www.paccentraljc.org/20150420/20150420.html",
+      "targetFilename": "20150420-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20150505",
+      "sourceUrl": "https://www.paccentraljc.org/20150505/20150505.html",
+      "targetFilename": "20150505-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20150602",
+      "sourceUrl": "https://www.paccentraljc.org/20150602/20150602.html",
+      "targetFilename": "20150602-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20150707",
+      "sourceUrl": "https://www.paccentraljc.org/20150707/20150707.html",
+      "targetFilename": "20150707-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20150724",
+      "sourceUrl": "https://www.paccentraljc.org/20150724/20150724.html",
+      "targetFilename": "20150724-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20150828",
+      "sourceUrl": "https://www.paccentraljc.org/20150828/20150828.html",
+      "targetFilename": "20150828-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20151006",
+      "sourceUrl": "https://www.paccentraljc.org/20151006/20151006.html",
+      "targetFilename": "20151006-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20151019",
+      "sourceUrl": "https://www.paccentraljc.org/20151019/20151019.html",
+      "targetFilename": "20151019-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20151103",
+      "sourceUrl": "https://www.paccentraljc.org/20151103/20151103.html",
+      "targetFilename": "20151103-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20151114",
+      "sourceUrl": "https://www.paccentraljc.org/20151114/20151114.html",
+      "targetFilename": "20151114-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20151116",
+      "sourceUrl": "https://www.paccentraljc.org/20151116/20151116.html",
+      "targetFilename": "20151116-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20151221",
+      "sourceUrl": "https://www.paccentraljc.org/20151221/20151221.html",
+      "targetFilename": "20151221-index.html",
+      "downloaded": true
+    }
+  ]
+}

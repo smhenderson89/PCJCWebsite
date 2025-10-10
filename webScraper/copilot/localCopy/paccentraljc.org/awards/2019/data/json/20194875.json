@@ -1,0 +1,57 @@
+{
+  "awardNum": "20194875",
+  "award": "HCC 77",
+  "awardpoints": 77,
+  "location": "",
+  "date": "July 20, 2019",
+  "genus": "Cattleya",
+  "species": "unregistered",
+  "clone": "GENERATOR",
+  "cross": "Cattleya purpurata x Cattleya Pulcherrima (1898",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194875.jpg",
+  "measurements": {
+    "NS": 17,
+    "NSV": 16,
+    "DSW": 2.2,
+    "DSL": 10.2,
+    "PETW": 5,
+    "PETL": 9.4,
+    "LSW": 2.2,
+    "LSL": 9.8,
+    "LIPW": 4.5,
+    "LIPL": 7.8,
+    "numFlowers": 15,
+    "numBuds": 0,
+    "numInflorescences": 4,
+    "type": "Lip&LateralSepal"
+  },
+  "sourceUrl": "https://www.paccentraljc.org/20190720/20194875.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194875.html",
+  "year": 2019,
+  "scrapedDate": "2025-10-10T02:43:24.667Z",
+  "lastModified": "2025-10-10T02:44:34.976Z",
+  "fixesApplied": 4,
+  "fixVersion": "2019-v1.0",
+  "corrections": [
+    {
+      "timestamp": "2025-10-10T02:44:34.976Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/20194875.html",
+      "newValue": "https://www.paccentraljc.org/20190720/20194875.html",
+      "source": "automated-2019-url-standardization",
+      "reason": "Converted from simple to date-based URL format"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-10T02:44:34.976Z",
+      "action": "source-url-format-update",
+      "changes": [
+        "Updated sourceUrl to date-based format"
+      ],
+      "script": "fix-2019-source-url-format.js"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "cleanupDate": "2025-10-10T03:27:04.938Z",
+  "year": 2017,
+  "type": "duplicate-file-cleanup",
+  "totalPairs": 17,
+  "identicalPairs": 17,
+  "differentPairs": 0,
+  "filesDeleted": 17,
+  "errors": 0,
+  "deletedFiles": [
+    "20170103.html",
+    "20170113.html",
+    "20170210.html",
+    "20170223.html",
+    "20170307.html",
+    "20170320.html",
+    "20170401.html",
+    "20170417.html",
+    "20170422.html",
+    "20170513.html",
+    "20170515.html",
+    "20170606.html",
+    "20170619.html",
+    "20170801.html",
+    "20170905.html",
+    "20171120.html",
+    "20171205.html"
+  ]
+}

@@ -8,8 +8,8 @@
   "species": "Hawaiian Peacock",
   "clone": "Chancellor",
   "cross": "Paphiopedilum Hawaiian Illusion x Paphiopedilum Petula's Peacock",
-  "exhibitor": "",
-  "photographer": "",
+  "exhibitor": "Dave Sorokowski",
+  "photographer": "N/A",
   "photo": "images/20205306.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
@@ -24,7 +24,7 @@
     "description": "One flower and one bud on one 17-cm inflorescence; dorsal sepal cream heavily overlaid mahogany, prominately veined darker mahogany, chartreuse proximally; synsepal cream overlaid mahogany proximal third and edges, veined darker mahogany, chartreuse proximally; petals burgundy, chartreuse proximally, hirsute edges; pouch burgundy; staminode chartreuse, burgundy distal edge; substance firm; texture glossy."
   },
   "scrapedDate": "2025-10-08T04:13:57.426Z",
-  "sourceUrl": "https://www.paccentraljc.org/200220/20205306.html",
+  "sourceUrl": "https://www.paccentraljc.org/20200220/20205306.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205306.html",
   "year": 2020,
   "corrections": [
@@ -35,6 +35,35 @@
       "newValue": "https://www.paccentraljc.org/200220/20205306.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T23:30:29.363Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/200220/20205306.html",
+      "newValue": "https://www.paccentraljc.org/20200220/20205306.html",
+      "source": "automated-2020-source-url-format-fix",
+      "reason": "Updated date format from YYYMMDD to YYYYMMDD (202MMDD → 2020MMDD)"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-09T23:24:25.469Z",
+      "field": "multiple",
+      "changes": [
+        "Set exhibitor to \"Dave Sorokowski\"",
+        "Set photographer to N/A (not found in HTML)"
+      ],
+      "source": "automated-2020-fix-extraction",
+      "reason": "Applied 2021-style fix strategies to extract missing data from HTML"
+    },
+    {
+      "timestamp": "2025-10-09T23:30:29.363Z",
+      "field": "sourceUrl",
+      "changes": [
+        "Updated sourceUrl format: 20200220"
+      ],
+      "source": "automated-2020-url-format-correction",
+      "reason": "Fixed source URL date format from YYYMMDD to YYYYMMDD"
     }
   ]
 }

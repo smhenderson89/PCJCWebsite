@@ -1,0 +1,411 @@
+{
+  "downloadDate": "2025-10-10T03:34:50.100Z",
+  "year": 2017,
+  "type": "full-size-award-images",
+  "totalImages": 57,
+  "successful": 0,
+  "alreadyExisted": 57,
+  "failed": 0,
+  "successRate": "100.0%",
+  "images": [
+    {
+      "awardNumber": "20174085",
+      "filename": "20174085.jpg",
+      "directory": "20170905",
+      "url": "https://www.paccentraljc.org/20170905/20174085.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174086",
+      "filename": "20174086.jpg",
+      "directory": "20170905",
+      "url": "https://www.paccentraljc.org/20170905/20174086.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174087",
+      "filename": "20174087.jpg",
+      "directory": "20170905",
+      "url": "https://www.paccentraljc.org/20170905/20174087.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174096",
+      "filename": "20174096.jpg",
+      "directory": "20170502",
+      "url": "https://www.paccentraljc.org/20170502/20174096.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174105",
+      "filename": "20174105.jpg",
+      "directory": "20171205",
+      "url": "https://www.paccentraljc.org/20171205/20174105.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174106",
+      "filename": "20174106.jpg",
+      "directory": "20171205",
+      "url": "https://www.paccentraljc.org/20171205/20174106.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174115",
+      "filename": "20174115.jpg",
+      "directory": "20170103",
+      "url": "https://www.paccentraljc.org/20170103/20174115.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174116",
+      "filename": "20174116.jpg",
+      "directory": "20170103",
+      "url": "https://www.paccentraljc.org/20170103/20174116.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174117",
+      "filename": "20174117.jpg",
+      "directory": "20170113",
+      "url": "https://www.paccentraljc.org/20170113/20174117.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174118",
+      "filename": "20174118.jpg",
+      "directory": "20170113",
+      "url": "https://www.paccentraljc.org/20170113/20174118.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174119",
+      "filename": "20174119.jpg",
+      "directory": "20170113",
+      "url": "https://www.paccentraljc.org/20170113/20174119.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174120",
+      "filename": "20174120.jpg",
+      "directory": "20170113",
+      "url": "https://www.paccentraljc.org/20170113/20174120.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174121",
+      "filename": "20174121.jpg",
+      "directory": "20170210",
+      "url": "https://www.paccentraljc.org/20170210/20174121.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174122",
+      "filename": "20174122.jpg",
+      "directory": "20170210",
+      "url": "https://www.paccentraljc.org/20170210/20174122.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174123",
+      "filename": "20174123.jpg",
+      "directory": "20170210",
+      "url": "https://www.paccentraljc.org/20170210/20174123.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174124",
+      "filename": "20174124.jpg",
+      "directory": "20170223",
+      "url": "https://www.paccentraljc.org/20170223/20174124.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174126",
+      "filename": "20174126.jpg",
+      "directory": "20170223",
+      "url": "https://www.paccentraljc.org/20170223/20174126.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174127",
+      "filename": "20174127.jpg",
+      "directory": "20170223",
+      "url": "https://www.paccentraljc.org/20170223/20174127.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174128",
+      "filename": "20174128.jpg",
+      "directory": "20170223",
+      "url": "https://www.paccentraljc.org/20170223/20174128.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174129",
+      "filename": "20174129.jpg",
+      "directory": "20170307",
+      "url": "https://www.paccentraljc.org/20170307/20174129.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174130",
+      "filename": "20174130.jpg",
+      "directory": "20170307",
+      "url": "https://www.paccentraljc.org/20170307/20174130.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174131",
+      "filename": "20174131.jpg",
+      "directory": "20170401",
+      "url": "https://www.paccentraljc.org/20170401/20174131.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174132",
+      "filename": "20174132.jpg",
+      "directory": "20170401",
+      "url": "https://www.paccentraljc.org/20170401/20174132.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174133",
+      "filename": "20174133.jpg",
+      "directory": "20170404",
+      "url": "https://www.paccentraljc.org/20170404/20174133.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174136",
+      "filename": "20174136.jpg",
+      "directory": "20170801",
+      "url": "https://www.paccentraljc.org/20170801/20174136.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174137",
+      "filename": "20174137.jpg",
+      "directory": "20170801",
+      "url": "https://www.paccentraljc.org/20170801/20174137.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174138",
+      "filename": "20174138.jpg",
+      "directory": "20170801",
+      "url": "https://www.paccentraljc.org/20170801/20174138.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174139",
+      "filename": "20174139.jpg",
+      "directory": "20170801",
+      "url": "https://www.paccentraljc.org/20170801/20174139.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174140",
+      "filename": "20174140.jpg",
+      "directory": "20170801",
+      "url": "https://www.paccentraljc.org/20170801/20174140.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174141",
+      "filename": "20174141.jpg",
+      "directory": "20170801",
+      "url": "https://www.paccentraljc.org/20170801/20174141.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174142",
+      "filename": "20174142.jpg",
+      "directory": "20170801",
+      "url": "https://www.paccentraljc.org/20170801/20174142.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174147",
+      "filename": "20174147.jpg",
+      "directory": "20170116",
+      "url": "https://www.paccentraljc.org/20170116/20174147.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174148",
+      "filename": "20174148.jpg",
+      "directory": "20170220",
+      "url": "https://www.paccentraljc.org/20170220/20174148.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174149",
+      "filename": "20174149.jpg",
+      "directory": "20170320",
+      "url": "https://www.paccentraljc.org/20170320/20174149.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174150",
+      "filename": "20174150.jpg",
+      "directory": "20170320",
+      "url": "https://www.paccentraljc.org/20170320/20174150.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174151",
+      "filename": "20174151.jpg",
+      "directory": "20170417",
+      "url": "https://www.paccentraljc.org/20170417/20174151.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174152",
+      "filename": "20174152.jpg",
+      "directory": "20170417",
+      "url": "https://www.paccentraljc.org/20170417/20174152.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174153",
+      "filename": "20174153.jpg",
+      "directory": "20170515",
+      "url": "https://www.paccentraljc.org/20170515/20174153.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174154",
+      "filename": "20174154.jpg",
+      "directory": "20170515",
+      "url": "https://www.paccentraljc.org/20170515/20174154.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174155",
+      "filename": "20174155.jpg",
+      "directory": "20170821",
+      "url": "https://www.paccentraljc.org/20170821/20174155.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174158",
+      "filename": "20174158.jpg",
+      "directory": "20170422",
+      "url": "https://www.paccentraljc.org/20170422/20174158.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174159",
+      "filename": "20174159.jpg",
+      "directory": "20170422",
+      "url": "https://www.paccentraljc.org/20170422/20174159.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174160",
+      "filename": "20174160.jpg",
+      "directory": "20170422",
+      "url": "https://www.paccentraljc.org/20170422/20174160.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174161",
+      "filename": "20174161.jpg",
+      "directory": "20170422",
+      "url": "https://www.paccentraljc.org/20170422/20174161.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174162",
+      "filename": "20174162.jpg",
+      "directory": "20170422",
+      "url": "https://www.paccentraljc.org/20170422/20174162.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174163",
+      "filename": "20174163.jpg",
+      "directory": "20170422",
+      "url": "https://www.paccentraljc.org/20170422/20174163.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174164",
+      "filename": "20174164.jpg",
+      "directory": "20170513",
+      "url": "https://www.paccentraljc.org/20170513/20174164.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174165",
+      "filename": "20174165.jpg",
+      "directory": "20170513",
+      "url": "https://www.paccentraljc.org/20170513/20174165.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174166",
+      "filename": "20174166.jpg",
+      "directory": "20170513",
+      "url": "https://www.paccentraljc.org/20170513/20174166.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174169",
+      "filename": "20174169.jpg",
+      "directory": "20170606",
+      "url": "https://www.paccentraljc.org/20170606/20174169.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174170",
+      "filename": "20174170.jpg",
+      "directory": "20170606",
+      "url": "https://www.paccentraljc.org/20170606/20174170.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174171",
+      "filename": "20174171.jpg",
+      "directory": "20170619",
+      "url": "https://www.paccentraljc.org/20170619/20174171.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174172",
+      "filename": "20174172.jpg",
+      "directory": "20170619",
+      "url": "https://www.paccentraljc.org/20170619/20174172.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174173",
+      "filename": "20174173.jpg",
+      "directory": "20171016",
+      "url": "https://www.paccentraljc.org/20171016/20174173.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174174",
+      "filename": "20174174.jpg",
+      "directory": "20171120",
+      "url": "https://www.paccentraljc.org/20171120/20174174.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174175",
+      "filename": "20174175.jpg",
+      "directory": "20171120",
+      "url": "https://www.paccentraljc.org/20171120/20174175.jpg",
+      "downloaded": true
+    },
+    {
+      "awardNumber": "20174176",
+      "filename": "20174176.jpg",
+      "directory": "20171218",
+      "url": "https://www.paccentraljc.org/20171218/20174176.jpg",
+      "downloaded": true
+    }
+  ]
+}

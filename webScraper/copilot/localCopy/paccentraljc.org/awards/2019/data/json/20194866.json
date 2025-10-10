@@ -1,0 +1,57 @@
+{
+  "awardNum": "20194866",
+  "award": "HCC 78",
+  "awardpoints": 78,
+  "location": "",
+  "date": "April 20, 2019",
+  "genus": "Phalaenopsis",
+  "species": "aphrodite",
+  "clone": "GENERATOR",
+  "cross": "species",
+  "exhibitor": "Jim Heilig",
+  "photographer": "N/A",
+  "photo": "images/20194866.jpg",
+  "measurements": {
+    "NS": 7.7,
+    "NSV": 6.4,
+    "DSW": 2.6,
+    "DSL": 3.7,
+    "PETW": 4.7,
+    "PETL": 3.6,
+    "LSW": 2.4,
+    "LSL": 3.8,
+    "LIPW": 2.3,
+    "LIPL": 2.7,
+    "numFlowers": 8,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "type": "Lip&LateralSepal"
+  },
+  "sourceUrl": "https://www.paccentraljc.org/20190420/20194866.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194866.html",
+  "year": 2019,
+  "scrapedDate": "2025-10-10T02:43:24.663Z",
+  "lastModified": "2025-10-10T02:44:34.973Z",
+  "fixesApplied": 4,
+  "fixVersion": "2019-v1.0",
+  "corrections": [
+    {
+      "timestamp": "2025-10-10T02:44:34.973Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/20194866.html",
+      "newValue": "https://www.paccentraljc.org/20190420/20194866.html",
+      "source": "automated-2019-url-standardization",
+      "reason": "Converted from simple to date-based URL format"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-10T02:44:34.973Z",
+      "action": "source-url-format-update",
+      "changes": [
+        "Updated sourceUrl to date-based format"
+      ],
+      "script": "fix-2019-source-url-format.js"
+    }
+  ]
+}

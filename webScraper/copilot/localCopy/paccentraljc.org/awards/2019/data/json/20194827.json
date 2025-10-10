@@ -1,0 +1,57 @@
+{
+  "awardNum": "20194827",
+  "award": "AM 82",
+  "awardpoints": 82,
+  "location": "",
+  "date": "October 1, 2019",
+  "genus": "",
+  "species": "",
+  "clone": "GENERATOR",
+  "cross": "Habenaria xanthocheila x Habenaria rhodocheila",
+  "exhibitor": "Jim Heilig",
+  "photographer": "N/A",
+  "photo": "images/20194827.jpg",
+  "measurements": {
+    "NS": 2.8,
+    "NSV": 3.4,
+    "DSW": 1.1,
+    "DSL": 1.1,
+    "PETW": 0.1,
+    "PETL": 0.3,
+    "LSW": 0.7,
+    "LSL": 1.2,
+    "LIPW": 2.8,
+    "LIPL": 2.8,
+    "numFlowers": 14,
+    "numBuds": 4,
+    "numInflorescences": 1,
+    "type": "Lip&LateralSepal"
+  },
+  "sourceUrl": "https://www.paccentraljc.org/20191001/20194827.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194827.html",
+  "year": 2019,
+  "scrapedDate": "2025-10-10T02:43:24.656Z",
+  "lastModified": "2025-10-10T02:44:34.961Z",
+  "fixesApplied": 4,
+  "fixVersion": "2019-v1.0",
+  "corrections": [
+    {
+      "timestamp": "2025-10-10T02:44:34.961Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/20194827.html",
+      "newValue": "https://www.paccentraljc.org/20191001/20194827.html",
+      "source": "automated-2019-url-standardization",
+      "reason": "Converted from simple to date-based URL format"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-10T02:44:34.961Z",
+      "action": "source-url-format-update",
+      "changes": [
+        "Updated sourceUrl to date-based format"
+      ],
+      "script": "fix-2019-source-url-format.js"
+    }
+  ]
+}

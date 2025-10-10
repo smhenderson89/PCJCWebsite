@@ -1,0 +1,72 @@
+{
+  "downloadDate": "2025-10-10T03:34:20.204Z",
+  "year": 2016,
+  "type": "event-day-index-pages",
+  "totalPages": 10,
+  "successful": 10,
+  "alreadyExisted": 0,
+  "failed": 0,
+  "successRate": "100.0%",
+  "pages": [
+    {
+      "dateStr": "20160122",
+      "sourceUrl": "https://www.paccentraljc.org/20160122/20160122.html",
+      "targetFilename": "20160122-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20160225",
+      "sourceUrl": "https://www.paccentraljc.org/20160225/20160225.html",
+      "targetFilename": "20160225-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20160318",
+      "sourceUrl": "https://www.paccentraljc.org/20160318/20160318.html",
+      "targetFilename": "20160318-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20160325",
+      "sourceUrl": "https://www.paccentraljc.org/20160325/20160325.html",
+      "targetFilename": "20160325-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20160402",
+      "sourceUrl": "https://www.paccentraljc.org/20160402/20160402.html",
+      "targetFilename": "20160402-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20160405",
+      "sourceUrl": "https://www.paccentraljc.org/20160405/20160405.html",
+      "targetFilename": "20160405-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20160418",
+      "sourceUrl": "https://www.paccentraljc.org/20160418/20160418.html",
+      "targetFilename": "20160418-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20160503",
+      "sourceUrl": "https://www.paccentraljc.org/20160503/20160503.html",
+      "targetFilename": "20160503-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20160516",
+      "sourceUrl": "https://www.paccentraljc.org/20160516/20160516.html",
+      "targetFilename": "20160516-index.html",
+      "downloaded": true
+    },
+    {
+      "dateStr": "20160906",
+      "sourceUrl": "https://www.paccentraljc.org/20160906/20160906.html",
+      "targetFilename": "20160906-index.html",
+      "downloaded": true
+    }
+  ]
+}

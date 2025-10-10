@@ -1,0 +1,42 @@
+{
+  "awardNum": "20194717",
+  "award": "",
+  "awardpoints": null,
+  "location": "Orchids of the Enchanted Forest.",
+  "date": "February 21, 2019",
+  "genus": "Orchids",
+  "species": "of",
+  "clone": "GENERATOR",
+  "cross": "<A HREF=\"../index.html\">home</A>",
+  "exhibitor": "San Francisco Orchid Society",
+  "photographer": "N/A",
+  "photo": "images/20194717.jpg",
+  "measurements": {},
+  "sourceUrl": "https://www.paccentraljc.org/20190221/20194717.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194717.html",
+  "year": 2019,
+  "scrapedDate": "2025-10-10T02:43:24.641Z",
+  "lastModified": "2025-10-10T02:44:34.950Z",
+  "fixesApplied": 1,
+  "fixVersion": "2019-v1.0",
+  "corrections": [
+    {
+      "timestamp": "2025-10-10T02:44:34.950Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/20194717.html",
+      "newValue": "https://www.paccentraljc.org/20190221/20194717.html",
+      "source": "automated-2019-url-standardization",
+      "reason": "Converted from simple to date-based URL format"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-10T02:44:34.950Z",
+      "action": "source-url-format-update",
+      "changes": [
+        "Updated sourceUrl to date-based format"
+      ],
+      "script": "fix-2019-source-url-format.js"
+    }
+  ]
+}

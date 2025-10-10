@@ -1,0 +1,57 @@
+{
+  "awardNum": "20194720",
+  "award": "CCM 83",
+  "awardpoints": 83,
+  "location": "Santa Cruz Orchid Society Show",
+  "date": "March 2, 2019",
+  "genus": "Epigeneium",
+  "species": "acuminatum",
+  "clone": "GENERATOR",
+  "cross": "species",
+  "exhibitor": "Jeff Tyler",
+  "photographer": "N/A",
+  "photo": "images/20194720.jpg",
+  "measurements": {
+    "NS": 4.9,
+    "NSV": 5.1,
+    "DSW": 0.6,
+    "DSL": 2.5,
+    "PETW": 0.5,
+    "PETL": 2.5,
+    "LSW": 0.6,
+    "LSL": 2.7,
+    "LIPW": 0.8,
+    "LIPL": 1.7,
+    "numFlowers": 211,
+    "numBuds": 39,
+    "numInflorescences": 23,
+    "type": "Lip&LateralSepal"
+  },
+  "sourceUrl": "https://www.paccentraljc.org/20190302/20194720.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194720.html",
+  "year": 2019,
+  "scrapedDate": "2025-10-10T02:43:24.643Z",
+  "lastModified": "2025-10-10T02:44:34.951Z",
+  "fixesApplied": 5,
+  "fixVersion": "2019-v1.0",
+  "corrections": [
+    {
+      "timestamp": "2025-10-10T02:44:34.951Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/20194720.html",
+      "newValue": "https://www.paccentraljc.org/20190302/20194720.html",
+      "source": "automated-2019-url-standardization",
+      "reason": "Converted from simple to date-based URL format"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-10T02:44:34.951Z",
+      "action": "source-url-format-update",
+      "changes": [
+        "Updated sourceUrl to date-based format"
+      ],
+      "script": "fix-2019-source-url-format.js"
+    }
+  ]
+}

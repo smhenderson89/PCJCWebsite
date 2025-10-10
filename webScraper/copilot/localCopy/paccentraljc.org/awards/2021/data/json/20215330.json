@@ -8,8 +8,8 @@
   "species": "Eltonense",
   "clone": "Cavalier",
   "cross": "Dendrobium victoria-reginae x Dendrobium papilio",
-  "exhibitor": "",
-  "photographer": "",
+  "exhibitor": "Jason Douglass and Ron Norris",
+  "photographer": "N/A",
   "photo": "images/20215330.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
@@ -28,7 +28,7 @@
     "description": "Ten flowers on two 43-cm canes; sepals and petals lavender, white proixmal end, darker lavender veins, white spot distally; lip flat, white proximally, prominent purple veins, white spot distally; column white; substance firm; texture crystalline."
   },
   "scrapedDate": "2025-10-08T04:08:27.732Z",
-  "sourceUrl": "https://www.paccentraljc.org/210808/20215330.html",
+  "sourceUrl": "https://www.paccentraljc.org/20210808/20215330.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215330.html",
   "year": 2021,
   "corrections": [
@@ -39,6 +39,35 @@
       "newValue": "https://www.paccentraljc.org/210808/20215330.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-09T22:09:23.814Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/210808/20215330.html",
+      "newValue": "https://www.paccentraljc.org/20210808/20215330.html",
+      "source": "automated-2021-source-url-correction",
+      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
+    },
+    {
+      "timestamp": "2025-10-09T23:08:56.012Z",
+      "field": "multiple",
+      "changes": [
+        "Set exhibitor to \"Jason Douglass and Ron Norris Award 20215330 All awards considered pending until published in the AOS Orchids Plus. Pictures are not the AOS Award photos. Descriptions are subject to revision in final publication. &nbsp;Measurements in cm. &nbsp;NS &nbsp; 6.5 &nbsp;NSV &nbsp; 5.4 &nbsp;DSW &nbsp; 2.0 &nbsp;DSL &nbsp; 4.0 &nbsp;PETW &nbsp; 2.0 &nbsp;PETL &nbsp; 4.2 &nbsp;LSW &nbsp; 2.2 &nbsp;LSL &nbsp; 4.0 &nbsp;LIPW &nbsp; 2.5 &nbsp;LIPL &nbsp; 5.0 &nbsp;# flwrs 10 &nbsp;# buds 0 &nbsp;# canes 2 &nbsp; &nbsp; Description : Ten flowers on two 43-cm canes; sepals and petals lavender, white proixmal end, darker lavender veins, white spot distally; lip flat, white proximally, prominent purple veins, white spot distally; column white; substance firm; texture crystalline. &nbsp; Copyright 2021 AOS Pacific Central Judging Center ( home )\" from HTML",
+        "Set photographer to N/A (not found in HTML)"
+      ],
+      "source": "automated-2021-fix-strategy",
+      "reason": "Applied fix strategy: Check HTML source for missing data"
+    },
+    {
+      "timestamp": "2025-10-09T23:12:06.100Z",
+      "field": "multiple",
+      "changes": [
+        "Fixed exhibitor to \"Jason Douglass and Ron Norris\""
+      ],
+      "source": "automated-2021-cleanup-and-fix",
+      "reason": "Cleaned up malformed data and applied proper fixes"
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "awardNum": "20194828",
+  "award": "HCC 77",
+  "awardpoints": 77,
+  "location": "",
+  "date": "October 1, 2019",
+  "genus": "",
+  "species": "",
+  "clone": "GENERATOR",
+  "cross": "Cattleya Indigo Dawn x Cattleya Love Knot",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
+  "photo": "images/20194828.jpg",
+  "measurements": {
+    "NS": 13.4,
+    "NSV": 12.9,
+    "DSW": 2.5,
+    "DSL": 7.1,
+    "PETW": 5.6,
+    "PETL": 7.5,
+    "LSW": 2.6,
+    "LSL": 7,
+    "LIPW": 5,
+    "LIPL": 6.2,
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "type": "Lip&LateralSepal"
+  },
+  "sourceUrl": "https://www.paccentraljc.org/20191001/20194828.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194828.html",
+  "year": 2019,
+  "scrapedDate": "2025-10-10T02:43:24.656Z",
+  "lastModified": "2025-10-10T02:44:34.961Z",
+  "fixesApplied": 4,
+  "fixVersion": "2019-v1.0",
+  "corrections": [
+    {
+      "timestamp": "2025-10-10T02:44:34.961Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/20194828.html",
+      "newValue": "https://www.paccentraljc.org/20191001/20194828.html",
+      "source": "automated-2019-url-standardization",
+      "reason": "Converted from simple to date-based URL format"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-10T02:44:34.961Z",
+      "action": "source-url-format-update",
+      "changes": [
+        "Updated sourceUrl to date-based format"
+      ],
+      "script": "fix-2019-source-url-format.js"
+    }
+  ]
+}

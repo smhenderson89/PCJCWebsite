@@ -1,14 +1,20 @@
 {
+  "metadata": {
+    "timestamp": "2025-10-09T22:09:23.835Z",
+    "year": "2021",
+    "purpose": "Source URL format correction from YYMMDD to YYYYMMDD",
+    "totalFiles": 50,
+    "fixedFiles": 50,
+    "errorFiles": 0
+  },
+  "changes": {
+    "format": "YYMMDD → YYYYMMDD",
+    "example": "211005 → 20211005",
+    "reason": "Match actual website structure with full year format"
+  },
   "summary": {
-    "totalProcessed": 50,
-    "successfullyUpdated": 50,
-    "skipped": 0,
-    "errors": 0
-  },
-  "details": {
-    "skippedFiles": [],
-    "errors": []
-  },
-  "timestamp": "2025-10-08T04:08:57.863Z",
-  "operation": "fix-2021-source-urls"
+    "success": true,
+    "filesFixed": 50,
+    "completionRate": "100.0%"
+  }
 }

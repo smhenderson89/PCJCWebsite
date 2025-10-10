@@ -8,8 +8,8 @@
   "species": "Kulnura Arya",
   "clone": "Gracie",
   "cross": "Sarcochilus Iris x Sarcochilus Kulnura Sanctuary",
-  "exhibitor": "",
-  "photographer": "",
+  "exhibitor": "Amy & Ken Jacobsen",
+  "photographer": "N/A",
   "photo": "images/20215310.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
@@ -28,7 +28,7 @@
     "description": "Twenty-eight flat full flowers and 38 buds on six mature inflorescences, longest 32cm; sepals and petals pure white barred burgundy proximally; saccate lip bold yellow, tip light orange; substance medium; texture diamond dust."
   },
   "scrapedDate": "2025-10-08T04:08:27.696Z",
-  "sourceUrl": "https://www.paccentraljc.org/210417/20215310.html",
+  "sourceUrl": "https://www.paccentraljc.org/20210417/20215310.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215310.html",
   "year": 2021,
   "corrections": [
@@ -39,6 +39,35 @@
       "newValue": "https://www.paccentraljc.org/210417/20215310.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-09T22:09:23.787Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/210417/20215310.html",
+      "newValue": "https://www.paccentraljc.org/20210417/20215310.html",
+      "source": "automated-2021-source-url-correction",
+      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
+    },
+    {
+      "timestamp": "2025-10-09T23:08:55.970Z",
+      "field": "multiple",
+      "changes": [
+        "Set exhibitor to \"Amy & Ken Jacobsen Award 20215310 All awards considered pending until published in the AOS Orchids Plus. Pictures are not the AOS Award photos. Descriptions are subject to revision in final publication. &nbsp;Measurements in cm. &nbsp;NS &nbsp; 2.9 &nbsp;NSV &nbsp; 3.1 &nbsp;DSW &nbsp; 1.1 &nbsp;DSL &nbsp; 1.4 &nbsp;PETW &nbsp; 0.8 &nbsp;PETL &nbsp; 1.2 &nbsp;LSW &nbsp; 1.2 &nbsp;LSL &nbsp; 1.3 &nbsp;LIPW &nbsp; 0.5 &nbsp;LIPL &nbsp; 0.6 &nbsp;# flwrs 28 &nbsp;# buds 38 &nbsp;# infl 6 &nbsp; &nbsp; Description : Twenty-eight flat full flowers and 38 buds on six mature inflorescences, longest 32cm; sepals and petals pure white barred burgundy proximally; saccate lip bold yellow, tip light orange; substance medium; texture diamond dust. &nbsp; Copyright 2021 AOS Pacific Central Judging Center ( home )\" from HTML",
+        "Set photographer to N/A (not found in HTML)"
+      ],
+      "source": "automated-2021-fix-strategy",
+      "reason": "Applied fix strategy: Check HTML source for missing data"
+    },
+    {
+      "timestamp": "2025-10-09T23:12:06.092Z",
+      "field": "multiple",
+      "changes": [
+        "Fixed exhibitor to \"Amy & Ken Jacobsen\""
+      ],
+      "source": "automated-2021-cleanup-and-fix",
+      "reason": "Cleaned up malformed data and applied proper fixes"
     }
   ]
 }

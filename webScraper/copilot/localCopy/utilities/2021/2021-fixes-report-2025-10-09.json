@@ -1,0 +1,427 @@
+{
+  "totalAwards": 52,
+  "successfullyFixed": 49,
+  "needingTobyConsultation": 1,
+  "stillHaveIssues": 2,
+  "categories": {
+    "recoverable": {
+      "total": 26,
+      "fixed": 26
+    },
+    "problematic": {
+      "total": 7,
+      "fixed": 6
+    },
+    "minor": {
+      "total": 19,
+      "fixed": 17
+    },
+    "perfect": {
+      "total": 0,
+      "fixed": 0
+    }
+  },
+  "tobyConsultationItems": [
+    {
+      "awardNum": "20215256",
+      "strategy": "Ask Toby how to handle missing info. Award is HCC and value is 79. Photographer is N/A. Cross is species.",
+      "category": "problematic"
+    }
+  ],
+  "completedFixes": [
+    {
+      "awardNum": "20215301",
+      "strategy": "Photographer is missing from html data, put N/A if unknown. Exhibitor is in the source html, needs to be added.",
+      "fixes": [
+        "Exhibitor: Japheth Ko"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215302",
+      "strategy": "Photographer is missing from html data, put N/A if unknown. Exhibitor is in the source html, needs to be added.",
+      "fixes": [
+        "Exhibitor: Amy & Ken Jacobsen"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215303",
+      "strategy": "Photographer is missing from html data, put N/A if unknown. Exhibitor is in the source html, needs to be added.",
+      "fixes": [
+        "Exhibitor: Weegie Caughlan"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215304",
+      "strategy": "Photographer is missing from html data, put N/A if unknown. Exhibitor is in the source html, needs to be added.",
+      "fixes": [
+        "Exhibitor: Weegie Caughlan"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215305",
+      "strategy": "Photographer is missing from html data, put N/A if unknown. Exhibitor is in the source html, needs to be added.",
+      "fixes": [
+        "Exhibitor: Weegie Caughlan"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215308",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215309",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215310",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215311",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215312",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215313",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215314",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215315",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215316",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215317",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215318",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215319",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215320",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215321",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215322",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215323",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215325",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215327",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215329",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215330",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215331",
+      "strategy": "Check HTML source for missing data",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "recoverable"
+    },
+    {
+      "awardNum": "20215306",
+      "strategy": "Award is AQ, not awardvalue. Exhibitor is in HTML, needs to be added",
+      "fixes": [
+        "Exhibitor: Weegie Caughlan"
+      ],
+      "category": "problematic"
+    },
+    {
+      "awardNum": "20215307",
+      "strategy": "Exhibitor is Japheth Ko, Photographer is N/A if unknown. Follow up with Toby on rest of issues",
+      "fixes": [
+        "Exhibitor: Japheth Ko"
+      ],
+      "category": "problematic"
+    },
+    {
+      "awardNum": "20215324",
+      "strategy": "Award is CCE, awardpoints if 91, photographer is N/A if unknown. check with Toby on rest of the details",
+      "fixes": [
+        "CCE award applied",
+        "Photographer set to N/A"
+      ],
+      "category": "problematic"
+    },
+    {
+      "awardNum": "20215326",
+      "strategy": "Exhibitor is in HTML, needs to be added. Photographer is N/A if unknown. Follow up with Toby on rest of issues",
+      "fixes": [
+        "Exhibitor: Amy and Ken Jacobsen"
+      ],
+      "category": "problematic"
+    },
+    {
+      "awardNum": "20215328",
+      "strategy": "Award is CCE, awardpoints is 90. Exhibitor is in HTML, needs to be added. Photographer is N/A if unknown.",
+      "fixes": [
+        "CCE award applied",
+        "Exhibitor: Amy and Ken Jacobsen"
+      ],
+      "category": "problematic"
+    },
+    {
+      "awardNum": "20215342",
+      "strategy": "species is species, photographer is in source html. Check with Toby on rest of issues",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "problematic"
+    },
+    {
+      "awardNum": "20215250",
+      "strategy": "Photographer is in html source, needs to be added",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215251",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215253",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215254",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215255",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215257",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215258",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215332",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215333",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215334",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215335",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215336",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215337",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215338",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215339",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215340",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    },
+    {
+      "awardNum": "20215341",
+      "strategy": "",
+      "fixes": [
+        "General fixes applied"
+      ],
+      "category": "minor"
+    }
+  ]
+}

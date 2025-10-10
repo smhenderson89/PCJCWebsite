@@ -8,8 +8,8 @@
   "species": "Kulnura Twist",
   "clone": "Gracie",
   "cross": "Sarcochilus Kulnura Firemist x Sarcochilus Kulnura Rusty",
-  "exhibitor": "",
-  "photographer": "",
+  "exhibitor": "Amy & Ken Jacobsen",
+  "photographer": "N/A",
   "photo": "images/20215311.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
@@ -28,7 +28,7 @@
     "description": "Fifty-seven flowers and 47 buds on nine gracefully arched inflorescences; sepals and petals white flushed rose-pink, concentrically barred scarlet proximally; saccate lip white, spotted yellow centrally; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-08T04:08:27.698Z",
-  "sourceUrl": "https://www.paccentraljc.org/210417/20215311.html",
+  "sourceUrl": "https://www.paccentraljc.org/20210417/20215311.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215311.html",
   "year": 2021,
   "corrections": [
@@ -39,6 +39,35 @@
       "newValue": "https://www.paccentraljc.org/210417/20215311.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-09T22:09:23.790Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/210417/20215311.html",
+      "newValue": "https://www.paccentraljc.org/20210417/20215311.html",
+      "source": "automated-2021-source-url-correction",
+      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
+    },
+    {
+      "timestamp": "2025-10-09T23:08:55.973Z",
+      "field": "multiple",
+      "changes": [
+        "Set exhibitor to \"Amy & Ken Jacobsen Award 20215311 All awards considered pending until published in the AOS Orchids Plus. Pictures are not the AOS Award photos. Descriptions are subject to revision in final publication. &nbsp;Measurements in cm. &nbsp;NS &nbsp; 2.6 &nbsp;NSV &nbsp; 2.5 &nbsp;DSW &nbsp; 0.9 &nbsp;DSL &nbsp; 1.4 &nbsp;PETW &nbsp; 0.5 &nbsp;PETL &nbsp; 1.3 &nbsp;LSW &nbsp; 0.9 &nbsp;LSL &nbsp; 1.5 &nbsp;LIPW &nbsp; 0.4 &nbsp;LIPL &nbsp; 0.5 &nbsp;# flwrs 57 &nbsp;# buds 47 &nbsp;# infl 9 &nbsp; &nbsp; Description : Fifty-seven flowers and 47 buds on nine gracefully arched inflorescences; sepals and petals white flushed rose-pink, concentrically barred scarlet proximally; saccate lip white, spotted yellow centrally; substance firm; texture matte. &nbsp; Copyright 2021 AOS Pacific Central Judging Center ( home )\" from HTML",
+        "Set photographer to N/A (not found in HTML)"
+      ],
+      "source": "automated-2021-fix-strategy",
+      "reason": "Applied fix strategy: Check HTML source for missing data"
+    },
+    {
+      "timestamp": "2025-10-09T23:12:06.092Z",
+      "field": "multiple",
+      "changes": [
+        "Fixed exhibitor to \"Amy & Ken Jacobsen\""
+      ],
+      "source": "automated-2021-cleanup-and-fix",
+      "reason": "Cleaned up malformed data and applied proper fixes"
     }
   ]
 }

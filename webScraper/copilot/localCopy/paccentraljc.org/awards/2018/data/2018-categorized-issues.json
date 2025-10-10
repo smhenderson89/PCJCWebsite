@@ -1,0 +1,4979 @@
+{
+  "timestamp": "2025-10-10T00:27:09.391Z",
+  "year": "2018",
+  "analysisVersion": "2.0",
+  "purpose": "Categorize null/empty field issues by fixability and severity for 2018 data (converted from HTML)",
+  "summary": {
+    "totalFiles": 84,
+    "filesWithIssues": 84,
+    "recoverableIssues": 0,
+    "problematicFiles": 84,
+    "minorIssues": 0,
+    "perfectFiles": 0
+  },
+  "categories": {
+    "recoverable": [],
+    "problematic": [
+      {
+        "awardNum": "20185400",
+        "file": "20185400.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185401",
+        "file": "20185401.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185403",
+        "file": "20185403.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185404",
+        "file": "20185404.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185405",
+        "file": "20185405.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185406",
+        "file": "20185406.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185407",
+        "file": "20185407.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185408",
+        "file": "20185408.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185409",
+        "file": "20185409.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185410",
+        "file": "20185410.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185411",
+        "file": "20185411.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185412",
+        "file": "20185412.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185413",
+        "file": "20185413.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185414",
+        "file": "20185414.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185416",
+        "file": "20185416.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185417",
+        "file": "20185417.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185418",
+        "file": "20185418.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185419",
+        "file": "20185419.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185420",
+        "file": "20185420.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185421",
+        "file": "20185421.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185422",
+        "file": "20185422.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185423",
+        "file": "20185423.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185424",
+        "file": "20185424.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185425",
+        "file": "20185425.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185426",
+        "file": "20185426.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185427",
+        "file": "20185427.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185450",
+        "file": "20185450.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185451",
+        "file": "20185451.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185452",
+        "file": "20185452.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185453",
+        "file": "20185453.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185454",
+        "file": "20185454.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185455",
+        "file": "20185455.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185456",
+        "file": "20185456.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185463",
+        "file": "20185463.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185464",
+        "file": "20185464.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185465",
+        "file": "20185465.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185466",
+        "file": "20185466.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185467",
+        "file": "20185467.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185468",
+        "file": "20185468.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185469",
+        "file": "20185469.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185470",
+        "file": "20185470.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185471",
+        "file": "20185471.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185472",
+        "file": "20185472.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185473",
+        "file": "20185473.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185474",
+        "file": "20185474.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185475",
+        "file": "20185475.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185476",
+        "file": "20185476.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185477",
+        "file": "20185477.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185478",
+        "file": "20185478.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185501",
+        "file": "20185501.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185550",
+        "file": "20185550.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185551",
+        "file": "20185551.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185552",
+        "file": "20185552.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185553",
+        "file": "20185553.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185554",
+        "file": "20185554.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185555",
+        "file": "20185555.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185556",
+        "file": "20185556.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185557",
+        "file": "20185557.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185558",
+        "file": "20185558.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185559",
+        "file": "20185559.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185560",
+        "file": "20185560.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185561",
+        "file": "20185561.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185562",
+        "file": "20185562.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185563",
+        "file": "20185563.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185564",
+        "file": "20185564.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185565",
+        "file": "20185565.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185566",
+        "file": "20185566.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185567",
+        "file": "20185567.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185568",
+        "file": "20185568.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185569",
+        "file": "20185569.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185570",
+        "file": "20185570.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185571",
+        "file": "20185571.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185572",
+        "file": "20185572.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185573",
+        "file": "20185573.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185575",
+        "file": "20185575.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185576",
+        "file": "20185576.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185577",
+        "file": "20185577.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185578",
+        "file": "20185578.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185579",
+        "file": "20185579.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185580",
+        "file": "20185580.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185581",
+        "file": "20185581.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185582",
+        "file": "20185582.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185583",
+        "file": "20185583.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "genus",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "species",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "2 critical field(s) missing"
+      },
+      {
+        "awardNum": "20185584",
+        "file": "20185584.json",
+        "issues": [
+          {
+            "field": "award",
+            "type": "missing_critical",
+            "severity": "high",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "location",
+            "type": "missing_important",
+            "severity": "medium",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "photographer",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "N/A",
+            "issue": "placeholder"
+          },
+          {
+            "field": "cross",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": "",
+            "issue": "missing"
+          },
+          {
+            "field": "awardpoints",
+            "type": "missing_optional",
+            "severity": "low",
+            "value": null,
+            "issue": "missing"
+          },
+          {
+            "field": "sourceURL",
+            "type": "missing_optional",
+            "severity": "low",
+            "issue": "missing"
+          }
+        ],
+        "severity": "problematic",
+        "notes": "1 critical field(s) missing"
+      }
+    ],
+    "minor": [],
+    "perfect": []
+  },
+  "fieldAnalysis": {
+    "awardNum": {
+      "total": 84,
+      "missing": 0,
+      "present": 84,
+      "completenessPercent": 100,
+      "fieldType": "critical"
+    },
+    "award": {
+      "total": 84,
+      "missing": 84,
+      "present": 0,
+      "completenessPercent": 0,
+      "fieldType": "critical"
+    },
+    "genus": {
+      "total": 84,
+      "missing": 53,
+      "present": 31,
+      "completenessPercent": 36.9,
+      "fieldType": "critical"
+    },
+    "date": {
+      "total": 84,
+      "missing": 0,
+      "present": 84,
+      "completenessPercent": 100,
+      "fieldType": "important"
+    },
+    "location": {
+      "total": 84,
+      "missing": 84,
+      "present": 0,
+      "completenessPercent": 0,
+      "fieldType": "important"
+    },
+    "species": {
+      "total": 84,
+      "missing": 53,
+      "present": 31,
+      "completenessPercent": 36.9,
+      "fieldType": "important"
+    },
+    "exhibitor": {
+      "total": 84,
+      "missing": 0,
+      "present": 84,
+      "completenessPercent": 100,
+      "fieldType": "important"
+    },
+    "photographer": {
+      "total": 84,
+      "missing": 84,
+      "present": 0,
+      "completenessPercent": 0,
+      "fieldType": "optional"
+    },
+    "cross": {
+      "total": 84,
+      "missing": 84,
+      "present": 0,
+      "completenessPercent": 0,
+      "fieldType": "optional"
+    },
+    "clone": {
+      "total": 84,
+      "missing": 0,
+      "present": 84,
+      "completenessPercent": 100,
+      "fieldType": "optional"
+    },
+    "awardpoints": {
+      "total": 84,
+      "missing": 84,
+      "present": 0,
+      "completenessPercent": 0,
+      "fieldType": "optional"
+    },
+    "photo": {
+      "total": 84,
+      "missing": 0,
+      "present": 84,
+      "completenessPercent": 100,
+      "fieldType": "supplementary"
+    },
+    "measurements": {
+      "total": 84,
+      "missing": 0,
+      "present": 84,
+      "completenessPercent": 100,
+      "fieldType": "supplementary"
+    },
+    "sourceURL": {
+      "total": 84,
+      "missing": 84,
+      "present": 0,
+      "completenessPercent": 0,
+      "fieldType": "supplementary"
+    }
+  }
+}

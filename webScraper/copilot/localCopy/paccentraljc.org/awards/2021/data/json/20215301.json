@@ -8,8 +8,8 @@
   "species": "Baika",
   "clone": "Mume",
   "cross": "Sarcochilus Royale Red x Sarcochilus Camira",
-  "exhibitor": "",
-  "photographer": "",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
   "photo": "images/20215301.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
@@ -28,7 +28,7 @@
     "description": "Eight flowers and five buds on one upright 18-cm inflorescence; sepals and petals crystalline white, barred orange-red centrally; saccate lip orange, side lobes barred red, orange at tip ; substance medium; texture cryatalline."
   },
   "scrapedDate": "2025-10-08T04:08:27.677Z",
-  "sourceUrl": "https://www.paccentraljc.org/210417/20215301.html",
+  "sourceUrl": "https://www.paccentraljc.org/20210417/20215301.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215301.html",
   "year": 2021,
   "corrections": [
@@ -39,6 +39,35 @@
       "newValue": "https://www.paccentraljc.org/210417/20215301.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-09T22:09:23.777Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/210417/20215301.html",
+      "newValue": "https://www.paccentraljc.org/20210417/20215301.html",
+      "source": "automated-2021-source-url-correction",
+      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
+    },
+    {
+      "timestamp": "2025-10-09T23:08:55.947Z",
+      "field": "multiple",
+      "changes": [
+        "Set photographer to N/A",
+        "Set exhibitor to \"Japheth Ko Award 20215301 All awards considered pending until published in the AOS Orchids Plus. Pictures are not the AOS Award photos. Descriptions are subject to revision in final publication. &nbsp;Measurements in cm. &nbsp;NS &nbsp; 2.5 &nbsp;NSV &nbsp; 2.7 &nbsp;DSW &nbsp; 1.1 &nbsp;DSL &nbsp; 1.3 &nbsp;PETW &nbsp; 0.8 &nbsp;PETL &nbsp; 1.1 &nbsp;LSW &nbsp; 1.1 &nbsp;LSL &nbsp; 1.2 &nbsp;LIPW &nbsp; 0.5 &nbsp;LIPL &nbsp; 0.6 &nbsp;# flwrs 8 &nbsp;# buds 5 &nbsp;# infl 1 &nbsp; &nbsp; Description : Eight flowers and five buds on one upright 18-cm inflorescence; sepals and petals crystalline white, barred orange-red centrally; saccate lip orange, side lobes barred red, orange at tip ; substance medium; texture cryatalline. &nbsp; Copyright 2021 AOS Pacific Central Judging Center ( home )\" from HTML"
+      ],
+      "source": "automated-2021-fix-strategy",
+      "reason": "Applied fix strategy: Photographer is missing from html data, put N/A if unknown. Exhibitor is in the source html, needs to be added."
+    },
+    {
+      "timestamp": "2025-10-09T23:12:06.083Z",
+      "field": "multiple",
+      "changes": [
+        "Fixed exhibitor to \"Japheth Ko\""
+      ],
+      "source": "automated-2021-cleanup-and-fix",
+      "reason": "Cleaned up malformed data and applied proper fixes"
     }
   ]
 }

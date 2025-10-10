@@ -28,7 +28,7 @@
     "description": "Eight flowers crowded on two 18-cm inflorescences; sepals and petals flat, chartreuse; lip tubular, cream, overlaid chartreuse centrally, faint pink spots in throat; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-08T04:08:27.675Z",
-  "sourceUrl": "https://www.paccentraljc.org/211207/20215258.html",
+  "sourceUrl": "https://www.paccentraljc.org/20211207/20215258.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215258.html",
   "year": 2021,
   "corrections": [
@@ -39,6 +39,16 @@
       "newValue": "https://www.paccentraljc.org/211207/20215258.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-09T22:09:23.776Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/211207/20215258.html",
+      "newValue": "https://www.paccentraljc.org/20211207/20215258.html",
+      "source": "automated-2021-source-url-correction",
+      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
     }
   ]
 }

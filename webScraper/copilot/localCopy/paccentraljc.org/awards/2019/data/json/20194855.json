@@ -1,0 +1,57 @@
+{
+  "awardNum": "20194855",
+  "award": "AM 80",
+  "awardpoints": 80,
+  "location": "",
+  "date": "January 12, 2019",
+  "genus": "",
+  "species": "",
+  "clone": "GENERATOR",
+  "cross": "Phragmipedium besseae x Phragmipedium boissierianum",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
+  "photo": "images/20194855.jpg",
+  "measurements": {
+    "NS": 11,
+    "NSV": 9,
+    "DSW": 2,
+    "DSL": 4.5,
+    "PETW": 1.7,
+    "PETL": 6,
+    "SYNSW": 3.2,
+    "SYNSL": 4.3,
+    "PCHW": 2,
+    "PCHL": 4.5,
+    "numFlowers": 1,
+    "numBuds": 2,
+    "numInflorescences": 1,
+    "type": "Pouch"
+  },
+  "sourceUrl": "https://www.paccentraljc.org/20190112/20194855.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194855.html",
+  "year": 2019,
+  "scrapedDate": "2025-10-10T02:43:24.660Z",
+  "lastModified": "2025-10-10T02:44:34.968Z",
+  "fixesApplied": 4,
+  "fixVersion": "2019-v1.0",
+  "corrections": [
+    {
+      "timestamp": "2025-10-10T02:44:34.968Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/20194855.html",
+      "newValue": "https://www.paccentraljc.org/20190112/20194855.html",
+      "source": "automated-2019-url-standardization",
+      "reason": "Converted from simple to date-based URL format"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-10T02:44:34.968Z",
+      "action": "source-url-format-update",
+      "changes": [
+        "Updated sourceUrl to date-based format"
+      ],
+      "script": "fix-2019-source-url-format.js"
+    }
+  ]
+}

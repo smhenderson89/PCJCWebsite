@@ -7,9 +7,9 @@
   "genus": "Cymbidium",
   "species": "tracyanum",
   "clone": "Solomon",
-  "cross": "",
-  "exhibitor": "",
-  "photographer": "",
+  "cross": "species",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "N/A",
   "photo": "images/20205250.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
@@ -28,7 +28,7 @@
     "description": "Fifteen flowers and three buds on one arching inflorescence; dorsal sepal arching, chartreuse, maroon spots coalescing on margins; lateral sepals sweeping forward, maroon spots coalescing on margins; petals chartreuse, spots and blotches coalescing on margins and distal tips; lip white, blotched red on margin and tip, keel white, ciliate; column cream, spotted red-brown; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-08T04:13:57.370Z",
-  "sourceUrl": "https://www.paccentraljc.org/200124/20205250.html",
+  "sourceUrl": "https://www.paccentraljc.org/2020124/20205250.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205250.html",
   "year": 2020,
   "corrections": [
@@ -39,6 +39,18 @@
       "newValue": "https://www.paccentraljc.org/200124/20205250.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-09T23:24:25.463Z",
+      "field": "multiple",
+      "changes": [
+        "Set exhibitor to \"Pierre Pujol\"",
+        "Set photographer to N/A (not found in HTML)"
+      ],
+      "source": "automated-2020-fix-extraction",
+      "reason": "Applied 2021-style fix strategies to extract missing data from HTML"
     }
   ]
 }

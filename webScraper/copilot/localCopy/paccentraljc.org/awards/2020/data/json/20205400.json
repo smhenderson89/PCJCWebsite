@@ -8,8 +8,8 @@
   "species": "tortisepalum",
   "clone": "Xingyi 456",
   "cross": "",
-  "exhibitor": "",
-  "photographer": "",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
   "photo": "images/20205400.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
@@ -28,7 +28,7 @@
     "description": "Four overall flat lily form flowers on one erect 40.0-cm inflorescence; sepals chartreuse blushed maroon, veined maroon, mid-vein darker maroon; petals porrect, chartreuse blushed maroon along margins, veined maroon, mid-vein darker maroon; lip cream, side lobes overlaid light burgundy, centrally spotted burgundy, crest yellow distally; column light green, darker marginally, ventral surface blotched burgundy, anther cap cream; substance firm; texture satiny, lip matte."
   },
   "scrapedDate": "2025-10-08T04:13:57.458Z",
-  "sourceUrl": "https://www.paccentraljc.org/200118/20205400.html",
+  "sourceUrl": "https://www.paccentraljc.org/20200118/20205400.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205400.html",
   "year": 2020,
   "corrections": [
@@ -39,6 +39,35 @@
       "newValue": "https://www.paccentraljc.org/200118/20205400.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    },
+    {
+      "timestamp": "2025-10-09T23:30:29.369Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/200118/20205400.html",
+      "newValue": "https://www.paccentraljc.org/20200118/20205400.html",
+      "source": "automated-2020-source-url-format-fix",
+      "reason": "Updated date format from YYYMMDD to YYYYMMDD (202MMDD → 2020MMDD)"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-09T23:24:25.473Z",
+      "field": "multiple",
+      "changes": [
+        "Set exhibitor to \"Amy and Ken Jacobsen\"",
+        "Set photographer to N/A (not found in HTML)"
+      ],
+      "source": "automated-2020-fix-extraction",
+      "reason": "Applied 2021-style fix strategies to extract missing data from HTML"
+    },
+    {
+      "timestamp": "2025-10-09T23:30:29.369Z",
+      "field": "sourceUrl",
+      "changes": [
+        "Updated sourceUrl format: 20200118"
+      ],
+      "source": "automated-2020-url-format-correction",
+      "reason": "Fixed source URL date format from YYYMMDD to YYYYMMDD"
     }
   ]
 }

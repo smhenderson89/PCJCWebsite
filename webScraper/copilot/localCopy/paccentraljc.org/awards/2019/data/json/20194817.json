@@ -1,0 +1,57 @@
+{
+  "awardNum": "20194817",
+  "award": "CCM 87",
+  "awardpoints": 87,
+  "location": "",
+  "date": "July 2, 2019",
+  "genus": "Cyrtochilum",
+  "species": "zebrinum",
+  "clone": "GENERATOR",
+  "cross": "species",
+  "exhibitor": "Masaki Asuka",
+  "photographer": "N/A",
+  "photo": "images/20194817.jpg",
+  "measurements": {
+    "NS": 4.5,
+    "NSV": 5.4,
+    "DSW": 1.6,
+    "DSL": 2.3,
+    "PETW": 1,
+    "PETL": 2.3,
+    "LSW": 1.3,
+    "LSL": 3.4,
+    "LIPW": 0.7,
+    "LIPL": 2.4,
+    "numFlowers": 142,
+    "numBuds": 1,
+    "numInflorescences": 3,
+    "type": "Lip&LateralSepal"
+  },
+  "sourceUrl": "https://www.paccentraljc.org/20190702/20194817.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194817.html",
+  "year": 2019,
+  "scrapedDate": "2025-10-10T02:43:24.653Z",
+  "lastModified": "2025-10-10T02:44:34.958Z",
+  "fixesApplied": 4,
+  "fixVersion": "2019-v1.0",
+  "corrections": [
+    {
+      "timestamp": "2025-10-10T02:44:34.958Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/20194817.html",
+      "newValue": "https://www.paccentraljc.org/20190702/20194817.html",
+      "source": "automated-2019-url-standardization",
+      "reason": "Converted from simple to date-based URL format"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-10T02:44:34.958Z",
+      "action": "source-url-format-update",
+      "changes": [
+        "Updated sourceUrl to date-based format"
+      ],
+      "script": "fix-2019-source-url-format.js"
+    }
+  ]
+}

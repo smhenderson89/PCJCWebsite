@@ -8,8 +8,8 @@
   "species": "Heathii (1)",
   "clone": "#9",
   "cross": "Cattleya loddigesii x Cattleya walkeriana",
-  "exhibitor": "",
-  "photographer": "",
+  "exhibitor": "Any and Ken Jacobsen",
+  "photographer": "N/A",
   "photo": "images/20215321.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
@@ -28,7 +28,7 @@
     "description": "Three erect flowers on one upright unstaked inflorescence; sepals light lavender; petals slightly frilled, light lavender, faintly striated darker lavender; lip frilled, darker lavender to purple distally, yellow throat; column bulbous, white, purple spot distal edge; substance firm; texture matte."
   },
   "scrapedDate": "2025-10-08T04:08:27.717Z",
-  "sourceUrl": "https://www.paccentraljc.org/210619/20215321.html",
+  "sourceUrl": "https://www.paccentraljc.org/20210619/20215321.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215321.html",
   "year": 2021,
   "corrections": [
@@ -39,6 +39,35 @@
       "newValue": "https://www.paccentraljc.org/210619/20215321.html",
       "source": "automated-source-url-correction",
       "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
+    }
+  ],
+  "changeLog": [
+    {
+      "timestamp": "2025-10-09T22:09:23.801Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/210619/20215321.html",
+      "newValue": "https://www.paccentraljc.org/20210619/20215321.html",
+      "source": "automated-2021-source-url-correction",
+      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
+    },
+    {
+      "timestamp": "2025-10-09T23:08:56.001Z",
+      "field": "multiple",
+      "changes": [
+        "Set exhibitor to \"Any and Ken Jacobsen Award 20215321 All awards considered pending until published in the AOS Orchids Plus. Pictures are not the AOS Award photos. Descriptions are subject to revision in final publication. &nbsp;Measurements in cm. &nbsp;NS &nbsp; 12.7 &nbsp;NSV &nbsp; 12.1 &nbsp;DSW &nbsp; 3.2 &nbsp;DSL &nbsp; 7.2 &nbsp;PETW &nbsp; 5.6 &nbsp;PETL &nbsp; 6.4 &nbsp;LSW &nbsp; 3.3 &nbsp;LSL &nbsp; 6.2 &nbsp;LIPW &nbsp; 4.8 &nbsp;LIPL &nbsp; 5.5 &nbsp;# flwrs 3 &nbsp;# buds 0 &nbsp;# infl 1 &nbsp; &nbsp; Description : Three erect flowers on one upright unstaked inflorescence; sepals light lavender; petals slightly frilled, light lavender, faintly striated darker lavender; lip frilled, darker lavender to purple distally, yellow throat; column bulbous, white, purple spot distal edge; substance firm; texture matte. &nbsp; Copyright 2021 AOS Pacific Central Judging Center ( home )\" from HTML",
+        "Set photographer to N/A (not found in HTML)"
+      ],
+      "source": "automated-2021-fix-strategy",
+      "reason": "Applied fix strategy: Check HTML source for missing data"
+    },
+    {
+      "timestamp": "2025-10-09T23:12:06.097Z",
+      "field": "multiple",
+      "changes": [
+        "Fixed exhibitor to \"Any and Ken Jacobsen\""
+      ],
+      "source": "automated-2021-cleanup-and-fix",
+      "reason": "Cleaned up malformed data and applied proper fixes"
     }
   ]
 }
