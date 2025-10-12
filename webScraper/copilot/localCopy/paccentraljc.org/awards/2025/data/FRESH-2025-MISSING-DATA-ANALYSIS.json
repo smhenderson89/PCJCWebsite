@@ -1,0 +1,797 @@
+{
+  "timestamp": "2025-10-11T11:26:48.838Z",
+  "purpose": "Fresh analysis of 2025 data to identify actual missing/null values after all fixes",
+  "summary": {
+    "totalFiles": 96,
+    "completeFiles": 93,
+    "filesWithMissingCore": 3,
+    "filesWithNullValues": 3,
+    "filesWithMissingMeasurements": 10
+  },
+  "detailedIssues": {
+    "missingCoreData": [
+      {
+        "fileName": "20255295.json",
+        "awardNum": "20255295",
+        "plantName": "Epidendrum camposii",
+        "exhibitor": "Evan Shen",
+        "missingFields": [
+          "awardpoints"
+        ],
+        "issues": [
+          "awardpoints: null"
+        ],
+        "priority": "MEDIUM"
+      },
+      {
+        "fileName": "20255318.json",
+        "awardNum": "20255318",
+        "plantName": "Filoli Historic",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "missingFields": [
+          "awardpoints"
+        ],
+        "issues": [
+          "awardpoints: null"
+        ],
+        "priority": "MEDIUM"
+      },
+      {
+        "fileName": "20255363.json",
+        "awardNum": "20255363",
+        "plantName": "Pacific Orchid",
+        "exhibitor": "Marin Orchid Society",
+        "missingFields": [
+          "awardpoints"
+        ],
+        "issues": [
+          "awardpoints: null"
+        ],
+        "priority": "MEDIUM"
+      }
+    ],
+    "nullValues": [],
+    "missingMeasurements": [
+      {
+        "fileName": "20255260.json",
+        "awardNum": "20255260",
+        "plantName": "Emperor Amber",
+        "missingMeasurements": [
+          "measurements.description: null"
+        ]
+      },
+      {
+        "fileName": "20255261.json",
+        "awardNum": "20255261",
+        "plantName": "Exeter Jadeite",
+        "missingMeasurements": [
+          "measurements.description: null"
+        ]
+      },
+      {
+        "fileName": "20255262.json",
+        "awardNum": "20255262",
+        "plantName": "Cattleya loddigesii",
+        "missingMeasurements": [
+          "measurements.description: null"
+        ]
+      },
+      {
+        "fileName": "20255263.json",
+        "awardNum": "20255263",
+        "plantName": "Laelia anceps",
+        "missingMeasurements": [
+          "measurements.description: null"
+        ]
+      },
+      {
+        "fileName": "20255264.json",
+        "awardNum": "20255264",
+        "plantName": "Laelia anceps",
+        "missingMeasurements": [
+          "measurements.description: null"
+        ]
+      },
+      {
+        "fileName": "20255318.json",
+        "awardNum": "20255318",
+        "plantName": "Filoli Historic",
+        "missingMeasurements": [
+          "measurements.description: null",
+          "measurements.numFlowers: null",
+          "measurements.numBuds: null",
+          "measurements.numInflorescences: null"
+        ]
+      },
+      {
+        "fileName": "20255363.json",
+        "awardNum": "20255363",
+        "plantName": "Pacific Orchid",
+        "missingMeasurements": [
+          "measurements.numFlowers: null",
+          "measurements.numBuds: null",
+          "measurements.numInflorescences: null"
+        ]
+      },
+      {
+        "fileName": "20255364.json",
+        "awardNum": "20255364",
+        "plantName": "Pacific Orchid",
+        "missingMeasurements": [
+          "measurements.numFlowers: null",
+          "measurements.numBuds: null",
+          "measurements.numInflorescences: null"
+        ]
+      },
+      {
+        "fileName": "20255373.json",
+        "awardNum": "20255373",
+        "plantName": "Disa Watsonii",
+        "missingMeasurements": [
+          "measurements.description: null"
+        ]
+      },
+      {
+        "fileName": "20255374.json",
+        "awardNum": "20255374",
+        "plantName": "Disa uniflora",
+        "missingMeasurements": [
+          "measurements.description: null"
+        ]
+      }
+    ],
+    "completeFiles": [
+      {
+        "fileName": "20255250.json",
+        "awardNum": "20255250",
+        "plantName": "Ken Siew",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255251.json",
+        "awardNum": "20255251",
+        "plantName": "Cymbidium tracyanum",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255252.json",
+        "awardNum": "20255252",
+        "plantName": "Cymbidium tracyanum",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255253.json",
+        "awardNum": "20255253",
+        "plantName": "Cattleya walkeriana",
+        "exhibitor": "Steven Christoffersen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255254.json",
+        "awardNum": "20255254",
+        "plantName": "Cattleya loddigesii",
+        "exhibitor": "Amy & Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255255.json",
+        "awardNum": "20255255",
+        "plantName": "Paphiopedilum Upcheri",
+        "exhibitor": "Carol Klonowski",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255256.json",
+        "awardNum": "20255256",
+        "plantName": "Princess Takamado",
+        "exhibitor": "Tom Waugh",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255257.json",
+        "awardNum": "20255257",
+        "plantName": "Cymbidium Mademoiselle",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255258.json",
+        "awardNum": "20255258",
+        "plantName": "Spider Dance",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255259.json",
+        "awardNum": "20255259",
+        "plantName": "Camryn Quest",
+        "exhibitor": "Ceajay Palanca",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255260.json",
+        "awardNum": "20255260",
+        "plantName": "Emperor Amber",
+        "exhibitor": "Linsie Hu",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255261.json",
+        "awardNum": "20255261",
+        "plantName": "Exeter Jadeite",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255262.json",
+        "awardNum": "20255262",
+        "plantName": "Cattleya loddigesii",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255263.json",
+        "awardNum": "20255263",
+        "plantName": "Laelia anceps",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255264.json",
+        "awardNum": "20255264",
+        "plantName": "Laelia anceps",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255265.json",
+        "awardNum": "20255265",
+        "plantName": "Pamela Larson",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255266.json",
+        "awardNum": "20255266",
+        "plantName": "Cymbidium Rockstar",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255267.json",
+        "awardNum": "20255267",
+        "plantName": "Calanthe Tomisu",
+        "exhibitor": "Evan Shen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255268.json",
+        "awardNum": "20255268",
+        "plantName": "Duno Marilyn",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255269.json",
+        "awardNum": "20255269",
+        "plantName": "Lemon Sorbet",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255271.json",
+        "awardNum": "20255271",
+        "plantName": "Cattleya Intermedia",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255272.json",
+        "awardNum": "20255272",
+        "plantName": "Pri Jollix",
+        "exhibitor": "Jason Douglass",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255273.json",
+        "awardNum": "20255273",
+        "plantName": "Marguglio Szwed",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255274.json",
+        "awardNum": "20255274",
+        "plantName": "Ueli Wackernagel",
+        "exhibitor": "Anthony Rivera",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255275.json",
+        "awardNum": "20255275",
+        "plantName": "Victoria Kam",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255276.json",
+        "awardNum": "20255276",
+        "plantName": "Ken Jacobsen",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255277.json",
+        "awardNum": "20255277",
+        "plantName": "Pleione formosana",
+        "exhibitor": "Anthony Rivera",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255278.json",
+        "awardNum": "20255278",
+        "plantName": "Leptotes bicolor",
+        "exhibitor": "Zach Coney",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255279.json",
+        "awardNum": "20255279",
+        "plantName": "Jordon Winter",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255280.json",
+        "awardNum": "20255280",
+        "plantName": "Ken Jacobsen",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255281.json",
+        "awardNum": "20255281",
+        "plantName": "Ken Jacobsen",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255282.json",
+        "awardNum": "20255282",
+        "plantName": "Fran Weaver",
+        "exhibitor": "Bill Weaver",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255283.json",
+        "awardNum": "20255283",
+        "plantName": "Fran Weaver",
+        "exhibitor": "Bill Weaver",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255284.json",
+        "awardNum": "20255284",
+        "plantName": "Paphiopedilum hirsutissimum",
+        "exhibitor": "Japheth Ko",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255285.json",
+        "awardNum": "20255285",
+        "plantName": "King Kirby",
+        "exhibitor": "Ceajay Palanca",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255286.json",
+        "awardNum": "20255286",
+        "plantName": "Phalaenopsis japonica",
+        "exhibitor": "Evan Shen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255288.json",
+        "awardNum": "20255288",
+        "plantName": "Saitama Alliance",
+        "exhibitor": "Mariana Alwell",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255289.json",
+        "awardNum": "20255289",
+        "plantName": "Microcoelia koehleri",
+        "exhibitor": "Jim Heilig",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255290.json",
+        "awardNum": "20255290",
+        "plantName": "Microcoelia koehleri",
+        "exhibitor": "Jim Heilig",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255291.json",
+        "awardNum": "20255291",
+        "plantName": "Kulnura Opus",
+        "exhibitor": "Cheri Wagner",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255292.json",
+        "awardNum": "20255292",
+        "plantName": "Angraecum florulentum",
+        "exhibitor": "Chaunie Langland",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255293.json",
+        "awardNum": "20255293",
+        "plantName": "Cymbidium parishii",
+        "exhibitor": "C. Todd Kennedy",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255294.json",
+        "awardNum": "20255294",
+        "plantName": "Cholita Cuencana",
+        "exhibitor": "Linsie Hu",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255296.json",
+        "awardNum": "20255296",
+        "plantName": "Neil McCormick",
+        "exhibitor": "Chaunie Langland",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255297.json",
+        "awardNum": "20255297",
+        "plantName": "Neil McCormick",
+        "exhibitor": "Chaunie Langland",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255298.json",
+        "awardNum": "20255298",
+        "plantName": "Kulnura Momentum",
+        "exhibitor": "Sylvia Darr",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255299.json",
+        "awardNum": "20255299",
+        "plantName": "Dendrobium wardianum",
+        "exhibitor": "Kaiju Lyu",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255300.json",
+        "awardNum": "20255300",
+        "plantName": "Toni Semple",
+        "exhibitor": "Evan Shen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255301.json",
+        "awardNum": "20255301",
+        "plantName": "Paphiopedilum Julius",
+        "exhibitor": "Jason Douglass",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255302.json",
+        "awardNum": "20255302",
+        "plantName": "Cattleya warscewiczii",
+        "exhibitor": "Steven Christoffersen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255303.json",
+        "awardNum": "20255303",
+        "plantName": "Hsin Venus",
+        "exhibitor": "Tom Waugh",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255304.json",
+        "awardNum": "20255304",
+        "plantName": "Hsin Venus",
+        "exhibitor": "Tom Waugh",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255305.json",
+        "awardNum": "20255305",
+        "plantName": "Zygostates lunata",
+        "exhibitor": "Chaunie Langland",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255306.json",
+        "awardNum": "20255306",
+        "plantName": "Disa uniflora",
+        "exhibitor": "Seed Studio",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255307.json",
+        "awardNum": "20255307",
+        "plantName": "Disa uniflora",
+        "exhibitor": "Seed Studio",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255308.json",
+        "awardNum": "20255308",
+        "plantName": "Disa Diores",
+        "exhibitor": "Seed Studio",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255309.json",
+        "awardNum": "20255309",
+        "plantName": "Golden Circle",
+        "exhibitor": "Amy & Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255310.json",
+        "awardNum": "20255310",
+        "plantName": "Cattleya warscewiczii",
+        "exhibitor": "Steven Christoffersen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255311.json",
+        "awardNum": "20255311",
+        "plantName": "Prosthechea mariae",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255312.json",
+        "awardNum": "20255312",
+        "plantName": "Filoli Historic",
+        "exhibitor": "Evan Shen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255313.json",
+        "awardNum": "20255313",
+        "plantName": "Disa uniflora",
+        "exhibitor": "Evan Shen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255314.json",
+        "awardNum": "20255314",
+        "plantName": "Cattleya purpurata",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255315.json",
+        "awardNum": "20255315",
+        "plantName": "Cattleya purpurata",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255316.json",
+        "awardNum": "20255316",
+        "plantName": "Cattleya purpurata",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255317.json",
+        "awardNum": "20255317",
+        "plantName": "Cattleya purpurata",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255319.json",
+        "awardNum": "20255319",
+        "plantName": "Mini Purple",
+        "exhibitor": "Linsie Hu",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255320.json",
+        "awardNum": "20255320",
+        "plantName": "House Prosthechea",
+        "exhibitor": "Linsie Hu",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255321.json",
+        "awardNum": "20255321",
+        "plantName": "Cymbidium ensifolium",
+        "exhibitor": "Mary Bui-Pham",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255322.json",
+        "awardNum": "20255322",
+        "plantName": "Jungle Beau",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255323.json",
+        "awardNum": "20255323",
+        "plantName": "Quintal Wonder",
+        "exhibitor": "Carol Klonowski",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255350.json",
+        "awardNum": "20255350",
+        "plantName": "Cymbidium goeringii",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255351.json",
+        "awardNum": "20255351",
+        "plantName": "Cymbidium goeringii",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255352.json",
+        "awardNum": "20255352",
+        "plantName": "Charm Lippehill",
+        "exhibitor": "Japheth Ko",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255353.json",
+        "awardNum": "20255353",
+        "plantName": "Oncidium cheirophorum",
+        "exhibitor": "Tom Waugh",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255354.json",
+        "awardNum": "20255354",
+        "plantName": "Jewel Johari",
+        "exhibitor": "Sue Rose",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255355.json",
+        "awardNum": "20255355",
+        "plantName": "Cocoa Hamana",
+        "exhibitor": "Dave Sorokwsky",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255356.json",
+        "awardNum": "20255356",
+        "plantName": "Lycaste Rakuhoku",
+        "exhibitor": "Ramon de los Santos",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255357.json",
+        "awardNum": "20255357",
+        "plantName": "Lycaste Rakuhoku",
+        "exhibitor": "Ramon de los Santos",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255358.json",
+        "awardNum": "20255358",
+        "plantName": "Cattleya loddigesii",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255359.json",
+        "awardNum": "20255359",
+        "plantName": "Phyllis Chim",
+        "exhibitor": "Paula Shiu",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255360.json",
+        "awardNum": "20255360",
+        "plantName": "Dendrobium kingianum",
+        "exhibitor": "Pierre Pujol",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255361.json",
+        "awardNum": "20255361",
+        "plantName": "China Moon",
+        "exhibitor": "Jason Douglass",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255362.json",
+        "awardNum": "20255362",
+        "plantName": "Silver King",
+        "exhibitor": "Golden Gate Orchids",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255364.json",
+        "awardNum": "20255364",
+        "plantName": "Pacific Orchid",
+        "exhibitor": "Marin Orchid Society",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255365.json",
+        "awardNum": "20255365",
+        "plantName": "Splendid Marilyn",
+        "exhibitor": "CeaJay Palanca",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255366.json",
+        "awardNum": "20255366",
+        "plantName": "True Creator",
+        "exhibitor": "CeaJay Palanca",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255367.json",
+        "awardNum": "20255367",
+        "plantName": "Golden Valley",
+        "exhibitor": "CeaJay Palanca",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255368.json",
+        "awardNum": "20255368",
+        "plantName": "Kimberley Splash",
+        "exhibitor": "CeaJay Palanca",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255369.json",
+        "awardNum": "20255369",
+        "plantName": "Kulnura Need",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255370.json",
+        "awardNum": "20255370",
+        "plantName": "Beautiful Muse",
+        "exhibitor": "Paula Shiu",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255372.json",
+        "awardNum": "20255372",
+        "plantName": "Paphiopedilum urbanianum",
+        "exhibitor": "Chen Hao Hsu",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255373.json",
+        "awardNum": "20255373",
+        "plantName": "Disa Watsonii",
+        "exhibitor": "Evan Shen",
+        "status": "complete"
+      },
+      {
+        "fileName": "20255374.json",
+        "awardNum": "20255374",
+        "plantName": "Disa uniflora",
+        "exhibitor": "Evan Shen",
+        "status": "complete"
+      }
+    ]
+  }
+}

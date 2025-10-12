@@ -1,0 +1,985 @@
+{
+  "generatedAt": "2025-10-11T11:18:49.983Z",
+  "purpose": "Consolidated analysis of all 2025 PCJC Awards data quality reports",
+  "sourceFiles": [
+    "2025-categorized-issues.json",
+    "2025-clean-data-report.json",
+    "2025-missing-data-report.json",
+    "2025-null-values-review.json",
+    "2025-source-url-fixes-report.json",
+    "author-errors-report.json",
+    "pagesWithMissingInfo.json",
+    "FINAL-ANALYSIS-SUMMARY.md"
+  ],
+  "executiveSummary": {
+    "totalAwardFiles": 96,
+    "dataQualityStatus": "ANALYSIS COMPLETE - FIXES APPLIED",
+    "completionRate": "75.0%",
+    "criticalIssues": 3,
+    "recoverableIssues": 13,
+    "minorIssues": 8
+  },
+  "dataQuality": {
+    "cleanDataReport": {
+      "timestamp": "2025-10-04T06:38:54.742Z",
+      "summary": {
+        "totalAwardFiles": 96,
+        "missingGenus": 0,
+        "missingSpecies": 0,
+        "missingImages": 0,
+        "completeRecords": 96
+      },
+      "issues": {
+        "nullGenus": [],
+        "nullSpecies": [],
+        "missingImages": []
+      }
+    },
+    "missingDataReport": {
+      "timestamp": "2025-10-06T03:39:38.897Z",
+      "analysisVersion": "2.0",
+      "summary": {
+        "totalJsonFiles": 96,
+        "completeFiles": 77,
+        "filesWithMissingCoreData": 0,
+        "filesWithNullValues": 4,
+        "filesWithEmptyStrings": 0,
+        "filesWithMissingMeasurements": 18,
+        "filesWithIncompleteSpecies": 0,
+        "validFiles": 92
+      },
+      "details": {
+        "completeFiles": [
+          "20255250.json",
+          "20255251.json",
+          "20255252.json",
+          "20255253.json",
+          "20255254.json",
+          "20255256.json",
+          "20255257.json",
+          "20255258.json",
+          "20255259.json",
+          "20255265.json",
+          "20255266.json",
+          "20255267.json",
+          "20255268.json",
+          "20255269.json",
+          "20255271.json",
+          "20255273.json",
+          "20255274.json",
+          "20255275.json",
+          "20255276.json",
+          "20255277.json",
+          "20255278.json",
+          "20255279.json",
+          "20255280.json",
+          "20255281.json",
+          "20255282.json",
+          "20255283.json",
+          "20255284.json",
+          "20255285.json",
+          "20255286.json",
+          "20255288.json",
+          "20255289.json",
+          "20255290.json",
+          "20255291.json",
+          "20255292.json",
+          "20255293.json",
+          "20255294.json",
+          "20255296.json",
+          "20255297.json",
+          "20255298.json",
+          "20255299.json",
+          "20255302.json",
+          "20255303.json",
+          "20255304.json",
+          "20255305.json",
+          "20255306.json",
+          "20255307.json",
+          "20255308.json",
+          "20255309.json",
+          "20255310.json",
+          "20255311.json",
+          "20255312.json",
+          "20255313.json",
+          "20255314.json",
+          "20255315.json",
+          "20255316.json",
+          "20255317.json",
+          "20255319.json",
+          "20255320.json",
+          "20255321.json",
+          "20255322.json",
+          "20255323.json",
+          "20255350.json",
+          "20255351.json",
+          "20255353.json",
+          "20255354.json",
+          "20255356.json",
+          "20255357.json",
+          "20255358.json",
+          "20255359.json",
+          "20255360.json",
+          "20255362.json",
+          "20255365.json",
+          "20255366.json",
+          "20255367.json",
+          "20255368.json",
+          "20255369.json",
+          "20255370.json"
+        ],
+        "filesWithMissingCoreData": [],
+        "filesWithNullValues": [
+          "20255295.json",
+          "20255318.json",
+          "20255363.json",
+          "20255364.json"
+        ],
+        "filesWithEmptyStrings": [],
+        "filesWithMissingMeasurements": [
+          "20255255.json",
+          "20255260.json",
+          "20255261.json",
+          "20255262.json",
+          "20255263.json",
+          "20255264.json",
+          "20255272.json",
+          "20255300.json",
+          "20255301.json",
+          "20255318.json",
+          "20255352.json",
+          "20255355.json",
+          "20255361.json",
+          "20255363.json",
+          "20255364.json",
+          "20255372.json",
+          "20255373.json",
+          "20255374.json"
+        ],
+        "filesWithIncompleteSpecies": [],
+        "missingFieldsBreakdown": {},
+        "measurementFieldsAnalysis": {
+          "commonMissing": {
+            "LSW": 8,
+            "LSL": 8,
+            "LIPW": 8,
+            "LIPL": 8
+          },
+          "byMeasurementType": {
+            "Lip&LateralSepal": {
+              "count": 88,
+              "missingFields": {}
+            },
+            "Pouch&Sepal": {
+              "count": 8,
+              "missingFields": {
+                "LSW": 8,
+                "LSL": 8,
+                "LIPW": 8,
+                "LIPL": 8
+              }
+            }
+          }
+        },
+        "locationAnalysis": {
+          "uniqueLocations": [
+            "Filoli Historic House Monthly",
+            "Gold Coast Cymbidium Society Outreach",
+            "Peninsula OS/Gold Coast Cymbidium Show",
+            "Santa Cruz Orchid Society Show",
+            "San Francisco Monthly",
+            "Pacific Orchid Exposition",
+            "San Francisco"
+          ],
+          "locationCounts": {
+            "Filoli Historic House Monthly": 54,
+            "Gold Coast Cymbidium Society Outreach": 5,
+            "Peninsula OS/Gold Coast Cymbidium Show": 8,
+            "Santa Cruz Orchid Society Show": 5,
+            "San Francisco Monthly": 11,
+            "Pacific Orchid Exposition": 10,
+            "San Francisco": 3
+          }
+        },
+        "genusSpeciesAnalysis": {
+          "incompleteRecords": []
+        }
+      }
+    },
+    "nullValuesAnalysis": {
+      "timestamp": "2025-10-06T03:26:53.066Z",
+      "purpose": "Simple list of files with null values for manual review",
+      "summary": {
+        "totalFiles": 96,
+        "filesWithNullValues": 24,
+        "totalNullFields": 77
+      },
+      "filesToReview": [
+        {
+          "fileName": "20255260.json",
+          "awardNum": "20255260",
+          "plantName": "Emperor Amber",
+          "exhibitor": "Linsie Hu",
+          "nullFieldsList": [
+            "measurements.description"
+          ],
+          "nullCount": 1
+        },
+        {
+          "fileName": "20255261.json",
+          "awardNum": "20255261",
+          "plantName": "Exeter Jadeite",
+          "exhibitor": "Amy and Ken Jacobsen",
+          "nullFieldsList": [
+            "measurements.description"
+          ],
+          "nullCount": 1
+        },
+        {
+          "fileName": "20255262.json",
+          "awardNum": "20255262",
+          "plantName": "Cattleya loddigesii",
+          "exhibitor": "Amy and Ken Jacobsen",
+          "nullFieldsList": [
+            "measurements.description"
+          ],
+          "nullCount": 1
+        },
+        {
+          "fileName": "20255263.json",
+          "awardNum": "20255263",
+          "plantName": "Laelia anceps",
+          "exhibitor": "Amy and Ken Jacobsen",
+          "nullFieldsList": [
+            "measurements.description"
+          ],
+          "nullCount": 1
+        },
+        {
+          "fileName": "20255264.json",
+          "awardNum": "20255264",
+          "plantName": "Laelia anceps",
+          "exhibitor": "Amy and Ken Jacobsen",
+          "nullFieldsList": [
+            "measurements.description"
+          ],
+          "nullCount": 1
+        },
+        {
+          "fileName": "20255275.json",
+          "awardNum": "20255275",
+          "plantName": "Victoria Kam",
+          "exhibitor": "Pierre Pujol",
+          "nullFieldsList": [
+            "award",
+            "awardpoints"
+          ],
+          "nullCount": 2
+        },
+        {
+          "fileName": "20255283.json",
+          "awardNum": "20255283",
+          "plantName": "Fran Weaver",
+          "exhibitor": "Bill Weaver",
+          "nullFieldsList": [
+            "awardpoints"
+          ],
+          "nullCount": 1
+        },
+        {
+          "fileName": "20255290.json",
+          "awardNum": "20255290",
+          "plantName": "Microcoelia koehleri",
+          "exhibitor": "Jim Heilig",
+          "nullFieldsList": [
+            "awardpoints"
+          ],
+          "nullCount": 1
+        },
+        {
+          "fileName": "20255291.json",
+          "awardNum": "20255291",
+          "plantName": "Kulnura Opus",
+          "exhibitor": "Cheri Wagner",
+          "nullFieldsList": [
+            "award",
+            "awardpoints"
+          ],
+          "nullCount": 2
+        },
+        {
+          "fileName": "20255294.json",
+          "awardNum": "20255294",
+          "plantName": "Cholita Cuencana",
+          "exhibitor": "Linsie Hu",
+          "nullFieldsList": [
+            "award",
+            "awardpoints"
+          ],
+          "nullCount": 2
+        },
+        {
+          "fileName": "20255295.json",
+          "awardNum": "20255295",
+          "plantName": "Epidendrum camposii",
+          "exhibitor": "Evan Shen",
+          "nullFieldsList": [
+            "awardpoints"
+          ],
+          "nullCount": 1
+        },
+        {
+          "fileName": "20255297.json",
+          "awardNum": "20255297",
+          "plantName": "Neil McCormick",
+          "exhibitor": "Chaunie Langland",
+          "nullFieldsList": [
+            "award",
+            "awardpoints"
+          ],
+          "nullCount": 2
+        },
+        {
+          "fileName": "20255304.json",
+          "awardNum": "20255304",
+          "plantName": "Hsin Venus",
+          "exhibitor": "Tom Waugh",
+          "nullFieldsList": [
+            "award",
+            "awardpoints"
+          ],
+          "nullCount": 2
+        },
+        {
+          "fileName": "20255318.json",
+          "awardNum": "20255318",
+          "plantName": "Filoli Historic",
+          "exhibitor": "Amy and Ken Jacobsen",
+          "nullFieldsList": [
+            "awardpoints",
+            "clone",
+            "measurements.NS",
+            "measurements.NSV",
+            "measurements.DSL",
+            "measurements.DSW",
+            "measurements.PETL",
+            "measurements.PETW",
+            "measurements.numFlowers",
+            "measurements.numBuds",
+            "measurements.numInflorescences",
+            "measurements.description",
+            "measurements.LSW",
+            "measurements.LSL",
+            "measurements.LIPW",
+            "measurements.LIPL"
+          ],
+          "nullCount": 16
+        },
+        {
+          "fileName": "20255322.json",
+          "awardNum": "20255322",
+          "plantName": "Jungle Beau",
+          "exhibitor": "Amy and Ken Jacobsen",
+          "nullFieldsList": [
+            "award",
+            "awardpoints"
+          ],
+          "nullCount": 2
+        },
+        {
+          "fileName": "20255353.json",
+          "awardNum": "20255353",
+          "plantName": "Oncidium cheirophorum",
+          "exhibitor": "Tom Waugh",
+          "nullFieldsList": [
+            "award",
+            "awardpoints"
+          ],
+          "nullCount": 2
+        },
+        {
+          "fileName": "20255357.json",
+          "awardNum": "20255357",
+          "plantName": "Lycaste Rakuhoku",
+          "exhibitor": "Ramon de los Santos",
+          "nullFieldsList": [
+            "award",
+            "awardpoints"
+          ],
+          "nullCount": 2
+        },
+        {
+          "fileName": "20255360.json",
+          "awardNum": "20255360",
+          "plantName": "Dendrobium kingianum",
+          "exhibitor": "Pierre Pujol",
+          "nullFieldsList": [
+            "award",
+            "awardpoints"
+          ],
+          "nullCount": 2
+        },
+        {
+          "fileName": "20255361.json",
+          "awardNum": "20255361",
+          "plantName": "China Moon",
+          "exhibitor": "Jason Douglass",
+          "nullFieldsList": [
+            "measurements.SYNSL",
+            "measurements.SYNSW"
+          ],
+          "nullCount": 2
+        },
+        {
+          "fileName": "20255362.json",
+          "awardNum": "20255362",
+          "plantName": "Silver King",
+          "exhibitor": "Golden Gate Orchids",
+          "nullFieldsList": [
+            "award",
+            "awardpoints"
+          ],
+          "nullCount": 2
+        },
+        {
+          "fileName": "20255363.json",
+          "awardNum": "20255363",
+          "plantName": "Pacific Orchid",
+          "exhibitor": "Marin Orchid Society",
+          "nullFieldsList": [
+            "awardpoints",
+            "clone",
+            "measurements.NS",
+            "measurements.NSV",
+            "measurements.DSL",
+            "measurements.DSW",
+            "measurements.PETL",
+            "measurements.PETW",
+            "measurements.numFlowers",
+            "measurements.numBuds",
+            "measurements.numInflorescences",
+            "measurements.LSW",
+            "measurements.LSL",
+            "measurements.LIPW",
+            "measurements.LIPL"
+          ],
+          "nullCount": 15
+        },
+        {
+          "fileName": "20255364.json",
+          "awardNum": "20255364",
+          "plantName": "Pacific Orchid",
+          "exhibitor": "Marin Orchid Society",
+          "nullFieldsList": [
+            "clone",
+            "measurements.NS",
+            "measurements.NSV",
+            "measurements.DSL",
+            "measurements.DSW",
+            "measurements.PETL",
+            "measurements.PETW",
+            "measurements.numFlowers",
+            "measurements.numBuds",
+            "measurements.numInflorescences",
+            "measurements.LSW",
+            "measurements.LSL",
+            "measurements.LIPW",
+            "measurements.LIPL"
+          ],
+          "nullCount": 14
+        },
+        {
+          "fileName": "20255373.json",
+          "awardNum": "20255373",
+          "plantName": "Disa Watsonii",
+          "exhibitor": "Evan Shen",
+          "nullFieldsList": [
+            "measurements.description"
+          ],
+          "nullCount": 1
+        },
+        {
+          "fileName": "20255374.json",
+          "awardNum": "20255374",
+          "plantName": "Disa uniflora",
+          "exhibitor": "Evan Shen",
+          "nullFieldsList": [
+            "measurements.description"
+          ],
+          "nullCount": 1
+        }
+      ]
+    }
+  },
+  "issueAnalysis": {
+    "categorizedIssues": {
+      "timestamp": "2025-10-06T03:35:37.237Z",
+      "purpose": "Categorized analysis of null values: recoverable vs author errors vs minor issues",
+      "summary": {
+        "totalFiles": 96,
+        "filesWithNullValues": 24,
+        "recoverableIssues": 13,
+        "authorErrors": 3,
+        "minorIssues": 8
+      },
+      "categories": {
+        "recoverableFromHtml": [
+          {
+            "fileName": "20255275.json",
+            "awardNum": "20255275",
+            "plantName": "Victoria Kam",
+            "exhibitor": "Pierre Pujol",
+            "nullFieldsList": [
+              "award",
+              "awardpoints"
+            ],
+            "nullCount": 2,
+            "issue": "Critical award data missing - should be recoverable from HTML source",
+            "priority": "HIGH"
+          },
+          {
+            "fileName": "20255283.json",
+            "awardNum": "20255283",
+            "plantName": "Fran Weaver",
+            "exhibitor": "Bill Weaver",
+            "nullFieldsList": [
+              "awardpoints"
+            ],
+            "nullCount": 1,
+            "issue": "Critical award data missing - should be recoverable from HTML source",
+            "priority": "HIGH"
+          },
+          {
+            "fileName": "20255290.json",
+            "awardNum": "20255290",
+            "plantName": "Microcoelia koehleri",
+            "exhibitor": "Jim Heilig",
+            "nullFieldsList": [
+              "awardpoints"
+            ],
+            "nullCount": 1,
+            "issue": "Critical award data missing - should be recoverable from HTML source",
+            "priority": "HIGH"
+          },
+          {
+            "fileName": "20255291.json",
+            "awardNum": "20255291",
+            "plantName": "Kulnura Opus",
+            "exhibitor": "Cheri Wagner",
+            "nullFieldsList": [
+              "award",
+              "awardpoints"
+            ],
+            "nullCount": 2,
+            "issue": "Critical award data missing - should be recoverable from HTML source",
+            "priority": "HIGH"
+          },
+          {
+            "fileName": "20255294.json",
+            "awardNum": "20255294",
+            "plantName": "Cholita Cuencana",
+            "exhibitor": "Linsie Hu",
+            "nullFieldsList": [
+              "award",
+              "awardpoints"
+            ],
+            "nullCount": 2,
+            "issue": "Critical award data missing - should be recoverable from HTML source",
+            "priority": "HIGH"
+          },
+          {
+            "fileName": "20255295.json",
+            "awardNum": "20255295",
+            "plantName": "Epidendrum camposii",
+            "exhibitor": "Evan Shen",
+            "nullFieldsList": [
+              "awardpoints"
+            ],
+            "nullCount": 1,
+            "issue": "Critical award data missing - should be recoverable from HTML source",
+            "priority": "HIGH"
+          },
+          {
+            "fileName": "20255297.json",
+            "awardNum": "20255297",
+            "plantName": "Neil McCormick",
+            "exhibitor": "Chaunie Langland",
+            "nullFieldsList": [
+              "award",
+              "awardpoints"
+            ],
+            "nullCount": 2,
+            "issue": "Critical award data missing - should be recoverable from HTML source",
+            "priority": "HIGH"
+          },
+          {
+            "fileName": "20255304.json",
+            "awardNum": "20255304",
+            "plantName": "Hsin Venus",
+            "exhibitor": "Tom Waugh",
+            "nullFieldsList": [
+              "award",
+              "awardpoints"
+            ],
+            "nullCount": 2,
+            "issue": "Critical award data missing - should be recoverable from HTML source",
+            "priority": "HIGH"
+          },
+          {
+            "fileName": "20255322.json",
+            "awardNum": "20255322",
+            "plantName": "Jungle Beau",
+            "exhibitor": "Amy and Ken Jacobsen",
+            "nullFieldsList": [
+              "award",
+              "awardpoints"
+            ],
+            "nullCount": 2,
+            "issue": "Critical award data missing - should be recoverable from HTML source",
+            "priority": "HIGH"
+          },
+          {
+            "fileName": "20255353.json",
+            "awardNum": "20255353",
+            "plantName": "Oncidium cheirophorum",
+            "exhibitor": "Tom Waugh",
+            "nullFieldsList": [
+              "award",
+              "awardpoints"
+            ],
+            "nullCount": 2,
+            "issue": "Critical award data missing - should be recoverable from HTML source",
+            "priority": "HIGH"
+          },
+          {
+            "fileName": "20255357.json",
+            "awardNum": "20255357",
+            "plantName": "Lycaste Rakuhoku",
+            "exhibitor": "Ramon de los Santos",
+            "nullFieldsList": [
+              "award",
+              "awardpoints"
+            ],
+            "nullCount": 2,
+            "issue": "Critical award data missing - should be recoverable from HTML source",
+            "priority": "HIGH"
+          },
+          {
+            "fileName": "20255360.json",
+            "awardNum": "20255360",
+            "plantName": "Dendrobium kingianum",
+            "exhibitor": "Pierre Pujol",
+            "nullFieldsList": [
+              "award",
+              "awardpoints"
+            ],
+            "nullCount": 2,
+            "issue": "Critical award data missing - should be recoverable from HTML source",
+            "priority": "HIGH"
+          },
+          {
+            "fileName": "20255362.json",
+            "awardNum": "20255362",
+            "plantName": "Silver King",
+            "exhibitor": "Golden Gate Orchids",
+            "nullFieldsList": [
+              "award",
+              "awardpoints"
+            ],
+            "nullCount": 2,
+            "issue": "Critical award data missing - should be recoverable from HTML source",
+            "priority": "HIGH"
+          }
+        ],
+        "authorErrorsOnSource": [
+          {
+            "fileName": "20255318.json",
+            "awardNum": "20255318",
+            "plantName": "Filoli Historic",
+            "exhibitor": "Amy and Ken Jacobsen",
+            "nullFieldsList": [
+              "awardpoints",
+              "clone",
+              "measurements.NS",
+              "measurements.NSV",
+              "measurements.DSL",
+              "measurements.DSW",
+              "measurements.PETL",
+              "measurements.PETW",
+              "measurements.numFlowers",
+              "measurements.numBuds",
+              "measurements.numInflorescences",
+              "measurements.description",
+              "measurements.LSW",
+              "measurements.LSL",
+              "measurements.LIPW",
+              "measurements.LIPL"
+            ],
+            "nullCount": 16,
+            "issue": "Source page incomplete - likely author error on original website"
+          },
+          {
+            "fileName": "20255363.json",
+            "awardNum": "20255363",
+            "plantName": "Pacific Orchid",
+            "exhibitor": "Marin Orchid Society",
+            "nullFieldsList": [
+              "awardpoints",
+              "clone",
+              "measurements.NS",
+              "measurements.NSV",
+              "measurements.DSL",
+              "measurements.DSW",
+              "measurements.PETL",
+              "measurements.PETW",
+              "measurements.numFlowers",
+              "measurements.numBuds",
+              "measurements.numInflorescences",
+              "measurements.LSW",
+              "measurements.LSL",
+              "measurements.LIPW",
+              "measurements.LIPL"
+            ],
+            "nullCount": 15,
+            "issue": "Source page incomplete - likely author error on original website"
+          },
+          {
+            "fileName": "20255364.json",
+            "awardNum": "20255364",
+            "plantName": "Pacific Orchid",
+            "exhibitor": "Marin Orchid Society",
+            "nullFieldsList": [
+              "clone",
+              "measurements.NS",
+              "measurements.NSV",
+              "measurements.DSL",
+              "measurements.DSW",
+              "measurements.PETL",
+              "measurements.PETW",
+              "measurements.numFlowers",
+              "measurements.numBuds",
+              "measurements.numInflorescences",
+              "measurements.LSW",
+              "measurements.LSL",
+              "measurements.LIPW",
+              "measurements.LIPL"
+            ],
+            "nullCount": 14,
+            "issue": "Source page incomplete - likely author error on original website"
+          }
+        ],
+        "minorDescriptionIssues": [
+          {
+            "fileName": "20255260.json",
+            "awardNum": "20255260",
+            "plantName": "Emperor Amber",
+            "exhibitor": "Linsie Hu",
+            "nullFieldsList": [
+              "measurements.description"
+            ],
+            "nullCount": 1,
+            "issue": "Minor missing descriptions or optional measurements",
+            "priority": "LOW"
+          },
+          {
+            "fileName": "20255261.json",
+            "awardNum": "20255261",
+            "plantName": "Exeter Jadeite",
+            "exhibitor": "Amy and Ken Jacobsen",
+            "nullFieldsList": [
+              "measurements.description"
+            ],
+            "nullCount": 1,
+            "issue": "Minor missing descriptions or optional measurements",
+            "priority": "LOW"
+          },
+          {
+            "fileName": "20255262.json",
+            "awardNum": "20255262",
+            "plantName": "Cattleya loddigesii",
+            "exhibitor": "Amy and Ken Jacobsen",
+            "nullFieldsList": [
+              "measurements.description"
+            ],
+            "nullCount": 1,
+            "issue": "Minor missing descriptions or optional measurements",
+            "priority": "LOW"
+          },
+          {
+            "fileName": "20255263.json",
+            "awardNum": "20255263",
+            "plantName": "Laelia anceps",
+            "exhibitor": "Amy and Ken Jacobsen",
+            "nullFieldsList": [
+              "measurements.description"
+            ],
+            "nullCount": 1,
+            "issue": "Minor missing descriptions or optional measurements",
+            "priority": "LOW"
+          },
+          {
+            "fileName": "20255264.json",
+            "awardNum": "20255264",
+            "plantName": "Laelia anceps",
+            "exhibitor": "Amy and Ken Jacobsen",
+            "nullFieldsList": [
+              "measurements.description"
+            ],
+            "nullCount": 1,
+            "issue": "Minor missing descriptions or optional measurements",
+            "priority": "LOW"
+          },
+          {
+            "fileName": "20255361.json",
+            "awardNum": "20255361",
+            "plantName": "China Moon",
+            "exhibitor": "Jason Douglass",
+            "nullFieldsList": [
+              "measurements.SYNSL",
+              "measurements.SYNSW"
+            ],
+            "nullCount": 2,
+            "issue": "Minor missing descriptions or optional measurements",
+            "priority": "LOW"
+          },
+          {
+            "fileName": "20255373.json",
+            "awardNum": "20255373",
+            "plantName": "Disa Watsonii",
+            "exhibitor": "Evan Shen",
+            "nullFieldsList": [
+              "measurements.description"
+            ],
+            "nullCount": 1,
+            "issue": "Minor missing descriptions or optional measurements",
+            "priority": "LOW"
+          },
+          {
+            "fileName": "20255374.json",
+            "awardNum": "20255374",
+            "plantName": "Disa uniflora",
+            "exhibitor": "Evan Shen",
+            "nullFieldsList": [
+              "measurements.description"
+            ],
+            "nullCount": 1,
+            "issue": "Minor missing descriptions or optional measurements",
+            "priority": "LOW"
+          }
+        ]
+      }
+    },
+    "sourceUrlFixes": {
+      "summary": {
+        "totalProcessed": 96,
+        "successfullyUpdated": 96,
+        "skipped": 0,
+        "errors": 0
+      },
+      "details": {
+        "skippedFiles": [],
+        "errors": []
+      },
+      "timestamp": "2025-10-08T03:49:18.730Z",
+      "operation": "fix-2025-source-urls"
+    },
+    "pagesWithMissingInfo": {
+      "missingInformation": {
+        "2023": [
+          "https://paccentraljc.org/20230120/20235257.html (11 missing items)",
+          "https://paccentraljc.org/20230218/20235265.html (12 missing items)",
+          "https://paccentraljc.org/20230223/20235358.html (11 missing items)",
+          "https://paccentraljc.org/20230223/20235364.html (13 missing items)",
+          "https://paccentraljc.org/20230223/20235364.html (13 missing items)"
+        ],
+        "2024": [
+          "https://paccentraljc.org/20240323/20245268.html (13 missing items)",
+          "https://paccentraljc.org/20240323/20245269.html (13 missing items)",
+          "https://paccentraljc.org/20240215/20245352.html (12 missing items)",
+          "https://paccentraljc.org/20240215/20245355.html (12 missing items)",
+          "https://paccentraljc.org/20240215/20245363.html (8 missing items)",
+          "https://paccentraljc.org/20240215/20245368.html (15 missing items)",
+          "https://paccentraljc.org/20240215/20245369.html (13 missing items)"
+        ],
+        "2025": [
+          "https://paccentraljc.org/250719/20255318.html",
+          "https://paccentraljc.org/250227/20255363.html",
+          "https://paccentraljc.org/250227/20255364.html"
+        ]
+      }
+    }
+  },
+  "actionItems": {
+    "authorErrorReport": {
+      "timestamp": "2025-10-06T03:39:34.565Z",
+      "purpose": "Report incomplete award pages to website author for correction",
+      "summary": {
+        "totalAuthorErrors": 3,
+        "totalMissingFields": 45
+      },
+      "message": "The following award pages appear to be incomplete on the source website and need author attention:",
+      "pagesNeedingCorrection": [
+        {
+          "pageNumber": 1,
+          "awardNumber": "20255318",
+          "plantName": "Filoli Historic",
+          "exhibitor": "Amy and Ken Jacobsen",
+          "missingFieldsCount": 16,
+          "primaryIssues": [
+            "awardpoints",
+            "clone",
+            "measurements.NS",
+            "measurements.NSV",
+            "measurements.DSL"
+          ],
+          "websiteUrl": "https://paccentraljc.org/awards/20255318",
+          "alternativeUrl": "https://paccentraljc.org/awards/53/20255318.html",
+          "severity": "Critical",
+          "description": "Award page for Filoli Historic (20255318) is missing 16 essential fields including awardpoints, clone, measurements.NS and others."
+        },
+        {
+          "pageNumber": 2,
+          "awardNumber": "20255363",
+          "plantName": "Pacific Orchid",
+          "exhibitor": "Marin Orchid Society",
+          "missingFieldsCount": 15,
+          "primaryIssues": [
+            "awardpoints",
+            "clone",
+            "measurements.NS",
+            "measurements.NSV",
+            "measurements.DSL"
+          ],
+          "websiteUrl": "https://paccentraljc.org/awards/20255363",
+          "alternativeUrl": "https://paccentraljc.org/awards/53/20255363.html",
+          "severity": "Critical",
+          "description": "Award page for Pacific Orchid (20255363) is missing 15 essential fields including awardpoints, clone, measurements.NS and others."
+        },
+        {
+          "pageNumber": 3,
+          "awardNumber": "20255364",
+          "plantName": "Pacific Orchid",
+          "exhibitor": "Marin Orchid Society",
+          "missingFieldsCount": 14,
+          "primaryIssues": [
+            "clone",
+            "measurements.NS",
+            "measurements.NSV",
+            "measurements.DSL",
+            "measurements.DSW"
+          ],
+          "websiteUrl": "https://paccentraljc.org/awards/20255364",
+          "alternativeUrl": "https://paccentraljc.org/awards/53/20255364.html",
+          "severity": "High",
+          "description": "Award page for Pacific Orchid (20255364) is missing 14 essential fields including clone, measurements.NS, measurements.NSV and others."
+        }
+      ]
+    },
+    "recommendedActions": []
+  },
+  "processingResults": {
+    "finalSummaryMarkdown": "## 2025 PCJC Awards Data Quality - Final Report\n\n**Analysis Completed:** October 6, 2025 at 3:39 AM UTC\n\n---\n\n### 🎯 **MISSION ACCOMPLISHED**\n\n✅ **Automated Fix Script Successfully Executed**\n- **12 out of 13** recoverable files were automatically repaired\n- Critical award and awardpoints data extracted from HTML sources\n- All fixes validated and applied to JSON files\n\n✅ **Author Error Report Generated**\n- **3 problematic pages** identified for website maintainer\n- HTML links and detailed issue descriptions provided\n- Ready-to-send report created for website author\n\n---\n\n### 📊 **FINAL DATA QUALITY RESULTS**\n\n| Metric | Before Analysis | After Fixes | Improvement |\n|--------|----------------|-------------|-------------|\n| **Complete Files (100%)** | 11 files | **77 files** | +66 files |\n| **Valid Files (core data)** | 11 files | **92 files** | +81 files |\n| **Files with Null Values** | 24 files | **4 files** | -20 files |\n| **Overall Completion Rate** | 11.5% | **80.2%** | +68.7% |\n| **Core Data Validity** | 11.5% | **95.8%** | +84.3% |\n\n---\n\n### 🔧 **AUTOMATED FIXES APPLIED**\n\n**Successfully Fixed (12 files):**\n1. `20255275.json` - award: null → \"CCE\", awardpoints: null → 93\n2. `20255283.json` - awardpoints: null → 85\n3. `20255290.json` - awardpoints: null → 85\n4. `20255291.json` - award: null → \"CCM\", awardpoints: null → 84\n5. `20255294.json` - award: null → \"CCM\", awardpoints: null → 80\n6. `20255297.json` - award: null → \"CCM\", awardpoints: null → 86\n7. `20255304.json` - award: null → \"CCM\", awardpoints: null → 86\n8. `20255322.json` - award: null → \"CCM\", awardpoints: null → 84\n9. `20255353.json` - award: null → \"CCE\", awardpoints: null → 90\n10. `20255357.json` - award: null → \"CCM\", awardpoints: null → 86\n11. `20255360.json` - award: null → \"CCM\", awardpoints: null → 84\n12. `20255362.json` - award: null → \"CCM\", awardpoints: null → 83\n\n**Unable to Fix:**\n- `20255295.json` - No award data found in HTML source\n\n---\n\n### 🚨 **AUTHOR ERRORS REQUIRING WEBSITE UPDATES**\n\n**Critical Priority Pages (3 total):**\n\n1. **Award 20255318** - Filoli Historic (Amy and Ken Jacobsen)\n   - **Missing:** 16 essential fields\n   - **URL:** https://paccentraljc.org/awards/20255318\n\n2. **Award 20255363** - Pacific Orchid (Marin Orchid Society)\n   - **Missing:** 15 essential fields  \n   - **URL:** https://paccentraljc.org/awards/20255363\n\n3. **Award 20255364** - Pacific Orchid (Marin Orchid Society)\n   - **Missing:** 14 essential fields\n   - **URL:** https://paccentraljc.org/awards/20255364\n\n---\n\n### 📁 **GENERATED REPORTS**\n\n1. **`2025-missing-data-report.json`** - Updated comprehensive analysis\n2. **`author-errors-report.json`** - Formatted report for website maintainer\n3. **Fix logs** - Detailed tracking of all automated corrections\n\n---\n\n### 📈 **KEY ACHIEVEMENTS**\n\n- **Data Quality Improved by 84.3%** - From 11.5% to 95.8% core data validity\n- **Intelligent Conflict Resolution** - Location data conflicts resolved using index page authority\n- **Automated Data Recovery** - Critical award information extracted from HTML sources\n- **Categorized Issue Management** - Separated fixable issues from author errors\n- **Professional Reporting** - Ready-to-send communication for website maintainer\n\n---\n\n### 🎯 **NEXT STEPS**\n\n1. **Send author-errors-report.json content to website maintainer**\n2. **Monitor for website updates** to the 3 problematic pages\n3. **Re-run analysis after fixes** to achieve 100% data quality\n4. **Consider implementing automated monitoring** for future data quality\n\n---\n\n*Analysis completed using intelligent conflict detection, automated HTML parsing, and comprehensive data validation across 96 award files.*",
+    "automatedFixesApplied": true,
+    "manualReviewRequired": false
+  }
+}
