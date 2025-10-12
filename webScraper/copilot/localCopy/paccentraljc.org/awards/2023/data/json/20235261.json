@@ -2,44 +2,39 @@
   "awardNum": "20235261",
   "award": "AM",
   "awardpoints": 81,
-  "location": "",
+  "location": "Filoli",
   "date": "February 18, 2023",
   "genus": "Cymbidium",
   "species": "goeringii",
   "clone": "Striped with Red",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20235261.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 8.1,
-    "NSV": 6.8,
-    "DSL": 4.5,
-    "DSW": 1.2,
-    "PETL": 3.2,
-    "PETW": 1.4,
     "numFlowers": 1,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "One flat flower on one erect 9.5-cm inflorescence; sepals light green, blushed and striped rose; petals porrect, light green, blushed and striped burgundy; lip curled distally, cream, random burgundy spots; anther cap cream; substance firm; texture satin.",
+    "description": "One flat flower on one erect 9.5-cm inflorescence;\n\tsepals light green, blushed and striped rose;\n\tpetals porrect, light green, blushed and striped burgundy;\n\tlip curled distally, cream, random burgundy spots;\t\n\t\n\tanther cap cream;\n\t \n\t\n    substance firm; texture satin.",
+    "NS": 8.1,
+    "NSV": 6.8,
+    "DSW": 1.2,
+    "DSL": 4.5,
+    "PETW": 1.4,
+    "PETL": 3.2,
     "LSW": 1.2,
     "LSL": 4.8,
     "LIPW": 0.9,
     "LIPL": 2.2
   },
-  "scrapedDate": "2025-10-04T06:48:23.635Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230218/20235261.html",
+  "scrapedDate": "2025-10-12T20:20:02.777Z",
+  "sourceUrl": "https://www.paccentraljc.org/230218/20235261.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235261.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.794Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235261",
-      "newValue": "https://www.paccentraljc.org/20230218/20235261.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.778Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

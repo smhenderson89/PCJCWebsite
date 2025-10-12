@@ -2,54 +2,39 @@
   "awardNum": "20235294",
   "award": "CCM",
   "awardpoints": 84,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "June 17, 2023",
   "genus": "Aerangis",
   "species": "seegeri",
   "clone": "Kalamazoo",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Jim Heilig",
   "photographer": "Chaunie Langland",
   "photo": "images/20235294.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 2.3,
-    "NSV": 2.2,
-    "DSL": 1.1,
-    "DSW": 0.2,
-    "PETL": 1.2,
-    "PETW": 0.2,
     "numFlowers": 26,
     "numBuds": 0,
     "numInflorescences": 6,
-    "description": "Twenty-six flowers on six up to 8.7-cm pendant inflorescences; plant 6cm wide by 9 cm long, mounted on 32-cm long manzanita stick; flowers stellate, bronze; sepals and petals lanceolate; lip acuminate, 1.8-cm nectary; column and anther cap cream; substance firm; texture sparkling.",
+    "description": "Twenty-six flowers on six up to 8.7-cm pendant inflorescences;\n   plant 6cm wide by 9 cm long, mounted on 32-cm long manzanita stick;\n\t\n\tflowers stellate, bronze; sepals and petals lanceolate;\n\tlip acuminate, 1.8-cm nectary;\n\tcolumn and anther cap cream;\n\tsubstance firm; texture sparkling.",
+    "NS": 2.3,
+    "NSV": 2.2,
+    "DSW": 0.2,
+    "DSL": 1.1,
+    "PETW": 0.2,
+    "PETL": 1.2,
     "LSW": 0.2,
     "LSL": 1.2,
     "LIPW": 0.4,
     "LIPL": 1.2
   },
-  "scrapedDate": "2025-10-04T06:48:23.687Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230617/20235294.html",
+  "scrapedDate": "2025-10-12T20:20:02.850Z",
+  "sourceUrl": "https://www.paccentraljc.org/230617/20235294.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235294.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T04:10:31.825Z",
-      "type": "enhanced_html_parsing_2023",
-      "fields": [
-        "award",
-        "awardpoints"
-      ],
-      "source": "HTML file 20235294.html",
-      "note": "Enhanced parsing for non-point awards (JC, CBR, CHM) set to N/A"
-    },
-    {
-      "timestamp": "2025-10-09T10:30:22.812Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235294",
-      "newValue": "https://www.paccentraljc.org/20230617/20235294.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.851Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

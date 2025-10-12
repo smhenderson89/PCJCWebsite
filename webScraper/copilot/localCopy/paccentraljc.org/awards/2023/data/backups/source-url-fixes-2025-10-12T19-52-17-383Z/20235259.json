@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235259",
+  "award": "AM",
+  "awardpoints": 85,
+  "location": "Filoli",
+  "date": "February 18, 2023",
+  "genus": "Cymbidium",
+  "species": "Pure Amber",
+  "clone": "Barrita Gold",
+  "cross": "Cymbidium Vibrant Bliss x Cymbidium Amber Wall",
+  "exhibitor": "Barbara Cameron",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235259.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 21,
+    "numBuds": 9,
+    "numInflorescences": 2,
+    "description": "Twenty-one round, flat flowers and one bud evenly arranged on one 98.5-cm  arching inflorescence, eight buds on a 56-cm arching inflorescence;\n\tsepals clear yellow, dorsal sepal faint red stripe centrally;\n\tpetals clear yellow;\n\tlip slightly ruffled, white, yellow distally, dark red blotches near lower margins and centrally, sidelobes overlaid yellow;\t\n\t\n\tcolumn yellow, faintly blushed red, anther cap yellow;\n\t \n\t\n    substance firm; texture matte.",
+    "NS": 11.2,
+    "NSV": 8.7,
+    "DSW": 4.7,
+    "DSL": 7,
+    "PETW": 4.5,
+    "PETL": 6.9,
+    "LSW": 4.5,
+    "LSL": 7,
+    "LIPW": 4,
+    "LIPL": 3.7
+  },
+  "scrapedDate": "2025-10-12T19:43:32.979Z",
+  "sourceUrl": "https://www.paccentraljc.org/230218/20235259.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235259.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:32.980Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

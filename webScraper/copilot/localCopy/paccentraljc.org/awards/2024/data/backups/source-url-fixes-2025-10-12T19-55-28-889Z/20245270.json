@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245270",
+  "award": "CCM",
+  "awardpoints": 84,
+  "location": "Sonoma County OS Show",
+  "date": "March 23, 2024",
+  "genus": "Brassia",
+  "species": "Rex",
+  "clone": "Waloma Spotless",
+  "cross": "species",
+  "exhibitor": "Lynne Murrell",
+  "photographer": "Lynne Murrell",
+  "photo": "images/20245270.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 43,
+    "numBuds": 3,
+    "numInflorescences": 4,
+    "description": "Forty-three flowers and three buds on four up to 63.6-cm inflorescences; \nplant 82 cm x 52 cm in bark and perlite mix in 20-cm wide pot;\n  sepals and petals lime green;\n  lip pale green, callus gold;\n  column lime green, anther cap pale green;\n   substance heavy;\n texture crystalline.",
+    "NS": 13.4,
+    "NSV": 25.5,
+    "DSW": 1,
+    "DSL": 11.9,
+    "PETW": 0.8,
+    "PETL": 7.3,
+    "LSW": 1,
+    "LSL": 14,
+    "LIPW": 5,
+    "LIPL": 5.9
+  },
+  "scrapedDate": "2025-10-12T19:38:50.869Z",
+  "sourceUrl": "https://www.paccentraljc.org/240323/20245270.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245270.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.870Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

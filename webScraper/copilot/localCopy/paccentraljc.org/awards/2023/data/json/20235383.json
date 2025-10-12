@@ -2,44 +2,39 @@
   "awardNum": "20235383",
   "award": "HCC",
   "awardpoints": 78,
-  "location": "",
+  "location": "San Francisco",
   "date": "September 5, 2023",
-  "genus": "Lemon",
-  "species": "Trifle",
+  "genus": "Cattleya",
+  "species": "Lemon Trifle",
   "clone": "Bently",
-  "cross": "Cattleya Little Sunset × Cattleya endsfeldzii",
+  "cross": "Cattleya Little Sunset x Cattleya endsfeldzii",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Ken Jacobsen",
   "photo": "images/20235383.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 7.4,
-    "NSV": 7.8,
-    "DSL": 4.2,
-    "DSW": 1.2,
-    "PETL": 3.8,
-    "PETW": 1.6,
     "numFlowers": 6,
     "numBuds": 4,
     "numInflorescences": 3,
-    "description": "Six flat stellate flowers and four buds on three up to 18-cm inflorescences; sepals and petals orange yellow, blushed red, red veins; lip yellow heavily overlaid magenta except throat, side lobes enclose column, throat veined magenta, keels yellow tinged red; substance firm; texture diamond dust.",
+    "description": "Six flat stellate flowers and four buds on three up to 18-cm inflorescences;\n   \n\tsepals and petals orange yellow, blushed red, red veins;\n\tlip yellow heavily overlaid magenta except throat, side lobes enclose column, throat veined magenta, keels yellow tinged red;\n\t\n\t\n\tsubstance firm; texture diamond dust.",
+    "NS": 7.4,
+    "NSV": 7.8,
+    "DSW": 1.2,
+    "DSL": 4.2,
+    "PETW": 1.6,
+    "PETL": 3.8,
     "LSW": 1.2,
     "LSL": 3.4,
     "LIPW": 1.6,
     "LIPL": 3.4
   },
-  "scrapedDate": "2025-10-04T06:48:23.745Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230905/20235383.html",
+  "scrapedDate": "2025-10-12T20:20:02.946Z",
+  "sourceUrl": "https://www.paccentraljc.org/230905/20235383.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235383.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.837Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235383",
-      "newValue": "https://www.paccentraljc.org/20230905/20235383.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.947Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

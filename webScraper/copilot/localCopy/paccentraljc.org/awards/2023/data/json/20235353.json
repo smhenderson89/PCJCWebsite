@@ -2,44 +2,37 @@
   "awardNum": "20235353",
   "award": "AM",
   "awardpoints": 81,
-  "location": "",
+  "location": "Pacific Orchid Exposition",
   "date": "February 23, 2023",
-  "genus": "Emma",
-  "species": "Decker",
+  "genus": "Paphiopedilum",
+  "species": "Emma Decker",
   "clone": "SVO Beauty",
-  "cross": "Papiopedilum malipoense × Paphiopedilum Fumi's Delight",
+  "cross": "Papiopedilum malipoense x Paphiopedilum Fumi's Delight",
   "exhibitor": "Sunset Valley Orchids",
   "photographer": "Ken Jacobsen",
   "photo": "images/20235353.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "NS": 9.1,
-    "NSV": 8.7,
-    "DSL": 5,
-    "DSW": 3.5,
-    "PETL": 5.3,
-    "PETW": 4,
+    "type": "LateralSepal",
     "numFlowers": 2,
     "numBuds": 0,
     "numInflorescences": 2,
-    "description": "Two pleasing flowers on two 39.0-cm inflorescences; dorsal and synsepal chartreuse, faintly tessellated darker chartreuse; petals chartreuse, tessellated light mahogany; pouch very light green, rim blushed raspberry pink, interior stippled maroon, visible on exterior; staminode spade shaped, white, proximal margin blushed light maroon, distal two-thirds overlaid dark maroon; substance firm; texture matte.",
+    "description": "Two pleasing flowers on two 39.0-cm inflorescences; dorsal and synsepal chartreuse, faintly\ntessellated darker chartreuse; petals chartreuse, tessellated light mahogany; pouch very light\ngreen, rim blushed raspberry pink, interior stippled maroon, visible on exterior; staminode spade\nshaped, white, proximal margin blushed light maroon, distal two-thirds overlaid dark maroon;\nsubstance firm; texture matte.",
+    "NS": 9.1,
+    "NSV": 8.7,
+    "DSW": 3.5,
+    "DSL": 5,
+    "PETW": 4,
+    "PETL": 5.3,
     "LSW": 3.6,
-    "LSL": 4.4,
-    "LIPW": null,
-    "LIPL": null
+    "LSL": 4.4
   },
-  "scrapedDate": "2025-10-04T06:48:23.708Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230223/20235353.html",
+  "scrapedDate": "2025-10-12T20:20:02.886Z",
+  "sourceUrl": "https://www.paccentraljc.org/230223/20235353.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235353.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.822Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235353",
-      "newValue": "https://www.paccentraljc.org/20230223/20235353.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.888Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

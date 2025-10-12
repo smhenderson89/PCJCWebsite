@@ -2,44 +2,39 @@
   "awardNum": "20235263",
   "award": "HCC",
   "awardpoints": 78,
-  "location": "",
+  "location": "Filoli",
   "date": "February 18, 2023",
-  "genus": "Sylvia",
-  "species": "Darr",
+  "genus": "Cymbidium",
+  "species": "Sylvia Darr",
   "clone": "Dancing Spiders",
-  "cross": "Cymbidium Pinata Magic 'Stirling' × Cymbidium erythraeum 'Paradise'",
+  "cross": "Cymbidium Pinata Magic 'Stirling' x Cymbidium erythraeum 'Paradise'",
   "exhibitor": "Pierre Pujol",
   "photographer": "Chaunie Langland",
   "photo": "images/20235263.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 7.9,
-    "NSV": 6.2,
-    "DSL": 4.6,
-    "DSW": 2,
-    "PETL": 4.2,
-    "PETW": 1.2,
     "numFlowers": 39,
     "numBuds": 2,
     "numInflorescences": 5,
-    "description": "Thirty-nine flowers and two buds on five arching to pendulous inflorescences; dorsal sepal hooded, yellow heavily ovelaid and blotched dark brown-burgundy; lateral sepals lanceolate, yellow, very heavily ovelaid and blotched dark brown-burgundy; petals lanceolate, reflexed, yellow very heavily ovelaid and blotched dark brown-burgundy coalescing centrally; lip pale yellow, blotched dark burgundy; column light yellow spotted burgundy, overlaid burgundy distally, anther cap cream; substance firm; texture matte.",
+    "description": "Thirty-nine flowers and two buds on five arching to pendulous inflorescences;\n\tdorsal sepal hooded, yellow heavily ovelaid and blotched dark brown-burgundy;\n\tlateral sepals lanceolate, yellow, very heavily ovelaid and blotched dark brown-burgundy;\n\tpetals lanceolate, reflexed, yellow very heavily ovelaid and blotched dark brown-burgundy coalescing centrally;\n\tlip pale yellow, blotched dark burgundy;\t\n\t\n\tcolumn light yellow spotted burgundy, overlaid burgundy distally, anther cap cream;\n\t \n\t\n    substance firm; texture matte.",
+    "NS": 7.9,
+    "NSV": 6.2,
+    "DSW": 2,
+    "DSL": 4.6,
+    "PETW": 1.2,
+    "PETL": 4.2,
     "LSW": 1.8,
     "LSL": 4.6,
     "LIPW": 2.1,
     "LIPL": 2.8
   },
-  "scrapedDate": "2025-10-04T06:48:23.639Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230218/20235263.html",
+  "scrapedDate": "2025-10-12T20:20:02.785Z",
+  "sourceUrl": "https://www.paccentraljc.org/230218/20235263.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235263.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.795Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235263",
-      "newValue": "https://www.paccentraljc.org/20230218/20235263.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.786Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

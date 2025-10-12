@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235298",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Filoli Historic House",
+  "date": "July 15, 2023",
+  "genus": "Cattleya",
+  "species": "warscewiczii",
+  "clone": "Everest",
+  "cross": "species",
+  "exhibitor": "Steven Christoffersen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235298.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four nicely arranged flowers on one  18-cm inflorescence;\n   \n\tsepals and petals slightly ruffled, petals pronounced midrib, pristine white;\n\t\n\tlip ruffled, closed over column, white, exterior over column purple, throat gold overlaid purple middle, gold veins, light yellow eyes, midlobe overlaid\n\tpurple centrally, white veins, irregular purple markings on white margin;\n\t\n\tsubstance medium; texture matte.",
+    "NS": 19.7,
+    "NSV": 20.5,
+    "DSW": 3.2,
+    "DSL": 13.7,
+    "PETW": 5.9,
+    "PETL": 11.4,
+    "LSW": 3.1,
+    "LSL": 10.7,
+    "LIPW": 6.1,
+    "LIPL": 10.2
+  },
+  "scrapedDate": "2025-10-12T19:43:33.284Z",
+  "sourceUrl": "https://www.paccentraljc.org/230715/20235298.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235298.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.286Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

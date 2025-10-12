@@ -2,44 +2,39 @@
   "awardNum": "20235374",
   "award": "HCC",
   "awardpoints": 77,
-  "location": "",
+  "location": "San Francisco",
   "date": "April 4, 2023",
-  "genus": "Little",
-  "species": "Flames",
+  "genus": "Cymbidium",
+  "species": "Little Flames",
   "clone": "Woodside",
-  "cross": "Cymbidium Fifi × Cymbidium Wallacia",
+  "cross": "Cymbidium Fifi x Cymbidium Wallacia",
   "exhibitor": "Pierre Pujol",
   "photographer": "Chaunie Langland",
   "photo": "images/20235374.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 7.5,
-    "NSV": 5.3,
-    "DSL": 4.9,
-    "DSW": 2.6,
-    "PETL": 4.7,
-    "PETW": 2.9,
     "numFlowers": 52,
     "numBuds": 0,
     "numInflorescences": 4,
-    "description": "Fifty-two slightly cupped flowers on four up to 69-cm pendent inflorescences; sepals yellow, heavily brushed maroon apically; petals yellow, wide maroon medial stripe; lip yellow, white just below keels, anchor patterned red spots centrally; column yellow flushed maroon, anther cap cream; substance firm; texture matte.",
+    "description": "Fifty-two slightly cupped flowers on four up to 69-cm pendent inflorescences;\n\tsepals yellow, heavily brushed maroon apically; petals yellow, wide maroon medial stripe;\n\tlip yellow, white just below keels, anchor patterned red spots centrally;\n\tcolumn yellow flushed maroon, anther cap cream;\n\tsubstance firm; texture matte.",
+    "NS": 7.5,
+    "NSV": 5.3,
+    "DSW": 2.6,
+    "DSL": 4.9,
+    "PETW": 2.9,
+    "PETL": 4.7,
     "LSW": 2.7,
     "LSL": 4.7,
     "LIPW": 2.7,
     "LIPL": 3.2
   },
-  "scrapedDate": "2025-10-04T06:48:23.733Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230404/20235374.html",
+  "scrapedDate": "2025-10-12T20:20:02.929Z",
+  "sourceUrl": "https://www.paccentraljc.org/230404/20235374.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235374.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.833Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235374",
-      "newValue": "https://www.paccentraljc.org/20230404/20235374.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.930Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245254",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Filoli Historic House",
+  "date": "February 17, 2024",
+  "genus": "Cymbidium",
+  "species": "unregistered hybrid",
+  "clone": "Noemi",
+  "cross": "Cymbidium Da Vinci x Cymbidium Dorothy Rowe",
+  "exhibitor": "Catherine Obillo",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245254.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 25,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Twenty-five flowers on two up to 73-cm inflorescences; \n   sepals and petals pink, darker pink venation;\n   lip cream, picotee, dark burgundy chevron apically, yellow callus, side lobes speckled burgundy marginally;\n   column light burgundy, fading basally, anther cap cream;\n   substance firm; texture matte.",
+    "NS": 8,
+    "NSV": 7.2,
+    "DSW": 3.7,
+    "DSL": 5.8,
+    "PETW": 3,
+    "PETL": 5.1,
+    "LSW": 4,
+    "LSL": 5.5,
+    "LIPW": 3.5,
+    "LIPL": 5.5
+  },
+  "scrapedDate": "2025-10-12T19:38:50.821Z",
+  "sourceUrl": "https://www.paccentraljc.org/240217/20245254.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245254.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.824Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

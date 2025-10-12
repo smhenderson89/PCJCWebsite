@@ -2,43 +2,35 @@
   "awardNum": "20235304",
   "award": "AM",
   "awardpoints": 80,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "November 18, 2023",
-  "genus": "House",
-  "species": "Paphiopedilum",
+  "genus": "Paphiopedilum",
+  "species": "x areeanum",
   "clone": "Thanks Sam",
-  "cross": "Paphiopedilum barbigerum × Paphiopedilum villosum",
+  "cross": "Paphiopedilum barbigerum x Paphiopedilum villosum",
   "exhibitor": "Jim Heilig",
   "photographer": "Ken Jacobsen",
   "photo": "images/20235304.jpg",
   "measurements": {
-    "type": "Pouch&Sepal",
-    "NS": 8.5,
-    "NSV": 7.1,
-    "DSL": 5.1,
-    "DSW": 4,
-    "PETL": 4.9,
-    "PETW": 1.5,
+    "type": "LateralSepal",
     "numFlowers": 3,
     "numBuds": 0,
     "numInflorescences": 3,
-    "description": "Three flowers on three erect 10-cm inflorescences; dorsal sepal reflexed basally, slightly cupped, cream, overlaid chartreuse, dark chartreuse veins basal half, cordovan mid-line extending into cream apical area; synsepal light chartreuse, striped dark chartreuse; petals undulate margins, chartruse veined and blushed cordovan, darker superior surface, hirsute basally; pouch light chartrause overlaid light rose; staminode yellow, umbo chartreuse; substance medium; texture glossy.",
-    "PCHW": 3,
-    "SYNSL": 3.7,
-    "SYNSW": 2.4
+    "description": "Three flowers on three erect 10-cm inflorescences;\n   \n\tdorsal sepal reflexed basally, slightly cupped, cream, overlaid chartreuse, \n\tdark chartreuse veins basal half, cordovan mid-line extending into cream apical area;\n\tsynsepal light chartreuse, striped dark chartreuse;\n\tpetals undulate margins, chartruse veined and blushed cordovan, darker superior surface, hirsute basally;\n\tpouch light chartrause overlaid light rose;\n\tstaminode yellow, umbo chartreuse; \n\n\tsubstance medium; texture glossy.",
+    "NS": 8.5,
+    "NSV": 7.1,
+    "DSW": 4,
+    "DSL": 5.1,
+    "PETW": 1.5,
+    "PETL": 4.9
   },
-  "scrapedDate": "2025-10-04T06:48:23.702Z",
-  "sourceUrl": "https://www.paccentraljc.org/20231118/20235304.html",
+  "scrapedDate": "2025-10-12T20:20:02.871Z",
+  "sourceUrl": "https://www.paccentraljc.org/231118/20235304.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235304.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.818Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235304",
-      "newValue": "https://www.paccentraljc.org/20231118/20235304.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.873Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

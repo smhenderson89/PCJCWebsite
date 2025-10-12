@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245251",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "January 20, 2024",
+  "genus": "Cymbidium",
+  "species": "Exeter Carnelian",
+  "clone": "Mizu",
+  "cross": "Cymbidium goeringii x Cymbidium Voodoo",
+  "exhibitor": "Terence Chua",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245251.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 10,
+    "numBuds": 6,
+    "numInflorescences": 3,
+    "description": "Ten flowers and six buds on three up to 41.5-cm inflorescences;\n   \nsepals and petals green, slightly veined and suffused burgundy;  \nlip light yellow, keels yellow, midlobe striped and flushed burgundy proximally, burgundy blotch distally, light yellow margin;\ncolumn light yellow, dorsal surface burgundy stripes and spots proximally, light burgundy flush apically,\nventral surface burgundy, anther cap cream;\n\n\n\tsubstance medium; texture matte.",
+    "NS": 6.9,
+    "NSV": 6.8,
+    "DSW": 1.2,
+    "DSL": 3.5,
+    "PETW": 1.1,
+    "PETL": 3.5,
+    "LSW": 1.1,
+    "LSL": 3.8,
+    "LIPW": 1.8,
+    "LIPL": 3
+  },
+  "scrapedDate": "2025-10-12T19:38:50.807Z",
+  "sourceUrl": "https://www.paccentraljc.org/240120/20245251.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245251.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.811Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

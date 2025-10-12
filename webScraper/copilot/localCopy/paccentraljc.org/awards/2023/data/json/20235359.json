@@ -2,44 +2,37 @@
   "awardNum": "20235359",
   "award": "HCC",
   "awardpoints": 79,
-  "location": "",
+  "location": "Pacific Orchid Exposition",
   "date": "February 23, 2023",
-  "genus": "Urban",
-  "species": "Vogue",
+  "genus": "Paphiopedilum",
+  "species": "Urban Vogue",
   "clone": "Merlot",
-  "cross": "Paphiopedilum urbanianum × Paphiopedilum Vogue Wonder",
+  "cross": "Paphiopedilum urbanianum x Paphiopedilum Vogue Wonder",
   "exhibitor": "Dave Sorokowski",
   "photographer": "Ken Jacobsen",
   "photo": "images/20235359.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "NS": 16.3,
-    "NSV": 11,
-    "DSL": 6.3,
-    "DSW": 7,
-    "PETL": 7.7,
-    "PETW": 2.9,
+    "type": "LateralSepal",
     "numFlowers": 1,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "One flower on one 36-cm inflorescence; dorsal sepal flat, white, strongly marked green veins ; synsepal light green, darker green veins; petals spatulate, undulate, cream overlaid chartreuse basally, light rose distally, mahogany spots basal two-thirds; pouch light green, overlaid light rose, darker rose veins; staminode cream, green markings; substance firm; texture glossy.",
+    "description": "One flower on one 36-cm inflorescence; \n   dorsal sepal flat, white, strongly marked green veins ;\nsynsepal light green, darker green veins; \npetals spatulate, undulate, cream overlaid chartreuse basally, light rose distally, mahogany spots basal two-thirds;\npouch light green, overlaid light rose, darker rose veins;\n staminode cream, green markings;\nsubstance firm; texture glossy.",
+    "NS": 16.3,
+    "NSV": 11,
+    "DSW": 7,
+    "DSL": 6.3,
+    "PETW": 2.9,
+    "PETL": 7.7,
     "LSW": 3.3,
-    "LSL": 4.4,
-    "LIPW": null,
-    "LIPL": null
+    "LSL": 4.4
   },
-  "scrapedDate": "2025-10-04T06:48:23.718Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230223/20235359.html",
+  "scrapedDate": "2025-10-12T20:20:02.900Z",
+  "sourceUrl": "https://www.paccentraljc.org/230223/20235359.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235359.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.824Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235359",
-      "newValue": "https://www.paccentraljc.org/20230223/20235359.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.901Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

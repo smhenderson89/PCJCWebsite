@@ -1,0 +1,42 @@
+{
+  "awardNum": "20245369",
+  "award": "SC",
+  "awardpoints": 88,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 15, 2024",
+  "genus": "Timeless",
+  "species": "Orchids",
+  "clone": "N/A",
+  "cross": "N/A",
+  "exhibitor": "Marin Orchid Society",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245369.jpg",
+  "measurements": {
+    "type": "N/A",
+    "numFlowers": "N/A",
+    "numBuds": "N/A",
+    "numInflorescences": "N/A",
+    "description": "A striking, well-balanced 3.8-m by 1.5-m multilevel three-sided display \n   up to 2-m high with many ribbon trophy and AOS award winners, a wide variety of genera including Masevallia, Cymbidium, Cattelya,\n   Dendrobium, Paphiopedilum and Coelogyne, both species and hybrids, leading the eye toward the focal point, a large specimen\n   of Coelogyne tenella.",
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LIPW": "N/A",
+    "LSW": "N/A",
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
+  },
+  "scrapedDate": "2025-10-12T19:38:50.945Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245369.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245369.html",
+  "year": 2024,
+  "isDisplay": true,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.946Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "display"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245277",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Peninsula Orchid Society and Gold Coast Cymbidium Society Show",
+  "date": "April 27, 2024",
+  "genus": "Cymbidium",
+  "species": "William Weaver",
+  "clone": "Not Bill",
+  "cross": "Cymbidium Ian Reid x Cymbidium Vogelsang",
+  "exhibitor": "Ron Norris",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245277.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 38,
+    "numBuds": 13,
+    "numInflorescences": 5,
+    "description": "Thirty-eight flowers and 13 buds on five arched up to 77.5-cm inflorescences; \n\n sepals and petals broadly acuminate, bronze-orange, darker veins;\n \n lip cream, keels yellow speckled maroon, side lobes flushed bronze-orange, midlobe blotched dark maroon; \n\n column cream flushed bronze ventrally, anther cap white;\n substance firm; texture matte.",
+    "NS": 7.5,
+    "NSV": 6,
+    "DSW": 2.1,
+    "DSL": 3.9,
+    "PETW": 2.1,
+    "PETL": 3.4,
+    "LSW": 2.2,
+    "LSL": 3.3,
+    "LIPW": 2.6,
+    "LIPL": 2.9
+  },
+  "scrapedDate": "2025-10-12T19:38:50.885Z",
+  "sourceUrl": "https://www.paccentraljc.org/240427/20245277.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245277.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.886Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

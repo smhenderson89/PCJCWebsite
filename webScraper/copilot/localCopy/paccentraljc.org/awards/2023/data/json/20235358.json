@@ -1,45 +1,40 @@
 {
   "awardNum": "20235358",
-  "award": "FCC",
-  "awardpoints": null,
-  "location": "",
+  "award": "CCE",
+  "awardpoints": 91,
+  "location": "Pacific Orchid Exposition",
   "date": "February 23, 2023",
-  "genus": "Leonard",
-  "species": "Smith",
-  "clone": "s Pride ",
-  "cross": "Paphiopedilum Leonard Smith × Paphiopedilum rothschildianum",
+  "genus": "Paphiopedilum",
+  "species": "Leonard's Pride",
+  "clone": "Petrus",
+  "cross": "Paphiopedilum Leonard Smith x Paphiopedilum rothschildianum",
   "exhibitor": "Gold Country Orchids",
   "photographer": "Ken Jacobsen",
   "photo": "images/20235358.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "NS": null,
-    "NSV": null,
-    "DSL": null,
-    "DSW": null,
-    "PETL": null,
-    "PETW": null,
+    "type": "N/A",
     "numFlowers": 18,
     "numBuds": 14,
     "numInflorescences": 6,
-    "description": "Eighteen flowers and 14 buds on six evenly arranged up to 81-cm inflorescences; 345-cm circumference plant in a 25-cm plastic azalea pot; dorsal sepal chartreuse, veins heavily marked dark mahogany; synsepal light chartreuse, narrow mahogany veins; petals chartreuse, burgundy spots and veins coalescing to dark burgundy distal half; pouch chartreuse overlaid mahogany, darker mahogany venation; staminode cream, blushed mahogany, hirsuite upper margins; substance firm; texture matte; previous FCC award 20202258.",
-    "LSW": null,
-    "LSL": null,
-    "LIPW": null,
-    "LIPL": null
+    "description": "Eighteen flowers and 14 buds on six evenly arranged up to 81-cm inflorescences; 345-cm circumference plant in a 25-cm plastic azalea pot;\n   dorsal sepal chartreuse, veins heavily marked dark mahogany;\nsynsepal light chartreuse, narrow mahogany veins; \npetals chartreuse, burgundy spots and veins coalescing to dark burgundy distal half;\npouch chartreuse overlaid mahogany, darker mahogany venation;\n staminode cream, blushed mahogany, hirsuite upper margins;\nsubstance firm; texture matte; previous FCC award 20202258.",
+    "NS": "NM",
+    "NSV": "NM",
+    "DSW": "NM",
+    "DSL": "NM",
+    "PETW": "NM",
+    "PETL": "NM",
+    "LSW": "NM",
+    "LSL": "NM",
+    "PCHW": "NM",
+    "PCHL": "NM"
   },
-  "scrapedDate": "2025-10-04T06:48:23.717Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230223/20235358.html",
+  "scrapedDate": "2025-10-12T20:20:02.898Z",
+  "sourceUrl": "https://www.paccentraljc.org/230223/20235358.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235358.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.824Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235358",
-      "newValue": "https://www.paccentraljc.org/20230223/20235358.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.899Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

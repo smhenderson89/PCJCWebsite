@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245281",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Peninsula Orchid Society and Gold Coast Cymbidium Society Show",
+  "date": "April 27, 2024",
+  "genus": "Cymbidium",
+  "species": "Exeter Jadeite",
+  "clone": "Winston",
+  "cross": "Cymbidium serratum x Cymbidium Eastern Venus",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245281.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Four starry flowers on two upright 11-cm inflorescences; \n \n sepals and petals soft light green, petals slightly porrect;\n \n lip cream, keels light yellow, midlobe lightly flushed pink laterally, light green apically; \n\n column light green, speckled maroon ventrally, anther cap cream;\n substance firm; texture matte.",
+    "NS": 8.5,
+    "NSV": 7.1,
+    "DSW": 1.5,
+    "DSL": 5,
+    "PETW": 1.4,
+    "PETL": 3.9,
+    "LSW": 1.5,
+    "LSL": 4.8,
+    "LIPW": 1.5,
+    "LIPL": 2.3
+  },
+  "scrapedDate": "2025-10-12T19:38:50.893Z",
+  "sourceUrl": "https://www.paccentraljc.org/240427/20245281.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245281.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.894Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

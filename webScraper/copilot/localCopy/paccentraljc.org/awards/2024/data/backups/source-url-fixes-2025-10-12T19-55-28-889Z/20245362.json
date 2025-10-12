@@ -1,0 +1,38 @@
+{
+  "awardNum": "20245362",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 15, 2024",
+  "genus": "Bulbophyllum",
+  "species": "grandiflorum",
+  "clone": "Memoria Jim Hamilton",
+  "cross": "species",
+  "exhibitor": "Golden Gate Orchids",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245362.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one 26-cm arching inflorescence; \n   highly hooded dorsal sepal light yellow overlaid medium brown, patterned light yellow spots; \n   lateral sepals yellow-green, muted brown reverse reticulation;\n   petals minute;\n   lip minute, chartreuse spotted burgundy;\n   \n   substance average; texture matte.",
+    "NS": 7.4,
+    "NSV": 11,
+    "DSW": 6.4,
+    "DSL": 14.4,
+    "LSW": 3.6,
+    "LSL": 9.4,
+    "LIPW": 0.3,
+    "LIPL": 1.1
+  },
+  "scrapedDate": "2025-10-12T19:38:50.928Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245362.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245362.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.929Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

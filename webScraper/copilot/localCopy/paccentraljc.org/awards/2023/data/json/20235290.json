@@ -2,44 +2,39 @@
   "awardNum": "20235290",
   "award": "AM",
   "awardpoints": 84,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "May 20, 2023",
-  "genus": "Kulnura",
-  "species": "Leppard",
+  "genus": "Sarcochilus",
+  "species": "Kulnura Leppard",
   "clone": "Gracie",
-  "cross": "Sarcochilus Kulnura Sanctuary 'Pink Blush' × Sarcochilus Kulnura Gifted 'Pure Spot'",
+  "cross": "Sarcochilus Kulnura Sanctuary 'Pink Blush' x Sarcochilus Kulnura Gifted 'Pure Spot'",
   "exhibitor": "Any and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20235290.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 3.1,
-    "NSV": 3.1,
-    "DSL": 1.9,
-    "DSW": 1.4,
-    "PETL": 1.6,
-    "PETW": 0.9,
     "numFlowers": 77,
     "numBuds": 0,
     "numInflorescences": 10,
-    "description": "Seventy-seven flat flowers well held at the apex of ten upright inflorescences up to 17cm; sepals and petals white, evenly blotched dark rose; lip saccate, white overlaid yellow, side lobes red; column white; substance firm; texture crystalline.",
+    "description": "Seventy-seven flat flowers well held at the apex of ten upright inflorescences up to 17cm;\n\t\n\t\n\tsepals and petals white, evenly blotched dark rose;\n\tlip saccate, white overlaid yellow, side lobes red; column white;\n\t\n\tsubstance firm; texture crystalline.",
+    "NS": 3.1,
+    "NSV": 3.1,
+    "DSW": 1.4,
+    "DSL": 1.9,
+    "PETW": 0.9,
+    "PETL": 1.6,
     "LSW": 1.4,
     "LSL": 1.8,
     "LIPW": 0.6,
     "LIPL": 0.5
   },
-  "scrapedDate": "2025-10-04T06:48:23.683Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230520/20235290.html",
+  "scrapedDate": "2025-10-12T20:20:02.840Z",
+  "sourceUrl": "https://www.paccentraljc.org/230520/20235290.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235290.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.810Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235290",
-      "newValue": "https://www.paccentraljc.org/20230520/20235290.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.841Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

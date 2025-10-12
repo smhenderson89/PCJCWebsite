@@ -29,13 +29,24 @@
     "SYNSL": "N/A",
     "SYNSW": "N/A"
   },
-  "scrapedDate": "2025-10-12T02:38:25.636Z",
-  "sourceUrl": "https://www.paccentraljc.org/240215/20245369.html",
+  "scrapedDate": "2025-10-12T19:38:50.945Z",
+  "sourceUrl": "https://www.paccentraljc.org/20240215/20245369.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245369.html",
   "year": 2024,
+  "isDisplay": true,
   "logicApplied": {
-    "timestamp": "2025-10-12T02:38:25.638Z",
+    "timestamp": "2025-10-12T19:38:50.946Z",
     "rules": "logicReference/missingInfoLogic.json",
     "awardCategory": "display"
-  }
+  },
+  "corrections": [
+    {
+      "timestamp": "2025-10-12T19:55:28.930Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/240215/20245369.html",
+      "newValue": "https://www.paccentraljc.org/20240215/20245369.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
+    }
+  ]
 }

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235306",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Filoli Historic House",
+  "date": "December 16, 2023",
+  "genus": "Cymbidium",
+  "species": "Exeter Carnelian",
+  "clone": "Mellow Yellow",
+  "cross": "Cymbidium goeringii x Cymbidium Voodoo",
+  "exhibitor": "Ken and Amy Jacobsen",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20235306.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flat flowers on one 24-cm inflorescence;\n   \nsepals and petals chartreuse, lightly veined and suffused red, darker basally;  \nlip cream overlaid light yellow, keels yellow tipped red distally, midlobe spotted and flushed dark red;\ncolumn chartreuse, dark red ventral surface, anther cap cream;\n\n\n\tsubstance firm; texture crystalline.",
+    "NS": 7.2,
+    "NSV": 6.2,
+    "DSW": 1.5,
+    "DSL": 4.5,
+    "PETW": 1.6,
+    "PETL": 3.8,
+    "LSW": 1.5,
+    "LSL": 4.2,
+    "LIPW": 2,
+    "LIPL": 2.5
+  },
+  "scrapedDate": "2025-10-12T19:43:33.339Z",
+  "sourceUrl": "https://www.paccentraljc.org/231216/20235306.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235306.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.340Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

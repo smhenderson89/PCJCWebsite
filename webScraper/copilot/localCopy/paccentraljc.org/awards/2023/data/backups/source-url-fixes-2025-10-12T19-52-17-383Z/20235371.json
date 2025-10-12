@@ -1,0 +1,38 @@
+{
+  "awardNum": "20235371",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Sonoma County Orchid Society Show",
+  "date": "April 1, 2023",
+  "genus": "Paphiopedilum",
+  "species": "venustum",
+  "clone": "Inner Fire",
+  "cross": "species",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Lynne Murrell",
+  "photo": "images/20235371.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flat flower on one 9.5-cm inflorescence;\n\tsepals white veined green;\n\t\n\tpetals slightly undulate, white heavily veined green, burgundy line midrib fading to spots \n\tproximally, overlaid rose distally, margins hirsuite, raised bugundy spots proximal half;\n\tpouch yellow-green overlaid dark rose, heavily veined dark green;\n\tstaminode green;\n\tsubstance medium; texture waxy.",
+    "NS": 8.7,
+    "NSV": 6.5,
+    "DSW": 3,
+    "DSL": 3,
+    "PETW": 1.7,
+    "PETL": 4.1,
+    "LSW": 2,
+    "LSL": 2.7
+  },
+  "scrapedDate": "2025-10-12T19:43:33.478Z",
+  "sourceUrl": "https://www.paccentraljc.org/230401/20235371.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235371.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.479Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

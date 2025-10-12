@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235300",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "July 15, 2023",
+  "genus": "Cattleya",
+  "species": "warscewiczii",
+  "clone": "Thomas Toulemonde",
+  "cross": "species",
+  "exhibitor": "Steven Christoffersen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235300.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Two flowers on one  13.5-cm inflorescence;\n   \n\tsepals and petals dark pink, cream basal attachment area, petals pronounced midrib, slightly ruffled;\n\t\n\tlip ruffled, closed over column, cream heavily overlaid purple, throat yellow overlaid purple, yellow veins, small cream eyes;\n\t\n\tsubstance firm; texture light diamond dust.",
+    "NS": 18,
+    "NSV": 18.2,
+    "DSW": 2.9,
+    "DSL": 12.7,
+    "PETW": 5.9,
+    "PETL": 10.8,
+    "LSW": 2.9,
+    "LSL": 9.8,
+    "LIPW": 5.9,
+    "LIPL": 9.2
+  },
+  "scrapedDate": "2025-10-12T19:43:33.298Z",
+  "sourceUrl": "https://www.paccentraljc.org/230715/20235300.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235300.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.300Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

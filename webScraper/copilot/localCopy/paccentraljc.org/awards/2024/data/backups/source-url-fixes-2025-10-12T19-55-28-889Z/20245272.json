@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245272",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "April 20, 2024",
+  "genus": "Cymbidium",
+  "species": "Kimberley Splash",
+  "clone": "Tee Pee",
+  "cross": "Cymbidium Khan Flame x Cymbidium Valley Splash",
+  "exhibitor": "Weegie Caughlan",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245272.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 26,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Twenty-six slightly cupped flowers on two up to 97-cm upright staked inflorescences; \n\n sepals ivory overlaid centrally red-pink;\n petals ivory, midline red-pink, suffused near midline;\n lip ivory, midlobe picotee, dark red-pink distally, side lobes edged pink, callus yellow; \n column ivory overlaid and spotted dark pink, anther cap white;\n \n substance firm; texture matte.",
+    "NS": 9.8,
+    "NSV": 7.8,
+    "DSW": 4.9,
+    "DSL": 6.7,
+    "PETW": 3.4,
+    "PETL": 6.3,
+    "LSW": 5.3,
+    "LSL": 6.4,
+    "LIPW": 3.6,
+    "LIPL": 4.3
+  },
+  "scrapedDate": "2025-10-12T19:38:50.873Z",
+  "sourceUrl": "https://www.paccentraljc.org/240420/20245272.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245272.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.874Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -2,44 +2,39 @@
   "awardNum": "20235277",
   "award": "HCC",
   "awardpoints": 79,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "April 15, 2023",
-  "genus": "Filoli",
-  "species": "Historic",
+  "genus": "Cattleya",
+  "species": "intermedia v. aquinii",
   "clone": "Oriental Flame",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20235277.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 10,
-    "NSV": 10.5,
-    "DSL": 6,
-    "DSW": 2.5,
-    "PETL": 6,
-    "PETW": 4,
     "numFlowers": 7,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "Seven flowers on one 21-cm inflorescence; sepals white, dusted fuchsia spots; petals white, distal half overlaid fuchsia; lip white, side lobes overlaid dark fuchsia margins, midlobe fully overlaid dark fuchsia transitioning to striations in throat; column white blushed lavender, anther cap white; substance firm; texture waxy.",
+    "description": "Seven flowers on one 21-cm inflorescence; sepals white, dusted fuchsia spots;\n\tpetals white, distal half overlaid fuchsia;\n\tlip white, side lobes overlaid dark fuchsia margins, midlobe fully overlaid dark fuchsia transitioning to striations in throat;\n\tcolumn white blushed lavender, anther cap white;\n\tsubstance firm; texture waxy.",
+    "NS": 10,
+    "NSV": 10.5,
+    "DSW": 2.5,
+    "DSL": 6,
+    "PETW": 4,
+    "PETL": 6,
     "LSW": 2.5,
     "LSL": 5.5,
     "LIPW": 4,
     "LIPL": 4.8
   },
-  "scrapedDate": "2025-10-04T06:48:23.658Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230415/20235277.html",
+  "scrapedDate": "2025-10-12T20:20:02.817Z",
+  "sourceUrl": "https://www.paccentraljc.org/230415/20235277.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235277.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.803Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235277",
-      "newValue": "https://www.paccentraljc.org/20230415/20235277.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.818Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

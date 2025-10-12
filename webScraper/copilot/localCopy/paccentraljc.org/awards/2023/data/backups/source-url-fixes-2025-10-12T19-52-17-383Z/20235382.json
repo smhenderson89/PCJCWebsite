@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235382",
+  "award": "AM",
+  "awardpoints": 86,
+  "location": "San Francisco",
+  "date": "September 5, 2023",
+  "genus": "Cattleya",
+  "species": "Trudi and Red Marsh",
+  "clone": "Gracie",
+  "cross": "Cattleya pumila x Cattleya Red Jewel",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20235382.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 3,
+    "numInflorescences": 3,
+    "description": "Two flat flowers and three buds on three upright 3.5-cm inflorescences;\n   \n\tsepals and petals magenta;\n\n\tlip yellow heavily overlaid magenta except throat, side lobes enclose column, throat veined magenta;\n\tanther cap white, center magenta dot;\n\t\n\tsubstance soft; texture slightly diamond dust.",
+    "NS": 9.9,
+    "NSV": 9.6,
+    "DSW": 2.2,
+    "DSL": 5.3,
+    "PETW": 4.3,
+    "PETL": 5,
+    "LSW": 2.2,
+    "LSL": 5,
+    "LIPW": 2.2,
+    "LIPL": 4.2
+  },
+  "scrapedDate": "2025-10-12T19:43:33.547Z",
+  "sourceUrl": "https://www.paccentraljc.org/230905/20235382.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235382.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.549Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

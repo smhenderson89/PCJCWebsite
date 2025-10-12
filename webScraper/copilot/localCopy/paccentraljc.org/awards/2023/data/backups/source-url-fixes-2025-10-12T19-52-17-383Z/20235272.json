@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235272",
+  "award": "CCM",
+  "awardpoints": 83,
+  "location": "Filoli Historic House",
+  "date": "March 18, 2023",
+  "genus": "Dendrobium",
+  "species": "Australian Goldrush",
+  "clone": "Woodside",
+  "cross": "Dendrobium speciosum x Dendrobium Yondi Tina",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235272.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 332,
+    "numBuds": 10,
+    "numInflorescences": 15,
+    "description": "Three hundred thirty-two star-shaped flowers and ten buds on 15 24-cm arching inflorescences;\n\t73-cm tall by 78-cm wide plant in 21-cm plastic pot, bark media;\n\t  \n\t sepals and petals yellow;\n\tlip light yellow, striped burgundy sidelobes;\n\tcolumn light yellow spotted burgundy, anther cap cream;\t\n\t\n\t\n    substance firm; texture matte; also received award 20235271.",
+    "NS": 5.4,
+    "NSV": 6.5,
+    "DSW": 0.6,
+    "DSL": 3.9,
+    "PETW": 0.5,
+    "PETL": 3.2,
+    "LSW": 0.7,
+    "LSL": 3,
+    "LIPW": 1.1,
+    "LIPL": 0.8
+  },
+  "scrapedDate": "2025-10-12T19:43:33.103Z",
+  "sourceUrl": "https://www.paccentraljc.org/230318/20235272.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235272.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.105Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

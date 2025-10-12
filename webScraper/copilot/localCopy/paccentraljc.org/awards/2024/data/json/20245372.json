@@ -28,13 +28,23 @@
     "LIPW": 2.3,
     "LIPL": 3
   },
-  "scrapedDate": "2025-10-12T02:38:25.643Z",
-  "sourceUrl": "https://www.paccentraljc.org/240305/20245372.html",
+  "scrapedDate": "2025-10-12T19:38:50.951Z",
+  "sourceUrl": "https://www.paccentraljc.org/20240305/20245372.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245372.html",
   "year": 2024,
   "logicApplied": {
-    "timestamp": "2025-10-12T02:38:25.644Z",
+    "timestamp": "2025-10-12T19:38:50.952Z",
     "rules": "logicReference/missingInfoLogic.json",
     "awardCategory": "point-based"
-  }
+  },
+  "corrections": [
+    {
+      "timestamp": "2025-10-12T19:55:28.932Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/240305/20245372.html",
+      "newValue": "https://www.paccentraljc.org/20240305/20245372.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
+    }
+  ]
 }

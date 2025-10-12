@@ -2,44 +2,39 @@
   "awardNum": "20235293",
   "award": "AM",
   "awardpoints": 80,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "June 17, 2023",
-  "genus": "Lime",
-  "species": "Stars",
+  "genus": "Procatavola",
+  "species": "Key Lime Stars",
   "clone": "Bayou Moon",
-  "cross": "Cattlechea Lime Sherbet × Brassavola nodosa",
+  "cross": "Cattlechea Lime Sherbet x Brassavola nodosa",
   "exhibitor": "Mitch Schneider",
   "photographer": "Chaunie Langland",
   "photo": "images/20235293.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 13.6,
-    "NSV": 12.9,
-    "DSL": 7.7,
-    "DSW": 1,
-    "PETL": 6.6,
-    "PETW": 0.8,
     "numFlowers": 3,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "Three stellate flowers on one 10-cm upright inflorescence; sepals and pteals lanceolate, bright lime green; lip tubular bell, pale yellow-green, throat bright lime green spotted burgundy; column lime green, white apically, anther cap yellow overlaid green; substance firm; texture waxy.",
+    "description": "Three stellate flowers on one 10-cm upright inflorescence;\n\tsepals and pteals lanceolate, bright lime green;\n\tlip tubular bell, pale yellow-green, throat bright lime green spotted burgundy;\n\tcolumn lime green, white apically, anther cap yellow overlaid green;\n\tsubstance firm; texture waxy.",
+    "NS": 13.6,
+    "NSV": 12.9,
+    "DSW": 1,
+    "DSL": 7.7,
+    "PETW": 0.8,
+    "PETL": 6.6,
     "LSW": 1,
     "LSL": 7.2,
     "LIPW": 3.1,
     "LIPL": 8.4
   },
-  "scrapedDate": "2025-10-04T06:48:23.686Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230617/20235293.html",
+  "scrapedDate": "2025-10-12T20:20:02.848Z",
+  "sourceUrl": "https://www.paccentraljc.org/230617/20235293.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235293.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.812Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235293",
-      "newValue": "https://www.paccentraljc.org/20230617/20235293.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.849Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245376",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "San Francisco",
+  "date": "April 2, 2024",
+  "genus": "Zygopetalum",
+  "species": "Firewater",
+  "clone": "RRR",
+  "cross": "Zygopetalum Kiwi Choice x Zygopetalum Artur Elle",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Japheth Ko",
+  "photo": "images/20245376.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 6,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Six flowers on one 39-cm inflorescence; \n\n sepals and petals green marked heavily purple-brown;;\n lip white, veined and diffused purple; \n column green, purple-brown markings, anther cap yellow;\n \n substance very firm; texture waxy, lip matte.",
+    "NS": 8,
+    "NSV": 7.9,
+    "DSW": 2.2,
+    "DSL": 3.5,
+    "PETW": 2.1,
+    "PETL": 3.3,
+    "LSW": 2.3,
+    "LSL": 3.5,
+    "LIPW": 4.4,
+    "LIPL": 4.3
+  },
+  "scrapedDate": "2025-10-12T19:38:50.963Z",
+  "sourceUrl": "https://www.paccentraljc.org/240402/20245376.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245376.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.964Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245360",
+  "award": "FCC",
+  "awardpoints": 91,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 15, 2024",
+  "genus": "Dendrobium",
+  "species": "Brimbank Fire",
+  "clone": "SVO Fantastic",
+  "cross": "Dendrobium Ray's Dream x Dendrobium speciosum",
+  "exhibitor": "Sunset Valley Orchids",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245360.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 78,
+    "numBuds": 1,
+    "numInflorescences": 5,
+    "description": "Seventy-eight striking, slightly cupped flowers and one bud on five up to 21.5-cm inflorescences; \n   sepals cream overlaid deep burgundy apical two-thirds, lateral sepal falcate;\n   petals cream blotched burgundy basally, apical two-thirds deep burgundy;\n   lip trilobed, cream, sidelobes heavily overlaid and striped burgundy, midlobe blotched dark burgundy, callis light yellow;\n   column cream;\n   substance medium; texture glossy.",
+    "NS": 6.7,
+    "NSV": 7,
+    "DSW": 1,
+    "DSL": 4.5,
+    "PETW": 0.6,
+    "PETL": 4,
+    "LSW": 1.4,
+    "LSL": 4,
+    "LIPW": 0.8,
+    "LIPL": 2.2
+  },
+  "scrapedDate": "2025-10-12T19:38:50.924Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245360.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245360.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.925Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

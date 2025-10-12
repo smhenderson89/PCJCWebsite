@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235381",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "San Francisco",
+  "date": "September 5, 2023",
+  "genus": "Encyclia",
+  "species": "Orchid Jungle",
+  "clone": "Red Chocolate",
+  "cross": "Encyclia alata x Encyclia phoenicea",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20235381.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 16,
+    "numBuds": 8,
+    "numInflorescences": 2,
+    "description": "Sixteen slighly cupped stellate flowers and eight buds on two upright branching 28-cm inflorescences;\n   \n\tsepals and petals light green heavily overlaid purple-brown, green edges;\n\t\n\t\n\tlip white, veins dark purple, edge ruffled, yellow, side lobes porrect, blushed purple;\n\tcolumn white, anther cap yellow;\n\t\n\tsubstance medium; texture matte.",
+    "NS": 5.2,
+    "NSV": 6.9,
+    "DSW": 1.3,
+    "DSL": 3.8,
+    "PETW": 1,
+    "PETL": 3.3,
+    "LSW": 1.2,
+    "LSL": 3.5,
+    "LIPW": 1.8,
+    "LIPL": 2.5
+  },
+  "scrapedDate": "2025-10-12T19:43:33.543Z",
+  "sourceUrl": "https://www.paccentraljc.org/230905/20235381.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235381.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.544Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

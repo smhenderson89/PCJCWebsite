@@ -2,44 +2,39 @@
   "awardNum": "20235296",
   "award": "HCC",
   "awardpoints": 79,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "June 17, 2023",
-  "genus": "Rawdon",
-  "species": "Jester",
+  "genus": "Rossioglossum",
+  "species": "Rawdon Jester",
   "clone": "HMB",
-  "cross": "Rossioglossum grande × Rossioglossum williamsianum",
+  "cross": "Rossioglossum grande x Rossioglossum williamsianum",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20235296.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 14.8,
-    "NSV": 12.4,
-    "DSL": 8.5,
-    "DSW": 2.7,
-    "PETL": 8.2,
-    "PETW": 3.6,
     "numFlowers": 8,
     "numBuds": 0,
     "numInflorescences": 2,
-    "description": "Eight flowers on one 42-cm inflorescence, one immature inflorescence; sepals yellow overlaid brown-mahogany bands; petals slightly ruffled, recurved at apex, yellow overlaid mahogany basal half; lip flared, white, large burgundy spots basally; substance firm; texture lacquer.",
+    "description": "Eight flowers on one  42-cm inflorescence, one immature inflorescence;\n   \n\tsepals yellow overlaid brown-mahogany bands;\n\tpetals slightly ruffled, recurved at apex, yellow overlaid mahogany basal half;\n\t\n\tlip flared, white, large burgundy spots basally;\n\t\n\tsubstance firm; texture lacquer.",
+    "NS": 14.8,
+    "NSV": 12.4,
+    "DSW": 2.7,
+    "DSL": 8.5,
+    "PETW": 3.6,
+    "PETL": 8.2,
     "LSW": 2.3,
     "LSL": 7.8,
     "LIPW": 4.2,
     "LIPL": 4.8
   },
-  "scrapedDate": "2025-10-04T06:48:23.689Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230617/20235296.html",
+  "scrapedDate": "2025-10-12T20:20:02.854Z",
+  "sourceUrl": "https://www.paccentraljc.org/230617/20235296.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235296.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.813Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235296",
-      "newValue": "https://www.paccentraljc.org/20230617/20235296.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.855Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

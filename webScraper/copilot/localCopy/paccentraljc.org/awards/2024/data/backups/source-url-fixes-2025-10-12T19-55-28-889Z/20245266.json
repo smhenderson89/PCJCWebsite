@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245266",
+  "award": "CBR",
+  "awardpoints": "N/A",
+  "location": "Sonoma County OS Show",
+  "date": "March 23, 2024",
+  "genus": "Chiloschista",
+  "species": "shanica",
+  "clone": "Adrienne",
+  "cross": "species",
+  "exhibitor": "Mark Pendleton",
+  "photographer": "Lynne Murrell",
+  "photo": "images/20245266.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 7,
+    "numBuds": 12,
+    "numInflorescences": 2,
+    "description": "Seven flowers and 12 buds on two up to 12-cm inflorescences; \n leafless plant 23 cm x  16 cm on 11-cm x 16-cm cork mount;\n  sepals and petals white spotted pink centrally;\n  lip white, side lobes dark pink;\n  column cream, anther cap white;\n   substance firm;\n texture matte.",
+    "NS": 1.5,
+    "NSV": 1.4,
+    "DSW": 0.6,
+    "DSL": 0.5,
+    "PETW": 0.6,
+    "PETL": 0.6,
+    "LSW": 0.5,
+    "LSL": 0.6,
+    "LIPW": 0.3,
+    "LIPL": 0.6
+  },
+  "scrapedDate": "2025-10-12T19:38:50.858Z",
+  "sourceUrl": "https://www.paccentraljc.org/240323/20245266.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245266.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.860Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

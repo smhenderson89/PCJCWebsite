@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245282",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Filoli Historic House",
+  "date": "May 18, 2024",
+  "genus": "Cattleya",
+  "species": "schilleriana",
+  "clone": "True Blue",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245282.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Two flowers slightly crowded on one 14.2-cm inflorescence; \n \n sepals and petals lanceolate, undulate throughout, olive green, spotted mahogany intensifying distally;\n \n lip spatulate, flat, white, midlobe yellow basally, veined indigo; \n\n column enclosed, white edged indigo, anther cap white;\n substance firm; texture waxy.",
+    "NS": 9.5,
+    "NSV": 10.4,
+    "DSW": 3,
+    "DSL": 6.2,
+    "PETW": 2.4,
+    "PETL": 6.4,
+    "LSW": 2.2,
+    "LSL": 5,
+    "LIPW": 3.5,
+    "LIPL": 5.7
+  },
+  "scrapedDate": "2025-10-12T19:38:50.896Z",
+  "sourceUrl": "https://www.paccentraljc.org/240518/20245282.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245282.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.897Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

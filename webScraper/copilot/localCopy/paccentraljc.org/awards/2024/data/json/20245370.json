@@ -24,13 +24,23 @@
     "PETW": 4.2,
     "PETL": 4.7
   },
-  "scrapedDate": "2025-10-12T02:38:25.639Z",
-  "sourceUrl": "https://www.paccentraljc.org/240305/20245370.html",
+  "scrapedDate": "2025-10-12T19:38:50.947Z",
+  "sourceUrl": "https://www.paccentraljc.org/20240305/20245370.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245370.html",
   "year": 2024,
   "logicApplied": {
-    "timestamp": "2025-10-12T02:38:25.640Z",
+    "timestamp": "2025-10-12T19:38:50.948Z",
     "rules": "logicReference/missingInfoLogic.json",
     "awardCategory": "point-based"
-  }
+  },
+  "corrections": [
+    {
+      "timestamp": "2025-10-12T19:55:28.931Z",
+      "field": "sourceUrl",
+      "oldValue": "https://www.paccentraljc.org/240305/20245370.html",
+      "newValue": "https://www.paccentraljc.org/20240305/20245370.html",
+      "source": "automated-source-url-correction",
+      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
+    }
+  ]
 }

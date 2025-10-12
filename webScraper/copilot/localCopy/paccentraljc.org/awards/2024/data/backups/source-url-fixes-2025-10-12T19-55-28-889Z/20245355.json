@@ -1,0 +1,42 @@
+{
+  "awardNum": "20245355",
+  "award": "AQ",
+  "awardpoints": "N/A",
+  "location": "Pacific Orchid Exposition",
+  "date": "February 15, 2024",
+  "genus": "Paphiopedilum",
+  "species": "Sierra Sky",
+  "clone": "N/A",
+  "cross": "N/A",
+  "exhibitor": "Dave Sorokowsky",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245355.jpg",
+  "measurements": {
+    "type": "N/A",
+    "numFlowers": "N/A",
+    "numBuds": "N/A",
+    "numInflorescences": "N/A",
+    "description": "Twelve plants exhibited of Paphiopedilum Sierra Sky (Paphiopedilum Hawaiian Volcano x \n   Paphiopedilum venustum), form well representative of both parents, recognized for the potential quality of hybrid showing \n   diversity of potential outcomes.",
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LIPW": "N/A",
+    "LSW": "N/A",
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
+  },
+  "scrapedDate": "2025-10-12T19:38:50.914Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245355.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245355.html",
+  "year": 2024,
+  "isDisplay": true,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.915Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "special"
+  }
+}

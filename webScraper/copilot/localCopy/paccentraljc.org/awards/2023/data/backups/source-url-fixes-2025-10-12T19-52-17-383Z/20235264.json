@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235264",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Filoli",
+  "date": "February 18, 2023",
+  "genus": "Cymbidium",
+  "species": "Sylvia Darr",
+  "clone": "Bobcat",
+  "cross": "Cymbidium Pinata Magic 'Stirling' x Cymbidium erythraeum 'Paradise'",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235264.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 23,
+    "numBuds": 14,
+    "numInflorescences": 5,
+    "description": "Twenty-three flowers and 14 buds on five arching to pendulous inflorescences up to 70cm;\n\tdorsal sepal hooded, lanceolate, light yellow spotted and blushed burgundy;\n\tlateral sepals lanceolate, light yellow, densely spotted burgundy;\n\tpetals lanceolate, light yellow spotted burgundy, coalescing to blotches centrally;\n\tlip light yellow, blotched burgundy;\t\n\t\n\tcolumn pale yellow blushed burgundy distally, anther cap cream;\n\t \n\t\n    substance average; texture matte.",
+    "NS": 8.7,
+    "NSV": 6,
+    "DSW": 1.8,
+    "DSL": 4.5,
+    "PETW": 1.6,
+    "PETL": 4.3,
+    "LSW": 1.8,
+    "LSL": 4.4,
+    "LIPW": 2,
+    "LIPL": 2.5
+  },
+  "scrapedDate": "2025-10-12T19:43:33.032Z",
+  "sourceUrl": "https://www.paccentraljc.org/230218/20235264.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235264.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.033Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

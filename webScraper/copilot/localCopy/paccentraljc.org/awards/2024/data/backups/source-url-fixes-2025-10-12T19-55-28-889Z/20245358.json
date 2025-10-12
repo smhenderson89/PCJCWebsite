@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245358",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 15, 2024",
+  "genus": "Masdevallia",
+  "species": "Bay Breeze",
+  "clone": "Jaime",
+  "cross": "Masdevallia Fraseri x Masdevallia John Tomaschke",
+  "exhibitor": "Ron Norris",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245358.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 6,
+    "numBuds": 2,
+    "numInflorescences": 8,
+    "description": "Six flowers and two buds on eight upright inflorescences up to 17 cm; \n   dorsal sepal white overlaid fuchsia darkening on cauda;\n   lateral sepals fuchsia, darker inferior surface, caudae dark fuchsia;\n   petals white;\n   lip dark fuchsia; column white;\n   substance heavy; texture velvety; petals and lip dimentions estimated, not measured.",
+    "NS": 12.5,
+    "NSV": 4,
+    "DSW": 1.7,
+    "DSL": 8.5,
+    "PETW": 0.2,
+    "PETL": 0.4,
+    "LSW": 3.8,
+    "LSL": 8,
+    "LIPW": 0.2,
+    "LIPL": 3.5
+  },
+  "scrapedDate": "2025-10-12T19:38:50.920Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245358.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245358.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.921Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

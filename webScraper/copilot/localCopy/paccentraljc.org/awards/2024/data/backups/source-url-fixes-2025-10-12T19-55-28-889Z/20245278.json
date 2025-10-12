@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245278",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Peninsula Orchid Society and Gold Coast Cymbidium Society Show",
+  "date": "April 27, 2024",
+  "genus": "Sarcochilus",
+  "species": "Thurber Country",
+  "clone": "Rory",
+  "cross": "Sarcochilus Kulnura Sanctuary 'GeeBee' x Sarcochilus Roberta 'Good Yellow'",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245278.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 38,
+    "numBuds": 21,
+    "numInflorescences": 8,
+    "description": "Thirty-eight flat, nicely presented flowers and 21 buds on eight arching up to 15-cm inflorescences; \n\n sepals and petals white, irregularly blotched and coalescing red proximally;\n \n lip white, sidelobes overlaid red; \n\n column white, blotched red, anther cap white;\n substance firm; texture crystalline.",
+    "NS": 3,
+    "NSV": 3,
+    "DSW": 1.3,
+    "DSL": 1.4,
+    "PETW": 0.9,
+    "PETL": 1.3,
+    "LSW": 1.3,
+    "LSL": 1.7,
+    "LIPW": 0.5,
+    "LIPL": 0.8
+  },
+  "scrapedDate": "2025-10-12T19:38:50.887Z",
+  "sourceUrl": "https://www.paccentraljc.org/240427/20245278.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245278.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.888Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

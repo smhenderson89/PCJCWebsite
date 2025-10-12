@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235307",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "December 16, 2023",
+  "genus": "Restrepia",
+  "species": "teaguei",
+  "clone": "Walter",
+  "cross": "species",
+  "exhibitor": "Diane Bond",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20235307.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 6,
+    "numBuds": 4,
+    "numInflorescences": 10,
+    "description": "Six flowers and four buds on ten up to  2.6-cm upright inflorescences;\n   dorsal sepal translucent, maroon stripes centrally; lateral sepals fused, yellow, stippled maroon, coalesced distally;\n   petals translucent, maroon stripe centrally;\n   lip chartreuse, overlaid maroon spots;\n\n\n\tsubstance medium; texture matte; requires SITF confirmation.",
+    "NS": 1.9,
+    "NSV": 3.8,
+    "DSW": 0.4,
+    "DSL": 2.2,
+    "PETW": 0.1,
+    "PETL": 1.4,
+    "LSW": 1.4,
+    "LSL": 2,
+    "LIPW": 0.1,
+    "LIPL": 0.4
+  },
+  "scrapedDate": "2025-10-12T19:43:33.345Z",
+  "sourceUrl": "https://www.paccentraljc.org/231216/20235307.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235307.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.346Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

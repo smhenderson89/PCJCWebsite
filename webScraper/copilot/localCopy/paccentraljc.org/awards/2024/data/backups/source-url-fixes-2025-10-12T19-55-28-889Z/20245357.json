@@ -1,0 +1,36 @@
+{
+  "awardNum": "20245357",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 15, 2024",
+  "genus": "Paphiopedilum",
+  "species": "Emma Decker",
+  "clone": "Theresa Hill",
+  "cross": "Paphiopedilum Fumi's Delight x Paphiopedilum malipoense",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245357.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one 24-cm inflorescence; \n   sepals chartreuse, reticulated green;\n   petals chartreuse, reticulated burgundy;\n   pouch cream speckled light pink, rim speckled pink, interior linearly spotted burgundy; \n   staminode white, overlaid pink marginally, yellow distally, marked burgundy;\n   substance medium; texture matte.",
+    "NS": 9.9,
+    "NSV": 9.4,
+    "DSW": 4.1,
+    "DSL": 4.6,
+    "PETW": 4.6,
+    "PETL": 5.5
+  },
+  "scrapedDate": "2025-10-12T19:38:50.918Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245357.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245357.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.919Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

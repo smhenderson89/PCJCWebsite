@@ -1,0 +1,36 @@
+{
+  "awardNum": "20245353",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 15, 2024",
+  "genus": "Paphiopedilum",
+  "species": "Sierra Sky",
+  "clone": "Phalz",
+  "cross": "Paphiopedilum Hawaiian Volcano x Paphiopedilum venustum",
+  "exhibitor": "Dave Sorokowsky",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245353.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One striking flower on one 19.5-cm inflorescence; \n   sepals white overlaid light green centrally, boldly striped dark green;\n   petals hirsute, light golden yellow striped dark green, spotted dark mahogany along top edge and randomly at mid-vein\n   and below basally, suffused rose distally;\n   pouch green suffused dark rose, dark green venation; staminode green overlaid dark rose;\n   substance firm; texture matte.",
+    "NS": 10.5,
+    "NSV": 7.3,
+    "DSW": 3.2,
+    "DSL": 4.1,
+    "PETW": 2,
+    "PETL": 5
+  },
+  "scrapedDate": "2025-10-12T19:38:50.908Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245353.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245353.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.909Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

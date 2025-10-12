@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245259",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "February 17, 2024",
+  "genus": "Cymbidium",
+  "species": "Mighty Sunset",
+  "clone": "Roxburg Red",
+  "cross": "Cymbidium Wyalong x Cymbidium Mighty Mouse",
+  "exhibitor": "Cahterine Obillo",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245259.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 17,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Seventeen slightly cupped flowers on one 126-cm staked inflorescence; \n  sepals and petals yellow heavily overlaid coral, magenta veins;\n   lip white, side lobes spotted burgundy, callus yellow, midlobe burgundy distally, light yellow picotee;\n   column cream overlaid burgundy dorsal surface, spotted burgundy ventral surface basally; substance medium;\n texture matte.",
+    "NS": 11,
+    "NSV": 10,
+    "DSW": 4.8,
+    "DSL": 6.2,
+    "PETW": 3.9,
+    "PETL": 5.7,
+    "LSW": 4.2,
+    "LSL": 6,
+    "LIPW": 3.5,
+    "LIPL": 4.2
+  },
+  "scrapedDate": "2025-10-12T19:38:50.839Z",
+  "sourceUrl": "https://www.paccentraljc.org/240217/20245259.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245259.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.840Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

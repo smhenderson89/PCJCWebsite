@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245285",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "May 18, 2024",
+  "genus": "Cattleya",
+  "species": "mendelii",
+  "clone": "Best",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245285.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 68,
+    "numBuds": 0,
+    "numInflorescences": 17,
+    "description": "Sixty-eight delicate flowers on 17 up to 23-cm inflorescences;\nplant immaculate, 95 cm wide by 63 cm tall, grown in bark in a 30-cm plastic bulb pan; \n \n sepals narrow, lanceolate, rolled and recurved distally, white blushed lavender;\n petals full, porrect, recurved distally, undulate margins, white, heavily blushed lavender, midrib white;\n \n lip tubular, flaring, undulate distally, white overlaid yellow, veined magenta basally, magenta distal quarter, picotee; \n\n column white, anther cap white;\n substance medium; texture diamond dust; also received award 20245284.",
+    "NS": 11.8,
+    "NSV": 14.8,
+    "DSW": 2.4,
+    "DSL": 7.7,
+    "PETW": 5.3,
+    "PETL": 8.7,
+    "LSW": 2.1,
+    "LSL": 7.5,
+    "LIPW": 4.2,
+    "LIPL": 8.7
+  },
+  "scrapedDate": "2025-10-12T19:38:50.902Z",
+  "sourceUrl": "https://www.paccentraljc.org/240518/20245285.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245285.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.903Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

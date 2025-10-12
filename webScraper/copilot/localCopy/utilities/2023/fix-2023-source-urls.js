@@ -15,8 +15,8 @@ const path = require('path');
 
 class SourceUrlFixer2023 {
     constructor() {
-        this.baseDir = path.join(__dirname, '../../localCopy/paccentraljc.org/awards/2023/data/json');
-        this.backupDir = path.join(__dirname, '../../localCopy/paccentraljc.org/awards/2023/data/backups');
+        this.baseDir = path.join(__dirname, '../../paccentraljc.org/awards/2023/data/json');
+        this.backupDir = path.join(__dirname, '../../paccentraljc.org/awards/2023/data/backups');
         this.results = {
             processed: 0,
             updated: 0,
@@ -184,7 +184,7 @@ class SourceUrlFixer2023 {
             operation: 'fix-2023-source-urls'
         };
 
-        const reportPath = path.join(__dirname, '../../localCopy/paccentraljc.org/awards/2023/data/2023-source-url-fixes-report.json');
+        const reportPath = path.join(__dirname, '../../paccentraljc.org/awards/2023/data/2023-source-url-fixes-report.json');
         await fs.writeJson(reportPath, report, { spaces: 2 });
 
         console.log(`✅ Source URL fixes complete. ${this.results.updated} changes made.`);

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245258",
+  "award": "CCE",
+  "awardpoints": 90,
+  "location": "Filoli Historic House",
+  "date": "February 17, 2024",
+  "genus": "Campylocentrum",
+  "species": "micranthum",
+  "clone": "No Place I",
+  "cross": "species",
+  "exhibitor": "Jim Heilig and Matthew Berry",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245258.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 61,
+    "numBuds": 1231,
+    "numInflorescences": 13,
+    "description": "Approximately 61 flowers and 123 buds on 13 up to 2-cm inflorescences; \n  well presented on a clean 38-cm tall x 28-cm wide, or not including roots 22-cm wide, plant mounted on a 30-cm x 9-cm manzanita branch; \n  sepals and petals porrect, white;\n   lip recurved, white;\n   anther cap chartreuse; substance hard;\n texture crystalline.",
+    "NS": 0.4,
+    "NSV": 0.4,
+    "DSW": 0.1,
+    "DSL": 0.6,
+    "PETW": 0.1,
+    "PETL": 0.6,
+    "LSW": 0.1,
+    "LSL": 0.6,
+    "LIPW": 0.2,
+    "LIPL": 0.6
+  },
+  "scrapedDate": "2025-10-12T19:38:50.836Z",
+  "sourceUrl": "https://www.paccentraljc.org/240217/20245258.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245258.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.838Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

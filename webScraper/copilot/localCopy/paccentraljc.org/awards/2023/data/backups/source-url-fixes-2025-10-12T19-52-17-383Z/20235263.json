@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235263",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli",
+  "date": "February 18, 2023",
+  "genus": "Cymbidium",
+  "species": "Sylvia Darr",
+  "clone": "Dancing Spiders",
+  "cross": "Cymbidium Pinata Magic 'Stirling' x Cymbidium erythraeum 'Paradise'",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235263.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 39,
+    "numBuds": 2,
+    "numInflorescences": 5,
+    "description": "Thirty-nine flowers and two buds on five arching to pendulous inflorescences;\n\tdorsal sepal hooded, yellow heavily ovelaid and blotched dark brown-burgundy;\n\tlateral sepals lanceolate, yellow, very heavily ovelaid and blotched dark brown-burgundy;\n\tpetals lanceolate, reflexed, yellow very heavily ovelaid and blotched dark brown-burgundy coalescing centrally;\n\tlip pale yellow, blotched dark burgundy;\t\n\t\n\tcolumn light yellow spotted burgundy, overlaid burgundy distally, anther cap cream;\n\t \n\t\n    substance firm; texture matte.",
+    "NS": 7.9,
+    "NSV": 6.2,
+    "DSW": 2,
+    "DSL": 4.6,
+    "PETW": 1.2,
+    "PETL": 4.2,
+    "LSW": 1.8,
+    "LSL": 4.6,
+    "LIPW": 2.1,
+    "LIPL": 2.8
+  },
+  "scrapedDate": "2025-10-12T19:43:33.026Z",
+  "sourceUrl": "https://www.paccentraljc.org/230218/20235263.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235263.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.027Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

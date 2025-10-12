@@ -1,0 +1,36 @@
+{
+  "awardNum": "20245366",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 15, 2024",
+  "genus": "Paphiopedilum",
+  "species": "sanderianum",
+  "clone": "Pretty in Pink",
+  "cross": "species",
+  "exhibitor": "William Rehrig",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245366.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Two flowers and one emerging flower on one 43-cm arched inflorescence;\n   sepals pale chartreuse, veined and spotted dark cordovan; \n   petals light chartreuse, spotted and striped dark cordovan, suffused pink into dark maroon apical seven-eights, hirsute margins;\n   pouch light green overlaid medium cordovan;\n   staminode light cordovan overlaid rose-brown;;\n   \n   \n   substance medium; texture matte.",
+    "NS": 5.2,
+    "NSV": 64,
+    "DSW": 2.4,
+    "DSL": 6.8,
+    "PETW": 0.9,
+    "PETL": 59.9
+  },
+  "scrapedDate": "2025-10-12T19:38:50.938Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245366.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245366.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.939Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

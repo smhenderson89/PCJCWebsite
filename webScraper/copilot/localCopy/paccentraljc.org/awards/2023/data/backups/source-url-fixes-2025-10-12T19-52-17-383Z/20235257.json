@@ -1,0 +1,42 @@
+{
+  "awardNum": "20235257",
+  "award": "AQ",
+  "awardpoints": "N/A",
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 20, 2023",
+  "genus": "Dendrobium",
+  "species": "victoriae",
+  "clone": "N/A",
+  "cross": "N/A",
+  "exhibitor": "Cal-Orchid",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235257.jpg",
+  "measurements": {
+    "type": "N/A",
+    "numFlowers": "N/A",
+    "numBuds": "N/A",
+    "numInflorescences": "N/A",
+    "description": "A group of twelve first bloom seedlings, two quality awards at this judging, HCC and AM; AQ granted for good shape, extremely strong color and\nbright shiny texture.",
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LIPW": "N/A",
+    "LSW": "N/A",
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
+  },
+  "scrapedDate": "2025-10-12T19:43:32.963Z",
+  "sourceUrl": "https://www.paccentraljc.org/230120/20235257.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235257.html",
+  "year": 2023,
+  "isDisplay": true,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:32.966Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "special"
+  }
+}

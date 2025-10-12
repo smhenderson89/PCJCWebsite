@@ -2,54 +2,39 @@
   "awardNum": "20235272",
   "award": "CCM",
   "awardpoints": 83,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "March 18, 2023",
-  "genus": "Australian",
-  "species": "Goldrush",
+  "genus": "Dendrobium",
+  "species": "Australian Goldrush",
   "clone": "Woodside",
-  "cross": "Dendrobium speciosum × Dendrobium Yondi Tina",
+  "cross": "Dendrobium speciosum x Dendrobium Yondi Tina",
   "exhibitor": "Pierre Pujol",
   "photographer": "Chaunie Langland",
   "photo": "images/20235272.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 5.4,
-    "NSV": 6.5,
-    "DSL": 3.9,
-    "DSW": 0.6,
-    "PETL": 3.2,
-    "PETW": 0.5,
     "numFlowers": 332,
     "numBuds": 10,
     "numInflorescences": 15,
-    "description": "Three hundred thirty-two star-shaped flowers and ten buds on 15 24-cm arching inflorescences; 73-cm tall by 78-cm wide plant in 21-cm plastic pot, bark media; sepals and petals yellow; lip light yellow, striped burgundy sidelobes; column light yellow spotted burgundy, anther cap cream; substance firm; texture matte; also received award 20235271.",
+    "description": "Three hundred thirty-two star-shaped flowers and ten buds on 15 24-cm arching inflorescences;\n\t73-cm tall by 78-cm wide plant in 21-cm plastic pot, bark media;\n\t  \n\t sepals and petals yellow;\n\tlip light yellow, striped burgundy sidelobes;\n\tcolumn light yellow spotted burgundy, anther cap cream;\t\n\t\n\t\n    substance firm; texture matte; also received award 20235271.",
+    "NS": 5.4,
+    "NSV": 6.5,
+    "DSW": 0.6,
+    "DSL": 3.9,
+    "PETW": 0.5,
+    "PETL": 3.2,
     "LSW": 0.7,
     "LSL": 3,
     "LIPW": 1.1,
     "LIPL": 0.8
   },
-  "scrapedDate": "2025-10-04T06:48:23.651Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230318/20235272.html",
+  "scrapedDate": "2025-10-12T20:20:02.805Z",
+  "sourceUrl": "https://www.paccentraljc.org/230318/20235272.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235272.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T04:10:31.817Z",
-      "type": "enhanced_html_parsing_2023",
-      "fields": [
-        "award",
-        "awardpoints"
-      ],
-      "source": "HTML file 20235272.html",
-      "note": "Enhanced parsing for non-point awards (JC, CBR, CHM) set to N/A"
-    },
-    {
-      "timestamp": "2025-10-09T10:30:22.801Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235272",
-      "newValue": "https://www.paccentraljc.org/20230318/20235272.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.806Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

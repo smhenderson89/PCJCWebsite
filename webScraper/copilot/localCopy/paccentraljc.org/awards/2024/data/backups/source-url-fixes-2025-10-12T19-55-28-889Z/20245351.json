@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245351",
+  "award": "CCM",
+  "awardpoints": 88,
+  "location": "San Francisco",
+  "date": "February 6, 2024",
+  "genus": "Oncidium",
+  "species": "cheirophorum",
+  "clone": "Memoria Richard Waugh",
+  "cross": "species",
+  "exhibitor": "Tom Waugh",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245351.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 785,
+    "numBuds": 13,
+    "numInflorescences": 21,
+    "description": "Approximately seven hundred eighty-five flowers and 13 buds on 21 up to 20-cm inflorescences;\n   superbly balanced plant 53 cm x 41 cm on a 7.5-cm x 21-cm cedar plank mount;\n   \nflowers yellow;\n\n\tsubstance firm; texture waxy; several damaged leaves precluded a higher score for this extremely attractive plant.",
+    "NS": 1.5,
+    "NSV": 1.4,
+    "DSW": 0.7,
+    "DSL": 0.6,
+    "PETW": 0.4,
+    "PETL": 0.9,
+    "LSW": 0.4,
+    "LSL": 0.4,
+    "LIPW": 0.4,
+    "LIPL": 0.5
+  },
+  "scrapedDate": "2025-10-12T19:38:50.905Z",
+  "sourceUrl": "https://www.paccentraljc.org/240206/20245351.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245351.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.906Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

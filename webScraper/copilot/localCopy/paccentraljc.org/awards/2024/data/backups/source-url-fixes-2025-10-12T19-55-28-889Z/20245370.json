@@ -1,0 +1,36 @@
+{
+  "awardNum": "20245370",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "San Francisco",
+  "date": "March 5, 2024",
+  "genus": "Paphiopedilum",
+  "species": "Fumi's Delight",
+  "clone": "Carol Z",
+  "cross": "Paphiopedilum armeniacum x Paphiopedilum micranthum",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245370.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One well-presented flower on one 25-cm inflorescence; \n   dorsal sepal slighty wavy, chartreuse distally, yellow basally, well-defined cordovan reticulation;\n   synsepal chartreuse;\n   petals slightly wavy, yellow, well-defined cordovan reticulation;\n   pouch clear bright yellow;\n   staminode yellow, spotted cordovan distally; \n   \n   substance medium; texture waxy.",
+    "NS": 10,
+    "NSV": 11,
+    "DSW": 3,
+    "DSL": 4,
+    "PETW": 4.2,
+    "PETL": 4.7
+  },
+  "scrapedDate": "2025-10-12T19:38:50.947Z",
+  "sourceUrl": "https://www.paccentraljc.org/240305/20245370.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245370.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.948Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

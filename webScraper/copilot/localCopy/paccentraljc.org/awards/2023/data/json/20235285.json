@@ -2,54 +2,39 @@
   "awardNum": "20235285",
   "award": "CCE",
   "awardpoints": 91,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "April 15, 2023",
   "genus": "Dendrobium",
   "species": "speciosum",
   "clone": "Gracias Gonzalo Perez",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Paul and Phyllis Chim",
   "photographer": "Chaunie Langland",
   "photo": "images/20235285.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 2.1,
-    "NSV": 3.6,
-    "DSL": 2.2,
-    "DSW": 0.4,
-    "PETL": 1.7,
-    "PETW": 0.3,
     "numFlowers": 2875,
     "numBuds": 345,
     "numInflorescences": 23,
-    "description": "Approximately two thousand eight hundred seventy-five flowers and 345 buds on 23 arching inflorescences up to 50cm distributed completely around plant; plant pristine, diameter 150cm, height above pot 90cm, circumference 500cm, grown in bark in a 40-cm diameter plastic pot; sepals and petals semi-porrect, ivory; lip ivory spotted dark purple, keels yellow; anther cap ivory; substance average; texture matte.",
+    "description": "Approximately two thousand eight hundred seventy-five flowers and 345 buds on 23 arching inflorescences up to 50cm distributed completely around plant; \nplant pristine, diameter 150cm, height above pot 90cm, circumference 500cm, grown in bark in a 40-cm diameter plastic pot; \nsepals and petals semi-porrect, ivory; \nlip ivory spotted dark purple, keels yellow;\n anther cap ivory; \nsubstance average; texture matte.",
+    "NS": 2.1,
+    "NSV": 3.6,
+    "DSW": 0.4,
+    "DSL": 2.2,
+    "PETW": 0.3,
+    "PETL": 1.7,
     "LSW": 0.5,
     "LSL": 1.5,
     "LIPW": 0.3,
     "LIPL": 1.2
   },
-  "scrapedDate": "2025-10-04T06:48:23.672Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230415/20235285.html",
+  "scrapedDate": "2025-10-12T20:20:02.832Z",
+  "sourceUrl": "https://www.paccentraljc.org/230415/20235285.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235285.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T04:10:31.819Z",
-      "type": "enhanced_html_parsing_2023",
-      "fields": [
-        "award",
-        "awardpoints"
-      ],
-      "source": "HTML file 20235285.html",
-      "note": "Enhanced parsing for non-point awards (JC, CBR, CHM) set to N/A"
-    },
-    {
-      "timestamp": "2025-10-09T10:30:22.808Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235285",
-      "newValue": "https://www.paccentraljc.org/20230415/20235285.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.833Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

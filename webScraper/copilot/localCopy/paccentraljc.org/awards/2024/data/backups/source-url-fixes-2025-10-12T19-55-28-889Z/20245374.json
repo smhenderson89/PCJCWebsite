@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245374",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "San Francisco",
+  "date": "April 2, 2024",
+  "genus": "Lycaste",
+  "species": "Spring Performer",
+  "clone": "Iridescent",
+  "cross": "Lycaste Shoalhaven x Lycaste Abou Rits",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245374.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 4,
+    "description": "Four flowers on four 20-37-cm inflorescences; \n flowers white;\n sepals overlaid light pink, darker marginally;\n petals overlaid dark pink-burgundy, lighter centrally;\n lip burgundy margin, saturated burgundy centrally;\n \n substance very firm; texture diamond dust.",
+    "NS": 15,
+    "NSV": 13,
+    "DSW": 5.5,
+    "DSL": 7.9,
+    "PETW": 4.2,
+    "PETL": 4.7,
+    "LSW": 6,
+    "LSL": 7.9,
+    "LIPW": 2.5,
+    "LIPL": 4.5
+  },
+  "scrapedDate": "2025-10-12T19:38:50.958Z",
+  "sourceUrl": "https://www.paccentraljc.org/240402/20245374.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245374.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.959Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

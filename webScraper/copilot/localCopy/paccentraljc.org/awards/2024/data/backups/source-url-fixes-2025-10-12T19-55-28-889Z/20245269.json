@@ -1,0 +1,42 @@
+{
+  "awardNum": "20245269",
+  "award": "EEC",
+  "awardpoints": 80,
+  "location": "Sonoma County OS Show",
+  "date": "March 23, 2024",
+  "genus": "Sonoma",
+  "species": "County Orchid Society Educational Display",
+  "clone": "N/A",
+  "cross": "N/A",
+  "exhibitor": "Sonoma County Orchid Society",
+  "photographer": "Lynne Murrell",
+  "photo": "images/20245269.jpg",
+  "measurements": {
+    "type": "N/A",
+    "numFlowers": "N/A",
+    "numBuds": "N/A",
+    "numInflorescences": "N/A",
+    "description": "Twenty-four ft x 2.5 ft table-top display; 16 framed legible and well presented information panels describing all\n aspects of orchid culture including media, light, temperature, fertilizer, water quality, ventilation; cleanly\n presented and attractively decorated; lack of orchids in display precluded a higher score.",
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LIPW": "N/A",
+    "LSW": "N/A",
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
+  },
+  "scrapedDate": "2025-10-12T19:38:50.866Z",
+  "sourceUrl": "https://www.paccentraljc.org/240323/20245269.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245269.html",
+  "year": 2024,
+  "isDisplay": true,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.868Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "display"
+  }
+}

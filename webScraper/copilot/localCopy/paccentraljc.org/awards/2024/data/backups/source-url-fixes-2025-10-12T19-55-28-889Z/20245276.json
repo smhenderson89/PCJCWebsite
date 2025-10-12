@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245276",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Peninsula Orchid Society and Gold Coast Cymbidium Society Show",
+  "date": "April 27, 2024",
+  "genus": "Cattleya",
+  "species": "jongheana",
+  "clone": "Celia",
+  "cross": "species",
+  "exhibitor": "Anthony Rivera",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245276.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One fairly flat flower on one 4-cm inflorescence; \n\n sepals lanceolate, tips reflexed, lavender-pink, darker medial stripes;\n petals ovate, lancolate, lavender-pink, darker veins; \n lip tubular, ruffled edge, white overlaid dark lavender proximally, yellow keel area, keels darker yellow, lavender picotee; \n\n column dark lavender, anther cap cream;\n substance firm; texture crystalline.",
+    "NS": 15,
+    "NSV": 12,
+    "DSW": 2,
+    "DSL": 7.9,
+    "PETW": 3.9,
+    "PETL": 7.7,
+    "LSW": 2,
+    "LSL": 7.1,
+    "LIPW": 2.5,
+    "LIPL": 4.9
+  },
+  "scrapedDate": "2025-10-12T19:38:50.883Z",
+  "sourceUrl": "https://www.paccentraljc.org/240427/20245276.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245276.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.884Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

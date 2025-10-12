@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235362",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 23, 2023",
+  "genus": "Cymbidium",
+  "species": "Pandora Glade",
+  "clone": "Woodside Pink",
+  "cross": "Cymbidium Green Zenith x Cymbidium tracyanum",
+  "exhibitor": "Ron Norris",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20235362.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 9,
+    "numBuds": 2,
+    "numInflorescences": 1,
+    "description": "Nine flowers and two buds on one 96-cm inflorescence;\n   \n  \n sepals white overlaid light green, burgundy spots and stripes, burgundy blush marginally; \n petals white, overlaid light green, burgundy stripes, blushed burgundy marginally;\n lip margin ruffled, white, blotched burgundy along edges, central burgundy stripe;\n \n column white, blushed burgundy, burgundy stripes ventrally, anther cap white; substance firm; texture matte.",
+    "NS": 12.5,
+    "NSV": 9.2,
+    "DSW": 3.75,
+    "DSL": 9,
+    "PETW": 2.7,
+    "PETL": 7.2,
+    "LSW": 3.9,
+    "LSL": 6.4,
+    "LIPW": 4.2,
+    "LIPL": 3.2
+  },
+  "scrapedDate": "2025-10-12T19:43:33.426Z",
+  "sourceUrl": "https://www.paccentraljc.org/230223/20235362.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235362.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.427Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

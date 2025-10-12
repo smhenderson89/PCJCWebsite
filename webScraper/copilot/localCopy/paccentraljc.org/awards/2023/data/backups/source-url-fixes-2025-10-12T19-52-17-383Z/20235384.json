@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235384",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "San Francisco",
+  "date": "December 5, 2023",
+  "genus": "Barkeria",
+  "species": "Roberto Frias Solis",
+  "clone": "MAS Orchids",
+  "cross": "Barkeria Michoacan Gem x Barkeria Libby Hodge",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235384.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 8,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eight well-presented flowers on one 57-cm inflorescence;\n   \nsepals and petals light fuchsia;  \nlip ovid, light fuchsia, deep fuchsia distally, keels white, spotted deep fuchsia;\ncolumn winged, light green, suffused light fuchsia distally, anther cap cream;\n\n\tsubstance medium; texture crystalline.",
+    "NS": 6.1,
+    "NSV": 4.2,
+    "DSW": 1.1,
+    "DSL": 3.1,
+    "PETW": 1.7,
+    "PETL": 2.8,
+    "LSW": 1,
+    "LSL": 3.2,
+    "LIPW": 2.5,
+    "LIPL": 3.1
+  },
+  "scrapedDate": "2025-10-12T19:43:33.557Z",
+  "sourceUrl": "https://www.paccentraljc.org/231205/20235384.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235384.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.558Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

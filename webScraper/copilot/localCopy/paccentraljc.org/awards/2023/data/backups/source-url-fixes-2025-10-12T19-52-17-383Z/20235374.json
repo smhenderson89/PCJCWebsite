@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235374",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "San Francisco",
+  "date": "April 4, 2023",
+  "genus": "Cymbidium",
+  "species": "Little Flames",
+  "clone": "Woodside",
+  "cross": "Cymbidium Fifi x Cymbidium Wallacia",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235374.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 52,
+    "numBuds": 0,
+    "numInflorescences": 4,
+    "description": "Fifty-two slightly cupped flowers on four up to 69-cm pendent inflorescences;\n\tsepals yellow, heavily brushed maroon apically; petals yellow, wide maroon medial stripe;\n\tlip yellow, white just below keels, anchor patterned red spots centrally;\n\tcolumn yellow flushed maroon, anther cap cream;\n\tsubstance firm; texture matte.",
+    "NS": 7.5,
+    "NSV": 5.3,
+    "DSW": 2.6,
+    "DSL": 4.9,
+    "PETW": 2.9,
+    "PETL": 4.7,
+    "LSW": 2.7,
+    "LSL": 4.7,
+    "LIPW": 2.7,
+    "LIPL": 3.2
+  },
+  "scrapedDate": "2025-10-12T19:43:33.492Z",
+  "sourceUrl": "https://www.paccentraljc.org/230404/20235374.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235374.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.493Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

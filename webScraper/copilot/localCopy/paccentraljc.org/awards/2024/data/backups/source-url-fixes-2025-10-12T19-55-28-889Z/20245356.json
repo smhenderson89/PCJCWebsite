@@ -1,0 +1,38 @@
+{
+  "awardNum": "20245356",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 15, 2024",
+  "genus": "Dracula",
+  "species": "hirtzii",
+  "clone": "Alex",
+  "cross": "species",
+  "exhibitor": "Joe Parker",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245356.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 1,
+    "numInflorescences": 2,
+    "description": "One flat hanging flower and one bud on two pendulous inflorescences up to 18 cm; \n   sepals cream, suffused brown, more laterally, spotted dark brown overall, caudae brown basally to red-brown apically;\n   petals minute, cream, brown centrally;\n   lip cream;\n   substance medium-firm; texture downy.",
+    "NS": 15.5,
+    "NSV": 25,
+    "DSW": 3.2,
+    "DSL": 11.8,
+    "LSW": 3.5,
+    "LSL": 13.6,
+    "LIPW": 1.2,
+    "LIPL": 1.2
+  },
+  "scrapedDate": "2025-10-12T19:38:50.916Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245356.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245356.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.917Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

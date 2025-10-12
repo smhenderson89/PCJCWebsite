@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235281",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "Filoli Historic House",
+  "date": "April 15, 2023",
+  "genus": "Masdevallia",
+  "species": "Red Flamingo",
+  "clone": "Jane Hsu Bao",
+  "cross": "Masdevallia Rubicon x Masdevallia coccinea",
+  "exhibitor": "Paul and Phyllis Chim",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235281.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 1,
+    "numInflorescences": 2,
+    "description": "One full flower and one bud on two up to 32-cm inflorescences;\n  sepals bright magenta, dark magenta venation, dorsal cauda magenta, red-brown tips all caudae; \nminute petals white; \nminute lip white tipped yellow; \nsubstance firm; texture velvet.",
+    "NS": 4.9,
+    "NSV": 9.1,
+    "DSW": 0.2,
+    "DSL": 4.9,
+    "PETW": 0.1,
+    "PETL": 0.1,
+    "LSW": 2.8,
+    "LSL": 5.2,
+    "LIPW": 0.1,
+    "LIPL": 0.1
+  },
+  "scrapedDate": "2025-10-12T19:43:33.157Z",
+  "sourceUrl": "https://www.paccentraljc.org/230415/20235281.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235281.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.158Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

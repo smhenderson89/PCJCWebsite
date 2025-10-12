@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235284",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "April 15, 2023",
+  "genus": "Dendrobium",
+  "species": "Kayla's Blush",
+  "clone": "Memoria Andy Cameron",
+  "cross": "Dendrobium Blushing Vista x Dendrobium Dunokayla",
+  "exhibitor": "Sylvia Darr",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235284.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 16,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Sixteen flowers on two up to 23-cm inflorescences; \nsepals and petals cream suffused yellow; \nlip white, faintly speckled red apically, keel bright yellow; \nsubstance firm; texture diamond dust.",
+    "NS": 4.4,
+    "NSV": 4.5,
+    "DSW": 1,
+    "DSL": 2.8,
+    "PETW": 0.8,
+    "PETL": 2.9,
+    "LSW": 1.1,
+    "LSL": 3,
+    "LIPW": 0.9,
+    "LIPL": 1.6
+  },
+  "scrapedDate": "2025-10-12T19:43:33.176Z",
+  "sourceUrl": "https://www.paccentraljc.org/230415/20235284.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235284.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.177Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

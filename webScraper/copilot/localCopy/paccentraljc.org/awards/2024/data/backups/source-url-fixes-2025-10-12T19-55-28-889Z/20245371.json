@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245371",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "San Francisco",
+  "date": "March 5, 2024",
+  "genus": "Cymbidium",
+  "species": "Hot Creek",
+  "clone": "Elkhorn",
+  "cross": "Cymbidium Lotza Spots x Cymbidium Reds Meadow",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245371.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 8,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eight flowers on one 76-cm inflorescence; \n  sepals and petals pale yellow, blushed brick distally, dark burgundy spots and markings;\n   lip pale yellow, picotee, heavily overlaid uneven dark burgundy-red blotches;\n   column pale yellow, blushed and overlaid dark burgundy, dark burgundy spots, anther cap pale yellow, small burgundy markings;\n   substance very hard;\n texture matte.",
+    "NS": 10.8,
+    "NSV": 11.2,
+    "DSW": 4,
+    "DSL": 8,
+    "PETW": 3.9,
+    "PETL": 6.7,
+    "LSW": 4.1,
+    "LSL": 7,
+    "LIPW": 4,
+    "LIPL": 4.4
+  },
+  "scrapedDate": "2025-10-12T19:38:50.948Z",
+  "sourceUrl": "https://www.paccentraljc.org/240305/20245371.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245371.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.950Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

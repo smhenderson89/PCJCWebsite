@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245280",
+  "award": "CCE",
+  "awardpoints": 90,
+  "location": "Peninsula Orchid Society and Gold Coast Cymbidium Society Show",
+  "date": "April 27, 2024",
+  "genus": "Cattleya",
+  "species": "intermedia v. coerulea orlata",
+  "clone": "Awesome",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245280.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 100,
+    "numBuds": 7,
+    "numInflorescences": 21,
+    "description": "One hundred flowers on 18 up to 15-cm inflorescences and seven buds on three immature inflorescences; \n 91-cm x 50-cm plant grown in 34-cm plastic pot; \n\n sepals and petals lanceolate, white overlaid light mauve;\n \n lip tubular, white overlaid light mauve, dark purple distally; \n\n column white, anther cap white;\n substance firm; texture matte; also awarded #20245279 HCC.",
+    "NS": 10.9,
+    "NSV": 10.5,
+    "DSW": 1.6,
+    "DSL": 6.2,
+    "PETW": 1.9,
+    "PETL": 5.5,
+    "LSW": 1.8,
+    "LSL": 4.8,
+    "LIPW": 3.5,
+    "LIPL": 4.5
+  },
+  "scrapedDate": "2025-10-12T19:38:50.891Z",
+  "sourceUrl": "https://www.paccentraljc.org/240427/20245280.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245280.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.892Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

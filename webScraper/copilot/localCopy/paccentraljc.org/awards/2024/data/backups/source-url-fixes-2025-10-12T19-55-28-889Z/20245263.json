@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245263",
+  "award": "AM",
+  "awardpoints": 86,
+  "location": "Filoli Historic House",
+  "date": "March 16, 2024",
+  "genus": "Cymbidium",
+  "species": "Darrel Wong",
+  "clone": "Noisettes",
+  "cross": "Cymbidium Lambert Day 'Tangerine Glaze' x Cymbidium Karen Hawaiian 'Hatfields'",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245263.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 16,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Sixteen flowers on one 83.5-cm arched inflorescence; \n  sepals and petals yellow overlaid light maroon, veined deep maroon midline, yellow picotee;\n   lip bright yellow spotted deep burgundy basally, midlobe blotched and diffused deep burgundy apically, burgundy midline, yellow picotee,\nside lobes spotted deep burgundy;\n   column yellow suffused burgundy, striped burgundy ventrally, anther cap white; substance firm;\n texture matte.",
+    "NS": 7.5,
+    "NSV": 7.5,
+    "DSW": 3.1,
+    "DSL": 4.8,
+    "PETW": 2.5,
+    "PETL": 4.5,
+    "LSW": 2.9,
+    "LSL": 4.6,
+    "LIPW": 2.4,
+    "LIPL": 3.4
+  },
+  "scrapedDate": "2025-10-12T19:38:50.851Z",
+  "sourceUrl": "https://www.paccentraljc.org/240316/20245263.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245263.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.852Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

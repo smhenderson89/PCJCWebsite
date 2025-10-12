@@ -2,44 +2,39 @@
   "awardNum": "20235279",
   "award": "HCC",
   "awardpoints": 78,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "April 15, 2023",
-  "genus": "Filoli",
-  "species": "Historic",
+  "genus": "Cattleya",
+  "species": "intermedia v. aquinii alba",
   "clone": "Genesio",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20235279.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 9.5,
-    "NSV": 9.4,
-    "DSL": 5.9,
-    "DSW": 2,
-    "PETL": 5.5,
-    "PETW": 3,
     "numFlowers": 12,
     "numBuds": 0,
     "numInflorescences": 2,
-    "description": "Twelve flowers on two up to 12-cm inflorescences; flowers white; sepal tips green; petals ruffled, midrib blushed pale green; lip ruffled, pale green blush centrally; substance firm; texture diamond dust.",
+    "description": "Twelve flowers on two up to 12-cm inflorescences;\n flowers white; sepal tips green; petals ruffled, midrib blushed pale green;\n lip ruffled, pale green blush centrally; \nsubstance firm; texture diamond dust.",
+    "NS": 9.5,
+    "NSV": 9.4,
+    "DSW": 2,
+    "DSL": 5.9,
+    "PETW": 3,
+    "PETL": 5.5,
     "LSW": 2.2,
     "LSL": 5.6,
     "LIPW": 2.9,
     "LIPL": 4.7
   },
-  "scrapedDate": "2025-10-04T06:48:23.664Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230415/20235279.html",
+  "scrapedDate": "2025-10-12T20:20:02.820Z",
+  "sourceUrl": "https://www.paccentraljc.org/230415/20235279.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235279.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.805Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235279",
-      "newValue": "https://www.paccentraljc.org/20230415/20235279.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.822Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

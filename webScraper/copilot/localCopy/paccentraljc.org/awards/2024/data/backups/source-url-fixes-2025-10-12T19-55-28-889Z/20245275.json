@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245275",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Peninsula Orchid Society and Gold Coast Cymbidium Society Show",
+  "date": "April 27, 2024",
+  "genus": "Cattleya",
+  "species": "jongheana",
+  "clone": "Egret",
+  "cross": "species",
+  "exhibitor": "Anthony Rivera",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245275.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Two flowers of excellent form on two inflorescences; \n sepals and petals bright sparkling white;\n lip white, throat blushed yellow, keels dark yellow; \n\n \n substance firm; texture crystalline.",
+    "NS": 16.5,
+    "NSV": 16.2,
+    "DSW": 1.9,
+    "DSL": 8.4,
+    "PETW": 3.6,
+    "PETL": 8.2,
+    "LSW": 1.6,
+    "LSL": 7.2,
+    "LIPW": 2.2,
+    "LIPL": 5.5
+  },
+  "scrapedDate": "2025-10-12T19:38:50.881Z",
+  "sourceUrl": "https://www.paccentraljc.org/240427/20245275.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245275.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.882Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

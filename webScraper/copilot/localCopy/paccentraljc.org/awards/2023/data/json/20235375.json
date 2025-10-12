@@ -2,44 +2,39 @@
   "awardNum": "20235375",
   "award": "HCC",
   "awardpoints": 76,
-  "location": "",
+  "location": "San Francisco",
   "date": "April 4, 2023",
-  "genus": "Darrel",
-  "species": "Wong",
+  "genus": "Cymbidium",
+  "species": "Darrel Wong",
   "clone": "Orange Marmalade",
-  "cross": "Cymbidium Lambert Day × Cymbidium Karen Hawaiian",
+  "cross": "Cymbidium Lambert Day x Cymbidium Karen Hawaiian",
   "exhibitor": "Pierre Pujol",
   "photographer": "Chaunie Langland",
   "photo": "images/20235375.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 7,
-    "NSV": 6.5,
-    "DSL": 6.4,
-    "DSW": 2.8,
-    "PETL": 6.2,
-    "PETW": 2.4,
     "numFlowers": 53,
     "numBuds": 3,
     "numInflorescences": 3,
-    "description": "Fifty-three slightly cupped flowers and three buds on three up to 88-cm pendent inflorescences; sepals and petals yellow overlaid and speckled dark rose coalescing into stripes, yellow picotee; lip yellow overlaid maroon spots; column yellow brushed dark rose apically, maroon spots basally and underside, anther cap white; substance firm; texture matte.",
+    "description": "Fifty-three slightly cupped flowers and three buds on three up to 88-cm pendent inflorescences;\n\tsepals and petals yellow overlaid and speckled dark rose coalescing into stripes, yellow picotee;\n\tlip yellow overlaid maroon spots; \n\tcolumn yellow brushed dark rose apically, maroon spots basally and underside, anther cap white;\n\tsubstance firm; texture matte.",
+    "NS": 7,
+    "NSV": 6.5,
+    "DSW": 2.8,
+    "DSL": 6.4,
+    "PETW": 2.4,
+    "PETL": 6.2,
     "LSW": 3,
     "LSL": 6,
     "LIPW": 2.3,
     "LIPL": 3.8
   },
-  "scrapedDate": "2025-10-04T06:48:23.734Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230404/20235375.html",
+  "scrapedDate": "2025-10-12T20:20:02.931Z",
+  "sourceUrl": "https://www.paccentraljc.org/230404/20235375.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235375.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.833Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235375",
-      "newValue": "https://www.paccentraljc.org/20230404/20235375.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.932Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

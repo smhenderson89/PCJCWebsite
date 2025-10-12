@@ -2,43 +2,35 @@
   "awardNum": "20235253",
   "award": "AM",
   "awardpoints": 82,
-  "location": "",
+  "location": "Peninsula Orchid Society Show",
   "date": "January 20, 2023",
-  "genus": "Yi",
-  "species": "Rookie",
+  "genus": "Paphiopedilum",
+  "species": "Chou-Yi Rookie",
   "clone": "Julie",
-  "cross": "Paphiopedilum rothchildianum × Paphiopedilum thaianum",
+  "cross": "Paphiopedilum rothchildianum x Paphiopedilum thaianum",
   "exhibitor": "Dan Williamson",
   "photographer": "Chaunie Langland",
   "photo": "images/20235253.jpg",
   "measurements": {
-    "type": "Pouch&Sepal",
-    "NS": 11.8,
-    "NSV": 8.1,
-    "DSL": 4,
-    "DSW": 4,
-    "PETL": 6.6,
-    "PETW": 2.4,
+    "type": "LateralSepal",
     "numFlowers": 2,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "Two well-presented flowers on one 25-cm staked inflorescence; sepals ovoid acute, white veined burgundy; petals lanceolate, angled downward, margin undulate, white veined burgundy, darker at tips; pouch white heavily overlaid light burgundy, darker veins; staminode white overlaid burgundy margin to apex, green centrally; substance firm; texture matte.",
-    "PCHW": 1.6,
-    "SYNSL": 3.7,
-    "SYNSW": 3.2
+    "description": "Two well-presented flowers on one 25-cm staked inflorescence;\n\tsepals ovoid acute, white veined burgundy; petals lanceolate, angled downward, margin undulate, \n\twhite veined burgundy, darker at tips;\n\t\n\t\n\t pouch white heavily overlaid light burgundy, darker veins; staminode white overlaid burgundy margin to apex, green centrally;\n\t \n\t\n    substance firm; texture matte.",
+    "NS": 11.8,
+    "NSV": 8.1,
+    "DSW": 4,
+    "DSL": 4,
+    "PETW": 2.4,
+    "PETL": 6.6
   },
-  "scrapedDate": "2025-10-04T06:48:23.616Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230120/20235253.html",
+  "scrapedDate": "2025-10-12T20:20:02.751Z",
+  "sourceUrl": "https://www.paccentraljc.org/230120/20235253.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235253.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.789Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235253",
-      "newValue": "https://www.paccentraljc.org/20230120/20235253.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.752Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

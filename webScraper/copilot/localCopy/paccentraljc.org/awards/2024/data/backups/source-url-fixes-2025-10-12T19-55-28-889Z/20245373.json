@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245373",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "San Francisco",
+  "date": "April 2, 2024",
+  "genus": "Cymbidium",
+  "species": "Jeff Trimble",
+  "clone": "Pearl River",
+  "cross": "Cymbidium Love the Moon x Cymbidium Dick Doran",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245373.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 28,
+    "numBuds": 3,
+    "numInflorescences": 2,
+    "description": "Twenty-eight flowers and three buds on two up to 55-cm pendent inflorescences; \n sepals and petals off-white, lightly blushed pink;\n lip white, very dark pink distal edge, light yellow keels spotted pink;\n column medium pink superior, white inferior, anther cap white;\n substance medium; texture matte.",
+    "NS": 7,
+    "NSV": 7.7,
+    "DSW": 2.2,
+    "DSL": 4.5,
+    "PETW": 1.8,
+    "PETL": 4.2,
+    "LSW": 2.3,
+    "LSL": 4.2,
+    "LIPW": 2,
+    "LIPL": 3.5
+  },
+  "scrapedDate": "2025-10-12T19:38:50.953Z",
+  "sourceUrl": "https://www.paccentraljc.org/240402/20245373.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245373.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.957Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

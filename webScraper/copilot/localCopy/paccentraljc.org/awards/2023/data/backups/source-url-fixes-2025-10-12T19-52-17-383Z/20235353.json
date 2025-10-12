@@ -1,0 +1,38 @@
+{
+  "awardNum": "20235353",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 23, 2023",
+  "genus": "Paphiopedilum",
+  "species": "Emma Decker",
+  "clone": "SVO Beauty",
+  "cross": "Papiopedilum malipoense x Paphiopedilum Fumi's Delight",
+  "exhibitor": "Sunset Valley Orchids",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20235353.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Two pleasing flowers on two 39.0-cm inflorescences; dorsal and synsepal chartreuse, faintly\ntessellated darker chartreuse; petals chartreuse, tessellated light mahogany; pouch very light\ngreen, rim blushed raspberry pink, interior stippled maroon, visible on exterior; staminode spade\nshaped, white, proximal margin blushed light maroon, distal two-thirds overlaid dark maroon;\nsubstance firm; texture matte.",
+    "NS": 9.1,
+    "NSV": 8.7,
+    "DSW": 3.5,
+    "DSL": 5,
+    "PETW": 4,
+    "PETL": 5.3,
+    "LSW": 3.6,
+    "LSL": 4.4
+  },
+  "scrapedDate": "2025-10-12T19:43:33.374Z",
+  "sourceUrl": "https://www.paccentraljc.org/230223/20235353.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235353.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.376Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

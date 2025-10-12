@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235369",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Sonoma County Orchid Society Show",
+  "date": "April 1, 2023",
+  "genus": "Sarcochilus",
+  "species": "Kulnura Frenzy",
+  "clone": "Sasha",
+  "cross": "Sarcochilus Parma 'Lemon' x Sarcochilus Kulnura Hysteria 'Whopa'",
+  "exhibitor": "Lynne Murrell",
+  "photographer": "Lynne Murrell",
+  "photo": "images/20235369.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 30,
+    "numBuds": 40,
+    "numInflorescences": 5,
+    "description": "Thirty bright flowers and 40 buds on five arched inflorescences up to 20cm;\n\t\n\n\t sepals and petals ovate, white overlaid dark pink basally, suffused pink distally;\n\t lip white spotted yellow and orange, interior dark pink;\n\t column yellow;\n\tsubstance firm; texture crystalline.",
+    "NS": 2.7,
+    "NSV": 2.2,
+    "DSW": 1,
+    "DSL": 1,
+    "PETW": 0.6,
+    "PETL": 1.1,
+    "LSW": 1,
+    "LSL": 1.2,
+    "LIPW": 0.3,
+    "LIPL": 0.5
+  },
+  "scrapedDate": "2025-10-12T19:43:33.468Z",
+  "sourceUrl": "https://www.paccentraljc.org/230401/20235369.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235369.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.469Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

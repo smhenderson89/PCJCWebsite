@@ -1,0 +1,36 @@
+{
+  "awardNum": "20245253",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "January 20, 2024",
+  "genus": "Phragmipedium",
+  "species": "Millbrook",
+  "clone": "Anna Chai",
+  "cross": "Phragmipedium Nicolle Tower x Phragmipedium besseae",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245253.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 1,
+    "numInflorescences": 1,
+    "description": "One well-held velvety flower and one bud on one 33-cm upright unstaked inflorescence;\n   \n\tsepals red-orange;\n\tpetals lanceolate, red-orange, darker distal tips;\n\tpouch yellow, exterior heavily overlaid red-orange, darker venation, undulate front margin;\n\tstaminode yellow blushed red-orange; \n\n\tsubstance firm; texture crystalline.",
+    "NS": 10.2,
+    "NSV": 7.1,
+    "DSW": 2.4,
+    "DSL": 4.1,
+    "PETW": 2.4,
+    "PETL": 5.7
+  },
+  "scrapedDate": "2025-10-12T19:38:50.817Z",
+  "sourceUrl": "https://www.paccentraljc.org/240120/20245253.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245253.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.818Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

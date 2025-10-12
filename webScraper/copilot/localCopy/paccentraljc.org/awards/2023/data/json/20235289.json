@@ -2,44 +2,39 @@
   "awardNum": "20235289",
   "award": "AM",
   "awardpoints": 83,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "May 20, 2023",
   "genus": "Angraecum",
   "species": "mahavavense",
   "clone": "Max",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Jim Heilig",
   "photographer": "Chaunie Langland",
   "photo": "images/20235289.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 5,
-    "NSV": 13.3,
-    "DSL": 3,
-    "DSW": 0.7,
-    "PETL": 2.6,
-    "PETW": 0.6,
     "numFlowers": 3,
     "numBuds": 5,
     "numInflorescences": 3,
-    "description": "Three flowers and five buds on three 6.5-cm inflorescences; sepals and petals light pale green; lip bright white, nectary 12cm long, pale green; column green, anther cap yellow; substance hard; texture satiny.",
+    "description": "Three flowers and five buds on three 6.5-cm inflorescences;\n\t\n\t\n\tsepals and petals light pale green;\n\tlip bright white, nectary 12cm long, pale green;\n\tcolumn green, anther cap yellow;\n\t\n\tsubstance hard; texture satiny.",
+    "NS": 5,
+    "NSV": 13.3,
+    "DSW": 0.7,
+    "DSL": 3,
+    "PETW": 0.6,
+    "PETL": 2.6,
     "LSW": 0.7,
     "LSL": 3.3,
     "LIPW": 1.7,
     "LIPL": 3
   },
-  "scrapedDate": "2025-10-04T06:48:23.681Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230520/20235289.html",
+  "scrapedDate": "2025-10-12T20:20:02.839Z",
+  "sourceUrl": "https://www.paccentraljc.org/230520/20235289.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235289.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.810Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235289",
-      "newValue": "https://www.paccentraljc.org/20230520/20235289.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.839Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

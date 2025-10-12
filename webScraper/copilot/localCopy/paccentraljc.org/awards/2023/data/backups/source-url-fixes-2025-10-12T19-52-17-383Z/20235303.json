@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235303",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "November 18, 2023",
+  "genus": "Vanda",
+  "species": "Yano Blue",
+  "clone": "No. 520",
+  "cross": "Vanda Madame Rattana x Vanda Wirat",
+  "exhibitor": "Catherine Obillo",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20235303.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 14,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Fourteen flowers on two up to 35-cm inflorescences;\n   \nsepals and petals round, flat, slight fenestrations between dorsal sepal and petals, white overlaid dark purple\nspots coalescing at distal edges; lip white, side lobes overlaid light purple, midlobe overlaid dark purple, throat dark purple stripes;\ncolumn white blushed pink centrally, anther cap yellow;\n\n\tsubstance firm; texture crystalline.",
+    "NS": 10.6,
+    "NSV": 10.6,
+    "DSW": 5.3,
+    "DSL": 5.6,
+    "PETW": 5.6,
+    "PETL": 5.1,
+    "LSW": 6.7,
+    "LSL": 6.4,
+    "LIPW": 1.6,
+    "LIPL": 2.8
+  },
+  "scrapedDate": "2025-10-12T19:43:33.320Z",
+  "sourceUrl": "https://www.paccentraljc.org/231118/20235303.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235303.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.322Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

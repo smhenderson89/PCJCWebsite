@@ -2,44 +2,39 @@
   "awardNum": "20235362",
   "award": "AM",
   "awardpoints": 81,
-  "location": "",
+  "location": "Pacific Orchid Exposition",
   "date": "February 23, 2023",
-  "genus": "Pandora",
-  "species": "Glade",
+  "genus": "Cymbidium",
+  "species": "Pandora Glade",
   "clone": "Woodside Pink",
-  "cross": "Cymbidium Green Zenith × Cymbidium tracyanum",
+  "cross": "Cymbidium Green Zenith x Cymbidium tracyanum",
   "exhibitor": "Ron Norris",
   "photographer": "Ken Jacobsen",
   "photo": "images/20235362.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 12.5,
-    "NSV": 9.2,
-    "DSL": 9,
-    "DSW": 3.75,
-    "PETL": 7.2,
-    "PETW": 2.7,
     "numFlowers": 9,
     "numBuds": 2,
     "numInflorescences": 1,
-    "description": "Nine flowers and two buds on one 96-cm inflorescence; sepals white overlaid light green, burgundy spots and stripes, burgundy blush marginally; petals white, overlaid light green, burgundy stripes, blushed burgundy marginally; lip margin ruffled, white, blotched burgundy along edges, central burgundy stripe; column white, blushed burgundy, burgundy stripes ventrally, anther cap white; substance firm; texture matte.",
+    "description": "Nine flowers and two buds on one 96-cm inflorescence;\n   \n  \n sepals white overlaid light green, burgundy spots and stripes, burgundy blush marginally; \n petals white, overlaid light green, burgundy stripes, blushed burgundy marginally;\n lip margin ruffled, white, blotched burgundy along edges, central burgundy stripe;\n \n column white, blushed burgundy, burgundy stripes ventrally, anther cap white; substance firm; texture matte.",
+    "NS": 12.5,
+    "NSV": 9.2,
+    "DSW": 3.75,
+    "DSL": 9,
+    "PETW": 2.7,
+    "PETL": 7.2,
     "LSW": 3.9,
     "LSL": 6.4,
     "LIPW": 4.2,
     "LIPL": 3.2
   },
-  "scrapedDate": "2025-10-04T06:48:23.722Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230223/20235362.html",
+  "scrapedDate": "2025-10-12T20:20:02.905Z",
+  "sourceUrl": "https://www.paccentraljc.org/230223/20235362.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235362.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.826Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235362",
-      "newValue": "https://www.paccentraljc.org/20230223/20235362.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.907Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

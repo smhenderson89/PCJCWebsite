@@ -2,44 +2,39 @@
   "awardNum": "20235292",
   "award": "HCC",
   "awardpoints": 76,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "June 17, 2023",
   "genus": "Angreacum",
   "species": "didieri",
   "clone": "Lapeer",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Jim Heilig",
   "photographer": "Chaunie Langland",
   "photo": "images/20235292.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 9.1,
-    "NSV": 6.4,
-    "DSL": 5.2,
-    "DSW": 1.1,
-    "PETL": 4.7,
-    "PETW": 0.6,
     "numFlowers": 1,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "One flower on one 0.5-cm inflorescence; flower white; lip spatulate, nectary pale green, 15cm; substance firm; texture crystalline.",
+    "description": "One flower on one 0.5-cm inflorescence;\n\tflower white;\n\tlip spatulate, nectary pale green, 15cm;\n\t\n\tsubstance firm; texture crystalline.",
+    "NS": 9.1,
+    "NSV": 6.4,
+    "DSW": 1.1,
+    "DSL": 5.2,
+    "PETW": 0.6,
+    "PETL": 4.7,
     "LSW": 1.1,
     "LSL": 4.7,
     "LIPW": 2.7,
     "LIPL": 4.2
   },
-  "scrapedDate": "2025-10-04T06:48:23.685Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230617/20235292.html",
+  "scrapedDate": "2025-10-12T20:20:02.845Z",
+  "sourceUrl": "https://www.paccentraljc.org/230617/20235292.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235292.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.811Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235292",
-      "newValue": "https://www.paccentraljc.org/20230617/20235292.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.846Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

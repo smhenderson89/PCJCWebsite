@@ -2,43 +2,35 @@
   "awardNum": "20235385",
   "award": "AM",
   "awardpoints": 81,
-  "location": "",
+  "location": "San Francisco",
   "date": "December 5, 2023",
-  "genus": "Lovely",
-  "species": "Lynne",
+  "genus": "Phragmipedium",
+  "species": "Lovely Lynne",
   "clone": "Vajra",
-  "cross": "Phragmipedium Fritz Schomburg × Phragmipedium Peruflora's Cirila Alca",
+  "cross": "Phragmipedium Fritz Schomburg x Phragmipedium Peruflora's Cirila Alca",
   "exhibitor": "Japheth Ko",
   "photographer": "Japheth Ko",
   "photo": "images/20235385.jpg",
   "measurements": {
-    "type": "Pouch&Sepal",
-    "NS": 12.9,
-    "NSV": 9.9,
-    "DSL": 5.1,
-    "DSW": 3.1,
-    "PETL": 6.4,
-    "PETW": 5.3,
+    "type": "LateralSepal",
     "numFlowers": 1,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "One flower on one 13-cm inflorescence; dorsal sepal flat, dark rose-pink; synsepal light pink; petals overlapping, reflexed at bottom proximally, dark rose-pink; pouch dark rose-pink, cream interior, pink hairs; staminode cream overlaid pink; substance firm; texture velvet.",
-    "PCHW": 3.2,
-    "SYNSL": 5.1,
-    "SYNSW": 4.9
+    "description": "One flower on one 13-cm inflorescence;\n   \n\tdorsal sepal flat, dark rose-pink;\n\tsynsepal light pink;\n\tpetals overlapping, reflexed at bottom proximally, dark rose-pink;\n\tpouch dark rose-pink, cream interior, pink hairs;\n\tstaminode cream overlaid pink; \n\n\tsubstance firm; texture velvet.",
+    "NS": 12.9,
+    "NSV": 9.9,
+    "DSW": 3.1,
+    "DSL": 5.1,
+    "PETW": 5.3,
+    "PETL": 6.4
   },
-  "scrapedDate": "2025-10-04T06:48:23.748Z",
-  "sourceUrl": "https://www.paccentraljc.org/20231205/20235385.html",
+  "scrapedDate": "2025-10-12T20:20:02.949Z",
+  "sourceUrl": "https://www.paccentraljc.org/231205/20235385.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235385.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.838Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235385",
-      "newValue": "https://www.paccentraljc.org/20231205/20235385.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.950Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

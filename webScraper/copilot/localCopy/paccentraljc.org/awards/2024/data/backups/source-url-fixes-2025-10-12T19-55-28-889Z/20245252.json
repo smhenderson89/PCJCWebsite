@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245252",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Filoli Historic House",
+  "date": "January 20, 2024",
+  "genus": "Epidendrum",
+  "species": "melanoporphyreum",
+  "clone": "Memoria Jim Berry",
+  "cross": "species",
+  "exhibitor": "Jim Heilig",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20245252.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 12,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Twelve flowers on one 25-cm upright, branched inflorescence;\n   \nsepals spatulate, reflexed, dark purple; \n petals threadlike, chartreuse, purple distally;  \nlip sharply recurved, dark purple, white callus centrally;\ncolumn white, anther cap white;\n\n\n\tsubstance firm; texture waxy.",
+    "NS": 3.1,
+    "NSV": 4,
+    "DSW": 0.4,
+    "DSL": 2.2,
+    "PETW": 0.1,
+    "PETL": 2.5,
+    "LSW": 0.4,
+    "LSL": 2.4,
+    "LIPW": 1.6,
+    "LIPL": 2.7
+  },
+  "scrapedDate": "2025-10-12T19:38:50.813Z",
+  "sourceUrl": "https://www.paccentraljc.org/240120/20245252.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245252.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.815Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

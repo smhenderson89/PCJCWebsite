@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235274",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Filoli Historic House",
+  "date": "March 18, 2023",
+  "genus": "Cymbidium",
+  "species": "Sylvia Darr",
+  "clone": "Numero Uno",
+  "cross": "Cymbidium Pinata Magic x Cymbidium erythraeum",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235274.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 37,
+    "numBuds": 5,
+    "numInflorescences": 3,
+    "description": "Thirty-seven starry flowers and five buds well arranged on three arching up to 70.2-cm inflorescences;\n\n\t  \n\t sepals and petals light chartreuse overlaid mahogany, striped and blotched darker mahogany mid-rib;\n\tlip creamy white, blushed light yellow centrally, side lobes spotted burgundy, mid lobe darker burgundy blotches;\n\tcolumn creamy white blushed red-brown distally, anther cap white;\t\n\t\n\t\n    substance firm; texture matte.",
+    "NS": 9.8,
+    "NSV": 7,
+    "DSW": 2.3,
+    "DSL": 6.4,
+    "PETW": 1.2,
+    "PETL": 5.1,
+    "LSW": 2.7,
+    "LSL": 4.8,
+    "LIPW": 2.5,
+    "LIPL": 3.9
+  },
+  "scrapedDate": "2025-10-12T19:43:33.126Z",
+  "sourceUrl": "https://www.paccentraljc.org/230318/20235274.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235274.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:43:33.128Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

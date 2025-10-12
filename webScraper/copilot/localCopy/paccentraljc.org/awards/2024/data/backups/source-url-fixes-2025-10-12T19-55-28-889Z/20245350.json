@@ -1,0 +1,36 @@
+{
+  "awardNum": "20245350",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "San Francisco",
+  "date": "January 2, 2024",
+  "genus": "Paphiopedilum",
+  "species": "Helen Milton",
+  "clone": "Merlot",
+  "cross": "Paphiopedilum sukhakulii x Paphiopedilum violascens",
+  "exhibitor": "Dave Sorokowsky",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245350.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One well-presented flower on one 16.3-cm inflorescence;\n   \n\tdorsal sepal white, green veins, blushed burgundy basally, margins hirsute;\n\tsynsepal white, green veins;\n\tpetals chartreuse, green veins, burgundy spots, margins blushed burgundy, hairsute;\n\tpouch chartreuse, overlaid brown;\n\tstaminode pale green, darker green markings centrally; \n\n\tsubstance medium; texture glossy, pouch waxy.",
+    "NS": 12.5,
+    "NSV": 10.3,
+    "DSW": 5,
+    "DSL": 5.1,
+    "PETW": 2.6,
+    "PETL": 7.3
+  },
+  "scrapedDate": "2025-10-12T19:38:50.903Z",
+  "sourceUrl": "https://www.paccentraljc.org/240102/20245350.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245350.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.904Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

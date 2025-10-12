@@ -1,0 +1,40 @@
+{
+  "awardNum": "20245375",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "San Francisco",
+  "date": "April 2, 2024",
+  "genus": "Lycaste",
+  "species": "Cherish",
+  "clone": "Pacific Sunset",
+  "cross": "Lycaste Shoalhaven x Lycaste Chita Melody",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20245375.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 3,
+    "numInflorescences": 4,
+    "description": "One flower and three buds on four up to 30-cm inflorescences; \n flower cream;\n sepals evenly overlaid rose, cream basally;\n petals overlapping, symetrical, overlaid dark rose, cream basally;\n lip midlobe edged dark rose, light rose midline, sidelobes edged dark-rose;\n \n substance very firm; texture matte.",
+    "NS": 15.5,
+    "NSV": 15.3,
+    "DSW": 6.3,
+    "DSL": 8,
+    "PETW": 5,
+    "PETL": 5.4,
+    "LSW": 7.3,
+    "LSL": 7.4,
+    "LIPW": 3,
+    "LIPL": 4
+  },
+  "scrapedDate": "2025-10-12T19:38:50.960Z",
+  "sourceUrl": "https://www.paccentraljc.org/240402/20245375.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245375.html",
+  "year": 2024,
+  "logicApplied": {
+    "timestamp": "2025-10-12T19:38:50.962Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

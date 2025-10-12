@@ -2,44 +2,39 @@
   "awardNum": "20235274",
   "award": "AM",
   "awardpoints": 80,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "March 18, 2023",
-  "genus": "Sylvia",
-  "species": "Darr",
+  "genus": "Cymbidium",
+  "species": "Sylvia Darr",
   "clone": "Numero Uno",
-  "cross": "Cymbidium Pinata Magic × Cymbidium erythraeum",
+  "cross": "Cymbidium Pinata Magic x Cymbidium erythraeum",
   "exhibitor": "Pierre Pujol",
   "photographer": "Chaunie Langland",
   "photo": "images/20235274.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 9.8,
-    "NSV": 7,
-    "DSL": 6.4,
-    "DSW": 2.3,
-    "PETL": 5.1,
-    "PETW": 1.2,
     "numFlowers": 37,
     "numBuds": 5,
     "numInflorescences": 3,
-    "description": "Thirty-seven starry flowers and five buds well arranged on three arching up to 70.2-cm inflorescences; sepals and petals light chartreuse overlaid mahogany, striped and blotched darker mahogany mid-rib; lip creamy white, blushed light yellow centrally, side lobes spotted burgundy, mid lobe darker burgundy blotches; column creamy white blushed red-brown distally, anther cap white; substance firm; texture matte.",
+    "description": "Thirty-seven starry flowers and five buds well arranged on three arching up to 70.2-cm inflorescences;\n\n\t  \n\t sepals and petals light chartreuse overlaid mahogany, striped and blotched darker mahogany mid-rib;\n\tlip creamy white, blushed light yellow centrally, side lobes spotted burgundy, mid lobe darker burgundy blotches;\n\tcolumn creamy white blushed red-brown distally, anther cap white;\t\n\t\n\t\n    substance firm; texture matte.",
+    "NS": 9.8,
+    "NSV": 7,
+    "DSW": 2.3,
+    "DSL": 6.4,
+    "PETW": 1.2,
+    "PETL": 5.1,
     "LSW": 2.7,
     "LSL": 4.8,
     "LIPW": 2.5,
     "LIPL": 3.9
   },
-  "scrapedDate": "2025-10-04T06:48:23.655Z",
-  "sourceUrl": "https://www.paccentraljc.org/20230318/20235274.html",
+  "scrapedDate": "2025-10-12T20:20:02.812Z",
+  "sourceUrl": "https://www.paccentraljc.org/230318/20235274.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235274.html",
   "year": 2023,
-  "corrections": [
-    {
-      "timestamp": "2025-10-09T10:30:22.802Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20235274",
-      "newValue": "https://www.paccentraljc.org/20230318/20235274.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.813Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }
