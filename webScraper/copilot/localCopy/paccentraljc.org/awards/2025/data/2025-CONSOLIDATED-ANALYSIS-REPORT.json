@@ -49,85 +49,8 @@
         "validFiles": 92
       },
       "details": {
-        "completeFiles": [
-          "20255250.json",
-          "20255251.json",
-          "20255252.json",
-          "20255253.json",
-          "20255254.json",
-          "20255256.json",
-          "20255257.json",
-          "20255258.json",
-          "20255259.json",
-          "20255265.json",
-          "20255266.json",
-          "20255267.json",
-          "20255268.json",
-          "20255269.json",
-          "20255271.json",
-          "20255273.json",
-          "20255274.json",
-          "20255275.json",
-          "20255276.json",
-          "20255277.json",
-          "20255278.json",
-          "20255279.json",
-          "20255280.json",
-          "20255281.json",
-          "20255282.json",
-          "20255283.json",
-          "20255284.json",
-          "20255285.json",
-          "20255286.json",
-          "20255288.json",
-          "20255289.json",
-          "20255290.json",
-          "20255291.json",
-          "20255292.json",
-          "20255293.json",
-          "20255294.json",
-          "20255296.json",
-          "20255297.json",
-          "20255298.json",
-          "20255299.json",
-          "20255302.json",
-          "20255303.json",
-          "20255304.json",
-          "20255305.json",
-          "20255306.json",
-          "20255307.json",
-          "20255308.json",
-          "20255309.json",
-          "20255310.json",
-          "20255311.json",
-          "20255312.json",
-          "20255313.json",
-          "20255314.json",
-          "20255315.json",
-          "20255316.json",
-          "20255317.json",
-          "20255319.json",
-          "20255320.json",
-          "20255321.json",
-          "20255322.json",
-          "20255323.json",
-          "20255350.json",
-          "20255351.json",
-          "20255353.json",
-          "20255354.json",
-          "20255356.json",
-          "20255357.json",
-          "20255358.json",
-          "20255359.json",
-          "20255360.json",
-          "20255362.json",
-          "20255365.json",
-          "20255366.json",
-          "20255367.json",
-          "20255368.json",
-          "20255369.json",
-          "20255370.json"
-        ],
+        "filesWithMissingGenus": [],
+        "filesWithMissingSpecies": [],
         "filesWithMissingCoreData": [],
         "filesWithNullValues": [
           "20255295.json",
@@ -326,7 +249,8 @@
           "nullFieldsList": [
             "awardpoints"
           ],
-          "nullCount": 1
+          "nullCount": 1,
+          "fix" : "CBR award does not have points, put N/A for awardpoints"
         },
         {
           "fileName": "20255297.json",
@@ -337,7 +261,8 @@
             "award",
             "awardpoints"
           ],
-          "nullCount": 2
+          "nullCount": 2,
+          "fix" : "json file already includes award and awardpoints, ignore"
         },
         {
           "fileName": "20255304.json",
@@ -348,7 +273,8 @@
             "award",
             "awardpoints"
           ],
-          "nullCount": 2
+          "nullCount": 2,
+          "fix" : "json file already includes award and awardpoints, ignore"
         },
         {
           "fileName": "20255318.json",
@@ -373,7 +299,8 @@
             "measurements.LIPW",
             "measurements.LIPL"
           ],
-          "nullCount": 16
+          "nullCount": 16,
+          "fix" : "Award is AQ, N/A for points, clone, and all measurements except description which is in the source html"
         },
         {
           "fileName": "20255322.json",
@@ -384,7 +311,8 @@
             "award",
             "awardpoints"
           ],
-          "nullCount": 2
+          "nullCount": 2,
+          "fix" : "json file already includes award and awardpoints, ignore"
         },
         {
           "fileName": "20255353.json",
@@ -395,7 +323,8 @@
             "award",
             "awardpoints"
           ],
-          "nullCount": 2
+          "nullCount": 2,
+          "fix" : "json file already includes award and awardpoints, ignore"
         },
         {
           "fileName": "20255357.json",
@@ -406,7 +335,8 @@
             "award",
             "awardpoints"
           ],
-          "nullCount": 2
+          "nullCount": 2,
+          "fix" : "json file already includes award and awardpoints, ignore"
         },
         {
           "fileName": "20255360.json",
