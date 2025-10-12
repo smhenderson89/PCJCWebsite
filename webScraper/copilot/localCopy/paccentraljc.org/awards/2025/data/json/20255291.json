@@ -4,59 +4,32 @@
   "awardpoints": 84,
   "location": "Santa Cruz Orchid Society Show",
   "date": "May 3, 2025",
-  "genus": "Kulnura",
-  "species": "Opus",
+  "genus": "Sarcochilus",
+  "species": "Kulnura Opus",
   "clone": "Barbara Jane",
-  "cross": "Sarcochilus Kulnura Kaleidescope × Sarcochilus Kulnura Symphony",
+  "cross": "Sarcochilus Kulnura Kaleidescope x Sarcochilus Kulnura Symphony",
   "exhibitor": "Cheri Wagner",
   "photographer": "Chaunie Langland",
   "photo": "images/20255291.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 2.8,
-    "NSV": 2.9,
-    "DSL": 1.5,
-    "DSW": 1.1,
-    "PETL": 1.2,
-    "PETW": 0.8,
     "numFlowers": 290,
     "numBuds": 156,
     "numInflorescences": 29,
-    "description": "Two hundred ninety round flowers and 156 buds on 29 up to 25.5-cm inflorescences; born on a 48-cm wide by 21-cm tall plant in a 20-cm plastic pot, grown in fir bark and coir; sepals and petals widely elliptic, peach overlaid rose, dark rose proximally; lip saccate, cream, light orange distally, side lobes dark rose; column white overlaid orange, anther cap light yellow; substance firm; texture crystalline.",
+    "description": "Two hundred ninety round flowers and 156 buds on 29 up to 25.5-cm inflorescences;\n born on a 48-cm wide by 21-cm tall plant in a 20-cm plastic pot, grown in fir bark and coir;\n sepals and petals widely elliptic, peach overlaid rose, dark rose proximally;\n lip saccate, cream, light orange distally, side lobes dark rose;\n column white overlaid orange, anther cap light yellow; substance firm; texture crystalline.",
+    "NS": 2.8,
+    "NSV": 2.9,
+    "DSW": 1.1,
+    "DSL": 1.5,
+    "PETW": 0.8,
+    "PETL": 1.2,
     "LSW": 0.9,
     "LSL": 1.4,
     "LIPW": 0.5,
     "LIPL": 0.7
   },
-  "scrapedDate": "2025-10-04T06:36:44.343Z",
+  "scrapedDate": "2025-10-12T01:27:56.797Z",
   "sourceUrl": "https://www.paccentraljc.org/250503/20255291.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255291.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.881Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Santa Cruz Orchid Society Show",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-06T03:39:18.151Z",
-      "changes": [
-        "award: null → \"CCM\"",
-        "awardpoints: null → 84"
-      ],
-      "reason": "Fixed missing award data from HTML source",
-      "source": "automated-html-extraction"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.695Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255291",
-      "newValue": "https://www.paccentraljc.org/250503/20255291.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

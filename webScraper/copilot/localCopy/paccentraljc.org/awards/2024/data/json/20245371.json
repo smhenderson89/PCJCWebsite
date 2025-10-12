@@ -2,53 +2,39 @@
   "awardNum": "20245371",
   "award": "AM",
   "awardpoints": 81,
-  "location": "",
+  "location": "San Francisco",
   "date": "March 5, 2024",
   "genus": "Cymbidium",
   "species": "Hot Creek",
   "clone": "Elkhorn",
-  "cross": "Cymbidium Lotza Spots × Cymbidium Reds Meadow",
+  "cross": "Cymbidium Lotza Spots x Cymbidium Reds Meadow",
   "exhibitor": "Pierre Pujol",
   "photographer": "Ken Jacobsen",
   "photo": "images/20245371.jpg",
-  "thumbnail": "images/thumbnail/20245371thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 10.8,
-    "NSV": 11.2,
-    "DSL": 8,
-    "DSW": 4,
-    "PETL": 6.7,
-    "PETW": 3.9,
     "numFlowers": 8,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "Eight flowers on one 76-cm inflorescence; sepals and petals pale yellow, blushed brick distally, dark burgundy spots and markings; lip pale yellow, picotee, heavily overlaid uneven dark burgundy-red blotches; column pale yellow, blushed and overlaid dark burgundy, dark burgundy spots, anther cap pale yellow, small burgundy markings; substance very hard; texture matte.",
+    "description": "Eight flowers on one 76-cm inflorescence; \n  sepals and petals pale yellow, blushed brick distally, dark burgundy spots and markings;\n   lip pale yellow, picotee, heavily overlaid uneven dark burgundy-red blotches;\n   column pale yellow, blushed and overlaid dark burgundy, dark burgundy spots, anther cap pale yellow, small burgundy markings;\n   substance very hard;\n texture matte.",
+    "NS": 10.8,
+    "NSV": 11.2,
+    "DSW": 4,
+    "DSL": 8,
+    "PETW": 3.9,
+    "PETL": 6.7,
     "LSW": 4.1,
     "LSL": 7,
     "LIPW": 4,
     "LIPL": 4.4
   },
-  "scrapedDate": "2025-10-04T07:01:12.865Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240305/20245371.html",
+  "scrapedDate": "2025-10-12T02:38:25.641Z",
+  "sourceUrl": "https://www.paccentraljc.org/240305/20245371.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245371.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.814Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245371",
-      "newValue": "https://www.paccentraljc.org/240305/20245371.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.279Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240305/20245371.html",
-      "newValue": "https://www.paccentraljc.org/20240305/20245371.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.642Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

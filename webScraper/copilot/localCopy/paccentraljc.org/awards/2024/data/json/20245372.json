@@ -2,53 +2,39 @@
   "awardNum": "20245372",
   "award": "AM",
   "awardpoints": 87,
-  "location": "",
+  "location": "San Francisco",
   "date": "March 5, 2024",
   "genus": "Cymbidium",
   "species": "Darrel Wong",
   "clone": "Dos Amigos",
-  "cross": "Cymbidium Lambert Day × Cymbidium Karen Hawaiian",
+  "cross": "Cymbidium Lambert Day x Cymbidium Karen Hawaiian",
   "exhibitor": "Pierre Pujol",
   "photographer": "Ken Jacobsen",
   "photo": "images/20245372.jpg",
-  "thumbnail": "images/thumbnail/20245372thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 7.5,
-    "NSV": 7.8,
-    "DSL": 5.5,
-    "DSW": 3.6,
-    "PETL": 4.1,
-    "PETW": 2.7,
     "numFlowers": 46,
     "numBuds": 0,
     "numInflorescences": 2,
-    "description": "Forty-six flat round flowers on two up to 96-cm arched inflorescences; sepals and petals elliptical, burnt umber, dark veins, more prominent midline; lip orange-yellow overlaid maroon along edge, black-maroon blotches and spots, dark maroon line centrally; column orange-yellow spotted maroon, anther cap white; substance firm; texture matte; upgrade from previous award 20225258.",
+    "description": "Forty-six flat round flowers on two up to 96-cm arched inflorescences; \n  sepals and petals elliptical, burnt umber, dark veins, more prominent midline;\n   lip orange-yellow overlaid maroon along edge, black-maroon blotches and spots, dark maroon line centrally;\n   column orange-yellow spotted maroon, anther cap white; substance firm;\n texture matte; upgrade from previous award 20225258.",
+    "NS": 7.5,
+    "NSV": 7.8,
+    "DSW": 3.6,
+    "DSL": 5.5,
+    "PETW": 2.7,
+    "PETL": 4.1,
     "LSW": 2.9,
     "LSL": 3.7,
     "LIPW": 2.3,
     "LIPL": 3
   },
-  "scrapedDate": "2025-10-04T07:01:12.866Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240305/20245372.html",
+  "scrapedDate": "2025-10-12T02:38:25.643Z",
+  "sourceUrl": "https://www.paccentraljc.org/240305/20245372.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245372.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.815Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245372",
-      "newValue": "https://www.paccentraljc.org/240305/20245372.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.280Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240305/20245372.html",
-      "newValue": "https://www.paccentraljc.org/20240305/20245372.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.644Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

@@ -2,61 +2,34 @@
   "awardNum": "20255275",
   "award": "CCE",
   "awardpoints": 93,
-  "location": "Peninsula OS/Gold Coast Cymbidium Show",
+  "location": "POS/GCCS Show",
   "date": "April 5, 2025",
-  "genus": "Victoria",
-  "species": "Kam",
+  "genus": "Rhyncholaeliocattleya",
+  "species": "Memoria Victoria Kam",
   "clone": "Fascination",
-  "cross": "Rhyncholaeliocattleya Sylvia Fry × Cattleya loddigesii",
+  "cross": "Rhyncholaeliocattleya Sylvia Fry x Cattleya loddigesii",
   "exhibitor": "Pierre Pujol",
   "photographer": "Chaunie Langland",
   "photo": "images/20255275.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 15,
-    "NSV": 16.7,
-    "DSL": 8.7,
-    "DSW": 3.5,
-    "PETL": 8.7,
-    "PETW": 6.5,
     "numFlowers": 40,
     "numBuds": 0,
     "numInflorescences": 14,
-    "description": "Forty immaculate flowers on 14 up to 30-cm inflorescences, well spaced around plant; 108-cm x 50-cm plant, 30-cm plastic pot, bark; sepals and petals pink-lavender; lip heavily ruffled, pink-lavender overlaid dark magenta distally, bright yellow centrally, side lobes cream; column cream, anther cap white; substance firm; texture matte.",
+    "description": "Forty immaculate flowers on 14 up to 30-cm inflorescences, well spaced around plant;\n108-cm x 50-cm plant, 30-cm plastic pot, bark;\nsepals and petals pink-lavender;  \nlip heavily ruffled, pink-lavender overlaid dark magenta distally, bright yellow centrally, side lobes cream;\n\n\ncolumn cream, anther cap white;\nsubstance firm; texture matte.",
+    "NS": 15,
+    "NSV": 16.7,
+    "DSW": 3.5,
+    "DSL": 8.7,
+    "PETW": 6.5,
+    "PETL": 8.7,
     "LSW": 3.6,
     "LSL": 7,
     "LIPW": 5.8,
     "LIPL": 7.8
   },
-  "scrapedDate": "2025-10-04T06:36:44.318Z",
+  "scrapedDate": "2025-10-12T01:27:56.760Z",
   "sourceUrl": "https://www.paccentraljc.org/250405/20255275.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255275.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.869Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Peninsula OS/Gold Coast Cymbidium Show",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-06T03:39:18.146Z",
-      "changes": [
-        "award: null → \"CCE\"",
-        "awardpoints: null → 93"
-      ],
-      "reason": "Fixed missing award data from HTML source",
-      "source": "automated-html-extraction"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.681Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255275",
-      "newValue": "https://www.paccentraljc.org/250405/20255275.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

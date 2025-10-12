@@ -2,53 +2,31 @@
   "awardNum": "20245363",
   "award": "CCM",
   "awardpoints": 83,
-  "location": "",
+  "location": "Pacific Orchid Exposition",
   "date": "February 15, 2024",
   "genus": "Coelogyne",
   "species": "tenella",
   "clone": "Kodiak",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Susan Anderson",
   "photographer": "Ken Jacobsen",
   "photo": "images/20245363.jpg",
-  "thumbnail": "images/thumbnail/20245363thumb.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "NS": 1.5,
-    "NSV": 1.5,
-    "DSL": null,
-    "DSW": null,
-    "PETL": null,
-    "PETW": null,
+    "type": "LateralSepal",
     "numFlowers": 24,
-    "numBuds": null,
+    "numBuds": 0,
     "numInflorescences": 600,
-    "description": "Approximately 24,000 flowers and buds on approximately 600 gently arched inflorescences in various stages of maturity; evenly distributed circumferentially over a 59-cm x 87-cm plant, grown on a 30-cm x 16-cm tree fern block; flowers straw; substance firm; texture satin.",
-    "LSW": null,
-    "LSL": null,
-    "LIPW": null,
-    "LIPL": null
+    "description": "Approximately 24,000 flowers and buds on approximately 600 gently arched inflorescences in various stages of maturity; \n   evenly distributed circumferentially over a 59-cm x 87-cm plant, grown on a 30-cm x 16-cm tree fern block;\n   \n   \n   flowers straw;\n   \n   \n   substance firm; texture satin.",
+    "NS": 1.5,
+    "NSV": 1.5
   },
-  "scrapedDate": "2025-10-04T07:01:12.857Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240215/20245363.html",
+  "scrapedDate": "2025-10-12T02:38:25.622Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245363.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245363.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.810Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245363",
-      "newValue": "https://www.paccentraljc.org/240215/20245363.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.275Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240215/20245363.html",
-      "newValue": "https://www.paccentraljc.org/20240215/20245363.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.623Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

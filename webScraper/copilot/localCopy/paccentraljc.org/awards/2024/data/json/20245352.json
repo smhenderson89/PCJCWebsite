@@ -1,54 +1,41 @@
 {
   "awardNum": "20245352",
   "award": "AQ",
-  "awardpoints": null,
-  "location": "",
+  "awardpoints": "N/A",
+  "location": "Pacific Orchid Exposition",
   "date": "February 15, 2024",
   "genus": "Cymbidium",
-  "species": "Samurai",
-  "clone": null,
-  "cross": "Cymbidium Eastern Bunny × Cymbidium erythraeum",
+  "species": "Samurai Spirit",
+  "clone": "N/A",
+  "cross": "N/A",
   "exhibitor": "Pierre Pujol",
   "photographer": "Ken Jacobsen",
   "photo": "images/20245352.jpg",
-  "thumbnail": "images/thumbnail/20245352thumb.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "NS": null,
-    "NSV": null,
-    "DSL": null,
-    "DSW": null,
-    "PETL": null,
-    "PETW": null,
-    "numFlowers": null,
-    "numBuds": null,
-    "numInflorescences": null,
-    "description": "Exhibitor and hybridizer Pierre Pujol, Cymbidium Samurai Spirit, a hybrid of Cymbidium Eastern Bunny and Cymbidium erythraeum, recongnized for high diversity of color, form and size; exhibiting the species charm of erythraeum, 14 plants exhibited, two were previously awarded for quality.",
-    "LSW": null,
-    "LSL": null,
-    "LIPW": null,
-    "LIPL": null
+    "type": "N/A",
+    "numFlowers": "N/A",
+    "numBuds": "N/A",
+    "numInflorescences": "N/A",
+    "description": "Exhibitor and hybridizer Pierre Pujol, Cymbidium Samurai Spirit, a hybrid of Cymbidium Eastern Bunny and Cymbidium erythraeum,\n   recongnized for high diversity of color, form and size; exhibiting the species charm of erythraeum, 14 plants exhibited, two were \n   previously awarded for quality.",
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LIPW": "N/A",
+    "LSW": "N/A",
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
   },
-  "scrapedDate": "2025-10-04T07:01:12.838Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240215/20245352.html",
+  "scrapedDate": "2025-10-12T02:38:25.592Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245352.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245352.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.804Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245352",
-      "newValue": "https://www.paccentraljc.org/240215/20245352.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.269Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240215/20245352.html",
-      "newValue": "https://www.paccentraljc.org/20240215/20245352.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.593Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "special"
+  }
 }

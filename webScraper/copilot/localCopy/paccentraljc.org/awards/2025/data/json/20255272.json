@@ -2,51 +2,30 @@
   "awardNum": "20255272",
   "award": "HCC",
   "awardpoints": 78,
-  "location": "Peninsula OS/Gold Coast Cymbidium Show",
+  "location": "POS/GCCS Show",
   "date": "April 5, 2025",
-  "genus": "Pri",
-  "species": "Jollix",
+  "genus": "Paphiopedilum",
+  "species": "Cocoa Pri Jollix",
   "clone": "Norrine",
-  "cross": "Paphiopedilum Cocoa Jollix × Paphiopedilum primulinum",
+  "cross": "Paphiopedilum Cocoa Jollix x Paphiopedilum primulinum",
   "exhibitor": "Jason Douglass",
   "photographer": "Chaunie Langland",
   "photo": "images/20255272.jpg",
   "measurements": {
-    "type": "Pouch&Sepal",
-    "NS": 10.5,
-    "NSV": 7.6,
-    "DSL": 4.8,
-    "DSW": 6.1,
-    "PETL": 5,
-    "PETW": 2.6,
+    "type": "LateralSepal",
     "numFlowers": 1,
     "numBuds": 2,
     "numInflorescences": 1,
-    "description": "One flower and two buds on one 21.5-cm inflorescence; dorsal sepal concave, reniform, chartreuse, veins darker chartreuse, white picotee; synsepal chartreuse, veins darker; petals obovate, margins ruffled proximal three-fourths, ciliate, yellow, light burgundy stippling basally; pouch yellow; staminode yellow, green centrally; substance medium; texture waxy.",
-    "PCHW": 2.7,
-    "SYNSL": 3.9,
-    "SYNSW": 4
+    "description": "One flower and two buds on one 21.5-cm inflorescence;\ndorsal sepal concave, reniform, chartreuse, veins darker chartreuse, white picotee;\nsynsepal chartreuse, veins darker;\npetals obovate, margins ruffled proximal three-fourths, ciliate, yellow, light burgundy stippling basally;\npouch yellow; \nstaminode yellow, green centrally;\nsubstance medium; texture waxy.",
+    "NS": 10.5,
+    "NSV": 7.6,
+    "DSW": 6.1,
+    "DSL": 4.8,
+    "PETW": 2.6,
+    "PETL": 5
   },
-  "scrapedDate": "2025-10-04T06:36:44.312Z",
+  "scrapedDate": "2025-10-12T01:27:56.749Z",
   "sourceUrl": "https://www.paccentraljc.org/250405/20255272.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255272.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.866Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Peninsula OS/Gold Coast Cymbidium Show",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.678Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255272",
-      "newValue": "https://www.paccentraljc.org/250405/20255272.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

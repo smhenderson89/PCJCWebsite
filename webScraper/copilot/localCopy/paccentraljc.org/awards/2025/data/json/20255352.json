@@ -2,51 +2,30 @@
   "awardNum": "20255352",
   "award": "HCC",
   "awardpoints": 78,
-  "location": "San Francisco Monthly",
+  "location": "San Francisco",
   "date": "January 7, 2025",
-  "genus": "Charm",
-  "species": "Lippehill",
+  "genus": "Paphiopedilum",
+  "species": "In-Charm Lippehill",
   "clone": "In-Charm",
-  "cross": "Paphiopedilum Lippehill × Paphiopedilum liemianum",
+  "cross": "Paphiopedilum Lippehill x Paphiopedilum liemianum",
   "exhibitor": "Japheth Ko",
   "photographer": "Ken Jacobsen",
   "photo": "images/20255352.jpg",
   "measurements": {
-    "type": "Pouch&Sepal",
-    "NS": 10.9,
-    "NSV": 10.4,
-    "DSL": 6.4,
-    "DSW": 7,
-    "PETL": 4.9,
-    "PETW": 3.6,
+    "type": "LateralSepal",
     "numFlowers": 1,
     "numBuds": 1,
     "numInflorescences": 1,
-    "description": "One flower and one bud on one 29.5-cm sequentially blooming inflorescence; dorsal sepal white overlaid light green medially, heavily spotted burgundy, speckled marginally; synsepal white overlaid light green, light burgundy veins, burgundy spots proximal 2/3; petals light green overlaid burgundy except spotted burgundy proximally; pouch 30-degree angle from vertical, light green overlaid burgundy; staminode light green overlaid burgundy; substance medium; texture glossy.",
-    "PCHW": 2.6,
-    "SYNSL": 4.2,
-    "SYNSW": 5.6
+    "description": "One flower and one bud on one 29.5-cm sequentially blooming inflorescence;\ndorsal sepal white overlaid light green medially, heavily spotted burgundy, speckled marginally;\nsynsepal white overlaid light green, light burgundy veins, burgundy spots proximal 2/3;\npetals light green overlaid burgundy except spotted burgundy proximally;\npouch 30-degree angle from vertical, light green overlaid burgundy;\nstaminode light green overlaid burgundy;\n substance medium; texture glossy.",
+    "NS": 10.9,
+    "NSV": 10.4,
+    "DSW": 7,
+    "DSL": 6.4,
+    "PETW": 3.6,
+    "PETL": 4.9
   },
-  "scrapedDate": "2025-10-04T06:36:44.389Z",
+  "scrapedDate": "2025-10-12T01:27:56.875Z",
   "sourceUrl": "https://www.paccentraljc.org/250107/20255352.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255352.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.913Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "San Francisco Monthly",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.719Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255352",
-      "newValue": "https://www.paccentraljc.org/250107/20255352.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

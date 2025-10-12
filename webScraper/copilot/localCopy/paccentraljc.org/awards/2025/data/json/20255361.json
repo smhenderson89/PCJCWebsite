@@ -4,49 +4,28 @@
   "awardpoints": 81,
   "location": "Pacific Orchid Exposition",
   "date": "February 27, 2025",
-  "genus": "China",
-  "species": "Moon",
+  "genus": "Paphiopedilum",
+  "species": "Wossner China Moon",
   "clone": "Norrine",
-  "cross": "Paphiopedilum armeniacum × Paphiopdilum hangianum",
+  "cross": "Paphiopedilum armeniacum x Paphiopdilum hangianum",
   "exhibitor": "Jason Douglass",
   "photographer": "Ken Jacobsen",
   "photo": "images/20255361.jpg",
   "measurements": {
-    "type": "Pouch&Sepal",
-    "NS": 13.4,
-    "NSV": 9,
-    "DSL": 6.4,
-    "DSW": 4.7,
-    "PETL": 7,
-    "PETW": 5.3,
+    "type": "LateralSepal",
     "numFlowers": 2,
     "numBuds": 0,
     "numInflorescences": 2,
-    "description": "Two yellow flowers on two upright inflorescences up to 40 cm; dorsal sepal deltoid, veined light green, margins undulate, puberulent; synsepal cordate, veined light green, margins puberulent; petals widely oval, proimal one-third pubescent, margins puberulent; pouch interior linearly spotted cordovan; staminode rhombid, stippled cordovan; substance medium; texture matte.",
-    "PCHW": 4.8,
-    "SYNSL": null,
-    "SYNSW": null
+    "description": "Two yellow flowers on two upright inflorescences up to 40 cm; \ndorsal sepal deltoid, veined light green, margins undulate, puberulent;\nsynsepal cordate, veined light green, margins puberulent;\npetals widely oval, proimal one-third pubescent, margins puberulent; \npouch interior linearly spotted cordovan; \nstaminode rhombid, stippled cordovan; substance medium; texture matte.",
+    "NS": 13.4,
+    "NSV": 9,
+    "DSW": 4.7,
+    "DSL": 6.4,
+    "PETW": 5.3,
+    "PETL": 7
   },
-  "scrapedDate": "2025-10-04T06:36:44.399Z",
+  "scrapedDate": "2025-10-12T01:27:56.892Z",
   "sourceUrl": "https://www.paccentraljc.org/250227/20255361.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255361.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.924Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Pacific Orchid Exposition",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.723Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255361",
-      "newValue": "https://www.paccentraljc.org/250227/20255361.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

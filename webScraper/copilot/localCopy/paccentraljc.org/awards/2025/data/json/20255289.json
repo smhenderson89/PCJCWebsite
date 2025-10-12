@@ -7,47 +7,29 @@
   "genus": "Microcoelia",
   "species": "koehleri",
   "clone": "Ontonagon",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Jim Heilig",
   "photographer": "Chaunie Langland",
   "photo": "images/20255289.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 1.5,
-    "NSV": 1.2,
-    "DSL": 1.1,
-    "DSW": 0.25,
-    "PETL": 0.9,
-    "PETW": 0.2,
     "numFlowers": 84,
     "numBuds": 48,
     "numInflorescences": 14,
-    "description": "Eighty-four flowers and 48 buds on 14 up to 3.1 cm inflorescences; 16-cm wide by 14-cm tall leafless plant growing on six-cm x ten-cm compressed cork; stellate flowers translucent white; sepals lanceolate, light green vein centrally; petals ovate, slightly porrect; lip flat, widely ovate, spur seven mm long; column white, anther cap yellow; substance light; texture crystalline; also awarded CCM #20255290.",
+    "description": "Eighty-four flowers and 48 buds on 14 up to 3.1 cm inflorescences;\n 16-cm wide by 14-cm tall leafless plant growing on six-cm x ten-cm compressed cork;\n stellate flowers translucent white;\n sepals lanceolate, light green vein centrally;\n petals ovate, slightly porrect;\n lip flat, widely ovate, spur seven mm long;\n column white, anther cap yellow;\n substance light; texture crystalline; also awarded CCM #20255290.",
+    "NS": 1.5,
+    "NSV": 1.2,
+    "DSW": 0.25,
+    "DSL": 1.1,
+    "PETW": 0.2,
+    "PETL": 0.9,
     "LSW": 0.2,
     "LSL": 1,
     "LIPW": 0.6,
     "LIPL": 0.9
   },
-  "scrapedDate": "2025-10-04T06:36:44.341Z",
+  "scrapedDate": "2025-10-12T01:27:56.793Z",
   "sourceUrl": "https://www.paccentraljc.org/250503/20255289.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255289.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.880Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Santa Cruz Orchid Society Show",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.692Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255289",
-      "newValue": "https://www.paccentraljc.org/250503/20255289.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

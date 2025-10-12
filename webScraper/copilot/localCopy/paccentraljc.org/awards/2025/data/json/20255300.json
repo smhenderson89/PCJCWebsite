@@ -2,51 +2,30 @@
   "awardNum": "20255300",
   "award": "AM",
   "awardpoints": 81,
-  "location": "Filoli Historic House Monthly",
+  "location": "Filoli Historic House",
   "date": "May 17, 2025",
-  "genus": "Toni",
-  "species": "Semple",
+  "genus": "Paphiopedilum",
+  "species": "Toni Semple",
   "clone": "Huiping Zhou",
-  "cross": "Paphiopedilum haynaldianum × Paphiopedilum lowii",
+  "cross": "Paphiopedilum haynaldianum x Paphiopedilum lowii",
   "exhibitor": "Evan Shen",
   "photographer": "Chaunie Langland",
   "photo": "images/20255300.jpg",
   "measurements": {
-    "type": "Pouch&Sepal",
-    "NS": 12.7,
-    "NSV": 6.6,
-    "DSL": 3.6,
-    "DSW": 4.5,
-    "PETL": 5,
-    "PETW": 3.1,
+    "type": "LateralSepal",
     "numFlowers": 3,
     "numBuds": 4,
     "numInflorescences": 1,
-    "description": "Three flowers and four buds on one 64-cm upright unsupported inflorescence; dorsal sepal recurved, light chartreuse, darker centrally and basally, darker veins; synsepal ovate-epiculate, recurved centrally, cream, striped light green; petals spatulate, pale chartreuse, lighter distally; pouch light chartreuse; staminode light chartreuse, darker centrally; substance medium; texture matte, pouch waxy.",
-    "PCHW": 2.6,
-    "SYNSL": 7.8,
-    "SYNSW": 2.4
+    "description": "Three flowers and four buds on one 64-cm upright unsupported inflorescence;\ndorsal sepal recurved, light chartreuse, darker centrally and basally, darker veins;\nsynsepal ovate-epiculate, recurved centrally, cream, striped light green;\n petals spatulate, pale chartreuse, lighter distally;\n pouch light chartreuse;\n staminode light chartreuse, darker centrally;\n substance medium; texture matte, pouch waxy.",
+    "NS": 12.7,
+    "NSV": 6.6,
+    "DSW": 4.5,
+    "DSL": 3.6,
+    "PETW": 3.1,
+    "PETL": 5
   },
-  "scrapedDate": "2025-10-04T06:36:44.356Z",
+  "scrapedDate": "2025-10-12T01:27:56.825Z",
   "sourceUrl": "https://www.paccentraljc.org/250517/20255300.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255300.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.889Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Filoli Historic House Monthly",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.703Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255300",
-      "newValue": "https://www.paccentraljc.org/250517/20255300.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

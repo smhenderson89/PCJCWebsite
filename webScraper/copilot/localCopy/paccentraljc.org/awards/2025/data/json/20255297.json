@@ -2,61 +2,34 @@
   "awardNum": "20255297",
   "award": "CCM",
   "awardpoints": 86,
-  "location": "Filoli Historic House Monthly",
+  "location": "Filoli Historic House",
   "date": "May 17, 2025",
-  "genus": "Neil",
-  "species": "McCormick",
+  "genus": "Mystacidium",
+  "species": "Neil McCormick",
   "clone": "Mae West",
-  "cross": "Mystacidim capense × Mystacidium braybonae",
+  "cross": "Mystacidim capense x Mystacidium braybonae",
   "exhibitor": "Chaunie Langland",
   "photographer": "Chaunie Langland",
   "photo": "images/20255297.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 3.2,
-    "NSV": 5.2,
-    "DSL": 1,
-    "DSW": 0.3,
-    "PETL": 1,
-    "PETW": 0.3,
     "numFlowers": 124,
     "numBuds": 18,
     "numInflorescences": 15,
-    "description": "One hundred twenty-four stellate white flowers and 18 buds on 15 arching to pendant up to 16-cm inflorescences; plant 21-cm wide by 31-cm tall, mounted on 14-cm wide by 27-cm tall cork slab; sepals lanceolate, slightly reflexed apically ; petals acuminate, slightly reflexed apically; lip trilobed, midlobe narrowly acute, side lobe margins denticulate, spur 4.0-cm long; anther cap yellow; substance firm; texture crystalline; citrus fragrance noted, plant nearly obscured by inflorescences, natural spread vertical includes spur, also received award 20255296.",
+    "description": "One hundred twenty-four stellate white flowers and 18 buds on 15 arching to pendant up to 16-cm inflorescences;\n plant 21-cm wide by 31-cm tall, mounted on 14-cm wide by 27-cm tall cork slab; \n sepals lanceolate, slightly reflexed apically ; \n petals acuminate, slightly reflexed apically; \n lip trilobed, midlobe narrowly acute, side lobe margins denticulate, spur 4.0-cm long; \n anther cap yellow; substance firm; texture crystalline; citrus fragrance noted, plant nearly obscured by inflorescences,\nnatural spread vertical includes spur, also received award 20255296.",
+    "NS": 3.2,
+    "NSV": 5.2,
+    "DSW": 0.3,
+    "DSL": 1,
+    "PETW": 0.3,
+    "PETL": 1,
     "LSW": 0.3,
     "LSL": 1.4,
     "LIPW": 0.3,
     "LIPL": 0.8
   },
-  "scrapedDate": "2025-10-04T06:36:44.351Z",
+  "scrapedDate": "2025-10-12T01:27:56.818Z",
   "sourceUrl": "https://www.paccentraljc.org/250517/20255297.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255297.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.886Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Filoli Historic House Monthly",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-06T03:39:18.152Z",
-      "changes": [
-        "award: null → \"CCM\"",
-        "awardpoints: null → 86"
-      ],
-      "reason": "Fixed missing award data from HTML source",
-      "source": "automated-html-extraction"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.699Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255297",
-      "newValue": "https://www.paccentraljc.org/250517/20255297.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

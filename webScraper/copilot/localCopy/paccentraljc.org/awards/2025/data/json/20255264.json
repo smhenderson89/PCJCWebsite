@@ -7,47 +7,30 @@
   "genus": "Laelia",
   "species": "anceps",
   "clone": "Snow Woman",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20255264.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 8.8,
-    "NSV": 9.9,
-    "DSL": 5,
-    "DSW": 1.7,
-    "PETL": 4.9,
-    "PETW": 3.3,
     "numFlowers": 9,
     "numBuds": 1,
     "numInflorescences": 3,
-    "description": null,
+    "description": "N/A",
+    "NS": 8.8,
+    "NSV": 9.9,
+    "DSW": 1.7,
+    "DSL": 5,
+    "PETW": 3.3,
+    "PETL": 4.9,
     "LSW": 1.4,
     "LSL": 4.9,
     "LIPW": 2.2,
     "LIPL": 3.9
   },
-  "scrapedDate": "2025-10-04T06:36:44.301Z",
+  "scrapedDate": "2025-10-12T02:14:20.610Z",
   "sourceUrl": "https://www.paccentraljc.org/250221/20255264.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255264.html",
   "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.862Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Gold Coast Cymbidium Society Outreach",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.672Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255264",
-      "newValue": "https://www.paccentraljc.org/250221/20255264.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "fixApplied": "logicReference/missingInfoLogic.json"
 }

@@ -1,0 +1,41 @@
+{
+  "awardCategories": {
+    "quality_awards": ["FCC", "AM", "HCC"],
+    "no_point_quality_awards": ["JC", "AQ", "CBR", "CHM"],
+    "display_awards": ["SC", "ST", "OT", "SW", "EEC"],
+    "botanical_awards": ["CBR", "CHM", "CBM"],
+    "no_point_value_awards": ["JC", "AQ", "CBR", "CHM", "CBM", "SC", "ST", "OT", "SW", "CERT"],
+    "point_value_awards": ["FCC", "AM", "HCC"]
+  },
+  "missingFieldLogic": {
+    "MissingPhotography": {
+      "Logic": "Check the source HTML for a photographer field. If found, ensure the text follows the format 'Photographer: FirstName LastName'. If not found, set 'photographer': 'N/A'."
+    },
+    "MissingDescription": {
+      "Logic": "Look in the source HTML for the award description. Usually comes after measurements information. Include full sentence starting with 'Awarded for ...' or the detailed description text. If no description found, set 'description': 'N/A'."
+    },
+    "MissingMeasurements": {
+      "Logic": "Check if the award is point-based (FCC, AM, HCC). If yes, expect measurement fields NS, NSV, DSW, DSL, PETW, PETL, PCHW, SYNSL, SYNSW, LIPW, LSW. If award is a display or botanical award without points (SC, ST, AQ, JC, CBR, CHM), set all measurement fields to 'N/A'."
+    },
+    "MissingGenusSpeciesCloneCross": {
+      "Logic": "If the award is a display award (SC, ST, AQ, JC), set 'genus', 'species', 'clone', and 'cross' to 'N/A'. For point-based plant awards (FCC, AM, HCC), attempt to parse genus/species/clone/cross from the plant name. If not found, set missing values to 'N/A'."
+    },
+    "AwardWithoutPoints": {
+      "Logic": "Identify awards with no point values (JC, AQ, CBR, CHM, SC, ST, OT, SW, CBM, CERT). These do not require a score or measurements. Set 'score': 'N/A'."
+    },
+    "DisplayAwardFlag": {
+      "Logic": "For awards related to exhibits/displays (SC, ST, AQ, JC, OT, SW), set 'isDisplay': true. For point-based flower quality awards (FCC, AM, HCC), set 'isDisplay': false."
+    },
+    "MissingCross" : {
+        "Logic": "For display awards (SC, ST, AQ, JC), set 'cross' to 'N/A'. For plant awards, attempt to parse cross from plant name. If not found, set 'cross': 'N/A'."
+    }    
+  },
+  "measurementsTemplate": {
+    "allAwards": ["NS", "NSV", "DSW", "DSL", "PETW", "PETL"],
+    "LipAndLateral": ["LIPW", "LSW"],
+    "PouchAndSynsepal": ["PCHW", "SYNSL", "SYNSW"]
+    },
+    "isDisplayAward": {
+      "Logic": "If the award is SC, ST, AQ, JC, OT, or SW, set 'isDisplay': true. Otherwise, set 'isDisplay': false."
+    }
+}

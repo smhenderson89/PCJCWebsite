@@ -2,52 +2,35 @@
   "awardNum": "20245370",
   "award": "HCC",
   "awardpoints": 77,
-  "location": "",
+  "location": "San Francisco",
   "date": "March 5, 2024",
   "genus": "Paphiopedilum",
-  "species": "armeniacum",
-  "clone": "s Delight ",
-  "cross": "Paphiopedilum armeniacum × Paphiopedilum micranthum",
+  "species": "Fumi's Delight",
+  "clone": "Carol Z",
+  "cross": "Paphiopedilum armeniacum x Paphiopedilum micranthum",
   "exhibitor": "Chaunie Langland",
   "photographer": "Ken Jacobsen",
   "photo": "images/20245370.jpg",
-  "thumbnail": "images/thumbnail/20245370thumb.jpg",
   "measurements": {
-    "type": "Pouch&Sepal",
-    "NS": 10,
-    "NSV": 11,
-    "DSL": 4,
-    "DSW": 3,
-    "PETL": 4.7,
-    "PETW": 4.2,
+    "type": "LateralSepal",
     "numFlowers": 1,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "One well-presented flower on one 25-cm inflorescence; dorsal sepal slighty wavy, chartreuse distally, yellow basally, well-defined cordovan reticulation; synsepal chartreuse; petals slightly wavy, yellow, well-defined cordovan reticulation; pouch clear bright yellow; staminode yellow, spotted cordovan distally; substance medium; texture waxy.",
-    "PCHW": 5.4,
-    "SYNSL": 3.6,
-    "SYNSW": 2.9
+    "description": "One well-presented flower on one 25-cm inflorescence; \n   dorsal sepal slighty wavy, chartreuse distally, yellow basally, well-defined cordovan reticulation;\n   synsepal chartreuse;\n   petals slightly wavy, yellow, well-defined cordovan reticulation;\n   pouch clear bright yellow;\n   staminode yellow, spotted cordovan distally; \n   \n   substance medium; texture waxy.",
+    "NS": 10,
+    "NSV": 11,
+    "DSW": 3,
+    "DSL": 4,
+    "PETW": 4.2,
+    "PETL": 4.7
   },
-  "scrapedDate": "2025-10-04T06:14:09.552Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240305/20245370.html",
+  "scrapedDate": "2025-10-12T02:38:25.639Z",
+  "sourceUrl": "https://www.paccentraljc.org/240305/20245370.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245370.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.814Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245370",
-      "newValue": "https://www.paccentraljc.org/240305/20245370.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.279Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240305/20245370.html",
-      "newValue": "https://www.paccentraljc.org/20240305/20245370.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.640Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

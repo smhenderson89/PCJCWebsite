@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-12T02:14:58.034Z",
+  "purpose": "Focused analysis showing only 2025 awards with missing data",
+  "summary": {
+    "totalFiles": 96,
+    "perfectFiles": 96,
+    "filesWithMissingData": 0,
+    "completionRate": "100.0%"
+  },
+  "missingDataBreakdown": {
+    "critical": 0,
+    "important": 0,
+    "measurements": 0,
+    "descriptionOnly": 0
+  },
+  "problematicFiles": {
+    "critical": [],
+    "important": [],
+    "measurements": [],
+    "descriptionOnly": []
+  }
+}

@@ -2,52 +2,34 @@
   "awardNum": "20255293",
   "award": "CHM",
   "awardpoints": 82,
-  "location": "Filoli Historic House Monthly",
+  "location": "Filoli Historic House",
   "date": "May 17, 2025",
   "genus": "Cymbidium",
   "species": "parishii",
   "clone": "Reverend Charles",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "C. Todd Kennedy",
   "photographer": "Chaunie Langland",
   "photo": "images/20255293.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 7,
-    "NSV": 7,
-    "DSL": 5,
-    "DSW": 1.7,
-    "PETL": 4.4,
-    "PETW": 1.5,
     "numFlowers": 3,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "Three stellate, cream flowers on one unsupported arching 47-cm inflorescence; four green bracts extending to the lowest pedicle, emerging from a leaf axil of a fusiform pseudobulb; leaves widest at midlength and slight unequally bilobed; 72-cm wide by 49-cm tall plant grown in bark and perlite, 15- cm diameter black plastic pot; sepals linear; petals narrowly ovate; lip cymbiform, blotched and striated burgundy, yellow centrally, keels yellow; column overlaid blush rose, anther cap pale yellow; substance firm; texture matte; copious nectar noted on inflorescence and flowers.",
+    "description": "Three stellate, cream flowers on one unsupported arching 47-cm inflorescence;\nfour green bracts extending to the lowest pedicle, emerging from a leaf axil of a fusiform pseudobulb;\nleaves widest at midlength and slight unequally bilobed;\n 72-cm wide by 49-cm tall plant grown in bark and perlite, 15- cm diameter black plastic pot;\n sepals linear; \n petals narrowly ovate;\n lip cymbiform, blotched and striated burgundy, yellow centrally, keels yellow;\n column overlaid blush rose, anther cap pale yellow; \n substance firm; texture matte;\n copious nectar noted on inflorescence and flowers.",
+    "NS": 7,
+    "NSV": 7,
+    "DSW": 1.7,
+    "DSL": 5,
+    "PETW": 1.5,
+    "PETL": 4.4,
     "LSW": 1.7,
     "LSL": 4.5,
     "LIPW": 2,
     "LIPL": 3.5
   },
-  "scrapedDate": "2025-10-04T06:36:44.346Z",
+  "scrapedDate": "2025-10-12T01:27:56.801Z",
   "sourceUrl": "https://www.paccentraljc.org/250517/20255293.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255293.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.882Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Filoli Historic House Monthly",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.697Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255293",
-      "newValue": "https://www.paccentraljc.org/250517/20255293.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

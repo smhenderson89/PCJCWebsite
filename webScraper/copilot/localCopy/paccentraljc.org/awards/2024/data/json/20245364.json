@@ -2,52 +2,35 @@
   "awardNum": "20245364",
   "award": "AM",
   "awardpoints": 80,
-  "location": "",
+  "location": "Pacific Orchid Exposition",
   "date": "February 15, 2024",
   "genus": "Paphiopedilum",
   "species": "sukhakulii",
   "clone": "Jade Dragon",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Japheth Ko",
   "photographer": "Ken Jacobsen",
   "photo": "images/20245364.jpg",
-  "thumbnail": "images/thumbnail/20245364thumb.jpg",
   "measurements": {
-    "type": "Pouch&Sepal",
-    "NS": 13.9,
-    "NSV": 9.3,
-    "DSL": 5.1,
-    "DSW": 3.9,
-    "PETL": 7.1,
-    "PETW": 2.6,
+    "type": "LateralSepal",
     "numFlowers": 1,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "One symmetrical flower on one 11.9-cm inflorescence; sepals white, cleanly veined green, dorsal sepal slightly cupped; petals marginally hirsute, green heavily spotted cordovan; pouch chartreuse, heavily suffused and veined burgundy; staminode light green, darker green centrally; substance medium; texture glossy, pouch matte.",
-    "PCHW": 3.1,
-    "SYNSL": 4.9,
-    "SYNSW": 3.8
+    "description": "One symmetrical flower on one 11.9-cm inflorescence;\n   sepals white, cleanly veined green, dorsal sepal slightly cupped; \n   petals marginally hirsute, green heavily spotted cordovan;\n   pouch chartreuse, heavily suffused and veined burgundy;\n   staminode light green, darker green centrally;\n   \n   \n   substance medium; texture glossy, pouch matte.",
+    "NS": 13.9,
+    "NSV": 9.3,
+    "DSW": 3.9,
+    "DSL": 5.1,
+    "PETW": 2.6,
+    "PETL": 7.1
   },
-  "scrapedDate": "2025-10-04T06:14:09.541Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240215/20245364.html",
+  "scrapedDate": "2025-10-12T02:38:25.625Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245364.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245364.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.810Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245364",
-      "newValue": "https://www.paccentraljc.org/240215/20245364.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.276Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240215/20245364.html",
-      "newValue": "https://www.paccentraljc.org/20240215/20245364.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.626Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

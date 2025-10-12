@@ -2,52 +2,34 @@
   "awardNum": "20255307",
   "award": "HCC",
   "awardpoints": 79,
-  "location": "Filoli Historic House Monthly",
+  "location": "Filoli Historic House",
   "date": "June 21, 2025",
   "genus": "Disa",
   "species": "uniflora",
   "clone": "Seedstudio Ruby Castro",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Seed Studio",
   "photographer": "Chaunie Langland",
   "photo": "images/20255307.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 10.4,
-    "NSV": 7.2,
-    "DSL": 7.2,
-    "DSW": 8.7,
-    "PETL": 4,
-    "PETW": 1.2,
     "numFlowers": 3,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "Three stately flowers on one upright, staked 35-cm inflorescence; dorsal sepal cupped, orange-pink, dark scarlet venation, spur 2.3-cm, orange-pink; lateral sepals broadly elliptic, orange-pink; petals cymbiform, orange-pink, overlaid yellow, spotted scarlet; lip narrowly lanceolate, reflexed apically, deep orange-pink, lighter basally; substance firm; texture velvet.",
+    "description": "Three stately flowers on one upright, staked 35-cm inflorescence;\n dorsal sepal cupped, orange-pink, dark scarlet venation, spur 2.3-cm, orange-pink;\n lateral sepals broadly elliptic, orange-pink;\n petals cymbiform, orange-pink, overlaid yellow, spotted scarlet;\n lip narrowly lanceolate, reflexed apically, deep orange-pink, lighter basally;\n substance firm; texture velvet.",
+    "NS": 10.4,
+    "NSV": 7.2,
+    "DSW": 8.7,
+    "DSL": 7.2,
+    "PETW": 1.2,
+    "PETL": 4,
     "LSW": 4.3,
     "LSL": 6,
     "LIPW": 0.5,
     "LIPL": 2.5
   },
-  "scrapedDate": "2025-10-04T06:36:44.365Z",
+  "scrapedDate": "2025-10-12T01:27:56.838Z",
   "sourceUrl": "https://www.paccentraljc.org/250621/20255307.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255307.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.896Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Filoli Historic House Monthly",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.708Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255307",
-      "newValue": "https://www.paccentraljc.org/250621/20255307.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

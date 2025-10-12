@@ -2,53 +2,39 @@
   "awardNum": "20245276",
   "award": "HCC",
   "awardpoints": 79,
-  "location": "",
+  "location": "Peninsula Orchid Society and Gold Coast Cymbidium Society Show",
   "date": "April 27, 2024",
   "genus": "Cattleya",
   "species": "jongheana",
   "clone": "Celia",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Anthony Rivera",
   "photographer": "Chaunie Langland",
   "photo": "images/20245276.jpg",
-  "thumbnail": "images/thumbnail/20245276thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 15,
-    "NSV": 12,
-    "DSL": 7.9,
-    "DSW": 2,
-    "PETL": 7.7,
-    "PETW": 3.9,
     "numFlowers": 1,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "One fairly flat flower on one 4-cm inflorescence; sepals lanceolate, tips reflexed, lavender-pink, darker medial stripes; petals ovate, lancolate, lavender-pink, darker veins; lip tubular, ruffled edge, white overlaid dark lavender proximally, yellow keel area, keels darker yellow, lavender picotee; column dark lavender, anther cap cream; substance firm; texture crystalline.",
+    "description": "One fairly flat flower on one 4-cm inflorescence; \n\n sepals lanceolate, tips reflexed, lavender-pink, darker medial stripes;\n petals ovate, lancolate, lavender-pink, darker veins; \n lip tubular, ruffled edge, white overlaid dark lavender proximally, yellow keel area, keels darker yellow, lavender picotee; \n\n column dark lavender, anther cap cream;\n substance firm; texture crystalline.",
+    "NS": 15,
+    "NSV": 12,
+    "DSW": 2,
+    "DSL": 7.9,
+    "PETW": 3.9,
+    "PETL": 7.7,
     "LSW": 2,
     "LSL": 7.1,
     "LIPW": 2.5,
     "LIPL": 4.9
   },
-  "scrapedDate": "2025-10-04T06:14:09.499Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240427/20245276.html",
+  "scrapedDate": "2025-10-12T02:38:25.533Z",
+  "sourceUrl": "https://www.paccentraljc.org/240427/20245276.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245276.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.791Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245276",
-      "newValue": "https://www.paccentraljc.org/240427/20245276.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.262Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240427/20245276.html",
-      "newValue": "https://www.paccentraljc.org/20240427/20245276.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.535Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

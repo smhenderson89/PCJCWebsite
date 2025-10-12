@@ -2,53 +2,39 @@
   "awardNum": "20245261",
   "award": "CCM",
   "awardpoints": 81,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "March 16, 2024",
   "genus": "Aerangis",
   "species": "fastuosa",
   "clone": "Ionia",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "James Heilig & Matthew Berry",
   "photographer": "Chaunie Langland",
   "photo": "images/20245261.jpg",
-  "thumbnail": "images/thumbnail/20245261thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 3.1,
-    "NSV": 3.8,
-    "DSL": 3.2,
-    "DSW": 1,
-    "PETL": 3.2,
-    "PETW": 1.4,
     "numFlowers": 11,
     "numBuds": 0,
     "numInflorescences": 3,
-    "description": "Eleven flowers on three up to 3.7-cm inflorescences; single growth, 18 cm x 11.2 cm, grown on 9.6-cm x 11.8-cm cork mount; flowers cupped, white; nectary 7.7 cm; substance very firm; texture crystalline.",
+    "description": "Eleven flowers on three up to 3.7-cm inflorescences; \n single growth, 18 cm x 11.2 cm, grown on 9.6-cm x 11.8-cm cork mount;\n  flowers cupped, white;\n   nectary 7.7 cm;\n  \n   substance very firm;\n texture crystalline.",
+    "NS": 3.1,
+    "NSV": 3.8,
+    "DSW": 1,
+    "DSL": 3.2,
+    "PETW": 1.4,
+    "PETL": 3.2,
     "LSW": 0.8,
     "LSL": 3.5,
     "LIPW": 1.5,
     "LIPL": 3.3
   },
-  "scrapedDate": "2025-10-04T07:01:12.778Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240316/20245261.html",
+  "scrapedDate": "2025-10-12T02:38:25.490Z",
+  "sourceUrl": "https://www.paccentraljc.org/240316/20245261.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245261.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.782Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245261",
-      "newValue": "https://www.paccentraljc.org/240316/20245261.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.248Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240316/20245261.html",
-      "newValue": "https://www.paccentraljc.org/20240316/20245261.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.491Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

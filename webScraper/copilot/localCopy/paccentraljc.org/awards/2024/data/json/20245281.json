@@ -2,53 +2,39 @@
   "awardNum": "20245281",
   "award": "AM",
   "awardpoints": 82,
-  "location": "",
+  "location": "Peninsula Orchid Society and Gold Coast Cymbidium Society Show",
   "date": "April 27, 2024",
   "genus": "Cymbidium",
-  "species": "serratum",
+  "species": "Exeter Jadeite",
   "clone": "Winston",
-  "cross": "Cymbidium serratum × Cymbidium Eastern Venus",
+  "cross": "Cymbidium serratum x Cymbidium Eastern Venus",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20245281.jpg",
-  "thumbnail": "images/thumbnail/20245281thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 8.5,
-    "NSV": 7.1,
-    "DSL": 5,
-    "DSW": 1.5,
-    "PETL": 3.9,
-    "PETW": 1.4,
     "numFlowers": 4,
     "numBuds": 0,
     "numInflorescences": 2,
-    "description": "Four starry flowers on two upright 11-cm inflorescences; sepals and petals soft light green, petals slightly porrect; lip cream, keels light yellow, midlobe lightly flushed pink laterally, light green apically; column light green, speckled maroon ventrally, anther cap cream; substance firm; texture matte.",
+    "description": "Four starry flowers on two upright 11-cm inflorescences; \n \n sepals and petals soft light green, petals slightly porrect;\n \n lip cream, keels light yellow, midlobe lightly flushed pink laterally, light green apically; \n\n column light green, speckled maroon ventrally, anther cap cream;\n substance firm; texture matte.",
+    "NS": 8.5,
+    "NSV": 7.1,
+    "DSW": 1.5,
+    "DSL": 5,
+    "PETW": 1.4,
+    "PETL": 3.9,
     "LSW": 1.5,
     "LSL": 4.8,
     "LIPW": 1.5,
     "LIPL": 2.3
   },
-  "scrapedDate": "2025-10-04T06:14:09.505Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240427/20245281.html",
+  "scrapedDate": "2025-10-12T02:38:25.546Z",
+  "sourceUrl": "https://www.paccentraljc.org/240427/20245281.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245281.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.800Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245281",
-      "newValue": "https://www.paccentraljc.org/240427/20245281.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.265Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240427/20245281.html",
-      "newValue": "https://www.paccentraljc.org/20240427/20245281.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.548Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

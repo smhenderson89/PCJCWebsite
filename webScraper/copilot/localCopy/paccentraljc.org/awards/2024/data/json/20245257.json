@@ -2,53 +2,39 @@
   "awardNum": "20245257",
   "award": "AM",
   "awardpoints": 82,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "February 17, 2024",
   "genus": "Cattleya",
   "species": "Tiny Star",
   "clone": "Azha",
-  "cross": "Cattleya Pole Star × Cattleya cernua",
+  "cross": "Cattleya Pole Star x Cattleya cernua",
   "exhibitor": "Catherine Obillo",
   "photographer": "Chaunie Langland",
   "photo": "images/20245257.jpg",
-  "thumbnail": "images/thumbnail/20245257thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 5.3,
-    "NSV": 5.4,
-    "DSL": 2.8,
-    "DSW": 1.6,
-    "PETL": 2.6,
-    "PETW": 2.6,
     "numFlowers": 3,
     "numBuds": 1,
     "numInflorescences": 1,
-    "description": "Three full, vibrant flowers and one bud on one 3.0-cm inflorescence; sepals orange; petals brilliant scarlet-orange; lip orange overlaid dark scarlet apically; column light orange, anther cap cream; substance firm; texture crystalline.",
+    "description": "Three full, vibrant flowers and one bud on one 3.0-cm inflorescence; \n   sepals orange;\n   petals brilliant scarlet-orange;\n   lip orange overlaid dark scarlet apically;\n   column light orange, anther cap cream; substance firm;\n texture crystalline.",
+    "NS": 5.3,
+    "NSV": 5.4,
+    "DSW": 1.6,
+    "DSL": 2.8,
+    "PETW": 2.6,
+    "PETL": 2.6,
     "LSW": 1.4,
     "LSL": 2.6,
     "LIPW": 1.2,
     "LIPL": 2
   },
-  "scrapedDate": "2025-10-04T07:01:12.769Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240217/20245257.html",
+  "scrapedDate": "2025-10-12T02:38:25.473Z",
+  "sourceUrl": "https://www.paccentraljc.org/240217/20245257.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245257.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.780Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245257",
-      "newValue": "https://www.paccentraljc.org/240217/20245257.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.246Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240217/20245257.html",
-      "newValue": "https://www.paccentraljc.org/20240217/20245257.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.475Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

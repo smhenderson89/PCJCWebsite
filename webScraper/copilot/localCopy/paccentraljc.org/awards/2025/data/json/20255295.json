@@ -1,53 +1,35 @@
 {
   "awardNum": "20255295",
   "award": "CBR",
-  "awardpoints": null,
-  "location": "Filoli Historic House Monthly",
+  "awardpoints": "N/A",
+  "location": "Filoli Historic House",
   "date": "May 17, 2025",
   "genus": "Epidendrum",
   "species": "camposii",
   "clone": "Daxin Shu",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Evan Shen",
   "photographer": "Chaunie Langland",
   "photo": "images/20255295.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 1.5,
-    "NSV": 1.5,
-    "DSL": 1.1,
-    "DSW": 0.3,
-    "PETL": 0.9,
-    "PETW": 0.1,
     "numFlowers": 96,
     "numBuds": 279,
     "numInflorescences": 27,
-    "description": "Ninety six flowers and 279 buds alternately arranged on 27 pendulous lateral 7.5-cm inflorescences; canes terete, upright 48.5 cm long; leaves lanceolate, alternate, margins are entire; ovaries terete, verrucose; sepals narrowly obovate, verrucose on abaxial surface, yellow-orange; petals filamentous, curved, cream; lip trilobed, orange centrally, white on margin, adnate to column, three calli, central callus extending to margin of lip; column bilobular, obovate, white, green basally, anther cap tan; substance firm; texture matte; light floral fragrance, recognized for educational value and rarity in cultivation.",
+    "description": "Ninety six flowers and 279 buds alternately arranged on 27 pendulous lateral 7.5-cm inflorescences;\n canes terete, upright 48.5 cm long; leaves lanceolate, alternate, margins are entire;\n ovaries terete, verrucose;\n sepals narrowly obovate, verrucose on abaxial surface, yellow-orange;\n petals filamentous, curved, cream; \n lip trilobed, orange centrally, white on margin, adnate to column, three calli,\n central callus extending to margin of lip; column bilobular, obovate, white, green basally,\n anther cap tan; substance firm; texture matte;\n light floral fragrance, recognized for educational value and rarity in cultivation.",
+    "NS": 1.5,
+    "NSV": 1.5,
+    "DSW": 0.3,
+    "DSL": 1.1,
+    "PETW": 0.1,
+    "PETL": 0.9,
     "LSW": 0.8,
     "LSL": 0.8,
     "LIPW": 0.8,
     "LIPL": 1.2
   },
-  "scrapedDate": "2025-10-04T06:36:44.349Z",
+  "scrapedDate": "2025-10-12T01:27:56.806Z",
   "sourceUrl": "https://www.paccentraljc.org/250517/20255295.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255295.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.885Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Filoli Historic House Monthly",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.698Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255295",
-      "newValue": "https://www.paccentraljc.org/250517/20255295.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

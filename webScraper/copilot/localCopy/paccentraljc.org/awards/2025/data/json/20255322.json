@@ -2,61 +2,34 @@
   "awardNum": "20255322",
   "award": "CCM",
   "awardpoints": 84,
-  "location": "Filoli Historic House Monthly",
+  "location": "Filoli Historic House",
   "date": "August 16, 2025",
-  "genus": "Jungle",
-  "species": "Beau",
+  "genus": "Cattleya",
+  "species": "Jungle Beau",
   "clone": "H & R",
-  "cross": "Cattleya Jungle Elf × Cattleya Beaufort",
+  "cross": "Cattleya Jungle Elf x Cattleya Beaufort",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20255322.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 7.3,
-    "NSV": 7.5,
-    "DSL": 4.1,
-    "DSW": 2.1,
-    "PETL": 3.7,
-    "PETW": 2.8,
     "numFlowers": 77,
     "numBuds": 7,
     "numInflorescences": 31,
-    "description": "Seventy-seven flowers and seven buds on 31 15-cm inflorescences; sepals oblanceolate, bright yellow; petals orbicular, bright yellow; lip open, auriculate, ruffled margin, yellow overlaid red centrally, callus bright yellow, side lobes yellow; column cream, anther cap cream; substance firm; texture satin.",
+    "description": "Seventy-seven flowers and seven buds on 31 15-cm inflorescences;\n sepals oblanceolate, bright yellow;\n petals orbicular, bright yellow;\n lip open, auriculate, ruffled margin, \nyellow overlaid red centrally, callus bright yellow, side lobes yellow;\n column cream, anther cap cream;\n substance firm; texture satin.",
+    "NS": 7.3,
+    "NSV": 7.5,
+    "DSW": 2.1,
+    "DSL": 4.1,
+    "PETW": 2.8,
+    "PETL": 3.7,
     "LSW": 2.1,
     "LSL": 3.9,
     "LIPW": 2.3,
     "LIPL": 3.4
   },
-  "scrapedDate": "2025-10-04T06:36:44.385Z",
+  "scrapedDate": "2025-10-12T01:27:56.867Z",
   "sourceUrl": "https://www.paccentraljc.org/250816/20255322.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255322.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.911Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Filoli Historic House Monthly",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-06T03:39:18.154Z",
-      "changes": [
-        "award: null → \"CCM\"",
-        "awardpoints: null → 84"
-      ],
-      "reason": "Fixed missing award data from HTML source",
-      "source": "automated-html-extraction"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.716Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255322",
-      "newValue": "https://www.paccentraljc.org/250816/20255322.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

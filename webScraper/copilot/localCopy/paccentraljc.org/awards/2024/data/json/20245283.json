@@ -2,53 +2,39 @@
   "awardNum": "20245283",
   "award": "HCC",
   "awardpoints": 77,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "May 18, 2024",
   "genus": "Sarcochilus",
   "species": "Thurber Country",
   "clone": "Katy",
-  "cross": "Sarcochilus Kulnura Sanctuary 'GeeBee' × Sarcochilus Roberta 'Good Yellow'",
+  "cross": "Sarcochilus Kulnura Sanctuary 'GeeBee' x Sarcochilus Roberta 'Good Yellow'",
   "exhibitor": "Tom Waugh",
   "photographer": "Chaunie Langland",
   "photo": "images/20245283.jpg",
-  "thumbnail": "images/thumbnail/20245283thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 2.9,
-    "NSV": 3,
-    "DSL": 1.5,
-    "DSW": 1.2,
-    "PETL": 1.4,
-    "PETW": 1,
     "numFlowers": 27,
     "numBuds": 6,
     "numInflorescences": 3,
-    "description": "Twenty-seven flowers and six buds on three up to 22-cm inflorescences; sepals and petals white, concentric maroon bars basally; lip white, maroon markings interior, yellow-maroon mark apically; column white, anther cap cream; substance firm; texture diamond dust.",
+    "description": "Twenty-seven flowers and six buds on three up to 22-cm inflorescences; \n \n sepals and petals white, concentric maroon bars basally;\n \n lip white, maroon markings interior, yellow-maroon mark apically; \n\n column white, anther cap cream;\n substance firm; texture diamond dust.",
+    "NS": 2.9,
+    "NSV": 3,
+    "DSW": 1.2,
+    "DSL": 1.5,
+    "PETW": 1,
+    "PETL": 1.4,
     "LSW": 1.2,
     "LSL": 1.4,
     "LIPW": 0.6,
     "LIPL": 0.7
   },
-  "scrapedDate": "2025-10-04T07:01:12.830Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240518/20245283.html",
+  "scrapedDate": "2025-10-12T02:38:25.551Z",
+  "sourceUrl": "https://www.paccentraljc.org/240518/20245283.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245283.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.801Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245283",
-      "newValue": "https://www.paccentraljc.org/240518/20245283.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.266Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240518/20245283.html",
-      "newValue": "https://www.paccentraljc.org/20240518/20245283.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.552Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

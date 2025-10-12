@@ -2,63 +2,39 @@
   "awardNum": "20245274",
   "award": "CBR",
   "awardpoints": "N/A",
-  "location": "",
+  "location": "Peninsula Orchid Society and Gold Coast Cymbidium Society Show",
   "date": "April 27, 2024",
   "genus": "Microcoelia",
   "species": "cornuta",
   "clone": "Menominee",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Jim Heilig",
   "photographer": "Chaunie Langland",
   "photo": "images/20245274.jpg",
-  "thumbnail": "images/thumbnail/20245274thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 0.3,
-    "NSV": 0.6,
-    "DSL": 0.2,
-    "DSW": 0.1,
-    "PETL": 0.3,
-    "PETW": 0.2,
     "numFlowers": 32,
     "numBuds": 69,
     "numInflorescences": 14,
-    "description": "Thirty-two flowers and 69 buds on 14 up to 4.2-cm inflorescences; borne on a scandent, rhizomatous, leafless plant; inflorescences arising from the junction between rhizome and roots; dorsal sepal erect, widely elliptic, acute, yellow-brown; lateral sepals slightly reflexed, widely elliptic, acute, yellow-brown; petals minute, triangular, light green-brown; lip white, midlobe obcordate, spur 0.5 cm in length, yellow-brown; column erect, orange, anther cap orange; substance thin; texture matte; awarded as an unusal species for North American culture; general appearance mostly roots; an interesting example of a leafless orchid.",
+    "description": "Thirty-two flowers and 69 buds on 14 up to 4.2-cm inflorescences; \n borne on a scandent, rhizomatous, leafless plant; inflorescences arising from the junction between rhizome and roots;  \n dorsal sepal erect, widely elliptic, acute, yellow-brown;\n lateral sepals slightly reflexed, widely elliptic, acute, yellow-brown;\n petals minute, triangular, light green-brown;\n lip white, midlobe obcordate, spur 0.5 cm in length, yellow-brown; \n column erect, orange, anther cap orange;\n \n substance thin; texture matte; awarded as an unusal species for North American culture; general appearance mostly roots;\n an interesting example of a leafless orchid.",
+    "NS": 0.3,
+    "NSV": 0.6,
+    "DSW": 0.1,
+    "DSL": 0.2,
+    "PETW": 0.2,
+    "PETL": 0.3,
     "LSW": 0.1,
     "LSL": 0.2,
     "LIPW": 0.2,
     "LIPL": 0.3
   },
-  "scrapedDate": "2025-10-04T06:14:09.496Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240427/20245274.html",
+  "scrapedDate": "2025-10-12T02:38:25.527Z",
+  "sourceUrl": "https://www.paccentraljc.org/240427/20245274.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245274.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T04:01:53.287Z",
-      "type": "enhanced_html_parsing",
-      "fields": [
-        "award",
-        "awardpoints"
-      ],
-      "source": "HTML file 20245274.html",
-      "note": "Enhanced parsing for non-point awards (JC, CBR, CHM) set to N/A"
-    },
-    {
-      "timestamp": "2025-10-08T03:51:39.789Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245274",
-      "newValue": "https://www.paccentraljc.org/240427/20245274.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.261Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240427/20245274.html",
-      "newValue": "https://www.paccentraljc.org/20240427/20245274.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.529Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
 }

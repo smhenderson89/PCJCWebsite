@@ -5,48 +5,27 @@
   "location": "San Francisco",
   "date": "June 3, 2025",
   "genus": "Paphiopedilum",
-  "species": "urbanianum",
+  "species": "QF Babylon",
   "clone": "Kaila",
-  "cross": "Paphiopedilum urbanianum × Paphiopedilum QF Voodoo",
+  "cross": "Paphiopedilum urbanianum x Paphiopedilum QF Voodoo",
   "exhibitor": "Chen Hao Hsu",
   "photographer": "Ken Jacobsen",
   "photo": "images/20255372.jpg",
   "measurements": {
-    "type": "Pouch&Sepal",
-    "NS": 12,
-    "NSV": 10.1,
-    "DSL": 4.5,
-    "DSW": 6.5,
-    "PETL": 6.5,
-    "PETW": 2.2,
+    "type": "LateralSepal",
     "numFlowers": 1,
     "numBuds": 1,
     "numInflorescences": 1,
-    "description": "One flower and one bud on one upright 35.5-cm inflorescence; sepals white, green basally, overlaid red-burgundy, deeper burgundy veins; petals green, darker green veins basally, red-burgundy apical three-forths, deep burgundy spots basal half, dense on basal superior margin; pouch red-burgundy, dark burgundy veins; staminode cream, olive green veins; substance firm; texture glossy.",
-    "PCHW": 2.5,
-    "SYNSL": 4,
-    "SYNSW": 2.8
+    "description": "One flower and one bud on one upright 35.5-cm inflorescence;\n sepals white, green basally, overlaid red-burgundy, deeper burgundy veins;\n petals green, darker green veins basally, red-burgundy apical three-forths, deep burgundy spots basal half, dense on basal superior margin;\n pouch red-burgundy, dark burgundy veins;\nstaminode cream, olive green veins; substance firm; texture glossy.",
+    "NS": 12,
+    "NSV": 10.1,
+    "DSW": 6.5,
+    "DSL": 4.5,
+    "PETW": 2.2,
+    "PETL": 6.5
   },
-  "scrapedDate": "2025-10-04T06:36:44.411Z",
+  "scrapedDate": "2025-10-12T01:27:56.913Z",
   "sourceUrl": "https://www.paccentraljc.org/250603/20255372.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255372.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.935Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "San Francisco",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (only source available)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.728Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255372",
-      "newValue": "https://www.paccentraljc.org/250603/20255372.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

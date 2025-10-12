@@ -2,53 +2,39 @@
   "awardNum": "20245275",
   "award": "HCC",
   "awardpoints": 76,
-  "location": "",
+  "location": "Peninsula Orchid Society and Gold Coast Cymbidium Society Show",
   "date": "April 27, 2024",
   "genus": "Cattleya",
   "species": "jongheana",
   "clone": "Egret",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Anthony Rivera",
   "photographer": "Chaunie Langland",
   "photo": "images/20245275.jpg",
-  "thumbnail": "images/thumbnail/20245275thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 16.5,
-    "NSV": 16.2,
-    "DSL": 8.4,
-    "DSW": 1.9,
-    "PETL": 8.2,
-    "PETW": 3.6,
     "numFlowers": 2,
     "numBuds": 0,
     "numInflorescences": 2,
-    "description": "Two flowers of excellent form on two inflorescences; sepals and petals bright sparkling white; lip white, throat blushed yellow, keels dark yellow; substance firm; texture crystalline.",
+    "description": "Two flowers of excellent form on two inflorescences; \n sepals and petals bright sparkling white;\n lip white, throat blushed yellow, keels dark yellow; \n\n \n substance firm; texture crystalline.",
+    "NS": 16.5,
+    "NSV": 16.2,
+    "DSW": 1.9,
+    "DSL": 8.4,
+    "PETW": 3.6,
+    "PETL": 8.2,
     "LSW": 1.6,
     "LSL": 7.2,
     "LIPW": 2.2,
     "LIPL": 5.5
   },
-  "scrapedDate": "2025-10-04T06:14:09.497Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240427/20245275.html",
+  "scrapedDate": "2025-10-12T02:38:25.531Z",
+  "sourceUrl": "https://www.paccentraljc.org/240427/20245275.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245275.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.790Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245275",
-      "newValue": "https://www.paccentraljc.org/240427/20245275.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.261Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240427/20245275.html",
-      "newValue": "https://www.paccentraljc.org/20240427/20245275.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.532Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

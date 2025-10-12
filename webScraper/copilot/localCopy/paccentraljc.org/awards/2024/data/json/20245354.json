@@ -2,52 +2,35 @@
   "awardNum": "20245354",
   "award": "AM",
   "awardpoints": 81,
-  "location": "",
+  "location": "Pacific Orchid Exposition",
   "date": "February 15, 2024",
   "genus": "Paphiopedilum",
   "species": "Sierra Sky",
   "clone": "Mosel",
-  "cross": "Paphiopedilum Hawaiian Volcano × Paphiopedilum venustum",
+  "cross": "Paphiopedilum Hawaiian Volcano x Paphiopedilum venustum",
   "exhibitor": "Dave Sorokowsky",
   "photographer": "Ken Jacobsen",
   "photo": "images/20245354.jpg",
-  "thumbnail": "images/thumbnail/20245354thumb.jpg",
   "measurements": {
-    "type": "Pouch&Sepal",
-    "NS": 12.8,
-    "NSV": 8.3,
-    "DSL": 4.6,
-    "DSW": 4.3,
-    "PETL": 6.2,
-    "PETW": 2.9,
+    "type": "LateralSepal",
     "numFlowers": 1,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "One striking large flower on one 19.5-cm inflorescence; sepals white overlaid light green centrally, boldly striped dark green; petals hirsute, light golden yellow striped dark green, spotted dark mahogany along top edge, suffused rose distally; pouch green suffused dark rose, dark green venation; staminode green; substance firm; texture matte.",
-    "PCHW": 3.1,
-    "SYNSL": 4.2,
-    "SYNSW": 2.9
+    "description": "One striking large flower on one 19.5-cm inflorescence; \n   sepals white overlaid light green centrally, boldly striped dark green;\n   petals hirsute, light golden yellow striped dark green, spotted dark mahogany along top edge, suffused rose distally;\n   pouch green suffused dark rose, dark green venation; staminode green;\n   substance firm; texture matte.",
+    "NS": 12.8,
+    "NSV": 8.3,
+    "DSW": 4.3,
+    "DSL": 4.6,
+    "PETW": 2.9,
+    "PETL": 6.2
   },
-  "scrapedDate": "2025-10-04T07:01:12.842Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240215/20245354.html",
+  "scrapedDate": "2025-10-12T02:38:25.602Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245354.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245354.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.805Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245354",
-      "newValue": "https://www.paccentraljc.org/240215/20245354.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.270Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240215/20245354.html",
-      "newValue": "https://www.paccentraljc.org/20240215/20245354.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.603Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

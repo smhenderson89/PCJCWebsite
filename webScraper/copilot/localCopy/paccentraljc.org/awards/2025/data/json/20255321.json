@@ -2,52 +2,34 @@
   "awardNum": "20255321",
   "award": "HCC",
   "awardpoints": 78,
-  "location": "Filoli Historic House Monthly",
+  "location": "Filoli Historic House",
   "date": "August 16, 2025",
   "genus": "Cymbidium",
   "species": "ensifolium",
   "clone": "Su Jun He",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Mary Bui-Pham",
   "photographer": "Chaunie Langland",
   "photo": "images/20255321.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 3.8,
-    "NSV": 5,
-    "DSL": 2.6,
-    "DSW": 1.2,
-    "PETL": 2.5,
-    "PETW": 1.1,
     "numFlowers": 5,
     "numBuds": 7,
     "numInflorescences": 2,
-    "description": "Five flowers and seven buds on two up to 26.5-cm inflorescences and one immature inflorescence; sepals lanceolate, light green, darker green distally; petals porrect, light green; lip ovate, slightly ruffled mid-lobe, reflexed tip; column cream overlaid light chartreuse, anther cap yellow; substance firm; texture waxy.",
+    "description": "Five flowers and seven buds on two up to 26.5-cm inflorescences and one immature inflorescence;\n sepals lanceolate, light green, darker green distally;\n petals porrect, light green;\n lip ovate, slightly ruffled mid-lobe, reflexed tip;\n column cream overlaid light chartreuse, anther cap yellow;\n substance firm; texture waxy.",
+    "NS": 3.8,
+    "NSV": 5,
+    "DSW": 1.2,
+    "DSL": 2.6,
+    "PETW": 1.1,
+    "PETL": 2.5,
     "LSW": 1.2,
     "LSL": 2.6,
     "LIPW": 1.4,
     "LIPL": 2.2
   },
-  "scrapedDate": "2025-10-04T06:36:44.383Z",
+  "scrapedDate": "2025-10-12T01:27:56.866Z",
   "sourceUrl": "https://www.paccentraljc.org/250816/20255321.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255321.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.910Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Filoli Historic House Monthly",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.715Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255321",
-      "newValue": "https://www.paccentraljc.org/250816/20255321.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

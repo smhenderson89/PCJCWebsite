@@ -2,53 +2,39 @@
   "awardNum": "20245360",
   "award": "FCC",
   "awardpoints": 91,
-  "location": "",
+  "location": "Pacific Orchid Exposition",
   "date": "February 15, 2024",
   "genus": "Dendrobium",
   "species": "Brimbank Fire",
   "clone": "SVO Fantastic",
-  "cross": "Dendrobium Ray's Dream × Dendrobium speciosum",
+  "cross": "Dendrobium Ray's Dream x Dendrobium speciosum",
   "exhibitor": "Sunset Valley Orchids",
   "photographer": "Ken Jacobsen",
   "photo": "images/20245360.jpg",
-  "thumbnail": "images/thumbnail/20245360thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 6.7,
-    "NSV": 7,
-    "DSL": 4.5,
-    "DSW": 1,
-    "PETL": 4,
-    "PETW": 0.6,
     "numFlowers": 78,
     "numBuds": 1,
     "numInflorescences": 5,
-    "description": "Seventy-eight striking, slightly cupped flowers and one bud on five up to 21.5-cm inflorescences; sepals cream overlaid deep burgundy apical two-thirds, lateral sepal falcate; petals cream blotched burgundy basally, apical two-thirds deep burgundy; lip trilobed, cream, sidelobes heavily overlaid and striped burgundy, midlobe blotched dark burgundy, callis light yellow; column cream; substance medium; texture glossy.",
+    "description": "Seventy-eight striking, slightly cupped flowers and one bud on five up to 21.5-cm inflorescences; \n   sepals cream overlaid deep burgundy apical two-thirds, lateral sepal falcate;\n   petals cream blotched burgundy basally, apical two-thirds deep burgundy;\n   lip trilobed, cream, sidelobes heavily overlaid and striped burgundy, midlobe blotched dark burgundy, callis light yellow;\n   column cream;\n   substance medium; texture glossy.",
+    "NS": 6.7,
+    "NSV": 7,
+    "DSW": 1,
+    "DSL": 4.5,
+    "PETW": 0.6,
+    "PETL": 4,
     "LSW": 1.4,
     "LSL": 4,
     "LIPW": 0.8,
     "LIPL": 2.2
   },
-  "scrapedDate": "2025-10-04T07:01:12.852Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240215/20245360.html",
+  "scrapedDate": "2025-10-12T02:38:25.615Z",
+  "sourceUrl": "https://www.paccentraljc.org/240215/20245360.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245360.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.808Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245360",
-      "newValue": "https://www.paccentraljc.org/240215/20245360.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.273Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240215/20245360.html",
-      "newValue": "https://www.paccentraljc.org/20240215/20245360.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.616Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

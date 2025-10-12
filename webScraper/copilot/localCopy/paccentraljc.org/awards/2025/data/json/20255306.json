@@ -2,52 +2,34 @@
   "awardNum": "20255306",
   "award": "HCC",
   "awardpoints": 75,
-  "location": "Filoli Historic House Monthly",
+  "location": "Filoli Historic House",
   "date": "June 21, 2025",
   "genus": "Disa",
   "species": "uniflora",
   "clone": "Seedstudio Lemon Light",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Seed Studio",
   "photographer": "Chaunie Langland",
   "photo": "images/20255306.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 11.3,
-    "NSV": 8,
-    "DSL": 5.1,
-    "DSW": 6,
-    "PETL": 1.5,
-    "PETW": 0.4,
     "numFlowers": 1,
     "numBuds": 1,
     "numInflorescences": 1,
-    "description": "One triangular flower and one bud on one upright 18-cm inflorescence; sepals obtrullate, pure bright yellow; petals hooked, bright yellow; lip lanceolate, white shading to yellow distally; substance firm; texture matte.",
+    "description": "One triangular flower and one bud on one upright 18-cm inflorescence;\n sepals obtrullate, pure bright yellow;\n petals hooked, bright yellow;\n lip lanceolate, white shading to yellow distally;\n substance firm; texture matte.",
+    "NS": 11.3,
+    "NSV": 8,
+    "DSW": 6,
+    "DSL": 5.1,
+    "PETW": 0.4,
+    "PETL": 1.5,
     "LSW": 3.4,
     "LSL": 6.2,
     "LIPW": 1,
     "LIPL": 5
   },
-  "scrapedDate": "2025-10-04T06:36:44.363Z",
+  "scrapedDate": "2025-10-12T01:27:56.836Z",
   "sourceUrl": "https://www.paccentraljc.org/250621/20255306.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255306.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.895Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Filoli Historic House Monthly",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.707Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255306",
-      "newValue": "https://www.paccentraljc.org/250621/20255306.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

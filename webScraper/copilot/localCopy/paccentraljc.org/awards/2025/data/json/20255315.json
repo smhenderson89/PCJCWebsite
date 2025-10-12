@@ -2,52 +2,34 @@
   "awardNum": "20255315",
   "award": "HCC",
   "awardpoints": 78,
-  "location": "Filoli Historic House Monthly",
+  "location": "Filoli Historic House",
   "date": "July 19, 2025",
   "genus": "Cattleya",
   "species": "purpurata",
   "clone": "Burning Hot",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20255315.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 14,
-    "NSV": 14.9,
-    "DSL": 8.3,
-    "DSW": 1.8,
-    "PETL": 8.1,
-    "PETW": 4,
     "numFlowers": 7,
     "numBuds": 0,
     "numInflorescences": 3,
-    "description": "Seven flowers on three up to 42.1-cm inflorescences; sepals acuminate, cream, suffused and veined dark magenta; petals acute, ruffled, cream, heavily overlaid and veined dark magenta; lip ruffled, tubular over column, throat yellow veined dark magenta; column cream, anther cap cream; substance medium, texture crystalline.",
+    "description": "Seven flowers on three up to 42.1-cm inflorescences;\n sepals acuminate, cream, suffused and veined dark magenta;\n petals acute, ruffled, cream, heavily overlaid and veined dark magenta;\n lip ruffled, tubular over column, throat yellow veined dark magenta;\n column cream, anther cap cream; \nsubstance medium, texture crystalline.",
+    "NS": 14,
+    "NSV": 14.9,
+    "DSW": 1.8,
+    "DSL": 8.3,
+    "PETW": 4,
+    "PETL": 8.1,
     "LSW": 1.9,
     "LSL": 8.2,
     "LIPW": 3.9,
     "LIPL": 5.4
   },
-  "scrapedDate": "2025-10-04T06:36:44.374Z",
+  "scrapedDate": "2025-10-12T01:27:56.853Z",
   "sourceUrl": "https://www.paccentraljc.org/250719/20255315.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255315.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.906Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Filoli Historic House Monthly",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.712Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255315",
-      "newValue": "https://www.paccentraljc.org/250719/20255315.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

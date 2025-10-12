@@ -2,52 +2,34 @@
   "awardNum": "20255299",
   "award": "AM",
   "awardpoints": 83,
-  "location": "Filoli Historic House Monthly",
+  "location": "Filoli Historic House",
   "date": "May 17, 2025",
   "genus": "Dendrobium",
   "species": "wardianum",
   "clone": "Ailleurs Dream",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Kaiju Lyu",
   "photographer": "Chaunie Langland",
   "photo": "images/20255299.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 11.2,
-    "NSV": 9.5,
-    "DSL": 5.5,
-    "DSW": 2.5,
-    "PETL": 5.9,
-    "PETW": 3,
     "numFlowers": 8,
     "numBuds": 2,
     "numInflorescences": 5,
-    "description": "Eight starry flowers and two buds on five up to 11.5-cm inflorescences; flowers bright white; sepals and petals lanceolate, tipped brilliant magenta; lip cupuliform, tipped bright magenta, throat orange-yellow, two large dark magenta spots at back, 0.7-cm spur green; substance medium; texture waxy; 14 canes.",
+    "description": "Eight starry flowers and two buds on five up to 11.5-cm inflorescences;\n flowers bright white; sepals and petals lanceolate, tipped brilliant magenta;\n lip cupuliform, tipped bright magenta, throat orange-yellow, two large dark magenta spots at back,\n 0.7-cm spur green; substance medium; texture waxy; 14 canes.",
+    "NS": 11.2,
+    "NSV": 9.5,
+    "DSW": 2.5,
+    "DSL": 5.5,
+    "PETW": 3,
+    "PETL": 5.9,
     "LSW": 2.1,
     "LSL": 5.7,
     "LIPW": 3,
     "LIPL": 4.2
   },
-  "scrapedDate": "2025-10-04T06:36:44.354Z",
+  "scrapedDate": "2025-10-12T01:27:56.823Z",
   "sourceUrl": "https://www.paccentraljc.org/250517/20255299.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255299.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.888Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Filoli Historic House Monthly",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.701Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255299",
-      "newValue": "https://www.paccentraljc.org/250517/20255299.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

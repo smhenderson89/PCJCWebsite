@@ -2,63 +2,39 @@
   "awardNum": "20245266",
   "award": "CBR",
   "awardpoints": "N/A",
-  "location": "",
+  "location": "Sonoma County OS Show",
   "date": "March 23, 2024",
   "genus": "Chiloschista",
   "species": "shanica",
   "clone": "Adrienne",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Mark Pendleton",
   "photographer": "Lynne Murrell",
   "photo": "images/20245266.jpg",
-  "thumbnail": "images/thumbnail/20245266thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 1.5,
-    "NSV": 1.4,
-    "DSL": 0.5,
-    "DSW": 0.6,
-    "PETL": 0.6,
-    "PETW": 0.6,
     "numFlowers": 7,
     "numBuds": 12,
     "numInflorescences": 2,
-    "description": "Seven flowers and 12 buds on two up to 12-cm inflorescences; leafless plant 23 cm x 16 cm on 11-cm x 16-cm cork mount; sepals and petals white spotted pink centrally; lip white, side lobes dark pink; column cream, anther cap white; substance firm; texture matte.",
+    "description": "Seven flowers and 12 buds on two up to 12-cm inflorescences; \n leafless plant 23 cm x  16 cm on 11-cm x 16-cm cork mount;\n  sepals and petals white spotted pink centrally;\n  lip white, side lobes dark pink;\n  column cream, anther cap white;\n   substance firm;\n texture matte.",
+    "NS": 1.5,
+    "NSV": 1.4,
+    "DSW": 0.6,
+    "DSL": 0.5,
+    "PETW": 0.6,
+    "PETL": 0.6,
     "LSW": 0.5,
     "LSL": 0.6,
     "LIPW": 0.3,
     "LIPL": 0.6
   },
-  "scrapedDate": "2025-10-04T06:14:09.484Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240323/20245266.html",
+  "scrapedDate": "2025-10-12T02:38:25.505Z",
+  "sourceUrl": "https://www.paccentraljc.org/240323/20245266.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245266.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T04:01:53.281Z",
-      "type": "enhanced_html_parsing",
-      "fields": [
-        "award",
-        "awardpoints"
-      ],
-      "source": "HTML file 20245266.html",
-      "note": "Enhanced parsing for non-point awards (JC, CBR, CHM) set to N/A"
-    },
-    {
-      "timestamp": "2025-10-08T03:51:39.785Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245266",
-      "newValue": "https://www.paccentraljc.org/240323/20245266.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.251Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240323/20245266.html",
-      "newValue": "https://www.paccentraljc.org/20240323/20245266.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.506Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
 }

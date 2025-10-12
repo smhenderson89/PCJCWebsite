@@ -1,63 +1,40 @@
 {
   "awardNum": "20245280",
-  "award": "HCC",
+  "award": "CCE",
   "awardpoints": 90,
-  "location": "",
+  "location": "Peninsula Orchid Society and Gold Coast Cymbidium Society Show",
   "date": "April 27, 2024",
   "genus": "Cattleya",
-  "species": "intermedia",
+  "species": "intermedia v. coerulea orlata",
   "clone": "Awesome",
-  "cross": "home",
+  "cross": "species",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20245280.jpg",
-  "thumbnail": "images/thumbnail/20245280thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 10.9,
-    "NSV": 10.5,
-    "DSL": 6.2,
-    "DSW": 1.6,
-    "PETL": 5.5,
-    "PETW": 1.9,
     "numFlowers": 100,
     "numBuds": 7,
     "numInflorescences": 21,
-    "description": "One hundred flowers on 18 up to 15-cm inflorescences and seven buds on three immature inflorescences; 91-cm x 50-cm plant grown in 34-cm plastic pot; sepals and petals lanceolate, white overlaid light mauve; lip tubular, white overlaid light mauve, dark purple distally; column white, anther cap white; substance firm; texture matte; also awarded #20245279 HCC.",
+    "description": "One hundred flowers on 18 up to 15-cm inflorescences and seven buds on three immature inflorescences; \n 91-cm x 50-cm plant grown in 34-cm plastic pot; \n\n sepals and petals lanceolate, white overlaid light mauve;\n \n lip tubular, white overlaid light mauve, dark purple distally; \n\n column white, anther cap white;\n substance firm; texture matte; also awarded #20245279 HCC.",
+    "NS": 10.9,
+    "NSV": 10.5,
+    "DSW": 1.6,
+    "DSL": 6.2,
+    "PETW": 1.9,
+    "PETL": 5.5,
     "LSW": 1.8,
     "LSL": 4.8,
     "LIPW": 3.5,
     "LIPL": 4.5
   },
-  "scrapedDate": "2025-10-04T07:01:12.827Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240427/20245280.html",
+  "scrapedDate": "2025-10-12T02:38:25.544Z",
+  "sourceUrl": "https://www.paccentraljc.org/240427/20245280.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245280.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:52:15.260Z",
-      "type": "automated_fix_from_html",
-      "fields": [
-        "award",
-        "awardpoints"
-      ],
-      "source": "HTML file 20245280.html"
-    },
-    {
-      "timestamp": "2025-10-08T03:51:39.799Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245280",
-      "newValue": "https://www.paccentraljc.org/240427/20245280.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.264Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240427/20245280.html",
-      "newValue": "https://www.paccentraljc.org/20240427/20245280.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.545Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

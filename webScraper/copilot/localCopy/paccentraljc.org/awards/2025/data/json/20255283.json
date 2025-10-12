@@ -1,61 +1,36 @@
 {
   "awardNum": "20255283",
-  "award": "HCC",
+  "award": "CCM",
   "awardpoints": 85,
-  "location": "Filoli Historic House Monthly",
+  "location": "Filoli Historic House",
   "date": "April 19, 2025",
-  "genus": "Fran",
-  "species": "Weaver",
+  "genus": "Sarcochilus",
+  "species": "Fran Weaver",
   "clone": "Mother",
-  "cross": "Sarcochilus Kulnura Harrow × Sarcochilus Kulnura Sprint",
+  "cross": "Sarcochilus Kulnura Harrow x Sarcochilus Kulnura Sprint",
   "exhibitor": "Bill Weaver",
   "photographer": "Ken Jacobsen",
   "photo": "images/20255283.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 2.5,
-    "NSV": 2.5,
-    "DSL": 1.1,
-    "DSW": 1,
-    "PETL": 1,
-    "PETW": 0.6,
     "numFlowers": 270,
     "numBuds": 63,
     "numInflorescences": 21,
-    "description": "Two hundred seventy flowers and 63 buds on 21 evenly presented upright up to 23-cm inflorescences; 45-cm wide by 30-cm high plant grown in bark and perlite mix in a 7-cm square plastic pot; sepals and petals ovate, cream heavily overlaid dark burgundy, spotted darker burgundy; lip saccate, yellow, blotched red; column white, anther cap light yellow; substance medium; texture diamond dust; also received an HCC, award #20255282.",
+    "description": "Two hundred seventy flowers and 63 buds on 21 evenly presented upright up to 23-cm inflorescences;\n45-cm wide by 30-cm high plant grown in bark and perlite mix in a 7-cm square plastic pot;\n\nsepals and petals ovate, cream heavily overlaid dark burgundy, spotted darker burgundy;\n\n   \nlip saccate, yellow, blotched red;\n\n\ncolumn white, anther cap light yellow;\nsubstance medium; texture diamond dust; also received an HCC, award #20255282.",
+    "NS": 2.5,
+    "NSV": 2.5,
+    "DSW": 1,
+    "DSL": 1.1,
+    "PETW": 0.6,
+    "PETL": 1,
     "LSW": 0.7,
     "LSL": 0.5,
     "LIPW": 0.4,
     "LIPL": 0.5
   },
-  "scrapedDate": "2025-10-04T06:36:44.332Z",
+  "scrapedDate": "2025-10-12T02:14:20.600Z",
   "sourceUrl": "https://www.paccentraljc.org/250419/20255283.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255283.html",
   "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.876Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Filoli Historic House Monthly",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-06T03:39:18.149Z",
-      "changes": [
-        "awardpoints: null → 85"
-      ],
-      "reason": "Fixed missing award data from HTML source",
-      "source": "automated-html-extraction"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.689Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255283",
-      "newValue": "https://www.paccentraljc.org/250419/20255283.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "fixApplied": "logicReference/missingInfoLogic.json"
 }

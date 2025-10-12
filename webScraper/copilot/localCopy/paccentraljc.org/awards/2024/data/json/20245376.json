@@ -2,53 +2,39 @@
   "awardNum": "20245376",
   "award": "AM",
   "awardpoints": 81,
-  "location": "",
+  "location": "San Francisco",
   "date": "April 2, 2024",
   "genus": "Zygopetalum",
   "species": "Firewater",
   "clone": "RRR",
-  "cross": "Zygopetalum Kiwi Choice × Zygopetalum Artur Elle",
+  "cross": "Zygopetalum Kiwi Choice x Zygopetalum Artur Elle",
   "exhibitor": "Japheth Ko",
   "photographer": "Japheth Ko",
   "photo": "images/20245376.jpg",
-  "thumbnail": "images/thumbnail/20245376thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 8,
-    "NSV": 7.9,
-    "DSL": 3.5,
-    "DSW": 2.2,
-    "PETL": 3.3,
-    "PETW": 2.1,
     "numFlowers": 6,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "Six flowers on one 39-cm inflorescence; sepals and petals green marked heavily purple-brown;; lip white, veined and diffused purple; column green, purple-brown markings, anther cap yellow; substance very firm; texture waxy, lip matte.",
+    "description": "Six flowers on one 39-cm inflorescence; \n\n sepals and petals green marked heavily purple-brown;;\n lip white, veined and diffused purple; \n column green, purple-brown markings, anther cap yellow;\n \n substance very firm; texture waxy, lip matte.",
+    "NS": 8,
+    "NSV": 7.9,
+    "DSW": 2.2,
+    "DSL": 3.5,
+    "PETW": 2.1,
+    "PETL": 3.3,
     "LSW": 2.3,
     "LSL": 3.5,
     "LIPW": 4.4,
     "LIPL": 4.3
   },
-  "scrapedDate": "2025-10-04T07:01:12.873Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240402/20245376.html",
+  "scrapedDate": "2025-10-12T02:38:25.655Z",
+  "sourceUrl": "https://www.paccentraljc.org/240402/20245376.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245376.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:51:39.817Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245376",
-      "newValue": "https://www.paccentraljc.org/240402/20245376.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.281Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240402/20245376.html",
-      "newValue": "https://www.paccentraljc.org/20240402/20245376.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.656Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

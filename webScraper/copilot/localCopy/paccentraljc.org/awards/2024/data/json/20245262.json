@@ -2,63 +2,42 @@
   "awardNum": "20245262",
   "award": "JC",
   "awardpoints": "N/A",
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "March 16, 2024",
   "genus": "Cymbidium",
   "species": "dayanum",
   "clone": "Red",
-  "cross": "home",
+  "cross": "N/A",
   "exhibitor": "Sylvia Darr",
   "photographer": "Chaunie Langland",
   "photo": "images/20245262.jpg",
-  "thumbnail": "images/thumbnail/20245262thumb.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
+    "numFlowers": 9,
+    "numBuds": "N/A",
+    "numInflorescences": 1,
+    "description": "Nine flowers on one 22-cm pendent inflorescence; \n sepals and petals lanceolate, white, heavily overlaid burgundy, darker centrally, white picotee;\n  lip cream, heavily overlaid burgundy marginally, light yellow centrally, striped burgundy, keel light yellow;\n  column dark burgundy, anther cap cream;\n  \n   substance medium;\n texture glabrous; noted for novel deep burgundy color.",
     "NS": 3.6,
     "NSV": 6,
-    "DSL": 3.2,
     "DSW": 0.6,
-    "PETL": 2.6,
+    "DSL": 3.2,
     "PETW": 0.6,
-    "numFlowers": 9,
-    "numBuds": 0,
-    "numInflorescences": 1,
-    "description": "Nine flowers on one 22-cm pendent inflorescence; sepals and petals lanceolate, white, heavily overlaid burgundy, darker centrally, white picotee; lip cream, heavily overlaid burgundy marginally, light yellow centrally, striped burgundy, keel light yellow; column dark burgundy, anther cap cream; substance medium; texture glabrous; noted for novel deep burgundy color.",
+    "PETL": 2.6,
     "LSW": 0.7,
     "LSL": 3.2,
     "LIPW": 1.4,
-    "LIPL": 2
+    "LIPL": 2,
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
   },
-  "scrapedDate": "2025-10-04T06:14:09.477Z",
-  "sourceUrl": "https://www.paccentraljc.org/20240316/20245262.html",
+  "scrapedDate": "2025-10-12T02:38:25.492Z",
+  "sourceUrl": "https://www.paccentraljc.org/240316/20245262.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2024/html/20245262.html",
   "year": 2024,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T04:01:53.275Z",
-      "type": "enhanced_html_parsing",
-      "fields": [
-        "award",
-        "awardpoints"
-      ],
-      "source": "HTML file 20245262.html",
-      "note": "Enhanced parsing for non-point awards (JC, CBR, CHM) set to N/A"
-    },
-    {
-      "timestamp": "2025-10-08T03:51:39.783Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20245262",
-      "newValue": "https://www.paccentraljc.org/240316/20245262.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:27:35.249Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/240316/20245262.html",
-      "newValue": "https://www.paccentraljc.org/20240316/20245262.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-12T02:38:25.494Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "special"
+  }
 }

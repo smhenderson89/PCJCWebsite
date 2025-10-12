@@ -1,0 +1,21 @@
+Awards with points (FCC, AM, HCC) are tied to flower quality and usually have measurement data associated with them (NS, NSV, DSW, etc.).
+
+Awards without points (JC, AQ, CBR, CHM, SC, ST…) typically do not require plant measurements.
+
+Some non-point awards like AQ still involve multiple clones, but not individual flower measurements.
+
+Display awards (SC, ST, etc.) are for exhibits, not plants — ignore measurement fields for these. Add key-value pair isDisplay set to true. Set Genus, Species, Clone, Cross to N/A if not found in the source html 
+
+Botanical awards (CBR, CHM, CBM) involve descriptive data and sometimes photos, not measurements
+
+Examples:
+Award 2025318 - AQ is a display award, so no measurements are expected. Add key-value object isDisplay true to JSON. If type is not included in source HTML, set to N/A. Description is part of the source html, starting with 'Awarded for ...'"
+
+Missing Photography - Check source HTML, Photographer should have the text format Photographer: Name Name.
+
+Award 20255363 - ST stands for Silver Trophy, a display award. Put N/A for genus/species. Add key-value object isDisplay true to JSON
+
+Award 20255364 - SC stands for Silver Certificate - in this case a display. If no information is recorded in html sournce, then set to N/A
+
+Missing Description - Exmaple Award 20255261 - "Three flowers on two upright". Most times the description will come after the measurements information, included many wordes in a senctence. 
+

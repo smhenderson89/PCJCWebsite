@@ -4,50 +4,32 @@
   "awardpoints": 78,
   "location": "Santa Cruz Orchid Society Show",
   "date": "May 3, 2025",
-  "genus": "Saitama",
-  "species": "Alliance",
+  "genus": "Phalaenopsis",
+  "species": "Saitama Alliance",
   "clone": "Kazu",
-  "cross": "Phalaenopsis Jiuhbao Stream × Phalaenopsis Jiuhbao Breeze",
+  "cross": "Phalaenopsis Jiuhbao Stream x Phalaenopsis Jiuhbao Breeze",
   "exhibitor": "Mariana Alwell",
   "photographer": "Chaunie Langland",
   "photo": "images/20255288.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "NS": 12.5,
-    "NSV": 11.4,
-    "DSL": 6.2,
-    "DSW": 4.4,
-    "PETL": 6.4,
-    "PETW": 8.2,
     "numFlowers": 7,
     "numBuds": 1,
     "numInflorescences": 1,
-    "description": "Seven flowers and one bud on one 56-cm arching, minimally staked, inflorescence; sepals eliptical,white, faintly streaked pink; petals orbicular, flat, light-pink venation; lip deep magenta, sidelobes streaked white proximally, midlobe tripartate, cirri curled, located distally, callus deep yellow, speckled magenta; column light pink, anther cap white; substance firm; texture crystalline.",
+    "description": "Seven flowers and one bud on one 56-cm arching, minimally staked, inflorescence;\n sepals eliptical,white, faintly streaked pink;\n petals orbicular, flat, light-pink venation;\n lip deep magenta, sidelobes streaked white proximally, midlobe tripartate, cirri curled, located distally,\n callus deep yellow, speckled magenta; column light pink, anther cap white; substance firm; texture crystalline.",
+    "NS": 12.5,
+    "NSV": 11.4,
+    "DSW": 4.4,
+    "DSL": 6.2,
+    "PETW": 8.2,
+    "PETL": 6.4,
     "LSW": 3.5,
     "LSL": 4,
     "LIPW": 3,
     "LIPL": 3.5
   },
-  "scrapedDate": "2025-10-04T06:36:44.339Z",
+  "scrapedDate": "2025-10-12T01:27:56.791Z",
   "sourceUrl": "https://www.paccentraljc.org/250503/20255288.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255288.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:17:48.879Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Santa Cruz Orchid Society Show",
-      "source": "automated-location-population",
-      "reason": "Location populated from HTML page (equivalent to index)"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.692Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255288",
-      "newValue": "https://www.paccentraljc.org/250503/20255288.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }

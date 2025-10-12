@@ -2,51 +2,30 @@
   "awardNum": "20255255",
   "award": "AM",
   "awardpoints": 80,
-  "location": "Filoli Historic House Monthly",
+  "location": "San Francisco",
   "date": "January 7, 2025",
   "genus": "Paphiopedilum",
   "species": "Upcheri",
   "clone": "Jean Allen-Ikeson",
-  "cross": "Paphiopedilum Argus × Paphiopedilum mastersianum",
+  "cross": "Paphiopedilum Argus x Paphiopedilum mastersianum",
   "exhibitor": "Carol Klonowski",
   "photographer": "Chaunie Langland",
   "photo": "images/20255255.jpg",
   "measurements": {
-    "type": "Pouch&Sepal",
-    "NS": 9.2,
-    "NSV": 7.1,
-    "DSL": 4,
-    "DSW": 3.9,
-    "PETL": 5.7,
-    "PETW": 1.9,
+    "type": "LateralSepal",
     "numFlowers": 1,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "One colorful flower on one unsupported upright 42-cm inflorescence; sepals apple green veined dark green; petals apple green, saturated burgundy spots basal half, overlaid burgundy distal half; pouch apple green, blushed mahogany superior two-thirds; staminode light green marked dark green; substance firm; texture waxy.",
-    "PCHW": 2.6,
-    "SYNSL": 3.6,
-    "SYNSW": 1.7
+    "description": "One colorful flower on one unsupported upright 42-cm inflorescence;\nsepals apple green veined dark green;\npetals apple green, saturated burgundy spots basal half, overlaid burgundy distal half;\npouch apple green, blushed mahogany superior two-thirds;\nstaminode light green marked dark green;\n substance firm; texture waxy.",
+    "NS": 9.2,
+    "NSV": 7.1,
+    "DSW": 3.9,
+    "DSL": 4,
+    "PETW": 1.9,
+    "PETL": 5.7
   },
-  "scrapedDate": "2025-10-04T06:36:44.283Z",
+  "scrapedDate": "2025-10-12T01:27:56.706Z",
   "sourceUrl": "https://www.paccentraljc.org/250107/20255255.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255255.html",
-  "year": 2025,
-  "corrections": [
-    {
-      "timestamp": "2025-10-06T03:15:15.530Z",
-      "field": "location",
-      "oldValue": "",
-      "newValue": "Filoli Historic House Monthly",
-      "reason": "Location corrected from HTML page (\"San Francisco\") to match index page placement (\"Filoli Historic House Monthly\")",
-      "source": "index-page-authority"
-    },
-    {
-      "timestamp": "2025-10-08T03:49:18.665Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20255255",
-      "newValue": "https://www.paccentraljc.org/250107/20255255.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ]
+  "year": 2025
 }
