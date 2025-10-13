@@ -7,14 +7,16 @@
   "genus": "Cattleya",
   "species": "forbesii",
   "clone": "Kathleen",
-  "cross": "",
+  "cross": "species",
   "exhibitor": "Any and Ken Jacobsen",
   "photographer": "Ken Jacobsen",
   "photo": "images/20225261.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 16,
+    "numBuds": 4,
+    "numInflorescences": 7,
+    "description": "Sixteen stellate flowers and four buds on seven upright inflorescences to 13cm;\n\tsepals and petals light green, very light brown venation; lip cream, throat golden yellow, magenta venation, side lobes rose-pink transverse;\n\tcolumn cream, speckled magenta, \n\tanther cap light yellow, speckled magenta;\n    substance medium; texture satin.",
     "NS": 11.1,
     "NSV": 10.8,
     "DSW": 1.9,
@@ -24,29 +26,15 @@
     "LSW": 2,
     "LSL": 4.5,
     "LIPW": 2,
-    "LIPL": 4.5,
-    "description": "Sixteen stellate flowers and four buds on seven upright inflorescences to 13cm; sepals and petals light green, very light brown venation; lip cream, throat golden yellow, magenta venation, side lobes rose-pink transverse; column cream, speckled magenta, anther cap light yellow, speckled magenta; substance medium; texture satin."
+    "LIPL": 4.5
   },
-  "scrapedDate": "2025-10-07T00:53:07.606Z",
+  "scrapedDate": "2025-10-13T18:32:45.360Z",
   "sourceUrl": "https://www.paccentraljc.org/20220906/20225261.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225261.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.154Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225261",
-      "newValue": "https://www.paccentraljc.org/220906/20225261.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.136Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220906/20225261.html",
-      "newValue": "https://www.paccentraljc.org/20220906/20225261.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.361Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

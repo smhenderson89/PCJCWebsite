@@ -12,12 +12,12 @@ const missingInfoLogic = JSON.parse(fs.readFileSync(logicPath, 'utf-8'));
 /**
  * Convert date string to YYMMDD format for source URL
  * @param {string} dateStr - Date string like "February 15, 2022"
- * @returns {string} - YYMMDD format like "250215"
+ * @returns {string} - YYYYMMDD format like "20220215"
  */
-function formatDateToYYMMDD(dateStr) {
+function formatDateToYYYYMMDD(dateStr) {
     try {
         const date = new Date(dateStr);
-        const year = date.getFullYear().toString().slice(-2); // Get last 2 digits
+        const year = date.getFullYear().toString();
         const month = (date.getMonth() + 1).toString().padStart(2, '0');
         const day = date.getDate().toString().padStart(2, '0');
         return `${year}${month}${day}`;
@@ -38,24 +38,24 @@ function applyMissingInfoLogic(extractedData) {
     const isSpecialAward = ['AQ', 'JC'].includes(award);
     const isNoPointAward = missingInfoLogic.awardCategories.no_point_value_awards.includes(award);
     
-    console.log(`   🧠 Applying logic rules for award type: ${award}`);
+    // console.log(`   🧠 Applying logic rules for award type: ${award}`);
     
     // Apply Display Award Logic (SC, ST, AQ, JC)
     if (isDisplayAward || isSpecialAward) {
-        console.log(`   📋 Display/Special award logic for ${award}`);
+        // console.log(`   📋 Display/Special award logic for ${award}`);
         
         // Set isDisplay flag per DisplayAwardFlag logic
         extractedData.isDisplay = true;
-        console.log(`   🏆 Set isDisplay to true for ${award} award`);
+        // console.log(`   🏆 Set isDisplay to true for ${award} award`);
         
         // Set plant fields per logic rules for display awards
         if (!extractedData.genus || extractedData.genus === '') {
             extractedData.genus = 'Display';
-            console.log(`   🌸 Set genus to 'Display' for ${award} award`);
+            // console.log(`   🌸 Set genus to 'Display' for ${award} award`);
         }
         if (!extractedData.species || extractedData.species === '') {
             extractedData.species = 'Award';
-            console.log(`   🌸 Set species to 'Award' for ${award} award`);
+            // console.log(`   🌸 Set species to 'Award' for ${award} award`);
         }
         if (!extractedData.clone || extractedData.clone === '') {
             extractedData.clone = 'N/A';
@@ -63,13 +63,13 @@ function applyMissingInfoLogic(extractedData) {
         
         // Always set cross to N/A for display/special awards per logic rules
         extractedData.cross = 'N/A';
-        console.log(`   🧬 Set cross to 'N/A' for ${award} award`);
+        // console.log(`   🧬 Set cross to 'N/A' for ${award} award`);
         
         // Set measurement type and fields to N/A per logic rules
         if (extractedData.measurements) {
             if (!extractedData.measurements.type || extractedData.measurements.type === '') {
                 extractedData.measurements.type = award === 'AQ' ? 'Award Qualifying' : 'Display';
-                console.log(`   📏 Set measurement type to '${extractedData.measurements.type}'`);
+                // console.log(`   📏 Set measurement type to '${extractedData.measurements.type}'`);
             }
             
             // Set all measurement fields to N/A per logic rules
@@ -85,38 +85,37 @@ function applyMissingInfoLogic(extractedData) {
             if (extractedData.measurements.numBuds === 0) extractedData.measurements.numBuds = 'N/A';
             if (extractedData.measurements.numInflorescences === 0) extractedData.measurements.numInflorescences = 'N/A';
             
-            console.log(`   📏 Set measurement fields to 'N/A' for ${award} award`);
+            // console.log(`   📏 Set measurement fields to 'N/A' for ${award} award`);
         }
     }
     // Note: isDisplay is only set to true for display awards, omitted for plant awards
     
     // Apply No Point Award Logic  
     if (isNoPointAward) {
-        console.log(`   🔢 No-point award logic for ${award}`);
+        // console.log(`   🔢 No-point award logic for ${award}`);
         
         if (extractedData.awardpoints === '' || extractedData.awardpoints === null || extractedData.awardpoints === 0) {
             extractedData.awardpoints = 'N/A';
-            console.log(`   🎯 Set award points to 'N/A' for ${award} award`);
+            // console.log(`   🎯 Set award points to 'N/A' for ${award} award`);
         }
         
         // AQ awards get special treatment per logic rules
         if (award === 'AQ' && extractedData.measurements) {
             if (!extractedData.measurements.description || extractedData.measurements.description === '') {
                 extractedData.measurements.description = 'Plant meets AQ standards';
-                console.log(`   📝 Set AQ description: 'Plant meets AQ standards'`);
+                // console.log(`   📝 Set AQ description: 'Plant meets AQ standards'`);
             }
         }
     }
     
     // Enhanced photographer detection with fallback strategies
     if (!extractedData.photographer || extractedData.photographer === '' || extractedData.photographer === 'N/A') {
-        console.log(`   📷 Photographer field empty, keeping as 'N/A'`);
+        // Keep as N/A
     }
     
     // Set cross to N/A if empty for all awards (not just display)
     if (!extractedData.cross || extractedData.cross === '') {
         extractedData.cross = 'N/A';
-        console.log(`   🧬 Set empty cross field to 'N/A'`);
     }
     
     // Apply specific award fixes from 2022logic.txt FIRST (before general logic)
@@ -130,7 +129,6 @@ function applyMissingInfoLogic(extractedData) {
     
     // Apply updated display award logic if the award was changed by specific fixes
     if (updatedIsDisplayAward && !extractedData.isDisplay) {
-        console.log(`   🔄 Re-applying display award logic for updated award: ${updatedAward}`);
         extractedData.isDisplay = true;
         
         // Set measurement fields to N/A for display awards
@@ -141,7 +139,6 @@ function applyMissingInfoLogic(extractedData) {
                     extractedData.measurements[field] = 'N/A';
                 }
             });
-            console.log(`   📏 Set measurement fields to 'N/A' for updated ${updatedAward} award`);
         }
     }
     
@@ -156,25 +153,145 @@ function applyMissingInfoLogic(extractedData) {
 }
 
 /**
- * Apply specific 2022 award fixes based on 2022logic.txt
+ * Apply specific 2022 award fixes based on 2022logic.txt and orchidNameDecisionTree.json
  * 
- * SPECIFIC 2022 FIXES REFERENCE:
- * - Award 20225365: Silver Certificate display award -> SC, N/A points, isDisplay=true
- * - Awards 20225256,20225258: Dendrobium cross -> 'Royal Blue' AM/AOS x 'Blues Brothers'
- * - Award 20225297: Cattleya x blossfeldiana 'Estelle' -> Cattleya rex x Cattleya luteola
- * - Award 20225301: Cattleya warscewiczii cross -> 'La Florista' x 'Anita'
- * - Award 20225358: Paphiopedilum measurements -> Set all to "NM" (not measured)
+ * UPDATED 2022 FIXES REFERENCE:
+ * - Award 20225262: Missing Date (Oct 4, 2022), Location (San Francisco Monthly), SourceURL
+ * - Award 20225263: Missing Date/Location - Check Source HTML
+ * - Award 20225304: Missing Award - Award is "AD" (Award of Distinction), awardpoints N/A
+ * - Award 20225347: Missing Date/Location - Check Source HTML
+ * - Award 20225348: Missing Date/Location - Check Source HTML  
+ * - Award 20225349: Missing Date/Location - Check Source HTML
+ * - Award 20225350: Missing Date/Location - Check Source HTML
+ * - Award 20225415: Display SC (Silver Certificate), genus/species/cross/clone N/A, isDisplay true
+ * - Award 20225306: Cross is "Cymbidium Shirley May Walker x Cymbidium Bill Bailey"
+ * - Award 20225308: Apply orchidNameDecisionTree.json rules for plant naming
+ * - Award 20225329: Apply orchidNameDecisionTree.json rules for plant naming
+ * - Award 20225334, 20225335: Apply orchidNameDecisionTree.json rules for plant naming
+ * - Display awards: Set isDisplay=true, species fields to N/A if not specified
  * 
  * @param {Object} extractedData - The extracted award data
  * @returns {Object} - Modified award data with specific fixes
  */
 function applySpecific2022Fixes(extractedData) {
     const awardNum = extractedData.awardNum;
-    console.log(`   🔧 Checking for specific 2022 fixes for award: ${awardNum}`);
     
-    // Award 20225365 - Silver Certificate display award fix
+    // Award 20225262 - Missing Date/Location fix
+    if (awardNum === '20225262') {
+        extractedData.date = 'October 4, 2022';
+        extractedData.location = 'San Francisco Monthly';
+        // Generate correct source URL based on date
+        const yyyymmdd = formatDateToYYYYMMDD(extractedData.date);
+        extractedData.sourceUrl = `https://www.paccentraljc.org/${yyyymmdd}/${awardNum}.html`;
+    }
+    
+    // Award 20225263 - Missing Date/Location (extract from source HTML)
+    if (awardNum === '20225263') {
+        const dateLocation = extractDateLocationFromHtml(awardNum);
+        if (dateLocation) {
+            extractedData.date = dateLocation.date;
+            extractedData.location = dateLocation.location;
+            // Generate correct source URL based on date
+            const yyyymmdd = formatDateToYYYYMMDD(extractedData.date);
+            extractedData.sourceUrl = `https://www.paccentraljc.org/${yyyymmdd}/${awardNum}.html`;
+        }
+    }
+    
+    // Award 20225304 - Missing Award Info fix
+    if (awardNum === '20225304') {
+        extractedData.award = 'AD'; // Award of Distinction
+        extractedData.awardpoints = 'N/A'; // No point value for AD
+    }
+    
+    // Awards 20225347, 20225348, 20225349, 20225350 - Missing Date/Location (extract from source HTML)
+    if (['20225347', '20225348', '20225349', '20225350'].includes(awardNum)) {
+        const dateLocation = extractDateLocationFromHtml(awardNum);
+        if (dateLocation) {
+            extractedData.date = dateLocation.date;
+            extractedData.location = dateLocation.location;
+            // Generate correct source URL based on date
+            const yyyymmdd = formatDateToYYYYMMDD(extractedData.date);
+            extractedData.sourceUrl = `https://www.paccentraljc.org/${yyyymmdd}/${awardNum}.html`;
+        }
+    }
+    
+    // Award 20225415 - Display SC (Silver Certificate) fix
+    if (awardNum === '20225415') {
+        extractedData.award = 'SC'; // Silver Certificate
+        extractedData.awardpoints = 'N/A';
+        extractedData.isDisplay = true;
+        extractedData.genus = 'N/A';
+        extractedData.species = 'N/A';
+        extractedData.cross = 'N/A';
+        extractedData.clone = 'N/A';
+        
+        // Set measurement fields to N/A for display award
+        if (extractedData.measurements) {
+            const measurementFields = ['NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LSW', 'LSL', 'LIPW', 'PCHW'];
+            measurementFields.forEach(field => {
+                extractedData.measurements[field] = 'N/A';
+            });
+        }
+    }
+    
+    // Award 20225306 - Cross fix
+    if (awardNum === '20225306') {
+        extractedData.cross = 'Cymbidium Shirley May Walker x Cymbidium Bill Bailey';
+    }
+    
+    // Award 20225308 - Apply orchidNameDecisionTree.json rules
+    if (awardNum === '20225308') {
+        // Based on 2022logic.txt: Phalaenopsis Matthew Berry 'My Love' (Phalaenopsis schilleriana x Phalaenopsis leucorrhoda)
+        extractedData.genus = 'Phalaenopsis';
+        extractedData.species = 'Matthew Berry';
+        extractedData.clone = 'My Love';
+        extractedData.cross = 'Phalaenopsis schilleriana x Phalaenopsis leucorrhoda';
+    }
+    
+    // Award 20225329 - Apply orchidNameDecisionTree.json rules  
+    if (awardNum === '20225329') {
+        // Based on 2022logic.txt: Paphiopedilum Wossner Black Wings 'Memoria Scott Collins' (Paphiopedilum rothschildianum 'Leo' x Paphiopedilum adductum 'Ace')
+        extractedData.genus = 'Paphiopedilum';
+        extractedData.species = 'Wossner Black Wings';
+        extractedData.clone = 'Memoria Scott Collins';
+        extractedData.cross = "Paphiopedilum rothschildianum 'Leo' x Paphiopedilum adductum 'Ace'";
+    }
+    
+    // Awards 20225334, 20225335 - Apply orchidNameDecisionTree.json rules
+    if (awardNum === '20225334') {
+        // Re-do this award using orchidNameDecisionTree.json logic
+        // Based on existing data: Cattleya purpurata x Cattleya tenebrosa 'Bentley'
+        extractedData.genus = 'Cattleya';
+        extractedData.species = 'Pacavia'; // Hybrid grex name (uppercase = hybrid/grex)
+        extractedData.clone = 'Bentley';
+        extractedData.cross = 'Cattleya purpurata x Cattleya tenebrosa';
+    }
+    
+    if (awardNum === '20225335') {
+        // Based on existing data: Cattleya purpurata x Cattleya tenebrosa 'Gracie'
+        extractedData.genus = 'Cattleya';
+        extractedData.species = 'Pacavia'; // Hybrid grex name (uppercase = hybrid/grex)
+        extractedData.clone = 'Gracie';
+        extractedData.cross = 'Cattleya purpurata x Cattleya tenebrosa';
+    }
+    
+    // Award 20225336 - Add missing cross (extracted from HTML)
+    if (awardNum === '20225336') {
+        extractedData.cross = 'Vanda critata x Vanda tricolor var. suavis';
+    }
+    
+    // Award 20225348 - Add missing cross (extracted from HTML)
+    if (awardNum === '20225348') {
+        extractedData.cross = 'Rhyncholaeliocattleya Waikiki Gold x Rhyncholaeliocattleya Vicky Nazareno';
+    }
+    
+    // Award 20225349 - Add missing cross (extracted from HTML) 
+    if (awardNum === '20225349') {
+        extractedData.cross = 'Cattlianthe Blue Boy x Guarianthe bowringiana';
+    }
+    
+    // Award 20225365 - Silver Certificate display award fix (existing)
     if (awardNum === '20225365') {
-        console.log(`   🏆 Applying specific fix for 20225365: SC display award`);
         extractedData.award = 'SC';
         extractedData.awardpoints = 'N/A';
         extractedData.isDisplay = true;
@@ -185,39 +302,29 @@ function applySpecific2022Fixes(extractedData) {
             measurementFields.forEach(field => {
                 extractedData.measurements[field] = 'N/A';
             });
-            console.log(`   📏 Set measurement fields to 'N/A' for SC display award`);
         }
-        
-        console.log(`   ✅ Fixed 20225365: award=SC, awardpoints=N/A, isDisplay=true, measurements=N/A`);
     }
     
-    // Awards 20225256, 20225258 - Dendrobium cross fix
+    // Awards 20225256, 20225258 - Dendrobium cross fix (existing)
     if (awardNum === '20225256' || awardNum === '20225258') {
-        console.log(`   🧬 Applying cross fix for ${awardNum}: Dendrobium victoriae-reginae`);
         extractedData.cross = "'Royal Blue' AM/AOS x 'Blues Brothers'";
-        console.log(`   ✅ Fixed ${awardNum}: cross='Royal Blue' AM/AOS x 'Blues Brothers'`);
     }
     
-    // Award 20225297 - Cattleya x blossfeldiana fix
+    // Award 20225297 - Cattleya x blossfeldiana fix (existing)
     if (awardNum === '20225297') {
-        console.log(`   🧬 Applying specific fix for 20225297: Cattleya x blossfeldiana`);
         extractedData.genus = 'Cattleya';
         extractedData.species = 'x blossfeldiana';
         extractedData.clone = "'Estelle'";
         extractedData.cross = 'Cattleya rex x Cattleya luteola';
-        console.log(`   ✅ Fixed 20225297: genus=Cattleya, species=x blossfeldiana, clone='Estelle', cross=Cattleya rex x Cattleya luteola`);
     }
     
-    // Award 20225301 - Cattleya warscewiczii cross fix
+    // Award 20225301 - Cattleya warscewiczii cross fix (existing)
     if (awardNum === '20225301') {
-        console.log(`   🧬 Applying cross fix for 20225301: Cattleya warscewiczii`);
         extractedData.cross = "'La Florista' x 'Anita'";
-        console.log(`   ✅ Fixed 20225301: cross='La Florista' x 'Anita'`);
     }
     
-    // Award 20225358 - Paphiopedilum measurements "NM" fix
+    // Award 20225358 - Paphiopedilum measurements "NM" fix (existing)
     if (awardNum === '20225358') {
-        console.log(`   📏 Applying measurement fix for 20225358: NM (not measured)`);
         if (extractedData.measurements) {
             // Set all measurement fields to "NM" (not measured)
             const measurementFields = ['NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LSW', 'LSL', 'PCHW', 'PCHL'];
@@ -226,11 +333,106 @@ function applySpecific2022Fixes(extractedData) {
                     extractedData.measurements[field] = 'NM';
                 }
             });
-            console.log(`   ✅ Fixed 20225358: Set measurement fields to 'NM' (not measured)`);
         }
     }
     
+    // Apply display award logic for all display awards per 2022logic.txt
+    // "Display awards (Show Trophy, ST, etc.) Put N/A for any species not specified. Any display awards should their value isDisplay set to true"
+    const displayAwards = ['ST', 'SC', 'EEC', 'SHOW TROPHY', 'SILVER CERTIFICATE'];
+    const isDisplayAward = displayAwards.includes(extractedData.award) || 
+                          extractedData.award.includes('TROPHY') || 
+                          extractedData.award.includes('CERTIFICATE') ||
+                          awardNum.includes('-display');
+                          
+    if (isDisplayAward) {
+        extractedData.isDisplay = true;
+        
+        // Set plant fields per 2022logic.txt: "Put N/A for any species not specified"
+        if (!extractedData.genus || extractedData.genus === '' || extractedData.genus === 'Display') {
+            extractedData.genus = 'Display';
+        }
+        if (!extractedData.species || extractedData.species === '' || extractedData.species === 'Display') {
+            extractedData.species = 'Award';
+        }
+        if (!extractedData.clone || extractedData.clone === '') {
+            extractedData.clone = 'N/A';
+        }
+        // Always set cross to N/A for display awards per logic
+        extractedData.cross = 'N/A';
+    }
+    
     return extractedData;
+}
+
+/**
+ * Extract date and location from HTML file for specific awards
+ * @param {string} awardNum - The award number
+ * @returns {Object} - Object with date and location, or null if not found
+ */
+function extractDateLocationFromHtml(awardNum) {
+    try {
+        const htmlPath = path.join(htmlDirectory, `${awardNum}.html`);
+        
+        if (!fs.existsSync(htmlPath)) {
+            return null;
+        }
+
+        const htmlContent = fs.readFileSync(htmlPath, 'utf8');
+        const $ = cheerio.load(htmlContent);
+        
+        // Look for the date/location in the first table cell with FONT SIZE="+1"
+        const mainFont = $('table').first().find('font[size="+1"]').first();
+        
+        if (mainFont.length > 0) {
+            const htmlText = mainFont.html();
+            const lines = htmlText
+                .split(/<br[^>]*>/i)
+                .map(line => cheerio.load(line).text().trim())
+                .filter(line => line);
+
+            // The first line should contain date and location
+            if (lines.length > 0) {
+                const firstLine = lines[0];
+                
+                // Parse different date/location formats
+                // Format 1: "October 4, 2022 San Francisco Monthly"
+                // Format 2: "October 15 Filoli Historic House Monthly"
+                
+                if (firstLine.includes(' - ')) {
+                    // Standard format with dash separator
+                    const parts = firstLine.split(' - ');
+                    return {
+                        date: parts[0].trim(),
+                        location: parts.slice(1).join(' - ').trim()
+                    };
+                } else {
+                    // Try to separate date from location
+                    // Look for year (2022) or month patterns
+                    const yearMatch = firstLine.match(/^([^0-9]*\d{1,2},?\s*\d{4})\s+(.+)$/);
+                    if (yearMatch) {
+                        return {
+                            date: yearMatch[1].trim(),
+                            location: yearMatch[2].trim()
+                        };
+                    }
+                    
+                    // Look for month + day pattern without year
+                    const monthDayMatch = firstLine.match(/^([A-Z][a-z]+\s+\d{1,2})\s+(.+)$/);
+                    if (monthDayMatch) {
+                        return {
+                            date: monthDayMatch[1].trim() + ', 2022', // Add year since we know it's 2022
+                            location: monthDayMatch[2].trim()
+                        };
+                    }
+                }
+            }
+        }
+        
+        return null;
+    } catch (error) {
+        console.log(`⚠️  Error extracting date/location from ${awardNum}.html: ${error.message}`);
+        return null;
+    }
 }
 
 /**
@@ -254,7 +456,6 @@ function extractPhotographerFromHtml(htmlContent, $) {
         try {
             const result = strategy();
             if (result && result !== '' && !result.toLowerCase().includes('unknown')) {
-                console.log(`   📷 Found photographer: "${result}"`);
                 return result;
             }
         } catch (e) {
@@ -328,8 +529,8 @@ function extractFullAwardDataFromHtml(awardNum) {
                     extractedData.location = parts.slice(1).join(' - ').trim();
                     
                     // Generate correct source URL based on extracted date
-                    const yymmdd = formatDateToYYMMDD(extractedData.date);
-                    extractedData.sourceUrl = `https://www.paccentraljc.org/${yymmdd}/${awardNum}.html`;
+                    const yyyymmdd = formatDateToYYYYMMDD(extractedData.date);
+                    extractedData.sourceUrl = `https://www.paccentraljc.org/${yyyymmdd}/${awardNum}.html`;
                     
                     continue;
                 }
@@ -340,7 +541,6 @@ function extractFullAwardDataFromHtml(awardNum) {
                     extractedData.genus = plantMatch[1];
                     extractedData.species = plantMatch[2].trim();
                     extractedData.clone = plantMatch[3];
-                    console.log(`   🌸 Plant: ${extractedData.genus} ${extractedData.species} '${extractedData.clone}'`);
                     continue;
                 }
 
@@ -349,7 +549,6 @@ function extractFullAwardDataFromHtml(awardNum) {
                 if (plantMatch2 && !line.includes('by:')) {
                     extractedData.genus = plantMatch2[1];
                     extractedData.species = plantMatch2[2].trim();
-                    console.log(`   🌸 Plant: ${extractedData.genus} ${extractedData.species}`);
                     continue;
                 }
 
@@ -357,14 +556,12 @@ function extractFullAwardDataFromHtml(awardNum) {
                 const crossMatch = line.match(/^\((.+)\)$/);
                 if (crossMatch) {
                     extractedData.cross = crossMatch[1].trim();
-                    console.log(`   🧬 Cross: (${extractedData.cross})`);
                     continue;
                 }
 
                 // Handle "species" as cross value
                 if (line.toLowerCase().trim() === 'species') {
                     extractedData.cross = 'species';
-                    console.log(`   🧬 Cross: species (natural species)`);
                     continue;
                 }
 
@@ -372,7 +569,6 @@ function extractFullAwardDataFromHtml(awardNum) {
                 if (line.match(/^Show Trophy$/i)) {
                     extractedData.award = 'ST';
                     extractedData.awardpoints = 'N/A';
-                    console.log(`   🏆 Award: ST (Show Trophy)`);
                     continue;
                 }
 
@@ -396,7 +592,6 @@ function extractFullAwardDataFromHtml(awardNum) {
                 const exhibitorMatch = line.match(/^Exhibited by:\s*(.+)$/i);
                 if (exhibitorMatch) {
                     extractedData.exhibitor = exhibitorMatch[1].trim();
-                    console.log(`   👤 Exhibitor: "${extractedData.exhibitor}"`);
                     continue;
                 }
 
@@ -404,21 +599,16 @@ function extractFullAwardDataFromHtml(awardNum) {
                 const photographerMatch = line.match(/^Photographer:\s*(.+)$/i);
                 if (photographerMatch) {
                     extractedData.photographer = photographerMatch[1].trim();
-                    console.log(`   📷 Photographer: "${extractedData.photographer}"`);
                     continue;
                 }
-                
-                console.log(`   ❓ Unmatched line: "${line}"`);
             }
         }
         
         // Additional exhibitor extraction - sometimes it's after the main content
         if (!extractedData.exhibitor) {
-            console.log(`\n🔍 Exhibitor not found in main content, checking full body...`);
             const exhibitorBodyMatch = bodyText.match(/Exhibited by[:\s]+([^\n\r<]+)/i);
             if (exhibitorBodyMatch) {
                 extractedData.exhibitor = exhibitorBodyMatch[1].trim();
-                console.log(`   👤 Found exhibitor in body: "${extractedData.exhibitor}"`);
             }
         }
 
@@ -430,13 +620,11 @@ function extractFullAwardDataFromHtml(awardNum) {
                 extractedData.genus = titlePlantMatch1[1];
                 extractedData.species = titlePlantMatch1[2].trim();
                 extractedData.clone = titlePlantMatch1[3];
-                console.log(`   🌸 Extracted from title: ${extractedData.genus} ${extractedData.species} '${extractedData.clone}'`);
             } else {
                 const titlePlantMatch2 = title.match(/([A-Z][a-zA-Z]+)\s+([a-zA-Z][a-zA-Z\s]+)/);
                 if (titlePlantMatch2) {
                     extractedData.genus = titlePlantMatch2[1];
                     extractedData.species = titlePlantMatch2[2].trim();
-                    console.log(`   🌸 Extracted from title: ${extractedData.genus} ${extractedData.species}`);
                 }
             }
         }
@@ -447,10 +635,8 @@ function extractFullAwardDataFromHtml(awardNum) {
         }
 
         // Extract measurements
-        console.log(`\n📏 Looking for measurements table...`);
         const measurementTable = $('table').eq(1).find('table').first();
         if (measurementTable.length > 0) {
-            console.log(`✅ Found measurements table`);
             measurementTable.find('tr').each((i, row) => {
                 const $row = $(row);
                 const cells = $row.find('td');
@@ -462,28 +648,20 @@ function extractFullAwardDataFromHtml(awardNum) {
                         const value = $(cells[j + 1]).text().trim();
                         const numValue = parseFloat(value);
                         
-                        console.log(`   📊 ${label}: "${value}" (${numValue})`);
-                        
                         if (!isNaN(numValue) && ['NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LSW', 'LSL', 'LIPW', 'LIPL'].includes(label)) {
                             extractedData.measurements[label] = numValue;
                         }
                     }
                 }
             });
-        } else {
-            console.log(`❌ No measurements table found`);
         }
 
         // Extract flower info (# flowers, buds, inflorescences) and store in measurements
-        console.log(`\n🌺 Looking for flower information...`);
-        // Look for the table that contains "# flwrs", "# buds", "# infl"
         $('table').each((tableIndex, table) => {
             const $table = $(table);
             const tableText = $table.text();
             
             if (tableText.includes('flwrs') || tableText.includes('buds') || tableText.includes('infl')) {
-                console.log(`✅ Found flower info table at index ${tableIndex}`);
-                
                 $table.find('tr').each((i, row) => {
                     const $row = $(row);
                     const cells = $row.find('td');
@@ -493,8 +671,6 @@ function extractFullAwardDataFromHtml(awardNum) {
                             const label = $(cells[j]).text().trim();
                             const value = $(cells[j + 1]).text().trim();
                             const numValue = parseInt(value);
-                            
-                            console.log(`   🌼 ${label}: "${value}" (${numValue})`);
                             
                             if (!isNaN(numValue)) {
                                 if (label.includes('flwrs')) extractedData.measurements.numFlowers = numValue;
@@ -509,26 +685,21 @@ function extractFullAwardDataFromHtml(awardNum) {
         });
 
         // Extract description from the last table and store in measurements object
-        console.log(`\n📝 Looking for description...`);
-        // Find the table with "Description:" in it
         $('table').each((index, table) => {
             const $table = $(table);
             const tableText = $table.text();
             
             if (tableText.includes('Description:')) {
-                console.log(`   📝 Found description in table ${index}`);
                 const descText = $table.find('td').text().trim();
                 const descMatch = descText.match(/Description\s*:\s*(.+)$/is);
                 
                 if (descMatch) {
                     extractedData.measurements.description = descMatch[1].trim();
-                    console.log(`✅ Description: "${extractedData.measurements.description.substring(0, 100)}..."`);
                 } else {
                     // Try to get text after "Description:" without regex
                     const parts = descText.split(/Description\s*:\s*/i);
                     if (parts.length > 1) {
                         extractedData.measurements.description = parts[1].trim();
-                        console.log(`✅ Description (split method): "${extractedData.measurements.description.substring(0, 100)}..."`);
                     }
                 }
                 return false; // Break out of each loop
@@ -557,17 +728,8 @@ function extractFullAwardDataFromHtml(awardNum) {
             extractedData.measurements.type = 'N/A';
         }
 
-        console.log(`\n🧠 APPLYING MISSING INFO LOGIC...`);
         // Apply missing info logic rules based on award type
         const enhancedData = applyMissingInfoLogic(extractedData);
-
-        console.log(`\n✅ Extraction complete for ${awardNum}`);
-        console.log(`   🌸 Plant: ${enhancedData.genus} ${enhancedData.species} ${enhancedData.clone ? `'${enhancedData.clone}'` : ''}`);
-        console.log(`   🎯 Award: ${enhancedData.award} ${enhancedData.awardpoints}`);
-        console.log(`   👤 Exhibitor: ${enhancedData.exhibitor}`);
-        console.log(`   📷 Photographer: ${enhancedData.photographer}`);
-        console.log(`   🧬 Cross: ${enhancedData.cross}`);
-        console.log(`   📏 Measurement Type: ${enhancedData.measurements.type}`);
         
         return enhancedData;
 
@@ -591,6 +753,7 @@ function processAll2022Files() {
     const htmlFiles = fs.readdirSync(htmlDirectory)
         .filter(file => file.endsWith('.html') && file !== '2022.html')
         .filter(file => !file.match(/^20220/)) // Skip summary pages like 20220120.html
+        .filter(file => !file.includes('-index.html')) // Skip index files
         .sort();
     
     console.log(`📄 Found ${htmlFiles.length} HTML files to process`);
@@ -606,7 +769,6 @@ function processAll2022Files() {
     
     htmlFiles.forEach((htmlFile, index) => {
         const awardNum = path.basename(htmlFile, '.html');
-        console.log(`\n📋 [${index + 1}/${htmlFiles.length}] Processing ${awardNum}...`);
         
         results.processed++;
         
@@ -617,8 +779,6 @@ function processAll2022Files() {
                 const outputPath = path.join(jsonDirectory, `${awardNum}.json`);
                 fs.writeFileSync(outputPath, JSON.stringify(extractedData, null, 2));
                 
-                console.log(`✅ Success: ${awardNum}.json created`);
-                
                 results.successful++;
                 results.successes.push({
                     awardNum,
@@ -627,7 +787,6 @@ function processAll2022Files() {
                     exhibitor: extractedData.exhibitor
                 });
             } else {
-                console.log(`❌ Failed: Could not extract data from ${awardNum}.html`);
                 results.failed++;
                 results.failures.push({
                     awardNum,
@@ -636,7 +795,6 @@ function processAll2022Files() {
             }
             
         } catch (error) {
-            console.log(`❌ Error: ${awardNum} - ${error.message}`);
             results.failed++;
             results.failures.push({
                 awardNum,
@@ -713,11 +871,142 @@ if (require.main === module) {
 }
 
 /**
+ * Save analysis output to a JSON file based on year (matching 2023/2024/2025 format)
+ * @param {Object} analysis - The analysis results object
+ * @param {boolean} focusedMode - Whether focused or full analysis
+ * @param {string} year - The year for the analysis (default: 2022)
+ */
+function saveAnalysisToFile(analysis, focusedMode, year = '2022') {
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const mode = focusedMode ? 'missing-data' : 'full-data';
+    const filename = `${year}-${mode}-analysis-${timestamp}.json`;
+    const outputPath = path.join(jsonDirectory, '..', filename);
+    
+    // Create structured JSON output matching previous years' format
+    const jsonOutput = {
+        metadata: {
+            year: parseInt(year),
+            analysisType: focusedMode ? 'missing-data' : 'full-data',
+            timestamp: new Date().toISOString(),
+            generatedBy: `${year}htmlToJSONparse.js`,
+            logicReferenceUsed: 'logicReference/missingInfoLogic.json'
+        },
+        summary: {
+            totalFiles: analysis.total,
+            perfectFiles: analysis.perfect,
+            filesWithIssues: analysis.withIssues,
+            perfectPercentage: parseFloat(((analysis.perfect / analysis.total) * 100).toFixed(1)),
+            issuesPercentage: parseFloat(((analysis.withIssues / analysis.total) * 100).toFixed(1))
+        },
+        issueBreakdown: {
+            criticalIssues: analysis.critical.length,
+            importantMissing: analysis.important.length,
+            measurementIssues: analysis.measurements.length,
+            descriptionOnly: analysis.descriptionOnly.length
+        },
+        awardsWithIssues: {
+            critical: analysis.critical.map(issue => ({
+                awardNum: issue.awardNum,
+                filename: issue.filename,
+                plant: issue.plant,
+                exhibitor: issue.exhibitor,
+                award: issue.award,
+                severity: issue.severity,
+                missingFields: issue.missingFields,
+                issues: issue.issues,
+                sourceUrl: issue.sourceUrl,
+                htmlReference: issue.htmlReference
+            })),
+            important: analysis.important.map(issue => ({
+                awardNum: issue.awardNum,
+                filename: issue.filename,
+                plant: issue.plant,
+                exhibitor: issue.exhibitor,
+                award: issue.award,
+                severity: issue.severity,
+                missingFields: issue.missingFields,
+                issues: issue.issues,
+                sourceUrl: issue.sourceUrl,
+                htmlReference: issue.htmlReference
+            })),
+            measurements: analysis.measurements.map(issue => ({
+                awardNum: issue.awardNum,
+                filename: issue.filename,
+                plant: issue.plant,
+                exhibitor: issue.exhibitor,
+                award: issue.award,
+                severity: issue.severity,
+                missingFields: issue.missingFields,
+                issues: issue.issues,
+                sourceUrl: issue.sourceUrl,
+                htmlReference: issue.htmlReference
+            })),
+            descriptionOnly: analysis.descriptionOnly.map(issue => ({
+                awardNum: issue.awardNum,
+                filename: issue.filename,
+                plant: issue.plant,
+                exhibitor: issue.exhibitor,
+                award: issue.award,
+                severity: issue.severity,
+                missingFields: issue.missingFields,
+                issues: issue.issues,
+                sourceUrl: issue.sourceUrl,
+                htmlReference: issue.htmlReference
+            }))
+        },
+        categorizedAwards: {
+            // Group awards by award type for easier analysis
+            byAwardType: {},
+            byExhibitor: {},
+            bySeverity: {
+                critical: analysis.critical.map(i => i.awardNum),
+                important: analysis.important.map(i => i.awardNum),
+                measurements: analysis.measurements.map(i => i.awardNum),
+                descriptionOnly: analysis.descriptionOnly.map(i => i.awardNum)
+            }
+        }
+    };
+    
+    // Group by award type
+    [...analysis.critical, ...analysis.important, ...analysis.measurements, ...analysis.descriptionOnly].forEach(issue => {
+        const awardType = issue.award.split(' ')[0]; // Get first part of award (AM, HCC, etc.)
+        if (!jsonOutput.categorizedAwards.byAwardType[awardType]) {
+            jsonOutput.categorizedAwards.byAwardType[awardType] = [];
+        }
+        jsonOutput.categorizedAwards.byAwardType[awardType].push({
+            awardNum: issue.awardNum,
+            severity: issue.severity,
+            missingFields: issue.missingFields
+        });
+    });
+    
+    // Group by exhibitor
+    [...analysis.critical, ...analysis.important, ...analysis.measurements, ...analysis.descriptionOnly].forEach(issue => {
+        const exhibitor = issue.exhibitor;
+        if (!jsonOutput.categorizedAwards.byExhibitor[exhibitor]) {
+            jsonOutput.categorizedAwards.byExhibitor[exhibitor] = [];
+        }
+        jsonOutput.categorizedAwards.byExhibitor[exhibitor].push({
+            awardNum: issue.awardNum,
+            severity: issue.severity,
+            missingFields: issue.missingFields
+        });
+    });
+    
+    // Save to JSON file
+    fs.writeFileSync(outputPath, JSON.stringify(jsonOutput, null, 2));
+    console.log(`💾 Analysis saved to JSON: ${outputPath}\n`);
+    
+    return outputPath;
+}
+
+/**
  * Consolidated Analysis Function - Run quality analysis on processed JSON files
  * @param {boolean} focusedMode - If true, only show files with missing data
+ * @param {boolean} saveToFile - If true, save analysis to file (default: true)
  * @returns {Object} - Analysis results summary
  */
-async function analyze2022Data(focusedMode = true) {
+async function analyze2022Data(focusedMode = true, saveToFile = true) {
     console.log(focusedMode ? '🔍 2022 AWARDS - MISSING DATA ANALYSIS' : '📊 2022 AWARDS - FULL DATA ANALYSIS');
     console.log('='.repeat(80));
 
@@ -898,6 +1187,11 @@ async function analyze2022Data(focusedMode = true) {
             }
         }
 
+        // Save analysis to file if requested
+        if (saveToFile) {
+            saveAnalysisToFile(analysis, focusedMode, '2022');
+        }
+
         return analysis;
 
     } catch (error) {
@@ -911,5 +1205,6 @@ module.exports = {
     processAll2022Files,
     testSingleFile,
     applyMissingInfoLogic,
-    analyze2022Data
+    analyze2022Data,
+    saveAnalysisToFile
 };

@@ -7,14 +7,16 @@
   "genus": "Cymbidium",
   "species": "Darrel Wong",
   "clone": "Dos Amigos",
-  "cross": "Cymbidium Lambert Day x Cymbidium Karen Hawaiian",
+  "cross": "'Royal Blue' AM/AOS x 'Blues Brothers'",
   "exhibitor": "Pierre Pujol",
   "photographer": "Ken Jacobsen",
   "photo": "images/20225258.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 44,
+    "numBuds": 5,
+    "numInflorescences": 3,
+    "description": "Forty-four round flowers and five buds on three arching inflorescences up to 74cm long;\n\n\t sepals and petals burnt umber, darker veins, more prominent mid-line;\n\t lip orange-yellow overlaid maroon along edge, dark maroon blotches and spots, dark maroon line centrally;\n\t column orange-yellow spotted maroon, anther cap white;\n\t substance firm; texture matte.",
     "NS": 7.8,
     "NSV": 7.6,
     "DSW": 2.8,
@@ -24,29 +26,15 @@
     "LSW": 2.9,
     "LSL": 4.8,
     "LIPW": 2.3,
-    "LIPL": 3,
-    "description": "Forty-four round flowers and five buds on three arching inflorescences up to 74cm long; sepals and petals burnt umber, darker veins, more prominent mid-line; lip orange-yellow overlaid maroon along edge, dark maroon blotches and spots, dark maroon line centrally; column orange-yellow spotted maroon, anther cap white; substance firm; texture matte."
+    "LIPL": 3
   },
-  "scrapedDate": "2025-10-07T00:53:07.600Z",
+  "scrapedDate": "2025-10-13T18:32:45.354Z",
   "sourceUrl": "https://www.paccentraljc.org/20220405/20225258.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225258.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.151Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225258",
-      "newValue": "https://www.paccentraljc.org/220405/20225258.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.126Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220405/20225258.html",
-      "newValue": "https://www.paccentraljc.org/20220405/20225258.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.355Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

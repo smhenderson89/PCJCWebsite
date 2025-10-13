@@ -2,7 +2,7 @@
   "awardNum": "20225409",
   "award": "AM",
   "awardpoints": 84,
-  "location": "Pacific Orchid & Garden Exposition",
+  "location": "Pacific Orchid Exposition",
   "date": "February 24, 2022",
   "genus": "Cymbidium",
   "species": "Sylvia Darr",
@@ -13,8 +13,10 @@
   "photo": "images/20225409.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 59,
     "numBuds": 0,
+    "numInflorescences": 5,
+    "description": "Fifty-nine well arranged flowers on five arching, 75-cm average, inflorescences well presented above gracefully arching leaves;\n\t 63-cm x 104-cm plant grown in 17-cm one-gallon plastic pot in a mixture of coconut chips, perlite, bark;\n\t dorsal sepal hooded, sepals and petals pale yellow-green overlaid dusty rose, irregular cordovan spots and stripes;\n\t lip side lobes light yellow, irregular cordovan markings, midlobe white, irregular burgundy-red markings, keel light yellow, sparsely spotted burgundy red;\n\t column cream,  inferior surface randomly spotted maroon, superior surface overlaid rose, anther cap white;\n\t substance firm; texture matte;  also awarded a CCM, #20225408.",
     "NS": 10.8,
     "NSV": 6.2,
     "DSW": 2,
@@ -24,29 +26,15 @@
     "LSW": 1.7,
     "LSL": 4.6,
     "LIPW": 2.4,
-    "LIPL": 4.1,
-    "description": "Fifty-nine well arranged flowers on five arching, 75-cm average, inflorescences well presented above gracefully arching leaves; 63-cm x 104-cm plant grown in 17-cm one-gallon plastic pot in a mixture of coconut chips, perlite, bark; dorsal sepal hooded, sepals and petals pale yellow-green overlaid dusty rose, irregular cordovan spots and stripes; lip side lobes light yellow, irregular cordovan markings, midlobe white, irregular burgundy-red markings, keel light yellow, sparsely spotted burgundy red; column cream, inferior surface randomly spotted maroon, superior surface overlaid rose, anther cap white; substance firm; texture matte; also awarded a CCM, #20225408."
+    "LIPL": 4.1
   },
-  "scrapedDate": "2025-10-07T00:53:07.718Z",
+  "scrapedDate": "2025-10-13T18:32:45.491Z",
   "sourceUrl": "https://www.paccentraljc.org/20220224/20225409.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225409.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.195Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225409",
-      "newValue": "https://www.paccentraljc.org/220224/20225409.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.191Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220224/20225409.html",
-      "newValue": "https://www.paccentraljc.org/20220224/20225409.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.494Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

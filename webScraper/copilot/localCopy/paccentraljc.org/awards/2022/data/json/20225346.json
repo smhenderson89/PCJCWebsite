@@ -2,7 +2,7 @@
   "awardNum": "20225346",
   "award": "AM",
   "awardpoints": 84,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "September 17, 2022",
   "genus": "Rhyncholaeliocattleya",
   "species": "Pali Polka Dot",
@@ -13,8 +13,10 @@
   "photo": "images/20225346.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 18,
     "numBuds": 0,
+    "numInflorescences": 4,
+    "description": "Eighteen flowers on four upright 14.5-cm inflorescences;\n\tsepals and petals dark green fully flushed red-bronze, speckled dark purple, more concentrated distally, petals very slightly ruffled;\n\t lip white, midlobe bright fucshia;\n\t column white, lightly flushed fuchsia, anther cap white;\n\t\n    substance firm; texture glossy, lip diamond dust; commended for improvement in color and lip.",
     "NS": 9.8,
     "NSV": 10.2,
     "DSW": 2.2,
@@ -24,29 +26,15 @@
     "LSW": 2.7,
     "LSL": 5.6,
     "LIPW": 4.1,
-    "LIPL": 4.3,
-    "description": "Eighteen flowers on four upright 14.5-cm inflorescences; sepals and petals dark green fully flushed red-bronze, speckled dark purple, more concentrated distally, petals very slightly ruffled; lip white, midlobe bright fucshia; column white, lightly flushed fuchsia, anther cap white; substance firm; texture glossy, lip diamond dust; commended for improvement in color and lip."
+    "LIPL": 4.3
   },
-  "scrapedDate": "2025-10-07T00:53:07.692Z",
+  "scrapedDate": "2025-10-13T18:32:45.456Z",
   "sourceUrl": "https://www.paccentraljc.org/20220917/20225346.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225346.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.187Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225346",
-      "newValue": "https://www.paccentraljc.org/220917/20225346.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.176Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220917/20225346.html",
-      "newValue": "https://www.paccentraljc.org/20220917/20225346.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.457Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

@@ -2,7 +2,7 @@
   "awardNum": "20225322",
   "award": "AM",
   "awardpoints": 82,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "April 16, 2022",
   "genus": "Cymbidium",
   "species": "Golden Valley",
@@ -13,8 +13,10 @@
   "photo": "images/20225322.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 18,
     "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Eighteen flowers on two upright staked inflorescences up to 66cm length;\n\t\n\tsepals and petals yellow blushed dark rose centrally; \n\t\n\tlip yellow, burgundy blotches distally, midlobes blushed rose marginally; \n\tanther cap ivory; substance firm; texture matte.",
     "NS": 11,
     "NSV": 9.5,
     "DSW": 5,
@@ -24,29 +26,15 @@
     "LSW": 5.2,
     "LSL": 5.7,
     "LIPW": 4.5,
-    "LIPL": 4.6,
-    "description": "Eighteen flowers on two upright staked inflorescences up to 66cm length; sepals and petals yellow blushed dark rose centrally; lip yellow, burgundy blotches distally, midlobes blushed rose marginally; anther cap ivory; substance firm; texture matte."
+    "LIPL": 4.6
   },
-  "scrapedDate": "2025-10-07T00:53:07.658Z",
+  "scrapedDate": "2025-10-13T18:32:45.411Z",
   "sourceUrl": "https://www.paccentraljc.org/20220416/20225322.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225322.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.172Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225322",
-      "newValue": "https://www.paccentraljc.org/220416/20225322.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.156Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220416/20225322.html",
-      "newValue": "https://www.paccentraljc.org/20220416/20225322.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.411Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

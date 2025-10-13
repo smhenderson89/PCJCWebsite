@@ -2,7 +2,7 @@
   "awardNum": "20225314",
   "award": "AM",
   "awardpoints": 82,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "April 16, 2022",
   "genus": "Sarcochilus",
   "species": "Kulnura Harrow",
@@ -13,8 +13,10 @@
   "photo": "images/20225314.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 120,
+    "numBuds": 129,
+    "numInflorescences": 24,
+    "description": "One hundred twenty flowers and 129 buds on 24 upright inflorescences up to 16cm in length; plant 45cm wide by  \n\t25cm high grown in a 15-cm diameter plastic azalea pot; sepals and petals white saturated burgundy basally, \n\tdiffused spots distally; lip bright yellow, orange splotches; anther cap white; substance firm; texture crystalline, received\n\tCCM award #20225313.",
     "NS": 2.4,
     "NSV": 2.3,
     "DSW": 1.1,
@@ -24,29 +26,15 @@
     "LSW": 1.1,
     "LSL": 1.2,
     "LIPW": 0.4,
-    "LIPL": 0.5,
-    "description": "One hundred twenty flowers and 129 buds on 24 upright inflorescences up to 16cm in length; plant 45cm wide by 25cm high grown in a 15-cm diameter plastic azalea pot; sepals and petals white saturated burgundy basally, diffused spots distally; lip bright yellow, orange splotches; anther cap white; substance firm; texture crystalline, received CCM award #20225313."
+    "LIPL": 0.5
   },
-  "scrapedDate": "2025-10-07T00:53:07.646Z",
+  "scrapedDate": "2025-10-13T18:32:45.398Z",
   "sourceUrl": "https://www.paccentraljc.org/20220416/20225314.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225314.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.167Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225314",
-      "newValue": "https://www.paccentraljc.org/220416/20225314.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.149Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220416/20225314.html",
-      "newValue": "https://www.paccentraljc.org/20220416/20225314.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.399Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

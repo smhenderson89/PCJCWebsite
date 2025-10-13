@@ -2,7 +2,7 @@
   "awardNum": "20225330",
   "award": "AM",
   "awardpoints": 85,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "May 21, 2022",
   "genus": "Phragmipedium",
   "species": "Frank Smith",
@@ -12,37 +12,25 @@
   "photographer": "Chaunie Langland",
   "photo": "images/20225330.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "type": "LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 3,
+    "numInflorescences": 2,
+    "description": "Two dangling flowers and three buds on two inflorescences up to 62cm; dorsal sepal completely\n\n\trecurved into a tube, barely visible white background overlaid rose except basally; synsepal white \n\n\tmarked marginally rose, more pronounced at the midrib and margin; petals twisted one quarter turn,\n \n\twhite mostly overlaid rose, lighter at the lower margin; pouch full, white blushed rose frontally, \n\n\tspotted purple, sparse rose blothching internally; staminode hirsute, white overlaid rose, \n\n\tmore strongly at margin; substance firm; texture matte.",
     "NS": 7.9,
     "NSV": 20,
     "DSW": 4.1,
     "DSL": 9.4,
     "PETW": 1.8,
-    "PETL": 22,
-    "description": "Two dangling flowers and three buds on two inflorescences up to 62cm; dorsal sepal completely recurved into a tube, barely visible white background overlaid rose except basally; synsepal white marked marginally rose, more pronounced at the midrib and margin; petals twisted one quarter turn, white mostly overlaid rose, lighter at the lower margin; pouch full, white blushed rose frontally, spotted purple, sparse rose blothching internally; staminode hirsute, white overlaid rose, more strongly at margin; substance firm; texture matte."
+    "PETL": 22
   },
-  "scrapedDate": "2025-10-07T00:53:07.668Z",
+  "scrapedDate": "2025-10-13T18:32:45.427Z",
   "sourceUrl": "https://www.paccentraljc.org/20220521/20225330.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225330.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.176Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225330",
-      "newValue": "https://www.paccentraljc.org/220521/20225330.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.163Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220521/20225330.html",
-      "newValue": "https://www.paccentraljc.org/20220521/20225330.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.428Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

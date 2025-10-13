@@ -2,7 +2,7 @@
   "awardNum": "20225339",
   "award": "AM",
   "awardpoints": 80,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "July 16, 2022",
   "genus": "Paphiopedilum",
   "species": "Regine Plows",
@@ -12,9 +12,11 @@
   "photographer": "Chaunie Langland",
   "photo": "images/20225339.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "type": "LateralSepal",
+    "numFlowers": 4,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four flowers crowded on a 27.1-cm inflorescence; dorsal sepal chartreuse,\n\tstriped mahogany, diffuse centrally; synsepal chartreuse, striped mahogany; \n\tpetals hirsute edges, chartreuse, mahogany spots basally, fusing to dark mahogany distally; \n\tpouch charteuse, partially overlaid light brown; staminode light yellow, \n\tmahogany sides, canescent; substance firm; texture matte.",
     "NS": 12.5,
     "NSV": 21.4,
     "DSW": 5.6,
@@ -22,29 +24,15 @@
     "PETW": 1.6,
     "PETL": 14.6,
     "LSW": 4.3,
-    "LSL": 7.3,
-    "description": "Four flowers crowded on a 27.1-cm inflorescence; dorsal sepal chartreuse, striped mahogany, diffuse centrally; synsepal chartreuse, striped mahogany; petals hirsute edges, chartreuse, mahogany spots basally, fusing to dark mahogany distally; pouch charteuse, partially overlaid light brown; staminode light yellow, mahogany sides, canescent; substance firm; texture matte."
+    "LSL": 7.3
   },
-  "scrapedDate": "2025-10-07T00:53:07.683Z",
+  "scrapedDate": "2025-10-13T18:32:45.443Z",
   "sourceUrl": "https://www.paccentraljc.org/20220716/20225339.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225339.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.181Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225339",
-      "newValue": "https://www.paccentraljc.org/220716/20225339.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.170Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220716/20225339.html",
-      "newValue": "https://www.paccentraljc.org/20220716/20225339.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.444Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

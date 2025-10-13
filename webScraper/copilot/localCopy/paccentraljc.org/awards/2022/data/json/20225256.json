@@ -7,14 +7,16 @@
   "genus": "Sarcochilus",
   "species": "Kulnura Max",
   "clone": "Gracie",
-  "cross": "Sarcochilus hartmannii x Sarcochilus Kulnura Sanctuary",
+  "cross": "'Royal Blue' AM/AOS x 'Blues Brothers'",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Ken Jacobsen",
   "photo": "images/20225256.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 308,
+    "numBuds": 85,
+    "numInflorescences": 26,
+    "description": "Three hundred eight flowers and 85 buds on 26 20-cm inflorescences;\n\tplant 40cm wide by 25cm tall, grown in 18-cm pot, bark media;\n\t sepals and petal white, pink markings distally, concentrated dark pink markings proximally;\n\t \n\t lip yellow, pink spots;\n\t \n\t substance firm; texture matte.",
     "NS": 2.8,
     "NSV": 2.9,
     "DSW": 1.1,
@@ -24,29 +26,15 @@
     "LSW": 1.1,
     "LSL": 1.6,
     "LIPW": 0.3,
-    "LIPL": 0.5,
-    "description": "Three hundred eight flowers and 85 buds on 26 20-cm inflorescences; plant 40cm wide by 25cm tall, grown in 18-cm pot, bark media; sepals and petal white, pink markings distally, concentrated dark pink markings proximally; lip yellow, pink spots; substance firm; texture matte."
+    "LIPL": 0.5
   },
-  "scrapedDate": "2025-10-07T00:53:07.595Z",
+  "scrapedDate": "2025-10-13T18:32:45.349Z",
   "sourceUrl": "https://www.paccentraljc.org/20220405/20225256.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225256.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.149Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225256",
-      "newValue": "https://www.paccentraljc.org/220405/20225256.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.125Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220405/20225256.html",
-      "newValue": "https://www.paccentraljc.org/20220405/20225256.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.350Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

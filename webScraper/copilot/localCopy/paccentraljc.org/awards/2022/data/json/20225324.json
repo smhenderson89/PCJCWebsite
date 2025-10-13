@@ -2,7 +2,7 @@
   "awardNum": "20225324",
   "award": "HCC",
   "awardpoints": 76,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "April 16, 2022",
   "genus": "Sarcochilus",
   "species": "Kulnura Leppard",
@@ -13,8 +13,10 @@
   "photo": "images/20225324.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 24,
+    "numBuds": 2,
+    "numInflorescences": 4,
+    "description": "Twenty-four flowers and two buds on four upright infloresences up to 14cm long;\n\t\n\tsepals and petals overlapping, generally flat, depressed centrally, white speckled uniformly dusty mauve; \n\t\n\tlip white, marked gold distally, side lobes striped purple; \n\tcolumn white, anther cap white; substance firm; texture crystalline.",
     "NS": 2.6,
     "NSV": 2.7,
     "DSW": 1.1,
@@ -24,29 +26,15 @@
     "LSW": 1,
     "LSL": 1.5,
     "LIPW": 0.5,
-    "LIPL": 0.5,
-    "description": "Twenty-four flowers and two buds on four upright infloresences up to 14cm long; sepals and petals overlapping, generally flat, depressed centrally, white speckled uniformly dusty mauve; lip white, marked gold distally, side lobes striped purple; column white, anther cap white; substance firm; texture crystalline."
+    "LIPL": 0.5
   },
-  "scrapedDate": "2025-10-07T00:53:07.661Z",
+  "scrapedDate": "2025-10-13T18:32:45.413Z",
   "sourceUrl": "https://www.paccentraljc.org/20220416/20225324.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225324.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.173Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225324",
-      "newValue": "https://www.paccentraljc.org/220416/20225324.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.158Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220416/20225324.html",
-      "newValue": "https://www.paccentraljc.org/20220416/20225324.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.414Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

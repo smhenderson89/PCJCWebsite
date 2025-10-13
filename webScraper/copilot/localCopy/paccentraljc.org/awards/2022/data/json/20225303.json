@@ -2,52 +2,31 @@
   "awardNum": "20225303",
   "award": "CCM",
   "awardpoints": 87,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "February 19, 2022",
   "genus": "Schoenorchis",
   "species": "gemmata",
-  "clone": "",
-  "cross": "",
+  "clone": "Yunor",
+  "cross": "species",
   "exhibitor": "Diane Bond",
   "photographer": "Chaunie Langland",
   "photo": "images/20225303.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
-    "description": "Approximately one thousand four hundred fifty tiny flowers and approximately 1200 buds on 18 14-cm branched inflorescences; 8 immature inflorescences; 47x22-cm plant, foliage in excellent condition, grown on 9x14-cm cork slab; dorsal sepal violet; lateral sepals white, overlaid violet proximally; petals violet; lip white, spur violet; substance not described; texture matte."
+    "type": "LateralSepal",
+    "numFlowers": 1450,
+    "numBuds": 1200,
+    "numInflorescences": 18,
+    "description": "Approximately one thousand four hundred fifty tiny flowers and approximately 1200 buds on 18 14-cm branched inflorescences;\n\t8 immature inflorescences;\n\t47x22-cm plant, foliage in excellent condition, grown on 9x14-cm cork slab; \n\tdorsal sepal violet; lateral sepals white, overlaid violet proximally;\n\tpetals violet;\n\tlip white, spur violet;\n   \n\tsubstance not described; texture matte.",
+    "NS": 0.2,
+    "NSV": 0.3
   },
-  "scrapedDate": "2025-10-07T00:53:07.622Z",
+  "scrapedDate": "2025-10-13T18:32:45.376Z",
   "sourceUrl": "https://www.paccentraljc.org/20220219/20225303.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225303.html",
   "year": 2022,
-  "display": false,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.160Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225303",
-      "newValue": "https://www.paccentraljc.org/220219/20225303.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.141Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220219/20225303.html",
-      "newValue": "https://www.paccentraljc.org/20220219/20225303.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-09T11:21:22.203Z",
-      "field": "genus/species",
-      "oldValue": "empty",
-      "newValue": "Schoenorchis gemmata",
-      "source": "manual-correction-from-html",
-      "reason": "Extracted genus and species from source HTML file"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.377Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

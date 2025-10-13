@@ -2,7 +2,7 @@
   "awardNum": "20225343",
   "award": "AM",
   "awardpoints": 81,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "September 17, 2022",
   "genus": "Cattleya",
   "species": "Corcovado",
@@ -13,8 +13,10 @@
   "photo": "images/20225343.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 3,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flowers on one 15-cm inflorescence;\n\tflowers green overlaid dusty rose-bronze; sepals spotted dark purple, more concentrated on lateral sepals;\n\tpetals heavily spotted dark purple; reverse of flower heavly spotted dark purple;\n\t\n\t lip white, side lobes yellow centrally blushed pink, ruffled midlobe flushed bright magenta;\n\t\n    substance very firm; texture waxy, lip diamond dust.",
     "NS": 10.4,
     "NSV": 10.5,
     "DSW": 2.8,
@@ -24,29 +26,15 @@
     "LSW": 3,
     "LSL": 5.3,
     "LIPW": 4,
-    "LIPL": 4.8,
-    "description": "Three flowers on one 15-cm inflorescence; flowers green overlaid dusty rose-bronze; sepals spotted dark purple, more concentrated on lateral sepals; petals heavily spotted dark purple; reverse of flower heavly spotted dark purple; lip white, side lobes yellow centrally blushed pink, ruffled midlobe flushed bright magenta; substance very firm; texture waxy, lip diamond dust."
+    "LIPL": 4.8
   },
-  "scrapedDate": "2025-10-07T00:53:07.688Z",
+  "scrapedDate": "2025-10-13T18:32:45.452Z",
   "sourceUrl": "https://www.paccentraljc.org/20220917/20225343.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225343.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.184Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225343",
-      "newValue": "https://www.paccentraljc.org/220917/20225343.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.173Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220917/20225343.html",
-      "newValue": "https://www.paccentraljc.org/20220917/20225343.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.452Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

@@ -7,14 +7,16 @@
   "genus": "Paphiopedilum",
   "species": "fairrieanum",
   "clone": "Second Chance",
-  "cross": "",
+  "cross": "species",
   "exhibitor": "Japheth Ko",
   "photographer": "Chaunie Langland",
   "photo": "images/20225307.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "type": "LateralSepal",
+    "numFlowers": 1,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One large flower on one 14-cm staked inflorescence; dorsal sepal recurved, \n\tdowny, white, veined purple, distal strong reticulations purple; synsepal white, \n\tveined purple; petals down-swept, recurved, white, veined purple, overlaid green proximally, \n\tsuperior margins edged purple, hirsute, margins undulate; pouch pale chartreuse, \n\tveined light mahogany, darker mahogany vein centrally, heavily speckled purple internally; \n\tstaminode chartreuse, stippled purple, superior half reticulated green; substance firm; \n\ttexture velvet, pouch glossy.",
     "NS": 6,
     "NSV": 7.1,
     "DSW": 4,
@@ -22,29 +24,15 @@
     "PETW": 1.3,
     "PETL": 3.5,
     "LSW": 2.1,
-    "LSL": 3.5,
-    "description": "One large flower on one 14-cm staked inflorescence; dorsal sepal recurved, downy, white, veined purple, distal strong reticulations purple; synsepal white, veined purple; petals down-swept, recurved, white, veined purple, overlaid green proximally, superior margins edged purple, hirsute, margins undulate; pouch pale chartreuse, veined light mahogany, darker mahogany vein centrally, heavily speckled purple internally; staminode chartreuse, stippled purple, superior half reticulated green; substance firm; texture velvet, pouch glossy."
+    "LSL": 3.5
   },
-  "scrapedDate": "2025-10-07T00:53:07.632Z",
+  "scrapedDate": "2025-10-13T18:32:45.387Z",
   "sourceUrl": "https://www.paccentraljc.org/20220319/20225307.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225307.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.163Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225307",
-      "newValue": "https://www.paccentraljc.org/220319/20225307.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.144Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220319/20225307.html",
-      "newValue": "https://www.paccentraljc.org/20220319/20225307.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.388Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

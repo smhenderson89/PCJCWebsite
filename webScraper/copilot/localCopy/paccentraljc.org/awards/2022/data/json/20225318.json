@@ -2,42 +2,41 @@
   "awardNum": "20225318",
   "award": "AQ",
   "awardpoints": "N/A",
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "April 16, 2022",
   "genus": "Cattleya",
   "species": "intermedia",
-  "clone": "",
-  "cross": "",
+  "clone": "N/A",
+  "cross": "N/A",
   "exhibitor": "Any and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20225318.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
-    "description": "Fifteen Cattleya intermedia displayed rich petal and lip color, consitantly flat petals with smooth edges show an improvement over the commonly seen wavy edges; three from this group received HCC awards during this judging, see awards 20225315, 20225316, 20225317."
+    "type": "N/A",
+    "numFlowers": "N/A",
+    "numBuds": "N/A",
+    "numInflorescences": "N/A",
+    "description": "Fifteen Cattleya intermedia displayed rich petal and lip color, consitantly flat petals with smooth edges show an improvement\n\tover the commonly seen wavy edges; three from this group received HCC awards during this judging, see awards 20225315, 20225316, 20225317.",
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LIPW": "N/A",
+    "LSW": "N/A",
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
   },
-  "scrapedDate": "2025-10-07T00:53:07.652Z",
+  "scrapedDate": "2025-10-13T18:32:45.404Z",
   "sourceUrl": "https://www.paccentraljc.org/20220416/20225318.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225318.html",
   "year": 2022,
-  "arrangement": true,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.170Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225318",
-      "newValue": "https://www.paccentraljc.org/220416/20225318.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.153Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220416/20225318.html",
-      "newValue": "https://www.paccentraljc.org/20220416/20225318.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "isDisplay": true,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.406Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "special"
+  }
 }

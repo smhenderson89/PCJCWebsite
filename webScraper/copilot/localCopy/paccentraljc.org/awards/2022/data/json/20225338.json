@@ -2,19 +2,21 @@
   "awardNum": "20225338",
   "award": "AM",
   "awardpoints": 83,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "July 16, 2022",
   "genus": "Cattleya",
   "species": "purpurata",
   "clone": "Winnie Duong",
-  "cross": "",
+  "cross": "species",
   "exhibitor": "Paul and Phyllis Chim",
   "photographer": "Chaunie Langland",
   "photo": "images/20225338.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 5,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Five well-presented large flat flowers on a 43-cm inflorescence;\n\tsepals and petals white overlaid dark fuchsia, darker centrally,\n\tveined fuchsia; lip tubular, ruffled, saturated magenta; column white,\n\tveined magenta, anther cap white; substance firm; texture crystalline.",
     "NS": 21.4,
     "NSV": 21.6,
     "DSW": 2.7,
@@ -24,29 +26,15 @@
     "LSW": 2.4,
     "LSL": 11.6,
     "LIPW": 5,
-    "LIPL": 9.2,
-    "description": "Five well-presented large flat flowers on a 43-cm inflorescence; sepals and petals white overlaid dark fuchsia, darker centrally, veined fuchsia; lip tubular, ruffled, saturated magenta; column white, veined magenta, anther cap white; substance firm; texture crystalline."
+    "LIPL": 9.2
   },
-  "scrapedDate": "2025-10-07T00:53:07.682Z",
+  "scrapedDate": "2025-10-13T18:32:45.442Z",
   "sourceUrl": "https://www.paccentraljc.org/20220716/20225338.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225338.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.181Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225338",
-      "newValue": "https://www.paccentraljc.org/220716/20225338.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.169Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220716/20225338.html",
-      "newValue": "https://www.paccentraljc.org/20220716/20225338.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.442Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

@@ -2,7 +2,7 @@
   "awardNum": "20225402",
   "award": "HCC",
   "awardpoints": 78,
-  "location": "Pacific Orchid & Garden Exposition",
+  "location": "Pacific Orchid Exposition",
   "date": "February 24, 2022",
   "genus": "Paphiopedilum",
   "species": "Magically Fred",
@@ -12,9 +12,11 @@
   "photographer": "Ken Jacobsen",
   "photo": "images/20225402.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "type": "LateralSepal",
+    "numFlowers": 1,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One symmetrical flower on one 23.2-cm inflorescence;\n\tarising from a 3-growth 21.5-cm plant;\n\tsepals white overlaid green centrally, rose suffused marginally, venation green;\n\tpetals white, basally green, distally rose, veining cordovan, random deep mahogany raised spots, superior margins hirsute;\n\tpouch maroon, veining darker maroon;\n\tstaminode light green, dark green centrally;\n\tsubstance firm; texture glossy.",
     "NS": 13.8,
     "NSV": 10.8,
     "DSW": 6.8,
@@ -22,29 +24,15 @@
     "PETW": 3,
     "PETL": 1.5,
     "LSW": 3.2,
-    "LSL": 5.5,
-    "description": "One symmetrical flower on one 23.2-cm inflorescence; arising from a 3-growth 21.5-cm plant; sepals white overlaid green centrally, rose suffused marginally, venation green; petals white, basally green, distally rose, veining cordovan, random deep mahogany raised spots, superior margins hirsute; pouch maroon, veining darker maroon; staminode light green, dark green centrally; substance firm; texture glossy."
+    "LSL": 5.5
   },
-  "scrapedDate": "2025-10-07T00:53:07.708Z",
+  "scrapedDate": "2025-10-13T18:32:45.481Z",
   "sourceUrl": "https://www.paccentraljc.org/20220224/20225402.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225402.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.191Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225402",
-      "newValue": "https://www.paccentraljc.org/220224/20225402.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.183Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220224/20225402.html",
-      "newValue": "https://www.paccentraljc.org/20220224/20225402.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.481Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

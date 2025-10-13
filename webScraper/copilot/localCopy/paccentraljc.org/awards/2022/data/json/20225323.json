@@ -2,7 +2,7 @@
   "awardNum": "20225323",
   "award": "AM",
   "awardpoints": 80,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "April 16, 2022",
   "genus": "Holcovanstylis",
   "species": "Ping Pong",
@@ -13,8 +13,10 @@
   "photo": "images/20225323.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 19,
+    "numBuds": 1,
+    "numInflorescences": 2,
+    "description": "Nineteen flowers and one bud well-arranged on two  11-cm upright infloresences;\n\n\t\n\n\tsepals and petals white, very lightly splashed magenta; \n\n\t\n\n\tlip white, midlobe striped magenta medially, side lobes striped magenta distally; \n\n\tanther cap light yellow; substance firm; texture crystalline.",
     "NS": 2.7,
     "NSV": 2.6,
     "DSW": 0.9,
@@ -24,29 +26,15 @@
     "LSW": 0.8,
     "LSL": 1.5,
     "LIPW": 0.5,
-    "LIPL": 2.2,
-    "description": "Nineteen flowers and one bud well-arranged on two 11-cm upright infloresences; sepals and petals white, very lightly splashed magenta; lip white, midlobe striped magenta medially, side lobes striped magenta distally; anther cap light yellow; substance firm; texture crystalline."
+    "LIPL": 2.2
   },
-  "scrapedDate": "2025-10-07T00:53:07.659Z",
+  "scrapedDate": "2025-10-13T18:32:45.412Z",
   "sourceUrl": "https://www.paccentraljc.org/20220416/20225323.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225323.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.172Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225323",
-      "newValue": "https://www.paccentraljc.org/220416/20225323.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.157Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220416/20225323.html",
-      "newValue": "https://www.paccentraljc.org/20220416/20225323.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.413Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

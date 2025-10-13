@@ -2,7 +2,7 @@
   "awardNum": "20225320",
   "award": "AM",
   "awardpoints": 80,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "April 16, 2022",
   "genus": "Sarcochilus",
   "species": "unregistered hybrid",
@@ -13,8 +13,10 @@
   "photo": "images/20225320.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 151,
+    "numBuds": 183,
+    "numInflorescences": 25,
+    "description": "One hundred fifty-one flowers and 183 buds on 25 upright inflorescences up to 24cm length;\n\tplant diameter 43cm, height 28cm, grown in 16-cm black scotch pot;\n\tsepals and petals deep rose, lightly barred red basally; \n\t\n\tlip saccate, yellow, orange markings; \n\tpollen cap white; substance firm; texture crystalline; received CCM award 20225321.",
     "NS": 2.7,
     "NSV": 2.7,
     "DSW": 1.2,
@@ -24,29 +26,15 @@
     "LSW": 1.3,
     "LSL": 1.3,
     "LIPW": 0.5,
-    "LIPL": 0.6,
-    "description": "One hundred fifty-one flowers and 183 buds on 25 upright inflorescences up to 24cm length; plant diameter 43cm, height 28cm, grown in 16-cm black scotch pot; sepals and petals deep rose, lightly barred red basally; lip saccate, yellow, orange markings; pollen cap white; substance firm; texture crystalline; received CCM award 20225321."
+    "LIPL": 0.6
   },
-  "scrapedDate": "2025-10-07T00:53:07.654Z",
+  "scrapedDate": "2025-10-13T18:32:45.408Z",
   "sourceUrl": "https://www.paccentraljc.org/20220416/20225320.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225320.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.171Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225320",
-      "newValue": "https://www.paccentraljc.org/220416/20225320.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.155Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220416/20225320.html",
-      "newValue": "https://www.paccentraljc.org/20220416/20225320.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.409Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

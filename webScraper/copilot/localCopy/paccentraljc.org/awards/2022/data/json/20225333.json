@@ -2,19 +2,21 @@
   "awardNum": "20225333",
   "award": "AM",
   "awardpoints": 84,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "June 18, 2022",
   "genus": "Ponerorchis",
   "species": "graminifolia",
   "clone": "Gracie",
-  "cross": "",
+  "cross": "species",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20225333.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 45,
+    "numBuds": 18,
+    "numInflorescences": 5,
+    "description": "Forty-five flowers and 18 buds on five upright inflorescences up to 10cm;\n\n\tdorsal sepal curved forward, lavender; lateral sepals slightly cupped,\n\n\tlavender, fading to white at margin; petals cupped, lavender outside, streaked white and lavender inside; \n\n\tlip broad, flat, trilobed, dark lavender, lighter shade at the margin;\n\n\tsubstance good; texture matte.",
     "NS": 1.5,
     "NSV": 1.1,
     "DSW": 0.3,
@@ -24,29 +26,15 @@
     "LSW": 0.3,
     "LSL": 0.5,
     "LIPW": 1.2,
-    "LIPL": 1,
-    "description": "Forty-five flowers and 18 buds on five upright inflorescences up to 10cm; dorsal sepal curved forward, lavender; lateral sepals slightly cupped, lavender, fading to white at margin; petals cupped, lavender outside, streaked white and lavender inside; lip broad, flat, trilobed, dark lavender, lighter shade at the margin; substance good; texture matte."
+    "LIPL": 1
   },
-  "scrapedDate": "2025-10-07T00:53:07.674Z",
+  "scrapedDate": "2025-10-13T18:32:45.432Z",
   "sourceUrl": "https://www.paccentraljc.org/20220618/20225333.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225333.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.178Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225333",
-      "newValue": "https://www.paccentraljc.org/220618/20225333.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.165Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220618/20225333.html",
-      "newValue": "https://www.paccentraljc.org/20220618/20225333.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.433Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

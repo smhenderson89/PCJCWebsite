@@ -13,8 +13,10 @@
   "photo": "images/20225264.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 5,
+    "numBuds": 5,
+    "numInflorescences": 1,
+    "description": "Five flowers and five buds on a 47-cm inflorescence;\n\t\n\tsepals and petals cream, uniformly flushed light pink;\n\t\n\t lip spatulate, white veined dark magenta distal half;\n\t column pale yellow, uniform magenta speckels, anther cap light yellow;\n\t\n    substance medium; texture crystalline.",
     "NS": 4.7,
     "NSV": 4.4,
     "DSW": 1,
@@ -24,29 +26,15 @@
     "LSW": 1.1,
     "LSL": 2.6,
     "LIPW": 2.1,
-    "LIPL": 2.3,
-    "description": "Five flowers and five buds on a 47-cm inflorescence; sepals and petals cream, uniformly flushed light pink; lip spatulate, white veined dark magenta distal half; column pale yellow, uniform magenta speckels, anther cap light yellow; substance medium; texture crystalline."
+    "LIPL": 2.3
   },
-  "scrapedDate": "2025-10-07T00:53:07.613Z",
+  "scrapedDate": "2025-10-13T18:32:45.368Z",
   "sourceUrl": "https://www.paccentraljc.org/20221206/20225264.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225264.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.156Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225264",
-      "newValue": "https://www.paccentraljc.org/221206/20225264.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.137Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/221206/20225264.html",
-      "newValue": "https://www.paccentraljc.org/20221206/20225264.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.369Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

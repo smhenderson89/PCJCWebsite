@@ -8,6 +8,10 @@ Display awards (SC, ST, etc.) are for exhibits, not plants — ignore measuremen
 
 Botanical awards (CBR, CHM, CBM) involve descriptive data and sometimes photos, not measurements
 
+Award AD (Award of Distinction) - No point value
+
+Genus is almost always the first single word in the full name of the plant
+
 Examples:
 Award 2025318 - AQ is a display award, so no measurements are expected. Add key-value object isDisplay true to JSON. If type is not included in source HTML, set to N/A. Description is part of the source html, starting with 'Awarded for ...'"
 

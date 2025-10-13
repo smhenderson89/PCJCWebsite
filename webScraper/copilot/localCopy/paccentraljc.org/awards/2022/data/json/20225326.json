@@ -2,7 +2,7 @@
   "awardNum": "20225326",
   "award": "HCC",
   "awardpoints": 79,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "April 16, 2022",
   "genus": "Cymbidium",
   "species": "True Creator",
@@ -13,8 +13,10 @@
   "photo": "images/20225326.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 12,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Twelve flowers on one upright 69-cm staked infloresence;\n\t\n\tsepals and petals white; \n\t\n\tlip ruffled, white, raised yellow striations on midlobe, keels bright yellow; \n\t substance very firm; texture matte.",
     "NS": 10.3,
     "NSV": 10,
     "DSW": 4.7,
@@ -24,29 +26,15 @@
     "LSW": 4.5,
     "LSL": 7,
     "LIPW": 3.7,
-    "LIPL": 6.8,
-    "description": "Twelve flowers on one upright 69-cm staked infloresence; sepals and petals white; lip ruffled, white, raised yellow striations on midlobe, keels bright yellow; substance very firm; texture matte."
+    "LIPL": 6.8
   },
-  "scrapedDate": "2025-10-07T00:53:07.663Z",
+  "scrapedDate": "2025-10-13T18:32:45.416Z",
   "sourceUrl": "https://www.paccentraljc.org/20220416/20225326.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225326.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.174Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225326",
-      "newValue": "https://www.paccentraljc.org/220416/20225326.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.159Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220416/20225326.html",
-      "newValue": "https://www.paccentraljc.org/20220416/20225326.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.417Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

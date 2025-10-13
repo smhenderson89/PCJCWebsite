@@ -2,7 +2,7 @@
   "awardNum": "20225305",
   "award": "AM",
   "awardpoints": 84,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "February 19, 2022",
   "genus": "Phalaenopsis",
   "species": "Rothschildiana",
@@ -13,8 +13,10 @@
   "photo": "images/20225305.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 12,
+    "numBuds": 13,
+    "numInflorescences": 1,
+    "description": "Twelve well-arranged fully flat flowers and 13 buds on one 95-cm branched inflorescence; \n\tsepals and petals white blushed pink proximally;\n\t \n\tlip white, midlobe blushed yellow tiny red spots proximally, side-lobes yellow blush distal edges, red spotting proximally, callus pale yellow, red markings; \n \n\tsubstance medium; texture slightly crystalline.",
     "NS": 8,
     "NSV": 7.5,
     "DSW": 2,
@@ -24,29 +26,15 @@
     "LSW": 2.2,
     "LSL": 3.2,
     "LIPW": 2.7,
-    "LIPL": 3,
-    "description": "Twelve well-arranged fully flat flowers and 13 buds on one 95-cm branched inflorescence; sepals and petals white blushed pink proximally; lip white, midlobe blushed yellow tiny red spots proximally, side-lobes yellow blush distal edges, red spotting proximally, callus pale yellow, red markings; substance medium; texture slightly crystalline."
+    "LIPL": 3
   },
-  "scrapedDate": "2025-10-07T00:53:07.629Z",
+  "scrapedDate": "2025-10-13T18:32:45.380Z",
   "sourceUrl": "https://www.paccentraljc.org/20220219/20225305.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225305.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.162Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225305",
-      "newValue": "https://www.paccentraljc.org/220219/20225305.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.143Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220219/20225305.html",
-      "newValue": "https://www.paccentraljc.org/20220219/20225305.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.381Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

@@ -2,7 +2,7 @@
   "awardNum": "20225302",
   "award": "HCC",
   "awardpoints": 75,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "February 19, 2022",
   "genus": "Dendrobium",
   "species": "Cheryl's Glory",
@@ -13,8 +13,10 @@
   "photo": "images/20225302.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 41,
+    "numBuds": 45,
+    "numInflorescences": 19,
+    "description": "Forty-one slightly cupped flowers and 45 buds on 19 erect 17-cm average inflorescences; \n\tsepals and petals white overlaid vibrant fuchsia distal three-fourths; \n\tlip white overlaid light fuchsia, darker centrally; \n   column bright fuchsia, anther cap white;\n\tsubstance firm; texture crystalline.",
     "NS": 4.7,
     "NSV": 4.5,
     "DSW": 1.1,
@@ -24,29 +26,15 @@
     "LSW": 1.2,
     "LSL": 3.1,
     "LIPW": 1.1,
-    "LIPL": 2.2,
-    "description": "Forty-one slightly cupped flowers and 45 buds on 19 erect 17-cm average inflorescences; sepals and petals white overlaid vibrant fuchsia distal three-fourths; lip white overlaid light fuchsia, darker centrally; column bright fuchsia, anther cap white; substance firm; texture crystalline."
+    "LIPL": 2.2
   },
-  "scrapedDate": "2025-10-07T00:53:07.620Z",
+  "scrapedDate": "2025-10-13T18:32:45.375Z",
   "sourceUrl": "https://www.paccentraljc.org/20220219/20225302.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225302.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.159Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225302",
-      "newValue": "https://www.paccentraljc.org/220219/20225302.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.140Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220219/20225302.html",
-      "newValue": "https://www.paccentraljc.org/20220219/20225302.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.376Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

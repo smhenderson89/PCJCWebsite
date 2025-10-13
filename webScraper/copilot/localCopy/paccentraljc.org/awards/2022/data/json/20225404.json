@@ -2,19 +2,21 @@
   "awardNum": "20225404",
   "award": "CBR",
   "awardpoints": "N/A",
-  "location": "Pacific Orchid & Garden Exposition",
+  "location": "Pacific Orchid Exposition",
   "date": "February 24, 2022",
   "genus": "Ornithocephalus",
   "species": "montealegreae",
   "clone": "Lise",
-  "cross": "",
+  "cross": "species",
   "exhibitor": "Mary Gerritsen",
   "photographer": "Ken Jacobsen",
   "photo": "images/20225404.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 240,
+    "numBuds": 6,
+    "numInflorescences": 24,
+    "description": "Approximately 240 flowers and six buds on 24 7.9-cm inflorescences;\n\t arising from leaf axils on four fanlike growths on a 7-cm x 5-cm cork mount,\n\t leaves 0.6cm wide, 5.5cm long, fine white roots with white hairs, root tips green;\n\t flowers translucent white;\n\t sepals and petals lanceolate;\n\t spadelike lip translucent white; anther cap bright green;\n\t pollinia yellow; substance translucent; texture crystalline;\n\t light, grass like fragrance.",
     "NS": 0.5,
     "NSV": 0.7,
     "DSW": 0.1,
@@ -24,29 +26,15 @@
     "LSW": 0.3,
     "LSL": 0.05,
     "LIPW": 0.2,
-    "LIPL": 0.1,
-    "description": "Approximately 240 flowers and six buds on 24 7.9-cm inflorescences; arising from leaf axils on four fanlike growths on a 7-cm x 5-cm cork mount, leaves 0.6cm wide, 5.5cm long, fine white roots with white hairs, root tips green; flowers translucent white; sepals and petals lanceolate; spadelike lip translucent white; anther cap bright green; pollinia yellow; substance translucent; texture crystalline; light, grass like fragrance."
+    "LIPL": 0.1
   },
-  "scrapedDate": "2025-10-07T00:53:07.711Z",
+  "scrapedDate": "2025-10-13T18:32:45.484Z",
   "sourceUrl": "https://www.paccentraljc.org/20220224/20225404.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225404.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.192Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225404",
-      "newValue": "https://www.paccentraljc.org/220224/20225404.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.185Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220224/20225404.html",
-      "newValue": "https://www.paccentraljc.org/20220224/20225404.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.485Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
 }

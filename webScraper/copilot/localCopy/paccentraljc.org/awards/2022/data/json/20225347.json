@@ -3,18 +3,20 @@
   "award": "CCM",
   "awardpoints": 83,
   "location": "Filoli Historic House Monthly",
-  "date": "2022-10-15",
+  "date": "October 15, 2022",
   "genus": "Cattleya",
   "species": "maxima",
   "clone": "Gracie",
-  "cross": "",
+  "cross": "species",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20225347.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 61,
+    "numBuds": 29,
+    "numInflorescences": 17,
+    "description": "Sixty-one flowers and 29 buds on 17 inflorescences up to 19cm; \n\tvigorous 90-cm wide by 55-cm tall plant in bark, \n\t30-cm plastic pot; sepals and petals magenta; petals undulate swept forward; lip tubular,\n\tinterior white, heavily veined dark magenta, central stripe bright yellow, margins ruffled;\n\tsubstance medium; texture matte; plant dropped in transit, minor foliage and flower damage, pot cracked.",
     "NS": 9.8,
     "NSV": 12.5,
     "DSW": 1.5,
@@ -24,11 +26,15 @@
     "LSW": 1.8,
     "LSL": 7.9,
     "LIPW": 3.5,
-    "LIPL": 6.7,
-    "description": "Sixty-one flowers and 29 buds on 17 inflorescences up to 19cm; vigorous 90-cm wide by 55-cm tall plant in bark, 30-cm plastic pot; sepals and petals magenta; petals undulate swept forward; lip tubular, interior white, heavily veined dark magenta, central stripe bright yellow, margins ruffled; substance medium; texture matte; plant dropped in transit, minor foliage and flower damage, pot cracked."
+    "LIPL": 6.7
   },
-  "scrapedDate": "2025-10-07T00:53:07.693Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225347",
+  "scrapedDate": "2025-10-13T18:32:45.458Z",
+  "sourceUrl": "https://www.paccentraljc.org/20221015/20225347.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225347.html",
-  "year": 2022
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.459Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

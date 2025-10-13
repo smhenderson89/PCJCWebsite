@@ -2,7 +2,7 @@
   "awardNum": "20225345",
   "award": "HCC",
   "awardpoints": 78,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "September 17, 2022",
   "genus": "Rhyncattleanthe",
   "species": "Streeter's Sunrise",
@@ -13,8 +13,10 @@
   "photo": "images/20225345.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 7,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Seven slightly crowded flowers on one upright 16-cm inflorescence;\n\tsepals and petals cream overlaid dark pink, green sepal tips;\n\t lip slightly ruffled, cream overlaid dark pink, darker blotches middle, throat yellow;\n\t column cream pink edge at anther cap, anther cap cream;\n\t\n    substance firm; texture slightly crystalline.",
     "NS": 11.1,
     "NSV": 11.2,
     "DSW": 2.4,
@@ -24,29 +26,15 @@
     "LSW": 2.4,
     "LSL": 6.1,
     "LIPW": 4.7,
-    "LIPL": 5.7,
-    "description": "Seven slightly crowded flowers on one upright 16-cm inflorescence; sepals and petals cream overlaid dark pink, green sepal tips; lip slightly ruffled, cream overlaid dark pink, darker blotches middle, throat yellow; column cream pink edge at anther cap, anther cap cream; substance firm; texture slightly crystalline."
+    "LIPL": 5.7
   },
-  "scrapedDate": "2025-10-07T00:53:07.690Z",
+  "scrapedDate": "2025-10-13T18:32:45.455Z",
   "sourceUrl": "https://www.paccentraljc.org/20220917/20225345.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225345.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.187Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225345",
-      "newValue": "https://www.paccentraljc.org/220917/20225345.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.175Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220917/20225345.html",
-      "newValue": "https://www.paccentraljc.org/20220917/20225345.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.455Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

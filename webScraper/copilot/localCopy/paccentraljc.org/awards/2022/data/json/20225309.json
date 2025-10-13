@@ -13,8 +13,10 @@
   "photo": "images/20225309.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 12,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Twelve well shaped flowers on one somewhat crowded 79-cm inflorescence; \n\tsepals and petals cream overlaid pink, slightly darker venation; lip white, \n\tspotted red distally, keel downy, yellow; column cream, overlaid dark pink; \n\tsubstance firm; texture matte.",
     "NS": 11.2,
     "NSV": 10,
     "DSW": 5.5,
@@ -24,29 +26,15 @@
     "LSW": 5.7,
     "LSL": 6.5,
     "LIPW": 5,
-    "LIPL": 5.3,
-    "description": "Twelve well shaped flowers on one somewhat crowded 79-cm inflorescence; sepals and petals cream overlaid pink, slightly darker venation; lip white, spotted red distally, keel downy, yellow; column cream, overlaid dark pink; substance firm; texture matte."
+    "LIPL": 5.3
   },
-  "scrapedDate": "2025-10-07T00:53:07.636Z",
+  "scrapedDate": "2025-10-13T18:32:45.391Z",
   "sourceUrl": "https://www.paccentraljc.org/20220319/20225309.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225309.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.164Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225309",
-      "newValue": "https://www.paccentraljc.org/220319/20225309.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.146Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220319/20225309.html",
-      "newValue": "https://www.paccentraljc.org/20220319/20225309.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.392Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

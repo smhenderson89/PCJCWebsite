@@ -2,7 +2,7 @@
   "awardNum": "20225331",
   "award": "HCC",
   "awardpoints": 75,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "June 18, 2022",
   "genus": "Cattleya",
   "species": "Memoria Alberto Wenzel",
@@ -13,8 +13,10 @@
   "photo": "images/20225331.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 4,
     "numBuds": 0,
+    "numInflorescences": 3,
+    "description": "Four flowers on three inflorescences up to 1.5cm; sepals and petals slightly recurved apically, \n\n\twhite completely overlaid pale lavender; petals overlapping the sepals, slightly fringed marginally;\n\n\tlip tubular, distinctly ruffled, throat white overlaid yellow, light lavender elsewhere;\n\n\tcolumn white, tip dark lavender, anther cap white; substance good; texture crystalline.",
     "NS": 8.5,
     "NSV": 8,
     "DSW": 2,
@@ -24,29 +26,15 @@
     "LSW": 2,
     "LSL": 4.5,
     "LIPW": 6,
-    "LIPL": 5,
-    "description": "Four flowers on three inflorescences up to 1.5cm; sepals and petals slightly recurved apically, white completely overlaid pale lavender; petals overlapping the sepals, slightly fringed marginally; lip tubular, distinctly ruffled, throat white overlaid yellow, light lavender elsewhere; column white, tip dark lavender, anther cap white; substance good; texture crystalline."
+    "LIPL": 5
   },
-  "scrapedDate": "2025-10-07T00:53:07.671Z",
+  "scrapedDate": "2025-10-13T18:32:45.429Z",
   "sourceUrl": "https://www.paccentraljc.org/20220618/20225331.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225331.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.177Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225331",
-      "newValue": "https://www.paccentraljc.org/220618/20225331.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.164Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220618/20225331.html",
-      "newValue": "https://www.paccentraljc.org/20220618/20225331.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.430Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

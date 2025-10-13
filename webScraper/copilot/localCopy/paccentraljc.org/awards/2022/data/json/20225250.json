@@ -13,8 +13,10 @@
   "photo": "images/20225250.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 3,
+    "numBuds": 3,
+    "numInflorescences": 2,
+    "description": "Three nicely spaced flowers on one 5.2 cm inflorescence, originating from the base of a pseudobulb, and three buds on \n\n\tone immature inflorescence; three fans of seven to eight leaves, largest leaf 2.9 cm x 63 cm, three ovate leafless \n\n\tbackbulbs 13 cm X 14 cm, grown in bark in 15-cm plastic pot; flower white; sepals light pink cast, tiny dark pink speckles\n\n\tproximally; petals short red line mid-rib distally; lip dark burgundy splotches throughout, overlaid yellow centrally, \n\n\tcallus yellow, dark burgundy splotches; column white, anther cap white; substance firm; texture matte; \n\n\treference www.holalanvietnam.org, Hoi Hoa Lan Viet Nam Cymbidium sanderae by Dang Buiafer plant ID; origin Vietnam; \n\n\tawarded for color of white with attractively patterned dark burgundy spots; this should invalidate award 20194134, \n\n\twhich was awarded to a Cymbidium parishii.",
     "NS": 7.2,
     "NSV": 6.5,
     "DSW": 1.9,
@@ -24,29 +26,15 @@
     "LSW": 2,
     "LSL": 5.2,
     "LIPW": 1.9,
-    "LIPL": 3,
-    "description": "Three nicely spaced flowers on one 5.2 cm inflorescence, originating from the base of a pseudobulb, and three buds on one immature inflorescence; three fans of seven to eight leaves, largest leaf 2.9 cm x 63 cm, three ovate leafless backbulbs 13 cm X 14 cm, grown in bark in 15-cm plastic pot; flower white; sepals light pink cast, tiny dark pink speckles proximally; petals short red line mid-rib distally; lip dark burgundy splotches throughout, overlaid yellow centrally, callus yellow, dark burgundy splotches; column white, anther cap white; substance firm; texture matte; reference www.holalanvietnam.org, Hoi Hoa Lan Viet Nam Cymbidium sanderae by Dang Buiafer plant ID; origin Vietnam; awarded for color of white with attractively patterned dark burgundy spots; this should invalidate award 20194134, which was awarded to a Cymbidium parishii."
+    "LIPL": 3
   },
-  "scrapedDate": "2025-10-07T00:53:07.566Z",
+  "scrapedDate": "2025-10-13T18:32:45.320Z",
   "sourceUrl": "https://www.paccentraljc.org/20220301/20225250.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225250.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.142Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225250",
-      "newValue": "https://www.paccentraljc.org/220301/20225250.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.119Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220301/20225250.html",
-      "newValue": "https://www.paccentraljc.org/20220301/20225250.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.327Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
 }

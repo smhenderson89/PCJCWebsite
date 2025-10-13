@@ -1,0 +1,55 @@
+2022 Source URL Logic
+
+Missing information fixes
+
+Award 20225262 
+- Missing Date: Check Source HTML, Date is Oct 4, 2022
+- Missing Location: Check source HTML, location is San Francisco Monthly
+- Missing SourceURL - Once Date is updated, fill in sourceHTML information
+
+Award 20225263: Missing Date/Location: Check Source HTML, fill in source HTML info
+
+Award 20225304 
+- Missing Award Info: Award is "AD" (Award of Distinction) - No point value, put N/a
+
+Award 20225347: Missing Date/Location: Check Source HTML, fill in source HTML info
+Award 20225349: Misisng Data/Location: Check Source HTML, fill in source HTML info
+
+Award 20225415: Display, Award is SC (Silver Certificate), no awardpoints, put N/A for genus, species, cross, clone
+
+Award 20225306: Cross is Cymbidium Shirley May Walker x Cymbidium Bill Bailey, the full of the 2nd line of displayed HTML before the award information 
+
+Award 20225308 - Genus is almost always the first single word in the full name of the plant
+
+Genus: Phalaenopsis 
+Species: Matthew Berry 
+Clone: 'My Love' 
+Cross: Phalaenopsis schilleriana x Phalaenopsis leucorrhoda
+
+Award 20225329
+
+Genus: Paphiopedilum 
+Species: Wossner Black Wings 
+Clone: Memoria Scott Collins 
+Species: Paphiopedilum rothschildianum 'Leo' x Paphiopedilum adductum 'Ace'
+
+Award 20225334, 20225335
+- Look at utilties/logicReference/orchidNameDecisionTree.json file for logic, re-do award 20225334
+
+Display awards (Show Tropy, ST, etc.) Put N/A for any species not specified. Any display awards should their value isDisplay set to true
+
+Award 20225336
+Cross is "Vanda critata x Vanda tricolor var. suavis"
+
+
+
+
+
+
+
+
+
+
+
+
+

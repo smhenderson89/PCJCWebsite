@@ -2,19 +2,21 @@
   "awardNum": "20225317",
   "award": "HCC",
   "awardpoints": 77,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "April 16, 2022",
   "genus": "Cattleya",
   "species": "intermedia",
   "clone": "Fancy One",
-  "cross": "",
+  "cross": "species",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Chaunie Langland",
   "photo": "images/20225317.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 4,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four flowers on one upright inflorescence 14cm long; sepals lanceolate, \n\n\twhite marked green at the tip; petals white overlaid purple margin \n\n\tand distal half, fading proximally; lip strongly frilled central margin, \n\n\tside lobes touching over column, white, \n\n\tstrongly marked purple margins; column white mostly overlaid purple, \n\n\tanther cap white; substance firm; texture matte.",
     "NS": 11,
     "NSV": 10.3,
     "DSW": 2.1,
@@ -24,29 +26,15 @@
     "LSW": 2.2,
     "LSL": 4.7,
     "LIPW": 3,
-    "LIPL": 4.8,
-    "description": "Four flowers on one upright inflorescence 14cm long; sepals lanceolate, white marked green at the tip; petals white overlaid purple margin and distal half, fading proximally; lip strongly frilled central margin, side lobes touching over column, white, strongly marked purple margins; column white mostly overlaid purple, anther cap white; substance firm; texture matte."
+    "LIPL": 4.8
   },
-  "scrapedDate": "2025-10-07T00:53:07.650Z",
+  "scrapedDate": "2025-10-13T18:32:45.402Z",
   "sourceUrl": "https://www.paccentraljc.org/20220416/20225317.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225317.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.169Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225317",
-      "newValue": "https://www.paccentraljc.org/220416/20225317.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.152Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220416/20225317.html",
-      "newValue": "https://www.paccentraljc.org/20220416/20225317.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.403Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

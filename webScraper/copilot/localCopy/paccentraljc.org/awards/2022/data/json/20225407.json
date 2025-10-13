@@ -2,7 +2,7 @@
   "awardNum": "20225407",
   "award": "AM",
   "awardpoints": 82,
-  "location": "Pacific Orchid & Garden Exposition",
+  "location": "Pacific Orchid Exposition",
   "date": "February 24, 2022",
   "genus": "Cattleya",
   "species": "Love Knot",
@@ -13,8 +13,10 @@
   "photo": "images/20225407.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 2,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Two flat flowers on one 4.0-cm inflorescence;\n\t sepals and petals light lavender;\n\t lip white, distal half including side lobes lavender, dark lavender veins, light yellow centrally;\n\t column white blushed light lavender;\n\t substance firm; texture diamond dust.",
     "NS": 10.5,
     "NSV": 11,
     "DSW": 1.8,
@@ -24,29 +26,15 @@
     "LSW": 2.2,
     "LSL": 6,
     "LIPW": 3.5,
-    "LIPL": 5,
-    "description": "Two flat flowers on one 4.0-cm inflorescence; sepals and petals light lavender; lip white, distal half including side lobes lavender, dark lavender veins, light yellow centrally; column white blushed light lavender; substance firm; texture diamond dust."
+    "LIPL": 5
   },
-  "scrapedDate": "2025-10-07T00:53:07.716Z",
+  "scrapedDate": "2025-10-13T18:32:45.488Z",
   "sourceUrl": "https://www.paccentraljc.org/20220224/20225407.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225407.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.194Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225407",
-      "newValue": "https://www.paccentraljc.org/220224/20225407.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.189Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220224/20225407.html",
-      "newValue": "https://www.paccentraljc.org/20220224/20225407.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.489Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

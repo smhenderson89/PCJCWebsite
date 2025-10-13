@@ -2,8 +2,8 @@
   "awardNum": "20225350",
   "award": "CCE",
   "awardpoints": 90,
-  "location": "Filoli Historic House & Garden",
-  "date": "2022-10-15",
+  "location": "Filoli Historic House Monthly",
+  "date": "October 15, 2022",
   "genus": "Cattlianthe",
   "species": "Mary Elizabeth Bohn",
   "clone": "Regal Flair",
@@ -13,8 +13,10 @@
   "photo": "images/20225350.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 55,
+    "numBuds": 1,
+    "numInflorescences": 6,
+    "description": "Fifty-five flowers and one bud on six up to 31-cm upright inflorescences; 38 pseudobulbs, clean foliage,\n\tplant 71cm tall and 95cm wide, plastic pot 15.5cm tall x 30-cm wide;\n\tsepal tips slightly recurved, light wisteria blue; petals slightly ruffled, tips recurved,\n\tdarker wisteria blue distally; lip tubular, margin ruffled, intense wisteria blue,\n\tlighter centrally; column cream, substance firm; texture crystalline; received AM 84\n\taward# 20225349.",
     "NS": 10.8,
     "NSV": 10.9,
     "DSW": 1.9,
@@ -24,11 +26,15 @@
     "LSW": 2,
     "LSL": 6.4,
     "LIPW": 3.5,
-    "LIPL": 5.3,
-    "description": "Fifty-five flowers and one bud on six up to 31-cm upright inflorescences; 38 pseudobulbs, clean foliage, plant 71cm tall and 95cm wide, plastic pot 15.5cm tall x 30-cm wide; sepal tips slightly recurved, light wisteria blue; petals slightly ruffled, tips recurved, darker wisteria blue distally; lip tubular, margin ruffled, intense wisteria blue, lighter centrally; column cream, substance firm; texture crystalline; received AM 84 award# 20225349."
+    "LIPL": 5.3
   },
-  "scrapedDate": "2025-10-07T00:53:07.696Z",
-  "sourceUrl": "https://www.paccentraljc.org/awards/20225350",
+  "scrapedDate": "2025-10-13T18:32:45.469Z",
+  "sourceUrl": "https://www.paccentraljc.org/20221015/20225350.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225350.html",
-  "year": 2022
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.471Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

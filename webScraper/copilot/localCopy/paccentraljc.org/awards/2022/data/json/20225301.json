@@ -2,19 +2,21 @@
   "awardNum": "20225301",
   "award": "HCC",
   "awardpoints": 77,
-  "location": "Filoli Historic House & Garden",
+  "location": "Filoli Historic House",
   "date": "February 19, 2022",
   "genus": "Cymbidium",
   "species": "Exeter Carnelian",
   "clone": "Samaria Skye",
-  "cross": "Cymbidium goeringii x Cymbidium Voodoo",
+  "cross": "'La Florista' x 'Anita'",
   "exhibitor": "Sylvia Darr",
   "photographer": "Chaunie Langland",
   "photo": "images/20225301.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 2,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Two flowers on one 23-cm inflorescence; \n\tsepals and petals cordovan-bronze, darker veins, petals tend towards porrect; \n\tlip slightly reflexed, yellow, burgundy splotch at tip, burgundy markings throughout; \n   column green overlaid cordovan-bronze markings on top, burgundy markings underside, anther cap white;\n\tsubstance towards firm; texture matte.",
     "NS": 5.9,
     "NSV": 6.4,
     "DSW": 1.5,
@@ -24,29 +26,15 @@
     "LSW": 1.6,
     "LSL": 3.9,
     "LIPW": 1.8,
-    "LIPL": 2.3,
-    "description": "Two flowers on one 23-cm inflorescence; sepals and petals cordovan-bronze, darker veins, petals tend towards porrect; lip slightly reflexed, yellow, burgundy splotch at tip, burgundy markings throughout; column green overlaid cordovan-bronze markings on top, burgundy markings underside, anther cap white; substance towards firm; texture matte."
+    "LIPL": 2.3
   },
-  "scrapedDate": "2025-10-07T00:53:07.618Z",
+  "scrapedDate": "2025-10-13T18:32:45.373Z",
   "sourceUrl": "https://www.paccentraljc.org/20220219/20225301.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225301.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.158Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225301",
-      "newValue": "https://www.paccentraljc.org/220219/20225301.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.139Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220219/20225301.html",
-      "newValue": "https://www.paccentraljc.org/20220219/20225301.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.374Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

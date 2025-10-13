@@ -7,14 +7,16 @@
   "genus": "Dendrobium",
   "species": "kingianum",
   "clone": "Black Snake",
-  "cross": "",
+  "cross": "species",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "Ken Jacobsen",
   "photo": "images/20225310.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 6,
+    "numBuds": 17,
+    "numInflorescences": 3,
+    "description": "Six slightly cupped flowers and 17 buds on three upright to arching inflorescences \n\n\tmeasuring up to 12.5cm long; sepals and petals vibrant electric purple; \n\n\tlip half-tubular, white, dark purple overlay; column white; substance firm; \n\n\ttexture slightly waxy.",
     "NS": 3,
     "NSV": 2.9,
     "DSW": 0.7,
@@ -24,29 +26,15 @@
     "LSW": 1,
     "LSL": 2,
     "LIPW": 0.9,
-    "LIPL": 1.4,
-    "description": "Six slightly cupped flowers and 17 buds on three upright to arching inflorescences measuring up to 12.5cm long; sepals and petals vibrant electric purple; lip half-tubular, white, dark purple overlay; column white; substance firm; texture slightly waxy."
+    "LIPL": 1.4
   },
-  "scrapedDate": "2025-10-07T00:53:07.639Z",
+  "scrapedDate": "2025-10-13T18:32:45.393Z",
   "sourceUrl": "https://www.paccentraljc.org/20220319/20225310.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225310.html",
   "year": 2022,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T03:54:44.165Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20225310",
-      "newValue": "https://www.paccentraljc.org/220319/20225310.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    },
-    {
-      "timestamp": "2025-10-09T10:37:57.147Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/220319/20225310.html",
-      "newValue": "https://www.paccentraljc.org/20220319/20225310.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYYYMMDD/awardNum.html)"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.393Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

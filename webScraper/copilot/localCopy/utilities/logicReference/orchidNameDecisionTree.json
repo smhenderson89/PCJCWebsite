@@ -1,0 +1,55 @@
+{
+  "Genus": {
+    "Step": 1,
+    "Rule": "Take the first word in the plant name.",
+    "Condition": "The genus is always a single capitalized word at the start.",
+    "Example": "Cattleya Pacavia 'Bentley' → Genus = Cattleya"
+  },
+
+  "Species": {
+    "Step": 2,
+    "Rule": "Take the second word in the plant name.",
+    "DecisionTree": [
+      {
+        "Condition": "Starts with lowercase",
+        "Action": "Assign this word as 'Species' (true botanical species).",
+        "Example": "Phalaenopsis schilleriana → Species = schilleriana"
+      },
+      {
+        "Condition": "Starts with uppercase",
+        "Action": "Assign this word as 'Species' (hybrid/grex name treated as species field).",
+        "Example": "Cattleya Pacavia 'Bentley' → Species = Pacavia"
+      },
+      {
+        "Condition": "Starts with '×' or 'x'",
+        "Action": "Assign this word as 'Species' (natural hybrid).",
+        "Example": "Paphiopedilum ×blossfeldianum → Species = ×blossfeldianum"
+      }
+    ]
+  },
+
+  "Clone": {
+    "Step": 3,
+    "Rule": "Search the plant name for single quotes.",
+    "Condition": "If text is found inside single quotes, assign it as 'Clone'.",
+    "IfNone": "Set Clone to 'N/A'.",
+    "Example": "Cattleya Pacavia 'Bentley' → Clone = Bentley"
+  },
+
+  "Cross": {
+    "Step": 4,
+    "Rule": "Check for second line or parenthetical text.",
+    "DecisionTree": [
+      {
+        "Condition": "Contains 'Genus species x Genus species' format",
+        "Action": "Assign entire line as 'Cross'.",
+        "Example": "Cattleya purpurata x Cattleya tenebrosa → Cross = (full string)"
+      },
+      {
+        "Condition": "No second line found",
+        "Action": "Set Cross to 'N/A'.",
+        "Example": "Phalaenopsis schilleriana → Cross = N/A"
+      }
+    ]
+  }
+}
