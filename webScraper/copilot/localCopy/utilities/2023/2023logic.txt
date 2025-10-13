@@ -11,3 +11,5 @@ Award 20235297 - the genus is "Cattelya", the species is "x blossfeldiana", the 
 
 Award 20235301 - cross is 'La Florista' x 'Anita'
 
+Award 20235358 - Award measurements were not measured. Let's add logic to include "NM" as the value if shown on the source HTML file for the measurements. In this case, NS, NSV, DSW, DSL, PETW, PETL, LSW, LSL, PCHW, PCHL
+

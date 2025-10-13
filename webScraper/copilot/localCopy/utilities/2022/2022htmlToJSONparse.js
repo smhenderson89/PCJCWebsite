@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 
-const jsonDirectory = path.resolve(path.join(__dirname, '../../paccentraljc.org/awards/2023/data/json'));
-const htmlDirectory = path.resolve(path.join(__dirname, '../../paccentraljc.org/awards/2023/html'));
+const jsonDirectory = path.resolve(path.join(__dirname, '../../paccentraljc.org/awards/2022/data/json'));
+const htmlDirectory = path.resolve(path.join(__dirname, '../../paccentraljc.org/awards/2022/html'));
 const logicPath = path.resolve(path.join(__dirname, '../logicReference/missingInfoLogic.json'));
 
 // Load the logic reference for edge cases
@@ -11,7 +11,7 @@ const missingInfoLogic = JSON.parse(fs.readFileSync(logicPath, 'utf-8'));
 
 /**
  * Convert date string to YYMMDD format for source URL
- * @param {string} dateStr - Date string like "February 15, 2023"
+ * @param {string} dateStr - Date string like "February 15, 2022"
  * @returns {string} - YYMMDD format like "250215"
  */
 function formatDateToYYMMDD(dateStr) {
@@ -119,8 +119,8 @@ function applyMissingInfoLogic(extractedData) {
         console.log(`   🧬 Set empty cross field to 'N/A'`);
     }
     
-    // Apply specific award fixes from 2023logic.txt FIRST (before general logic)
-    extractedData = applySpecific2023Fixes(extractedData);
+    // Apply specific award fixes from 2022logic.txt FIRST (before general logic)
+    extractedData = applySpecific2022Fixes(extractedData);
     
     // Re-check award categories after specific fixes
     const updatedAward = extractedData.award;
@@ -156,25 +156,25 @@ function applyMissingInfoLogic(extractedData) {
 }
 
 /**
- * Apply specific 2023 award fixes based on 2023logic.txt
+ * Apply specific 2022 award fixes based on 2022logic.txt
  * 
- * SPECIFIC 2023 FIXES REFERENCE:
- * - Award 20235365: Silver Certificate display award -> SC, N/A points, isDisplay=true
- * - Awards 20235256,20235258: Dendrobium cross -> 'Royal Blue' AM/AOS x 'Blues Brothers'
- * - Award 20235297: Cattleya x blossfeldiana 'Estelle' -> Cattleya rex x Cattleya luteola
- * - Award 20235301: Cattleya warscewiczii cross -> 'La Florista' x 'Anita'
- * - Award 20235358: Paphiopedilum measurements -> Set all to "NM" (not measured)
+ * SPECIFIC 2022 FIXES REFERENCE:
+ * - Award 20225365: Silver Certificate display award -> SC, N/A points, isDisplay=true
+ * - Awards 20225256,20225258: Dendrobium cross -> 'Royal Blue' AM/AOS x 'Blues Brothers'
+ * - Award 20225297: Cattleya x blossfeldiana 'Estelle' -> Cattleya rex x Cattleya luteola
+ * - Award 20225301: Cattleya warscewiczii cross -> 'La Florista' x 'Anita'
+ * - Award 20225358: Paphiopedilum measurements -> Set all to "NM" (not measured)
  * 
  * @param {Object} extractedData - The extracted award data
  * @returns {Object} - Modified award data with specific fixes
  */
-function applySpecific2023Fixes(extractedData) {
+function applySpecific2022Fixes(extractedData) {
     const awardNum = extractedData.awardNum;
-    console.log(`   🔧 Checking for specific 2023 fixes for award: ${awardNum}`);
+    console.log(`   🔧 Checking for specific 2022 fixes for award: ${awardNum}`);
     
-    // Award 20235365 - Silver Certificate display award fix
-    if (awardNum === '20235365') {
-        console.log(`   🏆 Applying specific fix for 20235365: SC display award`);
+    // Award 20225365 - Silver Certificate display award fix
+    if (awardNum === '20225365') {
+        console.log(`   🏆 Applying specific fix for 20225365: SC display award`);
         extractedData.award = 'SC';
         extractedData.awardpoints = 'N/A';
         extractedData.isDisplay = true;
@@ -188,36 +188,36 @@ function applySpecific2023Fixes(extractedData) {
             console.log(`   📏 Set measurement fields to 'N/A' for SC display award`);
         }
         
-        console.log(`   ✅ Fixed 20235365: award=SC, awardpoints=N/A, isDisplay=true, measurements=N/A`);
+        console.log(`   ✅ Fixed 20225365: award=SC, awardpoints=N/A, isDisplay=true, measurements=N/A`);
     }
     
-    // Awards 20235256, 20235258 - Dendrobium cross fix
-    if (awardNum === '20235256' || awardNum === '20235258') {
+    // Awards 20225256, 20225258 - Dendrobium cross fix
+    if (awardNum === '20225256' || awardNum === '20225258') {
         console.log(`   🧬 Applying cross fix for ${awardNum}: Dendrobium victoriae-reginae`);
         extractedData.cross = "'Royal Blue' AM/AOS x 'Blues Brothers'";
         console.log(`   ✅ Fixed ${awardNum}: cross='Royal Blue' AM/AOS x 'Blues Brothers'`);
     }
     
-    // Award 20235297 - Cattleya x blossfeldiana fix
-    if (awardNum === '20235297') {
-        console.log(`   🧬 Applying specific fix for 20235297: Cattleya x blossfeldiana`);
+    // Award 20225297 - Cattleya x blossfeldiana fix
+    if (awardNum === '20225297') {
+        console.log(`   🧬 Applying specific fix for 20225297: Cattleya x blossfeldiana`);
         extractedData.genus = 'Cattleya';
         extractedData.species = 'x blossfeldiana';
         extractedData.clone = "'Estelle'";
         extractedData.cross = 'Cattleya rex x Cattleya luteola';
-        console.log(`   ✅ Fixed 20235297: genus=Cattleya, species=x blossfeldiana, clone='Estelle', cross=Cattleya rex x Cattleya luteola`);
+        console.log(`   ✅ Fixed 20225297: genus=Cattleya, species=x blossfeldiana, clone='Estelle', cross=Cattleya rex x Cattleya luteola`);
     }
     
-    // Award 20235301 - Cattleya warscewiczii cross fix
-    if (awardNum === '20235301') {
-        console.log(`   🧬 Applying cross fix for 20235301: Cattleya warscewiczii`);
+    // Award 20225301 - Cattleya warscewiczii cross fix
+    if (awardNum === '20225301') {
+        console.log(`   🧬 Applying cross fix for 20225301: Cattleya warscewiczii`);
         extractedData.cross = "'La Florista' x 'Anita'";
-        console.log(`   ✅ Fixed 20235301: cross='La Florista' x 'Anita'`);
+        console.log(`   ✅ Fixed 20225301: cross='La Florista' x 'Anita'`);
     }
     
-    // Award 20235358 - Paphiopedilum measurements "NM" fix
-    if (awardNum === '20235358') {
-        console.log(`   📏 Applying measurement fix for 20235358: NM (not measured)`);
+    // Award 20225358 - Paphiopedilum measurements "NM" fix
+    if (awardNum === '20225358') {
+        console.log(`   📏 Applying measurement fix for 20225358: NM (not measured)`);
         if (extractedData.measurements) {
             // Set all measurement fields to "NM" (not measured)
             const measurementFields = ['NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LSW', 'LSL', 'PCHW', 'PCHL'];
@@ -226,7 +226,7 @@ function applySpecific2023Fixes(extractedData) {
                     extractedData.measurements[field] = 'NM';
                 }
             });
-            console.log(`   ✅ Fixed 20235358: Set measurement fields to 'NM' (not measured)`);
+            console.log(`   ✅ Fixed 20225358: Set measurement fields to 'NM' (not measured)`);
         }
     }
     
@@ -299,8 +299,8 @@ function extractFullAwardDataFromHtml(awardNum) {
             },
             scrapedDate: new Date().toISOString(),
             sourceUrl: '', // Will be set after we extract the date
-            htmlReference: `localCopy/paccentraljc.org/awards/2023/html/${awardNum}.html`,
-            year: 2023
+            htmlReference: `localCopy/paccentraljc.org/awards/2022/html/${awardNum}.html`,
+            year: 2022
         };
 
         // Extract from main content area - use the full body text approach
@@ -577,8 +577,8 @@ function extractFullAwardDataFromHtml(awardNum) {
     }
 }
 
-function processAll2023Files() {
-    console.log('🚀 PROCESSING ALL 2023 HTML FILES TO JSON (Enhanced with Logic Reference)');
+function processAll2022Files() {
+    console.log('🚀 PROCESSING ALL 2022 HTML FILES TO JSON (Enhanced with Logic Reference)');
     console.log('='.repeat(80));
     
     // Ensure JSON directory exists
@@ -587,10 +587,10 @@ function processAll2023Files() {
         console.log(`📁 Created JSON directory: ${jsonDirectory}`);
     }
     
-    // Get all HTML files, excluding summary pages (20230xxx are summary pages, 20235xxx are individual awards)
+    // Get all HTML files, excluding summary pages (20220xxx are summary pages, 20225xxx are individual awards)
     const htmlFiles = fs.readdirSync(htmlDirectory)
-        .filter(file => file.endsWith('.html') && file !== '2023.html')
-        .filter(file => !file.match(/^20230/)) // Skip summary pages like 20230120.html
+        .filter(file => file.endsWith('.html') && file !== '2022.html')
+        .filter(file => !file.match(/^20220/)) // Skip summary pages like 20220120.html
         .sort();
     
     console.log(`📄 Found ${htmlFiles.length} HTML files to process`);
@@ -646,7 +646,7 @@ function processAll2023Files() {
     });
     
     // Generate processing report
-    const reportPath = path.join(jsonDirectory, '../2023-enhanced-processing-report.json');
+    const reportPath = path.join(jsonDirectory, '../2022-enhanced-processing-report.json');
     const report = {
         timestamp: new Date().toISOString(),
         logicReferenceUsed: logicPath,
@@ -694,13 +694,13 @@ if (require.main === module) {
     
     if (args.length === 0 || args[0] === '--all') {
         // Process all files
-        processAll2023Files();
+        processAll2022Files();
     } else if (args[0] === '--analyze' || args[0] === '--analysis') {
         // Run data quality analysis
-        analyze2023Data(true);
+        analyze2022Data(true);
     } else if (args[0] === '--full-analysis') {
         // Run comprehensive analysis (shows all files)
-        analyze2023Data(false);
+        analyze2022Data(false);
     } else if (args[0] === '--test' && args[1]) {
         // Test single file
         const testAward = args[1];
@@ -717,8 +717,8 @@ if (require.main === module) {
  * @param {boolean} focusedMode - If true, only show files with missing data
  * @returns {Object} - Analysis results summary
  */
-async function analyze2023Data(focusedMode = true) {
-    console.log(focusedMode ? '🔍 2023 AWARDS - MISSING DATA ANALYSIS' : '📊 2023 AWARDS - FULL DATA ANALYSIS');
+async function analyze2022Data(focusedMode = true) {
+    console.log(focusedMode ? '🔍 2022 AWARDS - MISSING DATA ANALYSIS' : '📊 2022 AWARDS - FULL DATA ANALYSIS');
     console.log('='.repeat(80));
 
     const requiredFields = {
@@ -908,8 +908,8 @@ async function analyze2023Data(focusedMode = true) {
 
 module.exports = {
     extractFullAwardDataFromHtml,
-    processAll2023Files,
+    processAll2022Files,
     testSingleFile,
     applyMissingInfoLogic,
-    analyze2023Data
+    analyze2022Data
 };
