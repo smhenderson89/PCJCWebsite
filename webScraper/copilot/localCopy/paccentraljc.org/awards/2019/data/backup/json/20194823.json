@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194823",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "San Francisco",
+  "date": "August 6, 2019",
+  "genus": "Cynorkis",
+  "species": "gibbosa",
+  "clone": "Newago",
+  "cross": "species",
+  "exhibitor": "Jim Heilig",
+  "photographer": "N/A",
+  "photo": "images/20194823.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 6,
+    "numBuds": 18,
+    "numInflorescences": 1,
+    "description": "Six flowers and 18 buds on one 32-cm inflorescence; \n\t\n\tdorsal sepal hooded, light pink-orange;;\n\tlateral sepals pink-orange;\n\tpetals porrect, held tightly under dorsal sepal, pink-orange, darker on distal one-third;\n\t\n\t\nlip four-lobed, cream overlaid pink-orange, dark pink blotch centrally, spur 2.3cm, chartreuse;\n\nsubstance firm; texture matte.",
+    "NS": 3.5,
+    "NSV": 3.1,
+    "DSW": 0.9,
+    "DSL": 1.4,
+    "PETW": 0.2,
+    "PETL": 0.8,
+    "LSW": 0.9,
+    "LSL": 1.7,
+    "LIPW": 1.7,
+    "LIPL": 2.3
+  },
+  "scrapedDate": "2025-10-15T02:42:38.875Z",
+  "sourceUrl": "",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194823.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.876Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

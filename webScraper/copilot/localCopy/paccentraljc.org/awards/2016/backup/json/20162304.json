@@ -1,0 +1,36 @@
+{
+  "awardNum": "20162304",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 25, 2016",
+  "genus": "Paphiopedilum",
+  "species": "Macbre",
+  "clone": "Giant",
+  "cross": "Paphiopedilum Voodoo Magic x Paphiopedilum sukhakulii",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
+  "photo": "images/20162304.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One fairly flat flower on one inflorescence; dorsal sepal cream, veins green overlaid mahogany;\n   petals light green heavily spotted mahogany; pouch light mahogany; staminode green;  \n   substance medium; texture matte; horizontal stance of petals results in a larger natural spread.",
+    "NS": 16.7,
+    "NSV": 12,
+    "DSW": 5.5,
+    "DSL": 6.8,
+    "PETW": 3.3,
+    "PETL": 9.5
+  },
+  "scrapedDate": "2025-10-15T03:38:59.215Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160225/20162304.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162304.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.215Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

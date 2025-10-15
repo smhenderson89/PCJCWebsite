@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194870",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "Filoli Historic House",
+  "date": "May 18, 2019",
+  "genus": "Sarcochilus",
+  "species": "Kulnura Dragonfly",
+  "clone": "St. Ives",
+  "cross": "Sarcochilus Sweetheart x Sarcochilus Elegance",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194870.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 228,
+    "numBuds": 67,
+    "numInflorescences": 27,
+    "description": "Two hundred twenty-eight mainly flat flowers and 67 buds on 27 upright inflorescences;\n\t\n\t\n\t\n\tsepals and petals white, splashed rose, more heavily on sepals, deep oxblood basally;\n\t\nlip yellow, rose markings;\t\n\n\t\n\t\n\t\n\n\tsubstance very firm; texture crystalline.  Also received CCM of 84 points, award #20194871.",
+    "NS": 2.7,
+    "NSV": 2.9,
+    "DSW": 1.2,
+    "DSL": 1.6,
+    "PETW": 0.8,
+    "PETL": 1.2,
+    "LSW": 1.2,
+    "LSL": 1.5,
+    "LIPW": 0.5,
+    "LIPL": 0.7
+  },
+  "scrapedDate": "2025-10-15T02:42:38.925Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190518/20194870.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194870.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.926Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

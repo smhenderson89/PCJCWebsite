@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152296",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Oakland",
+  "date": "January 19, 2015",
+  "genus": "Odontioda",
+  "species": "Nation Dugger",
+  "clone": "Syrah",
+  "cross": "Oncidium Robert Dugger x Odontioda Nationwide",
+  "exhibitor": "Steve Beckendorf",
+  "photographer": "N/A",
+  "photo": "images/20152296.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 11,
+    "numBuds": 4,
+    "numInflorescences": 1,
+    "description": "Eleven flowers and four buds on one inflorescence; sepals and petals base color dark purple with variable\n    blotches outlined in lavender; lip pale lavender with dark blotches of maroon and yellow crest;\n    substance heavy; texture waxy.",
+    "NS": 8.2,
+    "NSV": 7.1,
+    "DSW": 3.1,
+    "DSL": 4,
+    "PETW": 3.6,
+    "PETL": 4,
+    "LSW": 3,
+    "LSL": 4.2,
+    "LIPW": 3,
+    "LIPL": 3.7
+  },
+  "scrapedDate": "2025-10-15T03:42:26.620Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150119/20152296.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152296.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.621Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

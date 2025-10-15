@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174118",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 13, 2017",
+  "genus": "Lycaste",
+  "species": "Pearl Dream",
+  "clone": "Echo Valley",
+  "cross": "Lycaste Pearl Line x Lycaste Chita Dream",
+  "exhibitor": "Echo Valley Orchids",
+  "photographer": "N/A",
+  "photo": "images/20174118.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 2,
+    "numInflorescences": 5,
+    "description": "Three well spaced flowers and two buds on five inflorescences; sepals and petals medium pink, pink speckles on petals;\n\n\tlip white, heavily spotted burgundy, callus yellow; anther cap cream;\n\n    substance firm; texture matte.",
+    "NS": 15.5,
+    "NSV": 12.3,
+    "DSW": 6,
+    "DSL": 8.6,
+    "PETW": 5.5,
+    "PETL": 5.2,
+    "LSW": 6.4,
+    "LSL": 8.1,
+    "LIPW": 2.4,
+    "LIPL": 4
+  },
+  "scrapedDate": "2025-10-15T03:32:22.314Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170113/20174118.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174118.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.315Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

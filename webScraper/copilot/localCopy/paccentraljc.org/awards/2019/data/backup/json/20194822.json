@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194822",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "San Francisco",
+  "date": "August 6, 2019",
+  "genus": "Paphiopedilum",
+  "species": "Worthy Fred",
+  "clone": "Slipper Zone Not Quite Worthy",
+  "cross": "Paphiopedilum President Fred x Paphiopedilum charlesworthii",
+  "exhibitor": "Lehua Orchids",
+  "photographer": "N/A",
+  "photo": "images/20194822.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one erect inflorescence; \n\t\n\tdorsal sepal white, heavily overlaid purple;\n\tlateral sepal light green, veins darker, burgundy on reverse;\n\tpetals cordovan;\n\t\n\t\nlip darker cordovan; column cream, lavender pubesence on staminode;\n\nsubstance firm; texture waxy.",
+    "NS": 10.2,
+    "NSV": 7,
+    "DSW": 7,
+    "DSL": 5.5,
+    "PETW": 2.7,
+    "PETL": 5.6,
+    "LSW": 4.3,
+    "LSL": 4.3,
+    "LIPW": 3.1,
+    "LIPL": 5.6
+  },
+  "scrapedDate": "2025-10-15T02:42:38.874Z",
+  "sourceUrl": "",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194822.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.874Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

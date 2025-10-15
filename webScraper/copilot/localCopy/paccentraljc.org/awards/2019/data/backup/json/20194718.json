@@ -1,0 +1,36 @@
+{
+  "awardNum": "20194718",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Santa Cruz Orchid Society Show",
+  "date": "March 2, 2019",
+  "genus": "Paphiopedilum",
+  "species": "Millennium",
+  "clone": "XICO",
+  "cross": "Paphiopedilum Newtown x Paphiopedilum Spotted Town",
+  "exhibitor": "Francisco Baptista",
+  "photographer": "N/A",
+  "photo": "images/20194718.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flat flower on one 26-cm inflorescence;\n\tdorsal sepal white, light yellow bassally, overlaid coarse mahogany spots;\n\tsynsepal light yellow, linear mahogany spots;\n\tpetals light yellow, overlaid mahogany,  darker superior mahogany spots basally;\n\tpouch light yellow, overlaid mahogany;\n\tstaminode light yellow overlaid mahogany speckles;\n\t\n\tsubstance firm; texture matte.",
+    "NS": 14.1,
+    "NSV": 11.3,
+    "DSW": 9.9,
+    "DSL": 7.5,
+    "PETW": 6,
+    "PETL": 7.3
+  },
+  "scrapedDate": "2025-10-15T02:42:38.825Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190302/20194718.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194718.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.825Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "awardNum": "20152355",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 19, 2015",
+  "genus": "Paphiopedilum",
+  "species": "Lady Isabel",
+  "clone": "A-OK",
+  "cross": "Paph. stonei x Paph. rothschildianum",
+  "exhibitor": "The Orchid Zone",
+  "photographer": "N/A",
+  "photo": "images/20152355.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four well presented flowers on one 60 cm inflorescence; sepals cream with cordovan stripes;\n    petals yellow fading to cream proximally with stipples and stripes coalescing to solid cordovan distally;\n    pouch suffused with mahogany with darker venation, staminode cream suffused light rose;\n    substance average; texture matte.",
+    "NS": 27.5,
+    "NSV": 11,
+    "DSW": 5,
+    "DSL": 6,
+    "PETW": 1.5,
+    "PETL": 16.1
+  },
+  "scrapedDate": "2025-10-15T03:42:26.690Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150219/20152355.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152355.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.691Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

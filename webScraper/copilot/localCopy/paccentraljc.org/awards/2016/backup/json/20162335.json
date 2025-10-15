@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162335",
+  "award": "CCE",
+  "awardpoints": 93,
+  "location": "Gold Coast Cymbidium Growers Show",
+  "date": "March 18, 2016",
+  "genus": "Laeliocattleya",
+  "species": "Santa Barbara Sunset",
+  "clone": "Showtime",
+  "cross": "Laelia anceps x Laelia Ancibarina",
+  "exhibitor": "Greg Corrales",
+  "photographer": "N/A",
+  "photo": "images/20162335.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 262,
+    "numBuds": 26,
+    "numInflorescences": 75,
+    "description": "Two hundred sixty-two flowers and 26 buds held terminally on 75 upright inflorescences; plant approximately 220-cm wide, grown in a \n\t60-cm diameter pot; sepals and petals old gold, sepals slightly striped rose, petals overlaid darker\n\trose; lip dark velvety magenta, mid-line bright golden yellow, throat veined magenta;\n    substance firm; texture matte.",
+    "NS": 9,
+    "NSV": 10,
+    "DSW": 1.5,
+    "DSL": 5.5,
+    "PETW": 1.6,
+    "PETL": 5.1,
+    "LSW": 2.5,
+    "LSL": 5.6,
+    "LIPW": 2,
+    "LIPL": 4.4
+  },
+  "scrapedDate": "2025-10-15T03:38:59.273Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160318/20162335.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162335.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.274Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

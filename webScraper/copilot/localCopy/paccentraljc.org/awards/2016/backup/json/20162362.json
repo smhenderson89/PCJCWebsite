@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162362",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Oakland",
+  "date": "April 18, 2016",
+  "genus": "Lycaste",
+  "species": "Nathalie Cely",
+  "clone": "Samantha Weeks",
+  "cross": "Lycaste Sunray x Lycaste guatamalensis",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "N/A",
+  "photo": "images/20162362.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 4,
+    "numInflorescences": 8,
+    "description": "Four flowers and four buds on eight inflorescences; sepals and petals white; lip light yellow;\n    substance fair; texture matte.",
+    "NS": 11.1,
+    "NSV": 9.8,
+    "DSW": 4.3,
+    "DSL": 6.7,
+    "PETW": 3.5,
+    "PETL": 4.5,
+    "LSW": 4.8,
+    "LSL": 7.3,
+    "LIPW": 2.5,
+    "LIPL": 3.5
+  },
+  "scrapedDate": "2025-10-15T03:38:59.301Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160418/20162362.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162362.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.302Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

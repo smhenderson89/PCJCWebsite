@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194857",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Filoli Historic House",
+  "date": "March 9, 2019",
+  "genus": "Dendrobium",
+  "species": "x speciokingianum",
+  "clone": "Beryl Clarke",
+  "cross": "Dendroium kingianum x Dendrobium speciosum, natural hybrid",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194857.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 84,
+    "numBuds": 17,
+    "numInflorescences": 17,
+    "description": "Eighty-four flowers and 17 buds on 17 inflorescences on a compact plant;\n\tflowers white, very fine faint pink speckles;\n\t\n\tlip green basally;\n\n\t\n\t\n\n\tsubstance heavy; texture sparkling.",
+    "NS": 3,
+    "NSV": 3,
+    "DSW": 0.4,
+    "DSL": 2,
+    "PETW": 0.5,
+    "PETL": 1.8,
+    "LSW": 1.3,
+    "LSL": 2,
+    "LIPW": 0.5,
+    "LIPL": 1.7
+  },
+  "scrapedDate": "2025-10-15T02:42:38.908Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190309/20194857.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194857.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.908Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194881",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "August 17, 2019",
+  "genus": "Habenaria",
+  "species": "carnea var. nivosa",
+  "clone": "Tuscola",
+  "cross": "species",
+  "exhibitor": "Jim Heilig",
+  "photographer": "N/A",
+  "photo": "images/20194881.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 10,
+    "numBuds": 7,
+    "numInflorescences": 2,
+    "description": "Ten flowers and seven buds on two inflorescences; \n\t\n\tflowers white overlaid faint pink blush on back of dorsal sepal;\n\t\n\t\nlip green stripes basally, 3.8-cm nectary tan-green; \n\nsubstance moderate; texture matte.  Plant damaged in-transit.",
+    "NS": 2.8,
+    "NSV": 3.4,
+    "DSW": 1.2,
+    "DSL": 1.2,
+    "PETW": 0.1,
+    "PETL": 0.5,
+    "LSW": 1.4,
+    "LSL": 1.6,
+    "LIPW": 2.8,
+    "LIPL": 2.6
+  },
+  "scrapedDate": "2025-10-15T02:42:38.941Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190817/20194881.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194881.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.941Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

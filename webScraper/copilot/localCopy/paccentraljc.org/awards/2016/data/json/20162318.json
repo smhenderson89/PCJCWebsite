@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162318",
+  "award": "CCM",
+  "awardpoints": 83,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 25, 2016",
+  "genus": "Dendrobium",
+  "species": "papilio",
+  "clone": "Vistamont",
+  "cross": "species",
+  "exhibitor": "Cindy Hill",
+  "photographer": "N/A",
+  "photo": "images/20162318.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 68,
+    "numBuds": 2,
+    "numInflorescences": 13,
+    "description": "Sixty-eight flowers and two buds on 13 inflorescences on a 32-cm x 60-cm mounted plant with 22 branched growths,\n    13 bearing flowers; \n    sepals and petals white; lip white striped purple; \n    substance papery; texture matte.",
+    "NS": 9,
+    "NSV": 9.5,
+    "DSW": 2.4,
+    "DSL": 5,
+    "PETW": 3.5,
+    "PETL": 5,
+    "LSW": 2.5,
+    "LSL": 5,
+    "LIPW": 3.5,
+    "LIPL": 4.2
+  },
+  "scrapedDate": "2025-10-15T03:38:59.246Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160225/20162318.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162318.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.247Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

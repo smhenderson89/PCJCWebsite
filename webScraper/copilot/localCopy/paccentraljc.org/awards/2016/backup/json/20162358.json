@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162358",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Oakland",
+  "date": "May 16, 2016",
+  "genus": "Phalaenopsis",
+  "species": "Phoenix Fantasy",
+  "clone": "Shadow",
+  "cross": "Phalaenopsis Brother Dendi x Phalaenopsis Brother Sara Gold",
+  "exhibitor": "Eric Goo/Phoenix Orchids",
+  "photographer": "N/A",
+  "photo": "images/20162358.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 11,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eleven flowers on one branched inflorescence; sepals and petals yellow, lightly suffused fuchsia \n\tcentrally, small concentric fuchsia bars overall; lip white, side lobes flushed fuchsia with small\n\tfuchsia dots, midlobe fuchsia; \n    substance firm; texture matte.",
+    "NS": 5.9,
+    "NSV": 5.7,
+    "DSW": 2.2,
+    "DSL": 3,
+    "PETW": 2.8,
+    "PETL": 2.6,
+    "LSW": 2.2,
+    "LSL": 3.1,
+    "LIPW": 1.6,
+    "LIPL": 2.5
+  },
+  "scrapedDate": "2025-10-15T03:38:59.296Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160516/20162358.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162358.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.297Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

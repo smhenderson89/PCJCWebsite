@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194833",
+  "award": "FCC",
+  "awardpoints": 91,
+  "location": "Filoli Historic House",
+  "date": "October 19, 2019",
+  "genus": "Stanhopea",
+  "species": "tigrina",
+  "clone": "RoEm",
+  "cross": "species",
+  "exhibitor": "Mary Bui-Pham",
+  "photographer": "N/A",
+  "photo": "images/20194833.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Two exceptionally flat flowers on one pendulous inflorescence;\n\t\n\tsepals and petals cream, broadly and uniformly spotted mahogany, solid mahogany basally;\n\tlip cream, speckled mohagany, solid mahogany basally;\n\t\n\nsubstance heavy; texture waxy.",
+    "NS": 17.1,
+    "NSV": 18,
+    "DSW": 5.4,
+    "DSL": 9.8,
+    "PETW": 3.1,
+    "PETL": 9.4,
+    "LSW": 6.7,
+    "LSL": 10.7,
+    "LIPW": 5.6,
+    "LIPL": 7.8
+  },
+  "scrapedDate": "2025-10-15T02:42:38.888Z",
+  "sourceUrl": "https://www.paccentraljc.org/20191019/20194833.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194833.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.889Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

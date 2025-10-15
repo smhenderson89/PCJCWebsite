@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162357",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "Oakland",
+  "date": "May 16, 2016",
+  "genus": "Phalaenopsis",
+  "species": "Purple Majesty",
+  "clone": "Shadow",
+  "cross": "Phalaenopsis Andalusia x Phalaenopsis Malibu Imp",
+  "exhibitor": "Eric Goo/Phoenix Orchids",
+  "photographer": "N/A",
+  "photo": "images/20162357.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 5,
+    "numInflorescences": 2,
+    "description": "Four flowers and five buds on two inflorescences, and two buds on one immature inflorescence;\n    exceptionally flat, full sepals and petals fluorescent saturated magenta;\n    lip white, midlobe bright magenta-purple, side lobes yellow, keels gold; anther cap cream;\n    substance very firm; texture satiny.",
+    "NS": 6.1,
+    "NSV": 6.1,
+    "DSW": 2.5,
+    "DSL": 3,
+    "PETW": 2.3,
+    "PETL": 2.8,
+    "LSW": 2.8,
+    "LSL": 3.3,
+    "LIPW": 1.2,
+    "LIPL": 2.2
+  },
+  "scrapedDate": "2025-10-15T03:38:59.295Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160516/20162357.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162357.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.296Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

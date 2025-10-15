@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194875",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "July 20, 2019",
+  "genus": "Cattleya",
+  "species": "unregistered",
+  "clone": "Blue Tiger",
+  "cross": "Cattleya purpurata x Cattleya Pulcherrima (1898)",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194875.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 15,
+    "numBuds": 0,
+    "numInflorescences": 4,
+    "description": "Fifteen flowers on four inflorescences; \n\t\n\tsepals white;\n\tpetals slightly wavy, white lightly flushed purple lineate;\n\t\n\t\nlip white, strongly overlaid purple, darker veins, edged white, throat white, nicely linate purple;\nsubstance medium; texture matte.",
+    "NS": 17,
+    "NSV": 16,
+    "DSW": 2.2,
+    "DSL": 10.2,
+    "PETW": 5,
+    "PETL": 9.4,
+    "LSW": 2.2,
+    "LSL": 9.8,
+    "LIPW": 4.5,
+    "LIPL": 7.8
+  },
+  "scrapedDate": "2025-10-15T02:42:38.932Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190720/20194875.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194875.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.933Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

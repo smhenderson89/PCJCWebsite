@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152354",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 19, 2015",
+  "genus": "Dendrobium",
+  "species": "shiraishi",
+  "clone": "Tiny Jungle",
+  "cross": "species",
+  "exhibitor": "Tiny Jungle",
+  "photographer": "N/A",
+  "photo": "images/20152354.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 23,
+    "numBuds": 0,
+    "numInflorescences": 3,
+    "description": "Twenty-three well spaced flowers on three upright inflorescences;\n    sepals yellow-green, spotted maroon basally on reverse; petals recurved, yellow-green;\n    lip chartreuse, side-lobes spotted and veined maroon, mid-lobe saturated deep maroon basally;\n    column white; substance firm; texture  matte.",
+    "NS": 7.5,
+    "NSV": 7,
+    "DSW": 1.9,
+    "DSL": 3.5,
+    "PETW": 2,
+    "PETL": 3.6,
+    "LSW": 1.2,
+    "LSL": 4.1,
+    "LIPW": 2.7,
+    "LIPL": 4.7
+  },
+  "scrapedDate": "2025-10-15T03:42:26.689Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150219/20152354.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152354.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.690Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

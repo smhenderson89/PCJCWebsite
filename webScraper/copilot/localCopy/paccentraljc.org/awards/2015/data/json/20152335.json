@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152335",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Gold Coast Cymbidium Growers Show",
+  "date": "April 17, 2015",
+  "genus": "Cymbidium",
+  "species": "Alida Valli",
+  "clone": "Epigarden",
+  "cross": "Cymbidium Phar Lap x Cymbidium Rio Rita",
+  "exhibitor": "Weegie Caughlan",
+  "photographer": "N/A",
+  "photo": "images/20152335.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 43,
+    "numBuds": 6,
+    "numInflorescences": 1,
+    "description": "Forty-three flowers and six buds on a single arching pendant inflorescence; sepals and petals maroon with darker midline and cream edge;\n\tlip saturated ruby, keel cream; pollen cap white;\n\tsubstance firm; texture matte.",
+    "NS": 6.5,
+    "NSV": 6,
+    "DSW": 2.1,
+    "DSL": 4,
+    "PETW": 1.7,
+    "PETL": 3.5,
+    "LSW": 2.2,
+    "LSL": 3.5,
+    "LIPW": 1.7,
+    "LIPL": 2.4
+  },
+  "scrapedDate": "2025-10-15T03:42:26.668Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150417/20152335.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152335.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.669Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

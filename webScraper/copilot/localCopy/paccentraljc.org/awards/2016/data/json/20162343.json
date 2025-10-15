@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162343",
+  "award": "CCE",
+  "awardpoints": 95,
+  "location": "Oakland",
+  "date": "June 20, 2016",
+  "genus": "Lepanthes",
+  "species": "calodictyon",
+  "clone": "Vistamont",
+  "cross": "species",
+  "exhibitor": "Steve Beckendorf",
+  "photographer": "N/A",
+  "photo": "images/20162343.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 20,
+    "numBuds": 35,
+    "numInflorescences": 55,
+    "description": "Twenty flowers and 35 buds on 55 sequentially flowering inflorescences produced from upper leaf surface on\n    a pristine 13.4 x 12.6 x 8.0-cm multi-layered plant ball grown on a 13 x 5-cm tree fern plaque,\n    creating a stunning display of a miniature species; leaves ovate, light green, tessellating dark green, reverse purple;\n    flowers minute complex; sepals light green-brown; petals dark red; column purple-red.",
+    "NS": 0.6,
+    "NSV": 0.5,
+    "DSW": 0.1,
+    "DSL": 0.3,
+    "PETW": 0.1,
+    "PETL": 0.3,
+    "LSW": 0.1,
+    "LSL": 0.3,
+    "LIPW": 0.1,
+    "LIPL": 0.1
+  },
+  "scrapedDate": "2025-10-15T03:38:59.279Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160620/20162343.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162343.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.280Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

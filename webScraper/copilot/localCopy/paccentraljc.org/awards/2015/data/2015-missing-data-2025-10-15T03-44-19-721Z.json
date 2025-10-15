@@ -1,0 +1,2104 @@
+{
+  "metadata": {
+    "year": 2015,
+    "analysisType": "missing-data",
+    "timestamp": "2025-10-15T03:44:19.726Z",
+    "generatedBy": "analyze-2015-data.js (enhanced with source URLs)",
+    "includesSourceUrls": true,
+    "purpose": "Review missing data by visiting source URLs",
+    "logicReferenceUsed": "logicReference/missingInfoLogic.json"
+  },
+  "summary": {
+    "totalFiles": 74,
+    "perfectFiles": 0,
+    "filesWithIssues": 74,
+    "perfectPercentage": 0,
+    "issuesPercentage": 100
+  },
+  "issueBreakdown": {
+    "criticalIssues": 0,
+    "importantMissing": 74,
+    "measurementIssues": 0,
+    "descriptionOnly": 0
+  },
+  "awardsWithIssues": {
+    "critical": [],
+    "important": [
+      {
+        "awardNum": "20152291",
+        "filename": "20152291.json",
+        "plant": "Lycaste Nagai International 'Monterey Bay'",
+        "exhibitor": "Echo Valley Orchids",
+        "award": "AM 84",
+        "sourceUrl": "https://www.paccentraljc.org/20150123/20152291.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152291.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150123/20152291.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152291.html",
+          "scrapedDate": "2025-10-15T03:42:26.592Z",
+          "date": "January 23, 2015",
+          "location": "Peninsula Orchid Society Show",
+          "genus": "Lycaste",
+          "species": "Nagai International",
+          "clone": "Monterey Bay",
+          "cross": "Lycaste Chita Sunset x Lycaste skinneri",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152292",
+        "filename": "20152292.json",
+        "plant": "Epidendrum Pacific Peacock 'Fuchsia'",
+        "exhibitor": "Cal-Orchid, Inc.",
+        "award": "AM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20150123/20152292.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152292.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150123/20152292.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152292.html",
+          "scrapedDate": "2025-10-15T03:42:26.605Z",
+          "date": "January 23, 2015",
+          "location": "Peninsula Orchid Society Show",
+          "genus": "Epidendrum",
+          "species": "Pacific Peacock",
+          "clone": "Fuchsia",
+          "cross": "Epidendrum Pacific Smoothie x Epidendrum Pacific Mulberry",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152293",
+        "filename": "20152293.json",
+        "plant": "Dinema polybulbon 'Alpine'",
+        "exhibitor": "Brookside Orchids",
+        "award": "CCM 88",
+        "sourceUrl": "https://www.paccentraljc.org/20150123/20152293.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152293.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150123/20152293.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152293.html",
+          "scrapedDate": "2025-10-15T03:42:26.609Z",
+          "date": "January 23, 2015",
+          "location": "Peninsula Orchid Society Show",
+          "genus": "Dinema",
+          "species": "polybulbon",
+          "clone": "Alpine",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152294",
+        "filename": "20152294.json",
+        "plant": "Cymbidium Ha Bui 'Ark'",
+        "exhibitor": "Terry and Margaret Boomer",
+        "award": "HCC 78",
+        "sourceUrl": "https://www.paccentraljc.org/20150123/20152294.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152294.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150123/20152294.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152294.html",
+          "scrapedDate": "2025-10-15T03:42:26.612Z",
+          "date": "January 23, 2015",
+          "location": "Peninsula Orchid Society Show",
+          "genus": "Cymbidium",
+          "species": "Ha Bui",
+          "clone": "Ark",
+          "cross": "Cymbidium Len Southward x Cymbidium Rose Armstrong",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152295",
+        "filename": "20152295.json",
+        "plant": "Lycaste Chita Prince 'Redwood'",
+        "exhibitor": "Cal-Orchid",
+        "award": "HCC 79",
+        "sourceUrl": "https://www.paccentraljc.org/20150123/20152295.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152295.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150123/20152295.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152295.html",
+          "scrapedDate": "2025-10-15T03:42:26.614Z",
+          "date": "January 23, 2015",
+          "location": "Peninsula Orchid Society Show",
+          "genus": "Lycaste",
+          "species": "Chita Prince",
+          "clone": "Redwood",
+          "cross": "Lycaste Chita Sunset x Lycaste Cherish",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152296",
+        "filename": "20152296.json",
+        "plant": "Odontioda Nation Dugger 'Syrah'",
+        "exhibitor": "Steve Beckendorf",
+        "award": "HCC 75",
+        "sourceUrl": "https://www.paccentraljc.org/20150119/20152296.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152296.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150119/20152296.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152296.html",
+          "scrapedDate": "2025-10-15T03:42:26.620Z",
+          "date": "January 19, 2015",
+          "location": "Oakland",
+          "genus": "Odontioda",
+          "species": "Nation Dugger",
+          "clone": "Syrah",
+          "cross": "Oncidium Robert Dugger x Odontioda Nationwide",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152297",
+        "filename": "20152297.json",
+        "plant": "Masdevallia Billion-Nims 'Red Tide'",
+        "exhibitor": "Ken Cook",
+        "award": "FCC 91",
+        "sourceUrl": "https://www.paccentraljc.org/20150505/20152297.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152297.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150505/20152297.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152297.html",
+          "scrapedDate": "2025-10-15T03:42:26.622Z",
+          "date": "May 5, 2015",
+          "location": "San Francisco",
+          "genus": "Masdevallia",
+          "species": "Billion-Nims",
+          "clone": "Red Tide",
+          "cross": "Masd. Falcon Sunrise x Masd. Annette Hall",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152298",
+        "filename": "20152298.json",
+        "plant": "Cyrtochilum leopoldianum 'Gina'",
+        "exhibitor": "Alec Koomanoff",
+        "award": "AM 83",
+        "sourceUrl": "https://www.paccentraljc.org/20150505/20152298.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152298.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150505/20152298.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152298.html",
+          "scrapedDate": "2025-10-15T03:42:26.625Z",
+          "date": "May 5, 2015",
+          "location": "San Francisco",
+          "genus": "Cyrtochilum",
+          "species": "leopoldianum",
+          "clone": "Gina",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152299",
+        "filename": "20152299.json",
+        "plant": "Cyrtochilum leopoldianum 'Gina'",
+        "exhibitor": "Alec Koomanoff",
+        "award": "CCE 90",
+        "sourceUrl": "https://www.paccentraljc.org/20150505/20152299.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152299.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150505/20152299.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152299.html",
+          "scrapedDate": "2025-10-15T03:42:26.627Z",
+          "date": "May 5, 2015",
+          "location": "San Francisco",
+          "genus": "Cyrtochilum",
+          "species": "leopoldianum",
+          "clone": "Gina",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152300",
+        "filename": "20152300.json",
+        "plant": "Microcoelia stolzii 'Kathy Fenwick'",
+        "exhibitor": "Yuner Peralta",
+        "award": "CCE 93",
+        "sourceUrl": "https://www.paccentraljc.org/20150602/20152300.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152300.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150602/20152300.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152300.html",
+          "scrapedDate": "2025-10-15T03:42:26.630Z",
+          "date": "June 2, 2015",
+          "location": "San Francisco",
+          "genus": "Microcoelia",
+          "species": "stolzii",
+          "clone": "Kathy Fenwick",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152301",
+        "filename": "20152301.json",
+        "plant": "Masdevallia coccinea 'Luna Dandelion'",
+        "exhibitor": "Ken Cook",
+        "award": "FCC 90",
+        "sourceUrl": "https://www.paccentraljc.org/20150602/20152301.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152301.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150602/20152301.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152301.html",
+          "scrapedDate": "2025-10-15T03:42:26.632Z",
+          "date": "June 2, 2015",
+          "location": "San Francisco",
+          "genus": "Masdevallia",
+          "species": "coccinea",
+          "clone": "Luna Dandelion",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152302",
+        "filename": "20152302.json",
+        "plant": "Cattleya purpurata 'Fred'",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "award": "AM 81",
+        "sourceUrl": "https://www.paccentraljc.org/20150707/20152302.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152302.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150707/20152302.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152302.html",
+          "scrapedDate": "2025-10-15T03:42:26.634Z",
+          "date": "July 7, 2015",
+          "location": "San Francisco",
+          "genus": "Cattleya",
+          "species": "purpurata",
+          "clone": "Fred",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152303",
+        "filename": "20152303.json",
+        "plant": "Cattleya tenebrosa 'Estrela Escura'",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "award": "AM 88",
+        "sourceUrl": "https://www.paccentraljc.org/20150707/20152303.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152303.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150707/20152303.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152303.html",
+          "scrapedDate": "2025-10-15T03:42:26.636Z",
+          "date": "July 7, 2015",
+          "location": "San Francisco",
+          "genus": "Cattleya",
+          "species": "tenebrosa",
+          "clone": "Estrela Escura",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152304",
+        "filename": "20152304.json",
+        "plant": "Cattleya tenebrosa 'Belleza Cobra'",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "award": "AM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20150707/20152304.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152304.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150707/20152304.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152304.html",
+          "scrapedDate": "2025-10-15T03:42:26.639Z",
+          "date": "July 7, 2015",
+          "location": "San Francisco",
+          "genus": "Cattleya",
+          "species": "tenebrosa",
+          "clone": "Belleza Cobra",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152305",
+        "filename": "20152305.json",
+        "plant": "Cattleya tenebrosa 'Sirena de Bronce'",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "award": "HCC 78",
+        "sourceUrl": "https://www.paccentraljc.org/20150707/20152305.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152305.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150707/20152305.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152305.html",
+          "scrapedDate": "2025-10-15T03:42:26.641Z",
+          "date": "July 7, 2015",
+          "location": "San Francisco",
+          "genus": "Cattleya",
+          "species": "tenebrosa",
+          "clone": "Sirena de Bronce",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152306",
+        "filename": "20152306.json",
+        "plant": "Sobralia xantholeuca 'Ohsuka'",
+        "exhibitor": "Masaki Asuka",
+        "award": "HCC 78",
+        "sourceUrl": "https://www.paccentraljc.org/20150724/20152306.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152306.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150724/20152306.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152306.html",
+          "scrapedDate": "2025-10-15T03:42:26.643Z",
+          "date": "July 24, 2015",
+          "location": "Peninsula Orchid Society Meeting",
+          "genus": "Sobralia",
+          "species": "xantholeuca",
+          "clone": "Ohsuka",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152307",
+        "filename": "20152307.json",
+        "plant": "Laeliocattleya Higher Ground 'Bentley'",
+        "exhibitor": "Ken and Amy Jacobsen",
+        "award": "HCC 76",
+        "sourceUrl": "https://www.paccentraljc.org/20150724/20152307.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152307.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150724/20152307.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152307.html",
+          "scrapedDate": "2025-10-15T03:42:26.645Z",
+          "date": "July 24, 2015",
+          "location": "Peninsula Orchid Society Meeting",
+          "genus": "Laeliocattleya",
+          "species": "Higher Ground",
+          "clone": "Bentley",
+          "cross": "Lc. Clar Hancock x L. anceps",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152308",
+        "filename": "20152308.json",
+        "plant": "Habenaria medusa 'Helen'",
+        "exhibitor": "Helen Michel",
+        "award": "AM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20151103/20152308.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152308.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20151103/20152308.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152308.html",
+          "scrapedDate": "2025-10-15T03:42:26.647Z",
+          "date": "November 3, 2015",
+          "location": "San Francisco",
+          "genus": "Habenaria",
+          "species": "medusa",
+          "clone": "Helen",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152309",
+        "filename": "20152309.json",
+        "plant": "Habenaria medusa 'Helen'",
+        "exhibitor": "Helen Michel",
+        "award": "CCM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20151103/20152309.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152309.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20151103/20152309.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152309.html",
+          "scrapedDate": "2025-10-15T03:42:26.649Z",
+          "date": "November 3, 2015",
+          "location": "San Francisco",
+          "genus": "Habenaria",
+          "species": "medusa",
+          "clone": "Helen",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152310",
+        "filename": "20152310.json",
+        "plant": "Cattleya Tanya Lam 'Bud Segraves'",
+        "exhibitor": "Tanya Lam",
+        "award": "HCC 75",
+        "sourceUrl": "https://www.paccentraljc.org/20151114/20152310.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152310.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20151114/20152310.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152310.html",
+          "scrapedDate": "2025-10-15T03:42:26.651Z",
+          "date": "November 14, 2015",
+          "location": "Santa Cruz Orchid Society Show",
+          "genus": "Cattleya",
+          "species": "Tanya Lam",
+          "clone": "Bud Segraves",
+          "cross": "Cattleya rupestris x Cattleya Coquina",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152311",
+        "filename": "20152311.json",
+        "plant": "Vanda Pakchong Blue 'Maryam'",
+        "exhibitor": "Vicky Smith",
+        "award": "HCC 76",
+        "sourceUrl": "https://www.paccentraljc.org/20151114/20152311.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152311.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20151114/20152311.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152311.html",
+          "scrapedDate": "2025-10-15T03:42:26.653Z",
+          "date": "November 14, 2015",
+          "location": "Santa Cruz Orchid Society Show",
+          "genus": "Vanda",
+          "species": "Pakchong Blue",
+          "clone": "Maryam",
+          "cross": "Vanda Doctor Anek x Vanda coerulea",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152321",
+        "filename": "20152321.json",
+        "plant": "Bulbophyllum fritillariiflorum 'Gilbert'",
+        "exhibitor": "Carol Zoltowski",
+        "award": "AM 85",
+        "sourceUrl": "https://www.paccentraljc.org/20150804/20152321.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152321.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150804/20152321.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152321.html",
+          "scrapedDate": "2025-10-15T03:42:26.654Z",
+          "date": "August 4, 2015",
+          "location": "San Francisco",
+          "genus": "Bulbophyllum",
+          "species": "fritillariiflorum",
+          "clone": "Gilbert",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152326",
+        "filename": "20152326.json",
+        "plant": "Paphiopedilum Gigi and Clark's 'Mary Ann McGarvey'",
+        "exhibitor": "Leong Keat Chan",
+        "award": "HCC 77",
+        "sourceUrl": "https://www.paccentraljc.org/20150216/20152326.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152326.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150216/20152326.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152326.html",
+          "scrapedDate": "2025-10-15T03:42:26.656Z",
+          "date": "February 16, 2015",
+          "location": "Oakland",
+          "genus": "Paphiopedilum",
+          "species": "Gigi and Clark's",
+          "clone": "Mary Ann McGarvey",
+          "cross": "Paphiopedilum Clark Gaviota x Paphiopedilum Gigi",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152327",
+        "filename": "20152327.json",
+        "plant": "Cymbidium Ruby Turner 'Sophia A. Lin'",
+        "exhibitor": "Heather T. Drubus",
+        "award": "HCC 78",
+        "sourceUrl": "https://www.paccentraljc.org/20150216/20152327.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152327.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150216/20152327.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152327.html",
+          "scrapedDate": "2025-10-15T03:42:26.657Z",
+          "date": "February 16, 2015",
+          "location": "Oakland",
+          "genus": "Cymbidium",
+          "species": "Ruby Turner",
+          "clone": "Sophia A. Lin",
+          "cross": "Cymbidium Black Forest x Cymbidium Ruby Eyes",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152328",
+        "filename": "20152328.json",
+        "plant": "Aerangis citrata 'Carol Weeks'",
+        "exhibitor": "Chaunie Langland",
+        "award": "HCC 77",
+        "sourceUrl": "https://www.paccentraljc.org/20150306/20152328.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152328.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150306/20152328.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152328.html",
+          "scrapedDate": "2025-10-15T03:42:26.659Z",
+          "date": "March 6, 2015",
+          "location": "Malihini Orchid Society Show",
+          "genus": "Aerangis",
+          "species": "citrata",
+          "clone": "Carol Weeks",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152329",
+        "filename": "20152329.json",
+        "plant": "Dendrobium linawianum 'Republic of Taiwan'",
+        "exhibitor": "Japheth Ko",
+        "award": "CCM 83",
+        "sourceUrl": "https://www.paccentraljc.org/20150316/20152329.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152329.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150316/20152329.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152329.html",
+          "scrapedDate": "2025-10-15T03:42:26.661Z",
+          "date": "March 16, 2015",
+          "location": "Oakland",
+          "genus": "Dendrobium",
+          "species": "linawianum",
+          "clone": "Republic of Taiwan",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152330",
+        "filename": "20152330.json",
+        "plant": "Cattleya coccinea 'Tangerine Surprise'",
+        "exhibitor": "Celeste Quarrey",
+        "award": "HCC 79",
+        "sourceUrl": "https://www.paccentraljc.org/20150321/20152330.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152330.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150321/20152330.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152330.html",
+          "scrapedDate": "2025-10-15T03:42:26.664Z",
+          "date": "March 21, 2015",
+          "location": "Santa Clara Valley Orchid Society Show",
+          "genus": "Cattleya",
+          "species": "coccinea",
+          "clone": "Tangerine Surprise",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152331",
+        "filename": "20152331.json",
+        "plant": "Lycaste Irodori 'Echo Valley'",
+        "exhibitor": "Echo Valley Orchids",
+        "award": "AM 83",
+        "sourceUrl": "https://www.paccentraljc.org/20150321/20152331.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152331.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150321/20152331.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152331.html",
+          "scrapedDate": "2025-10-15T03:42:26.665Z",
+          "date": "March 21, 2015",
+          "location": "Santa Clara Valley Orchid Society Show",
+          "genus": "Lycaste",
+          "species": "Irodori",
+          "clone": "Echo Valley",
+          "cross": "Lycaste Hitomi x Lycaste Shoalhaven",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152332",
+        "filename": "20152332.json",
+        "plant": "Rhyncholaelia Aristocrat 'Jayne'",
+        "exhibitor": "Larry Mead",
+        "award": "HCC 77",
+        "sourceUrl": "https://www.paccentraljc.org/20150328/20152332.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152332.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150328/20152332.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152332.html",
+          "scrapedDate": "2025-10-15T03:42:26.667Z",
+          "date": "March 28, 2015",
+          "location": "Sonoma County Orchid Society Show",
+          "genus": "Rhyncholaelia",
+          "species": "Aristocrat",
+          "clone": "Jayne",
+          "cross": "Rhyncholaelia glauca x Rhyncholaelia digbyana",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152335",
+        "filename": "20152335.json",
+        "plant": "Cymbidium Alida Valli 'Epigarden'",
+        "exhibitor": "Weegie Caughlan",
+        "award": "AM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20150417/20152335.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152335.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150417/20152335.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152335.html",
+          "scrapedDate": "2025-10-15T03:42:26.668Z",
+          "date": "April 17, 2015",
+          "location": "Gold Coast Cymbidium Growers Show",
+          "genus": "Cymbidium",
+          "species": "Alida Valli",
+          "clone": "Epigarden",
+          "cross": "Cymbidium Phar Lap x Cymbidium Rio Rita",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152342",
+        "filename": "20152342.json",
+        "plant": "Cattleya Mini Purple 'Small Florett'",
+        "exhibitor": "Amy and Ken Jacobsen",
+        "award": "AM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20150106/20152342.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152342.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150106/20152342.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152342.html",
+          "scrapedDate": "2025-10-15T03:42:26.670Z",
+          "date": "January 6, 2015",
+          "location": "San Francisco",
+          "genus": "Cattleya",
+          "species": "Mini Purple",
+          "clone": "Small Florett",
+          "cross": "Cattleya pumila x Cattleya walkeriana",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152343",
+        "filename": "20152343.json",
+        "plant": "Paphiopedilum Fanaticum 'Green Tara'",
+        "exhibitor": "Japheth Ko",
+        "award": "AM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152343.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152343.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152343.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152343.html",
+          "scrapedDate": "2025-10-15T03:42:26.673Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Paphiopedilum",
+          "species": "Fanaticum",
+          "clone": "Green Tara",
+          "cross": "Paph. micranthum x Paph. malipoense",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152344",
+        "filename": "20152344.json",
+        "plant": "Dendrochilum propinquum 'Vistamont'",
+        "exhibitor": "Cindy Hill",
+        "award": "CCE 94",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152344.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152344.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152344.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152344.html",
+          "scrapedDate": "2025-10-15T03:42:26.674Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dendrochilum",
+          "species": "propinquum",
+          "clone": "Vistamont",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152345",
+        "filename": "20152345.json",
+        "plant": "Masdevallia apparitio 'Vistamont'",
+        "exhibitor": "Steve Beckendorf",
+        "award": "CBR N/A",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152345.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152345.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152345.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152345.html",
+          "scrapedDate": "2025-10-15T03:42:26.675Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Masdevallia",
+          "species": "apparitio",
+          "clone": "Vistamont",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152346",
+        "filename": "20152346.json",
+        "plant": "Dracula amaliae 'Kathy'",
+        "exhibitor": "Joe Parker",
+        "award": "AM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152346.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152346.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152346.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152346.html",
+          "scrapedDate": "2025-10-15T03:42:26.677Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dracula",
+          "species": "amaliae",
+          "clone": "Kathy",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152347",
+        "filename": "20152347.json",
+        "plant": "Dracula barrowii 'Kathy'",
+        "exhibitor": "Joe Parker",
+        "award": "AM 81",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152347.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152347.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152347.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152347.html",
+          "scrapedDate": "2025-10-15T03:42:26.678Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dracula",
+          "species": "barrowii",
+          "clone": "Kathy",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152348",
+        "filename": "20152348.json",
+        "plant": "Dracula gorgona 'Regency Brown'",
+        "exhibitor": "John Leathers",
+        "award": "AM 85",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152348.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152348.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152348.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152348.html",
+          "scrapedDate": "2025-10-15T03:42:26.681Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dracula",
+          "species": "gorgona",
+          "clone": "Regency Brown",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152349",
+        "filename": "20152349.json",
+        "plant": "Masdevallia veitchiana 'Titan'",
+        "exhibitor": "John Leathers",
+        "award": "AM 87",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152349.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152349.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152349.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152349.html",
+          "scrapedDate": "2025-10-15T03:42:26.682Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Masdevallia",
+          "species": "veitchiana",
+          "clone": "Titan",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152350",
+        "filename": "20152350.json",
+        "plant": "Paphiopedilum delenatii f. alba 'Oval'",
+        "exhibitor": "The Orchid Zone",
+        "award": "AM 86",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152350.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152350.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152350.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152350.html",
+          "scrapedDate": "2025-10-15T03:42:26.684Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Paphiopedilum",
+          "species": "delenatii f. alba",
+          "clone": "Oval",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152351",
+        "filename": "20152351.json",
+        "plant": "Dendrobium Roy Tokunaga 'Stardust'",
+        "exhibitor": "H & R Nurseries",
+        "award": "CCE 93",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152351.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152351.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152351.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152351.html",
+          "scrapedDate": "2025-10-15T03:42:26.685Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dendrobium",
+          "species": "Roy Tokunaga",
+          "clone": "Stardust",
+          "cross": "Den. atroviolaceum x Den. johnsoniae",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152352",
+        "filename": "20152352.json",
+        "plant": "Cymbidium Autumn Lady 'Stars & Stripes'",
+        "exhibitor": "Japheth Ko",
+        "award": "HCC 76",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152352.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152352.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152352.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152352.html",
+          "scrapedDate": "2025-10-15T03:42:26.687Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Cymbidium",
+          "species": "Autumn Lady",
+          "clone": "Stars & Stripes",
+          "cross": "Cym. Autumn Crisp x Cym. Electric Ladyland",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152353",
+        "filename": "20152353.json",
+        "plant": "Dendrobium longicornu 'Tiny Jungle'",
+        "exhibitor": "Tiny Jungle",
+        "award": "AM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152353.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152353.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152353.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152353.html",
+          "scrapedDate": "2025-10-15T03:42:26.688Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dendrobium",
+          "species": "longicornu",
+          "clone": "Tiny Jungle",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152354",
+        "filename": "20152354.json",
+        "plant": "Dendrobium shiraishi 'Tiny Jungle'",
+        "exhibitor": "Tiny Jungle",
+        "award": "AM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152354.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152354.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152354.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152354.html",
+          "scrapedDate": "2025-10-15T03:42:26.689Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dendrobium",
+          "species": "shiraishi",
+          "clone": "Tiny Jungle",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152355",
+        "filename": "20152355.json",
+        "plant": "Paphiopedilum Lady Isabel 'A-OK'",
+        "exhibitor": "The Orchid Zone",
+        "award": "AM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152355.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152355.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152355.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152355.html",
+          "scrapedDate": "2025-10-15T03:42:26.690Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Paphiopedilum",
+          "species": "Lady Isabel",
+          "clone": "A-OK",
+          "cross": "Paph. stonei x Paph. rothschildianum",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152356",
+        "filename": "20152356.json",
+        "plant": "Dracula vampira 'Edgar'",
+        "exhibitor": "John Leathers",
+        "award": "AM 84",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152356.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152356.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152356.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152356.html",
+          "scrapedDate": "2025-10-15T03:42:26.692Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dracula",
+          "species": "vampira",
+          "clone": "Edgar",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152357",
+        "filename": "20152357.json",
+        "plant": "Dendrobium quinquelobum 'Vistamont'",
+        "exhibitor": "Steve Beckendorf",
+        "award": "CHM 85",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152357.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152357.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152357.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152357.html",
+          "scrapedDate": "2025-10-15T03:42:26.695Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dendrobium",
+          "species": "quinquelobum",
+          "clone": "Vistamont",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152358",
+        "filename": "20152358.json",
+        "plant": "Cymbidium Assassination Tango 'Fires of Spring'",
+        "exhibitor": "Ed Dumaguin",
+        "award": "HCC 79",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152358.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152358.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152358.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152358.html",
+          "scrapedDate": "2025-10-15T03:42:26.696Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Cymbidium",
+          "species": "Assassination Tango",
+          "clone": "Fires of Spring",
+          "cross": "Cym. Memoria Amelia Earhart x Cym. Khai Tango",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152359",
+        "filename": "20152359.json",
+        "plant": "Masdevallia Natasha 'Vallemar'",
+        "exhibitor": "John Leathers",
+        "award": "AM 88",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152359.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152359.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152359.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152359.html",
+          "scrapedDate": "2025-10-15T03:42:26.698Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Masdevallia",
+          "species": "Natasha",
+          "clone": "Vallemar",
+          "cross": "Masd. Tourmaline x Masd. Bay Breeze",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152360",
+        "filename": "20152360.json",
+        "plant": "Masdevallia angulifera f. xanthina 'Colomborquideas'",
+        "exhibitor": "Ron Parsons",
+        "award": "CHM 85",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152360.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152360.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152360.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152360.html",
+          "scrapedDate": "2025-10-15T03:42:26.699Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Masdevallia",
+          "species": "angulifera f. xanthina",
+          "clone": "Colomborquideas",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152362",
+        "filename": "20152362.json",
+        "plant": "Phragmipedium besseae 'LangKo'",
+        "exhibitor": "Japheth Ko and Chaunie Langland",
+        "award": "AM 84",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152362.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152362.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152362.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152362.html",
+          "scrapedDate": "2025-10-15T03:42:26.700Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Phragmipedium",
+          "species": "besseae",
+          "clone": "LangKo",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152363",
+        "filename": "20152363.json",
+        "plant": "Paphiopedilum parnatanum 'Skittles'",
+        "exhibitor": "Michael Fong",
+        "award": "CBR N/A",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152363.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152363.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152363.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152363.html",
+          "scrapedDate": "2025-10-15T03:42:26.702Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Paphiopedilum",
+          "species": "parnatanum",
+          "clone": "Skittles",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152365",
+        "filename": "20152365.json",
+        "plant": "Cymbidium Dorothy Stockstill 'Desert Cascade'",
+        "exhibitor": "Pierre Pujol",
+        "award": "CCM 89",
+        "sourceUrl": "https://www.paccentraljc.org/20150417/20152365.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152365.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150417/20152365.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152365.html",
+          "scrapedDate": "2025-10-15T03:42:26.703Z",
+          "date": "April 17, 2015",
+          "location": "Gold Coast Cymbidium Growers Show",
+          "genus": "Cymbidium",
+          "species": "Dorothy Stockstill",
+          "clone": "Desert Cascade",
+          "cross": "Cymbidium Phar Lap x Cymbidium Miss Muffet",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152366",
+        "filename": "20152366.json",
+        "plant": "Masdevallia Gypsy 'Elle'",
+        "exhibitor": "Ken Cook",
+        "award": "HCC 79",
+        "sourceUrl": "https://www.paccentraljc.org/20150420/20152366.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152366.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150420/20152366.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152366.html",
+          "scrapedDate": "2025-10-15T03:42:26.705Z",
+          "date": "April 20, 2015",
+          "location": "Oakland",
+          "genus": "Masdevallia",
+          "species": "Gypsy",
+          "clone": "Elle",
+          "cross": "Masd. Rubicon x Masd. Patricia Hill",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152367",
+        "filename": "20152367.json",
+        "plant": "Thunia Gattonensis 'Paula Langland'",
+        "exhibitor": "Chaunie Langland",
+        "award": "HCC 76",
+        "sourceUrl": "https://www.paccentraljc.org/20150615/20152367.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152367.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150615/20152367.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152367.html",
+          "scrapedDate": "2025-10-15T03:42:26.706Z",
+          "date": "June 15, 2015",
+          "location": "Oakland",
+          "genus": "Thunia",
+          "species": "Gattonensis",
+          "clone": "Paula Langland",
+          "cross": "Thunia majorensis x Thunia winniana",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152368",
+        "filename": "20152368.json",
+        "plant": "Masdevallia Barbara Cook 'Gypsy'",
+        "exhibitor": "Ken Cook",
+        "award": "HCC 75",
+        "sourceUrl": "https://www.paccentraljc.org/20150420/20152368.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152368.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150420/20152368.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152368.html",
+          "scrapedDate": "2025-10-15T03:42:26.707Z",
+          "date": "April 20, 2015",
+          "location": "Oakland",
+          "genus": "Masdevallia",
+          "species": "Barbara Cook",
+          "clone": "Gypsy",
+          "cross": "Masd. Patricia Hill x Masd. Fraseri",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152369",
+        "filename": "20152369.json",
+        "plant": "Bulbophyllum fascinator 'Gilbert'",
+        "exhibitor": "Carol Zoltowski",
+        "award": "AM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20150828/20152369.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152369.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150828/20152369.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152369.html",
+          "scrapedDate": "2025-10-15T03:42:26.708Z",
+          "date": "August 28, 2015",
+          "location": "Peninsula Orchid Society Meeting",
+          "genus": "Bulbophyllum",
+          "species": "fascinator",
+          "clone": "Gilbert",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152370",
+        "filename": "20152370.json",
+        "plant": "Phalaenopsis pulcherrima v. champorensis 'Maynard'",
+        "exhibitor": "Helen Michel",
+        "award": "AM 84",
+        "sourceUrl": "https://www.paccentraljc.org/20150901/20152370.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152370.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150901/20152370.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152370.html",
+          "scrapedDate": "2025-10-15T03:42:26.710Z",
+          "date": "September 1, 2015",
+          "location": "San Francisco",
+          "genus": "Phalaenopsis",
+          "species": "pulcherrima v. champorensis",
+          "clone": "Maynard",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152371",
+        "filename": "20152371.json",
+        "plant": "Display N/A 'N/A'",
+        "exhibitor": "Orchid Friends",
+        "award": "SM 88",
+        "sourceUrl": "https://www.paccentraljc.org/20150219/20152371.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152371.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer, cross"
+        ],
+        "missingFields": [
+          "photographer",
+          "cross"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150219/20152371.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152371.html",
+          "scrapedDate": "2025-10-15T03:42:26.712Z",
+          "date": "February 19, 2015",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Display",
+          "species": "N/A",
+          "clone": "N/A",
+          "cross": "N/A",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152372",
+        "filename": "20152372.json",
+        "plant": "Paphiopedilum liemianum 'Cittamani'",
+        "exhibitor": "Japheth Ko",
+        "award": "HCC 77",
+        "sourceUrl": "https://www.paccentraljc.org/20150407/20152372.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152372.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150407/20152372.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152372.html",
+          "scrapedDate": "2025-10-15T03:42:26.713Z",
+          "date": "April 7, 2015",
+          "location": "San Francisco",
+          "genus": "Paphiopedilum",
+          "species": "liemianum",
+          "clone": "Cittamani",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152373",
+        "filename": "20152373.json",
+        "plant": "Cymbidium goeringii 'Longfellow'",
+        "exhibitor": "Amy & Ken Jacobsen",
+        "award": "AM 81",
+        "sourceUrl": "https://www.paccentraljc.org/20150407/20152373.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152373.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150407/20152373.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152373.html",
+          "scrapedDate": "2025-10-15T03:42:26.715Z",
+          "date": "April 7, 2015",
+          "location": "San Francisco",
+          "genus": "Cymbidium",
+          "species": "goeringii",
+          "clone": "Longfellow",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152375",
+        "filename": "20152375.json",
+        "plant": "Phalaenopsis Mituo King Bellina 'Marshmallow'",
+        "exhibitor": "Cordelia Wong",
+        "award": "HCC 75",
+        "sourceUrl": "https://www.paccentraljc.org/20150921/20152375.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152375.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150921/20152375.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152375.html",
+          "scrapedDate": "2025-10-15T03:42:26.717Z",
+          "date": "September 21, 2015",
+          "location": "Oakland",
+          "genus": "Phalaenopsis",
+          "species": "Mituo King Bellina",
+          "clone": "Marshmallow",
+          "cross": "LD's Bear King x LD Bellina Eagle",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152376",
+        "filename": "20152376.json",
+        "plant": "Encyclia diota v. atrorubens 'Richard Lindberg'",
+        "exhibitor": "Karen Olson",
+        "award": "HCC 77",
+        "sourceUrl": "https://www.paccentraljc.org/20151006/20152376.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152376.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20151006/20152376.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152376.html",
+          "scrapedDate": "2025-10-15T03:42:26.719Z",
+          "date": "October 6, 2015",
+          "location": "San Francisco",
+          "genus": "Encyclia",
+          "species": "diota v. atrorubens",
+          "clone": "Richard Lindberg",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152377",
+        "filename": "20152377.json",
+        "plant": "Phalaenopsis Blue Ridge Dragon 'Long'",
+        "exhibitor": "Cordelia Wong",
+        "award": "AM 81",
+        "sourceUrl": "https://www.paccentraljc.org/20151006/20152377.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152377.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20151006/20152377.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152377.html",
+          "scrapedDate": "2025-10-15T03:42:26.720Z",
+          "date": "October 6, 2015",
+          "location": "San Francisco",
+          "genus": "Phalaenopsis",
+          "species": "Blue Ridge Dragon",
+          "clone": "Long",
+          "cross": "Phal Dragon Tree Eagle x Phal Joshua Irwin Ginsberg",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152378",
+        "filename": "20152378.json",
+        "plant": "Catasandra Jumbo Express 'Jumbo Golden Elf'",
+        "exhibitor": "Japheth Ko",
+        "award": "AM 81",
+        "sourceUrl": "https://www.paccentraljc.org/20151221/20152378.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152378.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20151221/20152378.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152378.html",
+          "scrapedDate": "2025-10-15T03:42:26.723Z",
+          "date": "December 21, 2015",
+          "location": "Oakland",
+          "genus": "Catasandra",
+          "species": "Jumbo Express",
+          "clone": "Jumbo Golden Elf",
+          "cross": "Galeandra devoniana x Catasetum fimbriatum",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152379",
+        "filename": "20152379.json",
+        "plant": "Epidendrum Casuka 'Ohasuka'",
+        "exhibitor": "Masaki Asuka",
+        "award": "CCM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20150828/20152379.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152379.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150828/20152379.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152379.html",
+          "scrapedDate": "2025-10-15T03:42:26.724Z",
+          "date": "August 28, 2015",
+          "location": "Peninsula Orchid Society Meeting",
+          "genus": "Epidendrum",
+          "species": "Casuka",
+          "clone": "Ohasuka",
+          "cross": "Epi pfavii x Epi raniferum",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152380",
+        "filename": "20152380.json",
+        "plant": "Laelia anceps f. lineata 'Feathered Lady NDT'",
+        "exhibitor": "Japheth Ko",
+        "award": "FCC 90",
+        "sourceUrl": "https://www.paccentraljc.org/20151221/20152380.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152380.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20151221/20152380.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152380.html",
+          "scrapedDate": "2025-10-15T03:42:26.726Z",
+          "date": "December 21, 2015",
+          "location": "Oakland",
+          "genus": "Laelia",
+          "species": "anceps f. lineata",
+          "clone": "Feathered Lady NDT",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152399",
+        "filename": "20152399.json",
+        "plant": "Laeliocattleya Santa Barbara Sunset 'Showtime'",
+        "exhibitor": "Bill Weaver",
+        "award": "HCC 79",
+        "sourceUrl": "https://www.paccentraljc.org/20150303/20152399.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152399.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150303/20152399.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152399.html",
+          "scrapedDate": "2025-10-15T03:42:26.727Z",
+          "date": "March 3, 2015",
+          "location": "San Francisco",
+          "genus": "Laeliocattleya",
+          "species": "Santa Barbara Sunset",
+          "clone": "Showtime",
+          "cross": "Laelia anceps x Laeliocattleya Ancibarina",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152400",
+        "filename": "20152400.json",
+        "plant": "Laeliocattleya Santa Barbara Sunset 'Showtime'",
+        "exhibitor": "Bill Weaver",
+        "award": "CCM 89",
+        "sourceUrl": "https://www.paccentraljc.org/20150303/20152400.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152400.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150303/20152400.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152400.html",
+          "scrapedDate": "2025-10-15T03:42:26.730Z",
+          "date": "March 3, 2015",
+          "location": "San Francisco",
+          "genus": "Laeliocattleya",
+          "species": "Santa Barbara Sunset",
+          "clone": "Showtime",
+          "cross": "Laelia anceps x Laeliocattleya Ancibarina",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152401",
+        "filename": "20152401.json",
+        "plant": "Cymbidium Suvaley 'Moss'",
+        "exhibitor": "Thomas Moss",
+        "award": "HCC 75",
+        "sourceUrl": "https://www.paccentraljc.org/20150304/20152401.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152401.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20150304/20152401.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152401.html",
+          "scrapedDate": "2025-10-15T03:42:26.731Z",
+          "date": "March 4, 2015",
+          "location": "Santa Clara Valley Orchid Society Meeting",
+          "genus": "Cymbidium",
+          "species": "Suvaley",
+          "clone": "Moss",
+          "cross": "Cym. Suva x Cym. Stanley Fouraker",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152402",
+        "filename": "20152402.json",
+        "plant": "Phalaenopsis Pylo's Canary Wing 'Phylo'",
+        "exhibitor": "Cordelia Wong",
+        "award": "HCC 75",
+        "sourceUrl": "https://www.paccentraljc.org/20151019/20152402.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152402.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20151019/20152402.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152402.html",
+          "scrapedDate": "2025-10-15T03:42:26.732Z",
+          "date": "October 19, 2015",
+          "location": "Oakland",
+          "genus": "Phalaenopsis",
+          "species": "Pylo's Canary Wing",
+          "clone": "Phylo",
+          "cross": "Phal Yungho Gelb Canary x Phal John Ewing",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152403",
+        "filename": "20152403.json",
+        "plant": "Phalaenopsis violacea v. coerulea 'Galumph'",
+        "exhibitor": "Cordelia Wong",
+        "award": "AM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20151019/20152403.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152403.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20151019/20152403.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152403.html",
+          "scrapedDate": "2025-10-15T03:42:26.734Z",
+          "date": "October 19, 2015",
+          "location": "Oakland",
+          "genus": "Phalaenopsis",
+          "species": "violacea v. coerulea",
+          "clone": "Galumph",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152404",
+        "filename": "20152404.json",
+        "plant": "Cymbidium tracyanum v. album 'Woodside'",
+        "exhibitor": "Pierre Pujol",
+        "award": "JC N/A",
+        "sourceUrl": "https://www.paccentraljc.org/20151019/20152404.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152404.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20151019/20152404.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152404.html",
+          "scrapedDate": "2025-10-15T03:42:26.736Z",
+          "date": "October 19, 2015",
+          "location": "Oakland",
+          "genus": "Cymbidium",
+          "species": "tracyanum v. album",
+          "clone": "Woodside",
+          "cross": "N/A",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152405",
+        "filename": "20152405.json",
+        "plant": "Phalaenopsis Ld's Bear Queen 'Aurora'",
+        "exhibitor": "Cordelia Wong",
+        "award": "HCC 79",
+        "sourceUrl": "https://www.paccentraljc.org/20151116/20152405.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152405.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20151116/20152405.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152405.html",
+          "scrapedDate": "2025-10-15T03:42:26.737Z",
+          "date": "November 16, 2015",
+          "location": "Oakland",
+          "genus": "Phalaenopsis",
+          "species": "Ld's Bear Queen",
+          "clone": "Aurora",
+          "cross": "Phalenopsis bellina x Phalaenopsis Dragon Tree Eagle",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20152406",
+        "filename": "20152406.json",
+        "plant": "Phalaenopsis Dragon Tree Eagle 'Fredric'",
+        "exhibitor": "Cordelia Wong",
+        "award": "HCC 79",
+        "sourceUrl": "https://www.paccentraljc.org/20151116/20152406.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152406.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20151116/20152406.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152406.html",
+          "scrapedDate": "2025-10-15T03:42:26.738Z",
+          "date": "November 16, 2015",
+          "location": "Oakland",
+          "genus": "Phalaenopsis",
+          "species": "Dragon Tree Eagle",
+          "clone": "Fredric",
+          "cross": "Phalaenopsis Penang Girl x Phalaenopsis Black Eagle",
+          "photographer": "N/A"
+        }
+      }
+    ],
+    "measurements": [],
+    "descriptionOnly": []
+  }
+}

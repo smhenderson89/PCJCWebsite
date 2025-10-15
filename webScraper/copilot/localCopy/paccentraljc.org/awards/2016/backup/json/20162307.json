@@ -1,0 +1,36 @@
+{
+  "awardNum": "20162307",
+  "award": "AM",
+  "awardpoints": 88,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 25, 2016",
+  "genus": "Paphiopedilum",
+  "species": "sukhakulii",
+  "clone": "Spotted Duo",
+  "cross": "species",
+  "exhibitor": "John Chant",
+  "photographer": "N/A",
+  "photo": "images/20162307.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flat, large, proportional flower on one inflorescence; sepals white, veined and blushed green;\n   petals chartreuse, evenly spotted mahogany; pouch white, veined and darkly overlaid mahogany; \n   staminode white, reticulated green;  \n   substance firm; texture glossy.",
+    "NS": 17,
+    "NSV": 12,
+    "DSW": 5,
+    "DSL": 5.6,
+    "PETW": 2.7,
+    "PETL": 8.1
+  },
+  "scrapedDate": "2025-10-15T03:38:59.221Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160225/20162307.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162307.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.222Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

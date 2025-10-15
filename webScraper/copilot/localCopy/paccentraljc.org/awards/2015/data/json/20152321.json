@@ -1,0 +1,36 @@
+{
+  "awardNum": "20152321",
+  "award": "AM",
+  "awardpoints": 85,
+  "location": "San Francisco",
+  "date": "August 4, 2015",
+  "genus": "Bulbophyllum",
+  "species": "fritillariiflorum",
+  "clone": "Gilbert",
+  "cross": "species",
+  "exhibitor": "Carol Zoltowski",
+  "photographer": "N/A",
+  "photo": "images/20152321.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One well-presented flower on one inflorescence; dorsal sepal light green overlaid with dark green and maroon mosaic pattern;\n\tsynsepal light green fading to rose to cream distally, overlaid with reticulation dark green fading to maroon distally;\n\tpetals tiny and pale yellow with maroon apex; lip hinged, light green overlaid with maroon spots; anther cap yellow;\n    substance firm; texture crystalline.",
+    "NS": 4.2,
+    "NSV": 8.6,
+    "DSW": 4.2,
+    "DSL": 9.4,
+    "LSW": 6.2,
+    "LSL": 7
+  },
+  "scrapedDate": "2025-10-15T03:42:26.654Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150804/20152321.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152321.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.655Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

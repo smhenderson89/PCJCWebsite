@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152351",
+  "award": "CCE",
+  "awardpoints": 93,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 19, 2015",
+  "genus": "Dendrobium",
+  "species": "Roy Tokunaga",
+  "clone": "Stardust",
+  "cross": "Den. atroviolaceum x Den. johnsoniae",
+  "exhibitor": "H & R Nurseries",
+  "photographer": "N/A",
+  "photo": "images/20152351.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 613,
+    "numBuds": 10,
+    "numInflorescences": 63,
+    "description": "Six hundred thirteen flowers and ten buds on sixty inflorescences and three immature inflorescences;\n    a 94 cm x 69 cm well grown plant in a 25 cm pot;\n    sepals and petals white, light chartreuse centrally, violet spots on reverse;\n    lip white, violet spots, side-lobes striated violet; substance firm; texture crystalline.",
+    "NS": 8.3,
+    "NSV": 5,
+    "DSW": 1.5,
+    "DSL": 3,
+    "PETW": 2.5,
+    "PETL": 4.2,
+    "LSW": 1.8,
+    "LSL": 3.3,
+    "LIPW": 1.9,
+    "LIPL": 2.5
+  },
+  "scrapedDate": "2025-10-15T03:42:26.685Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150219/20152351.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152351.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.686Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

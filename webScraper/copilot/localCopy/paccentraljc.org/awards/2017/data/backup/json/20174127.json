@@ -1,0 +1,36 @@
+{
+  "awardNum": "20174127",
+  "award": "CCM",
+  "awardpoints": 84,
+  "location": "Pacific Orchid and Garden Exhibition",
+  "date": "February 23, 2017",
+  "genus": "Phramipedium",
+  "species": "Sedenii",
+  "clone": "Betty",
+  "cross": "Phragmipedium longifolium x Phragmipedium schlimii",
+  "exhibitor": "Betty Woolls",
+  "photographer": "N/A",
+  "photo": "images/20174127.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 13,
+    "numBuds": 6,
+    "numInflorescences": 5,
+    "description": "Thirteen flowers and six buds on five mature inflorescences and two immature branched inflorescences to 97cm tall; well grown plant with immaculate foliage, 108cm wide in a 20-cm plastic pot; sepals ivory veined rose; petals ivory suffused with rose darker at the margins and apex; pouch dusty rose, light green interior with rose spotting ; substance firm; texture matte.",
+    "NS": 13,
+    "NSV": 11,
+    "DSW": 2.5,
+    "DSL": 4.6,
+    "PETW": 1.5,
+    "PETL": 8
+  },
+  "scrapedDate": "2025-10-15T03:32:22.353Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170223/20174127.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174127.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.354Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

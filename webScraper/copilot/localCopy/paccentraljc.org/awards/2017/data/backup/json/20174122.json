@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174122",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Malihini Orchid Society Show",
+  "date": "February 10, 2017",
+  "genus": "Lycaste",
+  "species": "Our Tropics Chita",
+  "clone": "Echo Valley",
+  "cross": "Lycaste Shoalhaven x Lycaste Karina",
+  "exhibitor": "Echo Valley Orchids",
+  "photographer": "N/A",
+  "photo": "images/20174122.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 4,
+    "numInflorescences": 8,
+    "description": "Four flowers and four buds on eight inflorescences; sepals white lightly blushed pink; petals white blushed pink, \n\tdarker pink edges and uneven darker pink interior;\n\tlip white, dark pink spots medially, callus yellow;  column and anther cap white;\n    substance firm; texture matte.",
+    "NS": 13.4,
+    "NSV": 11,
+    "DSW": 7.2,
+    "DSL": 7,
+    "PETW": 5.4,
+    "PETL": 5.4,
+    "LSW": 7,
+    "LSL": 8.4,
+    "LIPW": 2.5,
+    "LIPL": 4.3
+  },
+  "scrapedDate": "2025-10-15T03:32:22.337Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170210/20174122.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174122.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.338Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

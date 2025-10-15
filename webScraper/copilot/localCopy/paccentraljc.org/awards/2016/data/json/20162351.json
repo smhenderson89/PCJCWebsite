@@ -1,0 +1,36 @@
+{
+  "awardNum": "20162351",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Malihini Orchid Society Show",
+  "date": "March 25, 2016",
+  "genus": "Paphiopedilum",
+  "species": "Stone Crazy",
+  "clone": "Tokyo",
+  "cross": "Paphiopedilum Crazy Jolly 'Mesmerizing' x Paphiopedilum Stone Lovely 'Tidal Wave'",
+  "exhibitor": "The Orchid Zone",
+  "photographer": "N/A",
+  "photo": "images/20162351.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one inflorescence; dorsal sepal white, green proximally, spotted oxblood centrally;\n    synsepal green, spotted oxblood; petals green, veins faintly chestnut; pouch green, lightly blushed chestnut;\n    staminode chartreuse, dark rose centrally; substance firm; texture waxy.",
+    "NS": 12.2,
+    "NSV": 11.3,
+    "DSW": 9.9,
+    "DSL": 6.8,
+    "PETW": 5.9,
+    "PETL": 7.2
+  },
+  "scrapedDate": "2025-10-15T03:38:59.285Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160325/20162351.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162351.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.286Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

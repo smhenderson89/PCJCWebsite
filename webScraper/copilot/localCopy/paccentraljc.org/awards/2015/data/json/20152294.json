@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152294",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 23, 2015",
+  "genus": "Cymbidium",
+  "species": "Ha Bui",
+  "clone": "Ark",
+  "cross": "Cymbidium Len Southward x Cymbidium Rose Armstrong",
+  "exhibitor": "Terry and Margaret Boomer",
+  "photographer": "N/A",
+  "photo": "images/20152294.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 22,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Twenty-two flowers on one arched inflorescence; sepals and petals light green;\n\tlip pale green-yellow, sparsely speckled light cordovan at apex; substance firm; texture matte.",
+    "NS": 7.1,
+    "NSV": 6.1,
+    "DSW": 2.6,
+    "DSL": 3.8,
+    "PETW": 1.9,
+    "PETL": 3.9,
+    "LSW": 2.6,
+    "LSL": 3.8,
+    "LIPW": 1.9,
+    "LIPL": 2.8
+  },
+  "scrapedDate": "2025-10-15T03:42:26.612Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150123/20152294.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152294.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.613Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

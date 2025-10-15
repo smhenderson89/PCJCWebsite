@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162356",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Oakland",
+  "date": "May 16, 2016",
+  "genus": "Phalaenopsis",
+  "species": "Phoenix Gem",
+  "clone": "Desert Red",
+  "cross": "Phalaenopsis Dotty Woodson x Phalaenopsis Penang Girl",
+  "exhibitor": "Eric Goo/Phoenix Orchids",
+  "photographer": "N/A",
+  "photo": "images/20162356.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 4,
+    "numInflorescences": 2,
+    "description": "Four flowers and four buds on two inflorescences;\n    sepals green, completely overlaid orange-red, green mid-line keel on dorsal surface of sepals; petals red-orange;\n    lip white, side lobes overlaid yellow, midlobe magenta; substance firm; texture glossy.",
+    "NS": 5.8,
+    "NSV": 5.3,
+    "DSW": 1.9,
+    "DSL": 3.2,
+    "PETW": 2.1,
+    "PETL": 3,
+    "LSW": 2,
+    "LSL": 3.6,
+    "LIPW": 1,
+    "LIPL": 1.9
+  },
+  "scrapedDate": "2025-10-15T03:38:59.294Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160516/20162356.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162356.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.294Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162364",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Oakland",
+  "date": "April 18, 2016",
+  "genus": "Vandachostylis",
+  "species": "H. P. Jesup",
+  "clone": "Blue Bird",
+  "cross": "Vanda Ben Berliner x Vandachostylis Pine Rivers",
+  "exhibitor": "Cheryl Phillipson",
+  "photographer": "N/A",
+  "photo": "images/20162364.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 34,
+    "numBuds": 9,
+    "numInflorescences": 3,
+    "description": "Thirty-four flowers and nine visible buds with immature buds on three inflorescences; sepals and petals dark purple with lighter\n\tveins centrally; lip purple-black;  \n    substance firm; texture matte.",
+    "NS": 2.9,
+    "NSV": 3,
+    "DSW": 1.2,
+    "DSL": 1.8,
+    "PETW": 1,
+    "PETL": 1.5,
+    "LSW": 1.4,
+    "LSL": 2,
+    "LIPW": 0.8,
+    "LIPL": 1.2
+  },
+  "scrapedDate": "2025-10-15T03:38:59.304Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160418/20162364.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162364.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.304Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

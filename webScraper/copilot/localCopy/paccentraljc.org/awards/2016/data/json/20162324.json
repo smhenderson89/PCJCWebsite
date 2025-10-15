@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162324",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "San Francisco",
+  "date": "April 5, 2016",
+  "genus": "Cymbidium",
+  "species": "East Zenith",
+  "clone": "Misty Green",
+  "cross": "Cymbidium goeringii x Cymbidium Valley Zenith",
+  "exhibitor": "Amy & Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20162324.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 14,
+    "numBuds": 4,
+    "numInflorescences": 2,
+    "description": "Fourteen flowers and four buds on two inflorescences; sepals olive green brushed bronze on reverse; petals light\n\tgreen, lighter at edges; lip white with small burgundy blotch apically; column green with bronze overlay; \n    substance fair; texture matte.",
+    "NS": 9.5,
+    "NSV": 6.2,
+    "DSW": 2.5,
+    "DSL": 4.2,
+    "PETW": 2,
+    "PETL": 6,
+    "LSW": 2.5,
+    "LSL": 5.3,
+    "LIPW": 2,
+    "LIPL": 3
+  },
+  "scrapedDate": "2025-10-15T03:38:59.257Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160405/20162324.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162324.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.258Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "awardNum": "20194725",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Oakland",
+  "date": "May 20, 2019",
+  "genus": "Paphiopedilum",
+  "species": "Worthy Fred",
+  "clone": "Zinfandel",
+  "cross": "Paphiopedilum President Fred x Paphiopedilum charlesworthii",
+  "exhibitor": "Dave Sorokowsky",
+  "photographer": "N/A",
+  "photo": "images/20194725.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one inflorescence; \n\t\n\tdorsal sepal wine-purple, lighter apically, dark centrally, darker veins;\n\t\nsynsepal light wine-purple, dark veins;\n\tpetals brown-purple;\n\t\n\tpouch brown-purple;\t\n\tstaminode light wine-purple;\n\n\t\n\t\n\t\n\n\tsubstance average; texture waxy.",
+    "NS": 9,
+    "NSV": 6.8,
+    "DSW": 7.3,
+    "DSL": 5.7,
+    "PETW": 2.4,
+    "PETL": 6.8
+  },
+  "scrapedDate": "2025-10-15T02:42:38.836Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190520/20194725.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194725.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.838Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

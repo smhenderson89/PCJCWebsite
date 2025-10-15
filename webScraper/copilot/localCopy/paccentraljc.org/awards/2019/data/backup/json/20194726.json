@@ -1,0 +1,36 @@
+{
+  "awardNum": "20194726",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "Oakland",
+  "date": "August 19, 2019",
+  "genus": "Paphiopedilum",
+  "species": "Fred's Moment",
+  "clone": "Chancellor",
+  "cross": "Paphiopedilum Odette's Moment x Paphiopedilum President Fred",
+  "exhibitor": "Dave Sorokowsky",
+  "photographer": "N/A",
+  "photo": "images/20194726.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one inflorescence; \n\t\n\tdorsal sepal wine red, darker veining, white edges;\n\tsynsepal white,overlaid light green, dark wine red veins;\n\t\n\n\t petals wine red, darker midrib, very dark hirsuite edges;\n\t\n\tpouch uniform wine red;\t\n\tstaminode beige, flushed red;\n\n\n\n\tsubstance average; texture matte.",
+    "NS": 12.8,
+    "NSV": 10.5,
+    "DSW": 8.2,
+    "DSL": 7.8,
+    "PETW": 4.2,
+    "PETL": 8.1
+  },
+  "scrapedDate": "2025-10-15T02:42:38.839Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190819/20194726.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194726.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.840Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

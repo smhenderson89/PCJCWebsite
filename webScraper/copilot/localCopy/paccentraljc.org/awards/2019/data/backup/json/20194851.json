@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194851",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Filoli",
+  "date": "January 12, 2019",
+  "genus": "Cattleya",
+  "species": "Lake Tahoe",
+  "clone": "Echo Valley",
+  "cross": "Cattleya Floralia's Azul x Cattleya sincorana",
+  "exhibitor": "Echo Valley Orchids",
+  "photographer": "N/A",
+  "photo": "images/20194851.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 1,
+    "numInflorescences": 2,
+    "description": "Two full, slightly concave flowers and one bud on two inflorescences on a well grown plant;\n\tsepals and petals blue-lavender;\n\tlip cream, overlaid blue-lavender sidelobes, purple midlobe;\n\tcolumn and anther cap cream;\n\t\n\t \n\tsubstance firm; texture matte.",
+    "NS": 10,
+    "NSV": 10,
+    "DSW": 2.1,
+    "DSL": 6,
+    "PETW": 4.2,
+    "PETL": 6,
+    "LSW": 2,
+    "LSL": 6.4,
+    "LIPW": 3.7,
+    "LIPL": 4.9
+  },
+  "scrapedDate": "2025-10-15T02:42:38.898Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190112/20194851.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194851.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.899Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

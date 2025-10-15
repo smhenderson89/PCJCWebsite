@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194826",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "San Francisco",
+  "date": "October 1, 2019",
+  "genus": "Catasetum",
+  "species": "Fong Cing",
+  "clone": "Rory",
+  "cross": "Catasetum Orchidglade x Catasetum Jose Abalo",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "N/A",
+  "photo": "images/20194826.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 8,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eight non-resupinate female flowers on one erect inflorescence;\n\t\n\tsepals green overlaid mahogany basally;\n\tpetals green overlaid dense spotted mahogany, much less dense centrally;\n\t\nlip green spotted interior mahogany; column chartruse;\t\n\nsubstance very firm; texture matte.",
+    "NS": 7.3,
+    "NSV": 7,
+    "DSW": 1.5,
+    "DSL": 3,
+    "PETW": 2.3,
+    "PETL": 3.2,
+    "LSW": 1.8,
+    "LSL": 3.5,
+    "LIPW": 3.6,
+    "LIPL": 4.5
+  },
+  "scrapedDate": "2025-10-15T02:42:38.879Z",
+  "sourceUrl": "https://www.paccentraljc.org/20191001/20194826.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194826.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.880Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

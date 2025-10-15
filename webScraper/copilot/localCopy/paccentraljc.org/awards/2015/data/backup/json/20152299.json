@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152299",
+  "award": "CCE",
+  "awardpoints": 90,
+  "location": "San Francisco",
+  "date": "May 5, 2015",
+  "genus": "Cyrtochilum",
+  "species": "leopoldianum",
+  "clone": "Gina",
+  "cross": "species",
+  "exhibitor": "Alec Koomanoff",
+  "photographer": "N/A",
+  "photo": "images/20152299.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 84,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eighty-four flowers on one long multi-branched coiled greater-than-three-meter inflorescence on\n    an 85-cm wide, 120-cm long plant mounted on a 20-cm plaque and grown in a 20-cm pot;\n    sepals and petals cream-white, overlaid lavender centrally, edges somewhat wavy;\n    lip sulfur-yellow proximally, dark-purple distally; substance firm; texture matte.",
+    "NS": 4.3,
+    "NSV": 5.1,
+    "DSW": 1.9,
+    "DSL": 2.5,
+    "PETW": 1.8,
+    "PETL": 2.3,
+    "LSW": 2,
+    "LSL": 3.3,
+    "LIPW": 1.4,
+    "LIPL": 2
+  },
+  "scrapedDate": "2025-10-15T03:42:26.627Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150505/20152299.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152299.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.627Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

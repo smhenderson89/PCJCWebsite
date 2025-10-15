@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152365",
+  "award": "CCM",
+  "awardpoints": 89,
+  "location": "Gold Coast Cymbidium Growers Show",
+  "date": "April 17, 2015",
+  "genus": "Cymbidium",
+  "species": "Dorothy Stockstill",
+  "clone": "Desert Cascade",
+  "cross": "Cymbidium Phar Lap x Cymbidium Miss Muffet",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "N/A",
+  "photo": "images/20152365.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 493,
+    "numBuds": 193,
+    "numInflorescences": 23,
+    "description": "Four hundred ninety-three flowers and one hundred ninety-three buds on twenty-three pendant inflorescences\n    on a vigorous plant, 116 cm wide, grown in a 25 cm pot; plant in excellent condition, with inflorescences\n    spread evenly around the plant; sepals and petals mahogany; lip saturated burgundy;\tpollen cap white;\n    substance firm; texture matte.",
+    "NS": 4,
+    "NSV": 4.7,
+    "DSW": 1.7,
+    "DSL": 2.9,
+    "PETW": 1.2,
+    "PETL": 2.5,
+    "LSW": 1.4,
+    "LSL": 2.8,
+    "LIPW": 1.4,
+    "LIPL": 2
+  },
+  "scrapedDate": "2025-10-15T03:42:26.703Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150417/20152365.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152365.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.704Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "awardNum": "20162330",
+  "award": "CCM",
+  "awardpoints": 87,
+  "location": "San Francisco",
+  "date": "May 3, 2016",
+  "genus": "Cymbidium",
+  "species": "Sweet Devon",
+  "clone": "Sweet",
+  "cross": "Cymbidium suave x Cymbidium devonianum",
+  "exhibitor": "Carol Armendariz",
+  "photographer": "N/A",
+  "photo": "images/20162330.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 779,
+    "numBuds": 162,
+    "numInflorescences": 26,
+    "description": "Seven hundred seventy-nine flowers and 162 buds on 26 inflorescences on a 95-cm wide by 77-cm high plant in a 20-cm pot;\n    foliage lush and pristine; sepals and petals yellow-green stippled maroon, petals heavily at mid-line;\n    lip saturated burgundy, paler centrally; column yellow-green blushed pink distally, pollen cap white; substance heavy; texture matte.",
+    "NS": 2.6,
+    "NSV": 3.4,
+    "DSW": 0.8,
+    "DSL": 2.1,
+    "PETW": 0.7,
+    "PETL": 1.9,
+    "LSW": 0.8,
+    "LSL": 1.4,
+    "LIPW": 0.8
+  },
+  "scrapedDate": "2025-10-15T03:38:59.264Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160503/20162330.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162330.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.265Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

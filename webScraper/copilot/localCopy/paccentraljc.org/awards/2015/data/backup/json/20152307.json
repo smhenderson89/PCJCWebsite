@@ -1,0 +1,38 @@
+{
+  "awardNum": "20152307",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Peninsula Orchid Society Meeting",
+  "date": "July 24, 2015",
+  "genus": "Laeliocattleya",
+  "species": "Higher Ground",
+  "clone": "Bentley",
+  "cross": "Lc. Clar Hancock x L. anceps",
+  "exhibitor": "Ken and Amy Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20152307.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flowers on one inflorescence; sepals white, slightly flushed pink on reverse;\n\tpetals white; \n\tlip white, throat yellow with dark purple striations, margins light fuchsia-purple, midlobe strong fuchsia-purple;\n\tcolumn green;\n    substance firm; texture crystalline.",
+    "NS": 18,
+    "NSV": 18,
+    "DSW": 2.5,
+    "DSL": 10,
+    "PETW": 6,
+    "PETL": 8.6,
+    "LSW": 2.9,
+    "LIPW": 9
+  },
+  "scrapedDate": "2025-10-15T03:42:26.645Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150724/20152307.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152307.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.646Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

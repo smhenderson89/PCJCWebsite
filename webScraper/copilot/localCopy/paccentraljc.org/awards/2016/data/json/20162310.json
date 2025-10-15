@@ -1,0 +1,38 @@
+{
+  "awardNum": "20162310",
+  "award": "AM",
+  "awardpoints": 86,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 25, 2016",
+  "genus": "Masdevallia",
+  "species": "Heathii",
+  "clone": "Volcano",
+  "cross": "Masdevallia ignea x Masdevallia veitchiana",
+  "exhibitor": "John Leathers",
+  "photographer": "N/A",
+  "photo": "images/20162310.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 4,
+    "numInflorescences": 7,
+    "description": "Three erect flowers and four buds held high above foliage on seven 42-cm tall inflorescences, and five immature inflorescences; \n\tdorsal sepal orange, mid-vein dark red, caudae dark red;\n\tlateral sepals intense orange, vertical red lines convergent to solid red caudae;\n\tpetals pale yellow;lip dark red;\n    substance firm; texture velvety.",
+    "NS": 5.8,
+    "NSV": 12.9,
+    "DSW": 2.7,
+    "DSL": 9,
+    "PETW": 0.2,
+    "PETL": 0.4,
+    "LSW": 2.9,
+    "LSL": 7.2
+  },
+  "scrapedDate": "2025-10-15T03:38:59.229Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160225/20162310.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162310.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.229Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

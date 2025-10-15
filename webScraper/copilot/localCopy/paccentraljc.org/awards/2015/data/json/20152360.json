@@ -1,0 +1,36 @@
+{
+  "awardNum": "20152360",
+  "award": "CHM",
+  "awardpoints": 85,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 19, 2015",
+  "genus": "Masdevallia",
+  "species": "angulifera f. xanthina",
+  "clone": "Colomborquideas",
+  "cross": "species",
+  "exhibitor": "Ron Parsons",
+  "photographer": "N/A",
+  "photo": "images/20152360.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 13,
+    "numBuds": 0,
+    "numInflorescences": 13,
+    "description": "Thirteen tubular flowers on thirteen erect inflorescences; sepals yellow overlaid with green apically; \n    petals pale yellow hidden in tube; lip golden yellow hidden in tube; substance firm; texture waxy.\n    Awarded for xanthina color.",
+    "NS": 1.6,
+    "NSV": 2.8,
+    "DSW": 1,
+    "DSL": 2.8,
+    "LSW": 1,
+    "LSL": 2.3
+  },
+  "scrapedDate": "2025-10-15T03:42:26.699Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150219/20152360.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152360.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.700Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

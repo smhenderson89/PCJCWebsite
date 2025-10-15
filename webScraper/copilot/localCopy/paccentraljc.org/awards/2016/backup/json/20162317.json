@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162317",
+  "award": "CBR",
+  "awardpoints": "N/A",
+  "location": "Pacific Orchid Exposition",
+  "date": "February 25, 2016",
+  "genus": "Dracula",
+  "species": "incognita",
+  "clone": "Kathy",
+  "cross": "species",
+  "exhibitor": "Joe Parker",
+  "photographer": "N/A",
+  "photo": "images/20162317.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 15,
+    "numInflorescences": 17,
+    "description": "Two flowers and 15 buds on 17 wiry, erect inflorescences, 17-cm in length, borne on a plant 33cm in diameter,\n\tgrown in moss in a 17-cm basket; leaves linear, 23-cm in length, 1.6-cm in width; \n    sepals white, flushed and veined dark purple on reverse, pink tomentose, appearing mauve, caudae dark purple;\n\tpetals white; lip light pink; column yellow;  \n    substance firm; texture matte; a recently described species from Columbia.",
+    "NS": 5.2,
+    "NSV": 10,
+    "DSW": 1.8,
+    "DSL": 5,
+    "PETW": 0.1,
+    "PETL": 0.2,
+    "LSW": 1.4,
+    "LSL": 5,
+    "LIPW": 0.4,
+    "LIPL": 0.8
+  },
+  "scrapedDate": "2025-10-15T03:38:59.244Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160225/20162317.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162317.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.245Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152304",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "San Francisco",
+  "date": "July 7, 2015",
+  "genus": "Cattleya",
+  "species": "tenebrosa",
+  "clone": "Belleza Cobra",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20152304.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flowers on one inflorescence; sepals and petals red-bronze;\n    lip white veined dark purple in throat coalescing to dark purple centrally, lighter purple distally;\n    substance firm; texture matte",
+    "NS": 18,
+    "NSV": 14,
+    "DSW": 2.3,
+    "DSL": 9.8,
+    "PETW": 4,
+    "PETL": 9.2,
+    "LSW": 2.4,
+    "LSL": 8.9,
+    "LIPW": 4.9,
+    "LIPL": 9.1
+  },
+  "scrapedDate": "2025-10-15T03:42:26.639Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150707/20152304.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152304.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.640Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152308",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "San Francisco",
+  "date": "November 3, 2015",
+  "genus": "Habenaria",
+  "species": "medusa",
+  "clone": "Helen",
+  "cross": "species",
+  "exhibitor": "Helen Michel",
+  "photographer": "N/A",
+  "photo": "images/20152308.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 91,
+    "numBuds": 14,
+    "numInflorescences": 10,
+    "description": "Ninety-one flowers and 14 buds on ten inflorescences on ten vertical growths grown in a 17 cm x 25 cm pot; dorsal sepal green, hooded;\n    lateral sepals white, pale green medially; petals pale green, retained under dorsal sepal;\n    lip russet centrally, side lobes with many fine thread-like whiskers; spur white, light green distally; substance moderate; texture matte.",
+    "NS": 7,
+    "NSV": 6,
+    "DSW": 0.7,
+    "DSL": 0.8,
+    "PETW": 0.1,
+    "PETL": 0.8,
+    "LSW": 0.8,
+    "LSL": 0.6,
+    "LIPW": 7,
+    "LIPL": 6
+  },
+  "scrapedDate": "2025-10-15T03:42:26.647Z",
+  "sourceUrl": "https://www.paccentraljc.org/20151103/20152308.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152308.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.648Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

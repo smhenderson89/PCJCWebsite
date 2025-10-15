@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194716",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 21, 2019",
+  "genus": "Dendrobium",
+  "species": "unregistered",
+  "clone": "Ivory Queen",
+  "cross": "Dendrobium Blushing Vista x Dendrobium Dunokayla",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194716.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 176,
+    "numBuds": 0,
+    "numInflorescences": 8,
+    "description": "One hundred seventy-six flowers on eight inflorescences;\n\tdorsal sepal and petals cream;\n\tlateral sepals cream spotted purple basally;\n  \n   \n\t\n\tlip cream, side lobes spotted purple;\n\n\t\n\n\tsubstance firm; texture waxy.",
+    "NS": 4,
+    "NSV": 4.3,
+    "DSW": 1,
+    "DSL": 2.7,
+    "PETW": 0.8,
+    "PETL": 2,
+    "LSW": 1.4,
+    "LSL": 2.1,
+    "LIPW": 0.9,
+    "LIPL": 1.2
+  },
+  "scrapedDate": "2025-10-15T02:42:38.820Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190221/20194716.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194716.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.822Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

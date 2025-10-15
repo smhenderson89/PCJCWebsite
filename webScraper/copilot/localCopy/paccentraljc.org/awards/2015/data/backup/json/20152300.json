@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152300",
+  "award": "CCE",
+  "awardpoints": 93,
+  "location": "San Francisco",
+  "date": "June 2, 2015",
+  "genus": "Microcoelia",
+  "species": "stolzii",
+  "clone": "Kathy Fenwick",
+  "cross": "species",
+  "exhibitor": "Yuner Peralta",
+  "photographer": "N/A",
+  "photo": "images/20152300.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3526,
+    "numBuds": 0,
+    "numInflorescences": 82,
+    "description": "Three thousand five hundred twenty-six flowers on eighty-two inflorescences;\n    a leafless epiphyte with a symmetrical crown of roots, 34 cm horizontal by 63 cm vertical,\n    growing in a 15 cm wood basket; flower bell-shaped; sepals and petals white;\n    lip white with dark-russet basal spots; anther cap yellow; substance firm; texture crystalline.",
+    "NS": 0.3,
+    "NSV": 0.4,
+    "DSW": 0.2,
+    "DSL": 0.4,
+    "PETW": 0.2,
+    "PETL": 0.4,
+    "LSW": 0.2,
+    "LSL": 0.4,
+    "LIPW": 0.1,
+    "LIPL": 0.2
+  },
+  "scrapedDate": "2025-10-15T03:42:26.630Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150602/20152300.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152300.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.631Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

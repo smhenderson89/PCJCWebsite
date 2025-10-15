@@ -1,0 +1,36 @@
+{
+  "awardNum": "20194816",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "San Francisco",
+  "date": "July 2, 2019",
+  "genus": "Phragmipedium",
+  "species": "QF Ula'ula",
+  "clone": "Buck Moon",
+  "cross": "Phragmipedium Haley Decker x Phragmipedium Eric Young",
+  "exhibitor": "John McCallen",
+  "photographer": "N/A",
+  "photo": "images/20194816.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 1,
+    "numInflorescences": 1,
+    "description": "One flower and one bud on one upright inflorescence; \n\t\n\tdorsal sepal slightly hooked, cream overlaid dark pink;\n\tsynsepal light yellow, overlaid dark pink, darker on edges;\n\tpetals slightly sweeping forward, cream overlaid dark pink, darker distally;\n\t\n\t\n\t pouch exterior maroon, interior light yellow spotted maroon;\t\n\tstaminode light yellow, overlaid pink;\n\n\n\n\tsubstance firm; texture crystalline.",
+    "NS": 12,
+    "NSV": 9,
+    "DSW": 2.7,
+    "DSL": 4.5,
+    "PETW": 4,
+    "PETL": 6.5
+  },
+  "scrapedDate": "2025-10-15T02:42:38.864Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190702/20194816.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194816.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.865Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

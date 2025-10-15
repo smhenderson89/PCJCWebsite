@@ -1,0 +1,35 @@
+{
+  "awardNum": "20152358",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 19, 2015",
+  "genus": "Cymbidium",
+  "species": "Assassination Tango",
+  "clone": "Fires of Spring",
+  "cross": "Cym. Memoria Amelia Earhart x Cym. Khai Tango",
+  "exhibitor": "Ed Dumaguin",
+  "photographer": "N/A",
+  "photo": "images/20152358.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 22,
+    "numBuds": 20,
+    "numInflorescences": 4,
+    "description": "Twenty-two flowers and twenty buds on two inflorescences and two immature inflorescences;\n    sepals and petals chartreuse overlaid with dense mahogany stipples, darker stippled veins, yellow picote;\n    lip white with solid dark maroon distally, with pale maroon spots apically; anther cap white;\n    substance firm; texture diamond dust.",
+    "NS": 6.4,
+    "DSW": 2.6,
+    "PETW": 2.2,
+    "LSW": 2.1,
+    "LIPW": 2.7
+  },
+  "scrapedDate": "2025-10-15T03:42:26.696Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150219/20152358.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152358.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.697Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

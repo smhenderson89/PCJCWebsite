@@ -1,0 +1,39 @@
+{
+  "awardNum": "20194813",
+  "award": "CCM",
+  "awardpoints": 88,
+  "location": "San Francisco",
+  "date": "June 4, 2019",
+  "genus": "Bulbophyllum",
+  "species": "trachyanthum",
+  "clone": "Petaluma",
+  "cross": "species",
+  "exhibitor": "Judy Carney",
+  "photographer": "N/A",
+  "photo": "images/20194813.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 62,
+    "numBuds": 19,
+    "numInflorescences": 81,
+    "description": "Sixty-two flowers and 19 buds on 81 inflorescences, typical infloresence 17cm; \n\twell-grown 63-cm diameter plant in a 15-cm slatted wooden basket;\n\tdorsal sepal burgundy, white tesselation proximally;\n\tlateral sepals burgundy, dusted white, fading to white distally; \n\tpetals burgundy, whisker-like, projecting forward;\n\t\n\t\nlip green;  substance soft; texture matte;  also recieved award# 20194812.",
+    "NS": 0.8,
+    "NSV": 12,
+    "DSW": 0.9,
+    "DSL": 7.7,
+    "PETL": 1.8,
+    "LSW": 0.9,
+    "LSL": 5.8,
+    "LIPW": 0.1,
+    "LIPL": 0.5
+  },
+  "scrapedDate": "2025-10-15T02:42:38.860Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190604/20194813.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194813.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.861Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

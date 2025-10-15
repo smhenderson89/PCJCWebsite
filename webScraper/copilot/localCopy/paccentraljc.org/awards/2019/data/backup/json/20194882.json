@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194882",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Filoli Historic House",
+  "date": "September 21, 2019",
+  "genus": "Cymbidium",
+  "species": "kanran",
+  "clone": "Fragrant",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194882.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 12,
+    "numBuds": 18,
+    "numInflorescences": 4,
+    "description": "Twelve flowers and eighteen buds on four inflorescences;\n\t\n\tsepals and petals green, stripped basally maroon;\n\t\nlip recurved, light yellow, maroon spots;\t\ncolumn green;\nsubstance firm; texture matte.",
+    "NS": 5.7,
+    "NSV": 6.3,
+    "DSW": 0.5,
+    "DSL": 4.1,
+    "PETW": 0.8,
+    "PETL": 3,
+    "LSW": 0.5,
+    "LSL": 3.8,
+    "LIPW": 1,
+    "LIPL": 1.7
+  },
+  "scrapedDate": "2025-10-15T02:42:38.942Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190921/20194882.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194882.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.943Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

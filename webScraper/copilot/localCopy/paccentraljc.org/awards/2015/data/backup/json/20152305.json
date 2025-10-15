@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152305",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "San Francisco",
+  "date": "July 7, 2015",
+  "genus": "Cattleya",
+  "species": "tenebrosa",
+  "clone": "Sirena de Bronce",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20152305.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four flowers on one inflorescence; sepals and petals red-bronze;\n    lip white veined dark purple on throat coalescing to dark purple centrally, lighter purple distally;\n    substance firm; texture matte.",
+    "NS": 19,
+    "NSV": 14,
+    "DSW": 2.4,
+    "DSL": 10,
+    "PETW": 4.2,
+    "PETL": 9.5,
+    "LSW": 2.3,
+    "LSL": 9.5,
+    "LIPW": 4.5,
+    "LIPL": 9
+  },
+  "scrapedDate": "2025-10-15T03:42:26.641Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150707/20152305.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152305.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.642Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

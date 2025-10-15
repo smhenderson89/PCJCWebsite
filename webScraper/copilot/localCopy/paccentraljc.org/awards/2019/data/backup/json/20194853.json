@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194853",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Filoli",
+  "date": "January 12, 2019",
+  "genus": "Oncidium",
+  "species": "zappii",
+  "clone": "Sunshine",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194853.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 14,
+    "numBuds": 2,
+    "numInflorescences": 1,
+    "description": "Fourteen flowers and two buds on one upright inflorescence;\n\tsepals and petals mahogany, slight yellow markings;\n\tlip mahogany, darker basally, random yellow streaking;\n\tcolumn pale green, anther cap yellow;   \n\tsubstance firm; texture glossy.",
+    "NS": 4.4,
+    "NSV": 3.2,
+    "DSW": 0.9,
+    "DSL": 1.7,
+    "PETW": 1.8,
+    "PETL": 2,
+    "LSW": 0.5,
+    "LSL": 1.6,
+    "LIPW": 3,
+    "LIPL": 2.3
+  },
+  "scrapedDate": "2025-10-15T02:42:38.901Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190112/20194853.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194853.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.903Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

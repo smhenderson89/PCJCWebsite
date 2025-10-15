@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152306",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Peninsula Orchid Society Meeting",
+  "date": "July 24, 2015",
+  "genus": "Sobralia",
+  "species": "xantholeuca",
+  "clone": "Ohsuka",
+  "cross": "species",
+  "exhibitor": "Masaki Asuka",
+  "photographer": "N/A",
+  "photo": "images/20152306.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 3,
+    "numInflorescences": 7,
+    "description": "Four flowers and three buds on seven inflorescences; sepals and petals yellow;\n\tlip yellow, throat orange;\n    substance firm; texture matte.",
+    "NS": 10.8,
+    "NSV": 11.8,
+    "DSW": 2.4,
+    "DSL": 8.9,
+    "PETW": 3.1,
+    "PETL": 8.2,
+    "LSW": 2.6,
+    "LSL": 8,
+    "LIPW": 5.2,
+    "LIPL": 7.2
+  },
+  "scrapedDate": "2025-10-15T03:42:26.643Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150724/20152306.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152306.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.644Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

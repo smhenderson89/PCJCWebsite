@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152301",
+  "award": "FCC",
+  "awardpoints": 90,
+  "location": "San Francisco",
+  "date": "June 2, 2015",
+  "genus": "Masdevallia",
+  "species": "coccinea",
+  "clone": "Luna Dandelion",
+  "cross": "species",
+  "exhibitor": "Ken Cook",
+  "photographer": "N/A",
+  "photo": "images/20152301.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 5,
+    "numBuds": 3,
+    "numInflorescences": 8,
+    "description": "Five striking flowers and three buds on eight inflorescences; sepals saturated cerise, clear lemon-yellow\n    basally; petals white; lip clear lemon yellow, darker distally; substance firm; texture matte.",
+    "NS": 4.8,
+    "NSV": 12.1,
+    "DSW": 1,
+    "DSL": 8.3,
+    "PETW": 0.2,
+    "PETL": 0.3,
+    "LSW": 2.4,
+    "LSL": 7.9,
+    "LIPW": 0.3,
+    "LIPL": 0.4
+  },
+  "scrapedDate": "2025-10-15T03:42:26.632Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150602/20152301.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152301.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.633Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

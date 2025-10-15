@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194709",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 21, 2019",
+  "genus": "Cymbidium",
+  "species": "Whitney Houston",
+  "clone": "Cavalier",
+  "cross": "Cymbidium Ernest Hetherington x Cymbidium Karen Hawaiian",
+  "exhibitor": "Jason Douglass",
+  "photographer": "N/A",
+  "photo": "images/20194709.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 23,
+    "numBuds": 17,
+    "numInflorescences": 4,
+    "description": "Twenty-three flowers and 17 buds on four inflorescences;\n\tsepals and petals pale yellow overlaid, veined and tessellated brick red;\n\t\n\tlip cream, proximally spotted brick red, apically deep maroon;\n\tcolumn cream speckled brick red, anther cap cream;\n\n\tsubstance heavy; texture matte, lip velvety.",
+    "NS": 11,
+    "NSV": 8.2,
+    "DSW": 4.8,
+    "DSL": 8,
+    "PETW": 3.5,
+    "PETL": 6.8,
+    "LSW": 4.5,
+    "LSL": 6.6,
+    "LIPW": 3,
+    "LIPL": 3.6
+  },
+  "scrapedDate": "2025-10-15T02:42:38.806Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190221/20194709.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194709.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.807Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

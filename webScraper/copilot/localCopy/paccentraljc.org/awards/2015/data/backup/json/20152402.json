@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152402",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Oakland",
+  "date": "October 19, 2015",
+  "genus": "Phalaenopsis",
+  "species": "Pylo's Canary Wing",
+  "clone": "Phylo",
+  "cross": "Phal Yungho Gelb Canary x Phal John Ewing",
+  "exhibitor": "Cordelia Wong",
+  "photographer": "N/A",
+  "photo": "images/20152402.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one inflorescence; sepals and petals pale yellow-green, heavily overlaid with maroon markings; \n\tlip violet;\n    substance heavy; texture satin.",
+    "NS": 5.4,
+    "NSV": 5.7,
+    "DSW": 2,
+    "DSL": 3.4,
+    "PETW": 2,
+    "PETL": 2.5,
+    "LSW": 2.2,
+    "LSL": 3.2,
+    "LIPW": 1.3,
+    "LIPL": 2
+  },
+  "scrapedDate": "2025-10-15T03:42:26.732Z",
+  "sourceUrl": "https://www.paccentraljc.org/20151019/20152402.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152402.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.733Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

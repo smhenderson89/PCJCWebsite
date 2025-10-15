@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152302",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "San Francisco",
+  "date": "July 7, 2015",
+  "genus": "Cattleya",
+  "species": "purpurata",
+  "clone": "Fred",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20152302.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four well displayed flowers on one inflorescence; sepals white with very pale pink striations; petals white with pale pink striations;\n\tlip white with distinct purple striations in the throat, distal half dark purple fading at the tip;\n    substance medium; texture matte.",
+    "NS": 18.4,
+    "NSV": 16,
+    "DSW": 2,
+    "DSL": 11.2,
+    "PETW": 5.1,
+    "PETL": 11.2,
+    "LSW": 2.4,
+    "LSL": 10.3,
+    "LIPW": 5.4,
+    "LIPL": 8
+  },
+  "scrapedDate": "2025-10-15T03:42:26.634Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150707/20152302.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152302.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.635Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

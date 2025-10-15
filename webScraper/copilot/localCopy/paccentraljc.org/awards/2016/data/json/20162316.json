@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162316",
+  "award": "CHM",
+  "awardpoints": 85,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 25, 2016",
+  "genus": "Dracula",
+  "species": "callithrix",
+  "clone": "Kathy",
+  "cross": "species",
+  "exhibitor": "Joe Parker",
+  "photographer": "N/A",
+  "photo": "images/20162316.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 8,
+    "numBuds": 26,
+    "numInflorescences": 34,
+    "description": "Eight flowers and 26 buds on 34 wiry inflorescences, 16cm in length, borne on a robust floriferous plant, 48-cm in diameter,\n    grown in moss in a 17-cm basket; leaves lanceolate, mostly trimmed apically, 20.0-cm in length, 2.1-cm in width;\n    sepals white, stippled burgundy on front and reverse, darker and smaller proximally, dense light yellow hirsute, caudae dark mahogany;\n    petals white; lip light pink; column white; anther cap yellow; substance firm; texture matte.",
+    "NS": 3.5,
+    "NSV": 14.5,
+    "DSW": 2,
+    "DSL": 10,
+    "PETW": 0.2,
+    "PETL": 0.2,
+    "LSW": 2,
+    "LSL": 9.7,
+    "LIPW": 0.7,
+    "LIPL": 1
+  },
+  "scrapedDate": "2025-10-15T03:38:59.243Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160225/20162316.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162316.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.244Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

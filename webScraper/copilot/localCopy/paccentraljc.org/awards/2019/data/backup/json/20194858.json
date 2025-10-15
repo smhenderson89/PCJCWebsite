@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194858",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Filoli Historic House",
+  "date": "March 9, 2019",
+  "genus": "Cymbidium",
+  "species": "x nishiuchianum",
+  "clone": "Double Prosperity",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194858.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 25,
+    "numBuds": 3,
+    "numInflorescences": 10,
+    "description": "Twenty-five flowers and three buds on ten inflorescences;\n\tsepals light green, heavily striated burgundy;\n\tpetals light green, lightly striated burgundy, heavily marked at base;\n\tlip cream, lightly marked scarlet, mid lobe recurved; pollen cap cream;\n\tsubstance firm; texture matte; also awarded a CCM of 85 points, award 20194859; awarded as Cymbidium tortisepalum;\n\tSITF has determined, with the help of Ken Jacobsen that this is the natural hybrid x nishiuchianum (goeringii x kanran),\n\tbased on the leaf articulation and the sub equal or shorter inflorescences (May 2019).",
+    "NS": 4.7,
+    "NSV": 3.5,
+    "DSW": 1.1,
+    "DSL": 2.2,
+    "PETW": 1.1,
+    "PETL": 1.5,
+    "LSW": 1,
+    "LSL": 1.4,
+    "LIPW": 1,
+    "LIPL": 1.1
+  },
+  "scrapedDate": "2025-10-15T02:42:38.909Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190309/20194858.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194858.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.910Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

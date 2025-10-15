@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194874",
+  "award": "CCM",
+  "awardpoints": 81,
+  "location": "Filoli",
+  "date": "June 15, 2019",
+  "genus": "Lycaste",
+  "species": "Nobuo",
+  "clone": "Hugh",
+  "cross": "Lycaste Rowland x Lycaste aromatica",
+  "exhibitor": "Kathline and Terry Whattam",
+  "photographer": "N/A",
+  "photo": "images/20194874.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 28,
+    "numBuds": 2,
+    "numInflorescences": 30,
+    "description": "Twenty-eight flowers and two buds on 30 inflorescences; \n\t44-cm diameter plant grown in 15-cm plastic pot;\n\tsepals concave, green-yellow, striped maroon;\n\tpetals porrect, bright yellow, striped maroon ;\n\t\n\t\n    lip bright yellow, speckled maroon;\n    anther cap white;\n    substance firm; texture matte.",
+    "NS": 6.4,
+    "NSV": 5,
+    "DSW": 1.8,
+    "DSL": 4.3,
+    "PETW": 1.7,
+    "PETL": 3.7,
+    "LSW": 1.9,
+    "LSL": 4.5,
+    "LIPW": 1.4,
+    "LIPL": 3.4
+  },
+  "scrapedDate": "2025-10-15T02:42:38.931Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190615/20194874.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194874.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.932Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

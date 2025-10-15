@@ -1,0 +1,36 @@
+{
+  "awardNum": "20194802",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Sonoma County Orchid Society Show",
+  "date": "March 30, 2019",
+  "genus": "Paphiopedilum",
+  "species": "haynaldianum",
+  "clone": "Tavel",
+  "cross": "species",
+  "exhibitor": "Dave Sorokowsky",
+  "photographer": "N/A",
+  "photo": "images/20194802.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 2,
+    "numInflorescences": 1,
+    "description": "Three flowers and two buds on one inflorescence plus one immature inflorescence;\n\tdorsal sepal white, proximally overlaid green, chocolate spots, proximal margins rolled, distal portion striated, flushed rose;\n\tsynsepal light green, sparsley spotted, faintly spotted chocolate proximally;\n\tpetals widely held, light green, spotted chocolate proximally, distally dark mauve;\n\tpouch light green lightly overlaid chestnut;\n\tstaminode green;\n\t\n\tsubstance thin; texture waxy.",
+    "NS": 15.9,
+    "NSV": 10.3,
+    "DSW": 3.8,
+    "DSL": 5.5,
+    "PETW": 1.7,
+    "PETL": 10.4
+  },
+  "scrapedDate": "2025-10-15T02:42:38.844Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190330/20194802.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194802.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.845Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

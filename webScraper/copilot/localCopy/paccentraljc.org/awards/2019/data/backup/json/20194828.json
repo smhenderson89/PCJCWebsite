@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194828",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "San Francisco",
+  "date": "October 1, 2019",
+  "genus": "Cattleya",
+  "species": "Indigo Love",
+  "clone": "Lavender Fantasy",
+  "cross": "Cattleya Indigo Dawn x Cattleya Love Knot",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
+  "photo": "images/20194828.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one inflorescence;\n\t\n\tsepals and petals light lavender;\n\t\nlip light lavender, overlaid dark lavender distally, basally light yellow with medium lavender mark centrally ; column white, anther cap dark lavender;\t\n\nsubstance average; texture matte.",
+    "NS": 13.4,
+    "NSV": 12.9,
+    "DSW": 2.5,
+    "DSL": 7.1,
+    "PETW": 5.6,
+    "PETL": 7.5,
+    "LSW": 2.6,
+    "LSL": 7,
+    "LIPW": 5,
+    "LIPL": 6.2
+  },
+  "scrapedDate": "2025-10-15T02:42:38.881Z",
+  "sourceUrl": "https://www.paccentraljc.org/20191001/20194828.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194828.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.882Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174126",
+  "award": "CBR",
+  "awardpoints": "N/A",
+  "location": "Pacific Orchid and Garden Exhibition",
+  "date": "February 23, 2017",
+  "genus": "Masdevallia",
+  "species": "porphyrea",
+  "clone": "Joe",
+  "cross": "species",
+  "exhibitor": "Kathy Parker",
+  "photographer": "N/A",
+  "photo": "images/20174126.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 54,
+    "numBuds": 0,
+    "numInflorescences": 19,
+    "description": "Fifty-four flowers held high over clean foliage on 19 12-to-15-cm inflorescences;\n\tplant growing mounted in robust clusters of 8-to-12-cm leaves with flowers nicely presented;\n\tsepals rose, striped yellow exterior, densely stippled purple interior, caudae light chartreuse; petals minute;\n\tlip light rose; substance average; texture matte.",
+    "NS": 2.5,
+    "NSV": 2.8,
+    "DSW": 1.4,
+    "DSL": 2.5,
+    "PETW": 0.1,
+    "PETL": 0.1,
+    "LSW": 0.4,
+    "LSL": 1.9,
+    "LIPW": 0.2,
+    "LIPL": 0.3
+  },
+  "scrapedDate": "2025-10-15T03:32:22.344Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170223/20174126.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174126.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.346Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

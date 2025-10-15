@@ -1,0 +1,36 @@
+{
+  "awardNum": "20194811",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "San Francisco",
+  "date": "June 4, 2019",
+  "genus": "Phragmipedium",
+  "species": "Ecuagenera Dream",
+  "clone": "Strawberry Moon",
+  "cross": "Phragmipedium Sedenii x Phragmipedium kovachii",
+  "exhibitor": "John McCallen",
+  "photographer": "N/A",
+  "photo": "images/20194811.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one 28-cm inflorescence; \n\t\n\tdorsal sepal and synsepal white, blushed pink;\n\t\n\n\t symetrically rolling petals white heavily blushed pink, dark pink apically;\n\t\n\tnicely rounded pouch white overlaid dark pink exterior, pink spots interior;\t\n\tstaminode white blushed pink;\n\n\n\n\tsubstance moderately firm; texture matte.",
+    "NS": 12,
+    "NSV": 9,
+    "DSW": 3,
+    "DSL": 4.9,
+    "PETW": 3.5,
+    "PETL": 5.8
+  },
+  "scrapedDate": "2025-10-15T02:42:38.858Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190604/20194811.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194811.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.858Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

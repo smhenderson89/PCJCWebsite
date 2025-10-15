@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194710",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 21, 2019",
+  "genus": "Dendrobium",
+  "species": "Silver King",
+  "clone": "Buster",
+  "cross": "Dendrobium Peter Shen x Dendrobium Silver Wings",
+  "exhibitor": "Golden Gate Orchids",
+  "photographer": "N/A",
+  "photo": "images/20194710.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 42,
+    "numBuds": 16,
+    "numInflorescences": 8,
+    "description": "Forty-two flowers and 16 buds on eight upright inflorescences;\n\tsepals and petals white, irregular lavender flecks;\n\t\n\tlip white overlaid pink, veins darker;\n\t\n\n\tsubstance firm; texture crystalline.",
+    "NS": 11,
+    "NSV": 9,
+    "DSW": 1.8,
+    "DSL": 4.5,
+    "PETW": 3.8,
+    "PETL": 5.5,
+    "LSW": 2,
+    "LSL": 4.7,
+    "LIPW": 2.5,
+    "LIPL": 4.5
+  },
+  "scrapedDate": "2025-10-15T02:42:38.808Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190221/20194710.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194710.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.809Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

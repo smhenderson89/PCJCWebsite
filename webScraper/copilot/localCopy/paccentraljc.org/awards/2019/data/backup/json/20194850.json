@@ -1,0 +1,36 @@
+{
+  "awardNum": "20194850",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Filoli",
+  "date": "January 12, 2019",
+  "genus": "Paphiopedilum",
+  "species": "Shun-Fa Golden",
+  "clone": "Echo Valley",
+  "cross": "Paphiopedilum hangianum x Paphiopedilum malipoense",
+  "exhibitor": "Echo Valley Orchids",
+  "photographer": "N/A",
+  "photo": "images/20194850.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flat flower on one inflorescence;\n\tsepals yellow-green tipped burgundy;\n\thorizontal petals bright chartreuse tesselated burgundy;\n\tpouch chartreuse, speckled burgundy interior, visible exterior; staminode cream overlaid dark burgundy;\n\t\n\t \n\tsubstance firm; texture velvet.",
+    "NS": 14.2,
+    "NSV": 10,
+    "DSW": 3.6,
+    "DSL": 6,
+    "PETW": 4.1,
+    "PETL": 7.3
+  },
+  "scrapedDate": "2025-10-15T02:42:38.897Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190112/20194850.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194850.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.897Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

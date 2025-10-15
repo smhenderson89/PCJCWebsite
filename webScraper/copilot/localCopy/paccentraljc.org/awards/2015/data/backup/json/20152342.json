@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152342",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "San Francisco",
+  "date": "January 6, 2015",
+  "genus": "Cattleya",
+  "species": "Mini Purple",
+  "clone": "Small Florett",
+  "cross": "Cattleya pumila x Cattleya walkeriana",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20152342.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flat, shapely flowers on one inflorescence;\n    sepals and petals soft medium pink fading to almost white basally; lip cream overlaid yellow centrally,\n    side lobes cream overlaid medium pink apically, mid-lobe deep purple with medium pink margin;\n    column white overlaid soft pink; substance hard; texture diamond dust.",
+    "NS": 11.4,
+    "NSV": 11.5,
+    "DSW": 2.6,
+    "DSL": 7.3,
+    "PETW": 5.2,
+    "PETL": 5.8,
+    "LSW": 2.4,
+    "LSL": 5.3,
+    "LIPW": 3.9,
+    "LIPL": 4.7
+  },
+  "scrapedDate": "2025-10-15T03:42:26.670Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150106/20152342.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152342.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.670Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

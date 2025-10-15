@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152380",
+  "award": "FCC",
+  "awardpoints": 90,
+  "location": "Oakland",
+  "date": "December 21, 2015",
+  "genus": "Laelia",
+  "species": "anceps f. lineata",
+  "clone": "Feathered Lady NDT",
+  "cross": "species",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
+  "photo": "images/20152380.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four flat flowers on one inflorescence; sepals and petals white overlaid lavender, petals striated dark purple along margins;\n\tlip magenta, yellow callus extends into throat, chartreuse veining on callus and in throat; \n    substance heavy; texture crystalline.",
+    "NS": 11.5,
+    "NSV": 11.6,
+    "DSW": 2.1,
+    "DSL": 7.3,
+    "PETW": 4.1,
+    "PETL": 9.3,
+    "LSW": 2,
+    "LSL": 9.6,
+    "LIPW": 3,
+    "LIPL": 4.9
+  },
+  "scrapedDate": "2025-10-15T03:42:26.726Z",
+  "sourceUrl": "https://www.paccentraljc.org/20151221/20152380.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152380.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.727Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194722",
+  "award": "FCC",
+  "awardpoints": 92,
+  "location": "Oakland",
+  "date": "March 18, 2019",
+  "genus": "Lycaste",
+  "species": "Abou Sunset",
+  "clone": "Amitabha",
+  "cross": "Lycaste Chita Sunset x Lycaste Alan Saltman",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
+  "photo": "images/20194722.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 1,
+    "numInflorescences": 2,
+    "description": "One flat flower and one bud on two inflorescences;\n\tsepals white overlaid deep rose;\n\twell-balanced petals white overlaid intense deep rose, a few minute white speckles, heavily speckled deep rose proximally on reverse;\n\tnicely shaped lip white overlaid deep burgundy, edged white;\n\t\n\t\n\t\n\n\tsubstance very firm; texture satiny, lip velvety.",
+    "NS": 16.5,
+    "NSV": 12.5,
+    "DSW": 5.3,
+    "DSL": 8.5,
+    "PETW": 4.5,
+    "PETL": 6,
+    "LSW": 6.2,
+    "LSL": 9.2,
+    "LIPW": 2.9,
+    "LIPL": 4.8
+  },
+  "scrapedDate": "2025-10-15T02:42:38.831Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190318/20194722.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194722.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.832Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

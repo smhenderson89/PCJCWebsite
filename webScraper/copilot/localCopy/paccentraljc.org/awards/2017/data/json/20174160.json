@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174160",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Gold Coast Cymbidium Growers Show",
+  "date": "April 22, 2017",
+  "genus": "Sarcochilus",
+  "species": "Sundaani's Galaxy",
+  "clone": "Sebastian",
+  "cross": "Sarcochilus Galaxy x Sarcochilus Parma",
+  "exhibitor": "Kevin Hill",
+  "photographer": "N/A",
+  "photo": "images/20174160.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 11,
+    "numBuds": 2,
+    "numInflorescences": 1,
+    "description": "Eleven full round flowers and two buds on one inflorescence; sepals ivory lightly suffused pale blush, mahogany proximally; petals ivory,\n\tmahogany proximally;\n\tlip pale yellow, mahogany spotting, side lobes darker mahogany spotting; column light yellow; substance firm; texture crystalline.",
+    "NS": 2.5,
+    "NSV": 2.6,
+    "DSW": 2.3,
+    "DSL": 1.5,
+    "PETW": 0.9,
+    "PETL": 1.1,
+    "LSW": 1.3,
+    "LSL": 1.6,
+    "LIPW": 0.5,
+    "LIPL": 0.9
+  },
+  "scrapedDate": "2025-10-15T03:32:22.443Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170422/20174160.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174160.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.444Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

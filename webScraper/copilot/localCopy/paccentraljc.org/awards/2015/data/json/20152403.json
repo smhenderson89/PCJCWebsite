@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152403",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Oakland",
+  "date": "October 19, 2015",
+  "genus": "Phalaenopsis",
+  "species": "violacea v. coerulea",
+  "clone": "Galumph",
+  "cross": "species",
+  "exhibitor": "Cordelia Wong",
+  "photographer": "N/A",
+  "photo": "images/20152403.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 3,
+    "numInflorescences": 2,
+    "description": "One flower and three buds on two inflorescences; dorsal sepal deep purple; lateral sepals very dark purple, apices pale green;\n    petals deep purple; lip dark purple, white proximally, side lobes yellow with purple margins; substance firm; texture satin.",
+    "NS": 4.8,
+    "NSV": 4.6,
+    "DSW": 1.7,
+    "DSL": 2.4,
+    "PETW": 1.6,
+    "PETL": 2.2,
+    "LSW": 1.6,
+    "LSL": 2.5,
+    "LIPW": 0.7,
+    "LIPL": 1.6
+  },
+  "scrapedDate": "2025-10-15T03:42:26.734Z",
+  "sourceUrl": "https://www.paccentraljc.org/20151019/20152403.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152403.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.734Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

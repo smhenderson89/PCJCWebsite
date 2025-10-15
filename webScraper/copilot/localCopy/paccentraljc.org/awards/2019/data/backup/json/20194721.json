@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194721",
+  "award": "CCE",
+  "awardpoints": 90,
+  "location": "Santa Cruz Orchid Society Show",
+  "date": "March 2, 2019",
+  "genus": "Clowesia",
+  "species": "Rebecca Northen",
+  "clone": "Jeff",
+  "cross": "Clowesia Grace Dunn x Clowesia rosea",
+  "exhibitor": "Jeff Tyler",
+  "photographer": "N/A",
+  "photo": "images/20194721.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 514,
+    "numBuds": 40,
+    "numInflorescences": 54,
+    "description": "Approximately five hundred fourteen flowers and 40 buds on 54 inflorescences;\n\twell distributed on a 33-cm wide, 20-cm tall plant in a 26-cm wide plastic pot;\n\t\t\n    flowers blush, pink overlay;\n\t\n\tlip saccate, fimbriate, yellow proximally;\n\tcolumn cream,  anther cap yellow;\n\t\n\t\n\n\tsubstance heavy; texture matte.",
+    "NS": 2,
+    "NSV": 1.8,
+    "DSW": 0.9,
+    "DSL": 1.4,
+    "PETW": 1,
+    "PETL": 1.4,
+    "LSW": 0.9,
+    "LSL": 1.7,
+    "LIPW": 1.5,
+    "LIPL": 1.8
+  },
+  "scrapedDate": "2025-10-15T02:42:38.830Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190302/20194721.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194721.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.831Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

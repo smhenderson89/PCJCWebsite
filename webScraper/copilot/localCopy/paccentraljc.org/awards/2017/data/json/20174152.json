@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174152",
+  "award": "CCM",
+  "awardpoints": 82,
+  "location": "Oakland",
+  "date": "April 17, 2017",
+  "genus": "Dendrobium",
+  "species": "crepidatum",
+  "clone": "Vistamont",
+  "cross": "species",
+  "exhibitor": "Cynthia Hill",
+  "photographer": "N/A",
+  "photo": "images/20174152.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 101,
+    "numBuds": 3,
+    "numInflorescences": 8,
+    "description": "One hundred one flowers and three buds on eight leafless canes; pedicels dark violet; sepals and petals white, edges suffused \n\tviolet with darker violet marks, more intense at tips;\n\tlip white, overlaid rich yellow basal through central areas, violet apically; substance firm; texture sepals and petals waxy, lip velvety.",
+    "NS": 4,
+    "NSV": 3.5,
+    "DSW": 0.7,
+    "DSL": 1.8,
+    "PETW": 1,
+    "PETL": 2,
+    "LSW": 0.9,
+    "LSL": 2.3,
+    "LIPW": 2,
+    "LIPL": 1.9
+  },
+  "scrapedDate": "2025-10-15T03:32:22.429Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170417/20174152.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174152.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.430Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

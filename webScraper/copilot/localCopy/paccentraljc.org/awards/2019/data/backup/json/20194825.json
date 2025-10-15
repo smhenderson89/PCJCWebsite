@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194825",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "San Francisco",
+  "date": "October 1, 2019",
+  "genus": "Habenaria",
+  "species": "Tanager",
+  "clone": "Cheboygan",
+  "cross": "Habenaria xanthocheila x Habenaria rhodocheila",
+  "exhibitor": "Jim Heilig",
+  "photographer": "N/A",
+  "photo": "images/20194825.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 13,
+    "numBuds": 8,
+    "numInflorescences": 1,
+    "description": "Thirteen flowers and eight buds on one mature inflorescence plus one immature inflorescence;\n\t\n\tdorsal sepal hooded, pale green, edged orange;\n\tlateral sepals pale green;\n\tpetals minute, brown;\n\t\nlip medium orange, mid-lobe bifurcate, 4.5-cm nectary medium orange;\t\n\nsubstance moderate; texture matte.",
+    "NS": 2.5,
+    "NSV": 3.2,
+    "DSW": 1.2,
+    "DSL": 1.1,
+    "PETW": 0.1,
+    "PETL": 0.3,
+    "LSW": 0.4,
+    "LSL": 1.2,
+    "LIPW": 2.5,
+    "LIPL": 2.7
+  },
+  "scrapedDate": "2025-10-15T02:42:38.878Z",
+  "sourceUrl": "https://www.paccentraljc.org/20191001/20194825.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194825.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.878Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

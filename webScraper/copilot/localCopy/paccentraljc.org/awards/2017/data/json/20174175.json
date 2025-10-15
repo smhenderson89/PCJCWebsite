@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174175",
+  "award": "CBR",
+  "awardpoints": "N/A",
+  "location": "Oakland",
+  "date": "November 20, 2017",
+  "genus": "Trichosalpinx",
+  "species": "patula",
+  "clone": "Eric Langland",
+  "cross": "species",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "N/A",
+  "photo": "images/20174175.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 78,
+    "numBuds": 0,
+    "numInflorescences": 13,
+    "description": "Seventy-eight flowers on 13 pendent inflorescences; leaves lanceolate, 4.5 to 6.1 cm long x 1.5 to 1.7 cm wide; \n\tsepals burnt orange overlaid mahogany; petals mahogany;\n\tlip dark mahogany; column white; substance firm; texture matte.",
+    "NS": 0.3,
+    "NSV": 0.4,
+    "DSW": 0.2,
+    "DSL": 0.3,
+    "PETW": 0.1,
+    "PETL": 0.1,
+    "LSW": 0.2,
+    "LSL": 0.1,
+    "LIPW": 0.1,
+    "LIPL": 0.1
+  },
+  "scrapedDate": "2025-10-15T03:32:22.485Z",
+  "sourceUrl": "https://www.paccentraljc.org/20171120/20174175.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174175.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.486Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

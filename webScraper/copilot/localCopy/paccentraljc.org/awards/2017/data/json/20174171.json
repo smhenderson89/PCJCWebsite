@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174171",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Oakland",
+  "date": "June 19, 2017",
+  "genus": "Cattleya",
+  "species": "granulosa",
+  "clone": "Bentley",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20174171.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four flowers on one inflorescence; sepals and petals olive green,\n\tlightly speckled burgundy, petals reflexed apically, lateral sepals obovate;\n\tlip white, yellow proximally, suffused and spotted red-purple; column white;\n\tsubstance heavy; texture waxy.",
+    "NS": 12.5,
+    "NSV": 14.4,
+    "DSW": 2.4,
+    "DSL": 8.2,
+    "PETW": 3.3,
+    "PETL": 6.9,
+    "LSW": 2.5,
+    "LSL": 6.8,
+    "LIPW": 3.4,
+    "LIPL": 4.8
+  },
+  "scrapedDate": "2025-10-15T03:32:22.476Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170619/20174171.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174171.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.476Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

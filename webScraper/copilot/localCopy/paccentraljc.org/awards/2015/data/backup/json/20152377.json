@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152377",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "San Francisco",
+  "date": "October 6, 2015",
+  "genus": "Phalaenopsis",
+  "species": "Blue Ridge Dragon",
+  "clone": "Long",
+  "cross": "Phal Dragon Tree Eagle x Phal Joshua Irwin Ginsberg",
+  "exhibitor": "Cordelia Wong",
+  "photographer": "N/A",
+  "photo": "images/20152377.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Three flat, well-proportioned flowers on two inflorescences; dorsal sepal green-yellow, heavily overlaid fuschia centrally, heavily overlaid magenta distally;\n    lateral sepals green-yellow, superior halves overlaid magenta basally, inferior halves heavily overlaid magenta; petals green-yellow, concentrically barred magenta basally;\n    lip white, overlaid fuschia, side lobes yellow; column fuchsia, anther cap fuchsia; substance hard; texture waxy.\n    substance hard; texture waxy.",
+    "NS": 5,
+    "NSV": 5.2,
+    "DSW": 1.9,
+    "DSL": 2.7,
+    "PETW": 2,
+    "PETL": 2.4,
+    "LSW": 1.8,
+    "LSL": 2.3,
+    "LIPW": 1.2,
+    "LIPL": 1.6
+  },
+  "scrapedDate": "2025-10-15T03:42:26.720Z",
+  "sourceUrl": "https://www.paccentraljc.org/20151006/20152377.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152377.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.721Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

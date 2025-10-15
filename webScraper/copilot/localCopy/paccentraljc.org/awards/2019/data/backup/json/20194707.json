@@ -1,0 +1,42 @@
+{
+  "awardNum": "20194707",
+  "award": "ST",
+  "awardpoints": "N/A",
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 25, 2019",
+  "genus": "Display",
+  "species": "Award",
+  "clone": "N/A",
+  "cross": "N/A",
+  "exhibitor": "Masaki Asuka",
+  "photographer": "N/A",
+  "photo": "images/20194707.jpg",
+  "measurements": {
+    "type": "N/A",
+    "numFlowers": "N/A",
+    "numBuds": "N/A",
+    "numInflorescences": "N/A",
+    "description": "This 3' x 8' display was arranged with a pleasing rounded topline.  Wrought iron plant stands were used to artfully display\n\t fifteen specimen size plants and give the display height, with air plants used for decorative touches.  All of the plants were grown outdoors, \n\t yet there was a wide varitey of genera displayed:  Arpophyllum, Brassia, Cuitlauzina, Cymbidium, Dendrobium, Epidendrum, Masdevallia and Pleurothallid.\n\t The eye moves easily across the display.",
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LIPW": "N/A",
+    "LSW": "N/A",
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
+  },
+  "scrapedDate": "2025-10-15T02:42:38.802Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190125/20194707.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194707.html",
+  "year": 2019,
+  "isDisplay": true,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.803Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "display"
+  }
+}

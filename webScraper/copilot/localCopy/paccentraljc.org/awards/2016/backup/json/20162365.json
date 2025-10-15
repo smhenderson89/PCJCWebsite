@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162365",
+  "award": "CCM",
+  "awardpoints": 84,
+  "location": "Oakland",
+  "date": "April 18, 2016",
+  "genus": "Masdevallia",
+  "species": "lamprotyria",
+  "clone": "Vistamont",
+  "cross": "species",
+  "exhibitor": "Steve Beckendorf",
+  "photographer": "N/A",
+  "photo": "images/20162365.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 72,
+    "numBuds": 0,
+    "numInflorescences": 72,
+    "description": "Seventy-two symmetrically arranged flowers on 72 inflorescences on a 23-cm x 17-cm plant growing on a 4-cm x 17-cm cork slab;\n\tsepals shiny rose, caudae light yellow-green; petals white; lip white, yellow at tip;  \n    substance firm; texture glossy.",
+    "NS": 2.5,
+    "NSV": 8,
+    "DSW": 0.8,
+    "DSL": 4.5,
+    "PETW": 0.2,
+    "PETL": 0.5,
+    "LSW": 1,
+    "LSL": 5.8,
+    "LIPW": 0.2,
+    "LIPL": 0.5
+  },
+  "scrapedDate": "2025-10-15T03:38:59.305Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160418/20162365.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162365.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.306Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

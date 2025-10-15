@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174140",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "San Francisco",
+  "date": "August 1, 2017",
+  "genus": "Dendrobium",
+  "species": "cuthbertsonii",
+  "clone": "Bicolor Sunset",
+  "cross": "species",
+  "exhibitor": "Golden Gate Orchids",
+  "photographer": "N/A",
+  "photo": "images/20174140.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 4,
+    "description": "Four flowers on four inflorescences; sepals and petals orange, dark orange proximally;\n\tlip orange, black apical band;\n\tsubstance firm; texture crystalline.",
+    "NS": 3,
+    "NSV": 3.2,
+    "DSW": 1.2,
+    "DSL": 3.9,
+    "PETW": 1.1,
+    "PETL": 1.5,
+    "LSW": 1.5,
+    "LSL": 3.4,
+    "LIPW": 0.7,
+    "LIPL": 2.5
+  },
+  "scrapedDate": "2025-10-15T03:32:22.396Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170801/20174140.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174140.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.396Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

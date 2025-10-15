@@ -1,0 +1,38 @@
+{
+  "awardNum": "20152349",
+  "award": "AM",
+  "awardpoints": 87,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 19, 2015",
+  "genus": "Masdevallia",
+  "species": "veitchiana",
+  "clone": "Titan",
+  "cross": "species",
+  "exhibitor": "John Leathers",
+  "photographer": "N/A",
+  "photo": "images/20152349.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One full flower on one arching inflorescence; sepals vibrant orange, hirsute magenta,\n    concentrated proximally on dorsal sepal, coalesced to vertical stripes; petals white; lip black;\n    substance heavy; texture matte.",
+    "NS": 5.3,
+    "NSV": 17.7,
+    "DSW": 3.4,
+    "DSL": 9,
+    "LSW": 2.9,
+    "LSL": 9,
+    "LIPW": 0.5,
+    "LIPL": 1
+  },
+  "scrapedDate": "2025-10-15T03:42:26.682Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150219/20152349.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152349.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.683Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

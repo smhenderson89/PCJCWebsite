@@ -1,0 +1,38 @@
+{
+  "awardNum": "20152357",
+  "award": "CHM",
+  "awardpoints": 85,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 19, 2015",
+  "genus": "Dendrobium",
+  "species": "quinquelobum",
+  "clone": "Vistamont",
+  "cross": "species",
+  "exhibitor": "Steve Beckendorf",
+  "photographer": "N/A",
+  "photo": "images/20152357.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 64,
+    "numBuds": 24,
+    "numInflorescences": 88,
+    "description": "Sixty-four flowers and twenty-four buds on eighty-eight inflorescences carried on an 18 cm by 14 cm\n    well-grown plant on an 8 cm x 5 cm cork mount; sepals white; thread-like petals white;\n    lip white, green centrally, anther cap yellow-green; substance firm; texture crystalline.",
+    "NS": 1.6,
+    "NSV": 1,
+    "DSW": 0.4,
+    "DSL": 0.7,
+    "LSW": 0.5,
+    "LSL": 0.8,
+    "LIPW": 0.4,
+    "LIPL": 0.2
+  },
+  "scrapedDate": "2025-10-15T03:42:26.695Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150219/20152357.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152357.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.696Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

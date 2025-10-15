@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194893",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "December 21, 2019",
+  "genus": "Paphiopedilum",
+  "species": "Oriental Aura",
+  "clone": "Slipper Zone Lucky SOB",
+  "cross": "Paphiopedilum Fred's Aura x Paphiopedilum Oriental Jewel",
+  "exhibitor": "Lehua Orchids",
+  "photographer": "N/A",
+  "photo": "images/20194893.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One balanced flower on one 22-cm inflorescence;  \n   sepals white, green and rose venation, slight rose blush; \n  \n   petals heavily spotted burgundy, bright green centrally, green and rose venation, fading along petal length, faint rose blush distally;\n   pouch green heavily overlaid burgundy; \n  \n\tsubstance firm; texture matte.",
+    "NS": 13.6,
+    "NSV": 12.4,
+    "DSW": 7.6,
+    "DSL": 5.8,
+    "PETW": 2.7,
+    "PETL": 7.7,
+    "LSW": 5.2,
+    "LSL": 4.5,
+    "LIPW": 3.6,
+    "LIPL": 5.9
+  },
+  "scrapedDate": "2025-10-15T02:42:38.954Z",
+  "sourceUrl": "https://www.paccentraljc.org/20191221/20194893.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194893.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.954Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

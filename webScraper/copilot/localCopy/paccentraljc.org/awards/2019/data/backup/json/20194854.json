@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194854",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli",
+  "date": "January 12, 2019",
+  "genus": "Oncidium",
+  "species": "zappii",
+  "clone": "Bentley",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194854.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 20,
+    "numBuds": 4,
+    "numInflorescences": 1,
+    "description": "Twenty flowers and four buds on one upright branched inflorescence;\n\tsepals and petals chestnut, yellow markings apically;\n\tlip chestnut, brown-purple basally, barely spotted yellow;\n\tcolumn pale green, anther cap yellow;   \n\tsubstance firm; texture shiny.",
+    "NS": 5.1,
+    "NSV": 4.1,
+    "DSW": 1.1,
+    "DSL": 1.9,
+    "PETW": 2,
+    "PETL": 2.5,
+    "LSW": 0.7,
+    "LSL": 2,
+    "LIPW": 2.5,
+    "LIPL": 2.2
+  },
+  "scrapedDate": "2025-10-15T02:42:38.904Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190112/20194854.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194854.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.905Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

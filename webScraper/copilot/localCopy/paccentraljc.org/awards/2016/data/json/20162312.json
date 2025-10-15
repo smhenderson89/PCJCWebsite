@@ -1,0 +1,36 @@
+{
+  "awardNum": "20162312",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 25, 2016",
+  "genus": "Paphiopedilum",
+  "species": "Terry Stone",
+  "clone": "Amber",
+  "cross": "Paphiopedilum Stone Lovely x Paphiopedilum Terry Jarvi",
+  "exhibitor": "John Chant",
+  "photographer": "N/A",
+  "photo": "images/20162312.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one 33-cm staked inflorescence; dorsal sepal white centrally overlaid chartreuse, veined medium green;\n   synsepal light green overlaid distinctive green veins;\n   petals superior half amber, inferior half light green, light veining throughout, stippled burgundy centrally;\n   full pouch amber, light blush overlaid; \n   staminode light amber;  \n   substance firm; texture glossy; slight cupping precluded higher score.",
+    "NS": 14.1,
+    "NSV": 11.5,
+    "DSW": 11,
+    "DSL": 7.5,
+    "PETW": 8.3,
+    "PETL": 7.6
+  },
+  "scrapedDate": "2025-10-15T03:38:59.233Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160225/20162312.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162312.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.234Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

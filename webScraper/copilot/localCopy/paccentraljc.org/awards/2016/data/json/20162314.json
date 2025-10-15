@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162314",
+  "award": "CCM",
+  "awardpoints": 86,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 25, 2016",
+  "genus": "Dendrobium",
+  "species": "Roy Tokunaga",
+  "clone": "Hawaiian Gift",
+  "cross": "Dendrobium johnsoniae x Dendrobium atrovialaceum",
+  "exhibitor": "H&R Nurseries",
+  "photographer": "N/A",
+  "photo": "images/20162314.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 258,
+    "numBuds": 19,
+    "numInflorescences": 42,
+    "description": "Two-hundred fifty-eight flowers and 19 buds on 42 inflorescences plus six immature inflorescences on an 89-cm wide x 67-cm tall plant in a 27-cm pot; \n\tsepals and petals paper white, randomly spotted magenta-purple on the adaxial side, visible on the abaxial side; lip\n\tpaper white, dark magenta-purple on side lobes dispersing to spots on the mid-lobes;  \n    substance firm; texture matte.",
+    "NS": 8.5,
+    "NSV": 5.6,
+    "DSW": 1.4,
+    "DSL": 3.3,
+    "PETW": 2.6,
+    "PETL": 4.4,
+    "LSW": 1.4,
+    "LSL": 3,
+    "LIPW": 1.4,
+    "LIPL": 2.8
+  },
+  "scrapedDate": "2025-10-15T03:38:59.237Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160225/20162314.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162314.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.238Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

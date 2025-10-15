@@ -1,0 +1,36 @@
+{
+  "awardNum": "20162322",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Sonoma County Orchid Society Show",
+  "date": "April 2, 2016",
+  "genus": "Paphiopedilum",
+  "species": "rothschildianum",
+  "clone": "Austin Creek",
+  "cross": "species",
+  "exhibitor": "Dale Martin",
+  "photographer": "N/A",
+  "photo": "images/20162322.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four flowers on one inflorescence; sepals and petals very pale-green overlaid with uniform longitudinal\n   cordovan stripes; pouch very pale-green completely overlaid saturated cordovan externally;  staminode very\n   pale-green overlaid cordovan, lighter centrally;  \n   substance firm; texture matte.",
+    "NS": 26.8,
+    "NSV": 12.8,
+    "DSW": 5.4,
+    "DSL": 6.7,
+    "PETW": 2.1,
+    "PETL": 14.3
+  },
+  "scrapedDate": "2025-10-15T03:38:59.251Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160402/20162322.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162322.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.252Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

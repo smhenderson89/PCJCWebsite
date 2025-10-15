@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162326",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "San Francisco",
+  "date": "April 5, 2016",
+  "genus": "Cattleya",
+  "species": "intermedia f. orlata",
+  "clone": "Bentley",
+  "cross": "species",
+  "exhibitor": "Amy & Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20162326.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flowers on one inflorescence; sepals and petals vibrant pink, darker at base; \n\tlip pink, fringed dark red-purple ; \n    substance moderately heavy; texture matte.",
+    "NS": 10.3,
+    "NSV": 9.8,
+    "DSW": 1.8,
+    "DSL": 6.1,
+    "PETW": 2.7,
+    "PETL": 5.5,
+    "LSW": 2.4,
+    "LSL": 5.8,
+    "LIPW": 4.4,
+    "LIPL": 5
+  },
+  "scrapedDate": "2025-10-15T03:38:59.260Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160405/20162326.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162326.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.261Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

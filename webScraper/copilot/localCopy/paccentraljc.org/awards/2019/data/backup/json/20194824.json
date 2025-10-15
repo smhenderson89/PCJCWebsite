@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194824",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "San Francisco",
+  "date": "August 6, 2019",
+  "genus": "Oncidium",
+  "species": "serratum",
+  "clone": "Casuka",
+  "cross": "species",
+  "exhibitor": "Masaki Asuka",
+  "photographer": "N/A",
+  "photo": "images/20194824.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 68,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Sixty-eight flowers on one looping, branched inflorescence; \n\t\n\tdorsal sepal brown, yellow picotee, margin crisped;\n\tlateral sepals falcate, brown, yellow margin at apex, margins undulate;\n\tpetals brown on proximal two-thirds, yellow distal one-third, curved toward column, interlocking at apex;\n\t\n\t\nlip ochre, stellate callus cream overlaid gold; column olive;\n\nsubstance medium; texture matte.",
+    "NS": 3.5,
+    "NSV": 5.5,
+    "DSW": 3.1,
+    "DSL": 2.5,
+    "PETW": 2.5,
+    "PETL": 2.7,
+    "LSW": 1,
+    "LSL": 4.5,
+    "LIPW": 0.5,
+    "LIPL": 2.3
+  },
+  "scrapedDate": "2025-10-15T02:42:38.876Z",
+  "sourceUrl": "",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194824.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.877Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

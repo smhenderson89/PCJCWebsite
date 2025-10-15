@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174173",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Oakland",
+  "date": "October 16, 2017",
+  "genus": "Vandachostylis",
+  "species": "Crownfox",
+  "clone": "Memoria Nagahata Yoshiko",
+  "cross": "Vandachostylis Five Friendships x Vanda vietnamica",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
+  "photo": "images/20174173.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 25,
+    "numBuds": 25,
+    "numInflorescences": 1,
+    "description": "Twenty-five flowers and 25 buds on one branched inflorescence;\n\tsepals and petals pale green, pink tips, lateral sepals slightly darker green;\n\tlip fuchsia; substance firm; texture matte.",
+    "NS": 3.4,
+    "NSV": 2.8,
+    "DSW": 1,
+    "DSL": 1.8,
+    "PETW": 0.8,
+    "PETL": 1.2,
+    "LSW": 1.4,
+    "LSL": 1.6,
+    "LIPW": 1.7,
+    "LIPL": 1.7
+  },
+  "scrapedDate": "2025-10-15T03:32:22.481Z",
+  "sourceUrl": "https://www.paccentraljc.org/20171016/20174173.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174173.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.482Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

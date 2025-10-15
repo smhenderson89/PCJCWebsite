@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152295",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 23, 2015",
+  "genus": "Lycaste",
+  "species": "Chita Prince",
+  "clone": "Redwood",
+  "cross": "Lycaste Chita Sunset x Lycaste Cherish",
+  "exhibitor": "Cal-Orchid",
+  "photographer": "N/A",
+  "photo": "images/20152295.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 1,
+    "numInflorescences": 2,
+    "description": "One flower and one bud on two inflorescences; sepals deep rose; petals red-rose;\n\tlip red, yellow callus, mid-lobe white heavily overlaid red; substance firm; texture matte.\n\tFlower slightly damaged in transit.",
+    "NS": 14.7,
+    "NSV": 13.1,
+    "DSW": 5.5,
+    "DSL": 7.1,
+    "PETW": 5,
+    "PETL": 5.2,
+    "LSW": 5.6,
+    "LSL": 7.3,
+    "LIPW": 1.9,
+    "LIPL": 3.7
+  },
+  "scrapedDate": "2025-10-15T03:42:26.614Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150123/20152295.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152295.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.617Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

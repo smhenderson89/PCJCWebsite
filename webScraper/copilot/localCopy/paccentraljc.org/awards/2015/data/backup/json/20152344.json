@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152344",
+  "award": "CCE",
+  "awardpoints": 94,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 19, 2015",
+  "genus": "Dendrochilum",
+  "species": "propinquum",
+  "clone": "Vistamont",
+  "cross": "species",
+  "exhibitor": "Cindy Hill",
+  "photographer": "N/A",
+  "photo": "images/20152344.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 16125,
+    "numBuds": 0,
+    "numInflorescences": 64,
+    "description": "Approximately 16,125 flowers spirally arranged on sixty-four inflorescences, 40 cm in length, borne on\n\ta nearly immaculate plant, 53 cm in diameter, grown in an 18 cm plastic basket; \n\tpseudobulbs fusiform, 8 cm in length, 1.5 cm in width; leaves lanceolate, 19 cm in length,\n\t5 cm in width; petals, sepals and lip uniformly salmon pink; substance thin; texture shiny.",
+    "NS": 0.5,
+    "NSV": 0.4,
+    "DSW": 0.1,
+    "DSL": 0.2,
+    "PETW": 0.1,
+    "PETL": 0.2,
+    "LSW": 0.1,
+    "LSL": 0.1,
+    "LIPW": 0.2,
+    "LIPL": 0.3
+  },
+  "scrapedDate": "2025-10-15T03:42:26.674Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150219/20152344.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152344.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.675Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

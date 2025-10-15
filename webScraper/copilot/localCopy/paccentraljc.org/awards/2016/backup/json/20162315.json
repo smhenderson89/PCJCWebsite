@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162315",
+  "award": "FCC",
+  "awardpoints": 91,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 25, 2016",
+  "genus": "Dracula",
+  "species": "Raven",
+  "clone": "Vamp",
+  "cross": "Dracula vampira x Dracula roezlii",
+  "exhibitor": "John Leathers",
+  "photographer": "N/A",
+  "photo": "images/20162315.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 12,
+    "numInflorescences": 14,
+    "description": "Two exceptionally flat, well-balanced flowers and twelve buds on 14 inflorescences; \n\tdorsal sepal cream, chartreuse basally, heavily tesselated black-brown, coalescing\n\tapically black-brown, wide vertical black-brown stripes ; lateral sepals cream, heavily tesselated black-brown;\n\tpetals cream, overlaid light brown; lip light rose;  \n    substance firm; texture matte; this is a WOW flower.",
+    "NS": 16,
+    "NSV": 26,
+    "DSW": 3.5,
+    "DSL": 13,
+    "PETW": 0.2,
+    "PETL": 0.4,
+    "LSW": 3.5,
+    "LSL": 13.4,
+    "LIPW": 1.6,
+    "LIPL": 1.5
+  },
+  "scrapedDate": "2025-10-15T03:38:59.239Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160225/20162315.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162315.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.240Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

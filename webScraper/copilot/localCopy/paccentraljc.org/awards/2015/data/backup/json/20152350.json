@@ -1,0 +1,36 @@
+{
+  "awardNum": "20152350",
+  "award": "AM",
+  "awardpoints": 86,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 19, 2015",
+  "genus": "Paphiopedilum",
+  "species": "delenatii f. alba",
+  "clone": "Oval",
+  "cross": "species",
+  "exhibitor": "The Orchid Zone",
+  "photographer": "N/A",
+  "photo": "images/20152350.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One exceptionally flat, well proportioned flower on one inflorescence; flower segments pure white; split synsepal;\n    staminode bright yellow edged in white; substance soft; texture matte.  Commended for round petals and overall excellent form.",
+    "NS": 8,
+    "NSV": 7,
+    "DSW": 3.1,
+    "DSL": 3.2,
+    "PETW": 4.3,
+    "PETL": 4.7
+  },
+  "scrapedDate": "2025-10-15T03:42:26.684Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150219/20152350.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152350.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.684Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162370",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "San Francisco",
+  "date": "Sep 6, 2016",
+  "genus": "Stanhopea",
+  "species": "wardii",
+  "clone": "Tommy",
+  "cross": "species",
+  "exhibitor": "Sandra Nesting-Hayes",
+  "photographer": "N/A",
+  "photo": "images/20162370.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 5,
+    "numBuds": 6,
+    "numInflorescences": 2,
+    "description": "Five flowers on one mature pendent inflorescence and six buds on one immature inflorescence; flowers bright yellow speckled lightly cordovan; dorsal sepal cupped; lateral sepals somewhat rolled; petals twisted and reflexed; hypochile strongly marked very dark mahogany, mesochile orange, epichile yellow very lightly spotted cordovan; substance firm; texture waxy.",
+    "NS": 8.9,
+    "NSV": 9.3,
+    "DSW": 2.8,
+    "DSL": 6.1,
+    "PETW": 3.5,
+    "PETL": 6.2,
+    "LSW": 2.1,
+    "LSL": 5.2,
+    "LIPW": 3.2,
+    "LIPL": 5.1
+  },
+  "scrapedDate": "2025-10-15T03:38:59.309Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160906/20162370.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162370.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.310Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

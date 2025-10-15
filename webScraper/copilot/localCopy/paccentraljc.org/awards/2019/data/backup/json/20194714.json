@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194714",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 21, 2019",
+  "genus": "Masdevallia",
+  "species": "superbiens",
+  "clone": "Joe",
+  "cross": "species",
+  "exhibitor": "Kathy Parker",
+  "photographer": "N/A",
+  "photo": "images/20194714.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 22,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Twenty-two flowers on two erect 29-cm inflorescences;\n\t sepals white densely spotted magenta, caudae orange;\n  petals white;\t\n   \n\t\n\tlip yellow;\n\n\t\n\n\tsubstance firm; texture matte.",
+    "NS": 2.7,
+    "NSV": 3.4,
+    "DSW": 1.2,
+    "DSL": 3.9,
+    "PETW": 0.1,
+    "PETL": 0.3,
+    "LSW": 0.7,
+    "LSL": 3.4,
+    "LIPW": 0.1,
+    "LIPL": 0.3
+  },
+  "scrapedDate": "2025-10-15T02:42:38.817Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190221/20194714.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194714.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.818Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

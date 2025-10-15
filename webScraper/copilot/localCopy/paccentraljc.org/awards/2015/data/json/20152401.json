@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152401",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Santa Clara Valley Orchid Society Meeting",
+  "date": "March 4, 2015",
+  "genus": "Cymbidium",
+  "species": "Suvaley",
+  "clone": "Moss",
+  "cross": "Cym. Suva x Cym. Stanley Fouraker",
+  "exhibitor": "Thomas Moss",
+  "photographer": "N/A",
+  "photo": "images/20152401.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 12,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Twelve flowers classically displayed on one upright to arching inflorescence; \n    sepals and petals cream overlaid with medium pink striations;\n    lip cream with raspberry markings, overlaid with pink basally; substance firm; texture matte.",
+    "NS": 9.2,
+    "NSV": 6.5,
+    "DSW": 4,
+    "DSL": 7,
+    "PETW": 3.1,
+    "PETL": 6,
+    "LSW": 3.3,
+    "LSL": 7.4,
+    "LIPW": 3,
+    "LIPL": 4.2
+  },
+  "scrapedDate": "2025-10-15T03:42:26.731Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150304/20152401.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152401.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.732Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

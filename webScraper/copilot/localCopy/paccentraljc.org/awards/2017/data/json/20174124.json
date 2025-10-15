@@ -1,0 +1,38 @@
+{
+  "awardNum": "20174124",
+  "award": "CHM",
+  "awardpoints": 80,
+  "location": "Pacific Orchid and Garden Exhibition",
+  "date": "February 23, 2017",
+  "genus": "Masdevallia",
+  "species": "figuroae",
+  "clone": "Marguerite",
+  "cross": "species",
+  "exhibitor": "John Leathers",
+  "photographer": "N/A",
+  "photo": "images/20174124.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 40,
+    "numBuds": 3,
+    "numInflorescences": 43,
+    "description": "Forty flowers and three buds on 43 inflorescences; plant 41cm wide, 22cm tall in a 13-cm pot;\n\tdorsal sepal white, overlaid magenta, cauda magenta basally suffusing to yellow-brown apex;\n\tlateral sepals white, magenta basally, stippled fine magenta, caudae intense yellow;\n\tminute petals white; lip magenta; anther cap white; substance firm, texture waxy.",
+    "NS": 7.5,
+    "NSV": 3.4,
+    "DSW": 1,
+    "DSL": 6.5,
+    "LSW": 1,
+    "LSL": 4.6,
+    "LIPW": 0.1,
+    "LIPL": 0.5
+  },
+  "scrapedDate": "2025-10-15T03:32:22.342Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170223/20174124.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174124.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.343Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

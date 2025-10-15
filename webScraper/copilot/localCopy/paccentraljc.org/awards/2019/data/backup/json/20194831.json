@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194831",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "October 19, 2019",
+  "genus": "Cattleya",
+  "species": "Sierra Doll",
+  "clone": "Portola",
+  "cross": "Cattleya walkeriana x Cattleya Pink Doll",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
+  "photo": "images/20194831.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Two flowers on one inflorescence;\n\t\n\tsepals dark rose;\n\tpetals dark rose, ruffled and notched upper margin;\n\tlip dark magenta apically, throat yellow, rose venation;\n\tcolumn white flushed rose;\n\t\n\nsubstance good; texture crystalline.",
+    "NS": 9,
+    "NSV": 8.9,
+    "DSW": 2.2,
+    "DSL": 5,
+    "PETW": 4.3,
+    "PETL": 4.8,
+    "LSW": 2.2,
+    "LSL": 6.9,
+    "LIPW": 3,
+    "LIPL": 4.5
+  },
+  "scrapedDate": "2025-10-15T02:42:38.886Z",
+  "sourceUrl": "https://www.paccentraljc.org/20191019/20194831.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194831.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.887Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

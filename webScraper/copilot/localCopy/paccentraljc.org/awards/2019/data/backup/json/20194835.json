@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194835",
+  "award": "CCM",
+  "awardpoints": 86,
+  "location": "San Francisco",
+  "date": "November 5, 2019",
+  "genus": "Dendrobium",
+  "species": "cuthbertsonii",
+  "clone": "Tiny Jungle",
+  "cross": "species",
+  "exhibitor": "Chris Mende",
+  "photographer": "N/A",
+  "photo": "images/20194835.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 40,
+    "numBuds": 6,
+    "numInflorescences": 46,
+    "description": "Forty flowers and six buds on 46 inflorescences;  \n   spotlessly grown plant, 13-cm diameter on a 6-cm x 8-cm wooden mount;\n   \n\tsepals and petals yellow;\n\tlip yellow, burgundy markings on edge;\n\tcolumn yellow;\n\t\n\nsubstance heavy; texture waxy; buds and opening flowers blushed pink;\n commended for exceptionally clean foliage and floriferousness.",
+    "NS": 2.1,
+    "NSV": 2.2,
+    "DSW": 0.9,
+    "DSL": 1.2,
+    "PETW": 0.8,
+    "PETL": 1,
+    "LSW": 1,
+    "LSL": 1.5,
+    "LIPW": 0.4,
+    "LIPL": 1.4
+  },
+  "scrapedDate": "2025-10-15T02:42:38.892Z",
+  "sourceUrl": "https://www.paccentraljc.org/20191105/20194835.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194835.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.892Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

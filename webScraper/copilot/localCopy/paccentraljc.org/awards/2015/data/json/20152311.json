@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152311",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Santa Cruz Orchid Society Show",
+  "date": "November 14, 2015",
+  "genus": "Vanda",
+  "species": "Pakchong Blue",
+  "clone": "Maryam",
+  "cross": "Vanda Doctor Anek x Vanda coerulea",
+  "exhibitor": "Vicky Smith",
+  "photographer": "N/A",
+  "photo": "images/20152311.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 12,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Twelve flowers on two inflorescences; sepals and petals white, evenly tessellated with blue-violet venation;\n\tlip strong blue-violet;\n    substance firm; texture matte.",
+    "NS": 12,
+    "NSV": 11.8,
+    "DSW": 5.2,
+    "DSL": 6.2,
+    "PETW": 5.2,
+    "PETL": 5.9,
+    "LSW": 6.5,
+    "LSL": 6.9,
+    "LIPW": 1.7,
+    "LIPL": 2.4
+  },
+  "scrapedDate": "2025-10-15T03:42:26.653Z",
+  "sourceUrl": "https://www.paccentraljc.org/20151114/20152311.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152311.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.653Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

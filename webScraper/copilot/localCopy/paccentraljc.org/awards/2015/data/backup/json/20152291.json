@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152291",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 23, 2015",
+  "genus": "Lycaste",
+  "species": "Nagai International",
+  "clone": "Monterey Bay",
+  "cross": "Lycaste Chita Sunset x Lycaste skinneri",
+  "exhibitor": "Echo Valley Orchids",
+  "photographer": "N/A",
+  "photo": "images/20152291.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Two well presented flowers on two inflorescences; sepals white overlaid with pale pink on distal 3/4 fading\n    to pale green at apex; petals white overlaid with darker pink, slightly striated; lip white, keel cream;\n    substance firm; texture matte.",
+    "NS": 15.3,
+    "NSV": 12,
+    "DSW": 5.3,
+    "DSL": 7.8,
+    "PETW": 4.1,
+    "PETL": 5.5,
+    "LSW": 5.5,
+    "LSL": 8.4,
+    "LIPW": 2.8,
+    "LIPL": 4.4
+  },
+  "scrapedDate": "2025-10-15T03:42:26.592Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150123/20152291.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152291.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.603Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

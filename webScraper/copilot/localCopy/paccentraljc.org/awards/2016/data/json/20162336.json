@@ -1,0 +1,36 @@
+{
+  "awardNum": "20162336",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "San Francisco",
+  "date": "July 5, 2016",
+  "genus": "Paphiopedilum",
+  "species": "Misty Dell",
+  "clone": "M",
+  "cross": "Paphiopedilum Magic Lantern x Paphiopedilum delenatii",
+  "exhibitor": "Chris Mende",
+  "photographer": "N/A",
+  "photo": "images/20162336.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one inflorescence; dorsal sepal pale lavender-pink;\n    petals white, overlaid lavender-pink, most saturated at margins, speckled along veins light purple;\n    pouch lavender, transitioning to white at apex; staminode white, rich yellow centrally, upper three-quarters overlaid lavender-pink;\n    substance average; texture crystalline.",
+    "NS": 9.5,
+    "NSV": 8.1,
+    "DSW": 3.2,
+    "DSL": 4,
+    "PETW": 4.6,
+    "PETL": 4.2
+  },
+  "scrapedDate": "2025-10-15T03:38:59.274Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160705/20162336.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162336.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.275Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

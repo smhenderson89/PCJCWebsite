@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174106",
+  "award": "CCM",
+  "awardpoints": 85,
+  "location": "San Francisco",
+  "date": "December 5, 2017",
+  "genus": "Laelia",
+  "species": "albida",
+  "clone": "Winston",
+  "cross": "species",
+  "exhibitor": "Ken and Amy Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20174106.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 160,
+    "numBuds": 18,
+    "numInflorescences": 22,
+    "description": "One hundred sixty flowers and 18 buds on 22 upright 38-cm inflorescences; 50 x 60-cm plant growing in a 23-cm plastic pot; \n\tsepals white blushed pale pink; petals white;\n\tlip white, throat dark maroon striations, yellow central callus,  pink distally; substance firm; texture satin.  Reference award #20174105.",
+    "NS": 6.5,
+    "NSV": 5.5,
+    "DSW": 1.3,
+    "DSL": 3.5,
+    "PETW": 1,
+    "PETL": 3.9,
+    "LSW": 1.9,
+    "LSL": 3.3,
+    "LIPW": 1.6,
+    "LIPL": 2.8
+  },
+  "scrapedDate": "2025-10-15T03:32:22.294Z",
+  "sourceUrl": "https://www.paccentraljc.org/20171205/20174106.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174106.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.296Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

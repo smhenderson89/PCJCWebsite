@@ -1,0 +1,36 @@
+{
+  "awardNum": "20152345",
+  "award": "CBR",
+  "awardpoints": "N/A",
+  "location": "Pacific Orchid Exposition",
+  "date": "February 19, 2015",
+  "genus": "Masdevallia",
+  "species": "apparitio",
+  "clone": "Vistamont",
+  "cross": "species",
+  "exhibitor": "Steve Beckendorf",
+  "photographer": "N/A",
+  "photo": "images/20152345.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Two flowers of beautiful translucent color on two 9.5 cm inflorescences well held above foliage of pleasing proportions\n\ton a plant 18 cm wide in a 5 cm plastic pot; leaves very thick, almost coriaceous, 8.3 cm long and 2.7 cm wide;\n\tdorsal sepal translucent white, faintly blushed yellow, veined opaque white; lateral sepals translucent white, veined \n\topaque white; caudae chartreuse, 7.1 cm in length; petals purple, minute; lip white, purple distally; substance firm; texture matte.",
+    "NS": 11.5,
+    "NSV": 14.6,
+    "DSW": 1.7,
+    "DSL": 2,
+    "LSW": 1,
+    "LSL": 2
+  },
+  "scrapedDate": "2025-10-15T03:42:26.675Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150219/20152345.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152345.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.676Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

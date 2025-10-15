@@ -1,0 +1,1711 @@
+{
+  "metadata": {
+    "year": 2016,
+    "analysisType": "missing-data",
+    "timestamp": "2025-10-15T03:39:18.487Z",
+    "generatedBy": "analyze-2016-data.js (enhanced with source URLs)",
+    "includesSourceUrls": true,
+    "purpose": "Review missing data by visiting source URLs",
+    "logicReferenceUsed": "logicReference/missingInfoLogic.json"
+  },
+  "summary": {
+    "totalFiles": 60,
+    "perfectFiles": 0,
+    "filesWithIssues": 60,
+    "perfectPercentage": 0,
+    "issuesPercentage": 100
+  },
+  "issueBreakdown": {
+    "criticalIssues": 0,
+    "importantMissing": 60,
+    "measurementIssues": 0,
+    "descriptionOnly": 0
+  },
+  "awardsWithIssues": {
+    "critical": [],
+    "important": [
+      {
+        "awardNum": "20162291",
+        "filename": "20162291.json",
+        "plant": "Masdevallia nidifica 'Lise'",
+        "exhibitor": "Mary Gerritsen",
+        "award": "CCM 83",
+        "sourceUrl": "https://www.paccentraljc.org/20160122/20162291.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162291.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160122/20162291.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162291.html",
+          "scrapedDate": "2025-10-15T03:38:59.186Z",
+          "date": "January 22, 2016",
+          "location": "Peninsula Orchid Society Show",
+          "genus": "Masdevallia",
+          "species": "nidifica",
+          "clone": "Lise",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162292",
+        "filename": "20162292.json",
+        "plant": "Rhynchostele Vexativa 'Mr. Spot'",
+        "exhibitor": "Neal Winslow",
+        "award": "AM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20160122/20162292.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162292.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160122/20162292.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162292.html",
+          "scrapedDate": "2025-10-15T03:38:59.198Z",
+          "date": "January 22, 2016",
+          "location": "Peninsula Orchid Society Show",
+          "genus": "Rhynchostele",
+          "species": "Vexativa",
+          "clone": "Mr. Spot",
+          "cross": "Rhynchostele cordata x Rhynchostele aptera",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162293",
+        "filename": "20162293.json",
+        "plant": "Phragmipedium Jason Fischer 'Elaine'",
+        "exhibitor": "Eric Levenson",
+        "award": "AM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20160122/20162293.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162293.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160122/20162293.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162293.html",
+          "scrapedDate": "2025-10-15T03:38:59.202Z",
+          "date": "January 22, 2016",
+          "location": "Peninsula Orchid Society Show",
+          "genus": "Phragmipedium",
+          "species": "Jason Fischer",
+          "clone": "Elaine",
+          "cross": "Phragmipedium Memoria Dick Clements x Phragmipedium besseae",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162301",
+        "filename": "20162301.json",
+        "plant": "Paphiopedilum Fairre Helen 'Tiny Jungle'",
+        "exhibitor": "Tiny Jungle",
+        "award": "HCC 79",
+        "sourceUrl": "https://www.paccentraljc.org/20160202/20162301.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162301.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160202/20162301.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162301.html",
+          "scrapedDate": "2025-10-15T03:38:59.205Z",
+          "date": "February 2, 2016",
+          "location": "San Fransisco",
+          "genus": "Paphiopedilum",
+          "species": "Fairre Helen",
+          "clone": "Tiny Jungle",
+          "cross": "Paphiopedilum fairrieanum x Paphiopedilum Pacific Shamrock",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162302",
+        "filename": "20162302.json",
+        "plant": "Paphiopedilum Heaven's Knight 'Monster'",
+        "exhibitor": "Ramon de los Santos",
+        "award": "HCC 76",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162302.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162302.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162302.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162302.html",
+          "scrapedDate": "2025-10-15T03:38:59.207Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Paphiopedilum",
+          "species": "Heaven's Knight",
+          "clone": "Monster",
+          "cross": "Paphiopedilum Autumn Gold x Paphiopedilum White Knight",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162303",
+        "filename": "20162303.json",
+        "plant": "Paphiopedilum Star Stone 'Green Power'",
+        "exhibitor": "Japheth Ko",
+        "award": "AM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162303.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162303.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162303.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162303.html",
+          "scrapedDate": "2025-10-15T03:38:59.212Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Paphiopedilum",
+          "species": "Star Stone",
+          "clone": "Green Power",
+          "cross": "Paphiopedilum Telstar x Paphiopedilum Stone Lovely",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162304",
+        "filename": "20162304.json",
+        "plant": "Paphiopedilum Macbre 'Giant'",
+        "exhibitor": "Japheth Ko",
+        "award": "HCC 77",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162304.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162304.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162304.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162304.html",
+          "scrapedDate": "2025-10-15T03:38:59.215Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Paphiopedilum",
+          "species": "Macbre",
+          "clone": "Giant",
+          "cross": "Paphiopedilum Voodoo Magic x Paphiopedilum sukhakulii",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162305",
+        "filename": "20162305.json",
+        "plant": "Paphiopedilum sukhakulii fma alba 'Emerald'",
+        "exhibitor": "Japheth Ko",
+        "award": "HCC 79",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162305.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162305.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162305.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162305.html",
+          "scrapedDate": "2025-10-15T03:38:59.217Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Paphiopedilum",
+          "species": "sukhakulii fma alba",
+          "clone": "Emerald",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162306",
+        "filename": "20162306.json",
+        "plant": "Cymbidium Joseph Schmidt 'Monster'",
+        "exhibitor": "Ramon de los Santos",
+        "award": "HCC 77",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162306.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162306.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162306.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162306.html",
+          "scrapedDate": "2025-10-15T03:38:59.219Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Cymbidium",
+          "species": "Joseph Schmidt",
+          "clone": "Monster",
+          "cross": "Cymbidium Canal Parish x Cymbidium sinense",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162307",
+        "filename": "20162307.json",
+        "plant": "Paphiopedilum sukhakulii 'Spotted Duo'",
+        "exhibitor": "John Chant",
+        "award": "AM 88",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162307.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162307.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162307.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162307.html",
+          "scrapedDate": "2025-10-15T03:38:59.221Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Paphiopedilum",
+          "species": "sukhakulii",
+          "clone": "Spotted Duo",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162308",
+        "filename": "20162308.json",
+        "plant": "Dracula amaliae 'Angel'",
+        "exhibitor": "Joe Parker",
+        "award": "HCC 77",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162308.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162308.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162308.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162308.html",
+          "scrapedDate": "2025-10-15T03:38:59.223Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dracula",
+          "species": "amaliae",
+          "clone": "Angel",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162309",
+        "filename": "20162309.json",
+        "plant": "Dendrobium Hawaii Spectacular 'POE'",
+        "exhibitor": "H&R Nurseries",
+        "award": "HCC 77",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162309.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162309.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162309.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162309.html",
+          "scrapedDate": "2025-10-15T03:38:59.226Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dendrobium",
+          "species": "Hawaii Spectacular",
+          "clone": "POE",
+          "cross": "Dendrobium Big Alex x Dendrobium spectabile",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162310",
+        "filename": "20162310.json",
+        "plant": "Masdevallia Heathii 'Volcano'",
+        "exhibitor": "John Leathers",
+        "award": "AM 86",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162310.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162310.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162310.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162310.html",
+          "scrapedDate": "2025-10-15T03:38:59.229Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Masdevallia",
+          "species": "Heathii",
+          "clone": "Volcano",
+          "cross": "Masdevallia ignea x Masdevallia veitchiana",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162311",
+        "filename": "20162311.json",
+        "plant": "Eria palmifolia 'Jenny'",
+        "exhibitor": "Andy's Orchids",
+        "award": "AM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162311.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162311.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162311.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162311.html",
+          "scrapedDate": "2025-10-15T03:38:59.231Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Eria",
+          "species": "palmifolia",
+          "clone": "Jenny",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162312",
+        "filename": "20162312.json",
+        "plant": "Paphiopedilum Terry Stone 'Amber'",
+        "exhibitor": "John Chant",
+        "award": "AM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162312.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162312.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162312.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162312.html",
+          "scrapedDate": "2025-10-15T03:38:59.233Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Paphiopedilum",
+          "species": "Terry Stone",
+          "clone": "Amber",
+          "cross": "Paphiopedilum Stone Lovely x Paphiopedilum Terry Jarvi",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162313",
+        "filename": "20162313.json",
+        "plant": "Dendrobium Roy Tokunaga 'Hawaiian Gift'",
+        "exhibitor": "H&R Nurseries",
+        "award": "AM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162313.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162313.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162313.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162313.html",
+          "scrapedDate": "2025-10-15T03:38:59.235Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dendrobium",
+          "species": "Roy Tokunaga",
+          "clone": "Hawaiian Gift",
+          "cross": "Dendrobium johnsoniae x Dendrobium atrovialaceum",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162314",
+        "filename": "20162314.json",
+        "plant": "Dendrobium Roy Tokunaga 'Hawaiian Gift'",
+        "exhibitor": "H&R Nurseries",
+        "award": "CCM 86",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162314.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162314.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162314.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162314.html",
+          "scrapedDate": "2025-10-15T03:38:59.237Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dendrobium",
+          "species": "Roy Tokunaga",
+          "clone": "Hawaiian Gift",
+          "cross": "Dendrobium johnsoniae x Dendrobium atrovialaceum",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162315",
+        "filename": "20162315.json",
+        "plant": "Dracula Raven 'Vamp'",
+        "exhibitor": "John Leathers",
+        "award": "FCC 91",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162315.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162315.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162315.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162315.html",
+          "scrapedDate": "2025-10-15T03:38:59.239Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dracula",
+          "species": "Raven",
+          "clone": "Vamp",
+          "cross": "Dracula vampira x Dracula roezlii",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162316",
+        "filename": "20162316.json",
+        "plant": "Dracula callithrix 'Kathy'",
+        "exhibitor": "Joe Parker",
+        "award": "CHM 85",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162316.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162316.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162316.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162316.html",
+          "scrapedDate": "2025-10-15T03:38:59.243Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dracula",
+          "species": "callithrix",
+          "clone": "Kathy",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162317",
+        "filename": "20162317.json",
+        "plant": "Dracula incognita 'Kathy'",
+        "exhibitor": "Joe Parker",
+        "award": "CBR N/A",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162317.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162317.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162317.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162317.html",
+          "scrapedDate": "2025-10-15T03:38:59.244Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dracula",
+          "species": "incognita",
+          "clone": "Kathy",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162318",
+        "filename": "20162318.json",
+        "plant": "Dendrobium papilio 'Vistamont'",
+        "exhibitor": "Cindy Hill",
+        "award": "CCM 83",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162318.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162318.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162318.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162318.html",
+          "scrapedDate": "2025-10-15T03:38:59.246Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Dendrobium",
+          "species": "papilio",
+          "clone": "Vistamont",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162319",
+        "filename": "20162319.json",
+        "plant": "Eria palmifolia 'Jenny'",
+        "exhibitor": "Andy's Orchids",
+        "award": "CCM 88",
+        "sourceUrl": "https://www.paccentraljc.org/20160225/20162319.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162319.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160225/20162319.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162319.html",
+          "scrapedDate": "2025-10-15T03:38:59.247Z",
+          "date": "February 25, 2016",
+          "location": "Pacific Orchid Exposition",
+          "genus": "Eria",
+          "species": "palmifolia",
+          "clone": "Jenny",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162320",
+        "filename": "20162320.json",
+        "plant": "Dendrobium trigonopus 'Yeah Yeah'",
+        "exhibitor": "Adam Anderson",
+        "award": "CCM 84",
+        "sourceUrl": "https://www.paccentraljc.org/20160402/20162320.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162320.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160402/20162320.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162320.html",
+          "scrapedDate": "2025-10-15T03:38:59.249Z",
+          "date": "April 2, 2016",
+          "location": "Sonoma County Orchid Society Show",
+          "genus": "Dendrobium",
+          "species": "trigonopus",
+          "clone": "Yeah Yeah",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162321",
+        "filename": "20162321.json",
+        "plant": "Paphiopedilum glaucophyllum 'Bailey'",
+        "exhibitor": "Susan Anderson",
+        "award": "HCC 78",
+        "sourceUrl": "https://www.paccentraljc.org/20160402/20162321.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162321.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160402/20162321.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162321.html",
+          "scrapedDate": "2025-10-15T03:38:59.250Z",
+          "date": "April 2, 2016",
+          "location": "Sonoma County Orchid Society Show",
+          "genus": "Paphiopedilum",
+          "species": "glaucophyllum",
+          "clone": "Bailey",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162322",
+        "filename": "20162322.json",
+        "plant": "Paphiopedilum rothschildianum 'Austin Creek'",
+        "exhibitor": "Dale Martin",
+        "award": "AM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20160402/20162322.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162322.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160402/20162322.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162322.html",
+          "scrapedDate": "2025-10-15T03:38:59.251Z",
+          "date": "April 2, 2016",
+          "location": "Sonoma County Orchid Society Show",
+          "genus": "Paphiopedilum",
+          "species": "rothschildianum",
+          "clone": "Austin Creek",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162323",
+        "filename": "20162323.json",
+        "plant": "Schoenorchis gemmata 'Stony Point'",
+        "exhibitor": "Marni Turkel",
+        "award": "CCM 88",
+        "sourceUrl": "https://www.paccentraljc.org/20160402/20162323.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162323.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160402/20162323.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162323.html",
+          "scrapedDate": "2025-10-15T03:38:59.254Z",
+          "date": "April 2, 2016",
+          "location": "Sonoma County Orchid Society Show",
+          "genus": "Schoenorchis",
+          "species": "gemmata",
+          "clone": "Stony Point",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162324",
+        "filename": "20162324.json",
+        "plant": "Cymbidium East Zenith 'Misty Green'",
+        "exhibitor": "Amy & Ken Jacobsen",
+        "award": "HCC 75",
+        "sourceUrl": "https://www.paccentraljc.org/20160405/20162324.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162324.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160405/20162324.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162324.html",
+          "scrapedDate": "2025-10-15T03:38:59.257Z",
+          "date": "April 5, 2016",
+          "location": "San Francisco",
+          "genus": "Cymbidium",
+          "species": "East Zenith",
+          "clone": "Misty Green",
+          "cross": "Cymbidium goeringii x Cymbidium Valley Zenith",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162325",
+        "filename": "20162325.json",
+        "plant": "Rhyncattleanthe Fordyce Fantasy 'Sweet Sixteen'",
+        "exhibitor": "Japheth Ko",
+        "award": "HCC 78",
+        "sourceUrl": "https://www.paccentraljc.org/20160405/20162325.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162325.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160405/20162325.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162325.html",
+          "scrapedDate": "2025-10-15T03:38:59.259Z",
+          "date": "April 5, 2016",
+          "location": "San Francisco",
+          "genus": "Rhyncattleanthe",
+          "species": "Fordyce Fantasy",
+          "clone": "Sweet Sixteen",
+          "cross": "Rhyncholaeliocattleya Horizon Flight x Guarianthe aurantiaca",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162326",
+        "filename": "20162326.json",
+        "plant": "Cattleya intermedia f. orlata 'Bentley'",
+        "exhibitor": "Amy & Ken Jacobsen",
+        "award": "HCC 78",
+        "sourceUrl": "https://www.paccentraljc.org/20160405/20162326.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162326.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160405/20162326.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162326.html",
+          "scrapedDate": "2025-10-15T03:38:59.260Z",
+          "date": "April 5, 2016",
+          "location": "San Francisco",
+          "genus": "Cattleya",
+          "species": "intermedia f. orlata",
+          "clone": "Bentley",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162328",
+        "filename": "20162328.json",
+        "plant": "Cymbidium faberi v. alba 'Green Jade'",
+        "exhibitor": "Amy & Ken Jacobsen",
+        "award": "HCC 78",
+        "sourceUrl": "https://www.paccentraljc.org/20160405/20162328.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162328.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160405/20162328.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162328.html",
+          "scrapedDate": "2025-10-15T03:38:59.261Z",
+          "date": "April 5, 2016",
+          "location": "San Francisco",
+          "genus": "Cymbidium",
+          "species": "faberi v. alba",
+          "clone": "Green Jade",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162329",
+        "filename": "20162329.json",
+        "plant": "Cymbidium Eastern Morning '772'",
+        "exhibitor": "Amy & Ken Jacobsen",
+        "award": "HCC 79",
+        "sourceUrl": "https://www.paccentraljc.org/20160405/20162329.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162329.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160405/20162329.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162329.html",
+          "scrapedDate": "2025-10-15T03:38:59.263Z",
+          "date": "April 5, 2016",
+          "location": "San Francisco",
+          "genus": "Cymbidium",
+          "species": "Eastern Morning",
+          "clone": "772",
+          "cross": "Cymbidium goeringii x Cymbidium lowianum",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162330",
+        "filename": "20162330.json",
+        "plant": "Cymbidium Sweet Devon 'Sweet'",
+        "exhibitor": "Carol Armendariz",
+        "award": "CCM 87",
+        "sourceUrl": "https://www.paccentraljc.org/20160503/20162330.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162330.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160503/20162330.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162330.html",
+          "scrapedDate": "2025-10-15T03:38:59.264Z",
+          "date": "May 3, 2016",
+          "location": "San Francisco",
+          "genus": "Cymbidium",
+          "species": "Sweet Devon",
+          "clone": "Sweet",
+          "cross": "Cymbidium suave x Cymbidium devonianum",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162331",
+        "filename": "20162331.json",
+        "plant": "Phalaenopsis Pylo's Bunny 'Macy'",
+        "exhibitor": "Cordelia Wong",
+        "award": "HCC 77",
+        "sourceUrl": "https://www.paccentraljc.org/20160503/20162331.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162331.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160503/20162331.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162331.html",
+          "scrapedDate": "2025-10-15T03:38:59.265Z",
+          "date": "May 3, 2016",
+          "location": "San Francisco",
+          "genus": "Phalaenopsis",
+          "species": "Pylo's Bunny",
+          "clone": "Macy",
+          "cross": "Phalaenopsis I-Hsin Salmon x Phalaenopsis Penang Girl",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162332",
+        "filename": "20162332.json",
+        "plant": "Paphiopedilum Druid Spring 'Celestial'",
+        "exhibitor": "Japheth Ko",
+        "award": "AM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20160607/20162332.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162332.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160607/20162332.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162332.html",
+          "scrapedDate": "2025-10-15T03:38:59.268Z",
+          "date": "June 7, 2016",
+          "location": "San Francisco",
+          "genus": "Paphiopedilum",
+          "species": "Druid Spring",
+          "clone": "Celestial",
+          "cross": "Paphiopedilum druyi x Paphiopedilum primulinum",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162333",
+        "filename": "20162333.json",
+        "plant": "Laelia anceps 'V'",
+        "exhibitor": "Bill Weaver",
+        "award": "CCM 83",
+        "sourceUrl": "https://www.paccentraljc.org/20160318/20162333.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162333.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160318/20162333.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162333.html",
+          "scrapedDate": "2025-10-15T03:38:59.270Z",
+          "date": "March 18, 2016",
+          "location": "Gold Coast Cymbidium Growers Show",
+          "genus": "Laelia",
+          "species": "anceps",
+          "clone": "V",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162334",
+        "filename": "20162334.json",
+        "plant": "Laelia Canariensis 'Golden Glow'",
+        "exhibitor": "Bill Weaver",
+        "award": "CCM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20160318/20162334.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162334.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160318/20162334.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162334.html",
+          "scrapedDate": "2025-10-15T03:38:59.271Z",
+          "date": "March 18, 2016",
+          "location": "Gold Coast Cymbidium Growers Show",
+          "genus": "Laelia",
+          "species": "Canariensis",
+          "clone": "Golden Glow",
+          "cross": "Laelia anceps x Cattleya harpophylla",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162335",
+        "filename": "20162335.json",
+        "plant": "Laeliocattleya Santa Barbara Sunset 'Showtime'",
+        "exhibitor": "Greg Corrales",
+        "award": "CCE 93",
+        "sourceUrl": "https://www.paccentraljc.org/20160318/20162335.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162335.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160318/20162335.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162335.html",
+          "scrapedDate": "2025-10-15T03:38:59.273Z",
+          "date": "March 18, 2016",
+          "location": "Gold Coast Cymbidium Growers Show",
+          "genus": "Laeliocattleya",
+          "species": "Santa Barbara Sunset",
+          "clone": "Showtime",
+          "cross": "Laelia anceps x Laelia Ancibarina",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162336",
+        "filename": "20162336.json",
+        "plant": "Paphiopedilum Misty Dell 'M'",
+        "exhibitor": "Chris Mende",
+        "award": "HCC 76",
+        "sourceUrl": "https://www.paccentraljc.org/20160705/20162336.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162336.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160705/20162336.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162336.html",
+          "scrapedDate": "2025-10-15T03:38:59.274Z",
+          "date": "July 5, 2016",
+          "location": "San Francisco",
+          "genus": "Paphiopedilum",
+          "species": "Misty Dell",
+          "clone": "M",
+          "cross": "Paphiopedilum Magic Lantern x Paphiopedilum delenatii",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162340",
+        "filename": "20162340.json",
+        "plant": "Dracula Raven 'Dark Hawk'",
+        "exhibitor": "Carol Klonowski",
+        "award": "HCC 76",
+        "sourceUrl": "https://www.paccentraljc.org/20160718/20162340.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162340.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160718/20162340.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162340.html",
+          "scrapedDate": "2025-10-15T03:38:59.276Z",
+          "date": "July 18, 2016",
+          "location": "Oakland",
+          "genus": "Dracula",
+          "species": "Raven",
+          "clone": "Dark Hawk",
+          "cross": "Dracula roezlii x Dracula vampira",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162342",
+        "filename": "20162342.json",
+        "plant": "Coelia bella 'Carol Z'",
+        "exhibitor": "Chaunie Langland",
+        "award": "HCC 76",
+        "sourceUrl": "https://www.paccentraljc.org/20161219/20162342.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162342.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20161219/20162342.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162342.html",
+          "scrapedDate": "2025-10-15T03:38:59.277Z",
+          "date": "December 19, 2016",
+          "location": "Oakland",
+          "genus": "Coelia",
+          "species": "bella",
+          "clone": "Carol Z",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162343",
+        "filename": "20162343.json",
+        "plant": "Lepanthes calodictyon 'Vistamont'",
+        "exhibitor": "Steve Beckendorf",
+        "award": "CCE 95",
+        "sourceUrl": "https://www.paccentraljc.org/20160620/20162343.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162343.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160620/20162343.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162343.html",
+          "scrapedDate": "2025-10-15T03:38:59.279Z",
+          "date": "June 20, 2016",
+          "location": "Oakland",
+          "genus": "Lepanthes",
+          "species": "calodictyon",
+          "clone": "Vistamont",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162350",
+        "filename": "20162350.json",
+        "plant": "Cymbidium Val Peck 'Fresh Mint'",
+        "exhibitor": "Ann Huynh",
+        "award": "HCC 78",
+        "sourceUrl": "https://www.paccentraljc.org/20160325/20162350.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162350.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160325/20162350.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162350.html",
+          "scrapedDate": "2025-10-15T03:38:59.281Z",
+          "date": "March 25, 2016",
+          "location": "Malihini Orchid Society Show",
+          "genus": "Cymbidium",
+          "species": "Val Peck",
+          "clone": "Fresh Mint",
+          "cross": "Cymbidium Len Southward x Cymbidium suave",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162351",
+        "filename": "20162351.json",
+        "plant": "Paphiopedilum Stone Crazy 'Tokyo'",
+        "exhibitor": "The Orchid Zone",
+        "award": "HCC 75",
+        "sourceUrl": "https://www.paccentraljc.org/20160325/20162351.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162351.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160325/20162351.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162351.html",
+          "scrapedDate": "2025-10-15T03:38:59.285Z",
+          "date": "March 25, 2016",
+          "location": "Malihini Orchid Society Show",
+          "genus": "Paphiopedilum",
+          "species": "Stone Crazy",
+          "clone": "Tokyo",
+          "cross": "Paphiopedilum Crazy Jolly 'Mesmerizing' x Paphiopedilum Stone Lovely 'Tidal Wave'",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162352",
+        "filename": "20162352.json",
+        "plant": "Mycaranthes pannea 'Kayla Langland'",
+        "exhibitor": "Chaunie Langland",
+        "award": "CCM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20160418/20162352.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162352.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160418/20162352.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162352.html",
+          "scrapedDate": "2025-10-15T03:38:59.286Z",
+          "date": "April 18, 2016",
+          "location": "Oakland",
+          "genus": "Mycaranthes",
+          "species": "pannea",
+          "clone": "Kayla Langland",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162353",
+        "filename": "20162353.json",
+        "plant": "Paphiopedilum tigrinum 'Hello Kitty'",
+        "exhibitor": "Cheryl Phillipson",
+        "award": "HCC 77",
+        "sourceUrl": "https://www.paccentraljc.org/20160418/20162353.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162353.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160418/20162353.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162353.html",
+          "scrapedDate": "2025-10-15T03:38:59.288Z",
+          "date": "April 18, 2016",
+          "location": "Oakland",
+          "genus": "Paphiopedilum",
+          "species": "tigrinum",
+          "clone": "Hello Kitty",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162354",
+        "filename": "20162354.json",
+        "plant": "Paphiopedilum primulinum 'Ark'",
+        "exhibitor": "Terry & Margaret Boomer",
+        "award": "AM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20160418/20162354.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162354.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160418/20162354.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162354.html",
+          "scrapedDate": "2025-10-15T03:38:59.291Z",
+          "date": "April 18, 2016",
+          "location": "Oakland",
+          "genus": "Paphiopedilum",
+          "species": "primulinum",
+          "clone": "Ark",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162355",
+        "filename": "20162355.json",
+        "plant": "Phalaenopsis Phoenix Canary 'Yellow Beauty'",
+        "exhibitor": "Eric Goo/Phoenix Orchids",
+        "award": "HCC 78",
+        "sourceUrl": "https://www.paccentraljc.org/20160516/20162355.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162355.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160516/20162355.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162355.html",
+          "scrapedDate": "2025-10-15T03:38:59.292Z",
+          "date": "May 16, 2016",
+          "location": "Oakland",
+          "genus": "Phalaenopsis",
+          "species": "Phoenix Canary",
+          "clone": "Yellow Beauty",
+          "cross": "Phaleanopsis Yungho Gelb Canary 'Chin Yo' x Phalaenopsis Penang Girl 'Taipei'",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162356",
+        "filename": "20162356.json",
+        "plant": "Phalaenopsis Phoenix Gem 'Desert Red'",
+        "exhibitor": "Eric Goo/Phoenix Orchids",
+        "award": "HCC 75",
+        "sourceUrl": "https://www.paccentraljc.org/20160516/20162356.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162356.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160516/20162356.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162356.html",
+          "scrapedDate": "2025-10-15T03:38:59.294Z",
+          "date": "May 16, 2016",
+          "location": "Oakland",
+          "genus": "Phalaenopsis",
+          "species": "Phoenix Gem",
+          "clone": "Desert Red",
+          "cross": "Phalaenopsis Dotty Woodson x Phalaenopsis Penang Girl",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162357",
+        "filename": "20162357.json",
+        "plant": "Phalaenopsis Purple Majesty 'Shadow'",
+        "exhibitor": "Eric Goo/Phoenix Orchids",
+        "award": "AM 83",
+        "sourceUrl": "https://www.paccentraljc.org/20160516/20162357.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162357.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160516/20162357.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162357.html",
+          "scrapedDate": "2025-10-15T03:38:59.295Z",
+          "date": "May 16, 2016",
+          "location": "Oakland",
+          "genus": "Phalaenopsis",
+          "species": "Purple Majesty",
+          "clone": "Shadow",
+          "cross": "Phalaenopsis Andalusia x Phalaenopsis Malibu Imp",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162358",
+        "filename": "20162358.json",
+        "plant": "Phalaenopsis Phoenix Fantasy 'Shadow'",
+        "exhibitor": "Eric Goo/Phoenix Orchids",
+        "award": "HCC 76",
+        "sourceUrl": "https://www.paccentraljc.org/20160516/20162358.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162358.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160516/20162358.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162358.html",
+          "scrapedDate": "2025-10-15T03:38:59.296Z",
+          "date": "May 16, 2016",
+          "location": "Oakland",
+          "genus": "Phalaenopsis",
+          "species": "Phoenix Fantasy",
+          "clone": "Shadow",
+          "cross": "Phalaenopsis Brother Dendi x Phalaenopsis Brother Sara Gold",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162359",
+        "filename": "20162359.json",
+        "plant": "Phalaenopsis Ching Her Champion 'Phoenix Sunspots'",
+        "exhibitor": "Eric Goo/Phoenix Orchids",
+        "award": "HCC 75",
+        "sourceUrl": "https://www.paccentraljc.org/20160516/20162359.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162359.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160516/20162359.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162359.html",
+          "scrapedDate": "2025-10-15T03:38:59.298Z",
+          "date": "May 16, 2016",
+          "location": "Oakland",
+          "genus": "Phalaenopsis",
+          "species": "Ching Her Champion",
+          "clone": "Phoenix Sunspots",
+          "cross": "Phalaenopsis Salu Peoker x Phalaenopsis Champion Plus",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162360",
+        "filename": "20162360.json",
+        "plant": "Phalaenopsis Phoenix Cardinal 'Ruby'",
+        "exhibitor": "Eric Goo/Phoenix Orchids",
+        "award": "AM 80",
+        "sourceUrl": "https://www.paccentraljc.org/20160516/20162360.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162360.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160516/20162360.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162360.html",
+          "scrapedDate": "2025-10-15T03:38:59.299Z",
+          "date": "May 16, 2016",
+          "location": "Oakland",
+          "genus": "Phalaenopsis",
+          "species": "Phoenix Cardinal",
+          "clone": "Ruby",
+          "cross": "Phaleanopsis An Tai Spot x Phalaenopsis Brother Purple",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162361",
+        "filename": "20162361.json",
+        "plant": "Phalaenopsis Phoenix Sunflower 'Shadow'",
+        "exhibitor": "Eric Goo/Phoenix Orchids",
+        "award": "HCC 79",
+        "sourceUrl": "https://www.paccentraljc.org/20160516/20162361.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162361.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160516/20162361.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162361.html",
+          "scrapedDate": "2025-10-15T03:38:59.300Z",
+          "date": "May 16, 2016",
+          "location": "Oakland",
+          "genus": "Phalaenopsis",
+          "species": "Phoenix Sunflower",
+          "clone": "Shadow",
+          "cross": "Phaleanopsis I-Hsin Sunflower  x Phalaenopsis Hawaii Sun",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162362",
+        "filename": "20162362.json",
+        "plant": "Lycaste Nathalie Cely 'Samantha Weeks'",
+        "exhibitor": "Chaunie Langland",
+        "award": "AM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20160418/20162362.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162362.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160418/20162362.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162362.html",
+          "scrapedDate": "2025-10-15T03:38:59.301Z",
+          "date": "April 18, 2016",
+          "location": "Oakland",
+          "genus": "Lycaste",
+          "species": "Nathalie Cely",
+          "clone": "Samantha Weeks",
+          "cross": "Lycaste Sunray x Lycaste guatamalensis",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162363",
+        "filename": "20162363.json",
+        "plant": "Phragmipedium Don Wimber 'Elizabeth Langland'",
+        "exhibitor": "Chaunie Langland",
+        "award": "AM 81",
+        "sourceUrl": "https://www.paccentraljc.org/20160418/20162363.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162363.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160418/20162363.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162363.html",
+          "scrapedDate": "2025-10-15T03:38:59.303Z",
+          "date": "April 18, 2016",
+          "location": "Oakland",
+          "genus": "Phragmipedium",
+          "species": "Don Wimber",
+          "clone": "Elizabeth Langland",
+          "cross": "Phragmipedium Eric Young x Phragmipedium besseae",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162364",
+        "filename": "20162364.json",
+        "plant": "Vandachostylis H. P. Jesup 'Blue Bird'",
+        "exhibitor": "Cheryl Phillipson",
+        "award": "AM 82",
+        "sourceUrl": "https://www.paccentraljc.org/20160418/20162364.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162364.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160418/20162364.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162364.html",
+          "scrapedDate": "2025-10-15T03:38:59.304Z",
+          "date": "April 18, 2016",
+          "location": "Oakland",
+          "genus": "Vandachostylis",
+          "species": "H. P. Jesup",
+          "clone": "Blue Bird",
+          "cross": "Vanda Ben Berliner x Vandachostylis Pine Rivers",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162365",
+        "filename": "20162365.json",
+        "plant": "Masdevallia lamprotyria 'Vistamont'",
+        "exhibitor": "Steve Beckendorf",
+        "award": "CCM 84",
+        "sourceUrl": "https://www.paccentraljc.org/20160418/20162365.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162365.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160418/20162365.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162365.html",
+          "scrapedDate": "2025-10-15T03:38:59.305Z",
+          "date": "April 18, 2016",
+          "location": "Oakland",
+          "genus": "Masdevallia",
+          "species": "lamprotyria",
+          "clone": "Vistamont",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162366",
+        "filename": "20162366.json",
+        "plant": "Cattleya purpurata 'Rose'",
+        "exhibitor": "Miriam Rose",
+        "award": "CCM 81",
+        "sourceUrl": "https://www.paccentraljc.org/20160815/20162366.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162366.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160815/20162366.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162366.html",
+          "scrapedDate": "2025-10-15T03:38:59.307Z",
+          "date": "August 15, 2016",
+          "location": "Oakland",
+          "genus": "Cattleya",
+          "species": "purpurata",
+          "clone": "Rose",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162369",
+        "filename": "20162369.json",
+        "plant": "Masdevallia pumila 'Gilbert'",
+        "exhibitor": "Carol Zoltowski",
+        "award": "CCM 84",
+        "sourceUrl": "https://www.paccentraljc.org/20160906/20162369.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162369.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160906/20162369.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162369.html",
+          "scrapedDate": "2025-10-15T03:38:59.308Z",
+          "date": "Sep 6, 2016",
+          "location": "San Francisco",
+          "genus": "Masdevallia",
+          "species": "pumila",
+          "clone": "Gilbert",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      },
+      {
+        "awardNum": "20162370",
+        "filename": "20162370.json",
+        "plant": "Stanhopea wardii 'Tommy'",
+        "exhibitor": "Sandra Nesting-Hayes",
+        "award": "HCC 75",
+        "sourceUrl": "https://www.paccentraljc.org/20160906/20162370.html",
+        "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162370.html",
+        "severity": "important",
+        "issues": [
+          "Missing important: photographer"
+        ],
+        "missingFields": [
+          "photographer"
+        ],
+        "reviewInfo": {
+          "sourceUrl": "https://www.paccentraljc.org/20160906/20162370.html",
+          "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162370.html",
+          "scrapedDate": "2025-10-15T03:38:59.309Z",
+          "date": "Sep 6, 2016",
+          "location": "San Francisco",
+          "genus": "Stanhopea",
+          "species": "wardii",
+          "clone": "Tommy",
+          "cross": "species",
+          "photographer": "N/A"
+        }
+      }
+    ],
+    "measurements": [],
+    "descriptionOnly": []
+  }
+}

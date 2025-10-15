@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194800",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Sonoma County Orchid Society Show",
+  "date": "March 30, 2019",
+  "genus": "Chysis",
+  "species": "limminghei",
+  "clone": "Bonheur",
+  "cross": "species",
+  "exhibitor": "Lynne Murrell",
+  "photographer": "N/A",
+  "photo": "images/20194800.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 12,
+    "numBuds": 15,
+    "numInflorescences": 4,
+    "description": "Twelve flowers and 15 buds on four inflorescences;\n\tsepals and petals light cream, overlaid dark orange-brown distal half;\n\t\n\tlip yellow striped red-orange, bright yellow keels;\n\tcolumn cream;\n\t\n\t\n\n\tsubstance hard; texture glossy.",
+    "NS": 5.2,
+    "NSV": 4,
+    "DSW": 1.5,
+    "DSL": 2.4,
+    "PETW": 1.2,
+    "PETL": 1.8,
+    "LSW": 1.4,
+    "LSL": 1.9,
+    "LIPW": 1.2,
+    "LIPL": 2
+  },
+  "scrapedDate": "2025-10-15T02:42:38.841Z",
+  "sourceUrl": "",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194800.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.841Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

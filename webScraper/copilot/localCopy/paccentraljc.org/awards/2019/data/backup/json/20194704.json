@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194704",
+  "award": "AM",
+  "awardpoints": 85,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 25, 2019",
+  "genus": "Cymbidium",
+  "species": "Eastern Venus",
+  "clone": "Winston",
+  "cross": "Cymbidium Sleeping Beauty x Cymbidium goeringii",
+  "exhibitor": "Jung Ra",
+  "photographer": "N/A",
+  "photo": "images/20194704.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Two nicely displayed flowers on one inflorescence;\n\tsepals light green;\n\tpetals saturated light green with faint white edge;\n\tlip white, callus yellow;\n\tcolumn light green, anther cap white;\n\n\t\n\t\n\t \n\tsubstance stiff; texture matte.",
+    "NS": 7.4,
+    "NSV": 6.5,
+    "DSW": 2,
+    "DSL": 4.5,
+    "PETW": 1.5,
+    "PETL": 4,
+    "LSW": 2,
+    "LSL": 4.4,
+    "LIPW": 1.6,
+    "LIPL": 2.5
+  },
+  "scrapedDate": "2025-10-15T02:42:38.791Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190125/20194704.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194704.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.794Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152379",
+  "award": "CCM",
+  "awardpoints": 82,
+  "location": "Peninsula Orchid Society Meeting",
+  "date": "August 28, 2015",
+  "genus": "Epidendrum",
+  "species": "Casuka",
+  "clone": "Ohasuka",
+  "cross": "Epi pfavii x Epi raniferum",
+  "exhibitor": "Masaki Asuka",
+  "photographer": "N/A",
+  "photo": "images/20152379.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 235,
+    "numBuds": 6,
+    "numInflorescences": 4,
+    "description": "Two hundred thirty-five flowers and six buds on four double-branched inflorescences plus what are apparently older\n\tun-branched inflorescenses with fewer flowers and some buds, on 96 cm high plant (including inflorescences) grown in 20 cm pot; \n\tsepals and petals yellow-green almost completely overlaid red-purple, leaving base color exposed as narrow picotee edge and variously as small spots;\n\tlip white, three-lobed with lighter red-purple markings;\n    substance firm; texture matte.",
+    "NS": 4.3,
+    "NSV": 4.5,
+    "DSW": 0.5,
+    "DSL": 2.1,
+    "PETW": 0.5,
+    "PETL": 2.1,
+    "LSW": 0.8,
+    "LSL": 1.9,
+    "LIPW": 1.5,
+    "LIPL": 2.7
+  },
+  "scrapedDate": "2025-10-15T03:42:26.724Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150828/20152379.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152379.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.725Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -2,343 +2,297 @@ const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 
-const jsonDirectory = path.join(__dirname, '../../paccentraljc.org/awards/2017/data/json');
-const htmlDirectory = path.join(__dirname, '../../paccentraljc.org/awards/2017/html');
-const categorizedReportPath = path.join(__dirname, '../../paccentraljc.org/awards/2017/data/2017-categorized-issues.json');
+const jsonDirectory = path.resolve(path.join(__dirname, '../../paccentraljc.org/awards/2017/data/json'));
+const htmlDirectory = path.resolve(path.join(__dirname, '../../paccentraljc.org/awards/2017/html'));
+const logicPath = path.resolve(path.join(__dirname, '../logicReference/missingInfoLogic.json'));
 
-function extractAwardDataFromHtml(awardNum) {
-    const htmlPath = path.join(htmlDirectory, `${awardNum}.html`);
+// Load the logic reference for edge cases
+const missingInfoLogic = JSON.parse(fs.readFileSync(logicPath, 'utf-8'));
+
+/**
+ * Convert date string to YYMMDD format for source URL
+ * @param {string} dateStr - Date string like "February 15, 2017"
+ * @returns {string} - YYYYMMDD format like "20170215"
+ */
+function formatDateToYYYYMMDD(dateStr) {
+    try {
+        const date = new Date(dateStr);
+        const year = date.getFullYear().toString();
+        const month = (date.getMonth() + 1).toString().padStart(2, '0');
+        const day = date.getDate().toString().padStart(2, '0');
+        return `${year}${month}${day}`;
+    } catch (error) {
+        console.log(`⚠️  Date formatting error: ${dateStr} - ${error.message}`);
+        return '250000'; // Default fallback
+    }
+}
+
+/**
+ * Apply missing info logic rules based on award type
+ */
+function applyMissingInfoLogic(extractedData) {
+    const award = extractedData.award;
     
-    if (!fs.existsSync(htmlPath)) {
-        console.log(`  ❌ HTML file not found: ${awardNum}.html`);
-        return null;
+    // Check if this is a display/special award (SC, ST, AQ, JC)
+    const isDisplayAward = missingInfoLogic.awardCategories.display_awards.includes(award);
+    const isSpecialAward = ['AQ', 'JC'].includes(award);
+    const isNoPointAward = missingInfoLogic.awardCategories.no_point_value_awards.includes(award);
+    
+    // console.log(`   🧠 Applying logic rules for award type: ${award}`);
+    
+    // Apply Display Award Logic (SC, ST, AQ, JC)
+    if (isDisplayAward || isSpecialAward) {
+        // console.log(`   📋 Display/Special award logic for ${award}`);
+        
+        // Set isDisplay flag per DisplayAwardFlag logic
+        extractedData.isDisplay = true;
+        // console.log(`   🏆 Set isDisplay to true for ${award} award`);
+        
+        // Set plant fields per logic rules for display awards
+        if (!extractedData.genus || extractedData.genus === '') {
+            extractedData.genus = 'Display';
+            // console.log(`   🌸 Set genus to 'Display' for ${award} award`);
+        }
+        if (!extractedData.species || extractedData.species === '') {
+            extractedData.species = 'Award';
+            // console.log(`   🌸 Set species to 'Award' for ${award} award`);
+        }
+        if (!extractedData.clone || extractedData.clone === '') {
+            extractedData.clone = 'N/A';
+        }
+        
+        // Always set cross to N/A for display/special awards per logic rules
+        extractedData.cross = 'N/A';
+        // console.log(`   🧬 Set cross to 'N/A' for ${award} award`);
+        
+        // Set measurement type and fields to N/A per logic rules
+        if (extractedData.measurements) {
+            if (!extractedData.measurements.type || extractedData.measurements.type === '') {
+                extractedData.measurements.type = award === 'AQ' ? 'Award Qualifying' : 'Display';
+                // console.log(`   📏 Set measurement type to '${extractedData.measurements.type}'`);
+            }
+            
+            // Set all measurement fields to N/A per logic rules
+            const measurementFields = ['NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LIPW', 'LSW', 'PCHW', 'SYNSL', 'SYNSW'];
+            measurementFields.forEach(field => {
+                if (!extractedData.measurements[field] || extractedData.measurements[field] === 0) {
+                    extractedData.measurements[field] = 'N/A';
+                }
+            });
+            
+            // Set flower counts to N/A for display awards
+            if (extractedData.measurements.numFlowers === 0) extractedData.measurements.numFlowers = 'N/A';
+            if (extractedData.measurements.numBuds === 0) extractedData.measurements.numBuds = 'N/A';
+            if (extractedData.measurements.numInflorescences === 0) extractedData.measurements.numInflorescences = 'N/A';
+            
+            // console.log(`   📏 Set measurement fields to 'N/A' for ${award} award`);
+        }
+    }
+    // Note: isDisplay is only set to true for display awards, omitted for plant awards
+    
+    // Apply No Point Award Logic  
+    if (isNoPointAward) {
+        // console.log(`   🔢 No-point award logic for ${award}`);
+        
+        if (extractedData.awardpoints === '' || extractedData.awardpoints === null || extractedData.awardpoints === 0) {
+            extractedData.awardpoints = 'N/A';
+            // console.log(`   🎯 Set award points to 'N/A' for ${award} award`);
+        }
+        
+        // AQ awards get special treatment per logic rules
+        if (award === 'AQ' && extractedData.measurements) {
+            if (!extractedData.measurements.description || extractedData.measurements.description === '') {
+                extractedData.measurements.description = 'Plant meets AQ standards';
+                // console.log(`   📝 Set AQ description: 'Plant meets AQ standards'`);
+            }
+        }
     }
     
+    // Enhanced photographer detection with fallback strategies
+    if (!extractedData.photographer || extractedData.photographer === '' || extractedData.photographer === 'N/A') {
+        // Keep as N/A
+    }
+    
+    // Set cross to N/A if empty for all awards (not just display)
+    if (!extractedData.cross || extractedData.cross === '') {
+        extractedData.cross = 'N/A';
+    }
+    
+    // Apply specific award fixes from 2017logic.txt FIRST (before general logic)
+    extractedData = applySpecific2017Fixes(extractedData);
+    
+    // Re-check award categories after specific fixes
+    const updatedAward = extractedData.award;
+    const updatedIsDisplayAward = missingInfoLogic.awardCategories.display_awards.includes(updatedAward);
+    const updatedIsSpecialAward = ['AQ', 'JC'].includes(updatedAward);
+    const updatedIsNoPointAward = missingInfoLogic.awardCategories.no_point_value_awards.includes(updatedAward);
+    
+    // Apply updated display award logic if the award was changed by specific fixes
+    if (updatedIsDisplayAward && !extractedData.isDisplay) {
+        extractedData.isDisplay = true;
+        
+        // Set measurement fields to N/A for display awards
+        if (extractedData.measurements) {
+            const measurementFields = ['NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LIPW', 'LSW', 'PCHW', 'SYNSL', 'SYNSW'];
+            measurementFields.forEach(field => {
+                if (!extractedData.measurements[field] || extractedData.measurements[field] === 0 || extractedData.measurements[field] === '') {
+                    extractedData.measurements[field] = 'N/A';
+                }
+            });
+        }
+    }
+    
+    // Add metadata about logic application
+    extractedData.logicApplied = {
+        timestamp: new Date().toISOString(),
+        rules: 'logicReference/missingInfoLogic.json',
+        awardCategory: updatedIsDisplayAward ? 'display' : (updatedIsSpecialAward ? 'special' : (updatedIsNoPointAward ? 'no-point' : 'point-based'))
+    };
+    
+    return extractedData;
+}
+
+/**
+ * Apply specific 2017 award fixes based on 2017logic.txt and orchidNameDecisionTree.json
+ * 
+ * - Display awards: Set isDisplay=true, species fields to N/A if not specified
+ * 
+ * @param {Object} extractedData - The extracted award data
+ * @returns {Object} - Modified award data with specific fixes
+ */
+function applySpecific2017Fixes(extractedData) {
+    const awardNum = extractedData.awardNum;
+    
+    // Apply display award logic for all display awards per 2017logic.txt
+    // "Display awards (Show Trophy, ST, etc.) Put N/A for any species not specified. Any display awards should their value isDisplay set to true"
+    const displayAwards = ['ST', 'SC', 'EEC', 'SHOW TROPHY', 'SILVER CERTIFICATE'];
+    const isDisplayAward = displayAwards.includes(extractedData.award) || 
+                          extractedData.award.includes('TROPHY') || 
+                          extractedData.award.includes('CERTIFICATE') ||
+                          awardNum.includes('-display');
+                          
+    if (isDisplayAward) {
+        extractedData.isDisplay = true;
+        
+        // Set plant fields per 2017logic.txt: "Put N/A for any species not specified"
+        if (!extractedData.genus || extractedData.genus === '' || extractedData.genus === 'Display') {
+            extractedData.genus = 'Display';
+        }
+        if (!extractedData.species || extractedData.species === '' || extractedData.species === 'Display') {
+            extractedData.species = 'Award';
+        }
+        if (!extractedData.clone || extractedData.clone === '') {
+            extractedData.clone = 'N/A';
+        }
+        // Always set cross to N/A for display awards per logic
+        extractedData.cross = 'N/A';
+    }
+    
+    return extractedData;
+}
+
+/**
+ * Extract date and location from HTML file for specific awards
+ * @param {string} awardNum - The award number
+ * @returns {Object} - Object with date and location, or null if not found
+ */
+function extractDateLocationFromHtml(awardNum) {
     try {
+        const htmlPath = path.join(htmlDirectory, `${awardNum}.html`);
+        
+        if (!fs.existsSync(htmlPath)) {
+            return null;
+        }
+
         const htmlContent = fs.readFileSync(htmlPath, 'utf8');
         const $ = cheerio.load(htmlContent);
         
-        let award = null;
-        let awardpoints = null;
+        // Look for the date/location in the first table cell with FONT SIZE="+1"
+        const mainFont = $('table').first().find('font[size="+1"]').first();
         
-        // Look for award patterns in the HTML content
-        const bodyText = $('body').text();
-        
-        // Look for award type in the structured content first
-        $('td, p, div, center').each((i, elem) => {
-            const text = $(elem).text().trim();
-            
-            // Look for award patterns after date and before exhibitor
-            const lines = text.split(/\n|<BR|<br/i);
-            
-            for (let j = 0; j < lines.length; j++) {
-                const line = lines[j].trim();
-                
-                // Check if this line contains an award type
-                const awardMatch = line.match(/^\s*(AM|HCC|CCE|CCM|AOS|FCC|PC|JC|CBR|CHM)\s*$/i);
-                if (awardMatch && !award) {
-                    award = awardMatch[1].toUpperCase();
-                    
-                    // For awards that don't have points, set to "N/A"
-                    if (['JC', 'CBR', 'CHM'].includes(award)) {
-                        awardpoints = 'N/A';
-                    }
-                    break;
-                }
-                
-                // Also check for award with points pattern
-                const awardWithPointsMatch = line.match(/(AM|HCC|CCE|CCM|AOS|FCC|PC)\s*[-:]?\s*(\d{1,3})/i);
-                if (awardWithPointsMatch && !award) {
-                    award = awardWithPointsMatch[1].toUpperCase();
-                    awardpoints = parseInt(awardWithPointsMatch[2]);
-                    break;
-                }
-            }
-            
-            if (award && (awardpoints || awardpoints === 'N/A')) {
-                return false; // Break out of each loop
-            }
-        });
-        
-        // If not found in structured content, try broader patterns
-        if (!award) {
-            // Look for common award patterns in the full text
-            const awardPatterns = [
-                /\b(AM|HCC|CCE|CCM|AOS|FCC|PC)\s+(\d{1,3})\b/gi,
-                /Award:\s*(AM|HCC|CCE|CCM|AOS|FCC|PC|JC|CBR|CHM)\s*(\d{1,3})?/gi,
-                /(AM|HCC|CCE|CCM|AOS|FCC|PC)\s*[-:]?\s*(\d{1,3})\s*pts?/gi,
-                /\b(JC|CBR|CHM)\b/gi  // Non-point awards
-            ];
-            
-            for (const pattern of awardPatterns) {
-                const matches = [...bodyText.matchAll(pattern)];
-                for (const match of matches) {
-                    if (match[1] && !award) {
-                        award = match[1].toUpperCase();
-                        
-                        if (match[2] && !isNaN(parseInt(match[2]))) {
-                            awardpoints = parseInt(match[2]);
-                        } else if (['JC', 'CBR', 'CHM'].includes(award)) {
-                            awardpoints = 'N/A';
-                        }
-                        break;
-                    }
-                }
-                if (award && (awardpoints || awardpoints === 'N/A')) break;
-            }
-        }
-        
-        return { award, awardpoints };
-        
-    } catch (error) {
-        console.log(`  ❌ Error reading HTML for ${awardNum}:`, error.message);
-        return null;
-    }
-}
+        if (mainFont.length > 0) {
+            const htmlText = mainFont.html();
+            const lines = htmlText
+                .split(/<br[^>]*>/i)
+                .map(line => cheerio.load(line).text().trim())
+                .filter(line => line);
 
-function updateJsonFile(awardNum, updates) {
-    const jsonPath = path.join(jsonDirectory, `${awardNum}.json`);
-    
-    try {
-        const content = fs.readFileSync(jsonPath, 'utf8');
-        const data = JSON.parse(content);
-        
-        let hasChanges = false;
-        const changes = [];
-        
-        // Apply updates
-        for (const [field, value] of Object.entries(updates)) {
-            if (value !== null && (data[field] === null || data[field] === undefined || data[field] === '')) {
-                changes.push(`${field}: ${data[field]} → "${value}"`);
-                data[field] = value;
-                hasChanges = true;
-            }
-        }
-        
-        if (hasChanges) {
-            // Add correction metadata
-            if (!data.corrections) {
-                data.corrections = [];
-            }
-            data.corrections.push({
-                timestamp: new Date().toISOString(),
-                type: 'enhanced_html_parsing_2017',
-                fields: Object.keys(updates),
-                source: `HTML file ${awardNum}.html`,
-                note: 'Enhanced parsing for non-point awards (JC, CBR, CHM) set to N/A'
-            });
-            
-            fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2));
-            return changes;
-        }
-        
-        return null;
-        
-    } catch (error) {
-        console.error(`  ❌ Error updating ${awardNum}.json:`, error);
-        return null;
-    }
-}
-
-function fix2017RecoverableIssuesEnhanced() {
-    console.log('Starting enhanced fix for 2017 recoverable issues from HTML sources...');
-    console.log('Note: JC, CBR, CHM awards will have points set to "N/A"');
-    console.log('');
-    
-    // Read the categorized report
-    let categorizedReport;
-    try {
-        const reportContent = fs.readFileSync(categorizedReportPath, 'utf8');
-        categorizedReport = JSON.parse(reportContent);
-    } catch (error) {
-        console.error('Error reading categorized report:', error);
-        return;
-    }
-    
-    const recoverableFiles = categorizedReport.categories.recoverableFromHtml || [];
-    console.log(`Found ${recoverableFiles.length} recoverable files to process`);
-    console.log('');
-    
-    const fixResults = {
-        processed: 0,
-        successful: 0,
-        failed: 0,
-        fixes: [],
-        errors: []
-    };
-    
-    for (const fileInfo of recoverableFiles) {
-        const awardNum = fileInfo.awardNum;
-        console.log(`Processing ${awardNum}.json (${fileInfo.plantName})...`);
-        
-        fixResults.processed++;
-        
-        // Extract award data from HTML
-        const extractedData = extractAwardDataFromHtml(awardNum);
-        
-        if (extractedData && (extractedData.award || extractedData.awardpoints)) {
-            const updates = {};
-            if (extractedData.award) updates.award = extractedData.award;
-            if (extractedData.awardpoints !== null) updates.awardpoints = extractedData.awardpoints;
-            
-            const changes = updateJsonFile(awardNum, updates);
-            
-            if (changes) {
-                console.log(`  ✅ Fixed: ${changes.join(', ')}`);
-                fixResults.successful++;
-                fixResults.fixes.push({
-                    awardNum,
-                    plantName: fileInfo.plantName,
-                    exhibitor: fileInfo.exhibitor,
-                    changes: changes,
-                    awardType: extractedData.award
-                });
-            } else {
-                console.log(`  ⚠️  No changes made (already populated)`);
-            }
-        } else {
-            console.log(`  ⚠️  No fixable data found in HTML`);
-            fixResults.errors.push({
-                awardNum,
-                plantName: fileInfo.plantName,
-                exhibitor: fileInfo.exhibitor,
-                reason: 'No award data found in HTML'
-            });
-        }
-        
-        console.log('');
-    }
-    
-    // Summary
-    console.log('='.repeat(70));
-    console.log('2017 ENHANCED RECOVERABLE ISSUES FIX SUMMARY');
-    console.log('='.repeat(70));
-    console.log(`Files processed: ${fixResults.processed}`);
-    console.log(`Successfully fixed: ${fixResults.successful}`);
-    console.log(`Unable to fix: ${fixResults.errors.length}`);
-    console.log('');
-    
-    if (fixResults.fixes.length > 0) {
-        console.log('SUCCESSFULLY FIXED:');
-        fixResults.fixes.forEach((fix, index) => {
-            console.log(`${index + 1}. ${fix.awardNum}.json - ${fix.plantName}`);
-            console.log(`   Exhibitor: ${fix.exhibitor}`);
-            console.log(`   Changes: ${fix.changes.join(', ')}`);
-            console.log(`   Award Type: ${fix.awardType}`);
-            console.log('');
-        });
-    }
-    
-    if (fixResults.errors.length > 0) {
-        console.log('UNABLE TO FIX:');
-        fixResults.errors.forEach((error, index) => {
-            console.log(`${index + 1}. ${error.awardNum}.json - ${error.plantName}`);
-            console.log(`   Exhibitor: ${error.exhibitor}`);
-            console.log(`   Reason: ${error.reason}`);
-            console.log('');
-        });
-    }
-    
-    console.log('='.repeat(70));
-    
-    return fixResults;
-}
-
-// Also fix measurement-only issues that can be extracted
-function fix2017MeasurementOnlyIssues() {
-    console.log('Checking 2017 measurement-only issues for possible fixes...');
-    
-    let categorizedReport;
-    try {
-        const reportContent = fs.readFileSync(categorizedReportPath, 'utf8');
-        categorizedReport = JSON.parse(reportContent);
-    } catch (error) {
-        console.error('Error reading categorized report:', error);
-        return;
-    }
-    
-    const measurementFiles = categorizedReport.categories.measurementOnlyIssues || [];
-    console.log(`Found ${measurementFiles.length} measurement-only files to check`);
-    
-    for (const fileInfo of measurementFiles) {
-        const awardNum = fileInfo.awardNum;
-        console.log(`\nChecking ${awardNum}.json for measurement data...`);
-        
-        const htmlPath = path.join(htmlDirectory, `${awardNum}.html`);
-        
-        if (fs.existsSync(htmlPath)) {
-            try {
-                const htmlContent = fs.readFileSync(htmlPath, 'utf8');
-                const $ = cheerio.load(htmlContent);
+            // The first line should contain date and location
+            if (lines.length > 0) {
+                const firstLine = lines[0];
                 
-                // Check if HTML has the missing measurements
-                const missingFields = fileInfo.nullFields;
-                console.log(`  Missing: ${missingFields.join(', ')}`);
+                // Parse different date/location formats
+                // Format 1: "October 4, 2017 San Francisco Monthly"
+                // Format 2: "October 15 Filoli Historic House Monthly"
                 
-                // Look for measurement data in tables
-                let foundMeasurements = {};
-                
-                $('table td').each((i, elem) => {
-                    const text = $(elem).text().trim();
-                    
-                    // Check for measurement field names
-                    if (text === 'PETL' || text === 'PETW' || text === 'LIPL' || text === 'LIPW' || 
-                        text === 'NS' || text === 'NSV' || text === 'DSL' || text === 'DSW' ||
-                        text === 'LSL' || text === 'LSW') {
-                        // Look for the value in the next cell or adjacent cells
-                        const nextCell = $(elem).next('td');
-                        if (nextCell.length > 0) {
-                            const value = nextCell.text().trim();
-                            const numValue = parseFloat(value);
-                            if (!isNaN(numValue)) {
-                                foundMeasurements[text] = numValue;
-                            }
-                        }
-                    }
-                });
-                
-                if (Object.keys(foundMeasurements).length > 0) {
-                    console.log(`  ✅ Found measurements in HTML: ${Object.entries(foundMeasurements).map(([k,v]) => `${k}: ${v}`).join(', ')}`);
-                    
-                    // Update the JSON file
-                    const jsonPath = path.join(jsonDirectory, `${awardNum}.json`);
-                    const content = fs.readFileSync(jsonPath, 'utf8');
-                    const data = JSON.parse(content);
-                    
-                    let hasChanges = false;
-                    for (const [field, value] of Object.entries(foundMeasurements)) {
-                        if (data.measurements && (data.measurements[field] === null || data.measurements[field] === undefined)) {
-                            data.measurements[field] = value;
-                            hasChanges = true;
-                        }
-                    }
-                    
-                    if (hasChanges) {
-                        if (!data.corrections) data.corrections = [];
-                        data.corrections.push({
-                            timestamp: new Date().toISOString(),
-                            type: 'measurement_extraction_2017',
-                            fields: Object.keys(foundMeasurements),
-                            source: `HTML file ${awardNum}.html`
-                        });
-                        
-                        fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2));
-                        console.log(`  ✅ Updated JSON with measurements`);
-                    }
+                if (firstLine.includes(' - ')) {
+                    // Standard format with dash separator
+                    const parts = firstLine.split(' - ');
+                    return {
+                        date: parts[0].trim(),
+                        location: parts.slice(1).join(' - ').trim()
+                    };
                 } else {
-                    console.log(`  ⚠️  No measurement data found in HTML`);
+                    // Try to separate date from location
+                    // Look for year (2017) or month patterns
+                    const yearMatch = firstLine.match(/^([^0-9]*\d{1,2},?\s*\d{4})\s+(.+)$/);
+                    if (yearMatch) {
+                        return {
+                            date: yearMatch[1].trim(),
+                            location: yearMatch[2].trim()
+                        };
+                    }
+                    
+                    // Look for month + day pattern without year
+                    const monthDayMatch = firstLine.match(/^([A-Z][a-z]+\s+\d{1,2})\s+(.+)$/);
+                    if (monthDayMatch) {
+                        return {
+                            date: monthDayMatch[1].trim() + ', 2017', // Add year since we know it's 2017
+                            location: monthDayMatch[2].trim()
+                        };
+                    }
                 }
-                
-            } catch (error) {
-                console.log(`  ❌ Error processing HTML: ${error.message}`);
             }
-        } else {
-            console.log(`  ❌ HTML file not found`);
         }
+        
+        return null;
+    } catch (error) {
+        console.log(`⚠️  Error extracting date/location from ${awardNum}.html: ${error.message}`);
+        return null;
     }
 }
 
-// Comprehensive HTML to JSON parsing function
+/**
+ * Enhanced photographer extraction from HTML
+ */
+function extractPhotographerFromHtml(htmlContent, $) {
+    // Try multiple strategies to find photographer
+    const strategies = [
+        () => $('td:contains("Photographer")').next().text().trim(),
+        () => $('td:contains("Photography")').next().text().trim(),
+        () => $('b:contains("Photographer")').parent().text().replace(/Photographer:?\s*/i, '').trim(),
+        () => {
+            // Look for "Photo by" or "Photographer:" in body text
+            const bodyText = $('body').text();
+            const photoMatch = bodyText.match(/(?:Photo by|Photographer:?)\s*([A-Za-z\s]+?)(?:\n|$|\.)/i);
+            return photoMatch ? photoMatch[1].trim() : '';
+        }
+    ];
+    
+    for (const strategy of strategies) {
+        try {
+            const result = strategy();
+            if (result && result !== '' && !result.toLowerCase().includes('unknown')) {
+                return result;
+            }
+        } catch (e) {
+            continue;
+        }
+    }
+    
+    return 'N/A';
+}
+
 function extractFullAwardDataFromHtml(awardNum) {
     const htmlPath = path.join(htmlDirectory, `${awardNum}.html`);
     
@@ -346,7 +300,7 @@ function extractFullAwardDataFromHtml(awardNum) {
         console.log(`  ❌ HTML file not found: ${awardNum}.html`);
         return null;
     }
-    
+
     try {
         const htmlContent = fs.readFileSync(htmlPath, 'utf8');
         const $ = cheerio.load(htmlContent);
@@ -368,10 +322,11 @@ function extractFullAwardDataFromHtml(awardNum) {
                 type: '',
                 numFlowers: 0,
                 numBuds: 0,
+                numInflorescences: 0,
                 description: ''
             },
             scrapedDate: new Date().toISOString(),
-            sourceUrl: `https://www.paccentraljc.org/${awardNum.substring(0,8)}/${awardNum}.html`,
+            sourceUrl: '', // Will be set after we extract the date
             htmlReference: `localCopy/paccentraljc.org/awards/2017/html/${awardNum}.html`,
             year: 2017
         };
@@ -389,23 +344,21 @@ function extractFullAwardDataFromHtml(awardNum) {
                 .map(line => cheerio.load(line).text().trim())
                 .filter(line => line && !line.includes('Award '));
 
-            console.log(`📝 Found ${lines.length} content lines to parse:`);
-            lines.forEach((line, i) => console.log(`   ${i}: "${line}"`));
-
             // Process each line
             for (let i = 0; i < lines.length; i++) {
                 const line = lines[i].trim();
                 if (!line) continue;
-
-                console.log(`\n🔍 Processing line ${i}: "${line}"`);
 
                 // Date and location (first line)
                 if (i === 0 && line.includes(' - ')) {
                     const parts = line.split(' - ');
                     extractedData.date = parts[0].trim();
                     extractedData.location = parts.slice(1).join(' - ').trim();
-                    console.log(`   📅 Date: "${extractedData.date}"`);
-                    console.log(`   📍 Location: "${extractedData.location}"`);
+                    
+                    // Generate correct source URL based on extracted date
+                    const yyyymmdd = formatDateToYYYYMMDD(extractedData.date);
+                    extractedData.sourceUrl = `https://www.paccentraljc.org/${yyyymmdd}/${awardNum}.html`;
+                    
                     continue;
                 }
 
@@ -415,7 +368,6 @@ function extractFullAwardDataFromHtml(awardNum) {
                     extractedData.genus = plantMatch[1];
                     extractedData.species = plantMatch[2].trim();
                     extractedData.clone = plantMatch[3];
-                    console.log(`   🌸 Plant: ${extractedData.genus} ${extractedData.species} '${extractedData.clone}'`);
                     continue;
                 }
 
@@ -424,33 +376,42 @@ function extractFullAwardDataFromHtml(awardNum) {
                 if (plantMatch2 && !line.includes('by:')) {
                     extractedData.genus = plantMatch2[1];
                     extractedData.species = plantMatch2[2].trim();
-                    console.log(`   🌸 Plant: ${extractedData.genus} ${extractedData.species}`);
                     continue;
                 }
 
-                // Cross/parentage
+                // Cross/parentage (in parentheses)
                 const crossMatch = line.match(/^\((.+)\)$/);
                 if (crossMatch) {
                     extractedData.cross = crossMatch[1].trim();
-                    console.log(`   🧬 Cross: (${extractedData.cross})`);
                     continue;
                 }
 
-                // Award and points (separate)
-                const awardMatch = line.match(/^(AM|HCC|CCM|FCC|AQ|CBR|JC|AD|CHM)\s+(\d+)$/i);
+                // Handle "species" as cross value
+                if (line.toLowerCase().trim() === 'species') {
+                    extractedData.cross = 'species';
+                    continue;
+                }
+
+                // Special award name mappings
+                if (line.match(/^Show Trophy$/i)) {
+                    extractedData.award = 'ST';
+                    extractedData.awardpoints = 'N/A';
+                    continue;
+                }
+
+                // Award and points (separate) - expanded to include CCE, ST, SC, EEC
+                const awardMatch = line.match(/^(AM|HCC|CCM|CCE|FCC|AQ|CBR|JC|AD|CHM|ST|SC|EEC)\s+(\d+)$/i);
                 if (awardMatch) {
                     extractedData.award = awardMatch[1].toUpperCase();
                     extractedData.awardpoints = parseInt(awardMatch[2]);
-                    console.log(`   🏆 Award: ${extractedData.award} ${extractedData.awardpoints}`);
                     continue;
                 }
 
-                // Award without points
-                const awardOnlyMatch = line.match(/^(JC|CBR|CHM)$/i);
+                // Award without points - expanded to include AQ and special awards
+                const awardOnlyMatch = line.match(/^(JC|CBR|CHM|AQ|ST)$/i);
                 if (awardOnlyMatch) {
                     extractedData.award = awardOnlyMatch[1].toUpperCase();
                     extractedData.awardpoints = 'N/A';
-                    console.log(`   🏆 Award: ${extractedData.award} (no points)`);
                     continue;
                 }
 
@@ -458,7 +419,6 @@ function extractFullAwardDataFromHtml(awardNum) {
                 const exhibitorMatch = line.match(/^Exhibited by:\s*(.+)$/i);
                 if (exhibitorMatch) {
                     extractedData.exhibitor = exhibitorMatch[1].trim();
-                    console.log(`   👤 Exhibitor: "${extractedData.exhibitor}"`);
                     continue;
                 }
 
@@ -466,29 +426,44 @@ function extractFullAwardDataFromHtml(awardNum) {
                 const photographerMatch = line.match(/^Photographer:\s*(.+)$/i);
                 if (photographerMatch) {
                     extractedData.photographer = photographerMatch[1].trim();
-                    console.log(`   📷 Photographer: "${extractedData.photographer}"`);
                     continue;
                 }
-                
-                console.log(`   ❓ Unmatched line: "${line}"`);
             }
         }
         
         // Additional exhibitor extraction - sometimes it's after the main content
         if (!extractedData.exhibitor) {
-            console.log(`\n🔍 Exhibitor not found in main content, checking full body...`);
             const exhibitorBodyMatch = bodyText.match(/Exhibited by[:\s]+([^\n\r<]+)/i);
             if (exhibitorBodyMatch) {
                 extractedData.exhibitor = exhibitorBodyMatch[1].trim();
-                console.log(`   👤 Found exhibitor in body: "${extractedData.exhibitor}"`);
             }
         }
 
+        // Enhanced plant name extraction from title if main content failed
+        if (!extractedData.genus) {
+            const title = $('title').text().trim();
+            const titlePlantMatch1 = title.match(/([A-Z][a-zA-Z]+)\s+([a-zA-Z][a-zA-Z\s]+?)\s+'([^']+)'/);
+            if (titlePlantMatch1) {
+                extractedData.genus = titlePlantMatch1[1];
+                extractedData.species = titlePlantMatch1[2].trim();
+                extractedData.clone = titlePlantMatch1[3];
+            } else {
+                const titlePlantMatch2 = title.match(/([A-Z][a-zA-Z]+)\s+([a-zA-Z][a-zA-Z\s]+)/);
+                if (titlePlantMatch2) {
+                    extractedData.genus = titlePlantMatch2[1];
+                    extractedData.species = titlePlantMatch2[2].trim();
+                }
+            }
+        }
+
+        // Enhanced photographer extraction with multiple strategies
+        if (!extractedData.photographer || extractedData.photographer === '') {
+            extractedData.photographer = extractPhotographerFromHtml(htmlContent, $);
+        }
+
         // Extract measurements
-        console.log(`\n📏 Looking for measurements table...`);
         const measurementTable = $('table').eq(1).find('table').first();
         if (measurementTable.length > 0) {
-            console.log(`✅ Found measurements table`);
             measurementTable.find('tr').each((i, row) => {
                 const $row = $(row);
                 const cells = $row.find('td');
@@ -500,28 +475,20 @@ function extractFullAwardDataFromHtml(awardNum) {
                         const value = $(cells[j + 1]).text().trim();
                         const numValue = parseFloat(value);
                         
-                        console.log(`   📊 ${label}: "${value}" (${numValue})`);
-                        
                         if (!isNaN(numValue) && ['NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LSW', 'LSL', 'LIPW', 'LIPL'].includes(label)) {
                             extractedData.measurements[label] = numValue;
                         }
                     }
                 }
             });
-        } else {
-            console.log(`❌ No measurements table found`);
         }
 
         // Extract flower info (# flowers, buds, inflorescences) and store in measurements
-        console.log(`\n🌺 Looking for flower information...`);
-        // Look for the table that contains "# flwrs", "# buds", "# infl"
         $('table').each((tableIndex, table) => {
             const $table = $(table);
             const tableText = $table.text();
             
             if (tableText.includes('flwrs') || tableText.includes('buds') || tableText.includes('infl')) {
-                console.log(`✅ Found flower info table at index ${tableIndex}`);
-                
                 $table.find('tr').each((i, row) => {
                     const $row = $(row);
                     const cells = $row.find('td');
@@ -531,8 +498,6 @@ function extractFullAwardDataFromHtml(awardNum) {
                             const label = $(cells[j]).text().trim();
                             const value = $(cells[j + 1]).text().trim();
                             const numValue = parseInt(value);
-                            
-                            console.log(`   🌼 ${label}: "${value}" (${numValue})`);
                             
                             if (!isNaN(numValue)) {
                                 if (label.includes('flwrs')) extractedData.measurements.numFlowers = numValue;
@@ -547,47 +512,35 @@ function extractFullAwardDataFromHtml(awardNum) {
         });
 
         // Extract description from the last table and store in measurements object
-        console.log(`\n📝 Looking for description...`);
-        // Find the table with "Description:" in it
         $('table').each((index, table) => {
             const $table = $(table);
             const tableText = $table.text();
             
             if (tableText.includes('Description:')) {
-                console.log(`   📝 Found description in table ${index}`);
                 const descText = $table.find('td').text().trim();
                 const descMatch = descText.match(/Description\s*:\s*(.+)$/is);
                 
                 if (descMatch) {
                     extractedData.measurements.description = descMatch[1].trim();
-                    console.log(`✅ Description: "${extractedData.measurements.description.substring(0, 100)}..."`);
                 } else {
                     // Try to get text after "Description:" without regex
                     const parts = descText.split(/Description\s*:\s*/i);
                     if (parts.length > 1) {
                         extractedData.measurements.description = parts[1].trim();
-                        console.log(`✅ Description (split method): "${extractedData.measurements.description.substring(0, 100)}..."`);
                     }
                 }
                 return false; // Break out of each loop
             }
         });
 
-        // Set default values for missing fields specific to 2017
-        console.log(`\n🔧 Setting default values for missing fields...`);
-        if (!extractedData.photographer || extractedData.photographer.trim() === '') {
-            extractedData.photographer = 'N/A';
-            console.log(`   📷 No photographer found, set to: "N/A"`);
-        }
-        
         // Set measurement type based on what measurements we have
         const measurementFields = ['NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LSW', 'LSL', 'LIPW', 'LIPL'];
-        const foundMeasurements = measurementFields.filter(field => extractedData.measurements[field] !== undefined);
+        const foundMeasurements = measurementFields.filter(field => extractedData.measurements[field] !== undefined && extractedData.measurements[field] !== 0);
         
         if (foundMeasurements.length > 0) {
             // Check if we have lip measurements
-            const hasLipMeasurements = ['LIPW', 'LIPL'].some(field => extractedData.measurements[field] !== undefined);
-            const hasSepalMeasurements = ['NS', 'NSV', 'LSW', 'LSL'].some(field => extractedData.measurements[field] !== undefined);
+            const hasLipMeasurements = ['LIPW', 'LIPL'].some(field => extractedData.measurements[field] !== undefined && extractedData.measurements[field] !== 0);
+            const hasSepalMeasurements = ['NS', 'NSV', 'LSW', 'LSL'].some(field => extractedData.measurements[field] !== undefined && extractedData.measurements[field] !== 0);
             
             if (hasLipMeasurements && hasSepalMeasurements) {
                 extractedData.measurements.type = 'Lip&LateralSepal';
@@ -598,75 +551,487 @@ function extractFullAwardDataFromHtml(awardNum) {
             } else {
                 extractedData.measurements.type = 'General';
             }
-            console.log(`   📏 Measurement type detected: "${extractedData.measurements.type}"`);
+        } else {
+            extractedData.measurements.type = 'N/A';
         }
-        
-        // Log final field status
-        console.log(`\n📋 Final field status:`);
-        console.log(`   Photographer: "${extractedData.photographer}"`);
-        console.log(`   Exhibitor: "${extractedData.exhibitor || 'Not found'}"`);
-        console.log(`   Photo: "${extractedData.photo}"`);
-        console.log(`   Description: ${extractedData.measurements.description ? 'Found' : 'Not found'}`);
-        console.log(`   Measurements: ${foundMeasurements.length} fields`);
 
-        return extractedData;
+        // Apply missing info logic rules based on award type
+        const enhancedData = applyMissingInfoLogic(extractedData);
         
+        return enhancedData;
+
     } catch (error) {
-        console.log(`  ❌ Error reading HTML for ${awardNum}:`, error.message);
+        console.log(`  ❌ Error extracting data from ${awardNum}.html: ${error.message}`);
         return null;
     }
 }
 
-// Test function for single file
-function testSingleFile(awardNum) {
-    console.log(`🧪 Testing HTML to JSON parsing for award ${awardNum}\n`);
+function processAll2017Files() {
+        console.log('🚀 PROCESSING ALL 2017 HTML FILES TO JSON (Enhanced with Logic Reference)');
+    console.log('='.repeat(80));
     
-    // Ensure directories exist
-    const dataDir = path.join(__dirname, '../../paccentraljc.org/awards/2017/data');
-    if (!fs.existsSync(dataDir)) {
-        fs.mkdirSync(dataDir, { recursive: true });
-    }
+    // Ensure JSON directory exists
     if (!fs.existsSync(jsonDirectory)) {
         fs.mkdirSync(jsonDirectory, { recursive: true });
+        console.log(`📁 Created JSON directory: ${jsonDirectory}`);
     }
     
-    const extractedData = extractFullAwardDataFromHtml(awardNum);
+    // Get all HTML files, excluding summary pages (20170xxx are summary pages, 20175xxx are individual awards)
+    const htmlFiles = fs.readdirSync(htmlDirectory)
+        .filter(file => file.endsWith('.html') && file !== '2017.html')
+        .filter(file => !file.match(/^20170/)) // Skip summary pages like 20170120.html
+        .filter(file => !file.includes('-index.html')) // Skip index files
+        .sort();
     
-    if (extractedData) {
-        const outputPath = path.join(jsonDirectory, `${awardNum}.json`);
-        fs.writeFileSync(outputPath, JSON.stringify(extractedData, null, 2));
+    console.log(`📄 Found ${htmlFiles.length} HTML files to process`);
+    console.log(`🧠 Using logic reference: ${logicPath}\n`);
+    
+    const results = {
+        processed: 0,
+        successful: 0,
+        failed: 0,
+        successes: [],
+        failures: []
+    };
+    
+    htmlFiles.forEach((htmlFile, index) => {
+        const awardNum = path.basename(htmlFile, '.html');
         
-        console.log(`\n✅ Successfully parsed and saved JSON to: ${outputPath}`);
-        console.log(`\n📊 Summary of extracted data:`);
-        console.log(`   Award Number: ${extractedData.awardNum}`);
-        console.log(`   Plant: ${extractedData.genus} ${extractedData.species} ${extractedData.clone ? `'${extractedData.clone}'` : ''}`);
-        console.log(`   Cross: ${extractedData.cross || 'N/A'}`);
-        console.log(`   Award: ${extractedData.award} ${extractedData.awardpoints}`);
-        console.log(`   Date: ${extractedData.date}`);
-        console.log(`   Location: ${extractedData.location}`);
-        console.log(`   Exhibitor: ${extractedData.exhibitor}`);
-        console.log(`   Photographer: ${extractedData.photographer}`);
-        console.log(`   Photo: ${extractedData.photo}`);
-        console.log(`   Measurements: ${Object.keys(extractedData.measurements).filter(k => !['type', 'numFlowers', 'numBuds', 'description'].includes(k)).length} measurement fields`);
-        console.log(`   Measurement Type: ${extractedData.measurements.type}`);
-        console.log(`   Flower Count: ${extractedData.measurements.numFlowers}`);
-        console.log(`   Bud Count: ${extractedData.measurements.numBuds}`);
-        console.log(`   Description: ${extractedData.measurements.description ? 'Yes' : 'No'}`);
+        results.processed++;
         
-        return extractedData;
+        try {
+            const extractedData = extractFullAwardDataFromHtml(awardNum);
+            
+            if (extractedData) {
+                const outputPath = path.join(jsonDirectory, `${awardNum}.json`);
+                fs.writeFileSync(outputPath, JSON.stringify(extractedData, null, 2));
+                
+                results.successful++;
+                results.successes.push({
+                    awardNum,
+                    plant: `${extractedData.genus} ${extractedData.species} ${extractedData.clone ? `'${extractedData.clone}'` : ''}`,
+                    award: `${extractedData.award} ${extractedData.awardpoints}`,
+                    exhibitor: extractedData.exhibitor
+                });
+            } else {
+                results.failed++;
+                results.failures.push({
+                    awardNum,
+                    reason: 'Extraction failed'
+                });
+            }
+            
+        } catch (error) {
+            results.failed++;
+            results.failures.push({
+                awardNum,
+                reason: error.message
+            });
+        }
+    });
+    
+    // Generate processing report
+    const reportPath = path.join(jsonDirectory, '../2017-enhanced-processing-report.json');
+    const report = {
+        timestamp: new Date().toISOString(),
+        logicReferenceUsed: logicPath,
+        summary: {
+            totalProcessed: results.processed,
+            successful: results.successful,
+            failed: results.failed,
+            successRate: `${(results.successful/results.processed*100).toFixed(1)}%`
+        },
+        successes: results.successes,
+        failures: results.failures
+    };
+    
+    fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
+    
+    console.log('\n' + '='.repeat(80));
+    console.log('🎯 ENHANCED PROCESSING COMPLETE');
+    console.log(`📊 Success Rate: ${(results.successful/results.processed*100).toFixed(1)}% (${results.successful}/${results.processed})`);
+    console.log(`🧠 Logic Reference Applied: ${path.basename(logicPath)}`);
+    console.log(`📋 Report saved: ${reportPath}`);
+    
+    return results;
+}
+
+function testSingleFile(awardNum) {
+    console.log(`🧪 TESTING ENHANCED PARSER FOR AWARD ${awardNum}`);
+    console.log('='.repeat(60));
+    
+    const result = extractFullAwardDataFromHtml(awardNum);
+    
+    if (result) {
+        console.log('\n🎉 EXTRACTION SUCCESSFUL!');
+        console.log('📄 Generated JSON:');
+        console.log(JSON.stringify(result, null, 2));
     } else {
-        console.log(`❌ Failed to parse ${awardNum}.html`);
-        return null;
+        console.log('\n❌ EXTRACTION FAILED');
+    }
+    
+    return result;
+}
+
+// Run based on command line arguments
+if (require.main === module) {
+    const args = process.argv.slice(2);
+    
+    if (args.length === 0 || args[0] === '--all') {
+        // Process all files
+        processAll2017Files();
+    } else if (args[0] === '--analyze' || args[0] === '--analysis') {
+        // Run data quality analysis
+        analyze2017Data(true);
+    } else if (args[0] === '--full-analysis') {
+        // Run comprehensive analysis (shows all files)
+        analyze2017Data(false);
+    } else if (args[0] === '--test' && args[1]) {
+        // Test single file
+        const testAward = args[1];
+        testSingleFile(testAward);
+    } else {
+        // Test single file (backward compatibility)
+        const testAward = args[0];
+        testSingleFile(testAward);
     }
 }
 
-// Run the test if called directly
-if (require.main === module) {
-    const testAward = process.argv[2] || '20174115';
-    testSingleFile(testAward);
-} else {
-    // Original behavior - run both fixes
-    fix2017RecoverableIssuesEnhanced();
-    console.log('\n');
-    fix2017MeasurementOnlyIssues();
+/**
+ * Save analysis output to a JSON file based on year (matching 2023/2024/2025 format)
+ * @param {Object} analysis - The analysis results object
+ * @param {boolean} focusedMode - Whether focused or full analysis
+ * @param {string} year - The year for the analysis (default: 2017)
+ */
+function saveAnalysisToFile(analysis, focusedMode, year = '2017') {
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const mode = focusedMode ? 'missing-data' : 'full-data';
+    const filename = `${year}-${mode}-analysis-${timestamp}.json`;
+    const outputPath = path.join(jsonDirectory, '..', filename);
+    
+    // Create structured JSON output matching previous years' format
+    const jsonOutput = {
+        metadata: {
+            year: parseInt(year),
+            analysisType: focusedMode ? 'missing-data' : 'full-data',
+            timestamp: new Date().toISOString(),
+            generatedBy: `${year}htmlToJSONparse.js`,
+            logicReferenceUsed: 'logicReference/missingInfoLogic.json'
+        },
+        summary: {
+            totalFiles: analysis.total,
+            perfectFiles: analysis.perfect,
+            filesWithIssues: analysis.withIssues,
+            perfectPercentage: parseFloat(((analysis.perfect / analysis.total) * 100).toFixed(1)),
+            issuesPercentage: parseFloat(((analysis.withIssues / analysis.total) * 100).toFixed(1))
+        },
+        issueBreakdown: {
+            criticalIssues: analysis.critical.length,
+            importantMissing: analysis.important.length,
+            measurementIssues: analysis.measurements.length,
+            descriptionOnly: analysis.descriptionOnly.length
+        },
+        awardsWithIssues: {
+            critical: analysis.critical.map(issue => ({
+                awardNum: issue.awardNum,
+                filename: issue.filename,
+                plant: issue.plant,
+                exhibitor: issue.exhibitor,
+                award: issue.award,
+                severity: issue.severity,
+                missingFields: issue.missingFields,
+                issues: issue.issues,
+                sourceUrl: issue.sourceUrl,
+                htmlReference: issue.htmlReference
+            })),
+            important: analysis.important.map(issue => ({
+                awardNum: issue.awardNum,
+                filename: issue.filename,
+                plant: issue.plant,
+                exhibitor: issue.exhibitor,
+                award: issue.award,
+                severity: issue.severity,
+                missingFields: issue.missingFields,
+                issues: issue.issues,
+                sourceUrl: issue.sourceUrl,
+                htmlReference: issue.htmlReference
+            })),
+            measurements: analysis.measurements.map(issue => ({
+                awardNum: issue.awardNum,
+                filename: issue.filename,
+                plant: issue.plant,
+                exhibitor: issue.exhibitor,
+                award: issue.award,
+                severity: issue.severity,
+                missingFields: issue.missingFields,
+                issues: issue.issues,
+                sourceUrl: issue.sourceUrl,
+                htmlReference: issue.htmlReference
+            })),
+            descriptionOnly: analysis.descriptionOnly.map(issue => ({
+                awardNum: issue.awardNum,
+                filename: issue.filename,
+                plant: issue.plant,
+                exhibitor: issue.exhibitor,
+                award: issue.award,
+                severity: issue.severity,
+                missingFields: issue.missingFields,
+                issues: issue.issues,
+                sourceUrl: issue.sourceUrl,
+                htmlReference: issue.htmlReference
+            }))
+        },
+        categorizedAwards: {
+            // Group awards by award type for easier analysis
+            byAwardType: {},
+            byExhibitor: {},
+            bySeverity: {
+                critical: analysis.critical.map(i => i.awardNum),
+                important: analysis.important.map(i => i.awardNum),
+                measurements: analysis.measurements.map(i => i.awardNum),
+                descriptionOnly: analysis.descriptionOnly.map(i => i.awardNum)
+            }
+        }
+    };
+    
+    // Group by award type
+    [...analysis.critical, ...analysis.important, ...analysis.measurements, ...analysis.descriptionOnly].forEach(issue => {
+        const awardType = issue.award.split(' ')[0]; // Get first part of award (AM, HCC, etc.)
+        if (!jsonOutput.categorizedAwards.byAwardType[awardType]) {
+            jsonOutput.categorizedAwards.byAwardType[awardType] = [];
+        }
+        jsonOutput.categorizedAwards.byAwardType[awardType].push({
+            awardNum: issue.awardNum,
+            severity: issue.severity,
+            missingFields: issue.missingFields
+        });
+    });
+    
+    // Group by exhibitor
+    [...analysis.critical, ...analysis.important, ...analysis.measurements, ...analysis.descriptionOnly].forEach(issue => {
+        const exhibitor = issue.exhibitor;
+        if (!jsonOutput.categorizedAwards.byExhibitor[exhibitor]) {
+            jsonOutput.categorizedAwards.byExhibitor[exhibitor] = [];
+        }
+        jsonOutput.categorizedAwards.byExhibitor[exhibitor].push({
+            awardNum: issue.awardNum,
+            severity: issue.severity,
+            missingFields: issue.missingFields
+        });
+    });
+    
+    // Save to JSON file
+    fs.writeFileSync(outputPath, JSON.stringify(jsonOutput, null, 2));
+    console.log(`💾 Analysis saved to JSON: ${outputPath}\n`);
+    
+    return outputPath;
 }
+
+/**
+ * Consolidated Analysis Function - Run quality analysis on processed JSON files
+ * @param {boolean} focusedMode - If true, only show files with missing data
+ * @param {boolean} saveToFile - If true, save analysis to file (default: true)
+ * @returns {Object} - Analysis results summary
+ */
+async function analyze2017Data(focusedMode = true, saveToFile = true) {
+    console.log(focusedMode ? '🔍 2017 AWARDS - MISSING DATA ANALYSIS' : '📊 2017 AWARDS - FULL DATA ANALYSIS');
+    console.log('='.repeat(80));
+
+    const requiredFields = {
+        critical: ['awardNum', 'award', 'awardpoints', 'date', 'location', 'genus', 'species', 'exhibitor'],
+        important: ['photographer', 'cross'],
+        optional: ['clone']
+    };
+
+    const requiredMeasurements = {
+        measurementFields: ['NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LSW', 'LSL', 'LIPW', 'LIPL']
+    };
+
+    function categorizeIssues(data, awardNum) {
+        const issues = {
+            awardNum,
+            filename: `${awardNum}.json`,
+            plant: `${data.genus || 'Unknown'} ${data.species || 'Unknown'} ${data.clone ? `'${data.clone}'` : ''}`.trim(),
+            exhibitor: data.exhibitor || 'Unknown',
+            award: `${data.award || 'Missing'} ${data.awardpoints || ''}`.trim(),
+            sourceUrl: data.sourceUrl || 'N/A',
+            htmlReference: data.htmlReference || 'N/A',
+            severity: 'none',
+            issues: [],
+            missingFields: []
+        };
+
+        // Check critical fields
+        const criticalMissing = [];
+        requiredFields.critical.forEach(field => {
+            if (!data[field] || data[field] === '' || data[field] === null) {
+                criticalMissing.push(field);
+            }
+        });
+
+        if (criticalMissing.length > 0) {
+            issues.severity = 'critical';
+            issues.issues.push(`Missing critical: ${criticalMissing.join(', ')}`);
+            issues.missingFields = criticalMissing;
+            return issues;
+        }
+
+        // Check for display/special awards first
+        const isDisplayOrSpecialAward = ['SC', 'ST', 'AQ', 'JC', 'CBR', 'CHM'].includes(data.award);
+
+        // Check important fields
+        const importantMissing = [];
+        requiredFields.important.forEach(field => {
+            if (!data[field] || data[field] === '' || 
+                (data[field] === 'N/A' && !(field === 'cross' && isDisplayOrSpecialAward))) {
+                importantMissing.push(field);
+            }
+        });
+
+        if (importantMissing.length > 0) {
+            issues.severity = 'important';
+            issues.issues.push(`Missing important: ${importantMissing.join(', ')}`);
+            issues.missingFields = importantMissing;
+            return issues;
+        }
+
+        // Check measurements
+        const measurementMissing = [];
+        if (!data.measurements || !data.measurements.description || data.measurements.description === '') {
+            measurementMissing.push('description');
+        }
+
+        const hasAnyMeasurements = requiredMeasurements.measurementFields.some(field => 
+            data.measurements && data.measurements[field] !== undefined && data.measurements[field] !== null && 
+            data.measurements[field] !== '' && !isNaN(data.measurements[field])
+        );
+
+        const hasAcceptableNAMeasurements = isDisplayOrSpecialAward && 
+            requiredMeasurements.measurementFields.some(field => 
+                data.measurements && data.measurements[field] === 'N/A'
+            );
+
+        const hasAcceptableNMMeasurements = requiredMeasurements.measurementFields.some(field => 
+            data.measurements && data.measurements[field] === 'NM'
+        );
+
+        if (!hasAnyMeasurements && !hasAcceptableNAMeasurements && !hasAcceptableNMMeasurements) {
+            measurementMissing.push('no_measurement_data');
+        }
+
+        if (measurementMissing.length > 0) {
+            issues.severity = 'measurements';
+            issues.issues.push(`Missing measurements: ${measurementMissing.join(', ')}`);
+            issues.missingFields = measurementMissing;
+            return issues;
+        }
+
+        issues.severity = 'none';
+        return issues;
+    }
+
+    try {
+        const files = fs.readdirSync(jsonDirectory).filter(f => f.endsWith('.json'));
+        console.log(`📊 Analyzing ${files.length} JSON files for missing data...`);
+
+        const analysis = {
+            total: files.length,
+            perfect: 0,
+            withIssues: 0,
+            critical: [],
+            important: [],
+            measurements: [],
+            descriptionOnly: []
+        };
+
+        for (const file of files) {
+            const filePath = path.join(jsonDirectory, file);
+            const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+            const awardNum = path.basename(file, '.json');
+            const issues = categorizeIssues(data, awardNum);
+
+            if (issues.severity === 'none') {
+                analysis.perfect++;
+            } else {
+                analysis.withIssues++;
+                analysis[issues.severity].push(issues);
+            }
+        }
+
+        // Print summary
+        console.log(`\n📈 SUMMARY:`);
+        console.log(`   Total Files: ${analysis.total}`);
+        console.log(`   Perfect Files: ${analysis.perfect} (${((analysis.perfect / analysis.total) * 100).toFixed(1)}%)`);
+        console.log(`   Files with Missing Data: ${analysis.withIssues} (${((analysis.withIssues / analysis.total) * 100).toFixed(1)}%)`);
+
+        if (focusedMode && analysis.withIssues === 0) {
+            console.log(`\n🎉 ALL FILES ARE PERFECT! No missing data found.`);
+            return analysis;
+        }
+
+        if (!focusedMode || analysis.withIssues > 0) {
+            console.log(`\n🚨 BREAKDOWN OF MISSING DATA:`);
+            console.log(`   Critical Issues: ${analysis.critical.length}`);
+            console.log(`   Important Missing: ${analysis.important.length}`);
+            console.log(`   Measurement Issues: ${analysis.measurements.length}`);
+            console.log(`   Description Only: ${analysis.descriptionOnly.length}`);
+
+            // Show detailed issues
+            if (analysis.critical.length > 0) {
+                console.log(`\n🚨 CRITICAL MISSING DATA (${analysis.critical.length}):\n`);
+                analysis.critical.forEach((issue, i) => {
+                    console.log(`${i + 1}. ${issue.awardNum} - ${issue.plant}`);
+                    console.log(`   Award: ${issue.award}`);
+                    console.log(`   Exhibitor: ${issue.exhibitor}`);
+                    console.log(`   Missing: ${issue.missingFields.join(', ')}`);
+                    console.log(`   Source: ${issue.sourceUrl}`);
+                    console.log(`   Local HTML: ${issue.htmlReference}`);
+                });
+            }
+
+            if (analysis.important.length > 0) {
+                console.log(`\n⚠️  IMPORTANT MISSING DATA (${analysis.important.length}):\n`);
+                analysis.important.forEach((issue, i) => {
+                    console.log(`${i + 1}. ${issue.awardNum} - ${issue.plant}`);
+                    console.log(`   Award: ${issue.award}`);
+                    console.log(`   Exhibitor: ${issue.exhibitor}`);
+                    console.log(`   Missing: ${issue.missingFields.join(', ')}`);
+                    console.log(`   Source: ${issue.sourceUrl}`);
+                    console.log(`   Local HTML: ${issue.htmlReference}`);
+                });
+            }
+
+            if (analysis.measurements.length > 0) {
+                console.log(`\n📏 MEASUREMENT ISSUES (${analysis.measurements.length}):\n`);
+                analysis.measurements.forEach((issue, i) => {
+                    console.log(`${i + 1}. ${issue.awardNum} - ${issue.plant}`);
+                    console.log(`   Award: ${issue.award}`);
+                    console.log(`   Exhibitor: ${issue.exhibitor}`);
+                    console.log(`   Missing: ${issue.missingFields.join(', ')}`);
+                    console.log(`   Source: ${issue.sourceUrl}`);
+                    console.log(`   Local HTML: ${issue.htmlReference}`);
+                });
+            }
+        }
+
+        // Save analysis to file if requested
+        if (saveToFile) {
+            saveAnalysisToFile(analysis, focusedMode, '2017');
+        }
+
+        return analysis;
+
+    } catch (error) {
+        console.error('❌ Error during analysis:', error);
+        throw error;
+    }
+}
+
+module.exports = {
+    extractFullAwardDataFromHtml,
+    processAll2017Files,
+    testSingleFile,
+    applyMissingInfoLogic,
+    analyze2017Data,
+    saveAnalysisToFile
+};

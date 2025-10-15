@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152406",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Oakland",
+  "date": "November 16, 2015",
+  "genus": "Phalaenopsis",
+  "species": "Dragon Tree Eagle",
+  "clone": "Fredric",
+  "cross": "Phalaenopsis Penang Girl x Phalaenopsis Black Eagle",
+  "exhibitor": "Cordelia Wong",
+  "photographer": "N/A",
+  "photo": "images/20152406.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Two flowers on two inflorescences; dorsal sepal golden-yellow, overlaid magenta spots;\n    lateral sepals golden-yellow, heavily overlaid magenta inferiorly, thinning to spots superiorly;\n    petals golden-yellow, magenta barred proximally;\n    lip and column white, overlaid bright fuchsia; substance heavy; texture waxy.",
+    "NS": 5.7,
+    "NSV": 6.5,
+    "DSW": 1.8,
+    "DSL": 3,
+    "PETW": 1.9,
+    "PETL": 2.6,
+    "LSW": 1.9,
+    "LSL": 3.2,
+    "LIPW": 0.9,
+    "LIPL": 1.8
+  },
+  "scrapedDate": "2025-10-15T03:42:26.738Z",
+  "sourceUrl": "https://www.paccentraljc.org/20151116/20152406.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152406.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.739Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194706",
+  "award": "CCM",
+  "awardpoints": 82,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 25, 2019",
+  "genus": "Dendrobium",
+  "species": "leucocyanum",
+  "clone": "Memoria Gerald McCraith",
+  "cross": "species",
+  "exhibitor": "Mary Gerritsen",
+  "photographer": "N/A",
+  "photo": "images/20194706.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 226,
+    "numBuds": 22,
+    "numInflorescences": 25,
+    "description": "Two hundred twenty-six flowers and 22 buds on 25 clustered inflorescences; cascading down a 19-cm long by 9-cm wide cork mount;\n\tflowers white, overlaid blue-green;\n\n\n\t\n\t\n\t \n\tsubstance firm; texture matte.",
+    "NS": 0.4,
+    "NSV": 0.3,
+    "DSW": 0.2,
+    "DSL": 0.2,
+    "PETW": 0.1,
+    "PETL": 0.2,
+    "LSW": 0.2,
+    "LSL": 0.2,
+    "LIPW": 0.2,
+    "LIPL": 0.2
+  },
+  "scrapedDate": "2025-10-15T02:42:38.799Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190125/20194706.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194706.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.800Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

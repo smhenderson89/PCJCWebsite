@@ -1,0 +1,36 @@
+{
+  "awardNum": "20162321",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Sonoma County Orchid Society Show",
+  "date": "April 2, 2016",
+  "genus": "Paphiopedilum",
+  "species": "glaucophyllum",
+  "clone": "Bailey",
+  "cross": "species",
+  "exhibitor": "Susan Anderson",
+  "photographer": "N/A",
+  "photo": "images/20162321.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 2,
+    "numInflorescences": 2,
+    "description": "Two flowers and two buds on two inflorescences; dorsal sepal bright green bordered ivory, overlaid and veined chestnut brown;\n   hirsute petals ivory, spotted burgundy with pink overlay distally; pouch pale yellow, overlaid pink;  staminode chartreuse, overlaid burgundy ;  \n   substance firm; texture glossy.",
+    "NS": 8.1,
+    "NSV": 7.2,
+    "DSW": 4.1,
+    "DSL": 3.1,
+    "PETW": 1.2,
+    "PETL": 4.9
+  },
+  "scrapedDate": "2025-10-15T03:38:59.250Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160402/20162321.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162321.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.251Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

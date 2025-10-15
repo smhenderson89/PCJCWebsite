@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174153",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Oakland",
+  "date": "May 15, 2017",
+  "genus": "Barkeria",
+  "species": "spectabilis",
+  "clone": "Bob Hoffman",
+  "cross": "species",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "N/A",
+  "photo": "images/20174153.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 10,
+    "numBuds": 1,
+    "numInflorescences": 1,
+    "description": "Ten flowers and one bud on one vertical inflorescence; sepals and petals pink-lavender;\n\tlip white, faintly rimmed with pale lavender, sparsely spotted mid-lip dark lavender, apex dark lavender; column dark lavender; substance soft; texture crystilline.",
+    "NS": 8.2,
+    "NSV": 7.1,
+    "DSW": 0.9,
+    "DSL": 3.9,
+    "PETW": 1.6,
+    "PETL": 3.8,
+    "LSW": 1,
+    "LSL": 3.7,
+    "LIPW": 2.5,
+    "LIPL": 3.6
+  },
+  "scrapedDate": "2025-10-15T03:32:22.432Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170515/20174153.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174153.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.432Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

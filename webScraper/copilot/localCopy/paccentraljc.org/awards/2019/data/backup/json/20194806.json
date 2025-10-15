@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194806",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "San Francisco",
+  "date": "May 7, 2019",
+  "genus": "Rhyncattleanthe",
+  "species": "Martha Clarke",
+  "clone": "Bentley",
+  "cross": "Cattleya Circle of Life x Rhyncattleanthe Love Sound",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194806.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 8,
+    "numBuds": 1,
+    "numInflorescences": 3,
+    "description": "Eight full flowers and one bud on three inflorescences; \n\t\n\t\n\tsepals and petals yellow, overlaid and flared rose;\n\t\n\tlip ruffled, dark yellow, margins and distal third dark magneta, basally veined dark rose;\t\n\n\t\n\t\n\t\n\n\tsubstance firm; texture crystalline.",
+    "NS": 8.4,
+    "NSV": 8,
+    "DSW": 1.5,
+    "DSL": 5.1,
+    "PETW": 4.2,
+    "PETL": 5,
+    "LSW": 2.6,
+    "LSL": 4.2,
+    "LIPW": 3.2,
+    "LIPL": 4
+  },
+  "scrapedDate": "2025-10-15T02:42:38.850Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190507/20194806.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194806.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.851Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

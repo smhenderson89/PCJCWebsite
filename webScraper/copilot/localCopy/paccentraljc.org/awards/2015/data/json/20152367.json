@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152367",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Oakland",
+  "date": "June 15, 2015",
+  "genus": "Thunia",
+  "species": "Gattonensis",
+  "clone": "Paula Langland",
+  "cross": "Thunia majorensis x Thunia winniana",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "N/A",
+  "photo": "images/20152367.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 8,
+    "numBuds": 14,
+    "numInflorescences": 4,
+    "description": "Eight flowers and fourteen buds on four inflorescences; sepals and petals white; lip white overlaid medially\n    yellow, purple striations base to apex, coalescing to 0.5 cm lavender band distally with white fringed\n    picotee, mid-lobe yellow hirsute base to lavender band, keels dark yellow; substance firm; texture crystalline.",
+    "NS": 17.2,
+    "NSV": 10.7,
+    "DSW": 2,
+    "DSL": 9.4,
+    "PETW": 1.6,
+    "PETL": 7.3,
+    "LSW": 2,
+    "LSL": 8.8,
+    "LIPW": 3.5,
+    "LIPL": 6.7
+  },
+  "scrapedDate": "2025-10-15T03:42:26.706Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150615/20152367.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152367.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.707Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174116",
+  "award": "CBR",
+  "awardpoints": "N/A",
+  "location": "San Francisco",
+  "date": "January 3, 2017",
+  "genus": "Coelogyne",
+  "species": "filipeda",
+  "clone": "Memoria Curt Garbesi",
+  "cross": "species",
+  "exhibitor": "Tom Pickford",
+  "photographer": "N/A",
+  "photo": "images/20174116.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 19,
+    "numBuds": 2,
+    "numInflorescences": 3,
+    "description": "Nineteen flowers and two buds on three upright inflorescences up to 19cm tall on a 34-cm tall plant comprised of five tapered bifoliate pseudobulbs, lanceolate leaves in a 21-cm plastic pot; sepals and petals pale ochre overlaid light brown, obscure stripes brown, dorsal sepal porrect, filiform petals recurved; lip pale ochre overlaid brown, porrect side lobes darker distally, keels pale mahogany; anther cap yellow; substance medium; texture matte; recognized for rarity in cultivation and well displayed upright multifloral inflorscences.",
+    "NS": 2.8,
+    "NSV": 2.2,
+    "DSW": 1.1,
+    "DSL": 1.9,
+    "PETW": 0.1,
+    "PETL": 1.8,
+    "LSW": 0.9,
+    "LSL": 2,
+    "LIPW": 0.9,
+    "LIPL": 2.2
+  },
+  "scrapedDate": "2025-10-15T03:32:22.306Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170103/20174116.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174116.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.308Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

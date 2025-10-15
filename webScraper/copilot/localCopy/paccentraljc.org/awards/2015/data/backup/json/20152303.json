@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152303",
+  "award": "AM",
+  "awardpoints": 88,
+  "location": "San Francisco",
+  "date": "July 7, 2015",
+  "genus": "Cattleya",
+  "species": "tenebrosa",
+  "clone": "Estrela Escura",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20152303.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 5,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Five striking flowers on two inflorescences; sepals and petals red-bronze veined darker bronze, cream basally;\n    lip white veined dark purple in throat coalescing to dark red-purple centrally, lighter purple distally;\n    substance firm; texture matte.",
+    "NS": 20.5,
+    "NSV": 15,
+    "DSW": 2.6,
+    "DSL": 10.2,
+    "PETW": 4.5,
+    "PETL": 10.8,
+    "LSW": 2.4,
+    "LSL": 11,
+    "LIPW": 5.3,
+    "LIPL": 9.4
+  },
+  "scrapedDate": "2025-10-15T03:42:26.636Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150707/20152303.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152303.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.637Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

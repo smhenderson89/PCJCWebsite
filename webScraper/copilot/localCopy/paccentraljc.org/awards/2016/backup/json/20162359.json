@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162359",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Oakland",
+  "date": "May 16, 2016",
+  "genus": "Phalaenopsis",
+  "species": "Ching Her Champion",
+  "clone": "Phoenix Sunspots",
+  "cross": "Phalaenopsis Salu Peoker x Phalaenopsis Champion Plus",
+  "exhibitor": "Eric Goo/Phoenix Orchids",
+  "photographer": "N/A",
+  "photo": "images/20162359.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 9,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Nine flowers on one branched inflorescence; sepals and petals bright yellow,\n\tirregular maroon blotches heavier centrally and on medial aspect of lateral sepals ; \n\tlip yellow, side lobes maroon on margins, midlobe yellow, maroon centrally white at apex; \n    substance firm; texture matte.",
+    "NS": 7.4,
+    "NSV": 7.3,
+    "DSW": 3.4,
+    "DSL": 4,
+    "PETW": 3.5,
+    "PETL": 3.4,
+    "LSW": 3.2,
+    "LSL": 4.1,
+    "LIPW": 1.5,
+    "LIPL": 2.7
+  },
+  "scrapedDate": "2025-10-15T03:38:59.298Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160516/20162359.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162359.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.298Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

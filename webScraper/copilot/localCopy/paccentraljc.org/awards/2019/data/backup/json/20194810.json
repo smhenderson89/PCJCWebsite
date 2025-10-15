@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194810",
+  "award": "CCM",
+  "awardpoints": 82,
+  "location": "San Francisco",
+  "date": "May 7, 2019",
+  "genus": "Sarcochilus",
+  "species": "Kulnura Pixie",
+  "clone": "Gracie",
+  "cross": "Sarcochilus Kirra-lea x Sarcochilus Elegance",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194810.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 126,
+    "numBuds": 94,
+    "numInflorescences": 15,
+    "description": "One hundred twenty-six flowers and 94 buds on 15 mature inflorescences and two immature upright inflorescences;\n\tplant 43cm wide, grown in a 15-cm pot;\n\t\n\t\n\tsepals and petals white, irregular deep rose markings proximally;\n\t\nlip yellow, rose markings;\t\n\n\t\n\t\n\t\n\n\tsubstance moderately firm; texture crystalline.",
+    "NS": 2.6,
+    "NSV": 2.4,
+    "DSW": 1.3,
+    "DSL": 1.7,
+    "PETW": 0.9,
+    "PETL": 1.1,
+    "LSW": 1.2,
+    "LSL": 1.6,
+    "LIPW": 0.7,
+    "LIPL": 0.6
+  },
+  "scrapedDate": "2025-10-15T02:42:38.856Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190507/20194810.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194810.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.857Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

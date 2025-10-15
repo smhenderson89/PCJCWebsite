@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194872",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Filoli Historic House",
+  "date": "May 18, 2019",
+  "genus": "Sarcochilus",
+  "species": "Kulnura Berry",
+  "clone": "Purple Hue",
+  "cross": "Sarcochilus Kurumba x Sarcochilus Kulnura Musk",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194872.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 60,
+    "numBuds": 63,
+    "numInflorescences": 14,
+    "description": "Sixty-three intensely colored flowers and 63 buds on 14 mature inflorescences, and 63 buds on 14 immature inflorescences;\n\tflowers deep red-burgundy, some segments randomly marked white distally; \n\t\nlip saccate, yellow, orange markings;  column and anthercap white;\t\n\n\t\n\t\n\t\n\n\tsubstance firm; texture velvety-crystalline.",
+    "NS": 2.3,
+    "NSV": 2.4,
+    "DSW": 1.1,
+    "DSL": 1.6,
+    "PETW": 0.7,
+    "PETL": 1.1,
+    "LSW": 1,
+    "LSL": 1.5,
+    "LIPW": 0.3,
+    "LIPL": 0.4
+  },
+  "scrapedDate": "2025-10-15T02:42:38.929Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190518/20194872.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194872.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.929Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

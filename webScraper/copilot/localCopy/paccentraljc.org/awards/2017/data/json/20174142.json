@@ -1,0 +1,36 @@
+{
+  "awardNum": "20174142",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "San Francisco",
+  "date": "August 1, 2017",
+  "genus": "Paphiopedilum",
+  "species": "rothschildianum",
+  "clone": "Tiny Jungle",
+  "cross": "species",
+  "exhibitor": "Chris Mende",
+  "photographer": "N/A",
+  "photo": "images/20174142.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 5,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Five large flowers on one inflorescence; sepals and petals chartreuse, intensely striped dark mahogany, petals hirsute at margins;\n   pouch chartreuse overlaid dark cordovan; stamnode hirsute, light chartreuse; substance firm; texture waxy.",
+    "NS": 26,
+    "NSV": 12.5,
+    "DSW": 6,
+    "DSL": 6.4,
+    "PETW": 1.5,
+    "PETL": 14.5
+  },
+  "scrapedDate": "2025-10-15T03:32:22.400Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170801/20174142.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174142.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.401Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

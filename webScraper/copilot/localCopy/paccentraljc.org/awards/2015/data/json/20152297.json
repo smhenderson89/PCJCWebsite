@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152297",
+  "award": "FCC",
+  "awardpoints": 91,
+  "location": "San Francisco",
+  "date": "May 5, 2015",
+  "genus": "Masdevallia",
+  "species": "Billion-Nims",
+  "clone": "Red Tide",
+  "cross": "Masd. Falcon Sunrise x Masd. Annette Hall",
+  "exhibitor": "Ken Cook",
+  "photographer": "N/A",
+  "photo": "images/20152297.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Two well presented flat flowers on two inflorescences; sepals base color orange, veins red, blue hirsute;\n\tcaudae deep orange with blue hirsute; petals white; lip dark maroon;\n\tsubstance firm; texture crystalline.",
+    "NS": 5.3,
+    "NSV": 15,
+    "DSW": 2.2,
+    "DSL": 9,
+    "PETW": 0.3,
+    "PETL": 0.2,
+    "LSW": 2.4,
+    "LSL": 8.8,
+    "LIPW": 0.2,
+    "LIPL": 0.2
+  },
+  "scrapedDate": "2025-10-15T03:42:26.622Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150505/20152297.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152297.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.624Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

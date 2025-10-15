@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162333",
+  "award": "CCM",
+  "awardpoints": 83,
+  "location": "Gold Coast Cymbidium Growers Show",
+  "date": "March 18, 2016",
+  "genus": "Laelia",
+  "species": "anceps",
+  "clone": "V",
+  "cross": "species",
+  "exhibitor": "Bill Weaver",
+  "photographer": "N/A",
+  "photo": "images/20162333.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 50,
+    "numBuds": 51,
+    "numInflorescences": 29,
+    "description": "Fifty flowers and 51 buds on 29 inflorescences on an 80-cm plant in a 36-cm pot; sepals and petals pale pink;\n    lip fuchsia distally, white with maroon lines centrally; \n    substance fair; texture matte.",
+    "NS": 9.8,
+    "NSV": 12.6,
+    "DSW": 1.5,
+    "DSL": 5.9,
+    "PETW": 3.1,
+    "PETL": 5.4,
+    "LSW": 1.5,
+    "LSL": 5.2,
+    "LIPW": 2.2,
+    "LIPL": 4.1
+  },
+  "scrapedDate": "2025-10-15T03:38:59.270Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160318/20162333.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162333.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.270Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

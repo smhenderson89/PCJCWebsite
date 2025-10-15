@@ -1,0 +1,32 @@
+{
+  "awardNum": "20162323",
+  "award": "CCM",
+  "awardpoints": 88,
+  "location": "Sonoma County Orchid Society Show",
+  "date": "April 2, 2016",
+  "genus": "Schoenorchis",
+  "species": "gemmata",
+  "clone": "Stony Point",
+  "cross": "species",
+  "exhibitor": "Marni Turkel",
+  "photographer": "N/A",
+  "photo": "images/20162323.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 5500,
+    "numBuds": 0,
+    "numInflorescences": 33,
+    "description": "Approximately 5500 flowers on 33 branched inflorescences on a 70-cm x 42-cm plant, \n\tgrown on an 8-cm x 6-cm treefern mount; dorsal sepal violet; petals and lip white;\n    substance not described; texture matte.",
+    "NS": 0.3,
+    "NSV": 0.4
+  },
+  "scrapedDate": "2025-10-15T03:38:59.254Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160402/20162323.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162323.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.256Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

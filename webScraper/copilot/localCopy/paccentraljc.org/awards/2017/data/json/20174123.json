@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174123",
+  "award": "CCM",
+  "awardpoints": 80,
+  "location": "Malihini Orchid Society Show",
+  "date": "February 10, 2017",
+  "genus": "Laelia",
+  "species": "Lookalike",
+  "clone": "Mary Frances",
+  "cross": "Laelia anceps x Laelia gouldiana",
+  "exhibitor": "Bill Weaver",
+  "photographer": "N/A",
+  "photo": "images/20174123.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 129,
+    "numBuds": 38,
+    "numInflorescences": 67,
+    "description": "One hundred twenty-nine flowers and 38 buds on 67 inflorescences; 120-cm diameter plant grown in 35-cm pot; sepals and petals magenta;\n\tlip magenta, crested yellow, striped dark magenta, dark magenta distally;  \n    substance soft; texture crystalline; condition of flowers precluded higher score.",
+    "NS": 6.6,
+    "NSV": 9.2,
+    "DSW": 1.4,
+    "DSL": 5.5,
+    "PETW": 2.3,
+    "PETL": 5.1,
+    "LSW": 1.4,
+    "LSL": 5.1,
+    "LIPW": 1.5,
+    "LIPL": 4
+  },
+  "scrapedDate": "2025-10-15T03:32:22.339Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170210/20174123.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174123.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.340Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

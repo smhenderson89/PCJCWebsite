@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152330",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Santa Clara Valley Orchid Society Show",
+  "date": "March 21, 2015",
+  "genus": "Cattleya",
+  "species": "coccinea",
+  "clone": "Tangerine Surprise",
+  "cross": "species",
+  "exhibitor": "Celeste Quarrey",
+  "photographer": "N/A",
+  "photo": "images/20152330.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 8,
+    "numBuds": 0,
+    "numInflorescences": 8,
+    "description": "Eight very flat flowers on eight inflorescences; sepals and petals vermillion;\n\tlip yellow overlaid maroon stripes basally, vermillion distally;\n\tsubstance medium; texture crystalline.",
+    "NS": 5.8,
+    "NSV": 5.2,
+    "DSW": 1.7,
+    "DSL": 2.6,
+    "PETW": 3.9,
+    "PETL": 2.9,
+    "LSW": 1.6,
+    "LSL": 2.7,
+    "LIPW": 1.1,
+    "LIPL": 2.2
+  },
+  "scrapedDate": "2025-10-15T03:42:26.664Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150321/20152330.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152330.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.665Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194876",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "July 20, 2019",
+  "genus": "Coryanthes",
+  "species": "macrantha",
+  "clone": "Ro Em",
+  "cross": "species",
+  "exhibitor": "Mary Bui-Pham",
+  "photographer": "N/A",
+  "photo": "images/20194876.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Two well-displayed flowers on one pendent inflorescence; \n\t\n\tsepals and petals reflexted, alate, green-yellow, heavily spotted cordovan;\n\t\n\t\nlip bucket-shaped, green-yellow, heavily spotted cordovan exterior and interior, hypochile globulous, yellow-orange distally, spotted cordovan, \nmesochile ridged, yellow-orange, heavily overlaid cordovan; column cordovan;\nsubstance firm, lip hard; texture waxy, lateral sepals matte.",
+    "NS": 8.7,
+    "NSV": 9.1,
+    "DSW": 2.6,
+    "DSL": 3,
+    "PETW": 0.7,
+    "PETL": 7,
+    "LSW": 4.9,
+    "LSL": 9.1,
+    "LIPW": 5.5,
+    "LIPL": 9.1
+  },
+  "scrapedDate": "2025-10-15T02:42:38.933Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190720/20194876.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194876.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.934Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

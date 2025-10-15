@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152348",
+  "award": "AM",
+  "awardpoints": 85,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 19, 2015",
+  "genus": "Dracula",
+  "species": "gorgona",
+  "clone": "Regency Brown",
+  "cross": "species",
+  "exhibitor": "John Leathers",
+  "photographer": "N/A",
+  "photo": "images/20152348.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 6,
+    "numBuds": 2,
+    "numInflorescences": 13,
+    "description": "Six flowers and two buds on thirteen inflorescences; sepals white with dark burgundy spots,\n    yellow suffusion proximally, caudae dark burgundy; lip yellow-pink; substance average; texture hairy.",
+    "NS": 10,
+    "NSV": 18,
+    "DSW": 3.3,
+    "DSL": 10,
+    "PETW": 0.1,
+    "PETL": 0.5,
+    "LSW": 3.2,
+    "LSL": 10,
+    "LIPW": 1.4,
+    "LIPL": 1.5
+  },
+  "scrapedDate": "2025-10-15T03:42:26.681Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150219/20152348.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152348.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.682Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

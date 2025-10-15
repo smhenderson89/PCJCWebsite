@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162309",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 25, 2016",
+  "genus": "Dendrobium",
+  "species": "Hawaii Spectacular",
+  "clone": "POE",
+  "cross": "Dendrobium Big Alex x Dendrobium spectabile",
+  "exhibitor": "H&R Nurseries",
+  "photographer": "N/A",
+  "photo": "images/20162309.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 38,
+    "numBuds": 0,
+    "numInflorescences": 5,
+    "description": "Thirty-eight flowers evenly distributed on five inflorescences; sepals and petals lanceolate, margins undulate,\n\tpink tessellated dark pink; lip tri-lobed dark rose-red veined darker rose-red, side lobes encircling column, mid-lobe \n\tlong, pointed;\n    substance medium; texture matte.",
+    "NS": 8,
+    "NSV": 6.5,
+    "DSW": 1.1,
+    "DSL": 3.4,
+    "PETW": 1.8,
+    "PETL": 4.2,
+    "LSW": 1.2,
+    "LSL": 4.2,
+    "LIPW": 2,
+    "LIPL": 4.5
+  },
+  "scrapedDate": "2025-10-15T03:38:59.226Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160225/20162309.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162309.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.227Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

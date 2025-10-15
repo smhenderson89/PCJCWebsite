@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194866",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "April 20, 2019",
+  "genus": "Phalaenopsis",
+  "species": "aphrodite",
+  "clone": "Huron",
+  "cross": "species",
+  "exhibitor": "Jim Heilig",
+  "photographer": "N/A",
+  "photo": "images/20194866.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 8,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eight flowers with petals touching on one inflorescence;\n\t\n\t\n\tsepals and petals white;\n\t\n\t\nlip white, side lobes white, deep rose striations basally, deep yellow front edge, keel yellow spotted deep rose;\t\nanther cap yellow;\n\t\n\t\n\t\n\n\tsubstance firm; texture crystalline.",
+    "NS": 7.7,
+    "NSV": 6.4,
+    "DSW": 2.6,
+    "DSL": 3.7,
+    "PETW": 4.7,
+    "PETL": 3.6,
+    "LSW": 2.4,
+    "LSL": 3.8,
+    "LIPW": 2.3,
+    "LIPL": 2.7
+  },
+  "scrapedDate": "2025-10-15T02:42:38.920Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190420/20194866.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194866.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.921Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

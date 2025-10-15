@@ -1,0 +1,36 @@
+{
+  "awardNum": "20152326",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Oakland",
+  "date": "February 16, 2015",
+  "genus": "Paphiopedilum",
+  "species": "Gigi and Clark's",
+  "clone": "Mary Ann McGarvey",
+  "cross": "Paphiopedilum Clark Gaviota x Paphiopedilum Gigi",
+  "exhibitor": "Leong Keat Chan",
+  "photographer": "N/A",
+  "photo": "images/20152326.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one inflorescence; dorsal sepal green with burgundy distinct spots, large white margin;\n    synsepal green with random burgundy spots; petals base color green, upper half tan-brown, \n    lower half lighter tan-brown with faint venation, red-brown proximally;\n    pouch base color green overlaid red-brown, midline stripe, red-brown interior with burgundy stripe;\n    staminode butter-yellow overlaid faint red; substance medium; texture glossy.",
+    "NS": 11.3,
+    "NSV": 11.2,
+    "DSW": 10,
+    "DSL": 6.5,
+    "PETW": 5.2,
+    "PETL": 7
+  },
+  "scrapedDate": "2025-10-15T03:42:26.656Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150216/20152326.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152326.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.657Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152356",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 19, 2015",
+  "genus": "Dracula",
+  "species": "vampira",
+  "clone": "Edgar",
+  "cross": "species",
+  "exhibitor": "John Leathers",
+  "photographer": "N/A",
+  "photo": "images/20152356.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 5,
+    "numBuds": 6,
+    "numInflorescences": 11,
+    "description": "Five flowers and six buds on eleven inflorescences;\n    sepals cream overlaid with bold burgundy-black stripes confluent proximally and distally;\n    caudae solid burgundy; lip cream with light burgundy vertical stripes; substance firm; texture matte.",
+    "NS": 18,
+    "NSV": 15,
+    "DSW": 3.5,
+    "DSL": 13,
+    "PETW": 0.2,
+    "PETL": 0.2,
+    "LSW": 3.6,
+    "LSL": 13,
+    "LIPW": 1.5,
+    "LIPL": 1.9
+  },
+  "scrapedDate": "2025-10-15T03:42:26.692Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150219/20152356.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152356.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.693Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

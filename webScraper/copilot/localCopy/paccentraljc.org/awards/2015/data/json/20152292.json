@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152292",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 23, 2015",
+  "genus": "Epidendrum",
+  "species": "Pacific Peacock",
+  "clone": "Fuchsia",
+  "cross": "Epidendrum Pacific Smoothie x Epidendrum Pacific Mulberry",
+  "exhibitor": "Cal-Orchid, Inc.",
+  "photographer": "N/A",
+  "photo": "images/20152292.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 18,
+    "numBuds": 15,
+    "numInflorescences": 1,
+    "description": "Eighteen flowers and fifteen buds on one inflorescence; sepals and petals saturated dark fuchsia;\n    lip dark fuchsia, light yellow keels, column red-magenta, anther cap pale green;\n    substance average; texture matte.",
+    "NS": 4.4,
+    "NSV": 5,
+    "DSW": 1.4,
+    "DSL": 2.2,
+    "PETW": 1.6,
+    "PETL": 2,
+    "LSW": 0.9,
+    "LSL": 2.3,
+    "LIPW": 2.6,
+    "LIPL": 2.5
+  },
+  "scrapedDate": "2025-10-15T03:42:26.605Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150123/20152292.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152292.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.607Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

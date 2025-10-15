@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194879",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "July 20, 2019",
+  "genus": "Cattleya",
+  "species": "tenebrosa",
+  "clone": "Bronze Belle",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20194879.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four flowers on one 35-cm inflorescence; \n\t\n\tsepals and petals red-bronze, proximal margins recurved;\n\t\n\t\nlip pink, heavily overlaid magenta, margin undulate;\n\nsubstance firm; texture matte.",
+    "NS": 18.5,
+    "NSV": 18,
+    "DSW": 2.3,
+    "DSL": 10,
+    "PETW": 4.1,
+    "PETL": 10,
+    "LSW": 2.1,
+    "LSL": 9.8,
+    "LIPW": 4.7,
+    "LIPL": 8.7
+  },
+  "scrapedDate": "2025-10-15T02:42:38.937Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190720/20194879.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194879.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.938Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

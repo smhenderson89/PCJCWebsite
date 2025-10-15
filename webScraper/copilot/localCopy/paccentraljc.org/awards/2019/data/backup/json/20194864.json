@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194864",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Gold Coast Cymbidium Growers Show",
+  "date": "April 13, 2019",
+  "genus": "Cymbidium",
+  "species": "Marilyn Hatfield",
+  "clone": "Cinnabar",
+  "cross": "Cymbidium James Toya x Cymbidium Flaming Pepper",
+  "exhibitor": "Weegie Caughlan",
+  "photographer": "N/A",
+  "photo": "images/20194864.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 11,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eleven flowers on one arching inflorescence;\n\t\n\tsepals and petals deeply saturated oxblood, darker venation, cream picotee;\n\t\n\tlip white, red border, darker venation, intense red stripe midline, keels pale yellow;\npollen cap pale yellow;\t\n\t\n\t\n\t\n\n\tsubstance moderately firm; texture matte.",
+    "NS": 9.5,
+    "NSV": 7.9,
+    "DSW": 4.1,
+    "DSL": 5.7,
+    "PETW": 3.3,
+    "PETL": 5.1,
+    "LSW": 4,
+    "LSL": 5.5,
+    "LIPW": 3.5,
+    "LIPL": 5.6
+  },
+  "scrapedDate": "2025-10-15T02:42:38.917Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190413/20194864.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194864.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.918Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

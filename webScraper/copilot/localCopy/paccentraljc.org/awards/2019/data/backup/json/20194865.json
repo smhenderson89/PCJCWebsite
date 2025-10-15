@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194865",
+  "award": "CCE",
+  "awardpoints": 91,
+  "location": "Gold Coast Cymbidium Growers Show",
+  "date": "April 13, 2019",
+  "genus": "Microcoelia",
+  "species": "stolzii",
+  "clone": "Kathy Fenwick",
+  "cross": "species",
+  "exhibitor": "Margaret and Terry Boomer",
+  "photographer": "N/A",
+  "photo": "images/20194865.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1700,
+    "numBuds": 440,
+    "numInflorescences": 60,
+    "description": "Approximately one thousand seven hundred flowers and approximately 440 buds on 60 arching inflorescences;\n\t25-cm diameter plant mounted on an inverted 7-cm square basket;\n\t\n\tflowers white;\n\t\n\t\nanther cap  yellow-orange;\t\n\t\n\t\n\t\n\n\tsubstance firm; texture crystalline.",
+    "NS": 0.3,
+    "NSV": 0.4,
+    "DSW": 0.2,
+    "DSL": 0.3,
+    "PETW": 0.2,
+    "PETL": 0.3,
+    "LSW": 0.2,
+    "LSL": 0.3,
+    "LIPW": 0.1,
+    "LIPL": 0.3
+  },
+  "scrapedDate": "2025-10-15T02:42:38.918Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190413/20194865.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194865.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.919Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

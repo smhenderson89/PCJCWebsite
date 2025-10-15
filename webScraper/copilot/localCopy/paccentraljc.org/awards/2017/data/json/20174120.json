@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174120",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 13, 2017",
+  "genus": "Rhynchostele",
+  "species": "bictoniensis",
+  "clone": "Nice Lips",
+  "cross": "species",
+  "exhibitor": "Jeff Trimble",
+  "photographer": "N/A",
+  "photo": "images/20174120.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 6,
+    "numBuds": 52,
+    "numInflorescences": 5,
+    "description": "Six flowers and 52 buds on five inflorescences; sepals yellow heavily barred mahogany; petals yellow centrally barred mahogany;\n\tlip intense lavender; \n    substance medium; texture matte.  Award provisional pending SITF review.",
+    "NS": 5,
+    "NSV": 5,
+    "DSW": 1.1,
+    "DSL": 2.6,
+    "PETW": 1,
+    "PETL": 2.5,
+    "LSW": 0.9,
+    "LSL": 2.5,
+    "LIPW": 2.5,
+    "LIPL": 3.1
+  },
+  "scrapedDate": "2025-10-15T03:32:22.320Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170113/20174120.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174120.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.321Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

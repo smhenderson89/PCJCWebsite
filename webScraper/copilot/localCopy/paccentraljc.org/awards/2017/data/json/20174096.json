@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174096",
+  "award": "CHM",
+  "awardpoints": 80,
+  "location": "San Francisco",
+  "date": "May 2, 2017",
+  "genus": "Dendrobium",
+  "species": "regium",
+  "clone": "Louanne",
+  "cross": "species",
+  "exhibitor": "Tom Pickford",
+  "photographer": "N/A",
+  "photo": "images/20174096.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 7,
+    "numBuds": 2,
+    "numInflorescences": 9,
+    "description": "Seven flowers and two buds on nine inflorescences on two upright canes; 25-cm wide by 40-tall plant in an 11-cm pot;\n\n\tsepals and petals white, blushed light pink distally;\n\n\tlip white, throat yellow, pink distally; substance papery; texture matte; commended for tall upright canes \n\n\twith well-held self-supporting flowers.",
+    "NS": 6.7,
+    "NSV": 6.4,
+    "DSW": 1,
+    "DSL": 3,
+    "PETW": 2.1,
+    "PETL": 3.7,
+    "LSW": 1.2,
+    "LSL": 3.4,
+    "LIPW": 1.9,
+    "LIPL": 3.3
+  },
+  "scrapedDate": "2025-10-15T03:32:22.285Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170502/20174096.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174096.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.286Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

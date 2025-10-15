@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152293",
+  "award": "CCM",
+  "awardpoints": 88,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 23, 2015",
+  "genus": "Dinema",
+  "species": "polybulbon",
+  "clone": "Alpine",
+  "cross": "species",
+  "exhibitor": "Brookside Orchids",
+  "photographer": "N/A",
+  "photo": "images/20152293.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 352,
+    "numBuds": 5,
+    "numInflorescences": 357,
+    "description": "Three hundred fifty-two flowers and five buds on three hundred fifty-seven inflorescences on a beautifully\n    grown plant of spreading habit, 56 cm by 89 cm, completely covering and spreading out from an 18 cm by\n    34 cm cork mount; sepals and petals light gold, overlaid light brown proximally;\n    lip white, midline gold; column chartreuse blotched magenta; substance good; texture matte.",
+    "NS": 2.1,
+    "NSV": 2.3,
+    "DSW": 0.3,
+    "DSL": 1.1,
+    "PETW": 0.2,
+    "PETL": 0.8,
+    "LSW": 0.2,
+    "LSL": 1.4,
+    "LIPW": 0.8,
+    "LIPL": 0.9
+  },
+  "scrapedDate": "2025-10-15T03:42:26.609Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150123/20152293.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152293.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.610Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

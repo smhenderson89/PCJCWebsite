@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162331",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "San Francisco",
+  "date": "May 3, 2016",
+  "genus": "Phalaenopsis",
+  "species": "Pylo's Bunny",
+  "clone": "Macy",
+  "cross": "Phalaenopsis I-Hsin Salmon x Phalaenopsis Penang Girl",
+  "exhibitor": "Cordelia Wong",
+  "photographer": "N/A",
+  "photo": "images/20162331.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 5,
+    "numBuds": 0,
+    "numInflorescences": 3,
+    "description": "Five flat flowers on three branched inflorescences;\n    sepals and petals dark red-purple, reverse marked slight light green on apical tips, visible on front on some flowers;\n    lip dark purple; column violet transitioning to light pink apically; substance heavy; texture waxy; frangrance faint sweet-spice.",
+    "NS": 5.2,
+    "NSV": 5.4,
+    "DSW": 1.5,
+    "DSL": 2.9,
+    "PETW": 1.6,
+    "PETL": 2.4,
+    "LSW": 1.6,
+    "LSL": 3.2,
+    "LIPW": 0.8,
+    "LIPL": 2
+  },
+  "scrapedDate": "2025-10-15T03:38:59.265Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160503/20162331.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162331.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.266Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

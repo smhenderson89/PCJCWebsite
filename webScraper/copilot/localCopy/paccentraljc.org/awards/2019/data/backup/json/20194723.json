@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194723",
+  "award": "FCC",
+  "awardpoints": 91,
+  "location": "Oakland",
+  "date": "March 18, 2019",
+  "genus": "Dendrobium",
+  "species": "kingianum",
+  "clone": "T. R. Samara",
+  "cross": "species",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
+  "photo": "images/20194723.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 6,
+    "numBuds": 2,
+    "numInflorescences": 1,
+    "description": "Six exceptionally dark flat flowers and two buds on one inflorescence;\n\tsepals and petals vibrant red-violet, lighter basally, petals flat and nicely displayed;\n\tlip white overlaid dark red-violet markings, white picotee, keel yellow, fine red-violet spotting;\n\t\n\t\n\t\n\n\tsubstance moderately firm; texture crystalline.",
+    "NS": 3.3,
+    "NSV": 2.9,
+    "DSW": 0.8,
+    "DSL": 1.7,
+    "PETW": 0.5,
+    "PETL": 1.5,
+    "LSW": 0.8,
+    "LSL": 1.7,
+    "LIPW": 1,
+    "LIPL": 1.1
+  },
+  "scrapedDate": "2025-10-15T02:42:38.833Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190318/20194723.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194723.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.834Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

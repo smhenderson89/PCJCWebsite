@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162340",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Oakland",
+  "date": "July 18, 2016",
+  "genus": "Dracula",
+  "species": "Raven",
+  "clone": "Dark Hawk",
+  "cross": "Dracula roezlii x Dracula vampira",
+  "exhibitor": "Carol Klonowski",
+  "photographer": "N/A",
+  "photo": "images/20162340.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 1,
+    "numInflorescences": 2,
+    "description": "One flower and one bud on two inflorescences; sepals medium green, heavily spotted and blotched dark brown along veins, \n\n\tcoalescing apically, caudae dark brown; lip light pink; column light green; substance heavy; texture matte.",
+    "NS": 9.3,
+    "NSV": 18.5,
+    "DSW": 2.8,
+    "DSL": 11.7,
+    "PETW": 0.2,
+    "PETL": 0.3,
+    "LSW": 2.8,
+    "LSL": 10.6,
+    "LIPW": 1.1,
+    "LIPL": 1.5
+  },
+  "scrapedDate": "2025-10-15T03:38:59.276Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160718/20162340.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162340.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.276Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

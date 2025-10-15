@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162360",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Oakland",
+  "date": "May 16, 2016",
+  "genus": "Phalaenopsis",
+  "species": "Phoenix Cardinal",
+  "clone": "Ruby",
+  "cross": "Phaleanopsis An Tai Spot x Phalaenopsis Brother Purple",
+  "exhibitor": "Eric Goo/Phoenix Orchids",
+  "photographer": "N/A",
+  "photo": "images/20162360.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 10,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Ten beautifully spaced flowers on two arching inflorescences, one 40 cm and one 50 cm long; sepals and petals\n\tvery pale green entirely overlaid with coalesced fine deep-magenta spots; lip dark magenta, interior side\n\tlobes golden; column white;\n    substance very heavy; texture lacquered.",
+    "NS": 6.4,
+    "NSV": 4.5,
+    "DSW": 2.5,
+    "DSL": 3.2,
+    "PETW": 2.7,
+    "PETL": 3,
+    "LSW": 2.3,
+    "LSL": 4,
+    "LIPW": 1.2,
+    "LIPL": 2.6
+  },
+  "scrapedDate": "2025-10-15T03:38:59.299Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160516/20162360.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162360.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.299Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

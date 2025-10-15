@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162355",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Oakland",
+  "date": "May 16, 2016",
+  "genus": "Phalaenopsis",
+  "species": "Phoenix Canary",
+  "clone": "Yellow Beauty",
+  "cross": "Phaleanopsis Yungho Gelb Canary 'Chin Yo' x Phalaenopsis Penang Girl 'Taipei'",
+  "exhibitor": "Eric Goo/Phoenix Orchids",
+  "photographer": "N/A",
+  "photo": "images/20162355.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 7,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Seven flowers on two inflorescences; sepals and petals yellow with green suffusion, white centrally, \n\tvery slight pink suffusion on the medial aspect of lateral sepals; lip white with bright yellow side lobes;  \n    substance hard; texture waxy.",
+    "NS": 4.9,
+    "NSV": 6.2,
+    "DSW": 2.2,
+    "DSL": 3.2,
+    "PETW": 1.9,
+    "PETL": 2.2,
+    "LSW": 2.1,
+    "LSL": 2.8,
+    "LIPW": 1.1,
+    "LIPL": 2.1
+  },
+  "scrapedDate": "2025-10-15T03:38:59.292Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160516/20162355.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162355.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.293Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

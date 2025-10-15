@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162311",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 25, 2016",
+  "genus": "Eria",
+  "species": "palmifolia",
+  "clone": "Jenny",
+  "cross": "species",
+  "exhibitor": "Andy's Orchids",
+  "photographer": "N/A",
+  "photo": "images/20162311.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1400,
+    "numBuds": 0,
+    "numInflorescences": 9,
+    "description": "Approximately 1,400 flowers on nine inflorescences, gracefully arranged cylindrically on three pseudobulbs; \n\tsepals and petals ivory suffused dark pink, white apically; lip maroon, white on distal half;  column maroon, anther cap yellow;\n    substance firm; texture crystalline.",
+    "NS": 1,
+    "NSV": 1,
+    "DSW": 0.5,
+    "DSL": 0.7,
+    "PETW": 0.4,
+    "PETL": 0.6,
+    "LSW": 0.8,
+    "LSL": 0.6,
+    "LIPW": 0.4,
+    "LIPL": 0.6
+  },
+  "scrapedDate": "2025-10-15T03:38:59.231Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160225/20162311.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162311.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.232Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "awardNum": "20194830",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "San Francisco",
+  "date": "October 1, 2019",
+  "genus": "Phragmipedium",
+  "species": "QF Aloha",
+  "clone": "Hunter",
+  "cross": "Phragmipedium dalessandroi x Phragmipedium QF Naukana Kealoha",
+  "exhibitor": "John McCallen",
+  "photographer": "N/A",
+  "photo": "images/20194830.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flowers on one branched inflorescence;\n\n\t\n\n\tdorsal sepal flat, yellow lightly overlaid orange;\n\n\tsynsepal yellow overlaid light orange;\n\n\tpetals undulating, light red-orange, yellow basally;\n\n\tpouch yellow, overlaid red-orange, margin yellow spotted red-orange;\n\n\t\n\n\t\n\n\n\nsubstance moderate; texture matte.",
+    "NS": 7.7,
+    "NSV": 6.8,
+    "DSW": 2,
+    "DSL": 4,
+    "PETW": 1.7,
+    "PETL": 5
+  },
+  "scrapedDate": "2025-10-15T02:42:38.885Z",
+  "sourceUrl": "https://www.paccentraljc.org/20191001/20194830.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194830.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.885Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

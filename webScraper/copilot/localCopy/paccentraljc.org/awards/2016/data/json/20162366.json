@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162366",
+  "award": "CCM",
+  "awardpoints": 81,
+  "location": "Oakland",
+  "date": "August 15, 2016",
+  "genus": "Cattleya",
+  "species": "purpurata",
+  "clone": "Rose",
+  "cross": "species",
+  "exhibitor": "Miriam Rose",
+  "photographer": "N/A",
+  "photo": "images/20162366.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 63,
+    "numBuds": 0,
+    "numInflorescences": 23,
+    "description": "Sixty-three flowers well-displayed on 23 inflorescences; well-grown 130-cm wide plant in a 38-cm plastic pot; sepals\n\n\tand petals white, slight pink blush centrally on petals; lip dark rose-purple, yellow centrally, veined dark-purple; column\n\n\twhite with pink spot above anther cap;\n\n\tsubstance medium; texture crystalline.",
+    "NS": 16,
+    "NSV": 19.5,
+    "DSW": 2.4,
+    "DSL": 10,
+    "PETW": 5,
+    "PETL": 10.5,
+    "LSW": 2.3,
+    "LSL": 10.4,
+    "LIPW": 4,
+    "LIPL": 8
+  },
+  "scrapedDate": "2025-10-15T03:38:59.307Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160815/20162366.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162366.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.307Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

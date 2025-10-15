@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152327",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Oakland",
+  "date": "February 16, 2015",
+  "genus": "Cymbidium",
+  "species": "Ruby Turner",
+  "clone": "Sophia A. Lin",
+  "cross": "Cymbidium Black Forest x Cymbidium Ruby Eyes",
+  "exhibitor": "Heather T. Drubus",
+  "photographer": "N/A",
+  "photo": "images/20152327.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 22,
+    "numBuds": 6,
+    "numInflorescences": 3,
+    "description": "Twenty-two flowers on two arched inflorescences and six buds on one immature inflorescence;\n    sepals and petals dark red-brown; lip white, heavily overlaid similar dark red-brown but with much more red,\n    arranged in strong pattern distally, prominent keels white, spotted red-brown and tinged with yellow;\n    substance firm; texture matte.",
+    "NS": 6,
+    "NSV": 4.6,
+    "DSW": 2.5,
+    "DSL": 3.9,
+    "PETW": 1.8,
+    "PETL": 3.8,
+    "LSW": 2.3,
+    "LSL": 3.8,
+    "LIPW": 2.5,
+    "LIPL": 3.1
+  },
+  "scrapedDate": "2025-10-15T03:42:26.657Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150216/20152327.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152327.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.658Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

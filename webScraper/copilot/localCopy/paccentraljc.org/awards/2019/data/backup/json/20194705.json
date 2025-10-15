@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194705",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 25, 2019",
+  "genus": "Zygopetalum",
+  "species": "Mishima Goddess",
+  "clone": "Midnight",
+  "cross": "Zygopetalum B. G. White x Zygopetalum James Strauss",
+  "exhibitor": "Weegie Caughlan",
+  "photographer": "N/A",
+  "photo": "images/20194705.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 5,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Five flowers on one inflorescence;\n\tsepals and petals chartreuse heavily blotched dark mahogany;\n\tlip white, overlaid purple waterfall;\n\n\n\t\n\t\n\t \n\tsubstance very firm; texture matte.",
+    "NS": 6,
+    "NSV": 6,
+    "DSW": 2,
+    "DSL": 2.3,
+    "PETW": 1.5,
+    "PETL": 2.5,
+    "LSW": 2.2,
+    "LSL": 3,
+    "LIPW": 3.5,
+    "LIPL": 2.6
+  },
+  "scrapedDate": "2025-10-15T02:42:38.797Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190125/20194705.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194705.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.798Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

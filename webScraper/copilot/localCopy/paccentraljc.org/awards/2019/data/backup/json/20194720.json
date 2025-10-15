@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194720",
+  "award": "CCM",
+  "awardpoints": 83,
+  "location": "Santa Cruz Orchid Society Show",
+  "date": "March 2, 2019",
+  "genus": "Epigeneium",
+  "species": "acuminatum",
+  "clone": "In Situ",
+  "cross": "species",
+  "exhibitor": "Jeff Tyler",
+  "photographer": "N/A",
+  "photo": "images/20194720.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 211,
+    "numBuds": 39,
+    "numInflorescences": 23,
+    "description": "Two hundred eleven star-shaped flat flowers and 39 buds on 23 inflorescences;\n\t77-cm diameter plant grown in 20-cm net pot;\n\t\t\n    sepals and petals white;\n\t\n\tlip white, side lobes yellow, maroon stripes;\n\t\n\t\n\n\tsubstance fair; texture matte.",
+    "NS": 4.9,
+    "NSV": 5.1,
+    "DSW": 0.6,
+    "DSL": 2.5,
+    "PETW": 0.5,
+    "PETL": 2.5,
+    "LSW": 0.6,
+    "LSL": 2.7,
+    "LIPW": 0.8,
+    "LIPL": 1.7
+  },
+  "scrapedDate": "2025-10-15T02:42:38.828Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190302/20194720.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194720.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.829Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194867",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Filoli Historic House",
+  "date": "April 20, 2019",
+  "genus": "Cymbidium",
+  "species": "Hazel's Dragon",
+  "clone": "Princess Ziva",
+  "cross": "Cymbidium Hazel Tyers x Cymbidium Satin Dragon",
+  "exhibitor": "Weegie Caughlan",
+  "photographer": "N/A",
+  "photo": "images/20194867.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 16,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Sixteen flowers on one well-staked inflorescence;\n\tsepals and petals cream suffused blush pink, veined darker pink;\n\t\n\tlip cream, dark magenta band distally, spotting on mid-lobes, keels pale yellow;\npollen cap cream;\t\n\t\n\t\n\t\n\n\tsubstance firm; texture matte.",
+    "NS": 11,
+    "NSV": 10,
+    "DSW": 4,
+    "DSL": 7,
+    "PETW": 3.5,
+    "PETL": 6,
+    "LSW": 4,
+    "LSL": 6.5,
+    "LIPW": 3.3,
+    "LIPL": 5
+  },
+  "scrapedDate": "2025-10-15T02:42:38.921Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190420/20194867.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194867.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.922Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162334",
+  "award": "CCM",
+  "awardpoints": 80,
+  "location": "Gold Coast Cymbidium Growers Show",
+  "date": "March 18, 2016",
+  "genus": "Laelia",
+  "species": "Canariensis",
+  "clone": "Golden Glow",
+  "cross": "Laelia anceps x Cattleya harpophylla",
+  "exhibitor": "Bill Weaver",
+  "photographer": "N/A",
+  "photo": "images/20162334.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 86,
+    "numBuds": 49,
+    "numInflorescences": 53,
+    "description": "Eighty-six flowers and 49 buds on 53 up-to 52-cm tall inflorescences filling a 38-cm round pot; plant 102cm wide, pseudobulbs up to 16.5cm x 3cm,\n\tleaves up to 26.3cm x 5.1cm; sepals and petals yellow; lip yellow, darker yellow in center, veined red in throat;\n    substance medium; texture matte.",
+    "NS": 9,
+    "NSV": 10,
+    "DSW": 1.6,
+    "DSL": 5.2,
+    "PETW": 2.2,
+    "PETL": 5,
+    "LSW": 2.3,
+    "LSL": 5.1,
+    "LIPW": 2.5,
+    "LIPL": 3.9
+  },
+  "scrapedDate": "2025-10-15T03:38:59.271Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160318/20162334.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162334.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.272Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

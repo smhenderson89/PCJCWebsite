@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152378",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Oakland",
+  "date": "December 21, 2015",
+  "genus": "Catasandra",
+  "species": "Jumbo Express",
+  "clone": "Jumbo Golden Elf",
+  "cross": "Galeandra devoniana x Catasetum fimbriatum",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
+  "photo": "images/20152378.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 11,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eleven flowers on one inflorescence; flower cream; sepals and petals spotted maroon;\n\tlip spotted maroon basally, throat yellow, dense maroon markings toward edge, fringe on edge; \n    substance heavy; texture matte.",
+    "NS": 6,
+    "NSV": 4.2,
+    "DSW": 0.8,
+    "DSL": 2.2,
+    "PETW": 1.5,
+    "PETL": 2.7,
+    "LSW": 0.8,
+    "LSL": 3,
+    "LIPW": 2.6,
+    "LIPL": 3.9
+  },
+  "scrapedDate": "2025-10-15T03:42:26.723Z",
+  "sourceUrl": "https://www.paccentraljc.org/20151221/20152378.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152378.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.723Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

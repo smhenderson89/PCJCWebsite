@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174162",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Gold Coast Cymbidium Growers Show",
+  "date": "April 22, 2017",
+  "genus": "Cymbidium",
+  "species": "Space Tango",
+  "clone": "Cinnabar",
+  "cross": "Cymbidium Enterprise Voyage x Cymbidium Last Tango",
+  "exhibitor": "Weegie Caughlan",
+  "photographer": "N/A",
+  "photo": "images/20174162.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 32,
+    "numBuds": 1,
+    "numInflorescences": 3,
+    "description": "Thirty-two round and slightly cuppy flowers and one bud on three inflorescences; sepals and petals white, striped and heavily suffused maroon; \n\tlip white, maroon spots coalescing distally; column white overlaid maroon, anther cap white; substance firm; texture matte.",
+    "NS": 6,
+    "NSV": 5.5,
+    "DSW": 2,
+    "DSL": 4,
+    "PETW": 2.2,
+    "PETL": 3.2,
+    "LSW": 3,
+    "LSL": 3.1,
+    "LIPW": 2.1,
+    "LIPL": 2.8
+  },
+  "scrapedDate": "2025-10-15T03:32:22.448Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170422/20174162.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174162.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.449Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "awardNum": "20174169",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "San Francisco",
+  "date": "June 6, 2017",
+  "genus": "Phragmipedium",
+  "species": "Grande",
+  "clone": "Belmont",
+  "cross": "Phragmipedium longifolium x Phragmipedium humboldtii",
+  "exhibitor": "Josie Lee",
+  "photographer": "N/A",
+  "photo": "images/20174169.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flowers on one inflorescence; dorsal sepal cream overlaid green, darker green veins; synsepal cream, green veins;\n   petals cream, dark green central vein proximally transitioning to violet-brown adjacent to pouch;\n   pouch light green overlaid light chestnut, interior cream, light mahogany spots;\n   substance average; texture semi-glossy.",
+    "NS": 5.3,
+    "NSV": 50.5,
+    "DSW": 2.6,
+    "DSL": 17,
+    "PETW": 1.4,
+    "PETL": 48
+  },
+  "scrapedDate": "2025-10-15T03:32:22.461Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170606/20174169.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174169.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.462Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

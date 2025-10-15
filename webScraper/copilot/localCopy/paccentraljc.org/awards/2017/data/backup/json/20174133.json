@@ -1,0 +1,36 @@
+{
+  "awardNum": "20174133",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "San Francisco",
+  "date": "April 4, 2017",
+  "genus": "Paphiopedilum",
+  "species": "Kevin Porter",
+  "clone": "Raspberry",
+  "cross": "Paphiopedilum bellatulum x Paphiopedilum micranthum",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
+  "photo": "images/20174133.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Three flowers on two inflorescences; dorsal sepal pale green overlaid rose, striped maroon;\n   synsepal pale green, lightly striped maroon; petals pale green overlaid burgundy, strongly tesselated dark burgundy;\n   pouch cream, blushed rose; staminoid yellow, spotted maroon; substance average; texture waxy.",
+    "NS": 8.4,
+    "NSV": 8.5,
+    "DSW": 3.9,
+    "DSL": 3.6,
+    "PETW": 3.6,
+    "PETL": 4.1
+  },
+  "scrapedDate": "2025-10-15T03:32:22.379Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170404/20174133.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174133.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.380Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

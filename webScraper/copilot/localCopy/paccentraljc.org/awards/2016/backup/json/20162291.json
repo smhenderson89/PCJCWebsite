@@ -1,0 +1,36 @@
+{
+  "awardNum": "20162291",
+  "award": "CCM",
+  "awardpoints": 83,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 22, 2016",
+  "genus": "Masdevallia",
+  "species": "nidifica",
+  "clone": "Lise",
+  "cross": "species",
+  "exhibitor": "Mary Gerritsen",
+  "photographer": "N/A",
+  "photo": "images/20162291.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 59,
+    "numBuds": 131,
+    "numInflorescences": 190,
+    "description": "Fifty-nine flowers and 131 buds on 190 inflorescences on a 35-cm by 25-cm plant mounted on a cork branch; dorsal sepal cream overlaid burgundy; lateral sepals cream lightly speckled burgundy; petals and lip\n    insignificant; caudae burgundy;\t\n    substance papery; texture matte; plant well-grown with pristine foliage.",
+    "NS": 2.4,
+    "NSV": 3.5,
+    "DSW": 0.8,
+    "DSL": 4,
+    "LSW": 0.4,
+    "LSL": 3.5
+  },
+  "scrapedDate": "2025-10-15T03:38:59.186Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160122/20162291.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162291.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.196Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

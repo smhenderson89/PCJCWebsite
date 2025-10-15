@@ -1,0 +1,40 @@
+{
+  "awardNum": "20174174",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Oakland",
+  "date": "November 20, 2017",
+  "genus": "Cattleya",
+  "species": "Bright Circle",
+  "clone": "Grass Valley",
+  "cross": "Cattleya Bright Angel x Cattleya Circle of Life",
+  "exhibitor": "Ted McClellan",
+  "photographer": "N/A",
+  "photo": "images/20174174.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Two flowers on one inflorescence;\n\tsepals and petals orange-red;\n\tlip red, dark red venations, center bright yellow; substance firm; texture crystalline.",
+    "NS": 9.3,
+    "NSV": 9.2,
+    "DSW": 2.2,
+    "DSL": 4.9,
+    "PETW": 4.3,
+    "PETL": 4.8,
+    "LSW": 2,
+    "LSL": 4.6,
+    "LIPW": 2.2,
+    "LIPL": 2.6
+  },
+  "scrapedDate": "2025-10-15T03:32:22.483Z",
+  "sourceUrl": "https://www.paccentraljc.org/20171120/20174174.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174174.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.484Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

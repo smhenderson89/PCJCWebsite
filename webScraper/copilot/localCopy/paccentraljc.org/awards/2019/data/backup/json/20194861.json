@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194861",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Gold Coast Cymbidium Growers Show",
+  "date": "April 13, 2019",
+  "genus": "Cymbidium",
+  "species": "Hazel's Dragon",
+  "clone": "Loyola",
+  "cross": "Cymbidium Hazel Tyers x Cymbidium Satin Dragon",
+  "exhibitor": "Weegie Caughlan",
+  "photographer": "N/A",
+  "photo": "images/20194861.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 11,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eleven flowers on one upright inflorescence;\n\tsepals cream overlaid rose;\n\tpetals cream overlaid rose, cream edging;\n\tlip cream, broad maroon band distally;\npollen cap cream;\t\n\t\n\t\n\t\n\n\tsubstance firm; texture matte.",
+    "NS": 11.2,
+    "NSV": 9.5,
+    "DSW": 5.1,
+    "DSL": 6.8,
+    "PETW": 4.2,
+    "PETL": 6.3,
+    "LSW": 3.8,
+    "LSL": 5.5,
+    "LIPW": 4,
+    "LIPL": 7.2
+  },
+  "scrapedDate": "2025-10-15T02:42:38.913Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190413/20194861.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194861.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.914Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

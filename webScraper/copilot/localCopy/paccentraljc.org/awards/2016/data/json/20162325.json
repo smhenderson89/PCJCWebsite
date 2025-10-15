@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162325",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "San Francisco",
+  "date": "April 5, 2016",
+  "genus": "Rhyncattleanthe",
+  "species": "Fordyce Fantasy",
+  "clone": "Sweet Sixteen",
+  "cross": "Rhyncholaeliocattleya Horizon Flight x Guarianthe aurantiaca",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
+  "photo": "images/20162325.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 12,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Twelve flowers on two inflorescences; sepals gold; petals gold, heavily overlaid magenta on\n\tmargins and centrally; lip yellow overlaid magenta centrally, distinct intense magenta picotee; \n    substance firm; texture matte.",
+    "NS": 7.7,
+    "NSV": 8.2,
+    "DSW": 2.6,
+    "DSL": 4.9,
+    "PETW": 4.9,
+    "PETL": 4.6,
+    "LSW": 2.5,
+    "LSL": 4.1,
+    "LIPW": 3.1,
+    "LIPL": 4
+  },
+  "scrapedDate": "2025-10-15T03:38:59.259Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160405/20162325.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162325.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.259Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

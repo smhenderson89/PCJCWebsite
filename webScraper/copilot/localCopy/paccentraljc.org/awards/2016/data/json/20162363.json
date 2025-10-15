@@ -1,0 +1,36 @@
+{
+  "awardNum": "20162363",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Oakland",
+  "date": "April 18, 2016",
+  "genus": "Phragmipedium",
+  "species": "Don Wimber",
+  "clone": "Elizabeth Langland",
+  "cross": "Phragmipedium Eric Young x Phragmipedium besseae",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "N/A",
+  "photo": "images/20162363.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 1,
+    "numInflorescences": 1,
+    "description": "One flower and one bud on one 32-cm inflorescence; dorsal sepal orange; synsepal yellow-orange;\n\tpetals red-orange;\n\tpouch red-orange, yellow internally; \n    substance firm; texture matte.",
+    "NS": 11.4,
+    "NSV": 7.4,
+    "DSW": 2.3,
+    "DSL": 4.5,
+    "PETW": 2.9,
+    "PETL": 6.1
+  },
+  "scrapedDate": "2025-10-15T03:38:59.303Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160418/20162363.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162363.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.303Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

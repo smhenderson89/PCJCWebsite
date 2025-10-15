@@ -1,0 +1,36 @@
+{
+  "awardNum": "20162305",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 25, 2016",
+  "genus": "Paphiopedilum",
+  "species": "sukhakulii fma alba",
+  "clone": "Emerald",
+  "cross": "species",
+  "exhibitor": "Japheth Ko",
+  "photographer": "N/A",
+  "photo": "images/20162305.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower of outstanding size on one inflorescence; sepals white, veined dark green;\n   petals green veined darker; pouch chartreuse, some areas slightly pigmented brown; staminode chartreuse, reticulated darker;  \n   substance firm; texture glossy.",
+    "NS": 14,
+    "NSV": 9,
+    "DSW": 4.4,
+    "DSL": 5,
+    "PETW": 2.3,
+    "PETL": 7.1
+  },
+  "scrapedDate": "2025-10-15T03:38:59.217Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160225/20162305.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162305.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.218Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

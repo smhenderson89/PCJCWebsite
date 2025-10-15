@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194821",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Filoli Historic House",
+  "date": "August 6, 2019",
+  "genus": "Habenaria",
+  "species": "Tanager",
+  "clone": "Munising",
+  "cross": "Habenaria xanthocheila x Habenaria rhodocheila",
+  "exhibitor": "Jim Heilig",
+  "photographer": "N/A",
+  "photo": "images/20194821.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 30,
+    "numBuds": 18,
+    "numInflorescences": 3,
+    "description": "Thirty flowers and 18 buds on three mature inflorescences; \n\n\t\n\n\tdorsal sepal hooded, green, edged orange;\n\n\tlateral sepals cream, edged orange;\n\n\tpetals intense orange, tucked under dorsal sepal;\n\n\t\n\n\t\n\nlip dark orange, midlobe bifurcate, 4.1-cm nectary light orange basally, dark orange distally;\n\n\n\nsubstance medium; texture matte.",
+    "NS": 2.8,
+    "NSV": 5,
+    "DSW": 0.6,
+    "DSL": 1,
+    "PETW": 0.1,
+    "PETL": 0.6,
+    "LSW": 0.6,
+    "LSL": 1.2,
+    "LIPW": 2.8,
+    "LIPL": 2.8
+  },
+  "scrapedDate": "2025-10-15T02:42:38.872Z",
+  "sourceUrl": "",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194821.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.873Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

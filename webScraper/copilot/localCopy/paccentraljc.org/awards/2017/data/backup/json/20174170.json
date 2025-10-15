@@ -1,0 +1,36 @@
+{
+  "awardNum": "20174170",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "San Francisco",
+  "date": "June 6, 2017",
+  "genus": "Phragmipedium",
+  "species": "caudatum",
+  "clone": "Joz",
+  "cross": "species",
+  "exhibitor": "Josie Lee",
+  "photographer": "N/A",
+  "photo": "images/20174170.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 1,
+    "numInflorescences": 1,
+    "description": "Three flowers and one bud on one inflorescence; dorsal sepal cream suffused and striped pale apple green;\n    synsepal cream, light green veins;\n    petals cream suffused light green, dark green central vein proximally transitioning to violet-brown adjacent to pouch;\n    pouch cream overlaid light chestnut, interior cream, dark violet-brown spots; substance average; texture semi-glossy.",
+    "NS": 6,
+    "NSV": 63,
+    "DSW": 3,
+    "DSL": 22,
+    "PETW": 1.4,
+    "PETL": 60
+  },
+  "scrapedDate": "2025-10-15T03:32:22.471Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170606/20174170.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174170.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.472Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "awardNum": "20174128",
+  "award": "CCE",
+  "awardpoints": 96,
+  "location": "Pacific Orchid and Garden Exhibition",
+  "date": "February 23, 2017",
+  "genus": "Mediocalcar",
+  "species": "decoratum",
+  "clone": "Conservatory Clouds",
+  "cross": "species",
+  "exhibitor": "San Francisco Conservatory of Flowers, Eric Imperiale",
+  "photographer": "N/A",
+  "photo": "images/20174128.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1936,
+    "numBuds": 300,
+    "numInflorescences": 2236,
+    "description": "One thousand nine hundred thirty-six flowers and 300 buds on 2236 inflorescences; grown in an elongated tree fern cylinder creating an 86-cm circumference ball ; flowers bell shaped, sepals, petals and lip orange basally, yellow distally; anther cap yellow; substance very firm; texture glossy; noted for being an extremely clean and well-groomed plant.",
+    "NS": 0.7,
+    "NSV": 0.8
+  },
+  "scrapedDate": "2025-10-15T03:32:22.359Z",
+  "sourceUrl": "https://www.paccentraljc.org/20170223/20174128.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2017/html/20174128.html",
+  "year": 2017,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:32:22.360Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

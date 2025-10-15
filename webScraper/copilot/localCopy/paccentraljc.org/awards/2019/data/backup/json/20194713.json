@@ -1,0 +1,40 @@
+{
+  "awardNum": "20194713",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 21, 2019",
+  "genus": "Dendrobium",
+  "species": "chrysopterum",
+  "clone": "Alex Koomanoff",
+  "cross": "species",
+  "exhibitor": "Golden Gate Orchids",
+  "photographer": "N/A",
+  "photo": "images/20194713.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 55,
+    "numBuds": 1,
+    "numInflorescences": 0,
+    "description": "Fifty-five flowers and one bud borne on ten mature canes;\n\tdorsal sepal and petals bright yellow;\n    lateral sepals fused to form mentum, bright orange, bright yellow apically;\t\n   \n\t\n\tlip bright orange;\n\tanther cap dark green;\n\t\n\n\tsubstance average; texture crystalline.",
+    "NS": 3.9,
+    "NSV": 4.3,
+    "DSW": 0.8,
+    "DSL": 1.2,
+    "PETW": 0.6,
+    "PETL": 1.6,
+    "LSW": 1.8,
+    "LSL": 3.2,
+    "LIPW": 1.6,
+    "LIPL": 2.2
+  },
+  "scrapedDate": "2025-10-15T02:42:38.815Z",
+  "sourceUrl": "https://www.paccentraljc.org/20190221/20194713.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194713.html",
+  "year": 2019,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.816Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

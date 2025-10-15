@@ -1,0 +1,40 @@
+{
+  "awardNum": "20152328",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Malihini Orchid Society Show",
+  "date": "March 6, 2015",
+  "genus": "Aerangis",
+  "species": "citrata",
+  "clone": "Carol Weeks",
+  "cross": "species",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "N/A",
+  "photo": "images/20152328.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 75,
+    "numBuds": 2,
+    "numInflorescences": 3,
+    "description": "Seventy-five flowers and two buds on three gracefully arching inflorescences;\n    sepals and petals light yellow-green; lip light yellow-green with white center; 3.0 cm spur pale-yellow;\n    substance firm; texture matte.",
+    "NS": 2,
+    "NSV": 2.3,
+    "DSW": 1.2,
+    "DSL": 1.2,
+    "PETW": 0.6,
+    "PETL": 1.1,
+    "LSW": 1,
+    "LSL": 1.2,
+    "LIPW": 0.4,
+    "LIPL": 0.6
+  },
+  "scrapedDate": "2025-10-15T03:42:26.659Z",
+  "sourceUrl": "https://www.paccentraljc.org/20150306/20152328.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2015/html/20152328.html",
+  "year": 2015,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:42:26.660Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}
