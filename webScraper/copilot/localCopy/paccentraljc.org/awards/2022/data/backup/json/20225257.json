@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225257",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "San Francisco",
+  "date": "April 5, 2022",
+  "genus": "Cymbidium",
+  "species": "Darrel Wong",
+  "clone": "Tangerine",
+  "cross": "Cymbidium Lambert Day x Cymbidium Karen Hawaiian",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225257.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 68,
+    "numBuds": 0,
+    "numInflorescences": 3,
+    "description": "Sixty-eight flowers on three 70-cm arching inflorescences;\n\n\t sepals yellow overlaid light red, stronger apically;\n\t petals yellow overlaid light red, stronger medially;\n\t lip bright yellow blotched red, darker orange-red bar distally on midlobe;\n\t column yellow overlaid red, anther cap white;\n\t substance firm; texture matte.",
+    "NS": 6.8,
+    "NSV": 6,
+    "DSW": 2.5,
+    "DSL": 5.3,
+    "PETW": 2.1,
+    "PETL": 4.5,
+    "LSW": 2.5,
+    "LSL": 4.3,
+    "LIPW": 2.2,
+    "LIPL": 3.2
+  },
+  "scrapedDate": "2025-10-13T18:32:45.352Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220405/20225257.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225257.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.353Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

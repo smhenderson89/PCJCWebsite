@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225419",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Sonoma County Orchid Society Show",
+  "date": "March 26, 2022",
+  "genus": "Cattleya",
+  "species": "intermedia",
+  "clone": "Amy 13",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225419.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 8,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eight flat flowers on one 17-cm inflorescence, and one additional immature inflorescence; \n\n\tsepals and petals white; lip white, side lobes blushed light rose, darker at margin, \n\n\tmidlobe magenta; anther cap white; substance firm; texture crystalline.",
+    "NS": 10.5,
+    "NSV": 10.2,
+    "DSW": 1.8,
+    "DSL": 5.8,
+    "PETW": 1.7,
+    "PETL": 5.3,
+    "LSW": 2,
+    "LSL": 4.9,
+    "LIPW": 3,
+    "LIPL": 5.6
+  },
+  "scrapedDate": "2025-10-13T18:32:45.507Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220326/20225419.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225419.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.508Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

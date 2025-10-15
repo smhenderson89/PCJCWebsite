@@ -1,20 +1,22 @@
 {
   "awardNum": "20215256",
-  "award": "HCC",
-  "awardpoints": 79,
+  "award": "CCE",
+  "awardpoints": 92,
   "location": "San Francisco",
   "date": "November 02, 2021",
   "genus": "Cymbidium",
   "species": "dayanum",
   "clone": "White Oak",
-  "cross": "species",
+  "cross": "'Royal Blue' AM/AOS x 'Blues Brothers'",
   "exhibitor": "Amy and Ken Jacobsen",
-  "photographer": "N/A",
+  "photographer": "Ken Jacobsen",
   "photo": "images/20215256.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 550,
+    "numBuds": 28,
+    "numInflorescences": 50,
+    "description": "Five-hundred fifty flowers and 28 buds on 50 pendant inflorescences;\nfully displayed around a 161x119-cm cleanly grown plant in a 20-cm plastic azalea pot, bark media; \n  sepals and petals pale chartreuse, midrib maroon;\n \nlip pale yellow, side lobes striped maroon, midlobe velvet dark maroon, calli ochre;\ncolumn black-maroon, anther cap yellow;\n substance medium; \ntexture glossy.",
     "NS": 4,
     "NSV": 4.4,
     "DSW": 0.7,
@@ -24,43 +26,15 @@
     "LSW": 0.7,
     "LSL": 2.9,
     "LIPW": 0.8,
-    "LIPL": 1.7,
-    "description": "Five-hundred fifty flowers and 28 buds on 50 pendant inflorescences; fully displayed around a 161x119-cm cleanly grown plant in a 20-cm plastic azalea pot, bark media; sepals and petals pale chartreuse, midrib maroon; lip pale yellow, side lobes striped maroon, midlobe velvet dark maroon, calli ochre; column black-maroon, anther cap yellow; substance medium; texture glossy."
+    "LIPL": 1.7
   },
-  "scrapedDate": "2025-10-08T04:08:27.671Z",
+  "scrapedDate": "2025-10-14T23:36:57.771Z",
   "sourceUrl": "https://www.paccentraljc.org/20211102/20215256.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215256.html",
   "year": 2021,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T04:08:57.835Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20215256",
-      "newValue": "https://www.paccentraljc.org/211102/20215256.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-09T22:09:23.773Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/211102/20215256.html",
-      "newValue": "https://www.paccentraljc.org/20211102/20215256.html",
-      "source": "automated-2021-source-url-correction",
-      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
-    },
-    {
-      "timestamp": "2025-10-09T23:08:56.015Z",
-      "field": "multiple",
-      "changes": [
-        "Set award to HCC",
-        "Set awardpoints to 79",
-        "Set photographer to N/A",
-        "Set cross to 'species'"
-      ],
-      "source": "automated-2021-fix-strategy",
-      "reason": "Applied fix strategy: Ask Toby how to handle missing info. Award is HCC and value is 79. Photographer is N/A. Cross is species."
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.772Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

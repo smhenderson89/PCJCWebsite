@@ -13,8 +13,10 @@
   "photo": "images/20215250.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 3,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flowers on one 10-cm inflorescence; \n  sepals pale rose;\n  petals white overlaid saturated magenta, white proximally, one dark red spot on each;\nlip white overlaid saturated magenta distally, yellow throat; column and column wings white; substance firm; \ntexture velvet.",
     "NS": 5.1,
     "NSV": 5.9,
     "DSW": 1.8,
@@ -24,49 +26,15 @@
     "LSW": 1.7,
     "LSL": 2.4,
     "LIPW": 3.2,
-    "LIPL": 2.9,
-    "description": "Three flowers on one 10-cm inflorescence; sepals pale rose; petals white overlaid saturated magenta, white proximally, one dark red spot on each; lip white overlaid saturated magenta distally, yellow throat; column and column wings white; substance firm; texture velvet."
+    "LIPL": 2.9
   },
-  "scrapedDate": "2025-10-08T04:08:27.646Z",
+  "scrapedDate": "2025-10-14T23:36:57.716Z",
   "sourceUrl": "https://www.paccentraljc.org/20210907/20215250.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215250.html",
   "year": 2021,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T04:08:57.833Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20215250",
-      "newValue": "https://www.paccentraljc.org/210907/20215250.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-09T22:09:23.752Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/210907/20215250.html",
-      "newValue": "https://www.paccentraljc.org/20210907/20215250.html",
-      "source": "automated-2021-source-url-correction",
-      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
-    },
-    {
-      "timestamp": "2025-10-09T23:08:56.021Z",
-      "field": "multiple",
-      "changes": [
-        "Set photographer to \"Ken Jacobsen Award 20215250 All awards considered pending until published in the AOS Orchids Plus. Pictures are not the AOS Award photos. Descriptions are subject to revision in final publication. &nbsp;Measurements in cm. &nbsp;NS &nbsp; 5.1 &nbsp;NSV &nbsp; 5.9 &nbsp;DSW &nbsp; 1.8 &nbsp;DSL &nbsp; 2.9 &nbsp;PETW &nbsp; 3.1 &nbsp;PETL &nbsp; 2.7 &nbsp;LSW &nbsp; 1.7 &nbsp;LSL &nbsp; 2.4 &nbsp;LIPW &nbsp; 3.2 &nbsp;LIPL &nbsp; 2.9 &nbsp;# flwrs 3 &nbsp;# buds 0 &nbsp;# infl 1 &nbsp; &nbsp; Description : Three flowers on one 10-cm inflorescence; sepals pale rose; petals white overlaid saturated magenta, white proximally, one dark red spot on each; lip white overlaid saturated magenta distally, yellow throat; column and column wings white; substance firm; texture velvet. &nbsp; Copyright 2021 AOS Pacific Central Judging Center ( home )\" from HTML"
-      ],
-      "source": "automated-2021-fix-strategy",
-      "reason": "Applied fix strategy: Photographer is in html source, needs to be added"
-    },
-    {
-      "timestamp": "2025-10-09T23:12:06.108Z",
-      "field": "multiple",
-      "changes": [
-        "Fixed photographer to \"Ken Jacobsen\""
-      ],
-      "source": "automated-2021-cleanup-and-fix",
-      "reason": "Cleaned up malformed data and applied proper fixes"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.724Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

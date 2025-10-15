@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225260",
+  "award": "AM",
+  "awardpoints": 86,
+  "location": "San Francisco",
+  "date": "September 6, 2022",
+  "genus": "Rhyncholaeliocattleya",
+  "species": "Dream Circle",
+  "clone": "Winston",
+  "cross": "Cattleya Circle of Life x Rhyncholaeliocattleya Hisako Akatsuka",
+  "exhibitor": "Any and Ken Jacobsen",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225260.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Four round, flat, full flowers on two 11.2-cm inflorescences;\n\tsepals and petals deep magenta; lip dark magenta distally, throat golden yellow;\n\tcolumn white overlaid pale lavendar, anther cap white;\n    substance firm; texture matte.",
+    "NS": 13.5,
+    "NSV": 13.8,
+    "DSW": 3.3,
+    "DSL": 7.1,
+    "PETW": 6.5,
+    "PETL": 7.3,
+    "LSW": 3,
+    "LSL": 7,
+    "LIPW": 5.8,
+    "LIPL": 5.5
+  },
+  "scrapedDate": "2025-10-13T18:32:45.358Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220906/20225260.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225260.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.359Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

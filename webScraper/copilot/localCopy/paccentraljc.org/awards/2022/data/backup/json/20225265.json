@@ -1,0 +1,36 @@
+{
+  "awardNum": "20225265",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "San Francisco",
+  "date": "December 6, 2022",
+  "genus": "Paphiopedilum",
+  "species": "Blushing Fred",
+  "clone": "Rainbow Orchids",
+  "cross": "Paphiopedilum Blushing Petula x Paphiopedilum President Fred",
+  "exhibitor": "Chris Neitro",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225265.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flat flower on a 23-cm inflorescence;\n\tdorsal sepal flat and wide, white veined green, blushed pink, darker distally;\n\tsynsepal white veined green;\n\tpetals slightly reflexed top edge, light green veined darker green, blushed pink-brown distal edges, a few distinct dark \n\tpink dots along hirsuite top edges; \n\tpouch light green, overlaid mahogany, darker veins; \n\tstaminode green, darker markings; substance medium; texture glossy.",
+    "NS": 12,
+    "NSV": 10.3,
+    "DSW": 7,
+    "DSL": 5.5,
+    "PETW": 3.1,
+    "PETL": 7.1
+  },
+  "scrapedDate": "2025-10-13T18:32:45.370Z",
+  "sourceUrl": "https://www.paccentraljc.org/20221206/20225265.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225265.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.372Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

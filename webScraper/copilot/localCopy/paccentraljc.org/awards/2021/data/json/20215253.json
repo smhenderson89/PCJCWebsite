@@ -7,14 +7,16 @@
   "genus": "Epidendrum",
   "species": "porpax",
   "clone": "Bugs!",
-  "cross": "",
+  "cross": "species",
   "exhibitor": "Japheth Ko",
-  "photographer": "",
+  "photographer": "Ken Jacobsen",
   "photo": "images/20215253.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 21,
+    "numBuds": 21,
+    "numInflorescences": 42,
+    "description": "Twenty-one flowers and 21 buds on 42 1.2-cm inflorescences; \n  sepals and petals clear pale green;\n  \nlip circular, clear pale green overlaid burgundy, stronger centrally; anther cap ivory;\n substance medium; \ntexture waxy.",
     "NS": 1.5,
     "NSV": 2,
     "DSW": 0.5,
@@ -24,31 +26,15 @@
     "LSW": 0.2,
     "LSL": 1.1,
     "LIPW": 1.4,
-    "LIPL": 1.3,
-    "description": "Twenty-one flowers and 21 buds on 42 1.2-cm inflorescences; sepals and petals clear pale green; lip circular, clear pale green overlaid burgundy, stronger centrally; anther cap ivory; substance medium; texture waxy."
+    "LIPL": 1.3
   },
-  "scrapedDate": "2025-10-08T04:08:27.660Z",
+  "scrapedDate": "2025-10-14T23:36:57.743Z",
   "sourceUrl": "https://www.paccentraljc.org/20211005/20215253.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215253.html",
   "year": 2021,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T04:08:57.834Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20215253",
-      "newValue": "https://www.paccentraljc.org/211005/20215253.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-09T22:09:23.763Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/211005/20215253.html",
-      "newValue": "https://www.paccentraljc.org/20211005/20215253.html",
-      "source": "automated-2021-source-url-correction",
-      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.745Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

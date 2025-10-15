@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225255",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "San Francisco",
+  "date": "April 5, 2022",
+  "genus": "Laeliocattleya",
+  "species": "Linda Bregante",
+  "clone": "Masquerade",
+  "cross": "Cattleya Okarchee x Laeliocattleya Miss Wonderful",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225255.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three full flowers on one upright 14-cm inflorescence;\n\n\t sepals lavender;\n\t petals full, crossing, ruffled edges, medium-dark lavender, white centrally proximally;\n\t lip frilly, dark lavender edges, dark lavender veins, yellow proximally, overlaid partially dark lavender veins;\n\t column white, dark lavender marks, anther cap white;\n\t substance firm; texture slightly crystalline.",
+    "NS": 14.5,
+    "NSV": 13.5,
+    "DSW": 3.3,
+    "DSL": 7.9,
+    "PETW": 6.8,
+    "PETL": 8.8,
+    "LSW": 3.4,
+    "LSL": 6.9,
+    "LIPW": 6.3,
+    "LIPL": 7.8
+  },
+  "scrapedDate": "2025-10-13T18:32:45.346Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220405/20225255.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225255.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.347Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

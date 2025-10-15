@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225317",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "April 16, 2022",
+  "genus": "Cattleya",
+  "species": "intermedia",
+  "clone": "Fancy One",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225317.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four flowers on one upright inflorescence 14cm long; sepals lanceolate, \n\n\twhite marked green at the tip; petals white overlaid purple margin \n\n\tand distal half, fading proximally; lip strongly frilled central margin, \n\n\tside lobes touching over column, white, \n\n\tstrongly marked purple margins; column white mostly overlaid purple, \n\n\tanther cap white; substance firm; texture matte.",
+    "NS": 11,
+    "NSV": 10.3,
+    "DSW": 2.1,
+    "DSL": 6,
+    "PETW": 3,
+    "PETL": 5.5,
+    "LSW": 2.2,
+    "LSL": 4.7,
+    "LIPW": 3,
+    "LIPL": 4.8
+  },
+  "scrapedDate": "2025-10-13T18:32:45.402Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220416/20225317.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225317.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.403Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

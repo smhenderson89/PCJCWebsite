@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225349",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "Filoli Historic House Monthly",
+  "date": "October 15, 2022",
+  "genus": "Cattlianthe",
+  "species": "Mary Elizabeth Bohn",
+  "clone": "Regal Flair",
+  "cross": "Cattlianthe Blue Boy x Guarianthe bowringiana",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225349.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 55,
+    "numBuds": 1,
+    "numInflorescences": 6,
+    "description": "Fifty-five flowers and one bud on six up to 31-cm upright inflorescences;\n\tsepals tips slightly recurved, lavender; petals slightly ruffled, tips recurved,\n\tlavender, darker distally; lip tubular, margin ruffled, intense purple,\n\tlighter centrally; column cream; substance firm; texture crystalline;  received CCE 90\n\taward# 20225350.",
+    "NS": 10.8,
+    "NSV": 10.9,
+    "DSW": 1.9,
+    "DSL": 6.5,
+    "PETW": 3.7,
+    "PETL": 7,
+    "LSW": 2,
+    "LSL": 6.4,
+    "LIPW": 3.5,
+    "LIPL": 5.3
+  },
+  "scrapedDate": "2025-10-13T18:32:45.466Z",
+  "sourceUrl": "https://www.paccentraljc.org/20221015/20225349.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225349.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.468Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -13,8 +13,10 @@
   "photo": "images/20215331.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 24,
+    "numBuds": 30,
+    "numInflorescences": 6,
+    "description": "Twenty-four flowers and 30 buds on six 46-cm  inflorescences; \n   sepals and petals uniformly rich orange-red; \n   lip ruffled apically, cream heavily overlaid magenta on margin, finely veined magenta centrally, \n   diffused lighter rust-red apically; substance medium; texture satin.",
     "NS": 11.5,
     "NSV": 11.5,
     "DSW": 1.1,
@@ -24,50 +26,15 @@
     "LSW": 1.2,
     "LSL": 6.5,
     "LIPW": 1.8,
-    "LIPL": 4,
-    "description": "Twenty-four flowers and 30 buds on six 46-cm inflorescences; sepals and petals uniformly rich orange-red; lip ruffled apically, cream heavily overlaid magenta on margin, finely veined magenta centrally, diffused lighter rust-red apically; substance medium; texture satin."
+    "LIPL": 4
   },
-  "scrapedDate": "2025-10-08T04:08:27.733Z",
+  "scrapedDate": "2025-10-14T23:36:57.909Z",
   "sourceUrl": "https://www.paccentraljc.org/20210808/20215331.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215331.html",
   "year": 2021,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T04:08:57.854Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20215331",
-      "newValue": "https://www.paccentraljc.org/210808/20215331.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-09T22:09:23.816Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/210808/20215331.html",
-      "newValue": "https://www.paccentraljc.org/20210808/20215331.html",
-      "source": "automated-2021-source-url-correction",
-      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
-    },
-    {
-      "timestamp": "2025-10-09T23:08:56.014Z",
-      "field": "multiple",
-      "changes": [
-        "Set exhibitor to \"Amy and Ken Jacobsen Award 20215331 All awards considered pending until published in the AOS Orchids Plus. Pictures are not the AOS Award photos. Descriptions are subject to revision in final publication. &nbsp;Measurements in cm. &nbsp;NS &nbsp; 11.5 &nbsp;NSV &nbsp; 11.5 &nbsp;DSW &nbsp; 1.1 &nbsp;DSL &nbsp; 6.3 &nbsp;PETW &nbsp; 1.6 &nbsp;PETL &nbsp; 5.7 &nbsp;LSW &nbsp; 1.2 &nbsp;LSL &nbsp; 6.5 &nbsp;LIPW &nbsp; 1.8 &nbsp;LIPL &nbsp; 4.0 &nbsp;# flwrs 24 &nbsp;# buds 30 &nbsp;# infl 6 &nbsp; &nbsp; Description : Twenty-four flowers and 30 buds on six 46-cm inflorescences; sepals and petals uniformly rich orange-red; lip ruffled apically, cream heavily overlaid magenta on margin, finely veined magenta centrally, diffused lighter rust-red apically; substance medium; texture satin. &nbsp; Copyright 2021 AOS Pacific Central Judging Center ( home )\" from HTML",
-        "Set photographer to N/A (not found in HTML)"
-      ],
-      "source": "automated-2021-fix-strategy",
-      "reason": "Applied fix strategy: Check HTML source for missing data"
-    },
-    {
-      "timestamp": "2025-10-09T23:12:06.100Z",
-      "field": "multiple",
-      "changes": [
-        "Fixed exhibitor to \"Amy and Ken Jacobsen\""
-      ],
-      "source": "automated-2021-cleanup-and-fix",
-      "reason": "Cleaned up malformed data and applied proper fixes"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.910Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

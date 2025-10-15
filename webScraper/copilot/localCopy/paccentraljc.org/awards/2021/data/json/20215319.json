@@ -13,8 +13,10 @@
   "photo": "images/20215319.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 12,
+    "numBuds": 14,
+    "numInflorescences": 2,
+    "description": "Twelve intensely colored flowers and 14 buds on two inflorescences, longest 18cm;\n\tflowers white heavily overlaid dark red blotches; \n\tlip saccate, yellow, diffused orange centrally; \n\tsubstance firm; texture crystalline.",
     "NS": 2.4,
     "NSV": 2.5,
     "DSW": 0.9,
@@ -24,50 +26,15 @@
     "LSW": 0.9,
     "LSL": 1.1,
     "LIPW": 0.5,
-    "LIPL": 0.5,
-    "description": "Twelve intensely colored flowers and 14 buds on two inflorescences, longest 18cm; flowers white heavily overlaid dark red blotches; lip saccate, yellow, diffused orange centrally; substance firm; texture crystalline."
+    "LIPL": 0.5
   },
-  "scrapedDate": "2025-10-08T04:08:27.715Z",
+  "scrapedDate": "2025-10-14T23:36:57.869Z",
   "sourceUrl": "https://www.paccentraljc.org/20210515/20215319.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215319.html",
   "year": 2021,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T04:08:57.850Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20215319",
-      "newValue": "https://www.paccentraljc.org/210515/20215319.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-09T22:09:23.800Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/210515/20215319.html",
-      "newValue": "https://www.paccentraljc.org/20210515/20215319.html",
-      "source": "automated-2021-source-url-correction",
-      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
-    },
-    {
-      "timestamp": "2025-10-09T23:08:55.998Z",
-      "field": "multiple",
-      "changes": [
-        "Set exhibitor to \"Chaunie Langland Award 20215319 All awards considered pending until published in the AOS Orchids Plus. Pictures are not the AOS Award photos. Descriptions are subject to revision in final publication. &nbsp;Measurements in cm. &nbsp;NS &nbsp; 2.4 &nbsp;NSV &nbsp; 2.5 &nbsp;DSW &nbsp; 0.9 &nbsp;DSL &nbsp; 1.1 &nbsp;PETW &nbsp; 0.5 &nbsp;PETL &nbsp; 1.1 &nbsp;LSW &nbsp; 0.9 &nbsp;LSL &nbsp; 1.1 &nbsp;LIPW &nbsp; 0.5 &nbsp;LIPL &nbsp; 0.5 &nbsp;# flwrs 12 &nbsp;# buds 14 &nbsp;# infl 2 &nbsp; &nbsp; Description : Twelve intensely colored flowers and 14 buds on two inflorescences, longest 18cm; flowers white heavily overlaid dark red blotches; lip saccate, yellow, diffused orange centrally; substance firm; texture crystalline. &nbsp; Copyright 2021 AOS Pacific Central Judging Center ( home )\" from HTML",
-        "Set photographer to N/A (not found in HTML)"
-      ],
-      "source": "automated-2021-fix-strategy",
-      "reason": "Applied fix strategy: Check HTML source for missing data"
-    },
-    {
-      "timestamp": "2025-10-09T23:12:06.096Z",
-      "field": "multiple",
-      "changes": [
-        "Fixed exhibitor to \"Chaunie Langland\""
-      ],
-      "source": "automated-2021-cleanup-and-fix",
-      "reason": "Cleaned up malformed data and applied proper fixes"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.870Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

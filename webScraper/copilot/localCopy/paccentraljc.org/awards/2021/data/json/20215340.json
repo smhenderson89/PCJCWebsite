@@ -9,42 +9,28 @@
   "clone": "Echo Valley",
   "cross": "Paphiopedilum Odette's Magic x Paphiopedilum Gyorgy Nagy",
   "exhibitor": "Echo Valley Orchids",
-  "photographer": "",
+  "photographer": "Chaunie Langland",
   "photo": "images/20215340.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "type": "LateralSepal",
+    "numFlowers": 1,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One striking flower on one staked 23.0-cm upright inflorescence; \n\tdorsal sepal apiculate, cream heavily overlaid burgundy, veined black-burgundy;\n    synsepal burgundy, striated saturated-burgundy;\t\n \n\tpetals ciliate, cream, proximally blushed green, heavily overlaid burgundy distally and on upper margins; \n\tpouch downy, black-burgundy; \n    staminode cream, suffused rose apically, burgundy distally;\n\tsubstance firm; texture glossy.",
     "NS": 12,
     "NSV": 10.9,
     "DSW": 6,
     "DSL": 6.3,
     "PETW": 2,
-    "PETL": 7.5,
-    "description": "One striking flower on one staked 23.0-cm upright inflorescence; dorsal sepal apiculate, cream heavily overlaid burgundy, veined black-burgundy; synsepal burgundy, striated saturated-burgundy; petals ciliate, cream, proximally blushed green, heavily overlaid burgundy distally and on upper margins; pouch downy, black-burgundy; staminode cream, suffused rose apically, burgundy distally; substance firm; texture glossy."
+    "PETL": 7.5
   },
-  "scrapedDate": "2025-10-08T04:08:27.747Z",
+  "scrapedDate": "2025-10-14T23:36:57.938Z",
   "sourceUrl": "https://www.paccentraljc.org/20211120/20215340.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215340.html",
   "year": 2021,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T04:08:57.862Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20215340",
-      "newValue": "https://www.paccentraljc.org/211120/20215340.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-09T22:09:23.831Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/211120/20215340.html",
-      "newValue": "https://www.paccentraljc.org/20211120/20215340.html",
-      "source": "automated-2021-source-url-correction",
-      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.939Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

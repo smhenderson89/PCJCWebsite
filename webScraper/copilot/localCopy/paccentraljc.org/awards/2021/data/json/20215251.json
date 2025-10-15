@@ -9,12 +9,14 @@
   "clone": "Snack Time",
   "cross": "Cycnoches Kevin Clarke x Cycnoches warscewiczii",
   "exhibitor": "Chaunie Langland",
-  "photographer": "",
+  "photographer": "Ken Jacobsen",
   "photo": "images/20215251.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "numFlowers": 4,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four non-resupinate female flowers on one 10-cm inflorescence; \n  sepals and petals green-yellow, midrib more prominant green;\n  \nlip cream overlaid green distally, callus dark green; column green; substance very firm; \ntexture waxy.",
     "NS": 12.6,
     "NSV": 10.4,
     "DSW": 3,
@@ -24,31 +26,15 @@
     "LSW": 2.9,
     "LSL": 5.4,
     "LIPW": 4.1,
-    "LIPL": 4.8,
-    "description": "Four non-resupinate female flowers on one 10-cm inflorescence; sepals and petals green-yellow, midrib more prominant green; lip cream overlaid green distally, callus dark green; column green; substance very firm; texture waxy."
+    "LIPL": 4.8
   },
-  "scrapedDate": "2025-10-08T04:08:27.656Z",
+  "scrapedDate": "2025-10-14T23:36:57.732Z",
   "sourceUrl": "https://www.paccentraljc.org/20210907/20215251.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215251.html",
   "year": 2021,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T04:08:57.834Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20215251",
-      "newValue": "https://www.paccentraljc.org/210907/20215251.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-09T22:09:23.763Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/210907/20215251.html",
-      "newValue": "https://www.paccentraljc.org/20210907/20215251.html",
-      "source": "automated-2021-source-url-correction",
-      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.735Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

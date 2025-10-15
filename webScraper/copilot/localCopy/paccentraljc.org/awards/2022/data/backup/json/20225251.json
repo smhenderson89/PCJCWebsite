@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225251",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "San Francisco",
+  "date": "April 5, 2022",
+  "genus": "Cymbidium",
+  "species": "Samurai Spirit",
+  "clone": "Woodside",
+  "cross": "Cymbidium Eastern Bunny x Cymbidium erythraeum",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225251.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 10,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Ten flowers on two 41-cm inflorescences;\n\t sepals green overlaid bronze;\n\t petals green overlaid bronze, intense burgundy marking proximal three-fourths, widest at base, narrowing along petal;\n\t lip white, short burgundy stripe center vein distally, additional burgundy marks each side of stripe;\n\t column green, anther cap white;\n\t substance medium-firm; texture matte.",
+    "NS": 6.5,
+    "NSV": 5,
+    "DSW": 0.9,
+    "DSL": 4,
+    "PETW": 0.8,
+    "PETL": 3.6,
+    "LSW": 1,
+    "LSL": 4.5,
+    "LIPW": 1.6,
+    "LIPL": 2.4
+  },
+  "scrapedDate": "2025-10-13T18:32:45.330Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220405/20225251.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225251.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.333Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

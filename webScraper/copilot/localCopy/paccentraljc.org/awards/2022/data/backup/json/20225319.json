@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225319",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Filoli Historic House",
+  "date": "April 16, 2022",
+  "genus": "Cymbidium",
+  "species": "Jack Halpern",
+  "clone": "Cinnabar",
+  "cross": "Cymbidium Redondo Sunset x Cymbidium Gallette",
+  "exhibitor": "Weegie Caughlan",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225319.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 21,
+    "numBuds": 0,
+    "numInflorescences": 3,
+    "description": "Twenty-one flowers on three upright inflorescences up to 60cm length;\n\tsepals yellow suffused burgundy, most intense on superior surface of lateral sepals; \n\tpetals yellow, burgundy central vein;\n\tlip pale yellow striped dark burgundy distally, spotted dark burgundy centrally; \n\tanther cap pale yellow; substance very firm; texture matte.",
+    "NS": 11.5,
+    "NSV": 9.5,
+    "DSW": 5,
+    "DSL": 8,
+    "PETW": 4.2,
+    "PETL": 6.5,
+    "LSW": 5,
+    "LSL": 6.8,
+    "LIPW": 4,
+    "LIPL": 5
+  },
+  "scrapedDate": "2025-10-13T18:32:45.407Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220416/20225319.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225319.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.407Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -9,12 +9,14 @@
   "clone": "Manistee",
   "cross": "Phalaenopsis Joyce Stewart x Phalaenopsis lindenii",
   "exhibitor": "James Heilig",
-  "photographer": "",
+  "photographer": "Chaunie Langland",
   "photo": "images/20215338.jpg",
   "measurements": {
     "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "numFlowers": 15,
+    "numBuds": 23,
+    "numInflorescences": 1,
+    "description": "Fifteen flowers and 23 buds well-distributed on an upright branched inflorescence of 22cm; \n  sepals and petals white striped pink, petals lightly flushed pink;\n  \nlip white, side lobes striped pink, midlobe darker pink, central callus bright yellow; \ncolumn flushed dark pink, anther cap white;\n substance medium; \ntexture diamond dust.",
     "NS": 3.6,
     "NSV": 3.6,
     "DSW": 0.8,
@@ -24,31 +26,15 @@
     "LSW": 1,
     "LSL": 2,
     "LIPW": 1.7,
-    "LIPL": 1.7,
-    "description": "Fifteen flowers and 23 buds well-distributed on an upright branched inflorescence of 22cm; sepals and petals white striped pink, petals lightly flushed pink; lip white, side lobes striped pink, midlobe darker pink, central callus bright yellow; column flushed dark pink, anther cap white; substance medium; texture diamond dust."
+    "LIPL": 1.7
   },
-  "scrapedDate": "2025-10-08T04:08:27.742Z",
+  "scrapedDate": "2025-10-14T23:36:57.931Z",
   "sourceUrl": "https://www.paccentraljc.org/20211016/20215338.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215338.html",
   "year": 2021,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T04:08:57.859Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20215338",
-      "newValue": "https://www.paccentraljc.org/211016/20215338.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-09T22:09:23.829Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/211016/20215338.html",
-      "newValue": "https://www.paccentraljc.org/20211016/20215338.html",
-      "source": "automated-2021-source-url-correction",
-      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.932Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

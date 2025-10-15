@@ -12,58 +12,25 @@
   "photographer": "N/A",
   "photo": "images/20215317.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "numFlowers": 0,
-    "numBuds": 0,
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 2,
+    "numInflorescences": 1,
+    "description": "One flower and two buds on a 16.0-cm slightly arching inflorescence;\n\tdorsal sepal green, veined cordovan, wide white margin; \n\tsynsepal pale green, veined darker green; \n\tpetals hirsute, twisted, slightly reflexed, pale green spotted oxblood; \n\tpouch pale green, overlaid rose, stippled darker rose; staminode largely green, centrally lighter, margin velvet, tinted cordovan; \n\tsubstance firm; texture waxy.",
     "NS": 10,
     "NSV": 8.1,
     "DSW": 5.3,
     "DSL": 4.1,
     "PETW": 1.7,
-    "PETL": 5.2,
-    "description": "One flower and two buds on a 16.0-cm slightly arching inflorescence; dorsal sepal green, veined cordovan, wide white margin; synsepal pale green, veined darker green; petals hirsute, twisted, slightly reflexed, pale green spotted oxblood; pouch pale green, overlaid rose, stippled darker rose; staminode largely green, centrally lighter, margin velvet, tinted cordovan; substance firm; texture waxy."
+    "PETL": 5.2
   },
-  "scrapedDate": "2025-10-08T04:08:27.709Z",
+  "scrapedDate": "2025-10-14T23:36:57.860Z",
   "sourceUrl": "https://www.paccentraljc.org/20210515/20215317.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215317.html",
   "year": 2021,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T04:08:57.849Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20215317",
-      "newValue": "https://www.paccentraljc.org/210515/20215317.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-09T22:09:23.798Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/210515/20215317.html",
-      "newValue": "https://www.paccentraljc.org/20210515/20215317.html",
-      "source": "automated-2021-source-url-correction",
-      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
-    },
-    {
-      "timestamp": "2025-10-09T23:08:55.989Z",
-      "field": "multiple",
-      "changes": [
-        "Set exhibitor to \"Tanya Lam Award 20215317 All awards considered pending until published in the AOS Orchids Plus. Pictures are not the AOS Award photos. Descriptions are subject to revision in final publication. &nbsp;Measurements in cm. &nbsp;NS &nbsp; 10.0 &nbsp;NSV &nbsp; 8.1 &nbsp;DSW &nbsp; 5.3 &nbsp;DSL &nbsp; 4.1 &nbsp;PETW &nbsp; 1.7 &nbsp;PETL &nbsp; 5.2 &nbsp;SYNSW &nbsp; 3.0 &nbsp;SYNSL &nbsp; 3.5 &nbsp;PCHW &nbsp; 2.8 &nbsp;PCHL &nbsp; 5.1 &nbsp;# flwrs 1 &nbsp;# buds 2 &nbsp;# infl 1 &nbsp; &nbsp; Description : One flower and two buds on a 16.0-cm slightly arching inflorescence; dorsal sepal green, veined cordovan, wide white margin; synsepal pale green, veined darker green; petals hirsute, twisted, slightly reflexed, pale green spotted oxblood; pouch pale green, overlaid rose, stippled darker rose; staminode largely green, centrally lighter, margin velvet, tinted cordovan; substance firm; texture waxy. &nbsp; Copyright 2021 AOS Pacific Central Judging Center ( home )\" from HTML",
-        "Set photographer to N/A (not found in HTML)"
-      ],
-      "source": "automated-2021-fix-strategy",
-      "reason": "Applied fix strategy: Check HTML source for missing data"
-    },
-    {
-      "timestamp": "2025-10-09T23:12:06.095Z",
-      "field": "multiple",
-      "changes": [
-        "Fixed exhibitor to \"Tanya Lam\""
-      ],
-      "source": "automated-2021-cleanup-and-fix",
-      "reason": "Cleaned up malformed data and applied proper fixes"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.861Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225352",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "Filoli Historic House",
+  "date": "November 19, 2022",
+  "genus": "Rhyncattleanthe",
+  "species": "Angel Voice",
+  "clone": "Gracie",
+  "cross": "Rhyncattleanthe Shinfong Little Love x Cattleya coccinea",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225352.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flowers well-presented on one upright 5.0-cm inflorescence;\n\t sepals and petals bright yellow heavily overlaid scarlet, petals transition to bright yellow proximally;\n\t\n\t lip bright yellow, distal margin bright scarlet;\n\t\n    substance very firm; texture crystalline.",
+    "NS": 6.7,
+    "NSV": 6.4,
+    "DSW": 2,
+    "DSL": 3.8,
+    "PETW": 2.8,
+    "PETL": 3.3,
+    "LSW": 1.8,
+    "LSL": 3.4,
+    "LIPW": 1.8,
+    "LIPL": 2.8
+  },
+  "scrapedDate": "2025-10-13T18:32:45.473Z",
+  "sourceUrl": "https://www.paccentraljc.org/20221119/20225352.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225352.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.474Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225411",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 24, 2022",
+  "genus": "Dendrobium",
+  "species": "cuthbertsonii",
+  "clone": "White Orb",
+  "cross": "species",
+  "exhibitor": "Golden Gate Orchids",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225411.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 6,
+    "numBuds": 1,
+    "numInflorescences": 7,
+    "description": "Six non-resupinate flowers and one bud on seven inflorescences;\n sepals and petals ivory;\n lip ivory, orange margin overlaid burgundy, white picotee; column white, anther cap white;\n substance firm; texture diamond dust.",
+    "NS": 2.5,
+    "NSV": 2.75,
+    "DSW": 0.9,
+    "DSL": 1.7,
+    "PETW": 1.1,
+    "PETL": 1.75,
+    "LSW": 1,
+    "LSL": 1.4,
+    "LIPW": 0.7,
+    "LIPL": 2
+  },
+  "scrapedDate": "2025-10-13T18:32:45.496Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220224/20225411.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225411.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.497Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

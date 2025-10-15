@@ -12,58 +12,25 @@
   "photographer": "N/A",
   "photo": "images/20215315.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal",
-    "numFlowers": 0,
+    "type": "LateralSepal",
+    "numFlowers": 1,
     "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One full flower on one sturdy 19.0-cm inflorescence;\n\tdorsal sepal white, veined green-brown, overlaid green basal one-third, transitioning to deep rose marginal two-thirds; \n\tsynsepal green, burgundy stripes, edge rose; \n\tpetals green basally transitioning to deep rose marginally, heavy dark mahogany warts basal two-thirds, upper margin hirsute; \n\tpouch burgundy, veined darker burgundy; staminode pale green, darker green centrally; \n\tsubstance medium; texture waxy.",
     "NS": 12.3,
     "NSV": 10.2,
     "DSW": 9,
     "DSL": 6.8,
     "PETW": 3.3,
-    "PETL": 7.3,
-    "description": "One full flower on one sturdy 19.0-cm inflorescence; dorsal sepal white, veined green-brown, overlaid green basal one-third, transitioning to deep rose marginal two-thirds; synsepal green, burgundy stripes, edge rose; petals green basally transitioning to deep rose marginally, heavy dark mahogany warts basal two-thirds, upper margin hirsute; pouch burgundy, veined darker burgundy; staminode pale green, darker green centrally; substance medium; texture waxy."
+    "PETL": 7.3
   },
-  "scrapedDate": "2025-10-08T04:08:27.706Z",
+  "scrapedDate": "2025-10-14T23:36:57.853Z",
   "sourceUrl": "https://www.paccentraljc.org/20210515/20215315.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215315.html",
   "year": 2021,
-  "corrections": [
-    {
-      "timestamp": "2025-10-08T04:08:57.848Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/awards/20215315",
-      "newValue": "https://www.paccentraljc.org/210515/20215315.html",
-      "source": "automated-source-url-correction",
-      "reason": "Updated to reflect actual source page URL structure (YYMMDD/awardNum.html)"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-09T22:09:23.797Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/210515/20215315.html",
-      "newValue": "https://www.paccentraljc.org/20210515/20215315.html",
-      "source": "automated-2021-source-url-correction",
-      "reason": "Updated from YYMMDD to YYYYMMDD format to match actual website structure"
-    },
-    {
-      "timestamp": "2025-10-09T23:08:55.985Z",
-      "field": "multiple",
-      "changes": [
-        "Set exhibitor to \"Dave Sorokowsky Award 20215315 All awards considered pending until published in the AOS Orchids Plus. Pictures are not the AOS Award photos. Descriptions are subject to revision in final publication. &nbsp;Measurements in cm. &nbsp;NS &nbsp; 12.3 &nbsp;NSV &nbsp; 10.2 &nbsp;DSW &nbsp; 9.0 &nbsp;DSL &nbsp; 6.8 &nbsp;PETW &nbsp; 3.3 &nbsp;PETL &nbsp; 7.3 &nbsp;SYNSW &nbsp; 4.1 &nbsp;SYNSL &nbsp; 4.7 &nbsp;PCHW &nbsp; 2.7 &nbsp;PCHL &nbsp; 5.6 &nbsp;# flwrs 1 &nbsp;# buds 0 &nbsp;# infl 1 &nbsp; &nbsp; Description : One full flower on one sturdy 19.0-cm inflorescence; dorsal sepal white, veined green-brown, overlaid green basal one-third, transitioning to deep rose marginal two-thirds; synsepal green, burgundy stripes, edge rose; petals green basally transitioning to deep rose marginally, heavy dark mahogany warts basal two-thirds, upper margin hirsute; pouch burgundy, veined darker burgundy; staminode pale green, darker green centrally; substance medium; texture waxy. &nbsp; Copyright 2021 AOS Pacific Central Judging Center ( home )\" from HTML",
-        "Set photographer to N/A (not found in HTML)"
-      ],
-      "source": "automated-2021-fix-strategy",
-      "reason": "Applied fix strategy: Check HTML source for missing data"
-    },
-    {
-      "timestamp": "2025-10-09T23:12:06.094Z",
-      "field": "multiple",
-      "changes": [
-        "Fixed exhibitor to \"Dave Sorokowsky\""
-      ],
-      "source": "automated-2021-cleanup-and-fix",
-      "reason": "Cleaned up malformed data and applied proper fixes"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.854Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

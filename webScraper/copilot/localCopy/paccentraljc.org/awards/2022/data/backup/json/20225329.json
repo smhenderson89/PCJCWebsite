@@ -1,0 +1,38 @@
+{
+  "awardNum": "20225329",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "May 21, 2022",
+  "genus": "Paphiopedilum",
+  "species": "Wossner Black Wings",
+  "clone": "Memoria Scott Collins",
+  "cross": "Paphiopedilum rothschildianum 'Leo' x Paphiopedilum adductum 'Ace'",
+  "exhibitor": "Echo Valley Orchids",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225329.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three well presented flowers on a 46-cm erect inflorescence; dorsal sepal vibrant chartreuse,\n\theavily striped dark mahogany; synsepal vibrant chartreuse, mahogany stripes;\n\tpetals symetrically twisted, light green, spotted and barred mahogany basally, coalesced into solid mahogany distally,\n\tproximal margins ruffled, sparsely hirsute; pouch light green overlaid mahogany except distal tip; \n\tstaminode light green-yellow, mahogany cilia edges; \n\tsubstance firm; texture matte, pouch glossy.",
+    "NS": 22.5,
+    "NSV": 20.5,
+    "DSW": 5.4,
+    "DSL": 6.8,
+    "PETW": 1.8,
+    "PETL": 17,
+    "LSW": 4.5,
+    "LSL": 6.8
+  },
+  "scrapedDate": "2025-10-13T18:32:45.426Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220521/20225329.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225329.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.427Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "awardNum": "20225339",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Filoli Historic House",
+  "date": "July 16, 2022",
+  "genus": "Paphiopedilum",
+  "species": "Regine Plows",
+  "clone": "Austin Creek",
+  "cross": "Paphiopedilum Shin Yi's Pride x Paphiopedilum Johanna Burkhardt",
+  "exhibitor": "Dale Martin",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225339.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four flowers crowded on a 27.1-cm inflorescence; dorsal sepal chartreuse,\n\tstriped mahogany, diffuse centrally; synsepal chartreuse, striped mahogany; \n\tpetals hirsute edges, chartreuse, mahogany spots basally, fusing to dark mahogany distally; \n\tpouch charteuse, partially overlaid light brown; staminode light yellow, \n\tmahogany sides, canescent; substance firm; texture matte.",
+    "NS": 12.5,
+    "NSV": 21.4,
+    "DSW": 5.6,
+    "DSL": 8,
+    "PETW": 1.6,
+    "PETL": 14.6,
+    "LSW": 4.3,
+    "LSL": 7.3
+  },
+  "scrapedDate": "2025-10-13T18:32:45.443Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220716/20225339.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225339.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.444Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}
