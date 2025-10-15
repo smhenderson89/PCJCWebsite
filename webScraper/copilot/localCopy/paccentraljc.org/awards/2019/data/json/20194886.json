@@ -1,17 +1,22 @@
 {
   "awardNum": "20194886",
-  "award": "AM 80",
+  "award": "AM",
   "awardpoints": 80,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "November 16, 2019",
-  "genus": "",
-  "species": "",
-  "clone": "GENERATOR",
+  "genus": "Paphiopedilum",
+  "species": "Fred's Magical Bean",
+  "clone": "Slipperzone Bright Glow",
   "cross": "Paphiopedilum Fred's Moon 'Lehua's Glow' x Paphiopedilum Fred's Magic 'Lightly Peppered'",
   "exhibitor": "Lehua Orchids",
   "photographer": "N/A",
   "photo": "images/20194886.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 1,
+    "numInflorescences": 1,
+    "description": "One flower and one bud on one cut inflorescence;  \n   dorsal sepal and synsepal cream, striped bright green; \n   petals cream, striped and flushed green basally, flushed light maroon distally, small dark maroon spots overall;\n   pouch green, flushed and veined dark maroon; \n   staminode cream, veined green centrally, flushed maroon edge;\n\tsubstance moderate; texture matte; slight damage in transit.",
     "NS": 11.9,
     "NSV": 8.2,
     "DSW": 5.8,
@@ -21,37 +26,15 @@
     "LSW": 3.7,
     "LSL": 4.3,
     "LIPW": 2.7,
-    "LIPL": 5.8,
-    "numFlowers": 1,
-    "numBuds": 1,
-    "numInflorescences": 1,
-    "type": "Lip&LateralSepal"
+    "LIPL": 5.8
   },
+  "scrapedDate": "2025-10-15T02:42:38.947Z",
   "sourceUrl": "https://www.paccentraljc.org/20191116/20194886.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194886.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.672Z",
-  "lastModified": "2025-10-10T02:44:34.980Z",
-  "fixesApplied": 4,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.980Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194886.html",
-      "newValue": "https://www.paccentraljc.org/20191116/20194886.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.980Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.948Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

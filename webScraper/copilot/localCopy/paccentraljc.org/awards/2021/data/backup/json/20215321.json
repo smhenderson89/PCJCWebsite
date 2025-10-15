@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215321",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Filoli Historic House",
+  "date": "June 19, 2021",
+  "genus": "Cattleya",
+  "species": "Heathii (1)",
+  "clone": "#9",
+  "cross": "Cattleya loddigesii x Cattleya walkeriana",
+  "exhibitor": "Any and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20215321.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three erect flowers on one upright unstaked inflorescence;\n\tsepals light lavender; \n\tpetals slightly frilled, light lavender, faintly striated darker lavender;\n\tlip frilled, darker lavender to purple distally, yellow throat;\n\tcolumn bulbous, white, purple spot distal edge;\n\tsubstance firm; texture matte.",
+    "NS": 12.7,
+    "NSV": 12.1,
+    "DSW": 3.2,
+    "DSL": 7.2,
+    "PETW": 5.6,
+    "PETL": 6.4,
+    "LSW": 3.3,
+    "LSL": 6.2,
+    "LIPW": 4.8,
+    "LIPL": 5.5
+  },
+  "scrapedDate": "2025-10-14T23:36:57.876Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210619/20215321.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215321.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.876Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

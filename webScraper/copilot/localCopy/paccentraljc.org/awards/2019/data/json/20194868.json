@@ -1,17 +1,22 @@
 {
   "awardNum": "20194868",
-  "award": "HCC 78",
+  "award": "HCC",
   "awardpoints": 78,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "April 20, 2019",
   "genus": "Laelia",
   "species": "jongheana",
-  "clone": "GENERATOR",
+  "clone": "Bentley",
   "cross": "species",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "N/A",
   "photo": "images/20194868.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Two flowers on two inflorescences;\n\tsepals and petals white;\n\t\n\tlip white, yellow basally to end of side lobes, side lobes bright yellow, keels yellow-orange; \n\tanther cap yellow;\n\t\n\t\n\t\n\t\n\n\tsubstance firm; texture crystalline.",
     "NS": 14,
     "NSV": 12,
     "DSW": 2,
@@ -21,37 +26,15 @@
     "LSW": 2,
     "LSL": 8,
     "LIPW": 2,
-    "LIPL": 5.8,
-    "numFlowers": 2,
-    "numBuds": 0,
-    "numInflorescences": 2,
-    "type": "Lip&LateralSepal"
+    "LIPL": 5.8
   },
+  "scrapedDate": "2025-10-15T02:42:38.923Z",
   "sourceUrl": "https://www.paccentraljc.org/20190420/20194868.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194868.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.664Z",
-  "lastModified": "2025-10-10T02:44:34.973Z",
-  "fixesApplied": 4,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.973Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194868.html",
-      "newValue": "https://www.paccentraljc.org/20190420/20194868.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.973Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.923Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

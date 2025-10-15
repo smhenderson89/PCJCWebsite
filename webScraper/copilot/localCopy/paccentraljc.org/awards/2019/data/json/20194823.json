@@ -1,17 +1,22 @@
 {
   "awardNum": "20194823",
-  "award": "AM 80",
+  "award": "AM",
   "awardpoints": 80,
-  "location": "",
+  "location": "San Francisco",
   "date": "August 6, 2019",
   "genus": "Cynorkis",
   "species": "gibbosa",
-  "clone": "GENERATOR",
+  "clone": "Newago",
   "cross": "species",
   "exhibitor": "Jim Heilig",
   "photographer": "N/A",
   "photo": "images/20194823.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 6,
+    "numBuds": 18,
+    "numInflorescences": 1,
+    "description": "Six flowers and 18 buds on one 32-cm inflorescence; \n\t\n\tdorsal sepal hooded, light pink-orange;;\n\tlateral sepals pink-orange;\n\tpetals porrect, held tightly under dorsal sepal, pink-orange, darker on distal one-third;\n\t\n\t\nlip four-lobed, cream overlaid pink-orange, dark pink blotch centrally, spur 2.3cm, chartreuse;\n\nsubstance firm; texture matte.",
     "NS": 3.5,
     "NSV": 3.1,
     "DSW": 0.9,
@@ -21,37 +26,15 @@
     "LSW": 0.9,
     "LSL": 1.7,
     "LIPW": 1.7,
-    "LIPL": 2.3,
-    "numFlowers": 6,
-    "numBuds": 18,
-    "numInflorescences": 1,
-    "type": "Lip&LateralSepal"
+    "LIPL": 2.3
   },
-  "sourceUrl": "https://www.paccentraljc.org/20190806/20194823.html",
+  "scrapedDate": "2025-10-15T02:42:38.875Z",
+  "sourceUrl": "",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194823.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.655Z",
-  "lastModified": "2025-10-10T02:44:34.960Z",
-  "fixesApplied": 4,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.960Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194823.html",
-      "newValue": "https://www.paccentraljc.org/20190806/20194823.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.960Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.876Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215336",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Filoli Historic House",
+  "date": "September 18, 2021",
+  "genus": "Cattleya",
+  "species": "Circle Star",
+  "clone": "Flared Orb",
+  "cross": "Vanda critata x Vanda tricolor var. suavis",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20215336.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Two flowers on one 11-cm inflorescence; \n  sepals apricot veined red;\n  petals apricot veined red, splashed darker red fanning midline to apex;\n  \nlip bright yellow, midlobe fully flushed intense crimson; column pale pink, anther cap white;\n substance firm; \ntexture crystalline.",
+    "NS": 8.1,
+    "NSV": 7.4,
+    "DSW": 2.6,
+    "DSL": 4.6,
+    "PETW": 4.3,
+    "PETL": 4.2,
+    "LSW": 2.3,
+    "LSL": 4.5,
+    "LIPW": 2.5,
+    "LIPL": 2.5
+  },
+  "scrapedDate": "2025-10-14T23:36:57.923Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210918/20215336.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215336.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.924Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

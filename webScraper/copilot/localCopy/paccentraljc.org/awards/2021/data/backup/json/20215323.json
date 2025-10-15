@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215323",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Filoli Historic House",
+  "date": "July 17, 2021",
+  "genus": "Miltonia",
+  "species": "phymatochila",
+  "clone": "#1",
+  "cross": "species",
+  "exhibitor": "Any and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20215323.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2288,
+    "numBuds": 3,
+    "numInflorescences": 12,
+    "description": "Approximately 2288 flowers in very fine condition and three buds on 12\nhighly branched inflorescences approximately 151cm long; exceptionally\nwell-grown 137x103-cm plant in bark, 36 flat pseudobulbs 13.5x6cm,\n leathery leaves 47x9.2cm, 31-cm bulb pan; sepals and petals\nreflexed, coiled, light chartreuse barred light mahogany; lip white, ruffled\nside lobes, spotted light brown, claw white spotted light brown, callus\nyellow spotted light brown; column chartreuse, column wings white\nspotted light brown, anther cap chartreuse; substance soft; texture\nmatte; all flowers in peak condition influenced the cultural award 20215324 this plant also received.",
+    "NS": 2.5,
+    "NSV": 4.2,
+    "DSW": 0.3,
+    "DSL": 2.8,
+    "PETW": 0.2,
+    "PETL": 1.5,
+    "LSW": 0.3,
+    "LSL": 3,
+    "LIPW": 1.5,
+    "LIPL": 2.1
+  },
+  "scrapedDate": "2025-10-14T23:36:57.881Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210717/20215323.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215323.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.882Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

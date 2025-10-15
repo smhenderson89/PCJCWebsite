@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215255",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "San Francisco",
+  "date": "November 02, 2021",
+  "genus": "Rhyncattleanthe",
+  "species": "Ho Woon",
+  "clone": "Kewpie",
+  "cross": "Cattleya Seagulls Laurel Hollow x Rhyncattleanthe Fordyce Fantasy",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20215255.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 7,
+    "numBuds": 1,
+    "numInflorescences": 2,
+    "description": "Seven flowers and one bud crowded on two 8.5-cm inflorescences; \n  sepals gold, dusted rose;\n  petals gold, heavily overlaid rose;\n  \nlip yellow, overlaid rose distally, rose stripe up center;\ncolumn yellow, anther cap white;\n substance very firm; \ntexture matte.",
+    "NS": 10.4,
+    "NSV": 11.3,
+    "DSW": 2.8,
+    "DSL": 7,
+    "PETW": 5,
+    "PETL": 5.9,
+    "LSW": 2.9,
+    "LSL": 6,
+    "LIPW": 4.1,
+    "LIPL": 6.1
+  },
+  "scrapedDate": "2025-10-14T23:36:57.762Z",
+  "sourceUrl": "https://www.paccentraljc.org/20211102/20215255.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215255.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.765Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215253",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "San Francisco",
+  "date": "October 5, 2021",
+  "genus": "Epidendrum",
+  "species": "porpax",
+  "clone": "Bugs!",
+  "cross": "species",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20215253.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 21,
+    "numBuds": 21,
+    "numInflorescences": 42,
+    "description": "Twenty-one flowers and 21 buds on 42 1.2-cm inflorescences; \n  sepals and petals clear pale green;\n  \nlip circular, clear pale green overlaid burgundy, stronger centrally; anther cap ivory;\n substance medium; \ntexture waxy.",
+    "NS": 1.5,
+    "NSV": 2,
+    "DSW": 0.5,
+    "DSL": 1.1,
+    "PETW": 0.1,
+    "PETL": 1.1,
+    "LSW": 0.2,
+    "LSL": 1.1,
+    "LIPW": 1.4,
+    "LIPL": 1.3
+  },
+  "scrapedDate": "2025-10-14T23:36:57.743Z",
+  "sourceUrl": "https://www.paccentraljc.org/20211005/20215253.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215253.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.745Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

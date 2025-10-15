@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215319",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Filoli Historic House",
+  "date": "May 15, 2021",
+  "genus": "Sarcochilus",
+  "species": "Kulnura Rage",
+  "clone": "Sue Rose",
+  "cross": "Sarcochilus Kulnura Dazzel x Sarcochilus Kulnura Drive",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "N/A",
+  "photo": "images/20215319.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 12,
+    "numBuds": 14,
+    "numInflorescences": 2,
+    "description": "Twelve intensely colored flowers and 14 buds on two inflorescences, longest 18cm;\n\tflowers white heavily overlaid dark red blotches; \n\tlip saccate, yellow, diffused orange centrally; \n\tsubstance firm; texture crystalline.",
+    "NS": 2.4,
+    "NSV": 2.5,
+    "DSW": 0.9,
+    "DSL": 1.1,
+    "PETW": 0.5,
+    "PETL": 1.1,
+    "LSW": 0.9,
+    "LSL": 1.1,
+    "LIPW": 0.5,
+    "LIPL": 0.5
+  },
+  "scrapedDate": "2025-10-14T23:36:57.869Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210515/20215319.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215319.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.870Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

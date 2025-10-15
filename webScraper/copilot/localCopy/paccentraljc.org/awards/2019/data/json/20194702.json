@@ -1,17 +1,22 @@
 {
   "awardNum": "20194702",
-  "award": "HCC 76",
+  "award": "HCC",
   "awardpoints": 76,
   "location": "Peninsula Orchid Society Show",
   "date": "January 25, 2019",
   "genus": "Laelia",
-  "species": "anceps",
-  "clone": "GENERATOR",
+  "species": "anceps v. veitchiana",
+  "clone": "Jennifer Joyce",
   "cross": "species",
   "exhibitor": "Japheth Ko",
   "photographer": "N/A",
   "photo": "images/20194702.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flowers on one inflorescence;\n\tsepals and petals white;\n\tlip white overlaid lavender-purple, yellow centrally, midlobe striated dark maroon, margins wavy;\n\n\t\n\t\n\t \n\tsubstance firm; texture crystalline.",
     "NS": 12,
     "NSV": 11.5,
     "DSW": 2.4,
@@ -21,37 +26,15 @@
     "LSW": 2.1,
     "LSL": 6.1,
     "LIPW": 3,
-    "LIPL": 4.8,
-    "numFlowers": 3,
-    "numBuds": 0,
-    "numInflorescences": 1,
-    "type": "Lip&LateralSepal"
+    "LIPL": 4.8
   },
+  "scrapedDate": "2025-10-15T02:42:38.786Z",
   "sourceUrl": "https://www.paccentraljc.org/20190125/20194702.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194702.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.634Z",
-  "lastModified": "2025-10-10T02:44:34.941Z",
-  "fixesApplied": 5,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.941Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194702.html",
-      "newValue": "https://www.paccentraljc.org/20190125/20194702.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.941Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.788Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

@@ -1,53 +1,36 @@
 {
   "awardNum": "20194837",
-  "award": "CCM 85",
+  "award": "CCM",
   "awardpoints": 85,
-  "location": "",
+  "location": "San Francisco",
   "date": "November 5, 2019",
   "genus": "Masdevallia",
   "species": "rex",
-  "clone": "GENERATOR",
+  "clone": "Tiny Jungle",
   "cross": "species",
   "exhibitor": "Chris Mende",
   "photographer": "N/A",
   "photo": "images/20194837.jpg",
   "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 19,
+    "numBuds": 14,
+    "numInflorescences": 33,
+    "description": "Nineteen flowers and 14 buds on 33 inflorescences;  \n   on a beautifully grown, immaculate 30-cm wide, 10-cm tall plant on 9-cm x 10.5-cm tree fern plaque;   \n\ttubular ivory flowers, golden curved sepaline caudae, throat blushed orange;\n\tpetals and lip not visible;\n\tsubstance firm; texture matte.",
     "NS": 8.2,
     "NSV": 5.8,
     "DSW": 1.3,
     "DSL": 7.8,
     "LSW": 1.3,
-    "LSL": 7.7,
-    "numFlowers": 19,
-    "numBuds": 14,
-    "numInflorescences": 33,
-    "type": "Lip&LateralSepal"
+    "LSL": 7.7
   },
+  "scrapedDate": "2025-10-15T02:42:38.895Z",
   "sourceUrl": "https://www.paccentraljc.org/20191105/20194837.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194837.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.658Z",
-  "lastModified": "2025-10-10T02:44:34.966Z",
-  "fixesApplied": 4,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.966Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194837.html",
-      "newValue": "https://www.paccentraljc.org/20191105/20194837.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.966Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.896Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

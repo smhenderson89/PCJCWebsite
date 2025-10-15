@@ -1,17 +1,22 @@
 {
   "awardNum": "20194801",
-  "award": "AM 80",
+  "award": "AM",
   "awardpoints": 80,
-  "location": "",
-  "date": "",
+  "location": "Sonoma County Orchid Society Show",
+  "date": "March 30, 2019",
   "genus": "Dendrobium",
   "species": "platygastrium",
-  "clone": "GENERATOR",
+  "clone": "Bailey",
   "cross": "species",
   "exhibitor": "Susan Anderson",
   "photographer": "N/A",
   "photo": "images/20194801.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 9,
+    "numBuds": 6,
+    "numInflorescences": 5,
+    "description": "Nine downward facing flowers and six buds on five inflorescences;\n\tdorsal sepal cream overlaid pink; lateral seapals cream, flushed pink margins;\n\tpetals cream;\n\tlip cream, flushed and striped magenta throat;\n\t\n\t\n\t\n\n\tsubstance average; texture shiny.",
     "NS": 5,
     "NSV": 4.5,
     "DSW": 0.9,
@@ -21,17 +26,15 @@
     "LSW": 1.2,
     "LSL": 2.8,
     "LIPW": 1.5,
-    "LIPL": 2.8,
-    "numFlowers": 9,
-    "numBuds": 6,
-    "numInflorescences": 5,
-    "type": "Lip&LateralSepal"
+    "LIPL": 2.8
   },
-  "sourceUrl": "https://www.paccentraljc.org/20194801.html",
+  "scrapedDate": "2025-10-15T02:42:38.842Z",
+  "sourceUrl": "",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194801.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.646Z",
-  "lastModified": "2025-10-10T02:44:27.281Z",
-  "fixesApplied": 4,
-  "fixVersion": "2019-v1.0"
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.843Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

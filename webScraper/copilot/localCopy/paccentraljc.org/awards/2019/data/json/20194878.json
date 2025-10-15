@@ -1,17 +1,22 @@
 {
   "awardNum": "20194878",
-  "award": "HCC 78",
+  "award": "HCC",
   "awardpoints": 78,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "July 20, 2019",
   "genus": "Cattleya",
   "species": "purpurata",
-  "clone": "GENERATOR",
+  "clone": "Hot Enough",
   "cross": "species",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "N/A",
   "photo": "images/20194878.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flowers on one inflorescence; \n\t\n\tsepals cream, flushed magenta;\n\tpetals cream, richly flushed and lineated magenta;\n\t\n\t\nlip richly saturated magenta, darker magenta lineation, well defined throat light yellow, nicely lineated magenta;\ncolumn cream, lightly flushed magenta;\nsubstance firm; texture matte.",
     "NS": 15,
     "NSV": 14.8,
     "DSW": 2.3,
@@ -21,37 +26,15 @@
     "LSW": 2.4,
     "LSL": 8.8,
     "LIPW": 4.2,
-    "LIPL": 6.8,
-    "numFlowers": 3,
-    "numBuds": 0,
-    "numInflorescences": 1,
-    "type": "Lip&LateralSepal"
+    "LIPL": 6.8
   },
+  "scrapedDate": "2025-10-15T02:42:38.935Z",
   "sourceUrl": "https://www.paccentraljc.org/20190720/20194878.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194878.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.669Z",
-  "lastModified": "2025-10-10T02:44:34.977Z",
-  "fixesApplied": 4,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.977Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194878.html",
-      "newValue": "https://www.paccentraljc.org/20190720/20194878.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.977Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.936Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

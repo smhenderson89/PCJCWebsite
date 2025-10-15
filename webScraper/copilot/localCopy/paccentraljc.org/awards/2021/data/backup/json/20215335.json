@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215335",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "September 18, 2021",
+  "genus": "Cattleya",
+  "species": "Pacavia",
+  "clone": "Gracie",
+  "cross": "Cattleya purpurata x Cattleya tenebrosa",
+  "exhibitor": "Sylvia Darr",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20215335.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 9,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Nine flowers on two inflorescences to 40cm long; \n  sepals and petals green heavily suffused maroon to appear dense bronze;\n  \nlip white, flushed and veined bright purple, crest light lavender; column green fully overlaid black basally, mottled at tip,\nanther cap green; substance firm; \ntexture matte.",
+    "NS": 8.1,
+    "NSV": 7.5,
+    "DSW": 2.4,
+    "DSL": 3.9,
+    "PETW": 1.6,
+    "PETL": 3.9,
+    "LSW": 2,
+    "LSL": 5,
+    "LIPW": 4.9,
+    "LIPL": 4
+  },
+  "scrapedDate": "2025-10-14T23:36:57.920Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210918/20215335.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215335.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.921Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

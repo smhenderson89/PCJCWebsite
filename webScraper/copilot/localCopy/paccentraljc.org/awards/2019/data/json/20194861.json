@@ -1,17 +1,22 @@
 {
   "awardNum": "20194861",
-  "award": "HCC 75",
+  "award": "HCC",
   "awardpoints": 75,
   "location": "Gold Coast Cymbidium Growers Show",
   "date": "April 13, 2019",
-  "genus": "",
-  "species": "",
-  "clone": "GENERATOR",
+  "genus": "Cymbidium",
+  "species": "Hazel's Dragon",
+  "clone": "Loyola",
   "cross": "Cymbidium Hazel Tyers x Cymbidium Satin Dragon",
   "exhibitor": "Weegie Caughlan",
   "photographer": "N/A",
   "photo": "images/20194861.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 11,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eleven flowers on one upright inflorescence;\n\tsepals cream overlaid rose;\n\tpetals cream overlaid rose, cream edging;\n\tlip cream, broad maroon band distally;\npollen cap cream;\t\n\t\n\t\n\t\n\n\tsubstance firm; texture matte.",
     "NS": 11.2,
     "NSV": 9.5,
     "DSW": 5.1,
@@ -21,37 +26,15 @@
     "LSW": 3.8,
     "LSL": 5.5,
     "LIPW": 4,
-    "LIPL": 7.2,
-    "numFlowers": 11,
-    "numBuds": 0,
-    "numInflorescences": 1,
-    "type": "Lip&LateralSepal"
+    "LIPL": 7.2
   },
+  "scrapedDate": "2025-10-15T02:42:38.913Z",
   "sourceUrl": "https://www.paccentraljc.org/20190413/20194861.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194861.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.661Z",
-  "lastModified": "2025-10-10T02:44:34.971Z",
-  "fixesApplied": 5,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.971Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194861.html",
-      "newValue": "https://www.paccentraljc.org/20190413/20194861.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.971Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.914Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

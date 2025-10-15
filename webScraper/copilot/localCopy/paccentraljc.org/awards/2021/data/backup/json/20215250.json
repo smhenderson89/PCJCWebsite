@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215250",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "San Francisco",
+  "date": "September 07, 2021",
+  "genus": "Cattleytonia",
+  "species": "Galactic Eyes",
+  "clone": "Masquerade",
+  "cross": "Cattleytonia Peggy San x Cattleya Angel Eyes",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20215250.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flowers on one 10-cm inflorescence; \n  sepals pale rose;\n  petals white overlaid saturated magenta, white proximally, one dark red spot on each;\nlip white overlaid saturated magenta distally, yellow throat; column and column wings white; substance firm; \ntexture velvet.",
+    "NS": 5.1,
+    "NSV": 5.9,
+    "DSW": 1.8,
+    "DSL": 2.9,
+    "PETW": 3.1,
+    "PETL": 2.7,
+    "LSW": 1.7,
+    "LSL": 2.4,
+    "LIPW": 3.2,
+    "LIPL": 2.9
+  },
+  "scrapedDate": "2025-10-14T23:36:57.716Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210907/20215250.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215250.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.724Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

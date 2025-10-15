@@ -1,17 +1,22 @@
 {
   "awardNum": "20194863",
-  "award": "CCM 85",
+  "award": "CCM",
   "awardpoints": 85,
   "location": "Gold Coast Cymbidium Growers Show",
   "date": "April 13, 2019",
-  "genus": "",
-  "species": "",
-  "clone": "GENERATOR",
+  "genus": "Cymbidium",
+  "species": "Funny Face",
+  "clone": "San Bar Mine",
   "cross": "Cymbidium tigrinum x Cymbidium Doris Aurea",
   "exhibitor": "Carol Armendariz",
   "photographer": "N/A",
   "photo": "images/20194863.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 96,
+    "numBuds": 13,
+    "numInflorescences": 11,
+    "description": "Ninety-six flowers and 13 buds on 11 pendant inflorescences;\n\tplant 85cm wide, grown in a 24-cm pot;\n\tsepals and petals chartreuse;\n\t\n\tlip white overlaid maroon speckles, heavily concentrated on side lobes;\n\t\n\t\n\tsubstance firm; texture matte.",
     "NS": 7.8,
     "NSV": 11.2,
     "DSW": 2,
@@ -21,37 +26,15 @@
     "LSW": 2.2,
     "LSL": 5.6,
     "LIPW": 3.1,
-    "LIPL": 3.9,
-    "numFlowers": 96,
-    "numBuds": 13,
-    "numInflorescences": 11,
-    "type": "Lip&LateralSepal"
+    "LIPL": 3.9
   },
+  "scrapedDate": "2025-10-15T02:42:38.916Z",
   "sourceUrl": "https://www.paccentraljc.org/20190413/20194863.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194863.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.662Z",
-  "lastModified": "2025-10-10T02:44:34.971Z",
-  "fixesApplied": 5,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.971Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194863.html",
-      "newValue": "https://www.paccentraljc.org/20190413/20194863.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.971Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.916Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

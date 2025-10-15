@@ -1,17 +1,22 @@
 {
   "awardNum": "20194803",
-  "award": "HCC 76",
+  "award": "HCC",
   "awardpoints": 76,
-  "location": "",
-  "date": "",
-  "genus": "",
-  "species": "",
-  "clone": "GENERATOR",
+  "location": "Sonoma County Orchid Society Show",
+  "date": "March 30, 2019",
+  "genus": "Sarcochilus",
+  "species": "Kulnura Lemon",
+  "clone": "Memoria Ellen Margron",
   "cross": "Sarcochilus Parma x Sarcochilus Roberta",
   "exhibitor": "Cynthia Battershall",
   "photographer": "N/A",
   "photo": "images/20194803.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 15,
+    "numBuds": 4,
+    "numInflorescences": 3,
+    "description": "Fifteen flowers and four buds on three inflorescences;\n\tflowers light yellow, faintly spotted and barred darker yellow;\n\tsacate lip yellow, side lobes barred orange;\n\t\n\t\n\t\n\n\tsubstance average; texture matte.",
     "NS": 2.7,
     "NSV": 2.8,
     "DSW": 1.2,
@@ -21,17 +26,15 @@
     "LSW": 1.1,
     "LSL": 1.7,
     "LIPW": 0.5,
-    "LIPL": 0.4,
-    "numFlowers": 15,
-    "numBuds": 4,
-    "numInflorescences": 3,
-    "type": "Lip&LateralSepal"
+    "LIPL": 0.4
   },
-  "sourceUrl": "https://www.paccentraljc.org/20194803.html",
+  "scrapedDate": "2025-10-15T02:42:38.845Z",
+  "sourceUrl": "",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194803.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.647Z",
-  "lastModified": "2025-10-10T02:44:27.282Z",
-  "fixesApplied": 4,
-  "fixVersion": "2019-v1.0"
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.846Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

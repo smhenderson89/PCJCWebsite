@@ -1,17 +1,22 @@
 {
   "awardNum": "20194857",
-  "award": "HCC 79",
+  "award": "HCC",
   "awardpoints": 79,
-  "location": "",
+  "location": "Filoli Historic House",
   "date": "March 9, 2019",
   "genus": "Dendrobium",
-  "species": "x",
-  "clone": "GENERATOR",
+  "species": "x speciokingianum",
+  "clone": "Beryl Clarke",
   "cross": "Dendroium kingianum x Dendrobium speciosum, natural hybrid",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "N/A",
   "photo": "images/20194857.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 84,
+    "numBuds": 17,
+    "numInflorescences": 17,
+    "description": "Eighty-four flowers and 17 buds on 17 inflorescences on a compact plant;\n\tflowers white, very fine faint pink speckles;\n\t\n\tlip green basally;\n\n\t\n\t\n\n\tsubstance heavy; texture sparkling.",
     "NS": 3,
     "NSV": 3,
     "DSW": 0.4,
@@ -21,37 +26,15 @@
     "LSW": 1.3,
     "LSL": 2,
     "LIPW": 0.5,
-    "LIPL": 1.7,
-    "numFlowers": 84,
-    "numBuds": 17,
-    "numInflorescences": 17,
-    "type": "Lip&LateralSepal"
+    "LIPL": 1.7
   },
+  "scrapedDate": "2025-10-15T02:42:38.908Z",
   "sourceUrl": "https://www.paccentraljc.org/20190309/20194857.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194857.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.660Z",
-  "lastModified": "2025-10-10T02:44:34.969Z",
-  "fixesApplied": 4,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.969Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194857.html",
-      "newValue": "https://www.paccentraljc.org/20190309/20194857.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.969Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.908Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

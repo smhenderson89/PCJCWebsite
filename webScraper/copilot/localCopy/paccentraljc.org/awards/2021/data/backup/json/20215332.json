@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215332",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Filoli Historic House",
+  "date": "August 21, 2021",
+  "genus": "Cymbidium",
+  "species": "ensifolium",
+  "clone": "Bull Market",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20215332.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 5,
+    "numBuds": 2,
+    "numInflorescences": 1,
+    "description": "Five flowers and two buds on one 29.2-cm inflorescence; \n  sepals cream boldly striped deep rose;\n  petals porrect, cream marked rose, deep rose stripe at midline;\nlip recurved distal edge, cream, blotched deep rose; column pale yellow, anther cap yellow; substance firm; \ntexture matte.",
+    "NS": 4.4,
+    "NSV": 4.3,
+    "DSW": 0.6,
+    "DSL": 2.5,
+    "PETW": 0.7,
+    "PETL": 2.2,
+    "LSW": 0.6,
+    "LSL": 2.5,
+    "LIPW": 0.8,
+    "LIPL": 1.4
+  },
+  "scrapedDate": "2025-10-14T23:36:57.911Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210821/20215332.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215332.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.912Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

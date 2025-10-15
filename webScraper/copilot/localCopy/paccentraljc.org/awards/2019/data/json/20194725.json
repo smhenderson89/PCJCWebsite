@@ -1,57 +1,36 @@
 {
   "awardNum": "20194725",
-  "award": "AM 80",
+  "award": "AM",
   "awardpoints": 80,
-  "location": "",
+  "location": "Oakland",
   "date": "May 20, 2019",
-  "genus": "",
-  "species": "",
-  "clone": "GENERATOR",
+  "genus": "Paphiopedilum",
+  "species": "Worthy Fred",
+  "clone": "Zinfandel",
   "cross": "Paphiopedilum President Fred x Paphiopedilum charlesworthii",
   "exhibitor": "Dave Sorokowsky",
   "photographer": "N/A",
   "photo": "images/20194725.jpg",
   "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one inflorescence; \n\t\n\tdorsal sepal wine-purple, lighter apically, dark centrally, darker veins;\n\t\nsynsepal light wine-purple, dark veins;\n\tpetals brown-purple;\n\t\n\tpouch brown-purple;\t\n\tstaminode light wine-purple;\n\n\t\n\t\n\t\n\n\tsubstance average; texture waxy.",
     "NS": 9,
     "NSV": 6.8,
     "DSW": 7.3,
     "DSL": 5.7,
     "PETW": 2.4,
-    "PETL": 6.8,
-    "SYNSW": 3.5,
-    "SYNSL": 3.8,
-    "PCHW": 2.7,
-    "PCHL": 5.5,
-    "numFlowers": 1,
-    "numBuds": 0,
-    "numInflorescences": 1,
-    "type": "Pouch"
+    "PETL": 6.8
   },
+  "scrapedDate": "2025-10-15T02:42:38.836Z",
   "sourceUrl": "https://www.paccentraljc.org/20190520/20194725.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194725.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.645Z",
-  "lastModified": "2025-10-10T02:44:34.953Z",
-  "fixesApplied": 4,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.953Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194725.html",
-      "newValue": "https://www.paccentraljc.org/20190520/20194725.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.953Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.838Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

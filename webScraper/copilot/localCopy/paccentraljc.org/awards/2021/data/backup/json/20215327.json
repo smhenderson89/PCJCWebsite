@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215327",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "July 17, 2021",
+  "genus": "Oncidium",
+  "species": "Exeter Fireworks",
+  "clone": "Bentley",
+  "cross": "Oncidium oliganthum x Oncidium tigrinum",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20215327.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 527,
+    "numBuds": 108,
+    "numInflorescences": 8,
+    "description": "Five hundred twenty-seven ruffled flowers and 108 buds well displayed above the foliage on eight strong multi-branched inflorescences; \n   well-grown plant in 25-cm bulb pan, clean foliage; sepals, pleasantly swept back, and petals bright yellow, barred mahogany;\nlip bright yellow, central calyx yellow, ridges red, side lobes barred mahogany; column and anther cap yellow; substance firm; \ntexture glossy, lip matte; also received CCE, award #20215328.",
+    "NS": 4.5,
+    "NSV": 3.3,
+    "DSW": 1,
+    "DSL": 1.8,
+    "PETW": 0.7,
+    "PETL": 1.7,
+    "LSW": 0.3,
+    "LSL": 1.2,
+    "LIPW": 2.2,
+    "LIPL": 2.2
+  },
+  "scrapedDate": "2025-10-14T23:36:57.895Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210717/20215327.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215327.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.896Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215256",
+  "award": "CCE",
+  "awardpoints": 92,
+  "location": "San Francisco",
+  "date": "November 02, 2021",
+  "genus": "Cymbidium",
+  "species": "dayanum",
+  "clone": "White Oak",
+  "cross": "'Royal Blue' AM/AOS x 'Blues Brothers'",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20215256.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 550,
+    "numBuds": 28,
+    "numInflorescences": 50,
+    "description": "Five-hundred fifty flowers and 28 buds on 50 pendant inflorescences;\nfully displayed around a 161x119-cm cleanly grown plant in a 20-cm plastic azalea pot, bark media; \n  sepals and petals pale chartreuse, midrib maroon;\n \nlip pale yellow, side lobes striped maroon, midlobe velvet dark maroon, calli ochre;\ncolumn black-maroon, anther cap yellow;\n substance medium; \ntexture glossy.",
+    "NS": 4,
+    "NSV": 4.4,
+    "DSW": 0.7,
+    "DSL": 3.1,
+    "PETW": 0.5,
+    "PETL": 2.1,
+    "LSW": 0.7,
+    "LSL": 2.9,
+    "LIPW": 0.8,
+    "LIPL": 1.7
+  },
+  "scrapedDate": "2025-10-14T23:36:57.771Z",
+  "sourceUrl": "https://www.paccentraljc.org/20211102/20215256.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215256.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.772Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

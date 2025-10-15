@@ -1,0 +1,36 @@
+{
+  "awardNum": "20215315",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Filoli Historic House",
+  "date": "May 15, 2021",
+  "genus": "Paphiopedilum",
+  "species": "Magically Fred",
+  "clone": "Gamay",
+  "cross": "Paphiopedilum President Fred x Paphiopedilum Magically Wood",
+  "exhibitor": "Dave Sorokowsky",
+  "photographer": "N/A",
+  "photo": "images/20215315.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One full flower on one sturdy 19.0-cm inflorescence;\n\tdorsal sepal white, veined green-brown, overlaid green basal one-third, transitioning to deep rose marginal two-thirds; \n\tsynsepal green, burgundy stripes, edge rose; \n\tpetals green basally transitioning to deep rose marginally, heavy dark mahogany warts basal two-thirds, upper margin hirsute; \n\tpouch burgundy, veined darker burgundy; staminode pale green, darker green centrally; \n\tsubstance medium; texture waxy.",
+    "NS": 12.3,
+    "NSV": 10.2,
+    "DSW": 9,
+    "DSL": 6.8,
+    "PETW": 3.3,
+    "PETL": 7.3
+  },
+  "scrapedDate": "2025-10-14T23:36:57.853Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210515/20215315.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215315.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.854Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "awardNum": "20215254",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "San Francisco",
+  "date": "September 07, 2021",
+  "genus": "Phragmipedium",
+  "species": "Yelva Myhre",
+  "clone": "Ruby",
+  "cross": "Phragmipedium Rosalie Dixler x Phragmipedium kovachii",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20215254.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 1,
+    "numInflorescences": 1,
+    "description": "One flower on one 19.2-cm inflorescence; \n\tdorsal sepal dark maroon. lighter distally; \n\tsynsepal very pale green; \n\tpetals slightly reflexed, dark maroon, lighter appearing areas proximally; \n\tpouch intense dark maroon, interior cream spotted maroon; \n    pollen cap cream dusted maroon;\n\tsubstance medium; texture velvet.",
+    "NS": 11.6,
+    "NSV": 8.1,
+    "DSW": 2.8,
+    "DSL": 4.4,
+    "PETW": 3.8,
+    "PETL": 6
+  },
+  "scrapedDate": "2025-10-14T23:36:57.755Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210907/20215254.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215254.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.757Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

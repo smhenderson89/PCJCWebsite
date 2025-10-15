@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215251",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "San Francisco",
+  "date": "September 07, 2021",
+  "genus": "Cycnoches",
+  "species": "Pineapple Popcorn",
+  "clone": "Snack Time",
+  "cross": "Cycnoches Kevin Clarke x Cycnoches warscewiczii",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20215251.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four non-resupinate female flowers on one 10-cm inflorescence; \n  sepals and petals green-yellow, midrib more prominant green;\n  \nlip cream overlaid green distally, callus dark green; column green; substance very firm; \ntexture waxy.",
+    "NS": 12.6,
+    "NSV": 10.4,
+    "DSW": 3,
+    "DSL": 7,
+    "PETW": 3.7,
+    "PETL": 5.9,
+    "LSW": 2.9,
+    "LSL": 5.4,
+    "LIPW": 4.1,
+    "LIPL": 4.8
+  },
+  "scrapedDate": "2025-10-14T23:36:57.732Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210907/20215251.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215251.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.735Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

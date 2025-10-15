@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215303",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Filoli Historic House",
+  "date": "April 17, 2021",
+  "genus": "Cymbidium",
+  "species": "Hazel's Dragon",
+  "clone": "Rose Cloud",
+  "cross": "Cymbidium Hazel Tyers 'Santa Maria' x Cymbidium Satin Dragon 'Cinnabar'",
+  "exhibitor": "Weegie Caughlan",
+  "photographer": "N/A",
+  "photo": "images/20215303.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 11,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eleven full round flowers on one 76-cm inflorescence;\n\tsepals and petals white, blushed burgundy, burgundy speckles striated longitudinally;\n\tlip white, wide dark burgundy band distally, bugundy spots side lobes;\n\tcolumn white overlaid burgundy, ventral surface\n\n\tspotted burgundy, anther cap cream;\n\n\tsubstance firm; texture matte.",
+    "NS": 10.2,
+    "NSV": 9.8,
+    "DSW": 5.8,
+    "DSL": 7.5,
+    "PETW": 4.9,
+    "PETL": 6.9,
+    "LSW": 5,
+    "LSL": 7.3,
+    "LIPW": 5,
+    "LIPL": 5
+  },
+  "scrapedDate": "2025-10-14T23:36:57.802Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210417/20215303.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215303.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.803Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

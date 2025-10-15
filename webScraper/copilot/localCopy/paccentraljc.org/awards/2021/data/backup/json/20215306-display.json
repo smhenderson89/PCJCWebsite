@@ -1,0 +1,42 @@
+{
+  "awardNum": "20215306",
+  "award": "AQ",
+  "awardpoints": "N/A",
+  "location": "Filoli Historic House",
+  "date": "April 17, 2021",
+  "genus": "Cymbidium",
+  "species": "Hazel's Dragon",
+  "clone": "N/A",
+  "cross": "Cymbidium Hazel Tyers 'Santa Maria' x Cymbidium Satin Dragon 'Cinnabar'",
+  "exhibitor": "Weegie Caughlan",
+  "photographer": "N/A",
+  "photo": "images/20215306.jpg",
+  "measurements": {
+    "type": "N/A",
+    "numFlowers": "N/A",
+    "numBuds": "N/A",
+    "numInflorescences": "N/A",
+    "description": "Group of 13 plants; consistent full shape and good overall color, base color ranging from cream to chatreuse, overlaid pink; \n\tone AM (20215304) and two HCCs (20215303, 20215304) were awarded in this group, one AM (20194867) and one HCC (20194861)\n\twere previously awarded\n\ton the same cross but were not exhibited at this judging.",
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LIPW": "N/A",
+    "LSW": "N/A",
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
+  },
+  "scrapedDate": "2025-10-14T23:36:57.821Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210417/20215306.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215306.html",
+  "year": 2021,
+  "isDisplay": true,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.822Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "special"
+  }
+}

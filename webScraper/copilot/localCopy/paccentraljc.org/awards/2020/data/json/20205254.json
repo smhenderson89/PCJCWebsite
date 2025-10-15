@@ -1,0 +1,42 @@
+{
+  "awardNum": "20205254",
+  "award": "ST",
+  "awardpoints": 81,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 24, 2020",
+  "genus": "American",
+  "species": "Orchid Society Show Trophy",
+  "clone": "N/A",
+  "cross": "N/A",
+  "exhibitor": "Mary Gerritsen",
+  "photographer": "N/A",
+  "photo": "images/20205254.jpg",
+  "measurements": {
+    "type": "N/A",
+    "numFlowers": "N/A",
+    "numBuds": "N/A",
+    "numInflorescences": "N/A",
+    "description": "A wide variety of mainly orchid species, displayed on a 3' x 6' table, the eye is immediately drawn\n\tto the Wardian case on the right, filled with miniature species, then left to the glass dome holding a stunning Dendrobium \n\tleucocyanum, on up to a large Pleurothallis marthae, over 20 genera included in this attractive display.",
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LIPW": "N/A",
+    "LSW": "N/A",
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
+  },
+  "scrapedDate": "2025-10-15T02:13:46.166Z",
+  "sourceUrl": "https://www.paccentraljc.org/20200124/20205254.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205254.html",
+  "year": 2020,
+  "isDisplay": true,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:13:46.168Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "display"
+  }
+}

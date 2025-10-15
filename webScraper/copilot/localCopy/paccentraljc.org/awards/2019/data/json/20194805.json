@@ -1,17 +1,22 @@
 {
   "awardNum": "20194805",
-  "award": "",
-  "awardpoints": null,
-  "location": "",
+  "award": "CBR",
+  "awardpoints": "N/A",
+  "location": "San Francisco",
   "date": "May 7, 2019",
   "genus": "Dendrobium",
   "species": "sanseiense",
-  "clone": "GENERATOR",
+  "clone": "Andy Philips",
   "cross": "species",
   "exhibitor": "Chen-Hao Hsu",
   "photographer": "N/A",
   "photo": "images/20194805.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one inflorescence; on an 8-cm long plant mounted on a 6-cm x 10-cm plaque;\n\t\n\t\n\tsepals and fused petals cream flushed faint pink;\n\t\n\tlip white;\tcolumn yellow;\n\n\t\n\t\n\t\n\n\tsubstance firm; texture matte.",
     "NS": 3.6,
     "NSV": 3.5,
     "DSW": 1,
@@ -21,37 +26,15 @@
     "LSW": 0.7,
     "LSL": 2.3,
     "LIPW": 1.6,
-    "LIPL": 2.1,
-    "numFlowers": 1,
-    "numBuds": 0,
-    "numInflorescences": 1,
-    "type": "Lip&LateralSepal"
+    "LIPL": 2.1
   },
+  "scrapedDate": "2025-10-15T02:42:38.848Z",
   "sourceUrl": "https://www.paccentraljc.org/20190507/20194805.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194805.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.648Z",
-  "lastModified": "2025-10-10T02:44:34.954Z",
-  "fixesApplied": 2,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.954Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194805.html",
-      "newValue": "https://www.paccentraljc.org/20190507/20194805.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.954Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.849Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
 }

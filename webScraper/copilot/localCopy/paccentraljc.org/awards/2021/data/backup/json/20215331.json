@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215331",
+  "award": "AM",
+  "awardpoints": 85,
+  "location": "Peninsula Orchid Society Show",
+  "date": "August 8, 2021",
+  "genus": "Cattleya",
+  "species": "Zip",
+  "clone": "I",
+  "cross": "Cattleya tenebrosa x Cattleya milleri",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20215331.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 24,
+    "numBuds": 30,
+    "numInflorescences": 6,
+    "description": "Twenty-four flowers and 30 buds on six 46-cm  inflorescences; \n   sepals and petals uniformly rich orange-red; \n   lip ruffled apically, cream heavily overlaid magenta on margin, finely veined magenta centrally, \n   diffused lighter rust-red apically; substance medium; texture satin.",
+    "NS": 11.5,
+    "NSV": 11.5,
+    "DSW": 1.1,
+    "DSL": 6.3,
+    "PETW": 1.6,
+    "PETL": 5.7,
+    "LSW": 1.2,
+    "LSL": 6.5,
+    "LIPW": 1.8,
+    "LIPL": 4
+  },
+  "scrapedDate": "2025-10-14T23:36:57.909Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210808/20215331.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215331.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.910Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

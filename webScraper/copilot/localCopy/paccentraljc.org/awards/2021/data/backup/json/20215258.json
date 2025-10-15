@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215258",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "San Francisco",
+  "date": "December 7, 2021",
+  "genus": "Procatavola",
+  "species": "Key Lime Stars",
+  "clone": "Tanya Lam",
+  "cross": "'Royal Blue' AM/AOS x 'Blues Brothers'",
+  "exhibitor": "Tanya Lam",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20215258.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 8,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Eight flowers crowded on two 18-cm inflorescences; \n\tsepals and petals flat, chartreuse; \n\tlip tubular, cream, overlaid chartreuse centrally, faint pink spots in throat; \n   \n\tsubstance firm; texture matte.",
+    "NS": 11,
+    "NSV": 9.5,
+    "DSW": 0.7,
+    "DSL": 6.1,
+    "PETW": 0.6,
+    "PETL": 5.7,
+    "LSW": 3.9,
+    "LSL": 7.2,
+    "LIPW": 3.2,
+    "LIPL": 6.5
+  },
+  "scrapedDate": "2025-10-14T23:36:57.787Z",
+  "sourceUrl": "https://www.paccentraljc.org/20211207/20215258.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215258.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.788Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

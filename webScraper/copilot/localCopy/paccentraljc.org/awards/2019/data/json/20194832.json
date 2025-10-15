@@ -1,17 +1,22 @@
 {
   "awardNum": "20194832",
-  "award": "",
-  "awardpoints": null,
-  "location": "",
+  "award": "JC",
+  "awardpoints": "N/A",
+  "location": "Filoli Historic House",
   "date": "October 19, 2019",
   "genus": "Cymbidium",
   "species": "kanran",
-  "clone": "GENERATOR",
-  "cross": "species",
+  "clone": "Red in Snow",
+  "cross": "N/A",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "N/A",
   "photo": "images/20194832.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 5,
+    "numBuds": 5,
+    "numInflorescences": 2,
+    "description": "Five flowers and five buds on two inflorescences;\n\t\n\tsepals chartreuse;\n\tpetals porrect, chartreuse, dark burgundy basally;\n\tlip intense dark burgundy, chartreuse picotee, keels chartreuse;\n\tcolumn medium green, anther cap yellow;\n\t\n\nsubstance medium; texture matte; commended for exceptionally flat, intensely and attractively colored lip.",
     "NS": 6.5,
     "NSV": 6.5,
     "DSW": 0.4,
@@ -22,36 +27,18 @@
     "LSL": 3.1,
     "LIPW": 1,
     "LIPL": 2.5,
-    "numFlowers": 5,
-    "numBuds": 5,
-    "numInflorescences": 2,
-    "type": "Lip&LateralSepal"
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
   },
+  "scrapedDate": "2025-10-15T02:42:38.887Z",
   "sourceUrl": "https://www.paccentraljc.org/20191019/20194832.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194832.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.657Z",
-  "lastModified": "2025-10-10T02:44:34.963Z",
-  "fixesApplied": 2,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.963Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194832.html",
-      "newValue": "https://www.paccentraljc.org/20191019/20194832.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.963Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "isDisplay": true,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.888Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "special"
+  }
 }

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215308",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "Filoli Historic House",
+  "date": "April 17, 2021",
+  "genus": "Phalaenopsis",
+  "species": "Matthew Berry",
+  "clone": "My Love",
+  "cross": "Phalaenopsis schilleriana x Phalaenopsis leucorrhoda",
+  "exhibitor": "Andy Cameron",
+  "photographer": "N/A",
+  "photo": "images/20215308.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 18,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eighteen flowers on one 67-cm arched inflorescence, measured to the terminal flower; \n\tsepals and petals cream flushed dark dusty rose, spotted dark purple-maroon overall, spots coalesced at midrib of petals;\n\tlip intense dark maroon, edged cream, keels yellow spotted dark maroon;\n\tcolumn cream, spotted dark maroon, anther cap maroon; substance firm; texture satin, lip velvet.",
+    "NS": 10.5,
+    "NSV": 7,
+    "DSW": 2.9,
+    "DSL": 6.2,
+    "PETW": 2.1,
+    "PETL": 4.6,
+    "LSW": 2.8,
+    "LSL": 5.3,
+    "LIPW": 2.9,
+    "LIPL": 4.1
+  },
+  "scrapedDate": "2025-10-14T23:36:57.827Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210417/20215308.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215308.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.828Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

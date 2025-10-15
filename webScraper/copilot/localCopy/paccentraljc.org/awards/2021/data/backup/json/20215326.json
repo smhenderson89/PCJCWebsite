@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215326",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Filoli Historic House",
+  "date": "July 17, 2021",
+  "genus": "Cattleya",
+  "species": "purpurata variety werckhauseri striata",
+  "clone": "Gilda",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20215326.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 5,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Five nicely arranged flowers on one upright 32-cm inflorescence; sepals\nwhite; petals white striated slate-purple; lip white, heavily overlaid slate-purple\napical two thirds, darker slate-purple veins, throat white, well\ndefined dark slate-purple veins; column white; substance firm; texture\ncrystalline.",
+    "NS": 15.2,
+    "NSV": 15.2,
+    "DSW": 2.3,
+    "DSL": 10.4,
+    "PETW": 4.8,
+    "PETL": 10.2,
+    "LSW": 2.5,
+    "LSL": 10.4,
+    "LIPW": 4.5,
+    "LIPL": 8.1
+  },
+  "scrapedDate": "2025-10-14T23:36:57.892Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210717/20215326.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215326.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.892Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "awardNum": "20215320",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "Filoli Historic House",
+  "date": "June 19, 2021",
+  "genus": "Phragmipedium",
+  "species": "Frank Smith",
+  "clone": "Sharon Langan",
+  "cross": "Phragmipedium Grande x Phragmipedium kovachii",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "N/A",
+  "photo": "images/20215320.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 1,
+    "numInflorescences": 2,
+    "description": "Three flowers and one bud on two 52-cm inflorescences; \n\tdorsal sepal chartreuse overlaid tesselate dark rose; \n\tsynsepal pale green; \n\tpetals arched, pendulous, lighter rose basally to dark rose apically, dark rose central vein; \n\tpouch light cream, exterior dark rose, dark rose and olive spots interior, fine upraised burgundy spots at rim; \n \n\tsubstance medium; texture matte.",
+    "NS": 10.2,
+    "NSV": 20.5,
+    "DSW": 4.2,
+    "DSL": 9,
+    "PETW": 2.8,
+    "PETL": 17.8
+  },
+  "scrapedDate": "2025-10-14T23:36:57.873Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210619/20215320.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215320.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.873Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

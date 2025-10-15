@@ -1,0 +1,43 @@
+{
+  "awardNum": "20205314",
+  "award": "ST",
+  "awardpoints": 83,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 20, 2020",
+  "genus": "Show",
+  "species": "Trophy",
+  "clone": "N/A",
+  "cross": "N/A",
+  "exhibitor": "Andy's Orchids",
+  "photographer": "N/A",
+  "photo": "images/20205314.jpg",
+  "measurements": {
+    "type": "Lip",
+    "numFlowers": "N/A",
+    "numBuds": "N/A",
+    "numInflorescences": "N/A",
+    "description": "Six-foot round table display, artistically arranged with extremely high quality species plants evenly displayed around the table,\n\t abundance of specimen size plants, using multiple elevations, labels clear, not distracting.",
+    "LIPL": 4.2,
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LIPW": "N/A",
+    "LSW": "N/A",
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
+  },
+  "scrapedDate": "2025-10-15T02:13:46.258Z",
+  "sourceUrl": "https://www.paccentraljc.org/20200220/20205314.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2020/html/20205314.html",
+  "year": 2020,
+  "isDisplay": true,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:13:46.259Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "display"
+  }
+}

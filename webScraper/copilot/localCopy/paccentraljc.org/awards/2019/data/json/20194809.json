@@ -1,57 +1,36 @@
 {
   "awardNum": "20194809",
-  "award": "HCC 76",
+  "award": "HCC",
   "awardpoints": 76,
-  "location": "",
+  "location": "San Francisco",
   "date": "May 7, 2019",
-  "genus": "",
-  "species": "",
-  "clone": "GENERATOR",
+  "genus": "Paphiopedilum",
+  "species": "Anita Baby",
+  "clone": "Austin Creek",
   "cross": "Paphiopedilum Hsinying Anita x Paphiopedilum rothschildianum",
   "exhibitor": "Dale Martin",
   "photographer": "N/A",
   "photo": "images/20194809.jpg",
   "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Four flowers on one upright inflorescence; \n\t\n\tdorsal sepal and synsepal light green, striped dark mahogany;\n\t\n\n\tpetals light green, striped and dotted mahogany, slightly twisted distally;\n\t\n\tpouch green, overlaid mahogany; staminode light green, hirsut, overlaid dark mahogany;\t\n\n\t\n\t\n\t\n\n\tsubstance firm; texture matte.",
     "NS": 13.5,
     "NSV": 16.1,
     "DSW": 4.5,
     "DSL": 5.4,
     "PETW": 0.9,
-    "PETL": 13,
-    "SYNSW": 4,
-    "SYNSL": 5.4,
-    "PCHW": 1.8,
-    "PCHL": 6,
-    "numFlowers": 4,
-    "numBuds": 0,
-    "numInflorescences": 1,
-    "type": "Pouch"
+    "PETL": 13
   },
+  "scrapedDate": "2025-10-15T02:42:38.855Z",
   "sourceUrl": "https://www.paccentraljc.org/20190507/20194809.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194809.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.650Z",
-  "lastModified": "2025-10-10T02:44:34.956Z",
-  "fixesApplied": 4,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.956Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194809.html",
-      "newValue": "https://www.paccentraljc.org/20190507/20194809.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.956Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.856Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

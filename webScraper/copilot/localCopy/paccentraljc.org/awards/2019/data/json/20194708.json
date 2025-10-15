@@ -1,17 +1,22 @@
 {
   "awardNum": "20194708",
-  "award": "CCE 90",
+  "award": "CCE",
   "awardpoints": 90,
-  "location": "",
+  "location": "Pacific Orchid Exposition",
   "date": "February 21, 2019",
   "genus": "Cattleya",
   "species": "coccinea",
-  "clone": "GENERATOR",
+  "clone": "Gracie",
   "cross": "species",
   "exhibitor": "Amy and Ken Jacobsen",
   "photographer": "N/A",
   "photo": "images/20194708.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 31,
+    "numBuds": 6,
+    "numInflorescences": 29,
+    "description": "Thirty-one flowers and six buds on 29 inflorescences;\n\t29-cm x 29-cm plant grown on a 19-cm x 26.5-cm cork mount, flowers and foliage in excellent condition;\n\tflowers orange-red; \n\tlip gold centrally, veined orange-red;\n\n\tsubstance firm; texture matte; \n\tnumber of flowers doubled and size of flowers increased since award 20174129 CCM of 84 points.",
     "NS": 5.8,
     "NSV": 5.4,
     "DSW": 1.8,
@@ -21,37 +26,15 @@
     "LSW": 1.5,
     "LSL": 2.9,
     "LIPW": 0.8,
-    "LIPL": 1.1,
-    "numFlowers": 31,
-    "numBuds": 6,
-    "numInflorescences": 29,
-    "type": "Lip&LateralSepal"
+    "LIPL": 1.1
   },
+  "scrapedDate": "2025-10-15T02:42:38.804Z",
   "sourceUrl": "https://www.paccentraljc.org/20190221/20194708.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194708.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.637Z",
-  "lastModified": "2025-10-10T02:44:34.945Z",
-  "fixesApplied": 4,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.945Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194708.html",
-      "newValue": "https://www.paccentraljc.org/20190221/20194708.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.945Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.805Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

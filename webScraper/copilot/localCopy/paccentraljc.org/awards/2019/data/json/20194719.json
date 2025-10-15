@@ -1,17 +1,22 @@
 {
   "awardNum": "20194719",
-  "award": "HCC 78",
+  "award": "HCC",
   "awardpoints": 78,
   "location": "Santa Cruz Orchid Society Show",
   "date": "March 2, 2019",
-  "genus": "",
-  "species": "",
-  "clone": "GENERATOR",
+  "genus": "Oncidium",
+  "species": "La Hougue Bie",
+  "clone": "Honeylocust",
   "cross": "Oncidium Panise x Oncidium Eric Young",
   "exhibitor": "Kathleen Whettam",
   "photographer": "N/A",
   "photo": "images/20194719.jpg",
   "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 11,
+    "numBuds": 12,
+    "numInflorescences": 2,
+    "description": "Eleven xanthic flowers and 12 buds on two arching inflorescences;\n\t\t\n    sepals and petals pale yellow, asymmetric intense yellow blotches around edges and centrally;\n\t\n\tlip yellow, butterscotch blotch centrally, intense yellow blotches near edges, callus orange-yellow;\n\tcolumn and anther cap yellow;\n\t\n\n\tsubstance firm; texture waxy.",
     "NS": 8.6,
     "NSV": 9.6,
     "DSW": 4,
@@ -21,37 +26,15 @@
     "LSW": 3.5,
     "LSL": 5.2,
     "LIPW": 1.6,
-    "LIPL": 3.5,
-    "numFlowers": 11,
-    "numBuds": 12,
-    "numInflorescences": 2,
-    "type": "Lip&LateralSepal"
+    "LIPL": 3.5
   },
+  "scrapedDate": "2025-10-15T02:42:38.826Z",
   "sourceUrl": "https://www.paccentraljc.org/20190302/20194719.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194719.html",
   "year": 2019,
-  "scrapedDate": "2025-10-10T02:43:24.642Z",
-  "lastModified": "2025-10-10T02:44:34.951Z",
-  "fixesApplied": 5,
-  "fixVersion": "2019-v1.0",
-  "corrections": [
-    {
-      "timestamp": "2025-10-10T02:44:34.951Z",
-      "field": "sourceUrl",
-      "oldValue": "https://www.paccentraljc.org/20194719.html",
-      "newValue": "https://www.paccentraljc.org/20190302/20194719.html",
-      "source": "automated-2019-url-standardization",
-      "reason": "Converted from simple to date-based URL format"
-    }
-  ],
-  "changeLog": [
-    {
-      "timestamp": "2025-10-10T02:44:34.951Z",
-      "action": "source-url-format-update",
-      "changes": [
-        "Updated sourceUrl to date-based format"
-      ],
-      "script": "fix-2019-source-url-format.js"
-    }
-  ]
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.827Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

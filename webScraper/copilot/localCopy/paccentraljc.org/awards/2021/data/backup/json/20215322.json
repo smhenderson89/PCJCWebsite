@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215322",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "June 19, 2021",
+  "genus": "Cattleya",
+  "species": "Philip Streeter",
+  "clone": "Pink Plate",
+  "cross": "Cattleya loddigesii x Cattleya Mari's Song",
+  "exhibitor": "Any and Ken Jacobsen",
+  "photographer": "N/A",
+  "photo": "images/20215322.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three closely arranged flowers on one upright inflorescence;\n\tsepals medium lavender; \n\tpetals spatulate, slightly undulate and dentiuclate, medium lavender, close purple spotting on midrib;\n\tlip broadly flared, undulate and denticulate, lavender, strong purple triangular splash apically, white throat;\n\tcolumn bulbous, white;\n\tsubstance very firm; texture matte.",
+    "NS": 10.6,
+    "NSV": 10.8,
+    "DSW": 2.8,
+    "DSL": 7.2,
+    "PETW": 4.9,
+    "PETL": 6,
+    "LSW": 2.6,
+    "LSL": 6.4,
+    "LIPW": 4.9,
+    "LIPL": 5.4
+  },
+  "scrapedDate": "2025-10-14T23:36:57.879Z",
+  "sourceUrl": "https://www.paccentraljc.org/20210619/20215322.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215322.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.879Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

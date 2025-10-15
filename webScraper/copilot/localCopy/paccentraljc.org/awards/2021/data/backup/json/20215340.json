@@ -1,0 +1,36 @@
+{
+  "awardNum": "20215340",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Filoli Historic House",
+  "date": "November 20, 2021",
+  "genus": "Paphiopedilum",
+  "species": "Odette's Infatuation",
+  "clone": "Echo Valley",
+  "cross": "Paphiopedilum Odette's Magic x Paphiopedilum Gyorgy Nagy",
+  "exhibitor": "Echo Valley Orchids",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20215340.jpg",
+  "measurements": {
+    "type": "LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One striking flower on one staked 23.0-cm upright inflorescence; \n\tdorsal sepal apiculate, cream heavily overlaid burgundy, veined black-burgundy;\n    synsepal burgundy, striated saturated-burgundy;\t\n \n\tpetals ciliate, cream, proximally blushed green, heavily overlaid burgundy distally and on upper margins; \n\tpouch downy, black-burgundy; \n    staminode cream, suffused rose apically, burgundy distally;\n\tsubstance firm; texture glossy.",
+    "NS": 12,
+    "NSV": 10.9,
+    "DSW": 6,
+    "DSL": 6.3,
+    "PETW": 2,
+    "PETL": 7.5
+  },
+  "scrapedDate": "2025-10-14T23:36:57.938Z",
+  "sourceUrl": "https://www.paccentraljc.org/20211120/20215340.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215340.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.939Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

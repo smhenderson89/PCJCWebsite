@@ -1,0 +1,40 @@
+{
+  "awardNum": "20215342",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "December 18, 2021",
+  "genus": "Sudamerlycaste",
+  "species": "ciliata",
+  "clone": "Ken",
+  "cross": "species",
+  "exhibitor": "Mary Bui-Pham",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20215342.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Two flowers on two 12.5-cm inflorescences, two emerging inflorescences; \n\tflower light green; \n\tlateral sepals falcate;\n\tpetals porrect;\n\tlip perpendicular, darker green centrally, callus light green; \n\tcolumn and anther cap white;\n\tsubstance hard; texture waxy.",
+    "NS": 5.3,
+    "NSV": 9.7,
+    "DSW": 1.9,
+    "DSL": 6.8,
+    "PETW": 1.2,
+    "PETL": 4.7,
+    "LSW": 1.9,
+    "LSL": 5.8,
+    "LIPW": 1.7,
+    "LIPL": 3.1
+  },
+  "scrapedDate": "2025-10-14T23:36:57.945Z",
+  "sourceUrl": "https://www.paccentraljc.org/20211218/20215342.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2021/html/20215342.html",
+  "year": 2021,
+  "logicApplied": {
+    "timestamp": "2025-10-14T23:36:57.946Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}
