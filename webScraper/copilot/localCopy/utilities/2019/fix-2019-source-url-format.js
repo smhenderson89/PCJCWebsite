@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Paths
-const awardsDir = path.join(__dirname, '../../copilot/localCopy/paccentraljc.org/awards/2019/data/json');
+const awardsDir = path.join(__dirname, '../../paccentraljc.org/awards/2019/data/json');
 
 console.log('🔧 Converting 2019 source URLs from simple to date-based format...\n');
 
