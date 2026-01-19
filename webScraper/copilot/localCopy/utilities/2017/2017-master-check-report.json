@@ -1,0 +1,19 @@
+{
+  "totalFiles": 57,
+  "processedFiles": 57,
+  "filesWithIssues": 0,
+  "measurementTypeIssues": 0,
+  "missingDataIssues": 0,
+  "parsingErrors": 0,
+  "typeDistribution": {
+    "Pouch&SynselPal": 7,
+    "Lip&LateralSepal": 50,
+    "Other": 0,
+    "Unknown": 0
+  },
+  "issueFiles": [],
+  "summary": {
+    "correctTypes": 57,
+    "incorrectTypes": 0
+  }
+}

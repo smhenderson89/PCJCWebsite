@@ -12,7 +12,11 @@
   "photographer": "N/A",
   "photo": "images/20185419.jpg",
   "measurements": {
-    "type": "Lip&LateralSepal"
+    "type": "Other",
+    "description": "A group of fourteen relatively uniform plants representing a charming combination of the two species parents; flower color ranges from pale pink to white on flowers resembling the medusa parent; parents are Habenaria carnea 'Winter Haven' and Habenaria medusa '#1', hybridizer Mike Dorris; Habenaria Pegasus 'Rick Stier' HCC/AOS, award 20185418, was awarded at this judging, Habenaria Pegasus 'Pat Wik-Stier' HCC/AOS, award 20174085, was previously awarded.",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0
   },
   "sourceUrl": "https://www.paccentraljc.org/20185419.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2018/html/20185419.html",
