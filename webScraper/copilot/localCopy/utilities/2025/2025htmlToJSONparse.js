@@ -393,30 +393,85 @@ function extractFullAwardDataFromHtml(awardNum) {
 
         // Extract description from the last table and store in measurements object
         console.log(`\n📝 Looking for description...`);
-        // Find the table with "Description:" in it
+        
+        let descriptionFound = false;
+        
+        // Strategy 1: Find table with "Description:" label
         $('table').each((index, table) => {
             const $table = $(table);
             const tableText = $table.text();
             
             if (tableText.includes('Description:')) {
-                console.log(`   📝 Found description in table ${index}`);
+                console.log(`   📝 Found description with label in table ${index}`);
                 const descText = $table.find('td').text().trim();
                 const descMatch = descText.match(/Description\s*:\s*(.+)$/is);
                 
                 if (descMatch) {
                     extractedData.measurements.description = descMatch[1].trim();
                     console.log(`✅ Description: "${extractedData.measurements.description.substring(0, 100)}..."`);
+                    descriptionFound = true;
                 } else {
                     // Try to get text after "Description:" without regex
                     const parts = descText.split(/Description\s*:\s*/i);
                     if (parts.length > 1) {
                         extractedData.measurements.description = parts[1].trim();
                         console.log(`✅ Description (split method): "${extractedData.measurements.description.substring(0, 100)}..."`);
+                        descriptionFound = true;
                     }
                 }
                 return false; // Break out of each loop
             }
         });
+
+        // Strategy 2: If no description with label found, look for table with bgcolor="#f0c98e" (description table)
+        if (!descriptionFound) {
+            console.log(`   📝 No labeled description found, trying color-coded table...`);
+            $('table').each((index, table) => {
+                const $table = $(table);
+                const $td = $table.find('td[bgcolor="#f0c98e"]');
+                
+                if ($td.length > 0) {
+                    console.log(`   📝 Found description in color-coded table ${index}`);
+                    const descText = $td.text().trim();
+                    
+                    // Clean up the description text - remove extra whitespace and formatting
+                    if (descText && descText.length > 20) { // Ensure it's substantial text
+                        extractedData.measurements.description = descText.replace(/\s+/g, ' ').trim();
+                        console.log(`✅ Description (color table): "${extractedData.measurements.description.substring(0, 100)}..."`);
+                        descriptionFound = true;
+                        return false; // Break out of each loop
+                    }
+                }
+            });
+        }
+
+        // Strategy 3: If still no description, look for any table that looks like a description (contains flower/botanical terms)
+        if (!descriptionFound) {
+            console.log(`   📝 Still no description found, trying content-based detection...`);
+            $('table').each((index, table) => {
+                const $table = $(table);
+                const tableText = $table.text().trim();
+                
+                // Look for tables containing botanical description terms
+                const botanicalTerms = ['flowers', 'sepals', 'petals', 'lip', 'column', 'inflorescence', 'buds'];
+                const hasBotanicalTerms = botanicalTerms.some(term => tableText.toLowerCase().includes(term));
+                
+                // Ensure it's not a measurements table and has substantial text
+                const isNotMeasurementTable = !tableText.includes('NS') && !tableText.includes('DSW') && !tableText.includes('PETW');
+                
+                if (hasBotanicalTerms && isNotMeasurementTable && tableText.length > 50) {
+                    console.log(`   📝 Found description by content in table ${index}`);
+                    extractedData.measurements.description = tableText.replace(/\s+/g, ' ').trim();
+                    console.log(`✅ Description (content detection): "${extractedData.measurements.description.substring(0, 100)}..."`);
+                    descriptionFound = true;
+                    return false; // Break out of each loop
+                }
+            });
+        }
+
+        if (!descriptionFound) {
+            console.log(`   ⚠️  No description found using any strategy`);
+        }
 
         // Set measurement type based on what measurements we have
         const measurementFields = ['NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LSW', 'LSL', 'LIPW', 'LIPL'];
