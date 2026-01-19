@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255336",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "December 20, 2025",
+  "genus": "Paphiopedilum",
+  "species": "Quintal Wonder",
+  "clone": "Aurora",
+  "cross": "Paphiopedium dianthum x Paphiopedilum haynaldianum",
+  "exhibitor": "Ivan Madrinan",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255336.jpg",
+  "measurements": {
+    "type": "Pouch&SynselPal",
+    "numFlowers": 3,
+    "numBuds": 1,
+    "numInflorescences": 1,
+    "description": "Three flowers and one bud on one 48-cm arched inflorescence;\n  \n  dorsal sepal cream, veined light green, flushed light green basally;\n  synsepal cream, scant few light green veins;\n petals elongated spatulate, cream, flushed faint yellow basally, shades to cream apically;\n pouch bright light green, faint green stripe; staminode pale green, veined dark green;\n substance average; texture satin, pouch waxy.",
+    "NS": 12.3,
+    "NSV": 9.6,
+    "DSW": 3.1,
+    "DSL": 3.8,
+    "PETW": 1.7,
+    "PETL": 9.1,
+    "SYNSW": 6.1,
+    "SYNSL": 6.1,
+    "PCHW": 2.2,
+    "PCHL": 4
+  },
+  "scrapedDate": "2026-01-19T02:38:06.173Z",
+  "sourceUrl": "https://www.paccentraljc.org/251220/20255336.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255336.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.174Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

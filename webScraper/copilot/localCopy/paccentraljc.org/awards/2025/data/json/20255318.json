@@ -12,11 +12,11 @@
   "photographer": "Chaunie Langland",
   "photo": "images/20255318.jpg",
   "measurements": {
-    "type": "Award Qualifying",
+    "type": "Other",
     "numFlowers": "N/A",
     "numBuds": "N/A",
     "numInflorescences": "N/A",
-    "description": "Plant meets AQ standards",
+    "description": "Awarded for consistant rich color on lip, excellent form of lip, consistantly wide nicely held petals, upright dorsal sepals, overall color, arrangement of segments, excellent arrangement of flowers.",
     "NS": "N/A",
     "NSV": "N/A",
     "DSW": "N/A",
@@ -29,9 +29,13 @@
     "SYNSL": "N/A",
     "SYNSW": "N/A"
   },
-  "scrapedDate": "2025-10-12T02:14:20.604Z",
+  "scrapedDate": "2026-01-19T02:38:06.115Z",
   "sourceUrl": "https://www.paccentraljc.org/250719/20255318.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255318.html",
   "year": 2025,
-  "fixApplied": "logicReference/missingInfoLogic.json"
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.116Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "special"
+  }
 }

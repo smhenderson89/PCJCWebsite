@@ -12,11 +12,15 @@
   "photographer": "N/A",
   "photo": "images/20185463.jpg",
   "measurements": {
-    "type": "N/A",
+    "type": "Pouch&SynselPal",
     "numFlowers": 0,
     "numBuds": 0,
     "numInflorescences": 0,
-    "description": "Eleven well-proportioned Broad Lip flowers and three buds on one 110cm arching inflorescence;\n\tsepals and petals pale lavender-pink, petals blushed darker lavender centrally;\n\tlip side lobes broadened and partly fused with base of midlobe, all deep lavender, calli pale yellow and white;\n\tcolumn white with fuchsia spots, anther cap white; substance fair; texture matte."
+    "description": "Eleven well-proportioned Broad Lip flowers and three buds on one 110cm arching inflorescence;\n\tsepals and petals pale lavender-pink, petals blushed darker lavender centrally;\n\tlip side lobes broadened and partly fused with base of midlobe, all deep lavender, calli pale yellow and white;\n\tcolumn white with fuchsia spots, anther cap white; substance fair; texture matte.",
+    "SYNSW": 3.3,
+    "SYNSL": 4.2,
+    "PCHW": 3.3,
+    "PCHL": 6.7
   },
   "scrapedDate": "2025-10-15T03:22:20.391Z",
   "sourceUrl": "https://www.paccentraljc.org/20181112/20185463.html",

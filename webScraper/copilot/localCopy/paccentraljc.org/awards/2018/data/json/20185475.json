@@ -12,11 +12,15 @@
   "photographer": "N/A",
   "photo": "images/20185475.jpg",
   "measurements": {
-    "type": "N/A",
+    "type": "Pouch&SynselPal",
     "numFlowers": 0,
     "numBuds": 0,
     "numInflorescences": 0,
-    "description": "Two hundred fifty shapely and deeply colored flowers 23 graceful inflorescences to 42.6cm long;\n\tplant exceptionally well-flowered, 120cm tall, 106cm wide, grown in a 28cm black plastic pot;\n\tsepals and petals solid deep purple; lip deep purple, black-purple centrally; column deep purple, anther cap white;\n\tsubstance average; texture satiny."
+    "description": "Two hundred fifty shapely and deeply colored flowers 23 graceful inflorescences to 42.6cm long;\n\tplant exceptionally well-flowered, 120cm tall, 106cm wide, grown in a 28cm black plastic pot;\n\tsepals and petals solid deep purple; lip deep purple, black-purple centrally; column deep purple, anther cap white;\n\tsubstance average; texture satiny.",
+    "SYNSW": 3.3,
+    "SYNSL": 4.2,
+    "PCHW": 3.3,
+    "PCHL": 6.7
   },
   "scrapedDate": "2025-10-15T03:22:20.421Z",
   "sourceUrl": "https://www.paccentraljc.org/20181112/20185475.html",

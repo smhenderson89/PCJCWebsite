@@ -16,7 +16,7 @@
     "numFlowers": 5,
     "numBuds": 0,
     "numInflorescences": 1,
-    "description": "N/A",
+    "description": "Five relatively flat, upright, bright pink flowers on one 23-cm, unsupported inflorescence; sepals elliptical, tipped green apically; petals widely elliptical, raised midrib basal half; lip ruffled, pink apical edge, overlaid cream, blushed pink, side lobes enclose column; column and anther cap white; substance firm; texture satiny.",
     "NS": 12.1,
     "NSV": 11.5,
     "DSW": 3.2,
@@ -28,9 +28,13 @@
     "LIPW": 3.5,
     "LIPL": 4.4
   },
-  "scrapedDate": "2025-10-12T02:14:20.609Z",
+  "scrapedDate": "2026-01-19T02:38:05.893Z",
   "sourceUrl": "https://www.paccentraljc.org/250221/20255262.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255262.html",
   "year": 2025,
-  "fixApplied": "logicReference/missingInfoLogic.json"
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:05.895Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

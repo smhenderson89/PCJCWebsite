@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255378",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Peninsula Orchid Society Show",
+  "date": "October 4, 2025",
+  "genus": "Dendrobium",
+  "species": "Martine Minet",
+  "clone": "Mymp",
+  "cross": "Dendrobium vexillarius x Dendrobium violaceum",
+  "exhibitor": "Catherine Obillo",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255378.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 31,
+    "numBuds": 0,
+    "numInflorescences": 12,
+    "description": "Thirty-one flowers of excellent shape on 12 up to 4-cm inflorescences;\n dorsal sepal ovate, acute, orange; ventral sepals broadly triangular, acute, orange;\n petals ovate, acute, orange;\n lip and mentum linear, acute, violet-purple, orange distally;\n column purple, anther cap white;\n substance firm; texture crystalline.",
+    "NS": 3,
+    "NSV": 3.3,
+    "DSW": 0.9,
+    "DSL": 1.7,
+    "PETW": 0.4,
+    "PETL": 1.3,
+    "LSW": 1.3,
+    "LSL": 1.6,
+    "LIPW": 0.4,
+    "LIPL": 3
+  },
+  "scrapedDate": "2026-01-19T02:38:06.289Z",
+  "sourceUrl": "https://www.paccentraljc.org/251004/20255378.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255378.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.290Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

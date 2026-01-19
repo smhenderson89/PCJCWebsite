@@ -12,11 +12,15 @@
   "photographer": "N/A",
   "photo": "images/20185469.jpg",
   "measurements": {
-    "type": "N/A",
+    "type": "Pouch&SynselPal",
     "numFlowers": 0,
     "numBuds": 0,
     "numInflorescences": 0,
-    "description": "One hundred nineteen flowers and 26 buds on 74 inflorescences to 5cm long;\n\tplant mounted on a piece of driftwood 76cm x 50cm x 31cm nestled in a black plastic tray 49cm x 28cm x 7.5cm;\n\tdorsal sepal cupped, dusky brown with dark maroon-black venation,\n\tlateral sepals elongated, ivory covered with coalescing burgundy warts and venation;\n\tpetals ochre striated with dark burgundy; mobile lip dark burgundy;\n\tcolumn chartreuse with burgundy spots, with two chartreuse teeth, anther cap chartreuse with single dark burgundy spot;\n\tsubstance hard; texture waxy."
+    "description": "One hundred nineteen flowers and 26 buds on 74 inflorescences to 5cm long;\n\tplant mounted on a piece of driftwood 76cm x 50cm x 31cm nestled in a black plastic tray 49cm x 28cm x 7.5cm;\n\tdorsal sepal cupped, dusky brown with dark maroon-black venation,\n\tlateral sepals elongated, ivory covered with coalescing burgundy warts and venation;\n\tpetals ochre striated with dark burgundy; mobile lip dark burgundy;\n\tcolumn chartreuse with burgundy spots, with two chartreuse teeth, anther cap chartreuse with single dark burgundy spot;\n\tsubstance hard; texture waxy.",
+    "SYNSW": 3.3,
+    "SYNSL": 4.2,
+    "PCHW": 3.3,
+    "PCHL": 6.7
   },
   "scrapedDate": "2025-10-15T03:22:20.405Z",
   "sourceUrl": "https://www.paccentraljc.org/20181112/20185469.html",

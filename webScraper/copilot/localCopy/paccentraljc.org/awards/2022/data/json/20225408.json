@@ -12,7 +12,7 @@
   "photographer": "Ken Jacobsen",
   "photo": "images/20225408.jpg",
   "measurements": {
-    "type": "LateralSepal",
+    "type": "Lip&LateralSepal",
     "numFlowers": 59,
     "numBuds": 0,
     "numInflorescences": 5,

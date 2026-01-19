@@ -16,7 +16,7 @@
     "numFlowers": 9,
     "numBuds": 1,
     "numInflorescences": 3,
-    "description": "N/A",
+    "description": "Nine flowers and one bud on three up to 87-cm, slightly arching inflorescences; sepals white, suffused light green; petals white, ruffled margins, slightly reflexed distally; lip ruffled, white, overlaid chartreuse centrally, side lobes striped magenta; column white, flushed magenta, anther cap white; substance medium; texture matte.",
     "NS": 8.8,
     "NSV": 9.9,
     "DSW": 1.7,
@@ -28,9 +28,13 @@
     "LIPW": 2.2,
     "LIPL": 3.9
   },
-  "scrapedDate": "2025-10-12T02:14:20.610Z",
+  "scrapedDate": "2026-01-19T02:38:05.903Z",
   "sourceUrl": "https://www.paccentraljc.org/250221/20255264.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255264.html",
   "year": 2025,
-  "fixApplied": "logicReference/missingInfoLogic.json"
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:05.907Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

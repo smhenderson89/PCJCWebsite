@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255328",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "November 15, 2025",
+  "genus": "Laelia",
+  "species": "x gouldiana",
+  "clone": "Samaria Sky",
+  "cross": "Laelia autumnalis x Laelia anceps",
+  "exhibitor": "Sylvia Darr",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20255328.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 7,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three flowers of exceptional dark color and two buds on one upright 65-cm arching inflorescence;\n sepals and petals lanceolate, acute, intense dark purple-violet, white proximally;\n \n lip tri-lobed, midlobe ovate, acute, recurved apically and marginally, white overlaid pink, midlobe overlaid dark velvety purple-violet\n distally, throat striped maroon, keels three, yellow, striped maroon dorsally;\n column white, stippled violet, anther cap white;\n substance firm; texture glossy.",
+    "NS": 8,
+    "NSV": 8.1,
+    "DSW": 1.5,
+    "DSL": 5.2,
+    "PETW": 2.8,
+    "PETL": 5.4,
+    "LSW": 1.4,
+    "LSL": 4.7,
+    "LIPW": 2.1,
+    "LIPL": 3.8
+  },
+  "scrapedDate": "2026-01-19T02:38:06.148Z",
+  "sourceUrl": "https://www.paccentraljc.org/251115/20255328.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255328.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.149Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255326",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "November 15, 2025",
+  "genus": "Cattleya",
+  "species": "labiata",
+  "clone": "Great Day",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20255326.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 8,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Eight flowers and no buds on two erect, up to 33-cm inflorescences;\n sepals and petals crisp white;\n sepals lanceolate, green spot apex; \npetals broadly ovate, margins undulate;\n lip closed over column, apical margin tightly undulate,\n white, throat striped magenta basally, striped yellow centrally,\n  apical half overlaid magenta, white picotee;\n column and anther cap white;\n substance medium; texture diamond dust.",
+    "NS": 13.1,
+    "NSV": 14,
+    "DSW": 2.6,
+    "DSL": 6.3,
+    "PETW": 6.3,
+    "PETL": 8.4,
+    "LSW": 2.8,
+    "LSL": 8.1,
+    "LIPW": 5.7,
+    "LIPL": 8
+  },
+  "scrapedDate": "2026-01-19T02:38:06.140Z",
+  "sourceUrl": "https://www.paccentraljc.org/251115/20255326.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255326.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.141Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

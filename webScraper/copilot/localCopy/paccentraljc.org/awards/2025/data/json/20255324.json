@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255324",
+  "award": "CCM",
+  "awardpoints": 84,
+  "location": "Filoli Historic House",
+  "date": "September 20, 2025",
+  "genus": "Coelogyne",
+  "species": "magna",
+  "clone": "Zorro",
+  "cross": "species",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255324.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1679,
+    "numBuds": 528,
+    "numInflorescences": 28,
+    "description": "Approximately 1679 flowers and approximately 528 buds\n on 28 up to 64-cm inflorescences; \n well-grown compact 86-cm x 65-cm plant in a 15-cm standard plastic pot;\n sepals and petals lanceolate, green-yellow;\n \n lip orange, striped green centrally; \nsubstance firm; texture matte.",
+    "NS": 1.9,
+    "NSV": 1.5,
+    "DSW": 0.2,
+    "DSL": 0.7,
+    "PETW": 0.3,
+    "PETL": 0.9,
+    "LSW": 0.2,
+    "LSL": 1,
+    "LIPW": 0.3,
+    "LIPL": 0.5
+  },
+  "scrapedDate": "2026-01-19T02:38:06.134Z",
+  "sourceUrl": "https://www.paccentraljc.org/250920/20255324.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255324.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.135Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

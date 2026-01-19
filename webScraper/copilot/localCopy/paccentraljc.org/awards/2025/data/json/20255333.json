@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255333",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Filoli Historic House",
+  "date": "December 20, 2025",
+  "genus": "Cymbidium",
+  "species": "Exeter Carnelian",
+  "clone": "Bronze Belle",
+  "cross": "Cymbidium goeringii x Cymbidium Voodoo",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255333.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 3,
+    "numInflorescences": 5,
+    "description": "Three flowers on one unstaked 33.5-cm inflorescence,\n five buds on two juvenile inflorescences;\n sepals and petals oblanceolate, chartreuse overlaid and \n veined burgundy, petals slightly porrect;\n lip recurved, undulated edges, light yellow, deep burgundy apical one third,\n white picotee, keel bright yellow;\n column cream, sporadic burgundy markings, inferior surface striped burgundy,\n anther cap white; substance firm; texture matte.",
+    "NS": 6.8,
+    "NSV": 6,
+    "DSW": 1.2,
+    "DSL": 3.3,
+    "PETW": 1.6,
+    "PETL": 3.2,
+    "LSW": 1.4,
+    "LSL": 4,
+    "LIPW": 2.1,
+    "LIPL": 2.5
+  },
+  "scrapedDate": "2026-01-19T02:38:06.166Z",
+  "sourceUrl": "https://www.paccentraljc.org/251220/20255333.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255333.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.167Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

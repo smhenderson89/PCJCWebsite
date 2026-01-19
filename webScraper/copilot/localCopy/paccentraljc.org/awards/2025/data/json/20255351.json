@@ -28,8 +28,13 @@
     "LIPW": 1,
     "LIPL": 1.4
   },
-  "scrapedDate": "2025-10-12T01:27:56.873Z",
+  "scrapedDate": "2026-01-19T02:38:06.188Z",
   "sourceUrl": "https://www.paccentraljc.org/250107/20255351.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255351.html",
-  "year": 2025
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.191Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

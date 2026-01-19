@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255381",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Peninsula Orchid Society Show",
+  "date": "October 4, 2025",
+  "genus": "Rossioglossum",
+  "species": "grande",
+  "clone": "Woodside",
+  "cross": "species",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255381.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 8,
+    "numBuds": 8,
+    "numInflorescences": 3,
+    "description": "Eight flowers and eight buds on three up to 36-cm upright inflorescences;\n sepals lanceolate, slightly undulate edges, light yellow, broadly barred\n light chestnut brown;\n petals broadly lanceolate, slightly undulate edges, yellow,\n proximal two-thirds rich chestnut brown;\n lip orbicular, pinched proximally, cream, overlaid light chestnut brown\n barring proximal half, margins blotched light chestnut brown,\n callus golden yellow, lightly barred chestnut brown; \n column yellow, anther cap white;\n substance firm;\n texture glossy, lip satin.",
+    "NS": 15.9,
+    "NSV": 13,
+    "DSW": 2.2,
+    "DSL": 8.4,
+    "PETW": 3.2,
+    "PETL": 8,
+    "LSW": 1.7,
+    "LSL": 7.9,
+    "LIPW": 4.2,
+    "LIPL": 4.3
+  },
+  "scrapedDate": "2026-01-19T02:38:06.300Z",
+  "sourceUrl": "https://www.paccentraljc.org/251004/20255381.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255381.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.302Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

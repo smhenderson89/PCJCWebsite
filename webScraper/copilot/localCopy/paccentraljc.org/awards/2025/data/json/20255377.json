@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255377",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Peninsula Orchid Society Show",
+  "date": "October 4, 2025",
+  "genus": "Cymbidium",
+  "species": "Chen's Ruby",
+  "clone": "Linsie",
+  "cross": "Cymbidium iridioides x Cymbidium Golden Elf",
+  "exhibitor": "Linsie Hu",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255377.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 4,
+    "numBuds": 13,
+    "numInflorescences": 2,
+    "description": "Four stellate flowers and 13 buds on two up to 66-cm inflorescences;\n flower gold; dorsal sepal lanceolate, hooded, striped burgundy;\n lateral sepals lanceolate, striped burgundy;\n petals narrowly lanceolate, striped and spotted burgundy;\n lip trilobed, heavily spotted burgundy;\n column yellow, spotted burgundy underside, anther cap yellow;\n substance firm; texture matte, lip velvet.",
+    "NS": 9.3,
+    "NSV": 7,
+    "DSW": 2,
+    "DSL": 5.3,
+    "PETW": 1.4,
+    "PETL": 4.5,
+    "LSW": 1.5,
+    "LSL": 4.9,
+    "LIPW": 2.5,
+    "LIPL": 3.7
+  },
+  "scrapedDate": "2026-01-19T02:38:06.286Z",
+  "sourceUrl": "https://www.paccentraljc.org/251004/20255377.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255377.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.288Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

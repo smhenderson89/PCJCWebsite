@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255339",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "Filoli Historic House",
+  "date": "December 20, 2025",
+  "genus": "Laelia",
+  "species": "anceps",
+  "clone": "Imperial Rose",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255339.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 7,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Seven beautiful flowers on two up to 90-cm inflorescences;\n sepals oblanceolate, pale lavender-pink;\n petals obovate, lavender-pink;\n lip trilobed, cream, lateral lobes overlaid dark magenta on margins,\n mid lobe dark magenta, veined magenta centrally-basally, callus yellow;\n substance firm; texture satin.",
+    "NS": 11.1,
+    "NSV": 12.4,
+    "DSW": 2,
+    "DSL": 7.3,
+    "PETW": 4.6,
+    "PETL": 6.4,
+    "LSW": 2,
+    "LSL": 6.7,
+    "LIPW": 2.7,
+    "LIPL": 4.8
+  },
+  "scrapedDate": "2026-01-19T02:38:06.178Z",
+  "sourceUrl": "https://www.paccentraljc.org/251220/20255339.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255339.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.179Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

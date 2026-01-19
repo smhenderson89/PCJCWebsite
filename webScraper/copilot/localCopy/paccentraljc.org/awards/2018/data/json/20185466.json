@@ -12,11 +12,15 @@
   "photographer": "N/A",
   "photo": "images/20185466.jpg",
   "measurements": {
-    "type": "N/A",
+    "type": "Pouch&SynselPal",
     "numFlowers": 0,
     "numBuds": 0,
     "numInflorescences": 0,
-    "description": "Nine very round and overlapping French Spot flowers and three buds arranged well on one arched 82cm inflorescence;\n\tsepals and petals white basally overlaid pink with very fine fuchsia pink spots, heavier centrally;\n\tlip side lobes white veined with red centrally, yellow distally, midlobe white with fuchsia pink and yellow blotching,\n\tcalli yellow overlaid with fuchsia pink spots; column white overlaid with fuchsia pink; substance firm; texture crystalline."
+    "description": "Nine very round and overlapping French Spot flowers and three buds arranged well on one arched 82cm inflorescence;\n\tsepals and petals white basally overlaid pink with very fine fuchsia pink spots, heavier centrally;\n\tlip side lobes white veined with red centrally, yellow distally, midlobe white with fuchsia pink and yellow blotching,\n\tcalli yellow overlaid with fuchsia pink spots; column white overlaid with fuchsia pink; substance firm; texture crystalline.",
+    "SYNSW": 3.3,
+    "SYNSL": 4.2,
+    "PCHW": 3.3,
+    "PCHL": 6.7
   },
   "scrapedDate": "2025-10-15T03:22:20.399Z",
   "sourceUrl": "https://www.paccentraljc.org/20181112/20185466.html",

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255335",
+  "award": "CCE",
+  "awardpoints": 90,
+  "location": "Filoli Historic House",
+  "date": "December 20, 2025",
+  "genus": "Laelia",
+  "species": "anceps",
+  "clone": "Tamara",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255335.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 103,
+    "numBuds": 7,
+    "numInflorescences": 39,
+    "description": "One hundred three slightly cuppy flowers and seven buds on 39 up to 70-cm inflorescences;\n  plant 138 cm wide by 24 cm tall, in round plastic 58-cm pot, grown in bark;\n  sepals lanceolate, lavender;\n petals peloric, undulate margins, cream overlaid fuchsia,\n intense fuchsia margins, fushia veins, white splash center;\n lip tri-lobed, midlobe intense fuchsia, side lobes intense fuchsia margins, cream\n veined fuchsia basally, throat yellow; column cream marked fuchsia, anther cap white;\n substance medium; texture matte; four flowers were not peloric.",
+    "NS": 7.5,
+    "NSV": 10.1,
+    "DSW": 1.7,
+    "DSL": 5.4,
+    "PETW": 3.4,
+    "PETL": 5.2,
+    "LSW": 1.4,
+    "LSL": 5.8,
+    "LIPW": 4.3,
+    "LIPL": 4
+  },
+  "scrapedDate": "2026-01-19T02:38:06.170Z",
+  "sourceUrl": "https://www.paccentraljc.org/251220/20255335.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255335.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.172Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -16,7 +16,7 @@
     "numFlowers": 2,
     "numBuds": 1,
     "numInflorescences": 1,
-    "description": "N/A",
+    "description": "Two flowers and one bud on one 19-cm inflorescence; dorsal sepal yellow, veined orange; lateral sepals yellow, flushed orange; petals narrow, yellow, flushed orange; lip orange, white basally; column white; substance moderate; texture matte.",
     "NS": 10,
     "NSV": 8.5,
     "DSW": 8,
@@ -28,9 +28,13 @@
     "LIPW": 0.3,
     "LIPL": 2
   },
-  "scrapedDate": "2025-10-12T02:14:20.611Z",
+  "scrapedDate": "2026-01-19T02:38:06.276Z",
   "sourceUrl": "https://www.paccentraljc.org/250603/20255373.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255373.html",
   "year": 2025,
-  "fixApplied": "logicReference/missingInfoLogic.json"
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.277Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

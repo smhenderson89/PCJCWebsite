@@ -12,11 +12,15 @@
   "photographer": "N/A",
   "photo": "images/20185472.jpg",
   "measurements": {
-    "type": "N/A",
+    "type": "Pouch&SynselPal",
     "numFlowers": 0,
     "numBuds": 0,
     "numInflorescences": 0,
-    "description": "Twelve richly hued flowers and 3 buds on one arching 94cm inflorescence;\n\tsepals and petals white overlaid almost fully with heavy fuchsia except for a very narrow, but distinct, white picotee,\n\tlateral sepals dark purple-dotted basally;\n\tlip dark fuchsia with white picotee on the side lobes, calli lemon yellow spotted with fuchsia;\n\tcolumn fuchsia, anther cap white; substance average; texture crystalline."
+    "description": "Twelve richly hued flowers and 3 buds on one arching 94cm inflorescence;\n\tsepals and petals white overlaid almost fully with heavy fuchsia except for a very narrow, but distinct, white picotee,\n\tlateral sepals dark purple-dotted basally;\n\tlip dark fuchsia with white picotee on the side lobes, calli lemon yellow spotted with fuchsia;\n\tcolumn fuchsia, anther cap white; substance average; texture crystalline.",
+    "SYNSW": 3.3,
+    "SYNSL": 4.2,
+    "PCHW": 3.3,
+    "PCHL": 6.7
   },
   "scrapedDate": "2025-10-15T03:22:20.410Z",
   "sourceUrl": "https://www.paccentraljc.org/20181112/20185472.html",

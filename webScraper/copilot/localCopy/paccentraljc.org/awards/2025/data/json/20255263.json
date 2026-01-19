@@ -16,7 +16,7 @@
     "numFlowers": 30,
     "numBuds": 2,
     "numInflorescences": 9,
-    "description": "N/A",
+    "description": "Thirty flowers and two buds apically clustered on nine, up to 82-cm, slightly arching inflorescences; flowers white; lip slightly ruffled on margins, stippled magenta, blushed yellow centrally; column white, overlaid light green, anther cap white; substance firm; texture matte.",
     "NS": 8.2,
     "NSV": 8.8,
     "DSW": 1.7,
@@ -28,9 +28,13 @@
     "LIPW": 3.3,
     "LIPL": 4.6
   },
-  "scrapedDate": "2025-10-12T02:14:20.610Z",
+  "scrapedDate": "2026-01-19T02:38:05.899Z",
   "sourceUrl": "https://www.paccentraljc.org/250221/20255263.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255263.html",
   "year": 2025,
-  "fixApplied": "logicReference/missingInfoLogic.json"
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:05.901Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

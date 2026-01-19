@@ -16,7 +16,7 @@
     "numFlowers": 15,
     "numBuds": 3,
     "numInflorescences": 2,
-    "description": "N/A",
+    "description": "Fifteen flowers and three buds on two upright, up to 72-cm inflorescences; sepals and petals clear bright yellow; lip slightly recurved, clear bright yellow, liberally blotched crimson distally, keel pale yellow, dotted crimson; column yellow, overlaid burgundy, anther cap cream; substance hard; texture matte.",
     "NS": 12.1,
     "NSV": 9.6,
     "DSW": 5.8,
@@ -28,9 +28,13 @@
     "LIPW": 4,
     "LIPL": 4.9
   },
-  "scrapedDate": "2025-10-12T02:14:20.607Z",
+  "scrapedDate": "2026-01-19T02:38:05.884Z",
   "sourceUrl": "https://www.paccentraljc.org/250221/20255260.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255260.html",
   "year": 2025,
-  "fixApplied": "logicReference/missingInfoLogic.json"
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:05.886Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

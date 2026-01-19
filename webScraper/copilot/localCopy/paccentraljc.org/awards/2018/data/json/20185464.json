@@ -12,11 +12,15 @@
   "photographer": "N/A",
   "photo": "images/20185464.jpg",
   "measurements": {
-    "type": "N/A",
+    "type": "Pouch&SynselPal",
     "numFlowers": 0,
     "numBuds": 0,
     "numInflorescences": 0,
-    "description": "Twelve full flowers racked well on one arching 78cm inflorescence;\n\tsepals and petals smooth pink-lavender, petals lightly veined with slightly darker lavender centrally;\n\tlip midlobe and slightly broadened side lobes pink-lavender, throat magenta-spotted on and near white calli;\n\tcolumn white, anther cap white blushed with pink; substance average; texture crystalline."
+    "description": "Twelve full flowers racked well on one arching 78cm inflorescence;\n\tsepals and petals smooth pink-lavender, petals lightly veined with slightly darker lavender centrally;\n\tlip midlobe and slightly broadened side lobes pink-lavender, throat magenta-spotted on and near white calli;\n\tcolumn white, anther cap white blushed with pink; substance average; texture crystalline.",
+    "SYNSW": 3.3,
+    "SYNSL": 4.2,
+    "PCHW": 3.3,
+    "PCHL": 6.7
   },
   "scrapedDate": "2025-10-15T03:22:20.394Z",
   "sourceUrl": "https://www.paccentraljc.org/20181112/20185464.html",

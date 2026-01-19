@@ -1,0 +1,41 @@
+{
+  "awardNum": "20255329",
+  "award": "JC",
+  "awardpoints": "N/A",
+  "location": "Filoli Historic House",
+  "date": "November 15, 2025",
+  "genus": "Cymbidium",
+  "species": "ensifolium",
+  "clone": "Hong Cao Hong He",
+  "cross": "N/A",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20255329.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": "N/A",
+    "numBuds": "N/A",
+    "numInflorescences": "N/A",
+    "description": "Award to plant without blooms. Commended for attractive mahogany color of emerging growths. Color transitions to green as growth mature with residual mahogany flecks, margin and midrib.",
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LIPW": "N/A",
+    "LSW": "N/A",
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
+  },
+  "scrapedDate": "2026-01-19T02:38:06.150Z",
+  "sourceUrl": "https://www.paccentraljc.org/251115/20255329.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255329.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.152Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "special"
+  }
+}

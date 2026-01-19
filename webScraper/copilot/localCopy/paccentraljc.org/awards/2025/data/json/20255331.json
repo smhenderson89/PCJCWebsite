@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255331",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Filoli Historic House",
+  "date": "December 20, 2025",
+  "genus": "Cymbidium",
+  "species": "seidenfadenii",
+  "clone": "Seed Studio Sakura Crystal",
+  "cross": "species",
+  "exhibitor": "Evan Shen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255331.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 27,
+    "numBuds": 8,
+    "numInflorescences": 4,
+    "description": "Twenty-seven stellate flowers and one bud on three up to 88-cm inflorescences, seven buds on one \nimmature inflorescence;\n sepals and petals white lightly overlaid pale rose, striped and spotted dark rose \n centrally and basally;\n\n lip light rose, boldly veined dark rose, keels hirsute, yellow;\n column pink flushed dark rose, anther cap white;\n substance average; texture matte.",
+    "NS": 7,
+    "NSV": 5.6,
+    "DSW": 1.2,
+    "DSL": 4.5,
+    "PETW": 1.1,
+    "PETL": 3.9,
+    "LSW": 1.4,
+    "LSL": 4.1,
+    "LIPW": 1.3,
+    "LIPL": 5.1
+  },
+  "scrapedDate": "2026-01-19T02:38:06.158Z",
+  "sourceUrl": "https://www.paccentraljc.org/251220/20255331.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255331.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.160Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

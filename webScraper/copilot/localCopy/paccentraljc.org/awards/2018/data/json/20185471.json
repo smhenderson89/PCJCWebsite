@@ -12,11 +12,15 @@
   "photographer": "N/A",
   "photo": "images/20185471.jpg",
   "measurements": {
-    "type": "N/A",
+    "type": "Pouch&SynselPal",
     "numFlowers": 0,
     "numBuds": 0,
     "numInflorescences": 0,
-    "description": "Fifteen flowers on two inflorescences to 61cm long;\n\tdorsal sepal lemon yellow with fuchsia pink blush and spotting basally,\n\tlateral sepals lemon yellow with darker fuchsia spotting centrally;\n\tpetals lemon yellow with fuchsia pink blush and heavier barring centrally;\n\tlip fuchsia pink, calli egg yolk yellow with fuchsia pink spots; column white; substance firm; texture matte."
+    "description": "Fifteen flowers on two inflorescences to 61cm long;\n\tdorsal sepal lemon yellow with fuchsia pink blush and spotting basally,\n\tlateral sepals lemon yellow with darker fuchsia spotting centrally;\n\tpetals lemon yellow with fuchsia pink blush and heavier barring centrally;\n\tlip fuchsia pink, calli egg yolk yellow with fuchsia pink spots; column white; substance firm; texture matte.",
+    "SYNSW": 3.3,
+    "SYNSL": 4.2,
+    "PCHW": 3.3,
+    "PCHL": 6.7
   },
   "scrapedDate": "2025-10-15T03:22:20.409Z",
   "sourceUrl": "https://www.paccentraljc.org/20181112/20185471.html",

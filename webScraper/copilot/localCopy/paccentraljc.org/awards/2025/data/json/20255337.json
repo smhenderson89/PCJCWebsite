@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255337",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "Filoli Historic House",
+  "date": "December 20, 2025",
+  "genus": "Rhyncattleanthe",
+  "species": "Helenita Alanis Yap",
+  "clone": "Tho X. Bui",
+  "cross": "Rhyncattleanthe Star Fire x Rhyncholaeliocattleya Paradise Rose",
+  "exhibitor": "Mary Bui-Pham",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255337.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three full balanced flowers on one strong upright 17-cm inflorescence;\n  \n sepals and petals saturated deep red-maroon, veined darker red-maroon;\n lip ruffled, saturated dark red-maroon, bold yellow-orange proximally;\n column and anther cap white;\n substance firm; texture velvet.",
+    "NS": 9.1,
+    "NSV": 8.9,
+    "DSW": 2,
+    "DSL": 4.2,
+    "PETW": 3.2,
+    "PETL": 4.2,
+    "LSW": 2.1,
+    "LSL": 4.1,
+    "LIPW": 3.1,
+    "LIPL": 4
+  },
+  "scrapedDate": "2026-01-19T02:38:06.175Z",
+  "sourceUrl": "https://www.paccentraljc.org/251220/20255337.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255337.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.176Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

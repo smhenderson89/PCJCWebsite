@@ -12,11 +12,15 @@
   "photographer": "N/A",
   "photo": "images/20185477.jpg",
   "measurements": {
-    "type": "N/A",
+    "type": "Pouch&SynselPal",
     "numFlowers": 0,
     "numBuds": 0,
     "numInflorescences": 0,
-    "description": "Phenomenal, exceptionally well-flowered, multi-crown specimen plant with 526 flowers and 130 buds on 65 inflorescences to 64cm long;\n\tplant 123cm tall, 195cm wide, 155cm deep in a 33cm tall, 90cm wide, 48cm deep slatted wooden basket;\n\tsuper-resupinate flowers typical of species; sepals and petals light green; lip white with 7.6cm spur;\n\tsubstance heavy; texture waxy."
+    "description": "Phenomenal, exceptionally well-flowered, multi-crown specimen plant with 526 flowers and 130 buds on 65 inflorescences to 64cm long;\n\tplant 123cm tall, 195cm wide, 155cm deep in a 33cm tall, 90cm wide, 48cm deep slatted wooden basket;\n\tsuper-resupinate flowers typical of species; sepals and petals light green; lip white with 7.6cm spur;\n\tsubstance heavy; texture waxy.",
+    "SYNSW": 3.3,
+    "SYNSL": 4.2,
+    "PCHW": 3.3,
+    "PCHL": 6.7
   },
   "scrapedDate": "2025-10-15T03:22:20.424Z",
   "sourceUrl": "https://www.paccentraljc.org/20181112/20185477.html",

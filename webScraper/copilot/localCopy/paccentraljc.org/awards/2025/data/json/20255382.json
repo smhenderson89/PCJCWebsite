@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255382",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Peninsula Orchid Society Show",
+  "date": "October 4, 2025",
+  "genus": "Cymbidium",
+  "species": "haematodes",
+  "clone": "Xi Yang Yang",
+  "cross": "species",
+  "exhibitor": "Even Shen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255382.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 8,
+    "numBuds": 4,
+    "numInflorescences": 2,
+    "description": "Eight richly colored flowers and four buds on two upright up to 42-cm inflorescence;\n sepals lanceolate, acute, red, veined darker;\n petals lanceolate, acute, porrect, tan, overlaid red, veined dark red;\n lip lanceolate, obtuse, strongly recurved, white, blotched red, callus yellow;\n column red, anther cap white;\n substance firm; texture satiny.",
+    "NS": 4.2,
+    "NSV": 6.9,
+    "DSW": 1,
+    "DSL": 3.4,
+    "PETW": 1,
+    "PETL": 2.6,
+    "LSW": 1,
+    "LSL": 3.5,
+    "LIPW": 0.9,
+    "LIPL": 2
+  },
+  "scrapedDate": "2026-01-19T02:38:06.303Z",
+  "sourceUrl": "https://www.paccentraljc.org/251004/20255382.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255382.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.304Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

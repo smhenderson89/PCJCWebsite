@@ -12,11 +12,15 @@
   "photographer": "N/A",
   "photo": "images/20185474.jpg",
   "measurements": {
-    "type": "N/A",
+    "type": "Pouch&SynselPal",
     "numFlowers": 0,
     "numBuds": 0,
     "numInflorescences": 0,
-    "description": "Two hundred seventy-three superbly formed and feathered bicolor flowers and 82 buds on 30 upright inflorescences to 47cm long;\n\tplant exceptionally well-flowered, 122cm tall, 100cm wide, grown in a 25cm black plastic pot;\n\tsepals and petals deep purple-feathered surrounding dark fuchsia centrally;\n\tlip dark fuchsia-purple, white centrally; column purple, anther cap white; substance average; texture matte."
+    "description": "Two hundred seventy-three superbly formed and feathered bicolor flowers and 82 buds on 30 upright inflorescences to 47cm long;\n\tplant exceptionally well-flowered, 122cm tall, 100cm wide, grown in a 25cm black plastic pot;\n\tsepals and petals deep purple-feathered surrounding dark fuchsia centrally;\n\tlip dark fuchsia-purple, white centrally; column purple, anther cap white; substance average; texture matte.",
+    "SYNSW": 3.3,
+    "SYNSL": 4.2,
+    "PCHW": 3.3,
+    "PCHL": 6.7
   },
   "scrapedDate": "2025-10-15T03:22:20.419Z",
   "sourceUrl": "https://www.paccentraljc.org/20181112/20185474.html",

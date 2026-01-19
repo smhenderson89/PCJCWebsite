@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255340",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Filoli Historic House",
+  "date": "December 20, 2025",
+  "genus": "Dendrobium",
+  "species": "cuthbertsonii",
+  "clone": "Jazlyn",
+  "cross": "species",
+  "exhibitor": "Catherine Obillo",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255340.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 3,
+    "description": "Three non-resupinate flowers on three up to 5.5-cm inflorescences;\n dorsal sepal and petals strong orange;\n lateral sepals strong orange overlaid burnt orange medially;\n lip brighter orange, margin deep brown accented blood red;\n substance medium; texture diamond dust.",
+    "NS": 3.2,
+    "NSV": 3.3,
+    "DSW": 1.2,
+    "DSL": 1.6,
+    "PETW": 1.3,
+    "PETL": 1.5,
+    "LSW": 1.6,
+    "LSL": 1.7,
+    "LIPW": 0.9,
+    "LIPL": 2
+  },
+  "scrapedDate": "2026-01-19T02:38:06.180Z",
+  "sourceUrl": "https://www.paccentraljc.org/251220/20255340.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255340.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.182Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

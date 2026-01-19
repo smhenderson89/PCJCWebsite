@@ -12,7 +12,7 @@
   "photographer": "Ken Jacobsen",
   "photo": "images/20235304.jpg",
   "measurements": {
-    "type": "LateralSepal",
+    "type": "Pouch&SynselPal",
     "numFlowers": 3,
     "numBuds": 0,
     "numInflorescences": 3,
@@ -22,7 +22,11 @@
     "DSW": 4,
     "DSL": 5.1,
     "PETW": 1.5,
-    "PETL": 4.9
+    "PETL": 4.9,
+    "SYNSW": 2.4,
+    "SYNSL": 3.7,
+    "PCHW": 3,
+    "PCHL": 4
   },
   "scrapedDate": "2025-10-12T20:20:02.871Z",
   "sourceUrl": "https://www.paccentraljc.org/231118/20235304.html",

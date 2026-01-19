@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255338",
+  "award": "CBR",
+  "awardpoints": "N/A",
+  "location": "Filoli Historic House",
+  "date": "December 20, 2025",
+  "genus": "Cranichis",
+  "species": "turkeliae",
+  "clone": "Original",
+  "cross": "species",
+  "exhibitor": "Jim Heilig",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255338.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 100,
+    "numBuds": 50,
+    "numInflorescences": 1,
+    "description": "An estimated 100 non-resupinate flowers and 50 buds on an unstaked upright\n inflorescence 55 cm in length; grown in bark in an 8-cm plastic pot, \n plant 8 cm tall, 23 cm wide, five leaves in rosette, dark green leaves up to 13 cm in length,\n wide longitudinal silver stripes, margins undulate;\n sepals and petals white; lip white spotted dark green;\n substance firm; texture matte; recognized for rarity and foliage markings.",
+    "NS": 0.6,
+    "NSV": 0.5,
+    "DSW": 0.1,
+    "DSL": 0.2,
+    "PETW": 0.1,
+    "PETL": 0.2,
+    "LSW": 0.1,
+    "LSL": 0.3,
+    "LIPW": 0.25,
+    "LIPL": 0.3
+  },
+  "scrapedDate": "2026-01-19T02:38:06.176Z",
+  "sourceUrl": "https://www.paccentraljc.org/251220/20255338.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255338.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.177Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

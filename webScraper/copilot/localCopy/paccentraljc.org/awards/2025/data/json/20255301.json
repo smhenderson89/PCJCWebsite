@@ -12,7 +12,7 @@
   "photographer": "Ken Jacobsen",
   "photo": "images/20255301.jpg",
   "measurements": {
-    "type": "LateralSepal",
+    "type": "Pouch&SynselPal",
     "numFlowers": 5,
     "numBuds": 0,
     "numInflorescences": 1,
@@ -22,10 +22,19 @@
     "DSW": 4.5,
     "DSL": 4.8,
     "PETW": 1.4,
-    "PETL": 10.5
+    "PETL": 10.5,
+    "SYNSW": 3,
+    "SYNSL": 5.2,
+    "PCHW": 2.5,
+    "PCHL": 5.5
   },
-  "scrapedDate": "2025-10-12T01:27:56.827Z",
+  "scrapedDate": "2026-01-19T02:38:06.052Z",
   "sourceUrl": "https://www.paccentraljc.org/250517/20255301.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255301.html",
-  "year": 2025
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.054Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

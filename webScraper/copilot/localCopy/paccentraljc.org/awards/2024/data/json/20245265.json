@@ -12,7 +12,7 @@
   "photographer": "Lynne Murrell",
   "photo": "images/20245265.jpg",
   "measurements": {
-    "type": "LateralSepal",
+    "type": "Lip&LateralSepal",
     "numFlowers": 45,
     "numBuds": 4,
     "numInflorescences": 49,

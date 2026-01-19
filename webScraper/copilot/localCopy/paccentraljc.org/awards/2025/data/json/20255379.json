@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255379",
+  "award": "CCM",
+  "awardpoints": 84,
+  "location": "Peninsula Orchid Society Show",
+  "date": "October 4, 2025",
+  "genus": "Gomesa",
+  "species": "eleutherosepala",
+  "clone": "Lise",
+  "cross": "species",
+  "exhibitor": "Mary Gerritsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255379.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 27,
+    "numBuds": 15,
+    "numInflorescences": 13,
+    "description": "Twenty-seven flowers and 15 buds on 13 up to 6.5-cm inflorescences\n arising from the leaf axils;\n 25-cm wide by 36-cm tall plant mounted on a\n 13-cm wide by 19-cm tall cork slab;\n sepals and petals light chartreuse;\n dorsal sepal lanceolate, hooded;\n lateral sepals lanceolate, porrect;\n petals spatulate;\n lip trilobed, adnate to column, white, magenta spots proximally,\n callus maroon;\n column light chartreuse adaxially, \nwhite abaxially, horns white, magenta distally, anther cap white;\n substance firm; texture matte.",
+    "NS": 1.2,
+    "NSV": 1.2,
+    "DSW": 0.1,
+    "DSL": 0.3,
+    "PETW": 0.2,
+    "PETL": 0.5,
+    "LSW": 0.3,
+    "LSL": 0.5,
+    "LIPW": 0.6,
+    "LIPL": 0.7
+  },
+  "scrapedDate": "2026-01-19T02:38:06.293Z",
+  "sourceUrl": "https://www.paccentraljc.org/251004/20255379.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255379.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.295Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

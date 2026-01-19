@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255375",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Peninsula Orchid Society Show",
+  "date": "October 4, 2025",
+  "genus": "Cymbidium",
+  "species": "haematodes",
+  "clone": "Seed Studio Rainbow",
+  "cross": "species",
+  "exhibitor": "Even Shen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255375.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 7,
+    "numBuds": 1,
+    "numInflorescences": 1,
+    "description": "Seven flowers and one bud on one upright 34-cm inflorescence;\n sepals lanceolate, acute, slightly porrect, cream veined dark red;\n petals lanceolate, acute, porrect, cream veined dark red;\n lip lanceolate, obtuse, recurved, white, blotched red distally,\n overlaid red proximally, callus yellow;\n column cream, anther cap cream;\n substance firm; texture matte.",
+    "NS": 4.6,
+    "NSV": 4.4,
+    "DSW": 0.9,
+    "DSL": 3.1,
+    "PETW": 1.1,
+    "PETL": 2.7,
+    "LSW": 0.8,
+    "LSL": 3.2,
+    "LIPW": 1,
+    "LIPL": 1.9
+  },
+  "scrapedDate": "2026-01-19T02:38:06.281Z",
+  "sourceUrl": "https://www.paccentraljc.org/251004/20255375.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255375.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.282Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

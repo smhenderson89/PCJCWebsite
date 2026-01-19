@@ -12,11 +12,15 @@
   "photographer": "N/A",
   "photo": "images/20185467.jpg",
   "measurements": {
-    "type": "N/A",
+    "type": "Pouch&SynselPal",
     "numFlowers": 0,
     "numBuds": 0,
     "numInflorescences": 0,
-    "description": "Two slightly cupped, very full flowers on two inflorescences of 28 cm. and 31 cm. lengths;\n\tdorsal sepal white, veined with dark green; synsepal white, veined with lime green;\n\tpetals light chartreuse, veined with dark green, much darker green centrally, heavily warted and hirsute;\n\tpouch chartreuse; staminode chartreuse with two dark green spots; substance heavy; texture glossy."
+    "description": "Two slightly cupped, very full flowers on two inflorescences of 28 cm. and 31 cm. lengths;\n\tdorsal sepal white, veined with dark green; synsepal white, veined with lime green;\n\tpetals light chartreuse, veined with dark green, much darker green centrally, heavily warted and hirsute;\n\tpouch chartreuse; staminode chartreuse with two dark green spots; substance heavy; texture glossy.",
+    "SYNSW": 3.3,
+    "SYNSL": 4.2,
+    "PCHW": 3.3,
+    "PCHL": 6.7
   },
   "scrapedDate": "2025-10-15T03:22:20.401Z",
   "sourceUrl": "https://www.paccentraljc.org/20181112/20185467.html",

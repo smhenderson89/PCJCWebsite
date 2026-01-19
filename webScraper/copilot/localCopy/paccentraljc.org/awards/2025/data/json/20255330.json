@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255330",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Filoli Historic House",
+  "date": "December 20, 2025",
+  "genus": "Cymbidium",
+  "species": "tracyanum",
+  "clone": "Catherine",
+  "cross": "species",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255330.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 21,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Twenty-one flowers on two up to 83-cm inflorescences;\n sepals and petals olive green spotted and striped maroon;\n dorsal sepal narrowly elliptic, hooded, lateral sepals ovate, falcate;\n petals ligulate, falcate;\n lip cream, striped maroon lateral lobes, yellow cilia on keel,\n apical lobe crispate, spotted maroon, covered light yellow cilia;\n column cream, spotted maroon basally, striped maroon ventrally, anther cap white;\n substance firm; texture matte.",
+    "NS": 13,
+    "NSV": 7.8,
+    "DSW": 2.3,
+    "DSL": 6.8,
+    "PETW": 1.6,
+    "PETL": 6.9,
+    "LSW": 2,
+    "LSL": 5.5,
+    "LIPW": 2.5,
+    "LIPL": 4.1
+  },
+  "scrapedDate": "2026-01-19T02:38:06.153Z",
+  "sourceUrl": "https://www.paccentraljc.org/251220/20255330.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255330.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.155Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

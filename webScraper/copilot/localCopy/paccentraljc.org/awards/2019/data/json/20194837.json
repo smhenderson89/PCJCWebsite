@@ -12,7 +12,7 @@
   "photographer": "N/A",
   "photo": "images/20194837.jpg",
   "measurements": {
-    "type": "LateralSepal",
+    "type": "Lip&LateralSepal",
     "numFlowers": 19,
     "numBuds": 14,
     "numInflorescences": 33,

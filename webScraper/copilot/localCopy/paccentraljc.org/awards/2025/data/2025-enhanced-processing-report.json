@@ -1,0 +1,745 @@
+{
+  "timestamp": "2026-01-19T02:38:06.304Z",
+  "logicReferenceUsed": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/webScraper/copilot/localCopy/utilities/logicReference/missingInfoLogic.json",
+  "summary": {
+    "totalProcessed": 122,
+    "successful": 122,
+    "failed": 0,
+    "successRate": "100.0%"
+  },
+  "successes": [
+    {
+      "awardNum": "20255250",
+      "plant": "Cymbidium Ken Siew 'Filoli'",
+      "award": "AM 81",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255251",
+      "plant": "Cymbidium tracyanum 'Adele'",
+      "award": "AM 82",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255252",
+      "plant": "Cymbidium tracyanum 'Stirling Sweet'",
+      "award": "AM 80",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255253",
+      "plant": "Cattleya walkeriana 'Maximo'",
+      "award": "AM 83",
+      "exhibitor": "Steven Christoffersen"
+    },
+    {
+      "awardNum": "20255254",
+      "plant": "Cattleya loddigesii 'Gracie'",
+      "award": "AM 85",
+      "exhibitor": "Amy & Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255255",
+      "plant": "Paphiopedilum Upcheri 'Jean Allen-Ikeson'",
+      "award": "AM 80",
+      "exhibitor": "Carol Klonowski"
+    },
+    {
+      "awardNum": "20255256",
+      "plant": "Rhyncattleanthe Princess Takamado 'Sandy & Steph'",
+      "award": "AM 81",
+      "exhibitor": "Tom Waugh"
+    },
+    {
+      "awardNum": "20255257",
+      "plant": "Cymbidium Mademoiselle 'Woodside'",
+      "award": "HCC 76",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255258",
+      "plant": "Cymbidium Spider Dance 'Woodside'",
+      "award": "AM 85",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255259",
+      "plant": "Cymbidium Camryn Quest 'Voyage'",
+      "award": "AM 81",
+      "exhibitor": "Ceajay Palanca"
+    },
+    {
+      "awardNum": "20255260",
+      "plant": "Cymbidium Chaohung Emperor Amber 'Linsie'",
+      "award": "HCC 79",
+      "exhibitor": "Linsie Hu"
+    },
+    {
+      "awardNum": "20255261",
+      "plant": "Cymbidium Exeter Jadeite 'Oh Yes'",
+      "award": "AM 81",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255262",
+      "plant": "Cattleya loddigesii 'Bentley'",
+      "award": "AM 84",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255263",
+      "plant": "Laelia anceps 'Snow Baby'",
+      "award": "AM 84",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255264",
+      "plant": "Laelia anceps 'Snow Woman'",
+      "award": "AM 80",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255265",
+      "plant": "Cymbidium Pamela Larson 'Oh, Happy Day'",
+      "award": "HCC 79",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255266",
+      "plant": "Cymbidium Rockstar 'Rina'",
+      "award": "AM 84",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255267",
+      "plant": "Calanthe unregistered hybrid 'Hoshi-ho-shizuku'",
+      "award": "HCC 79",
+      "exhibitor": "Evan Shen"
+    },
+    {
+      "awardNum": "20255268",
+      "plant": "Dendrobium Duno Marilyn 'Gracie'",
+      "award": "AM 81",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255269",
+      "plant": "Cymbidium Lemon Sorbet 'Windermere'",
+      "award": "HCC 77",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255271",
+      "plant": "Cattleya Intermedia 'Amazing One'",
+      "award": "AM 81",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255272",
+      "plant": "Paphiopedilum Cocoa Pri Jollix 'Norrine'",
+      "award": "HCC 78",
+      "exhibitor": "Jason Douglass"
+    },
+    {
+      "awardNum": "20255273",
+      "plant": "Cattleya Rose Marguglio Szwed 'Pink Orb'",
+      "award": "AM 85",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255274",
+      "plant": "Pleione Ueli Wackernagel 'Pearl'",
+      "award": "HCC 78",
+      "exhibitor": "Anthony Rivera"
+    },
+    {
+      "awardNum": "20255275",
+      "plant": "Rhyncholaeliocattleya Memoria Victoria Kam 'Fascination'",
+      "award": "CCE 93",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255276",
+      "plant": "Cymbidium Ken Jacobsen 'Komodo'",
+      "award": "AM 80",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255277",
+      "plant": "Pleione formosana 'Polar Sun'",
+      "award": "HCC 78",
+      "exhibitor": "Anthony Rivera"
+    },
+    {
+      "awardNum": "20255278",
+      "plant": "Leptotes bicolor 'Charlotte'",
+      "award": "AM 81",
+      "exhibitor": "Zach Coney"
+    },
+    {
+      "awardNum": "20255279",
+      "plant": "Cymbidium Jordon Winter 'Woodside'",
+      "award": "AM 83",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255280",
+      "plant": "Cymbidium Ken Jacobsen 'Rainbow'",
+      "award": "AM 80",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255281",
+      "plant": "Cymbidium Ken Jacobsen 'Peaches'",
+      "award": "HCC 79",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255282",
+      "plant": "Sarcochilus Fran Weaver 'Mother'",
+      "award": "HCC 78",
+      "exhibitor": "Bill Weaver"
+    },
+    {
+      "awardNum": "20255283",
+      "plant": "Sarcochilus Fran Weaver 'Mother'",
+      "award": "CCM 85",
+      "exhibitor": "Bill Weaver"
+    },
+    {
+      "awardNum": "20255284",
+      "plant": "Paphiopedilum hirsutissimum 'Flower Market Gem'",
+      "award": "AM 80",
+      "exhibitor": "Japheth Ko"
+    },
+    {
+      "awardNum": "20255285",
+      "plant": "Cymbidium King Kirby 'Galaxy'",
+      "award": "HCC 78",
+      "exhibitor": "Ceajay Palanca"
+    },
+    {
+      "awardNum": "20255286",
+      "plant": "Phalaenopsis japonica 'Verdio Stars'",
+      "award": "HCC 78",
+      "exhibitor": "Evan Shen"
+    },
+    {
+      "awardNum": "20255288",
+      "plant": "Phalaenopsis Saitama Alliance 'Kazu'",
+      "award": "HCC 78",
+      "exhibitor": "Mariana Alwell"
+    },
+    {
+      "awardNum": "20255289",
+      "plant": "Microcoelia koehleri 'Ontonagon'",
+      "award": "AM 82",
+      "exhibitor": "Jim Heilig"
+    },
+    {
+      "awardNum": "20255290",
+      "plant": "Microcoelia koehleri 'Ontonagon'",
+      "award": "CCM 85",
+      "exhibitor": "Jim Heilig"
+    },
+    {
+      "awardNum": "20255291",
+      "plant": "Sarcochilus Kulnura Opus 'Barbara Jane'",
+      "award": "CCM 84",
+      "exhibitor": "Cheri Wagner"
+    },
+    {
+      "awardNum": "20255292",
+      "plant": "Angraecum florulentum 'Niles'",
+      "award": "AM 84",
+      "exhibitor": "Chaunie Langland"
+    },
+    {
+      "awardNum": "20255293",
+      "plant": "Cymbidium parishii 'Reverend Charles'",
+      "award": "CHM 82",
+      "exhibitor": "C. Todd Kennedy"
+    },
+    {
+      "awardNum": "20255294",
+      "plant": "Sarcochilus Cholita Cuencana 'Linsie'",
+      "award": "CCM 80",
+      "exhibitor": "Linsie Hu"
+    },
+    {
+      "awardNum": "20255295",
+      "plant": "Epidendrum camposii 'Daxin Shu'",
+      "award": "CBR N/A",
+      "exhibitor": "Evan Shen"
+    },
+    {
+      "awardNum": "20255296",
+      "plant": "Mystacidium Neil McCormick 'Mae West'",
+      "award": "AM 83",
+      "exhibitor": "Chaunie Langland"
+    },
+    {
+      "awardNum": "20255297",
+      "plant": "Mystacidium Neil McCormick 'Mae West'",
+      "award": "CCM 86",
+      "exhibitor": "Chaunie Langland"
+    },
+    {
+      "awardNum": "20255298",
+      "plant": "Sarcochilus Kulnura Momentum 'Elkhorn'",
+      "award": "AM 82",
+      "exhibitor": "Sylvia Darr"
+    },
+    {
+      "awardNum": "20255299",
+      "plant": "Dendrobium wardianum 'Ailleurs Dream'",
+      "award": "AM 83",
+      "exhibitor": "Kaiju Lyu"
+    },
+    {
+      "awardNum": "20255300",
+      "plant": "Paphiopedilum Toni Semple 'Huiping Zhou'",
+      "award": "AM 81",
+      "exhibitor": "Evan Shen"
+    },
+    {
+      "awardNum": "20255301",
+      "plant": "Paphiopedilum Julius 'Snidely Whiplash'",
+      "award": "AM 83",
+      "exhibitor": "Jason Douglass"
+    },
+    {
+      "awardNum": "20255302",
+      "plant": "Cattleya warscewiczii 'Thomas Toulemonde'",
+      "award": "AM 86",
+      "exhibitor": "Steven Christoffersen"
+    },
+    {
+      "awardNum": "20255303",
+      "plant": "Hsin Venus 'Debby'",
+      "award": "AM 80",
+      "exhibitor": "Tom Waugh"
+    },
+    {
+      "awardNum": "20255304",
+      "plant": "Hsin Venus 'Debby'",
+      "award": "CCM 86",
+      "exhibitor": "Tom Waugh"
+    },
+    {
+      "awardNum": "20255305",
+      "plant": "Zygostates lunata 'Zorro'",
+      "award": "HCC 79",
+      "exhibitor": "Chaunie Langland"
+    },
+    {
+      "awardNum": "20255306",
+      "plant": "Disa uniflora 'Seedstudio Lemon Light'",
+      "award": "HCC 75",
+      "exhibitor": "Seed Studio"
+    },
+    {
+      "awardNum": "20255307",
+      "plant": "Disa uniflora 'Seedstudio Ruby Castro'",
+      "award": "HCC 79",
+      "exhibitor": "Seed Studio"
+    },
+    {
+      "awardNum": "20255308",
+      "plant": "Disa Diores 'Seedstudio Orchard Torch'",
+      "award": "AM 80",
+      "exhibitor": "Seed Studio"
+    },
+    {
+      "awardNum": "20255309",
+      "plant": "Rhyncholaeliocattleya Golden Circle 'OPRL'",
+      "award": "HCC 77",
+      "exhibitor": "Amy & Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255310",
+      "plant": "Cattleya warscewiczii 'Powhatan'",
+      "award": "AM 88",
+      "exhibitor": "Steven Christoffersen"
+    },
+    {
+      "awardNum": "20255311",
+      "plant": "Prosthechea mariae 'Gracie'",
+      "award": "AM 82",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255312",
+      "plant": "Dendrobium victoriae-reginae 'Muxen'",
+      "award": "HCC 79",
+      "exhibitor": "Evan Shen"
+    },
+    {
+      "awardNum": "20255313",
+      "plant": "Disa uniflora 'Roshan'",
+      "award": "HCC 78",
+      "exhibitor": "Evan Shen"
+    },
+    {
+      "awardNum": "20255314",
+      "plant": "Cattleya purpurata 'Hot Bubbles'",
+      "award": "AM 84",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255315",
+      "plant": "Cattleya purpurata 'Burning Hot'",
+      "award": "HCC 78",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255316",
+      "plant": "Cattleya purpurata 'Hot Cross'",
+      "award": "AM 81",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255317",
+      "plant": "Cattleya purpurata 'Hot Prime'",
+      "award": "HCC 79",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255318",
+      "plant": "Cattleya purpurata 'N/A'",
+      "award": "AQ N/A",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255319",
+      "plant": "Cattleya Cariad's Mini-Quinee 'Angel Kiss'",
+      "award": "AM 81",
+      "exhibitor": "Linsie Hu"
+    },
+    {
+      "awardNum": "20255320",
+      "plant": "Prosthechea x chixoyensis 'Linsie'",
+      "award": "HCC 79",
+      "exhibitor": "Linsie Hu"
+    },
+    {
+      "awardNum": "20255321",
+      "plant": "Cymbidium ensifolium 'Su Jun He'",
+      "award": "HCC 78",
+      "exhibitor": "Mary Bui-Pham"
+    },
+    {
+      "awardNum": "20255322",
+      "plant": "Cattleya Jungle Beau 'H & R'",
+      "award": "CCM 84",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255323",
+      "plant": "Paphiopedilum QF Elizabeth 'Kate'",
+      "award": "HCC 79",
+      "exhibitor": "Carol Klonowski"
+    },
+    {
+      "awardNum": "20255324",
+      "plant": "Coelogyne magna 'Zorro'",
+      "award": "CCM 84",
+      "exhibitor": "Chaunie Langland"
+    },
+    {
+      "awardNum": "20255325",
+      "plant": "Aerangis modesta 'Chippewa'",
+      "award": "AM 82",
+      "exhibitor": "Jim Heilig"
+    },
+    {
+      "awardNum": "20255326",
+      "plant": "Cattleya labiata 'Great Day'",
+      "award": "HCC 78",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255327",
+      "plant": "Cymbidium Super Freak 'Linsie'",
+      "award": "HCC 78",
+      "exhibitor": "Linsie Hu"
+    },
+    {
+      "awardNum": "20255328",
+      "plant": "Laelia x gouldiana 'Samaria Sky'",
+      "award": "HCC 77",
+      "exhibitor": "Sylvia Darr"
+    },
+    {
+      "awardNum": "20255329",
+      "plant": "Cymbidium ensifolium 'Hong Cao Hong He'",
+      "award": "JC N/A",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255330",
+      "plant": "Cymbidium tracyanum 'Catherine'",
+      "award": "HCC 76",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255331",
+      "plant": "Cymbidium seidenfadenii 'Seed Studio Sakura Crystal'",
+      "award": "HCC 76",
+      "exhibitor": "Evan Shen"
+    },
+    {
+      "awardNum": "20255332",
+      "plant": "Cymbidium Exeter Carnelian 'Bronze Moon'",
+      "award": "AM 84",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255333",
+      "plant": "Cymbidium Exeter Carnelian 'Bronze Belle'",
+      "award": "AM 80",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255334",
+      "plant": "Cymbidium Exeter Carnelian 'Orange Crush'",
+      "award": "HCC 78",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255335",
+      "plant": "Laelia anceps 'Tamara'",
+      "award": "CCE 90",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255336",
+      "plant": "Paphiopedilum Quintal Wonder 'Aurora'",
+      "award": "HCC 78",
+      "exhibitor": "Ivan Madrinan"
+    },
+    {
+      "awardNum": "20255337",
+      "plant": "Rhyncattleanthe Helenita Alanis Yap 'Tho X. Bui'",
+      "award": "AM 84",
+      "exhibitor": "Mary Bui-Pham"
+    },
+    {
+      "awardNum": "20255338",
+      "plant": "Cranichis turkeliae 'Original'",
+      "award": "CBR N/A",
+      "exhibitor": "Jim Heilig"
+    },
+    {
+      "awardNum": "20255339",
+      "plant": "Laelia anceps 'Imperial Rose'",
+      "award": "AM 83",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255340",
+      "plant": "Dendrobium cuthbertsonii 'Jazlyn'",
+      "award": "AM 82",
+      "exhibitor": "Catherine Obillo"
+    },
+    {
+      "awardNum": "20255341",
+      "plant": "Paphiopedilum Paete's Haribon 'Bibs'",
+      "award": "HCC 75",
+      "exhibitor": "Ivan Madrian"
+    },
+    {
+      "awardNum": "20255350",
+      "plant": "Cymbidium goeringii 'Pink Lady'",
+      "award": "HCC 77",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255351",
+      "plant": "Cymbidium goeringii 'Taiwan Native #101'",
+      "award": "AM 85",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255352",
+      "plant": "Paphiopedilum In-Charm Lippehill 'In-Charm'",
+      "award": "HCC 78",
+      "exhibitor": "Japheth Ko"
+    },
+    {
+      "awardNum": "20255353",
+      "plant": "Oncidium cheirophorum 'Memoria Richard Waugh'",
+      "award": "CCE 90",
+      "exhibitor": "Tom Waugh"
+    },
+    {
+      "awardNum": "20255354",
+      "plant": "Rhyncattleanthe Precious Jewel Johari 'Jennie Rose'",
+      "award": "AM 83",
+      "exhibitor": "Sue Rose"
+    },
+    {
+      "awardNum": "20255355",
+      "plant": "Paphiopedilum Cocoa Hamana-esqui 'Auslese'",
+      "award": "HCC 77",
+      "exhibitor": "Dave Sorokwsky"
+    },
+    {
+      "awardNum": "20255356",
+      "plant": "Lycaste Rakuhoku 'Anitchca'",
+      "award": "HCC 79",
+      "exhibitor": "Ramon de los Santos"
+    },
+    {
+      "awardNum": "20255357",
+      "plant": "Lycaste Rakuhoku 'Anitchca'",
+      "award": "CCM 86",
+      "exhibitor": "Ramon de los Santos"
+    },
+    {
+      "awardNum": "20255358",
+      "plant": "Cattleya loddigesii 'Shirley'",
+      "award": "AM 81",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255359",
+      "plant": "Cymbidium Phyllis Chim 'Phyllis'",
+      "award": "AM 82",
+      "exhibitor": "Paula Shiu"
+    },
+    {
+      "awardNum": "20255360",
+      "plant": "Dendrobium King-Wong 'Wow'",
+      "award": "CCM 84",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255361",
+      "plant": "Paphiopedilum Wossner China Moon 'Norrine'",
+      "award": "AM 81",
+      "exhibitor": "Jason Douglass"
+    },
+    {
+      "awardNum": "20255362",
+      "plant": "Dendrobium Silver King 'Buster'",
+      "award": "CCM 83",
+      "exhibitor": "Golden Gate Orchids"
+    },
+    {
+      "awardNum": "20255363",
+      "plant": "Display Award 'N/A'",
+      "award": "ST N/A",
+      "exhibitor": "Marin Orchid Society"
+    },
+    {
+      "awardNum": "20255364",
+      "plant": "Display Award 'N/A'",
+      "award": "SC 85",
+      "exhibitor": "Marin Orchid Society"
+    },
+    {
+      "awardNum": "20255365",
+      "plant": "Cymbidium Splendid Marilyn 'Brick House'",
+      "award": "AM 82",
+      "exhibitor": "CeaJay Palanca"
+    },
+    {
+      "awardNum": "20255366",
+      "plant": "Cymbidium True Creator 'Mt. Everest'",
+      "award": "AM 82",
+      "exhibitor": "CeaJay Palanca"
+    },
+    {
+      "awardNum": "20255367",
+      "plant": "Cymbidium Golden Valley 'Hero'",
+      "award": "AM 85",
+      "exhibitor": "CeaJay Palanca"
+    },
+    {
+      "awardNum": "20255368",
+      "plant": "Cymbidium Kimberley Splash 'Tee Pee'",
+      "award": "AM 84",
+      "exhibitor": "CeaJay Palanca"
+    },
+    {
+      "awardNum": "20255369",
+      "plant": "Sarcochilus unregistered hybrid 'Bentley'",
+      "award": "HCC 78",
+      "exhibitor": "Amy and Ken Jacobsen"
+    },
+    {
+      "awardNum": "20255370",
+      "plant": "Cymbidium Beautiful Muse 'Miss Ettie'",
+      "award": "HCC 77",
+      "exhibitor": "Paula Shiu"
+    },
+    {
+      "awardNum": "20255372",
+      "plant": "Paphiopedilum QF Babylon 'Kaila'",
+      "award": "AM 80",
+      "exhibitor": "Chen Hao Hsu"
+    },
+    {
+      "awardNum": "20255373",
+      "plant": "Disa Watsonii 'Seedstudio Golden Sunset'",
+      "award": "AM 80",
+      "exhibitor": "Evan Shen"
+    },
+    {
+      "awardNum": "20255374",
+      "plant": "Disa uniflora 'Seedstudio Ruby Dolores'",
+      "award": "HCC 78",
+      "exhibitor": "Evan Shen"
+    },
+    {
+      "awardNum": "20255375",
+      "plant": "Cymbidium haematodes 'Seed Studio Rainbow'",
+      "award": "HCC 79",
+      "exhibitor": "Even Shen"
+    },
+    {
+      "awardNum": "20255376",
+      "plant": "Dendrobium Hsinying Chrysopense 'Noemi'",
+      "award": "AM 83",
+      "exhibitor": "Catherine Obillo"
+    },
+    {
+      "awardNum": "20255377",
+      "plant": "Cymbidium Chen's Ruby 'Linsie'",
+      "award": "HCC 76",
+      "exhibitor": "Linsie Hu"
+    },
+    {
+      "awardNum": "20255378",
+      "plant": "Dendrobium Martine Minet 'Mymp'",
+      "award": "AM 81",
+      "exhibitor": "Catherine Obillo"
+    },
+    {
+      "awardNum": "20255379",
+      "plant": "Gomesa eleutherosepala 'Lise'",
+      "award": "CCM 84",
+      "exhibitor": "Mary Gerritsen"
+    },
+    {
+      "awardNum": "20255380",
+      "plant": "Paphiopedilum Barbara Rechberger 'Oside'",
+      "award": "HCC 79",
+      "exhibitor": "Tim Culbertson"
+    },
+    {
+      "awardNum": "20255381",
+      "plant": "Rossioglossum grande 'Woodside'",
+      "award": "HCC 77",
+      "exhibitor": "Pierre Pujol"
+    },
+    {
+      "awardNum": "20255382",
+      "plant": "Cymbidium haematodes 'Xi Yang Yang'",
+      "award": "AM 81",
+      "exhibitor": "Even Shen"
+    }
+  ],
+  "failures": []
+}

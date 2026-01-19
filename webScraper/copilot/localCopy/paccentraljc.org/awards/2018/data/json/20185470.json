@@ -12,11 +12,15 @@
   "photographer": "N/A",
   "photo": "images/20185470.jpg",
   "measurements": {
-    "type": "N/A",
+    "type": "Pouch&SynselPal",
     "numFlowers": 0,
     "numBuds": 0,
     "numInflorescences": 0,
-    "description": "Forty-three near-flat flowers and 41 buds on 16 inflorescences to 2cm long;\n\tsepals and petals concolor medium orange-red; lip shading from yellow to medium orange-red centrally, slightly darker distally;\n\tcolumn white with two magenta dots framing stigmatic receptacle, anther cap dark grey; substance heavy; texture crystalline."
+    "description": "Forty-three near-flat flowers and 41 buds on 16 inflorescences to 2cm long;\n\tsepals and petals concolor medium orange-red; lip shading from yellow to medium orange-red centrally, slightly darker distally;\n\tcolumn white with two magenta dots framing stigmatic receptacle, anther cap dark grey; substance heavy; texture crystalline.",
+    "SYNSW": 3.3,
+    "SYNSL": 4.2,
+    "PCHW": 3.3,
+    "PCHL": 6.7
   },
   "scrapedDate": "2025-10-15T03:22:20.407Z",
   "sourceUrl": "https://www.paccentraljc.org/20181112/20185470.html",

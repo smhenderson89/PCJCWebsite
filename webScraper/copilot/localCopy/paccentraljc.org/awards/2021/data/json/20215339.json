@@ -12,7 +12,7 @@
   "photographer": "Chaunie Langland",
   "photo": "images/20215339.jpg",
   "measurements": {
-    "type": "LateralSepal",
+    "type": "Pouch&SynselPal",
     "numFlowers": 1,
     "numBuds": 0,
     "numInflorescences": 1,
@@ -22,7 +22,11 @@
     "DSW": 6.9,
     "DSL": 5.8,
     "PETW": 2.1,
-    "PETL": 7.3
+    "PETL": 7.3,
+    "SYNSW": 3.1,
+    "SYNSL": 4,
+    "PCHW": 3.2,
+    "PCHL": 9.7
   },
   "scrapedDate": "2025-10-14T23:36:57.934Z",
   "sourceUrl": "https://www.paccentraljc.org/20211120/20215339.html",

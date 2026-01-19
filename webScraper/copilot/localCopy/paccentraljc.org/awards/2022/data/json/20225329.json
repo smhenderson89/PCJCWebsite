@@ -12,7 +12,7 @@
   "photographer": "Chaunie Langland",
   "photo": "images/20225329.jpg",
   "measurements": {
-    "type": "LateralSepal",
+    "type": "Lip&LateralSepal",
     "numFlowers": 3,
     "numBuds": 0,
     "numInflorescences": 1,

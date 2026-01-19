@@ -12,7 +12,7 @@
   "photographer": "N/A",
   "photo": "images/20162363.jpg",
   "measurements": {
-    "type": "LateralSepal",
+    "type": "Pouch&SynselPal",
     "numFlowers": 1,
     "numBuds": 1,
     "numInflorescences": 1,
@@ -22,7 +22,11 @@
     "DSW": 2.3,
     "DSL": 4.5,
     "PETW": 2.9,
-    "PETL": 6.1
+    "PETL": 6.1,
+    "SYNSW": 3.5,
+    "SYNSL": 3.4,
+    "PCHW": 2.2,
+    "PCHL": 3.6
   },
   "scrapedDate": "2025-10-15T03:38:59.303Z",
   "sourceUrl": "https://www.paccentraljc.org/20160418/20162363.html",

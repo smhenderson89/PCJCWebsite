@@ -16,7 +16,7 @@
     "numFlowers": 3,
     "numBuds": 0,
     "numInflorescences": 2,
-    "description": "N/A",
+    "description": "Three flowers on two upright, up to 21-cm inflorescences; sepals and petals light green, petals slightly porrect; lip recurved, cream, midlobe randomly spotted burgundy; column light green, ventral surface spotted burgundy, anther cap cream; substance firm; texture matte.",
     "NS": 6.5,
     "NSV": 9,
     "DSW": 1.6,
@@ -28,9 +28,13 @@
     "LIPW": 1.6,
     "LIPL": 3
   },
-  "scrapedDate": "2025-10-12T02:14:20.608Z",
+  "scrapedDate": "2026-01-19T02:38:05.889Z",
   "sourceUrl": "https://www.paccentraljc.org/250221/20255261.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255261.html",
   "year": 2025,
-  "fixApplied": "logicReference/missingInfoLogic.json"
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:05.891Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
 }

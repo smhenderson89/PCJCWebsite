@@ -12,11 +12,15 @@
   "photographer": "N/A",
   "photo": "images/20185478.jpg",
   "measurements": {
-    "type": "N/A",
+    "type": "Pouch&SynselPal",
     "numFlowers": 0,
     "numBuds": 0,
     "numInflorescences": 0,
-    "description": "Eight shapely, richly colored and boldly patterned Harlequin flowers with high-contrast white lips arranged well on one arching, 81cm inflorescence;\n\tsepals and petals largely bright, deep fuchsia leaving a white picotee along margins and small snow white patches basally;\n\tlip snow white blushed lightly and speckled with dark fuchsia purple in throat over and around calli;\n\tcolumn white, fuchsia blushed distally, darker fuchsia spot on anther cap; substance average; texture matte."
+    "description": "Eight shapely, richly colored and boldly patterned Harlequin flowers with high-contrast white lips arranged well on one arching, 81cm inflorescence;\n\tsepals and petals largely bright, deep fuchsia leaving a white picotee along margins and small snow white patches basally;\n\tlip snow white blushed lightly and speckled with dark fuchsia purple in throat over and around calli;\n\tcolumn white, fuchsia blushed distally, darker fuchsia spot on anther cap; substance average; texture matte.",
+    "SYNSW": 3.3,
+    "SYNSL": 4.2,
+    "PCHW": 3.3,
+    "PCHL": 6.7
   },
   "scrapedDate": "2025-10-15T03:22:20.426Z",
   "sourceUrl": "https://www.paccentraljc.org/20181112/20185478.html",

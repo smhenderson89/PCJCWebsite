@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255341",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Filoli Historic House",
+  "date": "December 20, 2025",
+  "genus": "Paphiopedilum",
+  "species": "Paete's Haribon",
+  "clone": "Bibs",
+  "cross": "Paphiopedilum Cocoa Chilwin x Paphiopedilum Cocoa Motto Kitty",
+  "exhibitor": "Ivan Madrian",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255341.jpg",
+  "measurements": {
+    "type": "Pouch&SynselPal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one 40-cm strong upright inflorescence;\n sepals orbicular, white, light green basally, lined and heavily spotted burgundy along veins;\n petals slightly twisted, obovate, light chartreuse, heavily overlaid cordovan superior surface,\n spotted basally inferior surface, overlaid cordovan apically;\n pouch straight, light green, heavily overlaid cordovan, spotted cordovan interior;\n staminode creamy yellow, umbo bright yellow;\n substance medium-firm; texture waxy.",
+    "NS": 11.7,
+    "NSV": 13.5,
+    "DSW": 9,
+    "DSL": 11.1,
+    "PETW": 4.7,
+    "PETL": 7.1,
+    "SYNSW": 7.5,
+    "SYNSL": 7.5,
+    "PCHW": 3.7,
+    "PCHL": 5.5
+  },
+  "scrapedDate": "2026-01-19T02:38:06.183Z",
+  "sourceUrl": "https://www.paccentraljc.org/251220/20255341.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255341.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.184Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255325",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Filoli Historic House",
+  "date": "September 20, 2025",
+  "genus": "Aerangis",
+  "species": "modesta",
+  "clone": "Chippewa",
+  "cross": "species",
+  "exhibitor": "Jim Heilig",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255325.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 17,
+    "numBuds": 3,
+    "numInflorescences": 1,
+    "description": "Seventeen crystalline white flowers and three buds on one pendant 58-cm long\n basipetally blooming inflorescence; sepals lanceolate;\n petals lanceolate recurved apically;\n lip strongly recurved; 18-cm nectary pale green;\n substance firm; texture crystalline;\n provisional, refer to SITF, could be Aerangis articulata,\n inflorescence length includes nectary.",
+    "NS": 6.3,
+    "NSV": 17,
+    "DSW": 1.2,
+    "DSL": 3.9,
+    "PETW": 1.4,
+    "PETL": 3.6,
+    "LSW": 1.1,
+    "LSL": 3.8,
+    "LIPW": 1.3,
+    "LIPL": 3.3
+  },
+  "scrapedDate": "2026-01-19T02:38:06.137Z",
+  "sourceUrl": "https://www.paccentraljc.org/250920/20255325.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255325.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.138Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

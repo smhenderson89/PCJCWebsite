@@ -1,0 +1,36 @@
+{
+  "awardNum": "20255380",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Peninsula Orchid Society Show",
+  "date": "October 4, 2025",
+  "genus": "Paphiopedilum",
+  "species": "Barbara Rechberger",
+  "clone": "Oside",
+  "cross": "Paphiopedilum Magic Lantern x Paphiopedilum micranthum",
+  "exhibitor": "Tim Culbertson",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255380.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One impressive flower on one upright 22.2-cm inflorescence;\n\n dorsal sepal white, margins overlaid rose pink, dark magenta venation;\n synsepal chartreuse, dark rose stripes;\n petals broadly ovate, white, dark pink venation, margins blushed rose;\n pouch white, blushed rose pink upper half;\n staminode oval, white, yellow centrally, spotted burgundy;\n substance firm; texture matte.",
+    "NS": 8.2,
+    "NSV": 8.4,
+    "DSW": 3.1,
+    "DSL": 3.8,
+    "PETW": 4.1,
+    "PETL": 4.5
+  },
+  "scrapedDate": "2026-01-19T02:38:06.297Z",
+  "sourceUrl": "https://www.paccentraljc.org/251004/20255380.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255380.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.300Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

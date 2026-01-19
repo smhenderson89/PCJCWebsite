@@ -1,0 +1,40 @@
+{
+  "awardNum": "20255334",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "December 20, 2025",
+  "genus": "Cymbidium",
+  "species": "Exeter Carnelian",
+  "clone": "Orange Crush",
+  "cross": "Cymbidium goeringii x Cymbidium Voodoo",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20255334.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 5,
+    "numBuds": 4,
+    "numInflorescences": 2,
+    "description": "Five flowers on one unstaked 45-cm inflorescence,\n 4 buds on a juvenile inflorescence;\n dorsal sepal oblanceloate, slightly rolled edges,\n chartreuse veined burgundy, darker burgundy central vein;\n lateral sepals flat, oblanceolate, chartreuse veined burgundy,\n blushed burgundy basally;\n petals oblanceolate, slightly porrect, chartreuse veined burgundy,\n darker burgundy central vein;\n \n lip recurved, undulated edges, light yellow, deep burgundy blotches apically,\n diffused pink edges, light pink picotee, keel bright yellow;\n column cream, interior striped burgundy, anther cap white;\n substance medium; texture matte.",
+    "NS": 8.5,
+    "NSV": 7,
+    "DSW": 1.6,
+    "DSL": 3.5,
+    "PETW": 1.7,
+    "PETL": 3.6,
+    "LSW": 1.5,
+    "LSL": 3.9,
+    "LIPW": 1.7,
+    "LIPL": 2.7
+  },
+  "scrapedDate": "2026-01-19T02:38:06.168Z",
+  "sourceUrl": "https://www.paccentraljc.org/251220/20255334.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255334.html",
+  "year": 2025,
+  "logicApplied": {
+    "timestamp": "2026-01-19T02:38:06.170Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

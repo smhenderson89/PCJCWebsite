@@ -12,11 +12,15 @@
   "photographer": "N/A",
   "photo": "images/20185468.jpg",
   "measurements": {
-    "type": "N/A",
+    "type": "Pouch&SynselPal",
     "numFlowers": 0,
     "numBuds": 0,
     "numInflorescences": 0,
-    "description": "Ten round, full, overlapping, pastel Broad Lip flowers and three buds on one arched inflorescence 100cm long;\n\tsepals and petals white with light pink venation radiating proximally;\n\tlarge, broad lip fuchsia, darker basally, calli yellow with pink overlay;\n\tcolumn yellow with pink spotting basally, anther cap white; substance firm; texture matte."
+    "description": "Ten round, full, overlapping, pastel Broad Lip flowers and three buds on one arched inflorescence 100cm long;\n\tsepals and petals white with light pink venation radiating proximally;\n\tlarge, broad lip fuchsia, darker basally, calli yellow with pink overlay;\n\tcolumn yellow with pink spotting basally, anther cap white; substance firm; texture matte.",
+    "SYNSW": 3.3,
+    "SYNSL": 4.2,
+    "PCHW": 3.3,
+    "PCHL": 6.7
   },
   "scrapedDate": "2025-10-15T03:22:20.403Z",
   "sourceUrl": "https://www.paccentraljc.org/20181112/20185468.html",

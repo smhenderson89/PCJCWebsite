@@ -11,7 +11,9 @@
   "exhibitor": "Jim Heilig",
   "photographer": "N/A",
   "photo": "images/20185419.jpg",
-  "measurements": {},
+  "measurements": {
+    "type": "Lip&LateralSepal"
+  },
   "sourceUrl": "https://www.paccentraljc.org/20185419.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2018/html/20185419.html",
   "year": 2018,
