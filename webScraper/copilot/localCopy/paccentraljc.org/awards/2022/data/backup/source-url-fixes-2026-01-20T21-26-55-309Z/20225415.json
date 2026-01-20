@@ -1,0 +1,41 @@
+{
+  "awardNum": "20225415",
+  "award": "SC",
+  "awardpoints": "N/A",
+  "location": "Pacific Orchid Exposition",
+  "date": "February 24, 2022",
+  "genus": "N/A",
+  "species": "N/A",
+  "clone": "N/A",
+  "cross": "N/A",
+  "exhibitor": "Marin Orchid Society",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225415.jpg",
+  "measurements": {
+    "type": "Other",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "An attractive 17-ft x 5-ft rectangular, multi-tiered table and floor display with background lighting along the entire length;\n accents for Masquerade theme interspersed with many specimen-sized plants of a wide variety of genera;\n color flowed from cool to neutral to warm, left to right;\n flowers from over 70 plants including Dendrobium, Cattleya, Cymbidium, Paphiopedilum; Miltonia, and Leptotes;\n  also received the Show Trophy, #20225414.",
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LSW": "N/A",
+    "LSL": "N/A",
+    "LIPW": "N/A",
+    "PCHW": "N/A"
+  },
+  "scrapedDate": "2025-10-13T18:32:45.502Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220224/20225415.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225415.html",
+  "year": 2022,
+  "isDisplay": true,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.502Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "display"
+  }
+}

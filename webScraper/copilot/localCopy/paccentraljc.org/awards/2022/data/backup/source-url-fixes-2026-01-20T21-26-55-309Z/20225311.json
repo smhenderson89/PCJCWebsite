@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225311",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Filoli Historic House",
+  "date": "April 16, 2022",
+  "genus": "Sarcochilus",
+  "species": "Kulnura Momentum",
+  "clone": "No. 1",
+  "cross": "Sarcochilus Kulnura Spice x Sarcochilus Sweetheart",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225311.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 38,
+    "numBuds": 25,
+    "numInflorescences": 6,
+    "description": "Thirty-eight full flowers and 25 buds on six upright inflorescences up to 21.5cm;\n\n\tsepals and petals white,  marked medium burgundy basally, light burgundy edges; \n\n\tlip white, midlobe marked dark yellow, sidelobes marked burgundy; \n\n\tanther cap white; substance hard; texture slightly crystalline.",
+    "NS": 3,
+    "NSV": 2.9,
+    "DSW": 1.2,
+    "DSL": 1.5,
+    "PETW": 0.8,
+    "PETL": 1.1,
+    "LSW": 1.1,
+    "LSL": 1.1,
+    "LIPW": 0.5,
+    "LIPL": 0.5
+  },
+  "scrapedDate": "2025-10-13T18:32:45.394Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220416/20225311.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225311.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.395Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

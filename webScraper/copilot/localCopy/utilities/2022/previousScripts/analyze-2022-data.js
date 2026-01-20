@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Import the analysis function from the main parser
-const { analyze2022Data } = require('./2022htmlToJSONparse.js');
+const { analyze2022Data } = require('../2022htmlToJSONparse.js');
 
 // Path to HTML directory for reading source files
 const htmlDirectory = path.resolve(path.join(__dirname, '../../paccentraljc.org/awards/2022/html'));

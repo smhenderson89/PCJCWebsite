@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225312",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Filoli Historic House",
+  "date": "April 16, 2022",
+  "genus": "Sarcochilus",
+  "species": "Kulnura Harrow",
+  "clone": "Pink Contrast",
+  "cross": "Sarcochilus Kulnura Rusty x Sarcochilus Kulnura Rosetta",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225312.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 95,
+    "numBuds": 115,
+    "numInflorescences": 16,
+    "description": "Ninety-five flowers and 115 buds on 16 upright inflorescences up to 16cm in length;\n\tpetals and sepals white, barred dark rose basally, \n\tirregularly spotted pale rose distally: lip bright yellow, orange blotches; anther cap white; substance firm; \n\ttexture crystalline.",
+    "NS": 2.6,
+    "NSV": 2.7,
+    "DSW": 1,
+    "DSL": 1.2,
+    "PETW": 0.8,
+    "PETL": 1.1,
+    "LSW": 1,
+    "LSL": 1.4,
+    "LIPW": 0.5,
+    "LIPL": 0.4
+  },
+  "scrapedDate": "2025-10-13T18:32:45.395Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220416/20225312.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225312.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.396Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

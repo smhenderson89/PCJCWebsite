@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225348",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Filoli Historic House Monthly",
+  "date": "October 15, 2022",
+  "genus": "Rhyncholaeliocattleya",
+  "species": "Vicky Gold",
+  "clone": "Forever 16",
+  "cross": "Rhyncholaeliocattleya Waikiki Gold x Rhyncholaeliocattleya Vicky Nazareno",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225348.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 6,
+    "numBuds": 1,
+    "numInflorescences": 1,
+    "description": "Six extremely fragrant flowers and one bud on one 13-cm semi-pendant inflorescence; \n\n\tsepals and petals light yellow-green, petals faint pink venation;\n\n\tlip ruffled, white, symetrical dark pink areas each side, darker pink veins, seperated by light yellow central region, throat overlaid bright yellow; substance firm; texture matte.",
+    "NS": 13.4,
+    "NSV": 13.5,
+    "DSW": 2,
+    "DSL": 8.3,
+    "PETW": 4,
+    "PETL": 8.1,
+    "LSW": 2.4,
+    "LSL": 8,
+    "LIPW": 5,
+    "LIPL": 5
+  },
+  "scrapedDate": "2025-10-13T18:32:45.461Z",
+  "sourceUrl": "https://www.paccentraljc.org/20221015/20225348.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225348.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.465Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

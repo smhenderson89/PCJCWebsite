@@ -1,0 +1,187 @@
+{
+  "timestamp": "2026-01-20T21:35:14.370Z",
+  "summary": {
+    "totalFiles": 96,
+    "filesRenamed": 35,
+    "alreadyCorrect": 61,
+    "errors": 0
+  },
+  "renameOperations": [
+    {
+      "oldName": "20225250-1_540.jpg",
+      "newName": "20225250.jpg",
+      "pattern": "Pattern 1 (-1_540)"
+    },
+    {
+      "oldName": "20225306_540.jpg",
+      "newName": "20225306.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225307_540.jpg",
+      "newName": "20225307.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225308_540.jpg",
+      "newName": "20225308.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225309_540.jpg",
+      "newName": "20225309.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225310_540.jpg",
+      "newName": "20225310.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225311_540.jpg",
+      "newName": "20225311.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225312_540.jpg",
+      "newName": "20225312.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225313_540.jpg",
+      "newName": "20225313.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225314_540.jpg",
+      "newName": "20225314.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225315_540.jpg",
+      "newName": "20225315.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225316_540.jpg",
+      "newName": "20225316.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225317_540.jpg",
+      "newName": "20225317.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225327_540.jpg",
+      "newName": "20225327.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225328_540.jpg",
+      "newName": "20225328.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225329_540.jpg",
+      "newName": "20225329.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225330_540.jpg",
+      "newName": "20225330.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225331_540.jpg",
+      "newName": "20225331.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225332_540.jpg",
+      "newName": "20225332.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225333_540.jpg",
+      "newName": "20225333.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225334_540.jpg",
+      "newName": "20225334.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225335_540.jpg",
+      "newName": "20225335.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225336_540.jpg",
+      "newName": "20225336.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225337_540.jpg",
+      "newName": "20225337.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225338_540.jpg",
+      "newName": "20225338.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225339_540.jpg",
+      "newName": "20225339.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225347_540.jpg",
+      "newName": "20225347.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225348_540.jpg",
+      "newName": "20225348.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225349_540.jpg",
+      "newName": "20225349.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225350_540.jpg",
+      "newName": "20225350.jpg",
+      "pattern": "Pattern 2 (_540)"
+    },
+    {
+      "oldName": "20225417-1_540.jpg",
+      "newName": "20225417.jpg",
+      "pattern": "Pattern 1 (-1_540)"
+    },
+    {
+      "oldName": "20225418-1_540.jpg",
+      "newName": "20225418.jpg",
+      "pattern": "Pattern 1 (-1_540)"
+    },
+    {
+      "oldName": "20225419-1_540.jpg",
+      "newName": "20225419.jpg",
+      "pattern": "Pattern 1 (-1_540)"
+    },
+    {
+      "oldName": "20225420-1_540.jpg",
+      "newName": "20225420.jpg",
+      "pattern": "Pattern 1 (-1_540)"
+    },
+    {
+      "oldName": "20225421_540.jpg",
+      "newName": "20225421.jpg",
+      "pattern": "Pattern 2 (_540)"
+    }
+  ],
+  "errors": []
+}

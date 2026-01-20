@@ -1,0 +1,495 @@
+{
+  "summary": {
+    "totalProcessed": 96,
+    "successfullyUpdated": 0,
+    "skipped": 96,
+    "errors": 0
+  },
+  "details": {
+    "skippedFiles": [
+      {
+        "file": "20225250",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220301/20225250.html"
+      },
+      {
+        "file": "20225251",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220405/20225251.html"
+      },
+      {
+        "file": "20225252",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220405/20225252.html"
+      },
+      {
+        "file": "20225253",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220405/20225253.html"
+      },
+      {
+        "file": "20225254",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220405/20225254.html"
+      },
+      {
+        "file": "20225255",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220405/20225255.html"
+      },
+      {
+        "file": "20225256",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220405/20225256.html"
+      },
+      {
+        "file": "20225257",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220405/20225257.html"
+      },
+      {
+        "file": "20225258",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220405/20225258.html"
+      },
+      {
+        "file": "20225259",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220607/20225259.html"
+      },
+      {
+        "file": "20225260",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220906/20225260.html"
+      },
+      {
+        "file": "20225261",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220906/20225261.html"
+      },
+      {
+        "file": "20225262",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20221004/20225262.html"
+      },
+      {
+        "file": "20225263",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20221004/20225263.html"
+      },
+      {
+        "file": "20225264",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20221206/20225264.html"
+      },
+      {
+        "file": "20225265",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20221206/20225265.html"
+      },
+      {
+        "file": "20225301",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220219/20225301.html"
+      },
+      {
+        "file": "20225302",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220219/20225302.html"
+      },
+      {
+        "file": "20225303",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220219/20225303.html"
+      },
+      {
+        "file": "20225304",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220219/20225304.html"
+      },
+      {
+        "file": "20225305",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220219/20225305.html"
+      },
+      {
+        "file": "20225306",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220319/20225306.html"
+      },
+      {
+        "file": "20225307",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220319/20225307.html"
+      },
+      {
+        "file": "20225308",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220319/20225308.html"
+      },
+      {
+        "file": "20225309",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220319/20225309.html"
+      },
+      {
+        "file": "20225310",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220319/20225310.html"
+      },
+      {
+        "file": "20225311",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225311.html"
+      },
+      {
+        "file": "20225312",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225312.html"
+      },
+      {
+        "file": "20225313",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225313.html"
+      },
+      {
+        "file": "20225314",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225314.html"
+      },
+      {
+        "file": "20225315",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225315.html"
+      },
+      {
+        "file": "20225316",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225316.html"
+      },
+      {
+        "file": "20225317",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225317.html"
+      },
+      {
+        "file": "20225318",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225318.html"
+      },
+      {
+        "file": "20225319",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225319.html"
+      },
+      {
+        "file": "20225320",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225320.html"
+      },
+      {
+        "file": "20225321",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225321.html"
+      },
+      {
+        "file": "20225322",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225322.html"
+      },
+      {
+        "file": "20225323",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225323.html"
+      },
+      {
+        "file": "20225324",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225324.html"
+      },
+      {
+        "file": "20225325",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225325.html"
+      },
+      {
+        "file": "20225326",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220416/20225326.html"
+      },
+      {
+        "file": "20225327",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220521/20225327.html"
+      },
+      {
+        "file": "20225328",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220521/20225328.html"
+      },
+      {
+        "file": "20225329",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220521/20225329.html"
+      },
+      {
+        "file": "20225330",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220521/20225330.html"
+      },
+      {
+        "file": "20225331",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220618/20225331.html"
+      },
+      {
+        "file": "20225332",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220618/20225332.html"
+      },
+      {
+        "file": "20225333",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220618/20225333.html"
+      },
+      {
+        "file": "20225334",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220618/20225334.html"
+      },
+      {
+        "file": "20225335",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220618/20225335.html"
+      },
+      {
+        "file": "20225336",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220618/20225336.html"
+      },
+      {
+        "file": "20225337",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220716/20225337.html"
+      },
+      {
+        "file": "20225338",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220716/20225338.html"
+      },
+      {
+        "file": "20225339",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220716/20225339.html"
+      },
+      {
+        "file": "20225340",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220820/20225340.html"
+      },
+      {
+        "file": "20225341",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220917/20225341.html"
+      },
+      {
+        "file": "20225342",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220917/20225342.html"
+      },
+      {
+        "file": "20225343",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220917/20225343.html"
+      },
+      {
+        "file": "20225344",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220917/20225344.html"
+      },
+      {
+        "file": "20225345",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220917/20225345.html"
+      },
+      {
+        "file": "20225346",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220917/20225346.html"
+      },
+      {
+        "file": "20225347",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20221015/20225347.html"
+      },
+      {
+        "file": "20225348",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20221015/20225348.html"
+      },
+      {
+        "file": "20225349",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20221015/20225349.html"
+      },
+      {
+        "file": "20225350",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20221015/20225350.html"
+      },
+      {
+        "file": "20225351",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20221119/20225351.html"
+      },
+      {
+        "file": "20225352",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20221119/20225352.html"
+      },
+      {
+        "file": "20225353",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20221119/20225353.html"
+      },
+      {
+        "file": "20225354",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20221217/20225354.html"
+      },
+      {
+        "file": "20225355",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20221217/20225355.html"
+      },
+      {
+        "file": "20225401",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225401.html"
+      },
+      {
+        "file": "20225402",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225402.html"
+      },
+      {
+        "file": "20225403",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225403.html"
+      },
+      {
+        "file": "20225404",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225404.html"
+      },
+      {
+        "file": "20225405",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225405.html"
+      },
+      {
+        "file": "20225406",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225406.html"
+      },
+      {
+        "file": "20225407",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225407.html"
+      },
+      {
+        "file": "20225408",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225408.html"
+      },
+      {
+        "file": "20225409",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225409.html"
+      },
+      {
+        "file": "20225410",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225410.html"
+      },
+      {
+        "file": "20225411",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225411.html"
+      },
+      {
+        "file": "20225412",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225412.html"
+      },
+      {
+        "file": "20225413",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225413.html"
+      },
+      {
+        "file": "20225414",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225414.html"
+      },
+      {
+        "file": "20225415",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225415.html"
+      },
+      {
+        "file": "20225416",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220224/20225416.html"
+      },
+      {
+        "file": "20225417",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220326/20225417.html"
+      },
+      {
+        "file": "20225418",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220326/20225418.html"
+      },
+      {
+        "file": "20225419",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220326/20225419.html"
+      },
+      {
+        "file": "20225420",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220326/20225420.html"
+      },
+      {
+        "file": "20225421",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220326/20225421.html"
+      },
+      {
+        "file": "20225422",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220508/20225422.html"
+      },
+      {
+        "file": "20225423",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220508/20225423.html"
+      },
+      {
+        "file": "20225424",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220508/20225424.html"
+      },
+      {
+        "file": "20225425",
+        "reason": "No source URL or already in correct format",
+        "currentUrl": "https://www.paccentraljc.org/20220508/20225425.html"
+      }
+    ],
+    "errors": []
+  },
+  "timestamp": "2026-01-20T21:26:55.344Z",
+  "operation": "fix-2022-source-urls"
+}

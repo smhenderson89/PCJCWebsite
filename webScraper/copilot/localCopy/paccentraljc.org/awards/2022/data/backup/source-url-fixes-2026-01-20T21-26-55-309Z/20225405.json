@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225405",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 24, 2022",
+  "genus": "Lepanthes",
+  "species": "escobariana",
+  "clone": "Vera Lee",
+  "cross": "species",
+  "exhibitor": "John Leathers",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225405.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 31,
+    "numBuds": 21,
+    "numInflorescences": 24,
+    "description": "Thirty-one ovoid flowers and twenty-one buds on twenty-four gently arching inflorescences of 12cm length;\n\t sepals golden yellow, greatly fused lateral sepals overlaid rose medially;\n\t minute petals light translucent green;\n\t lip pale translucent green, rose medially;\n\t substance soft; texture crystalline.",
+    "NS": 1.5,
+    "NSV": 2.9,
+    "DSW": 1.2,
+    "DSL": 1.5,
+    "PETW": 0.2,
+    "PETL": 0.3,
+    "LSW": 0.75,
+    "LSL": 1.7,
+    "LIPW": 0.1,
+    "LIPL": 0.1
+  },
+  "scrapedDate": "2025-10-13T18:32:45.486Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220224/20225405.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225405.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.486Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

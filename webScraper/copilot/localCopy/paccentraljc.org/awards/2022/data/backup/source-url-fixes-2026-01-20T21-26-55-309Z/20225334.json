@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225334",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "June 18, 2022",
+  "genus": "Cattleya",
+  "species": "Pacavia",
+  "clone": "Bentley",
+  "cross": "Cattleya purpurata x Cattleya tenebrosa",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225334.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 7,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Three well-arranged flowers on one 19-cm inflorescence; sepals and petals light yellow, \n\n\tsuffused rose, iridescent rose veins; petals ruffled edges, darker rose proximally;\n\n\tlip ruffled edges, white, veined dark magenta throughout, distal half heavily overlaid dark magenta, tip lighter magenta, \n\n\twhite picotee; substance firm; \n\n\ttexture crystalline.",
+    "NS": 14.5,
+    "NSV": 15.7,
+    "DSW": 2.5,
+    "DSL": 9.7,
+    "PETW": 5,
+    "PETL": 9.5,
+    "LSW": 2.6,
+    "LSL": 9,
+    "LIPW": 4,
+    "LIPL": 8.1
+  },
+  "scrapedDate": "2025-10-13T18:32:45.435Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220618/20225334.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225334.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.436Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

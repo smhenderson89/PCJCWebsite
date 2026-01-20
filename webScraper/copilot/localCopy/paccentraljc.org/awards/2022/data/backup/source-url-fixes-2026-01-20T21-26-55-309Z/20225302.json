@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225302",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Filoli Historic House",
+  "date": "February 19, 2022",
+  "genus": "Dendrobium",
+  "species": "Cheryl's Glory",
+  "clone": "Forever",
+  "cross": "Dendrobium kingianum x Dendrobium Colonial Surprise",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225302.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 41,
+    "numBuds": 45,
+    "numInflorescences": 19,
+    "description": "Forty-one slightly cupped flowers and 45 buds on 19 erect 17-cm average inflorescences; \n\tsepals and petals white overlaid vibrant fuchsia distal three-fourths; \n\tlip white overlaid light fuchsia, darker centrally; \n   column bright fuchsia, anther cap white;\n\tsubstance firm; texture crystalline.",
+    "NS": 4.7,
+    "NSV": 4.5,
+    "DSW": 1.1,
+    "DSL": 3.1,
+    "PETW": 0.9,
+    "PETL": 3.1,
+    "LSW": 1.2,
+    "LSL": 3.1,
+    "LIPW": 1.1,
+    "LIPL": 2.2
+  },
+  "scrapedDate": "2025-10-13T18:32:45.375Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220219/20225302.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225302.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.376Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

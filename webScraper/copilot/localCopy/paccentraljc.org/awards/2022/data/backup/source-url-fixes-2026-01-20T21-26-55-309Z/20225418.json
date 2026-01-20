@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225418",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Sonoma County Orchid Society Show",
+  "date": "March 26, 2022",
+  "genus": "Cattleya",
+  "species": "intermedia v. orlata",
+  "clone": "Goodstuff",
+  "cross": "species",
+  "exhibitor": "Tom Pickford",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225418.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 9,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Nine flowers on two 25-cm inflorescences; sepals and petals white blushed lavender, \n\n\tpetals darker at lateral margins; lip white, blushed lavender, midlobe magenta, \n\n\tside lobes magenta at the distal margin; column blushed lavender; pollen cap pale yellow; \n\n\tsubstance firm; texture crystalline",
+    "NS": 12.1,
+    "NSV": 12,
+    "DSW": 2.3,
+    "DSL": 7.4,
+    "PETW": 2.6,
+    "PETL": 6.4,
+    "LSW": 2.7,
+    "LSL": 5.5,
+    "LIPW": 4,
+    "LIPL": 5.1
+  },
+  "scrapedDate": "2025-10-13T18:32:45.506Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220326/20225418.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225418.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.506Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

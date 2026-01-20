@@ -1,0 +1,39 @@
+{
+  "awardNum": "20225403",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 24, 2022",
+  "genus": "Cattlianthe",
+  "species": "Tutankamen",
+  "clone": "Goodstuff",
+  "cross": "Cattlianthe Chocolate Drop x Cattleya Mae Hawkins",
+  "exhibitor": "Tom Pickford",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225403.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 22,
+    "numBuds": 10,
+    "numInflorescences": 8,
+    "description": "Twenty-two flowers on five 11-cm inflorescences, ten buds on three immature inflorescences;\n\tsepals and petals deep burgundy-red;\n\tlip velvety burgundy-red, side lobes golden yellow, edged burgundy-red;\n\tcolumn cream;\n\tsubstance firm; texture waxy.",
+    "NS": 8,
+    "NSV": 9,
+    "DSW": 1.8,
+    "DSL": 5.4,
+    "PETW": 2.8,
+    "PETL": 5.3,
+    "LSW": 5.4,
+    "LIPW": 2.3,
+    "LIPL": 4
+  },
+  "scrapedDate": "2025-10-13T18:32:45.482Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220224/20225403.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225403.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.483Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

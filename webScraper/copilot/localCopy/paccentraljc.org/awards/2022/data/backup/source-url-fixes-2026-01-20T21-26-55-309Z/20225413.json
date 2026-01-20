@@ -1,0 +1,38 @@
+{
+  "awardNum": "20225413",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 24, 2022",
+  "genus": "Dracula",
+  "species": "vampira",
+  "clone": "Vera Lee",
+  "cross": "species",
+  "exhibitor": "John Leathers",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20225413.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 2,
+    "numInflorescences": 3,
+    "description": "One flower and two buds on three 21-cm inflorescences;\n sepals cream, light green centrally, veins dark brown, dark brown centrally outside light green area, caudae purple, straight;\n petals cream, central dark brown stripe;\n lip cream overlaid golden yellow;\n column yellow;\n substance medium; texture matte.",
+    "NS": 12,
+    "NSV": 19.5,
+    "DSW": 3.1,
+    "DSL": 12,
+    "LSW": 3.1,
+    "LSL": 12.5,
+    "LIPW": 1.6,
+    "LIPL": 2.6
+  },
+  "scrapedDate": "2025-10-13T18:32:45.499Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220224/20225413.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225413.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.500Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

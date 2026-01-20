@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225353",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Filoli Historic House",
+  "date": "November 19, 2022",
+  "genus": "Laeliocattleya",
+  "species": "Good Days",
+  "clone": "Ninety",
+  "cross": "Laeliocattleya Happy Essence x Cattleya walkeriana",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225353.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 13,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Thirteen well-presented flowers on two upright up to 22.5-cm inflorescences;\n\t  sepals flat, petals lightly ruffled, sepals and petals pale pink; \n\t\n\t lip ruffled, white, centrally light yellow, edged light pink, throat magenta;\n\t column white, anther cap dark pink;\n\t\n    substance firm; texture matte.",
+    "NS": 11.3,
+    "NSV": 11,
+    "DSW": 2,
+    "DSL": 6.5,
+    "PETW": 4,
+    "PETL": 5.5,
+    "LSW": 2,
+    "LSL": 5.6,
+    "LIPW": 4,
+    "LIPL": 4.8
+  },
+  "scrapedDate": "2025-10-13T18:32:45.475Z",
+  "sourceUrl": "https://www.paccentraljc.org/20221119/20225353.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225353.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.476Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20225309",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House Monthly",
+  "date": "March 19, 2022",
+  "genus": "Cymbidium",
+  "species": "Maufant",
+  "clone": "Jersey",
+  "cross": "Cymbidium Red Beauty x Cymbidium Thurso",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20225309.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 12,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Twelve well shaped flowers on one somewhat crowded 79-cm inflorescence; \n\tsepals and petals cream overlaid pink, slightly darker venation; lip white, \n\tspotted red distally, keel downy, yellow; column cream, overlaid dark pink; \n\tsubstance firm; texture matte.",
+    "NS": 11.2,
+    "NSV": 10,
+    "DSW": 5.5,
+    "DSL": 7.1,
+    "PETW": 4.6,
+    "PETL": 6.9,
+    "LSW": 5.7,
+    "LSL": 6.5,
+    "LIPW": 5,
+    "LIPL": 5.3
+  },
+  "scrapedDate": "2025-10-13T18:32:45.391Z",
+  "sourceUrl": "https://www.paccentraljc.org/20220319/20225309.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2022/html/20225309.html",
+  "year": 2022,
+  "logicApplied": {
+    "timestamp": "2025-10-13T18:32:45.392Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

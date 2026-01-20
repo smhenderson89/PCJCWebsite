@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-01-20T21:15:11.518Z",
+  "summary": {
+    "totalFiles": 30,
+    "awardsChecked": 30,
+    "validImages": 30,
+    "missingImages": 0,
+    "invalidPaths": 0,
+    "imageSuccessRate": "100.0%"
+  },
+  "errors": []
+}
