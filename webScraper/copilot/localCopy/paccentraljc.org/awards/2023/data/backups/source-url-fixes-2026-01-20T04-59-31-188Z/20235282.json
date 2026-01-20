@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235282",
+  "award": "AM",
+  "awardpoints": 85,
+  "location": "Filoli Historic House",
+  "date": "April 15, 2023",
+  "genus": "Masdevallia",
+  "species": "coccinea v. alba",
+  "clone": "Solana",
+  "cross": "species",
+  "exhibitor": "Geoff Harris",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235282.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One pristine flower on one 43-cm inflorescence; \nflower white, light chartreuse caudae tips; \nsubstance firm, texture sparkling.",
+    "NS": 5.1,
+    "NSV": 11.9,
+    "DSW": 0.3,
+    "DSL": 5.6,
+    "PETW": 0.1,
+    "PETL": 0.1,
+    "LSW": 2.5,
+    "LSL": 6.4,
+    "LIPW": 0.1,
+    "LIPL": 0.1
+  },
+  "scrapedDate": "2025-10-12T20:20:02.826Z",
+  "sourceUrl": "https://www.paccentraljc.org/230415/20235282.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235282.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.827Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

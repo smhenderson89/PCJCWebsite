@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235366",
+  "award": "AM",
+  "awardpoints": 85,
+  "location": "Sonoma County Orchid Society Show",
+  "date": "April 1, 2023",
+  "genus": "Laeliocattleya",
+  "species": "Joanna Rose",
+  "clone": "El Dorado",
+  "cross": "Cattleya Melody Fair x Laeliocattleya Liptonii",
+  "exhibitor": "Kathy Barrett",
+  "photographer": "Lynne Murrell",
+  "photo": "images/20235366.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 2,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Two full flat crystalline flowers on one 20-cm inflorescence;\n\n\t sepals and petals creamy white, \n\tpetals evenly ruffled, midrib blushed rose;\n\tlip creamy white, throat intense yellow, midlobe overlaid magenta, white picotee;\n\tcolumn cream, anther cap white;\t\n\t\n\t\n    substance heavy; texture diamond dust.",
+    "NS": 15,
+    "NSV": 15.1,
+    "DSW": 3.6,
+    "DSL": 7.9,
+    "PETW": 7.3,
+    "PETL": 8,
+    "LSW": 3.5,
+    "LSL": 7.9,
+    "LIPW": 5.3,
+    "LIPL": 7.5
+  },
+  "scrapedDate": "2025-10-12T20:20:02.911Z",
+  "sourceUrl": "https://www.paccentraljc.org/230401/20235366.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235366.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.912Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235250",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 20, 2023",
+  "genus": "Cymbidium",
+  "species": "Exeter Carnelian",
+  "clone": "Samaria Song",
+  "cross": "Cymbidium goeringii 'Black Lotus' x Cymbidium Voodoo 'Gypsy Red'",
+  "exhibitor": "Sylvia Darr",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235250.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 6,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Six flat flowers on two 18.5-cm inflorescences;\n\tsepals and petals maroon, margins light green;\n\t\n\t\n\t lip white, yellow throat, keels bright yellow, side lobes spotted maroon, midlobe slightly curvedunder, blotched dark maroon distally; \n\t\n\t\n    substance average; texture matte.",
+    "NS": 6.5,
+    "NSV": 5.7,
+    "DSW": 1.8,
+    "DSL": 4,
+    "PETW": 1.5,
+    "PETL": 3.8,
+    "LSW": 1.8,
+    "LSL": 4.6,
+    "LIPW": 2.1,
+    "LIPL": 2
+  },
+  "scrapedDate": "2025-10-12T20:20:02.732Z",
+  "sourceUrl": "https://www.paccentraljc.org/230120/20235250.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235250.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.741Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

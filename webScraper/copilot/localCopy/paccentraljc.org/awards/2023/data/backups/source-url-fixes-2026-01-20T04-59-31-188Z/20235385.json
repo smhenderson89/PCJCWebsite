@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235385",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "San Francisco",
+  "date": "December 5, 2023",
+  "genus": "Phragmipedium",
+  "species": "Lovely Lynne",
+  "clone": "Vajra",
+  "cross": "Phragmipedium Fritz Schomburg x Phragmipedium Peruflora's Cirila Alca",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Japheth Ko",
+  "photo": "images/20235385.jpg",
+  "measurements": {
+    "type": "Pouch&SynselPal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one 13-cm inflorescence;\n   \n\tdorsal sepal flat, dark rose-pink;\n\tsynsepal light pink;\n\tpetals overlapping, reflexed at bottom proximally, dark rose-pink;\n\tpouch dark rose-pink, cream interior, pink hairs;\n\tstaminode cream overlaid pink; \n\n\tsubstance firm; texture velvet.",
+    "NS": 12.9,
+    "NSV": 9.9,
+    "DSW": 3.1,
+    "DSL": 5.1,
+    "PETW": 5.3,
+    "PETL": 6.4,
+    "SYNSW": 4.9,
+    "SYNSL": 5.1,
+    "PCHW": 3.2,
+    "PCHL": 4.5
+  },
+  "scrapedDate": "2025-10-12T20:20:02.949Z",
+  "sourceUrl": "https://www.paccentraljc.org/231205/20235385.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235385.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.950Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

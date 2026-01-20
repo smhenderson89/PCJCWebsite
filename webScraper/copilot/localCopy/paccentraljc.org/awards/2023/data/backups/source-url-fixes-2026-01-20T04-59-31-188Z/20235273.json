@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235273",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "March 18, 2023",
+  "genus": "Cymbidium",
+  "species": "Samurai Spirit",
+  "clone": "Orange Blossom",
+  "cross": "Cymbidium Eastern Bunny x Cymbidium erythraeum",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235273.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 9,
+    "numBuds": 0,
+    "numInflorescences": 11,
+    "description": "Nine flowers  on one  61-cm staked arching inflorescence;\n\n\t  \n\t sepals and petals yellow overlaid burgundy spots, striped darker burgundy;\n\tlip bright yellow, spotted burgundy, keel light yellow spotted burgundy;\n\tcolumn yellow overlaid burgundy, anther cap yellow;\t\n\t\n\t\n    substance firm; texture matte.",
+    "NS": 6.6,
+    "NSV": 7.3,
+    "DSW": 1.4,
+    "DSL": 4.6,
+    "PETW": 1.2,
+    "PETL": 4.1,
+    "LSW": 1.1,
+    "LSL": 4.1,
+    "LIPW": 2,
+    "LIPL": 2.7
+  },
+  "scrapedDate": "2025-10-12T20:20:02.807Z",
+  "sourceUrl": "https://www.paccentraljc.org/230318/20235273.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235273.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.810Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

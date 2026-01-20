@@ -1,0 +1,38 @@
+{
+  "awardNum": "20235360",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 23, 2023",
+  "genus": "Dracula",
+  "species": "chestertonii",
+  "clone": "Quetzacoatl",
+  "cross": "species",
+  "exhibitor": "John Leathers",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20235360.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 3,
+    "numInflorescences": 4,
+    "description": "One flower, two mature buds and one juvenile bud on four pendent sequential-blooming 14-cm inflorescences;\n   \n   \n   \n sepals pale green heavily spotted purple, dorsal caudae pink-orange front, dark purple back, lateral caudae pale green \n transitioning to dark purple distally; \n petals minute, pink-orange; striking large lip light orange veined dark burgundy coalescing proximally;\n \n column cream finely spotted black-purple; substance firm; texture matte.",
+    "NS": 5,
+    "NSV": 9,
+    "DSW": 2,
+    "DSL": 3.8,
+    "LSW": 2.2,
+    "LSL": 5.8,
+    "LIPW": 2.6,
+    "LIPL": 1.8
+  },
+  "scrapedDate": "2025-10-12T20:20:02.902Z",
+  "sourceUrl": "https://www.paccentraljc.org/230223/20235360.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235360.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.903Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

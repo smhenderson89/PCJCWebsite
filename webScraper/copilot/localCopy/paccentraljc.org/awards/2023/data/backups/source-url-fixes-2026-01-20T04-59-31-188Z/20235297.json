@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235297",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "July 15, 2023",
+  "genus": "Cattleya",
+  "species": "x blossfeldiana",
+  "clone": "'Estelle'",
+  "cross": "Cattleya rex x Cattleya luteola",
+  "exhibitor": "Steven Christoffersen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235297.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 11,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Eleven slightly crowded flowers on one  9-cm inflorescence;\n   \n\tsepals recurve at tips, light yellow;\n\tpetals forward, recurve at tips, light yellow;\n\t\n\tlip ruffled, light yellow, bright yellow throat overlaid maroon veins, white tip;\n\t\n\tsubstance medium; texture crystalline.",
+    "NS": 7.2,
+    "NSV": 8.1,
+    "DSW": 1.4,
+    "DSL": 6.2,
+    "PETW": 2.1,
+    "PETL": 5.3,
+    "LSW": 1.5,
+    "LSL": 5.2,
+    "LIPW": 2.8,
+    "LIPL": 4.2
+  },
+  "scrapedDate": "2025-10-12T20:20:02.856Z",
+  "sourceUrl": "https://www.paccentraljc.org/230715/20235297.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235297.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.857Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

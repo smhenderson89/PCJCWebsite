@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235299",
+  "award": "AM",
+  "awardpoints": 83,
+  "location": "Filoli Historic House",
+  "date": "July 15, 2023",
+  "genus": "Maxillaria",
+  "species": "tenuifolia",
+  "clone": "Mason",
+  "cross": "species",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235299.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 6,
+    "numBuds": 0,
+    "numInflorescences": 6,
+    "description": "Six flowers on six 0.5-cm inflorescences;\n   \n\tsepals acuminate, burgundy, green tips and abaxial surface ;\n\t\n\tpetals acuminate, porrect, burgundy, green tips and abaxial surface;\n\t\n\t\n\tlip cream, heavily overlaid burgundy blotches basal two-thirds, less on apical one-third;\n\tcolumn light green overlaid burgundy, anther cap light green;\n\t\n\tsubstance impressively firm; texture matte; unusually long 5.0cm pedicel; fragrance light coconut, citrus component atypical,\n\tidentity verified by SITF.",
+    "NS": 4.9,
+    "NSV": 3.8,
+    "DSW": 1.1,
+    "DSL": 2.9,
+    "PETW": 0.7,
+    "PETL": 2.9,
+    "LSW": 0.9,
+    "LSL": 2.8,
+    "LIPW": 1.2,
+    "LIPL": 2
+  },
+  "scrapedDate": "2025-10-12T20:20:02.859Z",
+  "sourceUrl": "https://www.paccentraljc.org/230715/20235299.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235299.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.861Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

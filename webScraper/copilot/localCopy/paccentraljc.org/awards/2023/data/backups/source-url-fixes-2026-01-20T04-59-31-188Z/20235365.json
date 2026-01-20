@@ -1,0 +1,41 @@
+{
+  "awardNum": "20235365",
+  "award": "SC",
+  "awardpoints": "N/A",
+  "location": "Pacific Orchid Exposition",
+  "date": "February 23, 2023",
+  "genus": "Golden",
+  "species": "Gate Orchids Display",
+  "clone": "",
+  "cross": "N/A",
+  "exhibitor": "Golden Gate Orchids",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20235365.jpg",
+  "measurements": {
+    "type": "Other",
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "A 240-cm x 75-cm display of diverse varieties of well-grown orchids in a wide range of sizes; dominated by specimen size dendrobiums and \n   an arphphyllum, fronted by complex paphiopedilums, white lycastes, moss-covered hill populated by Cattleya coccinea, many color forms \n   of Dendrobium cuthbersonii, mini-dendrobiums; centrally white with bright colors on each side of the display; also received award 20235364; AOS award 20235357 was\n   included in display.",
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LSW": "N/A",
+    "LSL": "N/A",
+    "LIPW": "N/A",
+    "PCHW": "N/A"
+  },
+  "scrapedDate": "2025-10-12T20:20:02.910Z",
+  "sourceUrl": "https://www.paccentraljc.org/230223/20235365.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235365.html",
+  "year": 2023,
+  "isDisplay": true,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.911Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "display"
+  }
+}

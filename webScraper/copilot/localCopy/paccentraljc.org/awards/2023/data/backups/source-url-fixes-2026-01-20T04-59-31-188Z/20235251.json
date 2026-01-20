@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235251",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 20, 2023",
+  "genus": "Oncidium",
+  "species": "Lillian Dugger",
+  "clone": "Elegana",
+  "cross": "Oncidium Joe's Drum x Oncidium Florence Stirling",
+  "exhibitor": "Paul and Phyllis Chim",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235251.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 16,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Sixteen flowers on two maximum 72-cm inflorescences, one branched;\n\tsepals and petals white overlaid magenta edges, large irregular mahogany splotches;\n\t\n\t\n\t lip white edged dark pink, bright yellow callus, magenta marks; \n\t column white, burgundy markings, column wings bright yellow, magenta marks;\n\t\n\t\n    substance medium; texture matte.",
+    "NS": 7.7,
+    "NSV": 7.2,
+    "DSW": 3.2,
+    "DSL": 3.7,
+    "PETW": 3.6,
+    "PETL": 3.6,
+    "LSW": 3.2,
+    "LSL": 3.8,
+    "LIPW": 2,
+    "LIPL": 2.8
+  },
+  "scrapedDate": "2025-10-12T20:20:02.743Z",
+  "sourceUrl": "https://www.paccentraljc.org/230120/20235251.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235251.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.746Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

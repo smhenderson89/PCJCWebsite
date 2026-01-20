@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235295",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "June 17, 2023",
+  "genus": "Rhynchostele",
+  "species": "unregistered hybrid",
+  "clone": "Bentley",
+  "cross": "Rhynchostele Red Nugget x Rhynchostele bictoniensis",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235295.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 20,
+    "numBuds": 9,
+    "numInflorescences": 2,
+    "description": "Twenty flowers and nine buds on two up to 68.4-cm upright inflorescences;\n   \n\tsepals and petals olive green overlaid bold burgundy bars, coalescing apically;\n\t\n\tlip light ochre finely veined rose, callus bright purple;\n\tcolumn yellow overlaid burgundy blotches apical half, anther cap white;\n\tsubstance firm; texture crystalline.",
+    "NS": 6.7,
+    "NSV": 5,
+    "DSW": 1.1,
+    "DSL": 2.7,
+    "PETW": 0.9,
+    "PETL": 2.8,
+    "LSW": 0.9,
+    "LSL": 3.1,
+    "LIPW": 2.4,
+    "LIPL": 2.6
+  },
+  "scrapedDate": "2025-10-12T20:20:02.852Z",
+  "sourceUrl": "https://www.paccentraljc.org/230617/20235295.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235295.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.853Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

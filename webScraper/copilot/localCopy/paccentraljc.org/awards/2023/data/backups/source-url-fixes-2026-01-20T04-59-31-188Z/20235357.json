@@ -1,0 +1,38 @@
+{
+  "awardNum": "20235357",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 23, 2023",
+  "genus": "Paphiopedilum",
+  "species": "Smooth Sailing",
+  "clone": "Butterscotch",
+  "cross": "Papiopedilum Donna Hanes x Paphiopedilum Billy Bunter",
+  "exhibitor": "Golden Gate Orchids",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20235357.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one 11.2-cm inflorescence; dorsal sepal pinched centrally, chartreuse-yellow, radially veined tan from base to 2.9 cm, white margin;\nsynsepal  green, edge white; petals yellow upper (superior) half, chartreuse lower (inferior) half; pouch yellow overlaid tan;\n staminode minute, yellow;\nsubstance heavy; texture waxy; upgraded from previous HCC award to AM due to better form and larger size.",
+    "NS": 13.5,
+    "NSV": 13.8,
+    "DSW": 11.6,
+    "DSL": 7.5,
+    "PETW": 5.5,
+    "PETL": 7.8,
+    "LSW": 8,
+    "LSL": 8.3
+  },
+  "scrapedDate": "2025-10-12T20:20:02.897Z",
+  "sourceUrl": "https://www.paccentraljc.org/230223/20235357.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235357.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.897Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

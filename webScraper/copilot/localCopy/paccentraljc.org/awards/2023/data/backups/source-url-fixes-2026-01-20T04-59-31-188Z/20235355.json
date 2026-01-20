@@ -1,0 +1,36 @@
+{
+  "awardNum": "20235355",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 23, 2023",
+  "genus": "Masdevallia",
+  "species": "Robert Hamilton",
+  "clone": "Krakatoa",
+  "cross": "Masdevallia Falcata x Masdevallia Billion-Nims",
+  "exhibitor": "John Leathers",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20235355.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One striking upright, round flower on one 41-cm inflorescence;\n sepals orange overlaid vermillion, darker vermillion striations, dorsal sepal fucshia centrally, caudae dark vermillion, \n lateral caudae symetrically crossed; petals minute, white; lip minute, white overlaid intense purple;\n \n column and anther cap white; substance firm; texture matte.",
+    "NS": 5.4,
+    "NSV": 13,
+    "DSW": 2.1,
+    "DSL": 7.5,
+    "LSW": 2.9,
+    "LSL": 9.5
+  },
+  "scrapedDate": "2025-10-12T20:20:02.893Z",
+  "sourceUrl": "https://www.paccentraljc.org/230223/20235355.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235355.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.894Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

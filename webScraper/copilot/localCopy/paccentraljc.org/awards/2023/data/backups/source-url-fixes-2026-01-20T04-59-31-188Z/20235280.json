@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235280",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "April 15, 2023",
+  "genus": "Laeliocattleya",
+  "species": "Canariensis",
+  "clone": "Memoria Andy Cameron",
+  "cross": "Laelia anceps x Cattleya harpophylla",
+  "exhibitor": "Sylvia Darr",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235280.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 17,
+    "numBuds": 0,
+    "numInflorescences": 5,
+    "description": "Seventeen flowers on five upright inflorescences up to 34cm; \nsepals and petals lanceolate, golden orange-yellow; \nlip bright yellow, speckled burgundy basally; \ncolumn yellow, anther cap white; \nsubstance firm; texture matte.",
+    "NS": 9.2,
+    "NSV": 9.7,
+    "DSW": 1.5,
+    "DSL": 5.8,
+    "PETW": 2.8,
+    "PETL": 5.5,
+    "LSW": 1.5,
+    "LSL": 4.9,
+    "LIPW": 2.4,
+    "LIPL": 3.1
+  },
+  "scrapedDate": "2025-10-12T20:20:02.822Z",
+  "sourceUrl": "https://www.paccentraljc.org/230415/20235280.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235280.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.823Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

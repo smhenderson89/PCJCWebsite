@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235270",
+  "award": "HCC",
+  "awardpoints": 77,
+  "location": "Filoli Historic House",
+  "date": "March 18, 2023",
+  "genus": "Dendrobium",
+  "species": "Spider Lily",
+  "clone": "Memoria Andy Cameron",
+  "cross": "Dendroium Roy Tokunaga x Dendrobium alexandrae",
+  "exhibitor": "Jim Heilig",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235270.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 17,
+    "numBuds": 5,
+    "numInflorescences": 4,
+    "description": "Seventeen flowers and five buds on four up to 24-cm strongly arching inflorescences;\n\t flower cream overlaid pale green, heavy burgundy spots on reverse; \n\t petals lanceolate, slightly rolled, outer margin deep burgundy spotting;\n\tlip side lobes striped burgundy, midlobe overlaid burgundy spots coalesing to stripes, keel pale green;\n\tcolumn pale green, anther cap white;\t\n\t\n\t\n    substance average; texture matte.",
+    "NS": 9.8,
+    "NSV": 6.3,
+    "DSW": 1.4,
+    "DSL": 4,
+    "PETW": 2.2,
+    "PETL": 4.9,
+    "LSW": 1.3,
+    "LSL": 4.9,
+    "LIPW": 2.5,
+    "LIPL": 4.1
+  },
+  "scrapedDate": "2025-10-12T20:20:02.801Z",
+  "sourceUrl": "https://www.paccentraljc.org/230318/20235270.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235270.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.802Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

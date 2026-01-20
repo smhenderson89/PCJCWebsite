@@ -1,0 +1,38 @@
+{
+  "awardNum": "20235359",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 23, 2023",
+  "genus": "Paphiopedilum",
+  "species": "Urban Vogue",
+  "clone": "Merlot",
+  "cross": "Paphiopedilum urbanianum x Paphiopedilum Vogue Wonder",
+  "exhibitor": "Dave Sorokowski",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20235359.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One flower on one 36-cm inflorescence; \n   dorsal sepal flat, white, strongly marked green veins ;\nsynsepal light green, darker green veins; \npetals spatulate, undulate, cream overlaid chartreuse basally, light rose distally, mahogany spots basal two-thirds;\npouch light green, overlaid light rose, darker rose veins;\n staminode cream, green markings;\nsubstance firm; texture glossy.",
+    "NS": 16.3,
+    "NSV": 11,
+    "DSW": 7,
+    "DSL": 6.3,
+    "PETW": 2.9,
+    "PETL": 7.7,
+    "LSW": 3.3,
+    "LSL": 4.4
+  },
+  "scrapedDate": "2025-10-12T20:20:02.900Z",
+  "sourceUrl": "https://www.paccentraljc.org/230223/20235359.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235359.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.901Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

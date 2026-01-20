@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235352",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 23, 2023",
+  "genus": "Oncidium",
+  "species": "San Francisco Goldmine",
+  "clone": "Cavalier",
+  "cross": "Oncidium Tiger Hambühren x Oncidium Jubilee Volunteer",
+  "exhibitor": "Jason Douglas and Ron Norris",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20235352.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 17,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Seventeen flowers on one staked, branching, 114-cm inflorescence;\nsepals and petals margins undulate, yellow, random faint cordovan spots, heavily blotched\ncordovan centrally; lip yellow, lighter yellow distally, mid lobe blotched cordovan, callus dark\nyellow; column light yellow, anther cap light cordovan; substance firm; texture matte.",
+    "NS": 8.6,
+    "NSV": 9.3,
+    "DSW": 2.7,
+    "DSL": 4.5,
+    "PETW": 3.2,
+    "PETL": 4.5,
+    "LSW": 2.7,
+    "LSL": 4.7,
+    "LIPW": 2.9,
+    "LIPL": 4.1
+  },
+  "scrapedDate": "2025-10-12T20:20:02.884Z",
+  "sourceUrl": "https://www.paccentraljc.org/230223/20235352.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235352.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.885Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

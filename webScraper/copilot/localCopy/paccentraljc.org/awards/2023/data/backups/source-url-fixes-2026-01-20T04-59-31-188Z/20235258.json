@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235258",
+  "award": "AM",
+  "awardpoints": 82,
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 20, 2023",
+  "genus": "Dendrobium",
+  "species": "victoriae-reginae",
+  "clone": "Midnight",
+  "cross": "'Royal Blue' AM/AOS x 'Blues Brothers'",
+  "exhibitor": "Cal-Orchid",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235258.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 11,
+    "numBuds": 5,
+    "numInflorescences": 8,
+    "description": "Nine flowers on six simultaneous inflorescences at one node, two flowers and five buds on two simultaneous inflorescences at a second node\n\ton one cane;\n\t\n\tsepals and petals vibrant red-purple, white at apex;\n\tbroad lip darker red-purple, white proximally, dark purple veins in throat;\n\t column and anther cap white;\n\t\n    substance average; texture shiny enamel.",
+    "NS": 5.9,
+    "NSV": 4.4,
+    "DSW": 1,
+    "DSL": 2.7,
+    "PETW": 1.5,
+    "PETL": 3.2,
+    "LSW": 1.3,
+    "LSL": 3.3,
+    "LIPW": 2.1,
+    "LIPL": 2.8
+  },
+  "scrapedDate": "2025-10-12T20:20:02.769Z",
+  "sourceUrl": "https://www.paccentraljc.org/230120/20235258.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235258.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.771Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

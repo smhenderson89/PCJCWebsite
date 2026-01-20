@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235291",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Filoli Historic House",
+  "date": "May 20, 2023",
+  "genus": "Coelogyne",
+  "species": "usitana",
+  "clone": "Lucky One",
+  "cross": "species",
+  "exhibitor": "Chaunie Langland",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235291.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 1,
+    "numInflorescences": 1,
+    "description": "One flower and one bud on one 47-cm pendant inflorescence;\n\t\n\t\n\tsepals and petals pale green, sepals darker green midrib;\n\tlip side lobes burnt umber, keel orange-brown, midlobe burnt umber, darker ciliate edges;\n\t\n\tsubstance very firm; texture satiny.",
+    "NS": 6.1,
+    "NSV": 6.5,
+    "DSW": 2.7,
+    "DSL": 5.5,
+    "PETW": 0.7,
+    "PETL": 5,
+    "LSW": 2.8,
+    "LSL": 5.2,
+    "LIPW": 1.8,
+    "LIPL": 4.4
+  },
+  "scrapedDate": "2025-10-12T20:20:02.842Z",
+  "sourceUrl": "https://www.paccentraljc.org/230520/20235291.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235291.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.843Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

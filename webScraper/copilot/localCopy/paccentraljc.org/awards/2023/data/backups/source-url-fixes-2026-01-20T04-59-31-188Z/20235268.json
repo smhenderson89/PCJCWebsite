@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235268",
+  "award": "HCC",
+  "awardpoints": 78,
+  "location": "Filoli Historic House",
+  "date": "March 18, 2023",
+  "genus": "Dendrobium",
+  "species": "King-Wong",
+  "clone": "Wow",
+  "cross": "Dendrobium kingianum x Dendrobium Wonga",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235268.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 337,
+    "numBuds": 281,
+    "numInflorescences": 49,
+    "description": "Three hundred thirty-seven flowers and 281 buds on 49 upright inflorescences up to 25.5-cm;\n\tflowers white; sepals and petals, petals swept forward, overlaid light rose distal half; \n\tlip stippled medium rose, keel chartreuse;\n\tcolumn white, anther cap white;\t\n\t\n\t\n    substance very firm; texture crystalline.",
+    "NS": 3.5,
+    "NSV": 3,
+    "DSW": 1,
+    "DSL": 2.1,
+    "PETW": 0.6,
+    "PETL": 1.8,
+    "LSW": 1.1,
+    "LSL": 1.8,
+    "LIPW": 0.9,
+    "LIPL": 1.1
+  },
+  "scrapedDate": "2025-10-12T20:20:02.796Z",
+  "sourceUrl": "https://www.paccentraljc.org/230318/20235268.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235268.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.798Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

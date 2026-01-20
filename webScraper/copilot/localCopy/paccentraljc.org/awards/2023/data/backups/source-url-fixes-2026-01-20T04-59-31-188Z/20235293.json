@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235293",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Filoli Historic House",
+  "date": "June 17, 2023",
+  "genus": "Procatavola",
+  "species": "Key Lime Stars",
+  "clone": "Bayou Moon",
+  "cross": "Cattlechea Lime Sherbet x Brassavola nodosa",
+  "exhibitor": "Mitch Schneider",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235293.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 3,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "Three stellate flowers on one 10-cm upright inflorescence;\n\tsepals and pteals lanceolate, bright lime green;\n\tlip tubular bell, pale yellow-green, throat bright lime green spotted burgundy;\n\tcolumn lime green, white apically, anther cap yellow overlaid green;\n\tsubstance firm; texture waxy.",
+    "NS": 13.6,
+    "NSV": 12.9,
+    "DSW": 1,
+    "DSL": 7.7,
+    "PETW": 0.8,
+    "PETL": 6.6,
+    "LSW": 1,
+    "LSL": 7.2,
+    "LIPW": 3.1,
+    "LIPL": 8.4
+  },
+  "scrapedDate": "2025-10-12T20:20:02.848Z",
+  "sourceUrl": "https://www.paccentraljc.org/230617/20235293.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235293.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.849Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

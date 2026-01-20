@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235375",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "San Francisco",
+  "date": "April 4, 2023",
+  "genus": "Cymbidium",
+  "species": "Darrel Wong",
+  "clone": "Orange Marmalade",
+  "cross": "Cymbidium Lambert Day x Cymbidium Karen Hawaiian",
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235375.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 53,
+    "numBuds": 3,
+    "numInflorescences": 3,
+    "description": "Fifty-three slightly cupped flowers and three buds on three up to 88-cm pendent inflorescences;\n\tsepals and petals yellow overlaid and speckled dark rose coalescing into stripes, yellow picotee;\n\tlip yellow overlaid maroon spots; \n\tcolumn yellow brushed dark rose apically, maroon spots basally and underside, anther cap white;\n\tsubstance firm; texture matte.",
+    "NS": 7,
+    "NSV": 6.5,
+    "DSW": 2.8,
+    "DSL": 6.4,
+    "PETW": 2.4,
+    "PETL": 6.2,
+    "LSW": 3,
+    "LSL": 6,
+    "LIPW": 2.3,
+    "LIPL": 3.8
+  },
+  "scrapedDate": "2025-10-12T20:20:02.931Z",
+  "sourceUrl": "https://www.paccentraljc.org/230404/20235375.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235375.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.932Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

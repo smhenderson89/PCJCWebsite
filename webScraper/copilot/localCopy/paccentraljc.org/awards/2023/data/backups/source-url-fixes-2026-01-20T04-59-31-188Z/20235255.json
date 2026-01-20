@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235255",
+  "award": "CBR",
+  "awardpoints": "N/A",
+  "location": "Peninsula Orchid Society Show",
+  "date": "January 20, 2023",
+  "genus": "Mystacidium",
+  "species": "gracile",
+  "clone": "Lise",
+  "cross": "species",
+  "exhibitor": "Mary Gerritsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235255.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 13,
+    "numBuds": 2,
+    "numInflorescences": 5,
+    "description": "Thirteen flowers and two buds on five 6.6-cm inflorescences;\n\ton a leafless plant without pseudobulbs grown on a 15x12-cm cork mount;\n\tflowers yellow-green;\n\tlip nectary white, green distal end, 2.3cm;\n\t \n\t\n    substance average; texture matte; submitted to SITF for verification of identity.",
+    "NS": 1.2,
+    "NSV": 3,
+    "DSW": 0.2,
+    "DSL": 0.5,
+    "PETW": 0.1,
+    "PETL": 0.3,
+    "LSW": 0.2,
+    "LSL": 0.6,
+    "LIPW": 0.2,
+    "LIPL": 0.6
+  },
+  "scrapedDate": "2025-10-12T20:20:02.760Z",
+  "sourceUrl": "https://www.paccentraljc.org/230120/20235255.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235255.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.761Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

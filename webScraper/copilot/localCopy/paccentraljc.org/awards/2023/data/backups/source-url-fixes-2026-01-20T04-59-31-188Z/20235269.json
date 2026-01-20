@@ -1,0 +1,40 @@
+{
+  "awardNum": "20235269",
+  "award": "AM",
+  "awardpoints": 84,
+  "location": "Filoli Historic House",
+  "date": "March 18, 2023",
+  "genus": "Lycaste",
+  "species": "His Majesty",
+  "clone": "Memorial Scott Collins",
+  "cross": "Lycaste Golden Emperor x Lycaste virginalis",
+  "exhibitor": "Nancy Collins",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20235269.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 9,
+    "numBuds": 2,
+    "numInflorescences": 11,
+    "description": "Nine flat flowers and two buds on 11 28-cm upright staked inflorescences;\n\tsepals ivory: petals ivory, spotted rasberry red basally; lip ivory, heavily overlaid yellow adaxial surface, burgundy basally, callus yellow; \n\tcolumn ivory, heavily overlaid yellow, burgundy basally, anther cap ivory;\t\n\t\n\t\n    substance firm; texture satin.",
+    "NS": 13,
+    "NSV": 8.8,
+    "DSW": 4.4,
+    "DSL": 6.1,
+    "PETW": 4,
+    "PETL": 4.2,
+    "LSW": 4.9,
+    "LSL": 6.4,
+    "LIPW": 1.8,
+    "LIPL": 3.6
+  },
+  "scrapedDate": "2025-10-12T20:20:02.799Z",
+  "sourceUrl": "https://www.paccentraljc.org/230318/20235269.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2023/html/20235269.html",
+  "year": 2023,
+  "logicApplied": {
+    "timestamp": "2025-10-12T20:20:02.800Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}
