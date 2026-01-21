@@ -1,1 +1,4 @@
 node_modules
+
+# Ignore old scraped image directories (images now managed in database/images/)
+webScraper/copilot/localCopy/paccentraljc.org/awards/*/images/
