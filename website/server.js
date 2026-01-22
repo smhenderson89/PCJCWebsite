@@ -12,7 +12,6 @@ app.use(cors())
 const hostname = "127.0.0.1"
 const port = 8000
 
-
 // Require livereload and connectLiveReload
 const livereload = require("livereload")
 const connectLiveReload = require("connect-livereload")
@@ -29,6 +28,10 @@ liveReloadServer.server.once("connection", () => {
 
 // Add livereload script to the response
 app.use(connectLiveReload())
+
+// Connect to database
+const Database = require('better-sqlite3');
+const db = new Database('../database/orchid_awards.sqlite', { verbose: console.log });
 
 
 // index page
