@@ -1,17 +1,23 @@
 var express = require('express');
-var cors = require('cors');
+const path = require('path');
 var app = express();
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
-// cors
-app.use(cors())
+// Security middleware (BEFORE routes)
+const { setupSecurity } = require('./src/middleware/security');
+setupSecurity(app);
 
 // Static files
 app.use(express.static('public'));
 app.use('/css', express.static('css'));
+app.use('/css', express.static(path.join(__dirname, 'css')));
 app.use('/images', express.static('images'));
+app.use('/images', express.static(path.join(__dirname, 'images')));
+
+// Also serve from root for files like index.css
+app.use(express.static(__dirname));
 
 // Server information
 const hostname = "127.0.0.1"

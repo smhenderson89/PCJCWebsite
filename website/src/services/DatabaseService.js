@@ -14,9 +14,19 @@ class DatabaseService {
   }
 
   // Get all awards - simple version
-  getAllAwards() {
-    const stmt = this.db.prepare('SELECT * FROM awards ORDER BY date_iso ASC');
+  getAwardCountsByYear() {
+    const stmt = this.db.prepare(`SELECT year, COUNT(*) as count 
+    FROM awards 
+    WHERE year IS NOT NULL 
+    GROUP BY year
+    ORDER BY year ASC`);
     return stmt.all();
+  }
+
+  // Detailed query when needed
+  getAwardsByYear(year) {
+    const stmt = this.db.prepare('SELECT * FROM awards WHERE year = ? ORDER BY award, genus, species');
+    return stmt.all(year);
   }
 
   // Close database connection
