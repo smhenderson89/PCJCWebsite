@@ -1,0 +1,1 @@
+Controllers are where the logic happens, take routes and handle comples information like fetching data

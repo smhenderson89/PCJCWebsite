@@ -8,6 +8,11 @@ app.set('view engine', 'ejs');
 // cors
 app.use(cors())
 
+// Static files
+app.use(express.static('public'));
+app.use('/css', express.static('css'));
+app.use('/images', express.static('images'));
+
 // Server information
 const hostname = "127.0.0.1"
 const port = 8000
@@ -29,47 +34,19 @@ liveReloadServer.server.once("connection", () => {
 // Add livereload script to the response
 app.use(connectLiveReload())
 
-// Connect to database
-const Database = require('better-sqlite3');
-const db = new Database('../database/orchid_awards.sqlite', { verbose: console.log });
+// Import routes
+const routes = require('./src/routes/index');
 
+// Use routes
+app.use('/', routes.awards);  // Awards API routes
+app.use('/', routes.pages);   // Static page routes
 
-// index page
-app.get('/', function(req, res) {
+// Basic homepage route (temporary)
+app.get('/', (req, res) => {
   res.render('pages/index');
 });
 
-app.get('/home', function(req, res) {
-  res.render('pages/index');
-});
-
-// about page
-app.get('/about', function(req, res) {
-  res.render('pages/about');
-});
-
-// personnel page
-app.get('/personnel', function(req, res) {
-  res.render('pages/personnel')
-})
-
-// calendar page
-app.get('/calendar', function(req, res) {
-  res.render('pages/calendar')
-})
-
-// awards list
-app.get('/awardslist', function(req, res) {
-  res.render('pages/awardslist')
-})
-
-// plantpage
-app.get('/plantpage', function(req, res) {
-  res.render('pages/plantpage')
-})
-
-
+// Start server
 app.listen(port, hostname, function() {
   console.log(`Server running at http://${hostname}:${port}`)
-
 });

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162302",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "Pacific Orchid Exposition",
+  "date": "February 25, 2016",
+  "genus": "Paphiopedilum",
+  "species": "Heaven's Knight",
+  "clone": "Monster",
+  "cross": "Paphiopedilum Autumn Gold x Paphiopedilum White Knight",
+  "exhibitor": "Ramon de los Santos",
+  "photographer": "N/A",
+  "photo": "images/20162302.jpg",
+  "measurements": {
+    "type": "Pouch&SynselPal",
+    "numFlowers": 3,
+    "numBuds": 1,
+    "numInflorescences": 3,
+    "description": "Three slightly cupped flowers and one bud on three erect inflorescences; sepals white overlaid pale yellow proximally, faintly lined light green;\n   petals white overlaid pale yellow; pouch light yellow;  staminode light yellow;  \n   substance firm; texture waxy.",
+    "NS": 10.2,
+    "NSV": 9.8,
+    "DSW": 8.4,
+    "DSL": 6,
+    "PETW": 5.7,
+    "PETL": 6.4,
+    "SYNSW": 9,
+    "SYNSL": 5.6,
+    "PCHW": 3.5,
+    "PCHL": 5.1
+  },
+  "scrapedDate": "2025-10-15T03:38:59.207Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160225/20162302.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162302.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.210Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

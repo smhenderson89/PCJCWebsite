@@ -1,0 +1,40 @@
+{
+  "awardNum": "20162301",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "San Fransisco",
+  "date": "February 2, 2016",
+  "genus": "Paphiopedilum",
+  "species": "Fairre Helen",
+  "clone": "Tiny Jungle",
+  "cross": "Paphiopedilum fairrieanum x Paphiopedilum Pacific Shamrock",
+  "exhibitor": "Tiny Jungle",
+  "photographer": "N/A",
+  "photo": "images/20162301.jpg",
+  "measurements": {
+    "type": "Pouch&SynselPal",
+    "numFlowers": 1,
+    "numBuds": 0,
+    "numInflorescences": 1,
+    "description": "One well-presented flower held well above the foliage on one inflorescence; dorsal sepal white, mid-rib dark rose, blushed and veined chartreuse centrally, dark rose veined \n   marginally; petals white, heavily overlaid chartreuse, dark rose striation stronger on margins; synsepal white\n   overlaid chartreuse; pouch chartreuse, superior half lightly overlaid dark rose;  staminode chartreuse, dark rose centrally;  \n   substance good; texture waxy.",
+    "NS": 10.3,
+    "NSV": 9,
+    "DSW": 7.3,
+    "DSL": 5.2,
+    "PETW": 4,
+    "PETL": 6.5,
+    "SYNSW": 4.5,
+    "SYNSL": 4.8,
+    "PCHW": 3,
+    "PCHL": 5.3
+  },
+  "scrapedDate": "2025-10-15T03:38:59.205Z",
+  "sourceUrl": "https://www.paccentraljc.org/20160202/20162301.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2016/html/20162301.html",
+  "year": 2016,
+  "logicApplied": {
+    "timestamp": "2025-10-15T03:38:59.206Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}
