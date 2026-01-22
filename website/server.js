@@ -5,40 +5,50 @@ var app = express();
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
-// Security middleware (BEFORE routes)
+// Static files FIRST (simplified and optimized)
+app.use(express.static(__dirname, { 
+  maxAge: '1h',  // Cache static files for 1 hour
+  etag: false    // Disable etag generation for better performance
+}));
+
+// Security middleware (AFTER static files)
 const { setupSecurity } = require('./src/middleware/security');
+
+// Add timing middleware to debug
+app.use((req, res, next) => {
+  const start = Date.now();
+  res.on('finish', () => {
+    const duration = Date.now() - start;
+    if (duration > 100) { // Log slow requests
+      console.log(`Slow request: ${req.method} ${req.url} took ${duration}ms`);
+    }
+  });
+  next();
+});
+
+// Re-enable security now that performance is good
 setupSecurity(app);
-
-// Static files
-app.use(express.static('public'));
-app.use('/css', express.static('css'));
-app.use('/css', express.static(path.join(__dirname, 'css')));
-app.use('/images', express.static('images'));
-app.use('/images', express.static(path.join(__dirname, 'images')));
-
-// Also serve from root for files like index.css
-app.use(express.static(__dirname));
 
 // Server information
 const hostname = "127.0.0.1"
 const port = 8000
 
-// Require livereload and connectLiveReload
-const livereload = require("livereload")
-const connectLiveReload = require("connect-livereload")
+// Temporarily disable livereload for performance testing
+// const livereload = require("livereload")
+// const connectLiveReload = require("connect-livereload")
 
 // Create a server with livereload and fire it up
-const liveReloadServer = livereload.createServer()
+// const liveReloadServer = livereload.createServer()
 
 // Refresh the browser after each saved change on the server with a delay of 100 ms
-liveReloadServer.server.once("connection", () => {
-    setTimeout(() => {
-        liveReloadServer.refresh("/")
-    }, 100)
-})
+// liveReloadServer.server.once("connection", () => {
+//     setTimeout(() => {
+//         liveReloadServer.refresh("/")
+//     }, 100)
+// })
 
 // Add livereload script to the response
-app.use(connectLiveReload())
+// app.use(connectLiveReload())
 
 // Import routes
 const routes = require('./src/routes/index');
@@ -53,6 +63,9 @@ app.get('/', (req, res) => {
 });
 
 // Start server
+const startTime = Date.now();
 app.listen(port, hostname, function() {
+  const serverStartupTime = Date.now() - startTime;
   console.log(`Server running at http://${hostname}:${port}`)
+  console.log(`Server startup time: ${serverStartupTime}ms`);
 });
