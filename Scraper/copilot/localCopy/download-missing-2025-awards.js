@@ -1,4 +1,4 @@
-const fs = require('fs-extra');
+const fs = require('.pnpm/fs-extra@11.3.2/node_modules/fs-extra');
 const path = require('path');
 const https = require('https');
 const http = require('http');

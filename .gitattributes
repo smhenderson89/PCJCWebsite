@@ -1,3 +1,7 @@
 database/images/*.jpg filter=lfs diff=lfs merge=lfs -text
 database/images/*.jpeg filter=lfs diff=lfs merge=lfs -text
 database/images/*.png filter=lfs diff=lfs merge=lfs -text
+
+# SQLite working files
+*.sqlite-wal filter=lfs diff=lfs merge=lfs -text
+*.sqlite-shm filter=lfs diff=lfs merge=lfs -text

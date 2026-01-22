@@ -1,3 +1,5 @@
+/* Database services act as an interface to the SQLite database */
+
 const Database = require('better-sqlite3');
 const path = require('path');
 
@@ -13,7 +15,7 @@ class DatabaseService {
 
   // Get all awards - simple version
   getAllAwards() {
-    const stmt = this.db.prepare('SELECT * FROM awards ORDER BY date DESC');
+    const stmt = this.db.prepare('SELECT * FROM awards ORDER BY date_iso ASC');
     return stmt.all();
   }
 
