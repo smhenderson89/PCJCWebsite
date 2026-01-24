@@ -29,6 +29,25 @@ class DatabaseService {
     return stmt.all(year);
   }
 
+  // Count awards by day
+  getAwardsGroupedByDay() {
+    const stmt = this.db.prepare(`
+      SELECT date_iso as date
+      FROM awards
+      WHERE date_iso IS NOT NULL
+      GROUP BY date_iso
+      ORDER BY date_iso ASC
+    `);
+    return stmt.all();
+  }
+
+  // 
+
+  getAllAwards() {
+    const stmt = this.db.prepare('SELECT * FROM awards ORDER BY date_iso DESC');
+    return stmt.all();
+  }
+
   // Close database connection
   close() {
     this.db.close();

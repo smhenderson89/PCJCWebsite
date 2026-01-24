@@ -24,12 +24,4 @@ router.get('/calendar', (req, res) => {
   });
 });
 
-// Links Page
-
-// AOS Judging Request Form
-
-
-
-
-
 module.exports = router;

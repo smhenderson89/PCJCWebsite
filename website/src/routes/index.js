@@ -1,8 +1,12 @@
 // Central route index - imports and organizes all route modules
-const awardsRoutes = require('./awards');
-const pagesRoutes = require('./pages');
+const generalRoutes = require('./general');
+const awardsPages = require('./awards');  // Awards page routes
+const awardsApi = require('./awards/api'); // Awards API routes
 
 module.exports = {
-  awards: awardsRoutes,
-  pages: pagesRoutes
+  general: generalRoutes,
+  awards: {
+    pages: awardsPages,
+    api: awardsApi
+  }
 };

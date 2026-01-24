@@ -54,8 +54,9 @@ const port = 8000
 const routes = require('./src/routes/index');
 
 // Use routes
-app.use('/', routes.awards);  // Awards API routes
-app.use('/', routes.pages);   // Static page routes
+app.use('/', routes.awards.api);     // Awards API routes
+app.use('/', routes.awards.pages);   // Awards page routes  
+app.use('/', routes.general.pages);  // General/static page routes
 
 // Basic homepage route (temporary)
 app.get('/', (req, res) => {

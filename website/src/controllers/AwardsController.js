@@ -43,6 +43,20 @@ class AwardsController {
     }
   }
 
+  // API endpoint to get awards by day
+  async getAwardsByDay(req, res) {
+    try {
+      const awardsByDay = this.dbService.getAwardsGroupedByDay();
+      res.json({ success: true, data: awardsByDay });
+    } catch (error) {
+      console.error('Error getting awards by day:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load awards by day' 
+      });
+    }
+  }
+
   // API endpoint to get all awards
   async getAllAwards(req, res) {
     try {

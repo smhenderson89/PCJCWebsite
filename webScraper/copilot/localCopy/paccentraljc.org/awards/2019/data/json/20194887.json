@@ -1,0 +1,42 @@
+{
+  "awardNum": "20194887",
+  "award": "AQ",
+  "awardpoints": "N/A",
+  "location": "Filoli Historic House",
+  "date": "November 16, 2019",
+  "genus": "Paphiopedilum",
+  "species": "Fred",
+  "clone": "N/A",
+  "cross": "N/A",
+  "exhibitor": "Lehua Orchids",
+  "photographer": "N/A",
+  "photo": "images/20194887.jpg",
+  "measurements": {
+    "type": "Other",
+    "numFlowers": "N/A",
+    "numBuds": "N/A",
+    "numInflorescences": "N/A",
+    "description": "Sixteen cut flowers of Paphiopedilum maudiae type recognized for consistent color and shape,\n   petal shape and stance, and pouch form; substance good; texture matte; \n   one grex had received an HCC (20183789) in 2018 and a second, in this AQ group, recieved an AM (20194836).",
+    "NS": "N/A",
+    "NSV": "N/A",
+    "DSW": "N/A",
+    "DSL": "N/A",
+    "PETW": "N/A",
+    "PETL": "N/A",
+    "LIPW": "N/A",
+    "LSW": "N/A",
+    "PCHW": "N/A",
+    "SYNSL": "N/A",
+    "SYNSW": "N/A"
+  },
+  "scrapedDate": "2025-10-15T02:42:38.948Z",
+  "sourceUrl": "https://www.paccentraljc.org/20191116/20194887.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2019/html/20194887.html",
+  "year": 2019,
+  "isDisplay": true,
+  "logicApplied": {
+    "timestamp": "2025-10-15T02:42:38.949Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "special"
+  }
+}

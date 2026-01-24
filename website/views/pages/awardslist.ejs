@@ -11,28 +11,37 @@
 
 <main>
   <div class="row">
-    <div class="col-sm-8">
-        <h1>2025 AOS Pacific Central Judging Awards</h1>
+    <div class="col-sm-8 text-center mx-auto">
+        <h1>AOS Pacific Central Judging Awards</h1>
       </div>
     </div>
   </div>
-  <div class = "row">
-    <div class = "col">
-      2025 Awards
+  
+  <% if (typeof error !== 'undefined') { %>
+    <div class="alert alert-danger" role="alert">
+      <%= error %>
     </div>
-  </div>
-  <div class = "row">
-    <div class = "col">
-      2024 Awards
+  <% } %>
+  
+  <% if (awardCounts && awardCounts.length > 0) { %>
+    <% awardCounts.reverse().forEach(function(yearData) { %>
+      <div class="row">
+        <div class="col">
+          <h6><%= yearData.year %> Awards (<%= yearData.count %> total)</h6>
+        </div>
+        <div class="col">
+          <p><a href="/awards/<%= yearData.year %>" class="btn btn-primary">View <%= yearData.year %> Awards</a></p>
+        </div>
+      </div>
+    <% }); %>
+  <% } else { %>
+    <div class="row">
+      <div class="col">
+        <p>No award data available at this time.</p>
+      </div>
     </div>
-  </div>
-  <div class = "row">
-    <div class = "col">
-      2023 Awards
-    </div>
-  </div>
+  <% } %>
 
-  </div>
 </main>
 
 <footer>
