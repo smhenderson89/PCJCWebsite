@@ -103,58 +103,6 @@ class AwardsController {
     }
   }
 
-  // API endpoint to get awards for a specific exhibitor
-  async getAwardsByExhibitor(req, res) {
-    const exhibitor = req.params.exhibitor;
-    
-    if (!exhibitor) {
-      return res.status(400).json({ 
-        success: false,
-        error: 'Exhibitor parameter required' 
-      });
-    }
-
-    try {
-      const awards = this.dbService.getAwardsByExhibitor(exhibitor);
-      const formattedAwards = MeasurementFormatter.formatAwardsArray(awards);
-      res.json({ success: true, data: formattedAwards });
-    } catch (error) {
-      console.error(`Error getting awards for exhibitor ${exhibitor}:`, error);
-      res.status(500).json({ 
-        success: false,
-        error: 'Unable to load awards for the specified exhibitor' 
-      });
-    }
-  }
-
-  // API endpoint to get list of exhibitors
-  async getExhibitorsList(req, res) {
-    try {
-      const exhibitors = this.dbService.getExhibitorsList();
-      res.json({ success: true, data: exhibitors });
-    } catch (error) {
-      console.error('Error getting exhibitors list:', error);
-      res.status(500).json({ 
-        success: false,
-        error: 'Unable to load exhibitors' 
-      });
-    }
-  }
-
-  // API endpoint to get award counts by exhibitor  
-  async getAwardCountsByExhibitor(req, res) {
-    try {
-      const counts = this.dbService.getAwardCountsByExhibitor();
-      res.json({ success: true, data: counts });
-    } catch (error) {
-      console.error('Error getting award counts by exhibitor:', error);
-      res.status(500).json({ 
-        success: false,
-        error: 'Unable to load award counts by exhibitor' 
-      });
-    }
-  }
-
   // Close database connection when done
   close() {
     this.dbService.close();
