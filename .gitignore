@@ -1,4 +1,8 @@
 node_modules
 
+# macOS system files
+.DS_Store
+**/.DS_Store
+
 # Ignore old scraped image directories (images now managed in database/images/)
 webScraper/copilot/localCopy/paccentraljc.org/awards/*/images/

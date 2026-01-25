@@ -43,4 +43,23 @@ router.get('/awards/:year', (req, res) => {
   }
 });
 
+// Counts of awards by day/event for a specific year
+router.get('/awards/:year/events', (req, res) => {
+  try {
+    const year = req.params.year;
+    const awardsByDay = dbService.getAwardsByDayForYear(year);
+    res.render('pages/awards-by-day', { 
+      title: `Awards by Day for ${year} - Pacific Central Judging Center`,
+      awardsByDay: awardsByDay,
+      year: year
+    });
+  } catch (error) {
+    console.error('Error getting awards by day for year:', error);
+    res.status(500).render('pages/error', { 
+      title: 'Error - Pacific Central Judging Center',
+      error: `Unable to load awards by day for ${req.params.year}`
+    });
+  }
+});
+
 module.exports = router;
