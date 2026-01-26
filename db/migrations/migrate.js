@@ -6,7 +6,7 @@
 const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
-const { initializeDatabase } = require('./schema');
+const { initializeDatabase } = require('../schema');
 
 // Paths
 const baseDataPath = path.join(__dirname, '../webScraper/copilot/localCopy/paccentraljc.org/awards');
