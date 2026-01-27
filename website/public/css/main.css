@@ -32,6 +32,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+#newAwardTypeInput {
+  width: 100%;
+}
+
 /* Variables must come first - use 'as *' to make them global */
 .footer {
   margin-top: 2rem;
