@@ -1,8 +1,16 @@
-/* utils */
-@use 'utils/mixins';
+/* Variables must come first - use 'as *' to make them global */
+@use 'base/variables' as *;
+@use 'utils/mixins' as *;
 
-/* base */
-@use 'base/variables';
+/* base styles that use the variables */
 @use 'base/reset';
+@use 'base/global';  
 @use 'base/typography';
-@use 'base/global';
+
+/* layout styles for pages and views */
+
+// pages
+@use 'pages/submit';
+
+// components
+@use 'components/footer';

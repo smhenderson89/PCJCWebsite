@@ -6,6 +6,15 @@ const router = express.Router();
 // Initialize admin services
 const adminService = new AdminServices();
 
+// Get list of previous award types
+router.get('/award-types', (req, res) => {
+  try {
+    const awardTypes = adminService.getAwardTypesList();
+  } catch (error) {
+    console.error('Error getting award types:', error);
+  }
+});
+
 // Rendering pages for admin panel 
 router.get('/submit', async (req, res) => {
     try {
@@ -28,15 +37,6 @@ router.get('/submit', async (req, res) => {
             error: 'Unable to load submit page'
         });
     }
-});
-
-// Get list of previous award types
-router.get('/award-types', (req, res) => {
-  try {
-    const awardTypes = adminService.getAwardTypesList();
-  } catch (error) {
-    console.error('Error getting award types:', error);
-  }
 });
 
 // TODO: Add in admin panel for entering in awards

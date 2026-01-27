@@ -1,18 +1,17 @@
-// body {
-//   background-color: $color-bg;
-// }
+@use 'variables' as *;
 
-// a {
-//   color: $color-primary;
-//   text-decoration: none;
 
-//   &:hover {
-//     text-decoration: underline;
-//   }
-// }
 
-// img {
-//   max-width: 100%;
-//   height: auto;
-//   display: block;
-// }
+a {
+  color: $color-primary;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

@@ -6,7 +6,7 @@ var app = express();
 app.set('view engine', 'ejs');
 
 // Static files FIRST (simplified and optimized)
-app.use(express.static(__dirname, { 
+app.use(express.static(path.join(__dirname, 'public'), { 
   maxAge: '1h',  // Cache static files for 1 hour
   etag: false    // Disable etag generation for better performance
 }));

@@ -1,8 +1,43 @@
-/* utils */
-/* base */
+/* Variables must come first - use 'as *' to make them global */
 /* Colors */
 /* Fonts */
+/* Text Sizes */
 /* Spacing */
 /* Breakpoints */
+/* */
+/* base styles that use the variables */
+/* Variables must come first - use 'as *' to make them global */
+a {
+  color: #1e3a8a;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Variables must come first - use 'as *' to make them global */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", system-ui, sans-serif;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+}
+
+/* layout styles for pages and views */
+#newExhibitorNameInput {
+  width: 100%;
+}
+
+/* Variables must come first - use 'as *' to make them global */
+.footer {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: #F9E9EC;
+  text-align: center;
+}
 
 /*# sourceMappingURL=main.css.map */

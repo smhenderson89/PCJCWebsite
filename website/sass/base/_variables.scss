@@ -4,9 +4,21 @@ $color-secondary: #f97316;
 $color-text: #111827;
 $color-bg: #ffffff;
 
+$site-blue: #1D2F6F;
+$site-light-blue: #8390FA;
+$site-yellow: #FAC748;
+$site-light-pink: #F9E9EC;
+$site-pink: #F88DAD;
+
 /* Fonts */
 $font-body: 'Inter', system-ui, sans-serif;
 $font-heading: 'Inter', system-ui, sans-serif;
+$font-heading: $font-body;
+
+/* Text Sizes */
+$font-size-sm: 1rem;
+$font-size-md: 1.125rem;
+$font-size-lg: 1.25rem;
 
 /* Spacing */
 $space-xs: 0.25rem;
@@ -18,3 +30,5 @@ $space-lg: 2rem;
 $bp-sm: 640px;
 $bp-md: 768px;
 $bp-lg: 1024px;
+
+/* */
