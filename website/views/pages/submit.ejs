@@ -37,10 +37,27 @@
             </div>
         </div>
         <div class = "row mb-3">
-            
+            <div class = "col">
+                <label for="awardSelect">Award Type (AM, HCC, CEE, etc)</label>
+                <select class = "awardSelect" name="awardSelect" id="awardSelect">
+                <option value="" disabled selected>Select Award</option>
+            </select>
+            </div>
         </div>
 
         <div class = "row">
+            <div class = "col-3">
+                <div class = "form-check">
+                    <input class = "form-check-input" type="checkbox" value="" id="newAwardTypeCheck">
+                    <label class = "form-check-label" for="newAwardTypeCheck">New Award Type?</label>
+                </div>
+            </div>
+            <div class = "col-3">
+                <label for="newAwardTypeInput">Award Type:</label>
+            </div>
+            <div class = "col-6">
+                <input type="text" id="newAwardTypeInput" name="newAwardType">
+            </div>
 
         </div>
 

@@ -1,1 +1,1 @@
-file for Admin DB
+file for Admin DB, will need to hash passwords, use bcrypt
