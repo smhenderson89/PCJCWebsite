@@ -1,6 +1,6 @@
 // Awards page routes - EJS templates
 const express = require('express');
-const DatabaseService = require('../../services/DatabaseService');
+const DatabaseService = require('../../services/AwardServices');
 const router = express.Router();
 
 // Initialize database service
@@ -29,8 +29,7 @@ router.get('/awards/:year', (req, res) => {
   try {
     const year = req.params.year;
     const awards = dbService.getAwardsByYear(year);
-    res.render('pages/awards-year', { 
-      title: `${year} Awards - Pacific Central Judging Center`,
+    res.render('pages/awardsYear', { 
       awards: awards,
       year: year
     });
@@ -48,7 +47,7 @@ router.get('/awards/:year/events', (req, res) => {
   try {
     const year = req.params.year;
     const awardsByDay = dbService.getAwardsByDayForYear(year);
-    res.render('pages/awards-by-day', { 
+    res.render('pages/awardsByDay', { 
       title: `Awards by Day for ${year} - Pacific Central Judging Center`,
       awardsByDay: awardsByDay,
       year: year
@@ -61,5 +60,6 @@ router.get('/awards/:year/events', (req, res) => {
     });
   }
 });
+
 
 module.exports = router;

@@ -24,11 +24,6 @@ router.get('/calendar', (req, res) => {
   });
 });
 
-// Submit page
-router.get('/submit', (req, res) => {
-  res.render('pages/submit', { 
-    title: 'Submit Award - Pacific Central Judging Center' 
-  });
-});
+
 
 module.exports = router;

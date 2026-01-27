@@ -1,6 +1,6 @@
 /* Controllers are for handling HTTP requests and responses */
 
-const DatabaseService = require('../services/DatabaseService');
+const DatabaseService = require('../services/AwardServices');
 const MeasurementFormatter = require('../services/MeasurementFormatter');
 
 class AwardsController {
@@ -18,6 +18,27 @@ class AwardsController {
       res.status(500).json({ 
         success: false,
         error: 'Unable to load awards' 
+      });
+    }
+  }
+
+  // API endpoint to get awards counts by event(day) for a specific year
+  async groupAwardsByDayForYear(req, res) {
+    const year = parseInt(req.params.year, 10);
+    if (isNaN(year)) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Invalid year parameter' 
+      });
+    }
+    try {
+      const awards = this.dbService.getAwardsCountsByDayForYear(year);
+      res.json({ success: true, data: awards });
+    } catch (error) {
+      console.error(`Error getting awards for year ${year}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load awards for the specified year' 
       });
     }
   }

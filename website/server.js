@@ -57,6 +57,7 @@ const routes = require('./src/routes/index');
 app.use('/', routes.awards.api);     // Awards API routes
 app.use('/', routes.admin.api);      // Admin API routes
 app.use('/', routes.awards.pages);   // Awards page routes  
+app.use('/', routes.admin.pages);    // Admin page routes
 app.use('/', routes.general.pages);  // General/static page routes
 
 // Basic homepage route (temporary)

@@ -44,9 +44,35 @@ class AdminServices {
     return stmt.all(exhibitor);
   }
 
+  // Get list of award types
+    getAwardTypesList() {
+        const stmt = this.db.prepare(`SELECT DISTINCT award FROM awards ORDER BY award ASC`);
+        const results = stmt.all();
+        return results.map(row => row.award);
+    }
+
   // Close database connection
   close() {
     this.db.close();
+  }
+
+  // Get all data needed for submit form in one call
+  getSubmitFormData() {
+    try {
+      const exhibitors = this.getExhibitorsList();
+      const awardTypes = this.getAwardTypesList();
+      const awardCounts = this.getAwardCountsByExhibitor();
+      
+      return {
+        exhibitors,
+        awardTypes, 
+        awardCounts,
+        // Add any other data the submit form needs
+      };
+    } catch (error) {
+      console.error('Error getting submit form data:', error);
+      throw error;
+    }
   }
 }
 

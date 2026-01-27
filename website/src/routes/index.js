@@ -3,6 +3,7 @@ const generalRoutes = require('./general');
 const awardsPages = require('./awards');  // Awards page routes
 const awardsApi = require('./awards/api'); // Awards API routes
 const adminApi = require('./admin/api'); // Admin API routes
+const adminPages = require('./admin'); // Admin page routes
 
 module.exports = {
   general: generalRoutes,
@@ -11,6 +12,7 @@ module.exports = {
     api: awardsApi
   },
   admin: {
-    api: adminApi
+    api: adminApi,
+    pages: adminPages
   }
 };

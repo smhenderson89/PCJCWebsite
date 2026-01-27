@@ -56,6 +56,48 @@ class AdminController {
       });
     }
   }
+
+  // API endpoint to get award types list  
+  async getAwardTypesList(req, res) {
+    try {
+      const awardTypes = this.adminService.getAwardTypesList();
+      res.json({ success: true, data: awardTypes });
+    } catch (error) {
+      console.error('Error getting award types list:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load award types list' 
+      });
+    }
+  }
+  
+  // Combined API endpoint using existing methods with Promise.all
+  async getPrepareSubmitData(req, res) {
+    try {
+      // Use Promise.all to fetch both data sources simultaneously
+      const [exhibitorsResult, awardTypesResult] = await Promise.all([
+        // Wrap sync calls in Promise.resolve for consistency
+        Promise.resolve(this.adminService.getExhibitorsList()),
+        Promise.resolve(this.adminService.getAwardTypesList())
+      ]);
+
+      // Return combined data structure
+      res.json({ 
+        success: true, 
+        data: {
+          exhibitors: exhibitorsResult,
+          awardTypes: awardTypesResult,
+          loadedAt: new Date().toISOString()
+        }
+      });
+    } catch (error) {
+      console.error('Error getting combined submit data:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load submit form data' 
+      });
+    }
+  }
 }
 
 module.exports = AdminController;   

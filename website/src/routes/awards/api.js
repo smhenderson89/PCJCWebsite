@@ -16,7 +16,7 @@ router.get('/api/awards-count', awardsController.getAwardCounts.bind(awardsContr
 router.get('/api/awards/:year', awardsController.getAwardsByYear.bind(awardsController));
 
 // Awards counts per Judging Day for a specific year
-router.get('/api/awards/:year/events', awardsController.getAwardsByDayForYear.bind(awardsController));
+router.get('/api/awards/:year/:date', awardsController.getAwardsByDayForYear.bind(awardsController));
 
 // Awards grouped by day
 router.get('/api/awards-by-day', awardsController.getAwardsByDay.bind(awardsController));
