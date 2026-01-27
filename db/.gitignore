@@ -79,10 +79,11 @@ jspm_packages/
 
 # dotenv environment variables file
 .env
+.env.local
+.env.production
 secrets.json
+*.db-journal
 
-# next.js build output
-.next
 
 # Lerna
 lerna-debug.log
