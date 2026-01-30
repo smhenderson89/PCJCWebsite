@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245288",
+  "genus": "Cattleya",
+  "species": "praestans",
+  "clone": "Solana",
+  "cross": "species",
+  "award": "HCC",
+  "awardpoints": 79,
+  "exhibitor": "Geoff Harris",
+  "photographer": "Chaunie Langland",
+  "date": "June 15, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/240615/20245288.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 10,
+    "NSV": 9.5,
+    "DSW": 1.9,
+    "DSL": 5.6,
+    "PETW": 4,
+    "PETL": 5,
+    "LSW": 1.8,
+    "LSL": 5.4,
+    "LIPW": 2.6,
+    "LIPL": 5,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "One flower on one 2.7-cm inflorescence; dorsal sepal and petals slightly reflexed, sepals and petals bold purple; lip closed and crossed over column, dark magenta, vibrant magenta apically; substance medium; texture crystalline."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.819Z",
+  "photo": "20245288.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.821Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

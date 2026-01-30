@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245286",
+  "genus": "Stanhopea",
+  "species": "reichenbachiana",
+  "clone": "Grand Traverse",
+  "cross": "species",
+  "award": "AM",
+  "awardpoints": 81,
+  "exhibitor": "James Heilig",
+  "photographer": "Chaunie Langland",
+  "date": "June 15, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/240615/20245286.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 10,
+    "NSV": 9.1,
+    "DSW": 4.5,
+    "DSL": 8,
+    "PETW": 2.8,
+    "PETL": 6.3,
+    "LSW": 5.5,
+    "LSL": 7.3,
+    "LIPW": 3,
+    "LIPL": 6.8,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Four flowers on two up to 26-cm inflorescences, two immature inflorescences, one capsule on one inflorescence; sepals transluscent ivory; petals reflexed translucent ivory; hypochile bright white, fine burgundy spots; column light green, wings ivory, anther cap light yellow; substance firm; texture matte, hypochile and column waxy; noted floral fragrance."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.798Z",
+  "photo": "20245286.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.808Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

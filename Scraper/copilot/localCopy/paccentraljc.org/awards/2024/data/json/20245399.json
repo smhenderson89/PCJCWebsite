@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245399",
+  "genus": "Phalaenopsis",
+  "species": "Fangmei Golden Topaz",
+  "clone": "Topaz Crystal",
+  "cross": "Phalaenopsis Lioulin Topaz x Phalaenopsis Jiuhbao Golden Diamond",
+  "award": "AM",
+  "awardpoints": 83,
+  "exhibitor": "Fangmei Orchids",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245399.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 10,
+    "NSV": 10.1,
+    "DSW": 3.1,
+    "DSL": 5.3,
+    "PETW": 5.9,
+    "PETL": 5.1,
+    "LSW": 3,
+    "LSL": 4.7,
+    "LIPW": 5.3,
+    "LIPL": 4.7,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Nine flowers and four buds on one 81-cm arching inflorescence; sepals and petals lemon ice, white proximally; lip open, tri-lobed, light lemon ice, white picotee, callus light lemon ice; anther cap white; substance firm; texture crystalline."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.978Z",
+  "photo": "20245399.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.979Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245398",
+  "genus": "Phalaenopsis",
+  "species": "Fangmei Pink Pearl",
+  "clone": "Cheng-Mei",
+  "cross": "Phalaenopsis Jiuhbao Diana x Phalaenopsis Chian Xen Piano",
+  "award": "AM",
+  "awardpoints": 82,
+  "exhibitor": "Fangmei Orchids",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245398.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 10.3,
+    "NSV": 8.5,
+    "DSW": 4.1,
+    "DSL": 5,
+    "PETW": 6,
+    "PETL": 4.9,
+    "LSW": 3.4,
+    "LSL": 5.2,
+    "LIPW": 2.4,
+    "LIPL": 3.2,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Ten Harlequin flowers on one 75-cm arching inflorescence; sepals white overlaid rose-pink two-thirds proximally, veined darker, intense burgundy picotee; petals rose-pink, veined darker, white tips, burgundy edges, random white-edged fine burgundy spots, more proximally and lower one-third; lip white overlaid burgundy speckles and stripes at base, lobes light burgundy, callus white overlaid yellow and burgundy spots distally; anther cap white; substance medium; texture crystalline."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.975Z",
+  "photo": "20245398.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.976Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

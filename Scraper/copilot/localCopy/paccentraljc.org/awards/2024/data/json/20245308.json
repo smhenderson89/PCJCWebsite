@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245308",
+  "genus": "Stelis",
+  "species": "megachlamys",
+  "clone": "Gracie",
+  "cross": "species",
+  "award": "CCE",
+  "awardpoints": 94,
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "date": "December 21, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/241221/20245308.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 0.3,
+    "NSV": 1.4,
+    "DSW": 0.3,
+    "DSL": 1.5,
+    "PETW": 0.4,
+    "PETL": 0.7,
+    "LSW": 0.3,
+    "LSL": 1.9,
+    "LIPW": 0.2,
+    "LIPL": 0.7,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Approximately one thousand four hundred fifty flowers and 62 buds held well above the foliage on 68 mature and four immature up-to 36-cm inflorescences emerging from papery tan bracts; immaculately grown plant 83 cm wide, 59 cm tall, in bark in a 20-cm bulb pan; sepals and petals light chartreuse overlaid burgundy proximally, burgundy stripes, sepals forward, petals porrect; lip light chartreuse heavily overlaid burgundy; substance medium; texture matte."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.901Z",
+  "photo": "20245308.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.902Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

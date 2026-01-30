@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245287",
+  "genus": "Ansellia",
+  "species": "africana",
+  "clone": "Chocolate Fondue",
+  "cross": "species",
+  "award": "HCC",
+  "awardpoints": 79,
+  "exhibitor": "Catherine Obillo",
+  "photographer": "Chaunie Langland",
+  "date": "June 15, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/240615/20245287.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 5,
+    "NSV": 4.2,
+    "DSW": 1.2,
+    "DSL": 2.8,
+    "PETW": 1.2,
+    "PETL": 2.6,
+    "LSW": 1.1,
+    "LSL": 2.5,
+    "LIPW": 1,
+    "LIPL": 2.2,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Eighteen flowers and four buds on one branched 38-cm inflorescence; sepals and petals chartreuse boldly blotched burgundy; lip chartreuse, side lobes light cordovan, mid lobe brilliant yellow, keels prominent, brilliant yellow spotted burgundy; column chartreuse spotted burgundy, anther cap bright yellow; substance firm; texture satin."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.813Z",
+  "photo": "20245287.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.815Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "awardNum": "20245397",
+  "genus": "Paphiopedilum",
+  "species": "Doya Red Rose",
+  "clone": "Shih Yueh #2",
+  "cross": "Paphiopedilum Chou-Yi Charles x Paphiopedilum Impulse",
+  "award": "FCC",
+  "awardpoints": 90,
+  "exhibitor": "Shi, Ming-Zhang",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245397.html",
+  "measurements": {
+    "type": "Pouch&SynselPal",
+    "NS": 13,
+    "NSV": 9.7,
+    "DSW": 7.9,
+    "DSL": 6.5,
+    "PETW": 2.6,
+    "PETL": 6.8,
+    "LSW": 0,
+    "LSL": 0,
+    "LIPW": 0,
+    "LIPL": 0,
+    "PCHW": 3.3,
+    "SYNSL": 5,
+    "SYNSW": 4.3,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "One exceptional, large flat flower on one 20-cm black, hirsute inflorescence; sepals intensely saturated deep burgundy, dorsal sepal extremely flat; petals deep burgundy, black hirsute edges; lip intense burgundy; staminode pink; substance very firm; texture glossy.",
+    "PCHL": 5.6
+  },
+  "scrapedDate": "2026-01-30T20:06:57.972Z",
+  "photo": "20245397.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.973Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

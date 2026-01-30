@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245297",
+  "genus": "Dendrobium",
+  "species": "Aussie's Hi-Lo",
+  "clone": "Pacifica",
+  "cross": "Dendrobium cuthbertsonii x Dendrobium laevifolium",
+  "award": "AM",
+  "awardpoints": 84,
+  "exhibitor": "Catherine Obillo",
+  "photographer": "Chaunie Langland",
+  "date": "August 17, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/240817/20245297.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 2.9,
+    "NSV": 3.1,
+    "DSW": 1.3,
+    "DSL": 2.4,
+    "PETW": 1.6,
+    "PETL": 2.6,
+    "LSW": 1.4,
+    "LSL": 2.6,
+    "LIPW": 0.9,
+    "LIPL": 2.3,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Five full red flowers and three buds on five up to .5-cm inflorescences; sepals obtuse; petals spatulate; lip cymbiform, gold picotee, brown marks apically; substance firm; texture waxy."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.862Z",
+  "photo": "20245297.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.863Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

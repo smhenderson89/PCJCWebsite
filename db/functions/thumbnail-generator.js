@@ -49,6 +49,38 @@ class ThumbnailGenerator {
   }
 
   /**
+   * Get all awards from 2024 for processing (excluding low-quality thumbs)
+   */
+  getAllAwards2024() {
+    const stmt = this.db.prepare(`
+      SELECT awardNum, photo 
+      FROM awards 
+      WHERE year = 2024 
+      AND photo IS NOT NULL 
+      AND photo != ''
+      AND photo NOT LIKE '%thumb.jpg%'
+      ORDER BY awardNum ASC
+    `);
+    return stmt.all();
+  }
+
+  /**
+   * Get all awards from specified year for processing (excluding low-quality thumbs)
+   */
+  getAllAwardsByYear(year) {
+    const stmt = this.db.prepare(`
+      SELECT awardNum, photo 
+      FROM awards 
+      WHERE year = ? 
+      AND photo IS NOT NULL 
+      AND photo != ''
+      AND photo NOT LIKE '%thumb.jpg%'
+      ORDER BY awardNum ASC
+    `);
+    return stmt.all(year);
+  }
+
+  /**
    * Check if original image file exists
    */
   async imageExists(photoPath) {
@@ -374,9 +406,9 @@ class ThumbnailGenerator {
       console.log('🎯 Target: 15-30KB per thumbnail');
       console.log('🚫 Excluding low-quality thumb.jpg files\n');
 
-      // Get all 2025 awards (excluding thumb.jpg files)
-      const awards = this.getAllAwards2025();
-      console.log(`📋 Found ${awards.length} awards from 2025 to process\n`);
+      // Get all 2024 awards (excluding thumb.jpg files)
+      const awards = this.getAllAwards2024();
+      console.log(`📋 Found ${awards.length} awards from 2024 to process\n`);
 
       // Process each award with progress tracking
       const results = [];

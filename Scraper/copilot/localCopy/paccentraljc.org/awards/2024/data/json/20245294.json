@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245294",
+  "genus": "Aerangis",
+  "species": "Pionier",
+  "clone": "Lenawee",
+  "cross": "Aerangis mystacidii x Aerangis kotschyana",
+  "award": "HCC",
+  "awardpoints": 77,
+  "exhibitor": "Jim Heilig",
+  "photographer": "Chaunie Langland",
+  "date": "August 17, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/240817/20245294.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 4.2,
+    "NSV": 4.1,
+    "DSW": 0.9,
+    "DSL": 2.2,
+    "PETW": 0.6,
+    "PETL": 2.2,
+    "LSW": 0.5,
+    "LSL": 2.3,
+    "LIPW": 0.9,
+    "LIPL": 2,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Ten flowers and two buds on one 38-cm pendent inflorescence, ten buds on an immature inflorescence; sepals and petals lanceolate, creamy white, pale salmon basally, sepals recurved, tipped pale salmon, petals retrorse; lip creamy white, salmon basally, nectary 15.2 cm, pale salmon ; substance firm; texture diamond dust."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.848Z",
+  "photo": "20245294.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.850Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

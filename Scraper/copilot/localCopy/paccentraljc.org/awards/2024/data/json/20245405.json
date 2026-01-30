@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245405",
+  "genus": "Dendrobium",
+  "species": "Dianbao Rose",
+  "clone": "Red Jade",
+  "cross": "Dendrobium Cleopatra x Dendrobium Burana Pearl",
+  "award": "AM",
+  "awardpoints": 85,
+  "exhibitor": "Wu, San-Xian",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245405.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 8,
+    "NSV": 6.8,
+    "DSW": 2.4,
+    "DSL": 4,
+    "PETW": 4.5,
+    "PETL": 4.8,
+    "LSW": 2.3,
+    "LSL": 4.5,
+    "LIPW": 2,
+    "LIPL": 3.1,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Thirty-six brilliantly feathered flowers on three inflorescences up to 35 cm; sepals ovate-acuminate, white brushed fuchsia purple; petals broadly rhomboid, white overlaid and brushed fuchsia purple; lip white overlaid fuchsia purple, keels feathered; column white, anther cap white; substance firm; texture crystalline."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.997Z",
+  "photo": "20245405.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.998Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

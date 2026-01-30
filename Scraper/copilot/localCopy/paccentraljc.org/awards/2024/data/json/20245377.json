@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245377",
+  "genus": "Cattleya",
+  "species": "Pink Lady",
+  "clone": "Hihimanu",
+  "cross": "Cattleya Irene Finney (1964) x Cattleya sincorana",
+  "award": "HCC",
+  "awardpoints": 78,
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "date": "June 5, 2024",
+  "location": "Santa Clara Valley OS Outreach Judging",
+  "sourceUrl": "https://paccentraljc.org/240605/20245377.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 14.3,
+    "NSV": 14.6,
+    "DSW": 2.8,
+    "DSL": 8,
+    "PETW": 5.6,
+    "PETL": 7.2,
+    "LSW": 2.6,
+    "LSL": 7.3,
+    "LIPW": 5.4,
+    "LIPL": 5.5,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Two full flat flowers on one staked 8.5-cm inflorescence; sepals and petals pink-lavender, petals margins ruffled; lip closed over column, ruffled margin, pink-lavender, dark magenta distally, picotee, yellow throat, magenta veins; column white, anther cap white; substance medium; texture matte, lip velvety."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.907Z",
+  "photo": "20245377.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.908Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

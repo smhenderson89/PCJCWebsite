@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245387",
+  "genus": "Rhyncattleanthe",
+  "species": "Charming Water Beauty",
+  "clone": "Tzeng",
+  "cross": "Rhyncattleanthe Village Chief Beauty x Rhyncholaeliocattleya Shinfong Vivid",
+  "award": "FCC",
+  "awardpoints": 90,
+  "exhibitor": "Zeng, Bo-Qin",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245387.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 14.2,
+    "NSV": 16.5,
+    "DSW": 4.1,
+    "DSL": 9,
+    "PETW": 7.7,
+    "PETL": 8,
+    "LSW": 4.2,
+    "LSL": 8.7,
+    "LIPW": 7.8,
+    "LIPL": 8.2,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Two large, intensely colored wide, open, flat and fragrant flowers on one 12-cm inflorescence; sepals broadly lineate, saturated plum-purple; petals overlapping, rhomboid, heavily ruffled margins, plum-purple; lip open, showing column, flaring dark velvet purple, subtle orange eyes, beautifully crisped at margin; column purple; substance firm; texture velvety."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.939Z",
+  "photo": "20245387.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.939Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

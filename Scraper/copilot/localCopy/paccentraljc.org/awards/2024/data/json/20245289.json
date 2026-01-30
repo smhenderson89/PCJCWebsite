@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245289",
+  "genus": "Polystachya",
+  "species": "dendrobiiflora",
+  "clone": "Lee Jorgensen",
+  "cross": "species",
+  "award": "AM",
+  "awardpoints": 83,
+  "exhibitor": "Chaunie Langland",
+  "photographer": "Chaunie Langland",
+  "date": "June 15, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/240615/20245289.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 1.5,
+    "NSV": 1.5,
+    "DSW": 0.4,
+    "DSL": 0.7,
+    "PETW": 0.4,
+    "PETL": 0.8,
+    "LSW": 0.4,
+    "LSL": 1,
+    "LIPW": 0.5,
+    "LIPL": 0.7,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Thirty-two flowers and 29 buds on three up to 41-cm inflorescences with short branches; sepals and petals white flushed pale pink, finely spotted darker pink apical third, more so on petals; lip pale pink, bold yellow keels, random blotches dark pink centrally; column and anther cap light pink; substance light; texture matte."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.824Z",
+  "photo": "20245289.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.825Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245380",
+  "genus": "Aerangis",
+  "species": "Tavangumi",
+  "clone": "Antrim",
+  "cross": "Aerangis spiculata x Aerangis Elro",
+  "award": "AM",
+  "awardpoints": 80,
+  "exhibitor": "Jim Heilig",
+  "photographer": "Ken Jacobsen",
+  "date": "July 2, 2024",
+  "location": "San Francisco",
+  "sourceUrl": "https://paccentraljc.org/240702/20245380.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 6.2,
+    "NSV": 5.3,
+    "DSW": 0.9,
+    "DSL": 2.8,
+    "PETW": 0.8,
+    "PETL": 3.4,
+    "LSW": 1,
+    "LSL": 3.2,
+    "LIPW": 1.5,
+    "LIPL": 3,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Fourteen flowers and 12 buds on one 79-cm inflorescence; dorsal sepal hooded, pristine white; lateral sepals twisted, pristine white; petals reflexed, pristine white; lip spade shaped, pristine white; column white, anther cap white; substance firm; texture slightly waxy."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.916Z",
+  "photo": "20245380.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.917Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245295",
+  "genus": "Lycaste",
+  "species": "deppei",
+  "clone": "Cath",
+  "cross": "species",
+  "award": "HCC",
+  "awardpoints": 79,
+  "exhibitor": "Catherine Obillo",
+  "photographer": "Chaunie Langland",
+  "date": "August 17, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/240817/20245295.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 10.9,
+    "NSV": 10,
+    "DSW": 2.9,
+    "DSL": 6,
+    "PETW": 2.7,
+    "PETL": 4,
+    "LSW": 3.1,
+    "LSL": 6,
+    "LIPW": 1.4,
+    "LIPL": 3.4,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Five fairly flat flowers and one bud on six upright 14-cm inflorescences; sepals pubescent basally, recurved apically, chartreuse, stippled light burgundy distal half; petals porrect, overlapping, recurved apically, white; lip cymbiform, recurved apically, bright yellow spotted burgundy, callus yellow; substance firm; texture silky-matte."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.854Z",
+  "photo": "20245295.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.855Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

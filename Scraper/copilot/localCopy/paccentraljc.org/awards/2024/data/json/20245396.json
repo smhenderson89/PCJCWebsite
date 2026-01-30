@@ -1,0 +1,42 @@
+{
+  "awardNum": "20245396",
+  "genus": "Paphiopedilum",
+  "species": "Duncan Ross",
+  "clone": "Shih Yueh #3",
+  "cross": "Paphiopedilum Red Shift x Paphiopedilum charlesworthii",
+  "award": "AM",
+  "awardpoints": 84,
+  "exhibitor": "Shi, Ming-Zhang",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245396.html",
+  "measurements": {
+    "type": "Pouch&SynselPal",
+    "NS": 10.9,
+    "NSV": 10.5,
+    "DSW": 8.2,
+    "DSL": 5.6,
+    "PETW": 2.5,
+    "PETL": 6.4,
+    "LSW": 0,
+    "LSL": 0,
+    "LIPW": 0,
+    "LIPL": 0,
+    "PCHW": 3.2,
+    "SYNSL": 4.9,
+    "SYNSW": 3.1,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "One extremely dark flower on one 21-cm inflorescence; dorsal sepal large, rounded, and oblong, slightly reflexed, dark burgundy; synsepal ovate acuminate, translucent burgundy; petals broadly lanceolate, ciliate at margin, dark burgundy; pouch intense burgundy; staminode white suffused burgundy, small green central node; substance firm; texture glossy.",
+    "PCHL": 5.8
+  },
+  "scrapedDate": "2026-01-30T20:06:57.968Z",
+  "photo": "20245396.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.969Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

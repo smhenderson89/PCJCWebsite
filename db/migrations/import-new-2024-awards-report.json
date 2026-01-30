@@ -1,0 +1,23 @@
+{
+  "importDate": "2026-01-30T20:45:15.164Z",
+  "sourcePath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/scraper/copilot/localCopy/paccentraljc.org/awards/2024/data/json",
+  "databasePath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/db/orchid_awards.sqlite",
+  "awardRanges": [
+    {
+      "start": 20245286,
+      "end": 20245310
+    },
+    {
+      "start": 20245350,
+      "end": 20245405
+    }
+  ],
+  "results": {
+    "imported": 53,
+    "existingAwards": 27,
+    "skipped": 0,
+    "errors": 0,
+    "totalProcessed": 80,
+    "finalDatabaseCount": 116
+  }
+}

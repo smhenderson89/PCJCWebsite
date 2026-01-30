@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245299",
+  "genus": "Aerangis",
+  "species": "luteoalba v. rhodosticta",
+  "clone": "Arenac",
+  "cross": "species",
+  "award": "AM",
+  "awardpoints": 84,
+  "exhibitor": "Jim Heilig",
+  "photographer": "Chaunie Langland",
+  "date": "September 21, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/240921/20245299.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 3.9,
+    "NSV": 4.5,
+    "DSW": 0.9,
+    "DSL": 1.8,
+    "PETW": 1,
+    "PETL": 1.9,
+    "LSW": 0.8,
+    "LSL": 1.9,
+    "LIPW": 1.4,
+    "LIPL": 2.2,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "One hundred eight flowers and 22 buds well-displayerd on nine up to 34-cm pendent, gracefully arching inflorescences; flowers cream; sepals and petals ovate, slightly recurved; lip spatulate; column dark orange; substance light; texture satiny."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.872Z",
+  "photo": "20245299.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.873Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

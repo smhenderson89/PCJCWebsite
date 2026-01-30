@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245296",
+  "genus": "Dendrobium",
+  "species": "cuthbertsonii",
+  "clone": "Sweetie Pie",
+  "cross": "N/A",
+  "award": "FCC",
+  "awardpoints": 91,
+  "exhibitor": "Catherine Obillo",
+  "photographer": "Chaunie Langland",
+  "date": "August 17, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/240817/20245296.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 3.9,
+    "NSV": 3.8,
+    "DSW": 1.6,
+    "DSL": 2.3,
+    "PETW": 1.7,
+    "PETL": 2.7,
+    "LSW": 2.1,
+    "LSL": 4.1,
+    "LIPW": 0.8,
+    "LIPL": 3.9,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Seven exceptionally full, round flowers and two buds on nine up to .5-cm inflorescences; sepals obtuse, deep orange, lighter apically; petals spatulate, orange, deep orange basally; lip cymbiform, orange, 0.2-cm brown-red picotee; column orange; substance firm; texture waxy."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.858Z",
+  "photo": "20245296.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.859Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

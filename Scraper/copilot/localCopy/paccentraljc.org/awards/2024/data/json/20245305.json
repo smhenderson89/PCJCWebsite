@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245305",
+  "genus": "Dendrobium",
+  "species": "cuthbertsonii",
+  "clone": "Pacifica",
+  "cross": "species",
+  "award": "HCC",
+  "awardpoints": 77,
+  "exhibitor": "Catherine Obillo",
+  "photographer": "Chaunie Langland",
+  "date": "December 21, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/241221/20245305.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 3.4,
+    "NSV": 3.6,
+    "DSW": 1.1,
+    "DSL": 2.1,
+    "PETW": 2.3,
+    "PETL": 2,
+    "LSW": 1.5,
+    "LSL": 2.1,
+    "LIPW": 0.6,
+    "LIPL": 2.1,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Five non-resupinate flowers on five 4.0-cm inflorescences; flowers pale chartreuse; sepals ovate; petals spatulate; lip cymbiform, orange spots on distal margin, spur 1.4 cm; column and anther cap cream; substance firm; texture crystalline."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.890Z",
+  "photo": "20245305.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.892Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

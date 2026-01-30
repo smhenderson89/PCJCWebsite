@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245293",
+  "genus": "Cymbidium",
+  "species": "ensifolium",
+  "clone": "B-R8",
+  "cross": "species",
+  "award": "HCC",
+  "awardpoints": 78,
+  "exhibitor": "Mary Bui-Pham",
+  "photographer": "Chaunie Langland",
+  "date": "August 17, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/240817/20245293.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 4.3,
+    "NSV": 4.7,
+    "DSW": 1,
+    "DSL": 2.9,
+    "PETW": 1.3,
+    "PETL": 2.1,
+    "LSW": 0.8,
+    "LSL": 2.6,
+    "LIPW": 1.3,
+    "LIPL": 1.5,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Nine flowers on two 25-cm inflorescences; sepals ensiform, light green, darker green central vein; petals ensiform, porrect, green-yellow; lip cream overlaid light yellow-green; column light yellow-green, anther cap light yellow; substance firm; texture waxy; highly fragrant."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.844Z",
+  "photo": "20245293.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.845Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

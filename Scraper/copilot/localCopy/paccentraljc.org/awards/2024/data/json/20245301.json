@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245301",
+  "genus": "Cattleya",
+  "species": "pumila",
+  "clone": "Fred",
+  "cross": "species",
+  "award": "CCM",
+  "awardpoints": 86,
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "date": "November 16, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/241116/20245301.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 9,
+    "NSV": 9,
+    "DSW": 2.3,
+    "DSL": 5,
+    "PETW": 4,
+    "PETL": 5,
+    "LSW": 2,
+    "LSL": 5,
+    "LIPW": 2.4,
+    "LIPL": 4.9,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Sixteen well-displayed, slightly cupped flowers on 16 up-to 11-cm inflorescences; plant 47 cm x 18 cm, grown in bark in a 20-cm plastic bulb pan; dorsal sepal upright to reflexed, intense fuchsia, white tips; lateral sepals tending toward porrect, intense fuchsia, white tips; petals full, ovate, slight ruffled margins, intense fuchsia; lip tubular, margin ruffled, intense violet distally, light spot center edge, throat light yellow; column pale green; substance moderate; texture crystalline."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.878Z",
+  "photo": "20245301.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.879Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "awardNum": "20245390",
+  "genus": "Paphiopedilum",
+  "species": "Hilo Citron",
+  "clone": "Alian Ho",
+  "cross": "Paphiopedilum Hsinying Citron x Paphiopedilum Alma Gevaert",
+  "award": "AM",
+  "awardpoints": 88,
+  "exhibitor": "He, De-Min",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245390.html",
+  "measurements": {
+    "type": "Pouch&SynselPal",
+    "NS": 12.5,
+    "NSV": 12.3,
+    "DSW": 9.2,
+    "DSL": 6.7,
+    "PETW": 2.5,
+    "PETL": 8.1,
+    "LSW": 0,
+    "LSL": 0,
+    "LIPW": 0,
+    "LIPL": 0,
+    "PCHW": 4.3,
+    "SYNSL": 4.7,
+    "SYNSW": 1.8,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "One large, full, flat flower on one tall 31-cm erect inflorescence; sepals white, bold green striping; petals white, intense concentrated green striping and a few spots; pouch lime green; staminode lime green, intense emerald markings centrally; substance firm; texture matte.",
+    "PCHL": 7.8
+  },
+  "scrapedDate": "2026-01-30T20:06:57.947Z",
+  "photo": "20245390.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.947Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

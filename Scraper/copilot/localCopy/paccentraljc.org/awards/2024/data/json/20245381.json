@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245381",
+  "genus": "Stanhopea",
+  "species": "Bird of Prey",
+  "clone": "Poppers",
+  "cross": "Stanhopea jenischiana x Stanhopea nigroviolacea",
+  "award": "AM",
+  "awardpoints": 85,
+  "exhibitor": "Jim Heilig",
+  "photographer": "Ken Jacobsen",
+  "date": "July 2, 2024",
+  "location": "San Francisco",
+  "sourceUrl": "https://paccentraljc.org/240702/20245381.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 12.5,
+    "NSV": 12.5,
+    "DSW": 3,
+    "DSL": 7.8,
+    "PETW": 2.2,
+    "PETL": 7.5,
+    "LSW": 5.6,
+    "LSL": 8.2,
+    "LIPW": 4.4,
+    "LIPL": 7.2,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Five flowers on one 18-cm pendent inflorescence and one immature inflorescence; sepals flat, rich yellow heavialy spotted cordovan; petals completely reflexed, rich yellow heavily spotted cordovan; hypochile rich yellow marked dark cordovan, 2.9 cm x 4.0 cm, epichile, 3.3 cm x 3.8 cm, and horns translucent ivory spotted cordovan; column green spotted cordovan, wings ivory spotted cordovan; anther cap yellow; substance very firm; texture matte, lip glossy."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.919Z",
+  "photo": "20245381.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.920Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

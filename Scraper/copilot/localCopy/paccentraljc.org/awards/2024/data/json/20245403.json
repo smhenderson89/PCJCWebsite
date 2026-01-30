@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245403",
+  "genus": "Dendrobium",
+  "species": "Burana Pink",
+  "clone": "Yuan Zhao",
+  "cross": "Dendrobium Daflo x Dendrobium Burana White",
+  "award": "FCC",
+  "awardpoints": 90,
+  "exhibitor": "Ganesh Orchid Garden",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245403.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 6.8,
+    "NSV": 5.8,
+    "DSW": 1.8,
+    "DSL": 3.1,
+    "PETW": 3.3,
+    "PETL": 4.1,
+    "LSW": 1.7,
+    "LSL": 3,
+    "LIPW": 2.6,
+    "LIPL": 2.5,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Seventy-nine flowers on six upright inflorescences up to 52 cm; plant well-grown; sepals and petals white, intensely flashed purple, more intense centrally; lip white overlaid dark fuchsia-purple, keels fucshia-purple, white mid-area; column purple, anther cap white; substance firm; texture matte."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.992Z",
+  "photo": "20245403.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.993Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

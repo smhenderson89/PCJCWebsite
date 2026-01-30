@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245386",
+  "genus": "Phalaenopsis",
+  "species": "schilleriana",
+  "clone": "Alice",
+  "cross": "species",
+  "award": "CHM",
+  "awardpoints": 85,
+  "exhibitor": "Chen, Chun-Hong",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245386.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 6.8,
+    "NSV": 6,
+    "DSW": 1.8,
+    "DSL": 3,
+    "PETW": 3.4,
+    "PETL": 3.6,
+    "LSW": 1.6,
+    "LSL": 2.5,
+    "LIPW": 2.2,
+    "LIPL": 2.5,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Fifteen flowers and five buds on one 60-cm erect tri-branched inflorescence; dorsal sepal white overlaid pink, veins slightly deeper pink; lateral sepals white overlaid pink, spotted dark pink basally; petals white overlaid pink, veins slightly deeper pink; lip midlobe forked distally, white overlaid pink, speckled dark pink basally, side lobes clear white, spotted dark purple basally, callus yellow, spotted red; column dark pink, anther cap white overlaid dark pink; substance medium; texture matte; beautiful compact silvery variegated leaves up to 6 cm wide, 28.5 cm long; merited for compact foliage for Phalaenopsis schilleriana."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.935Z",
+  "photo": "20245386.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.936Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

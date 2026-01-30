@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245395",
+  "genus": "Cycnodes",
+  "species": "Taiwan Gold",
+  "clone": "Taiwan Orange",
+  "cross": "Cycnoches chlorochilon x Mormodes badia",
+  "award": "CCE",
+  "awardpoints": 97,
+  "exhibitor": "Jian, Guo-Fu",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245395.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 6.2,
+    "NSV": 5.6,
+    "DSW": 1.8,
+    "DSL": 3.8,
+    "PETW": 2.3,
+    "PETL": 4,
+    "LSW": 1.9,
+    "LSL": 3.6,
+    "LIPW": 3.8,
+    "LIPL": 3.7,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "An incredibly well flowered plant, two older and six active leafless pseudobulbs carrying 120 pristine, larger than usual flowers on 10 arching, supported 34-cm inflorescences 270 degrees around the pot; plant 72.4 cm high, 84.2 cm across, grown in a 25-cm black plastic pot cultivated in New Zealand sphagnum moss; sepals and petals very flat, saturated orange tan, green basally; lip boldly protruding, intense rich red; column golden yellow; substance very firm; texture waxy; also awarded a FCC of 93 points, award 20245394."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.964Z",
+  "photo": "20245395.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.965Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

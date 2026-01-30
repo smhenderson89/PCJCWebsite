@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245378",
+  "genus": "Bifrenaria",
+  "species": "tyrianthina",
+  "clone": "Gracie",
+  "cross": "species",
+  "award": "AM",
+  "awardpoints": 80,
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "date": "June 5, 2024",
+  "location": "Santa Clara Valley OS Outreach Judging",
+  "sourceUrl": "https://paccentraljc.org/240605/20245378.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 8.5,
+    "NSV": 5.5,
+    "DSW": 2.5,
+    "DSL": 4,
+    "PETW": 2.5,
+    "PETL": 3.5,
+    "LSW": 3,
+    "LSL": 4.2,
+    "LIPW": 2.2,
+    "LIPL": 3.2,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Five slightly crowded flowers and 10 buds on 4 up to 11.8-cm inflorescences and one emerging inflorescence; sepals and petals green suffused blue-lavender, green basally; lip hirsute, white heavily veined dark burgundy; column white, anther cap lavender; substance firm; texture downy."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.910Z",
+  "photo": "20245378.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.911Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

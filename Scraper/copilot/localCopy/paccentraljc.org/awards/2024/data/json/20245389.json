@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245389",
+  "genus": "Aerangis",
+  "species": "kotschyana",
+  "clone": "Tadpole",
+  "cross": "species",
+  "award": "AM",
+  "awardpoints": 84,
+  "exhibitor": "Ruey Hua Orchids",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245389.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 4.5,
+    "NSV": 4.3,
+    "DSW": 1.2,
+    "DSL": 2.1,
+    "PETW": 1,
+    "PETL": 2.3,
+    "LSW": 0.9,
+    "LSL": 2,
+    "LIPW": 1.8,
+    "LIPL": 2.3,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Twenty-eight flowers on two 52-cm pendulous inflorescences; sepals and petals ivory- white, petals reflexed; lip acuminate, full, flat, ivory-white, 15.4cm spur sparkling ivory-white, bronze tint; column ivory-white; substance firm; texture matte."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.944Z",
+  "photo": "20245389.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.945Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

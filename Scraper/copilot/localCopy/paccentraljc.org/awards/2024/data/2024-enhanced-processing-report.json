@@ -1,0 +1,447 @@
+{
+  "timestamp": "2026-01-30T20:06:58.039Z",
+  "logicReferenceUsed": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/scraper/copilot/localCopy/utilities/logicReference/missingInfoLogic.json",
+  "summary": {
+    "totalProcessed": 62,
+    "successful": 62,
+    "failed": 0,
+    "successRate": "100.0%"
+  },
+  "successes": [
+    {
+      "awardNum": "20245286",
+      "plant": "Stanhopea reichenbachiana 'Grand Traverse'",
+      "award": "AM 81",
+      "exhibitor": "James Heilig",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245287",
+      "plant": "Ansellia africana 'Chocolate Fondue'",
+      "award": "HCC 79",
+      "exhibitor": "Catherine Obillo",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245288",
+      "plant": "Cattleya praestans 'Solana'",
+      "award": "HCC 79",
+      "exhibitor": "Geoff Harris",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245289",
+      "plant": "Polystachya dendrobiiflora 'Lee Jorgensen'",
+      "award": "AM 83",
+      "exhibitor": "Chaunie Langland",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245290",
+      "plant": "Phalaenopsis equestris (Coerulea) 'RoEm'",
+      "award": "HCC 77",
+      "exhibitor": "Mary Bui-Pham",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245291",
+      "plant": "Epidendrum Pacific Parade 'Pumpkins'",
+      "award": "AM 83",
+      "exhibitor": "Japheth Ko",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245292",
+      "plant": "Paphiopedilum victoria-regina 'Dan Pham'",
+      "award": "HCC 78",
+      "exhibitor": "Mary Bui-Pham",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245293",
+      "plant": "Cymbidium ensifolium 'B-R8'",
+      "award": "HCC 78",
+      "exhibitor": "Mary Bui-Pham",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245294",
+      "plant": "Aerangis Pionier 'Lenawee'",
+      "award": "HCC 77",
+      "exhibitor": "Jim Heilig",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245295",
+      "plant": "Lycaste deppei 'Cath'",
+      "award": "HCC 79",
+      "exhibitor": "Catherine Obillo",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245296",
+      "plant": "Dendrobium cuthbertsonii 'Sweetie Pie'",
+      "award": "FCC 91",
+      "exhibitor": "Catherine Obillo",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245297",
+      "plant": "Dendrobium Aussie's Hi-Lo 'Pacifica'",
+      "award": "AM 84",
+      "exhibitor": "Catherine Obillo",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245298",
+      "plant": "Phalaenopsis tetraspis f ",
+      "award": "HCC 77",
+      "exhibitor": "Evan Shen",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245299",
+      "plant": "Aerangis luteoalba v. rhodosticta 'Arenac'",
+      "award": "AM 84",
+      "exhibitor": "Jim Heilig",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245300",
+      "plant": "Paphiopedilum wenshanense 'SS Xuan'",
+      "award": "HCC 76",
+      "exhibitor": "Evan Shen",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245301",
+      "plant": "Cattleya pumila 'Fred'",
+      "award": "CCM 86",
+      "exhibitor": "Amy and Ken Jacobsen",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245302",
+      "plant": "Cattleya perrinii (Coerulea) 'Stunner'",
+      "award": "AM 86",
+      "exhibitor": "Amy and Ken Jacobsen",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245303",
+      "plant": "Barkeria uniflora 'Emmett Langland'",
+      "award": "AM 83",
+      "exhibitor": "Chaunie Langland",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245304",
+      "plant": "Cattleya wittigiana 'Sarah Langland'",
+      "award": "AM 84",
+      "exhibitor": "Chaunie Langland",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245305",
+      "plant": "Dendrobium cuthbertsonii 'Pacifica'",
+      "award": "HCC 77",
+      "exhibitor": "Catherine Obillo",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245306",
+      "plant": "Aerangis Lindsay 'Kevin C. Walters'",
+      "award": "CCM 85",
+      "exhibitor": "Jim Heilig",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245307",
+      "plant": "Masdevallia caudata 'Gigi'",
+      "award": "AM 81",
+      "exhibitor": "Catherine Obillo",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245308",
+      "plant": "Stelis megachlamys 'Gracie'",
+      "award": "CCE 94",
+      "exhibitor": "Amy and Ken Jacobsen",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245377",
+      "plant": "Cattleya Pink Lady 'Hihimanu'",
+      "award": "HCC 78",
+      "exhibitor": "Amy and Ken Jacobsen",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245378",
+      "plant": "Bifrenaria tyrianthina 'Gracie'",
+      "award": "AM 80",
+      "exhibitor": "Amy and Ken Jacobsen",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245379",
+      "plant": "Oncidium hallii 'Mecosta'",
+      "award": "AM 81",
+      "exhibitor": "Jim Heilig",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245380",
+      "plant": "Aerangis Tavangumi 'Antrim'",
+      "award": "AM 80",
+      "exhibitor": "Jim Heilig",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245381",
+      "plant": "Stanhopea Bird of Prey 'Poppers'",
+      "award": "AM 85",
+      "exhibitor": "Jim Heilig",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245383",
+      "plant": "Cattleya Pink Leopard 'Bay'",
+      "award": "CCM 83",
+      "exhibitor": "Pierre Pujol",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245384",
+      "plant": "Gastrochilus japonicus ",
+      "award": "CHM 80",
+      "exhibitor": "Evan Shen",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245385",
+      "plant": "Paphiopedilum Mike Roccaforte 'HO2'",
+      "award": "FCC 91",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245386",
+      "plant": "Phalaenopsis schilleriana 'Alice'",
+      "award": "CHM 85",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245387",
+      "plant": "Rhyncattleanthe Charming Water Beauty 'Tzeng'",
+      "award": "FCC 90",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245388",
+      "plant": "Paphiopedilum hangianum 'Summer Wine'",
+      "award": "AM 88",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245389",
+      "plant": "Aerangis kotschyana 'Tadpole'",
+      "award": "AM 84",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245390",
+      "plant": "Paphiopedilum Hilo Citron 'Alian Ho'",
+      "award": "AM 88",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245391",
+      "plant": "Phalaenopsis equestris 'Join'",
+      "award": "CHM 84",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245392",
+      "plant": "Dendrobium Tetraploid Golden Hen 'Hen'",
+      "award": "CCE 93",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245393",
+      "plant": "Phalaepnosis bellina 'Chen'",
+      "award": "CCE 95",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245394",
+      "plant": "Cycnodes Taiwan Gold 'Taiwan Orange'",
+      "award": "FCC 93",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245395",
+      "plant": "Cycnodes Taiwan Gold 'Taiwan Orange'",
+      "award": "CCE 97",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245396",
+      "plant": "Paphiopedilum Duncan Ross 'Shih Yueh #3'",
+      "award": "AM 84",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245397",
+      "plant": "Paphiopedilum Doya Red Rose 'Shih Yueh #2'",
+      "award": "FCC 90",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245398",
+      "plant": "Phalaenopsis Fangmei Pink Pearl 'Cheng-Mei'",
+      "award": "AM 82",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245399",
+      "plant": "Phalaenopsis Fangmei Golden Topaz 'Topaz Crystal'",
+      "award": "AM 83",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245400",
+      "plant": "Phalaenopsis Princess Ai 'Lungting A133'",
+      "award": "AM 85",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245401",
+      "plant": "Habenaria Regnieri 'Chi Mei'",
+      "award": "AM 85",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245402",
+      "plant": "Habenaria Regnieri 'Chi Mei'",
+      "award": "CCE 93",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245403",
+      "plant": "Dendrobium Burana Pink 'Yuan Zhao'",
+      "award": "FCC 90",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245404",
+      "plant": "Dendrobium Pompadour 'Fall'",
+      "award": "CCM 85",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "20245405",
+      "plant": "Dendrobium Dianbao Rose 'Red Jade'",
+      "award": "AM 85",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "2024index",
+      "plant": "  ",
+      "award": " ",
+      "exhibitor": "",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "240605index",
+      "plant": "Santa Clara Valley OS Outreach Judging ",
+      "award": " ",
+      "exhibitor": "Amy and Ken Jacobsen",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "240615index",
+      "plant": "Filoli Historic House ",
+      "award": " ",
+      "exhibitor": "James Heilig",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "240702index",
+      "plant": "San Francisco ",
+      "award": " ",
+      "exhibitor": "Jim Heilig",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "240720index",
+      "plant": "Filoli Historic House ",
+      "award": " ",
+      "exhibitor": "Mary Bui-Phan",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "240817index",
+      "plant": "Filoli Historic House ",
+      "award": " ",
+      "exhibitor": "Mary Bui-Phan",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "240921index",
+      "plant": "Filoli Historic House ",
+      "award": " ",
+      "exhibitor": "Evan Shen",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "241001index",
+      "plant": "San Francisco ",
+      "award": " ",
+      "exhibitor": "Pierre Pujol",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "241105index",
+      "plant": "National Cheng Kung University Fall Orchid Show ",
+      "award": " ",
+      "exhibitor": "He, De-Min",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "241116index",
+      "plant": "Filoli Historic House ",
+      "award": " ",
+      "exhibitor": "Amy and Ken Jacobsen",
+      "subDir": "main"
+    },
+    {
+      "awardNum": "241221index",
+      "plant": "Filoli Historic House ",
+      "award": " ",
+      "exhibitor": "Chaunie Langland",
+      "subDir": "main"
+    }
+  ],
+  "failures": []
+}

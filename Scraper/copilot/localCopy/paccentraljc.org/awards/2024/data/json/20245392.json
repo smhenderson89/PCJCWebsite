@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245392",
+  "genus": "Dendrobium",
+  "species": "Tetraploid Golden Hen",
+  "clone": "Hen",
+  "cross": "Dendrobium Caesar x Dendrobium Burana Charming",
+  "award": "CCE",
+  "awardpoints": 93,
+  "exhibitor": "4N Orchids",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245392.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 7.2,
+    "NSV": 6.3,
+    "DSW": 1.5,
+    "DSL": 3.3,
+    "PETW": 2.5,
+    "PETL": 3.7,
+    "LSW": 1.4,
+    "LSL": 2.8,
+    "LIPW": 1.3,
+    "LIPL": 3.1,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Four hundred forty-eight flowers and 55 buds on 28 cascading inflorescences up to 78 cm; plant exceptionally well flowered, 128 cm tall, 140 cm wide, grown in pumice pellets and New Zealand sphagnum moss mix in 40-cm round plastic pot; sepals white, faintly striated fuchsia; petals white, intensely flashed purple; lip white, overlaid purple, more prominent basally, turning to veins proximally; anther cap white; substance firm; texture matte."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.953Z",
+  "photo": "20245392.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.954Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

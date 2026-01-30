@@ -217,8 +217,13 @@ function groupAwardsByDate(awards) {
   const grouped = {};
   awards.forEach(award => {
     const date = award.date_iso || 'Unknown Date';
-    if (!grouped[date]) grouped[date] = [];
-    grouped[date].push(award);
+    if (!grouped[date]) {
+      grouped[date] = {
+        awards: [],
+        location: award.location || 'Location Not Available'
+      };
+    }
+    grouped[date].awards.push(award);
   });
   return grouped;
 }
@@ -243,10 +248,16 @@ function renderAwardsGroupedByDate(groupedAwards) {
   let html = '';
   
   Object.keys(groupedAwards).sort().forEach(date => {
-    const awards = groupedAwards[date];
+    const dateGroup = groupedAwards[date];
+    const awards = dateGroup.awards;
+    const location = dateGroup.location;
+    
     html += `
       <div class="col-12 mb-4">
-        <h3>${formatDateSafe(date)}</h3>
+        <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center mb-3">
+          <h3 class="mb-1 mb-md-0 me-md-3">${formatDateSafe(date)}</h3>
+          <span class="text-muted">${location}</span>
+        </div>
         <div class="row">
           ${awards.map(award => {
             // Generate optimized image HTML with WebP support and responsive sizing

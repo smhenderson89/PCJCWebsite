@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245383",
+  "genus": "Cattleya",
+  "species": "Pink Leopard",
+  "clone": "Bay",
+  "cross": "Cattleya Lulu x Cattleya Penny Kuroda",
+  "award": "CCM",
+  "awardpoints": 83,
+  "exhibitor": "Pierre Pujol",
+  "photographer": "Ken Jacobsen",
+  "date": "October 1, 2024",
+  "location": "San Francisco",
+  "sourceUrl": "https://paccentraljc.org/241001/20245383.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 9.6,
+    "NSV": 9.1,
+    "DSW": 2.3,
+    "DSL": 6.3,
+    "PETW": 3.5,
+    "PETL": 5.2,
+    "LSW": 2.5,
+    "LSL": 5.1,
+    "LIPW": 4,
+    "LIPL": 4.9,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Forty-one flowers and 30 buds on five 25-cm upright inflorescences; plant 86cm x 82cm, grown in 25-cm plastic pot; sepals rose, magenta speckles occuring randomly; petals rose, dark magenta peloric band medially, sparse magenta speckles; lip white overlaid rose, sidelobes overlapping column, midlobe crenulated, magenta distally, isthmus pale yellow, keels magenta; column white overlaid rose, anther cap pale yellow; substance firm; texture matte; mericlone peloric mutation of 'Hollybourne'."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.924Z",
+  "photo": "20245383.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.925Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

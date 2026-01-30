@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245404",
+  "genus": "Dendrobium",
+  "species": "Pompadour",
+  "clone": "Fall",
+  "cross": "Dendrobium Louis Bleriot x Dendrobium bigibbum var. superbum",
+  "award": "CCM",
+  "awardpoints": 85,
+  "exhibitor": "4N Orchids",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245404.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 6.7,
+    "NSV": 5.6,
+    "DSW": 1,
+    "DSL": 3.2,
+    "PETW": 2,
+    "PETL": 2.7,
+    "LSW": 1,
+    "LSL": 2.7,
+    "LIPW": 1,
+    "LIPL": 2.8,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Four hundred twenty-two flowers and three buds on 21 cascading branching inflorescences up to 65cm; plant well-flowered, 80 cm wide x 183 cm tall, grown in New Zealand sphagnum and pumice pellets mix in 25-cm plastic round pot; sepals and petals white, intensely flashed purple, more intense centrally, white margins; lip slightly ruffled, white overlaid dark fuchsia, throat intense dark purple; column fuchsia, anther cap white; substance firm; texture matte."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.995Z",
+  "photo": "20245404.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.995Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245310",
+  "genus": "Dendrobium",
+  "species": "farmeri (Album)",
+  "clone": "Hsinying",
+  "cross": "species",
+  "award": "HCC",
+  "awardpoints": 78,
+  "exhibitor": "Evan Shen",
+  "photographer": "Ken Jacobsen",
+  "date": "December 3, 2024",
+  "location": "San Francisco",
+  "sourceUrl": "https://paccentraljc.org/241203/20245310.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 5.5,
+    "NSV": 6,
+    "DSW": 1.6,
+    "DSL": 2.7,
+    "PETW": 2.3,
+    "PETL": 2.8,
+    "LSW": 1.5,
+    "LSL": 2.9,
+    "LIPW": 2.8,
+    "LIPL": 3,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Twenty-five full round flowers on two arching approximately 20-cm inflorescences; segments white, semi-transparent, tinged yellow basally; column orange, anther cap light yellow; substance medium; texture crystalline; petaloid."
+  },
+  "scrapedDate": "2026-01-30T20:19:04.737Z",
+  "photo": "20245310.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:19:04.744Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

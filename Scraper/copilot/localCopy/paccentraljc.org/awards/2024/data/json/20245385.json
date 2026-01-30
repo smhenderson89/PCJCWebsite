@@ -1,0 +1,42 @@
+{
+  "awardNum": "20245385",
+  "genus": "Paphiopedilum",
+  "species": "Mike Roccaforte",
+  "clone": "HO2",
+  "cross": "Paphiopedilum rothschildianum x Paphiopedilum Greyi",
+  "award": "FCC",
+  "awardpoints": 91,
+  "exhibitor": "He, De-Min",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245385.html",
+  "measurements": {
+    "type": "Pouch&SynselPal",
+    "NS": 13.5,
+    "NSV": 11.4,
+    "DSW": 6,
+    "DSL": 4.9,
+    "PETW": 4,
+    "PETL": 6,
+    "LSW": 0,
+    "LSL": 0,
+    "LIPW": 0,
+    "LIPL": 0,
+    "PCHW": 2.5,
+    "SYNSL": 5.3,
+    "SYNSW": 5.2,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Two exceptional full, shapely flowers on one 21.3-cm erect inflorescence; sepals cream, heavily striped mahogany, dorsal sepal broad; petals cream, boldly spotted mahogany proximally, coalescing to stripes distally; pouch cream, blushed maroon; staminode cream, densely speckled maroon; substance very firm, texture glossy.",
+    "PCHL": 6.3
+  },
+  "scrapedDate": "2026-01-30T20:06:57.932Z",
+  "photo": "20245385.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.933Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245379",
+  "genus": "Oncidium",
+  "species": "hallii",
+  "clone": "Mecosta",
+  "cross": "species",
+  "award": "AM",
+  "awardpoints": 81,
+  "exhibitor": "Jim Heilig",
+  "photographer": "Ken Jacobsen",
+  "date": "July 2, 2024",
+  "location": "San Francisco",
+  "sourceUrl": "https://paccentraljc.org/240702/20245379.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 7,
+    "NSV": 7.4,
+    "DSW": 1.5,
+    "DSL": 4.7,
+    "PETW": 1.9,
+    "PETL": 4.1,
+    "LSW": 1.6,
+    "LSL": 4.2,
+    "LIPW": 2.5,
+    "LIPL": 2.6,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Thirty-one flat flowers on three up to 84-cm inflorescences; sepals and petals light chartreuse marked heavy brown; lip ruffled, mildly fimbriate, white, tiny brown spots side lobe edges, callus fimbriate, yellow overlaid brown; column white, wings edged brown, anther cap white, brown markings; substance firm; texture matte; provisional, sent to SITF."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.913Z",
+  "photo": "20245379.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.914Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

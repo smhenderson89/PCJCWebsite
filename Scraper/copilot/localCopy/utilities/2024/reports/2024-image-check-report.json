@@ -1,12 +1,384 @@
 {
-  "timestamp": "2026-01-20T21:41:49.047Z",
+  "timestamp": "2026-01-30T20:24:23.124Z",
   "summary": {
-    "totalFiles": 63,
-    "awardsChecked": 63,
-    "validImages": 63,
+    "totalFiles": 116,
+    "awardsChecked": 116,
+    "validImages": 116,
     "missingImages": 0,
     "invalidPaths": 0,
     "imageSuccessRate": "100.0%"
   },
-  "errors": []
+  "errors": [
+    {
+      "file": "20245286.json",
+      "awardNum": "20245286",
+      "issue": "Photo path mismatch: has '20245286.jpg', expected 'images/20245286.jpg'",
+      "expectedPath": "images/20245286.jpg",
+      "actualPath": "20245286.jpg"
+    },
+    {
+      "file": "20245287.json",
+      "awardNum": "20245287",
+      "issue": "Photo path mismatch: has '20245287.jpg', expected 'images/20245287.jpg'",
+      "expectedPath": "images/20245287.jpg",
+      "actualPath": "20245287.jpg"
+    },
+    {
+      "file": "20245288.json",
+      "awardNum": "20245288",
+      "issue": "Photo path mismatch: has '20245288.jpg', expected 'images/20245288.jpg'",
+      "expectedPath": "images/20245288.jpg",
+      "actualPath": "20245288.jpg"
+    },
+    {
+      "file": "20245289.json",
+      "awardNum": "20245289",
+      "issue": "Photo path mismatch: has '20245289.jpg', expected 'images/20245289.jpg'",
+      "expectedPath": "images/20245289.jpg",
+      "actualPath": "20245289.jpg"
+    },
+    {
+      "file": "20245290.json",
+      "awardNum": "20245290",
+      "issue": "Photo path mismatch: has '20245290.jpg', expected 'images/20245290.jpg'",
+      "expectedPath": "images/20245290.jpg",
+      "actualPath": "20245290.jpg"
+    },
+    {
+      "file": "20245291.json",
+      "awardNum": "20245291",
+      "issue": "Photo path mismatch: has '20245291.jpg', expected 'images/20245291.jpg'",
+      "expectedPath": "images/20245291.jpg",
+      "actualPath": "20245291.jpg"
+    },
+    {
+      "file": "20245292.json",
+      "awardNum": "20245292",
+      "issue": "Photo path mismatch: has '20245292.jpg', expected 'images/20245292.jpg'",
+      "expectedPath": "images/20245292.jpg",
+      "actualPath": "20245292.jpg"
+    },
+    {
+      "file": "20245293.json",
+      "awardNum": "20245293",
+      "issue": "Photo path mismatch: has '20245293.jpg', expected 'images/20245293.jpg'",
+      "expectedPath": "images/20245293.jpg",
+      "actualPath": "20245293.jpg"
+    },
+    {
+      "file": "20245294.json",
+      "awardNum": "20245294",
+      "issue": "Photo path mismatch: has '20245294.jpg', expected 'images/20245294.jpg'",
+      "expectedPath": "images/20245294.jpg",
+      "actualPath": "20245294.jpg"
+    },
+    {
+      "file": "20245295.json",
+      "awardNum": "20245295",
+      "issue": "Photo path mismatch: has '20245295.jpg', expected 'images/20245295.jpg'",
+      "expectedPath": "images/20245295.jpg",
+      "actualPath": "20245295.jpg"
+    },
+    {
+      "file": "20245296.json",
+      "awardNum": "20245296",
+      "issue": "Photo path mismatch: has '20245296.jpg', expected 'images/20245296.jpg'",
+      "expectedPath": "images/20245296.jpg",
+      "actualPath": "20245296.jpg"
+    },
+    {
+      "file": "20245297.json",
+      "awardNum": "20245297",
+      "issue": "Photo path mismatch: has '20245297.jpg', expected 'images/20245297.jpg'",
+      "expectedPath": "images/20245297.jpg",
+      "actualPath": "20245297.jpg"
+    },
+    {
+      "file": "20245298.json",
+      "awardNum": "20245298",
+      "issue": "Photo path mismatch: has '20245298.jpg', expected 'images/20245298.jpg'",
+      "expectedPath": "images/20245298.jpg",
+      "actualPath": "20245298.jpg"
+    },
+    {
+      "file": "20245299.json",
+      "awardNum": "20245299",
+      "issue": "Photo path mismatch: has '20245299.jpg', expected 'images/20245299.jpg'",
+      "expectedPath": "images/20245299.jpg",
+      "actualPath": "20245299.jpg"
+    },
+    {
+      "file": "20245300.json",
+      "awardNum": "20245300",
+      "issue": "Photo path mismatch: has '20245300.jpg', expected 'images/20245300.jpg'",
+      "expectedPath": "images/20245300.jpg",
+      "actualPath": "20245300.jpg"
+    },
+    {
+      "file": "20245301.json",
+      "awardNum": "20245301",
+      "issue": "Photo path mismatch: has '20245301.jpg', expected 'images/20245301.jpg'",
+      "expectedPath": "images/20245301.jpg",
+      "actualPath": "20245301.jpg"
+    },
+    {
+      "file": "20245302.json",
+      "awardNum": "20245302",
+      "issue": "Photo path mismatch: has '20245302.jpg', expected 'images/20245302.jpg'",
+      "expectedPath": "images/20245302.jpg",
+      "actualPath": "20245302.jpg"
+    },
+    {
+      "file": "20245303.json",
+      "awardNum": "20245303",
+      "issue": "Photo path mismatch: has '20245303.jpg', expected 'images/20245303.jpg'",
+      "expectedPath": "images/20245303.jpg",
+      "actualPath": "20245303.jpg"
+    },
+    {
+      "file": "20245304.json",
+      "awardNum": "20245304",
+      "issue": "Photo path mismatch: has '20245304.jpg', expected 'images/20245304.jpg'",
+      "expectedPath": "images/20245304.jpg",
+      "actualPath": "20245304.jpg"
+    },
+    {
+      "file": "20245305.json",
+      "awardNum": "20245305",
+      "issue": "Photo path mismatch: has '20245305.jpg', expected 'images/20245305.jpg'",
+      "expectedPath": "images/20245305.jpg",
+      "actualPath": "20245305.jpg"
+    },
+    {
+      "file": "20245306.json",
+      "awardNum": "20245306",
+      "issue": "Photo path mismatch: has '20245306.jpg', expected 'images/20245306.jpg'",
+      "expectedPath": "images/20245306.jpg",
+      "actualPath": "20245306.jpg"
+    },
+    {
+      "file": "20245307.json",
+      "awardNum": "20245307",
+      "issue": "Photo path mismatch: has '20245307.jpg', expected 'images/20245307.jpg'",
+      "expectedPath": "images/20245307.jpg",
+      "actualPath": "20245307.jpg"
+    },
+    {
+      "file": "20245308.json",
+      "awardNum": "20245308",
+      "issue": "Photo path mismatch: has '20245308.jpg', expected 'images/20245308.jpg'",
+      "expectedPath": "images/20245308.jpg",
+      "actualPath": "20245308.jpg"
+    },
+    {
+      "file": "20245310.json",
+      "awardNum": "20245310",
+      "issue": "Photo path mismatch: has '20245310.jpg', expected 'images/20245310.jpg'",
+      "expectedPath": "images/20245310.jpg",
+      "actualPath": "20245310.jpg"
+    },
+    {
+      "file": "20245377.json",
+      "awardNum": "20245377",
+      "issue": "Photo path mismatch: has '20245377.jpg', expected 'images/20245377.jpg'",
+      "expectedPath": "images/20245377.jpg",
+      "actualPath": "20245377.jpg"
+    },
+    {
+      "file": "20245378.json",
+      "awardNum": "20245378",
+      "issue": "Photo path mismatch: has '20245378.jpg', expected 'images/20245378.jpg'",
+      "expectedPath": "images/20245378.jpg",
+      "actualPath": "20245378.jpg"
+    },
+    {
+      "file": "20245379.json",
+      "awardNum": "20245379",
+      "issue": "Photo path mismatch: has '20245379.jpg', expected 'images/20245379.jpg'",
+      "expectedPath": "images/20245379.jpg",
+      "actualPath": "20245379.jpg"
+    },
+    {
+      "file": "20245380.json",
+      "awardNum": "20245380",
+      "issue": "Photo path mismatch: has '20245380.jpg', expected 'images/20245380.jpg'",
+      "expectedPath": "images/20245380.jpg",
+      "actualPath": "20245380.jpg"
+    },
+    {
+      "file": "20245381.json",
+      "awardNum": "20245381",
+      "issue": "Photo path mismatch: has '20245381.jpg', expected 'images/20245381.jpg'",
+      "expectedPath": "images/20245381.jpg",
+      "actualPath": "20245381.jpg"
+    },
+    {
+      "file": "20245382.json",
+      "awardNum": "20245382",
+      "issue": "Photo path mismatch: has '20245382.jpg', expected 'images/20245382.jpg'",
+      "expectedPath": "images/20245382.jpg",
+      "actualPath": "20245382.jpg"
+    },
+    {
+      "file": "20245383.json",
+      "awardNum": "20245383",
+      "issue": "Photo path mismatch: has '20245383.jpg', expected 'images/20245383.jpg'",
+      "expectedPath": "images/20245383.jpg",
+      "actualPath": "20245383.jpg"
+    },
+    {
+      "file": "20245384.json",
+      "awardNum": "20245384",
+      "issue": "Photo path mismatch: has '20245384.jpg', expected 'images/20245384.jpg'",
+      "expectedPath": "images/20245384.jpg",
+      "actualPath": "20245384.jpg"
+    },
+    {
+      "file": "20245385.json",
+      "awardNum": "20245385",
+      "issue": "Photo path mismatch: has '20245385.jpg', expected 'images/20245385.jpg'",
+      "expectedPath": "images/20245385.jpg",
+      "actualPath": "20245385.jpg"
+    },
+    {
+      "file": "20245386.json",
+      "awardNum": "20245386",
+      "issue": "Photo path mismatch: has '20245386.jpg', expected 'images/20245386.jpg'",
+      "expectedPath": "images/20245386.jpg",
+      "actualPath": "20245386.jpg"
+    },
+    {
+      "file": "20245387.json",
+      "awardNum": "20245387",
+      "issue": "Photo path mismatch: has '20245387.jpg', expected 'images/20245387.jpg'",
+      "expectedPath": "images/20245387.jpg",
+      "actualPath": "20245387.jpg"
+    },
+    {
+      "file": "20245388.json",
+      "awardNum": "20245388",
+      "issue": "Photo path mismatch: has '20245388.jpg', expected 'images/20245388.jpg'",
+      "expectedPath": "images/20245388.jpg",
+      "actualPath": "20245388.jpg"
+    },
+    {
+      "file": "20245389.json",
+      "awardNum": "20245389",
+      "issue": "Photo path mismatch: has '20245389.jpg', expected 'images/20245389.jpg'",
+      "expectedPath": "images/20245389.jpg",
+      "actualPath": "20245389.jpg"
+    },
+    {
+      "file": "20245390.json",
+      "awardNum": "20245390",
+      "issue": "Photo path mismatch: has '20245390.jpg', expected 'images/20245390.jpg'",
+      "expectedPath": "images/20245390.jpg",
+      "actualPath": "20245390.jpg"
+    },
+    {
+      "file": "20245391.json",
+      "awardNum": "20245391",
+      "issue": "Photo path mismatch: has '20245391.jpg', expected 'images/20245391.jpg'",
+      "expectedPath": "images/20245391.jpg",
+      "actualPath": "20245391.jpg"
+    },
+    {
+      "file": "20245392.json",
+      "awardNum": "20245392",
+      "issue": "Photo path mismatch: has '20245392.jpg', expected 'images/20245392.jpg'",
+      "expectedPath": "images/20245392.jpg",
+      "actualPath": "20245392.jpg"
+    },
+    {
+      "file": "20245393.json",
+      "awardNum": "20245393",
+      "issue": "Photo path mismatch: has '20245393.jpg', expected 'images/20245393.jpg'",
+      "expectedPath": "images/20245393.jpg",
+      "actualPath": "20245393.jpg"
+    },
+    {
+      "file": "20245394.json",
+      "awardNum": "20245394",
+      "issue": "Photo path mismatch: has '20245394.jpg', expected 'images/20245394.jpg'",
+      "expectedPath": "images/20245394.jpg",
+      "actualPath": "20245394.jpg"
+    },
+    {
+      "file": "20245395.json",
+      "awardNum": "20245395",
+      "issue": "Photo path mismatch: has '20245395.jpg', expected 'images/20245395.jpg'",
+      "expectedPath": "images/20245395.jpg",
+      "actualPath": "20245395.jpg"
+    },
+    {
+      "file": "20245396.json",
+      "awardNum": "20245396",
+      "issue": "Photo path mismatch: has '20245396.jpg', expected 'images/20245396.jpg'",
+      "expectedPath": "images/20245396.jpg",
+      "actualPath": "20245396.jpg"
+    },
+    {
+      "file": "20245397.json",
+      "awardNum": "20245397",
+      "issue": "Photo path mismatch: has '20245397.jpg', expected 'images/20245397.jpg'",
+      "expectedPath": "images/20245397.jpg",
+      "actualPath": "20245397.jpg"
+    },
+    {
+      "file": "20245398.json",
+      "awardNum": "20245398",
+      "issue": "Photo path mismatch: has '20245398.jpg', expected 'images/20245398.jpg'",
+      "expectedPath": "images/20245398.jpg",
+      "actualPath": "20245398.jpg"
+    },
+    {
+      "file": "20245399.json",
+      "awardNum": "20245399",
+      "issue": "Photo path mismatch: has '20245399.jpg', expected 'images/20245399.jpg'",
+      "expectedPath": "images/20245399.jpg",
+      "actualPath": "20245399.jpg"
+    },
+    {
+      "file": "20245400.json",
+      "awardNum": "20245400",
+      "issue": "Photo path mismatch: has '20245400.jpg', expected 'images/20245400.jpg'",
+      "expectedPath": "images/20245400.jpg",
+      "actualPath": "20245400.jpg"
+    },
+    {
+      "file": "20245401.json",
+      "awardNum": "20245401",
+      "issue": "Photo path mismatch: has '20245401.jpg', expected 'images/20245401.jpg'",
+      "expectedPath": "images/20245401.jpg",
+      "actualPath": "20245401.jpg"
+    },
+    {
+      "file": "20245402.json",
+      "awardNum": "20245402",
+      "issue": "Photo path mismatch: has '20245402.jpg', expected 'images/20245402.jpg'",
+      "expectedPath": "images/20245402.jpg",
+      "actualPath": "20245402.jpg"
+    },
+    {
+      "file": "20245403.json",
+      "awardNum": "20245403",
+      "issue": "Photo path mismatch: has '20245403.jpg', expected 'images/20245403.jpg'",
+      "expectedPath": "images/20245403.jpg",
+      "actualPath": "20245403.jpg"
+    },
+    {
+      "file": "20245404.json",
+      "awardNum": "20245404",
+      "issue": "Photo path mismatch: has '20245404.jpg', expected 'images/20245404.jpg'",
+      "expectedPath": "images/20245404.jpg",
+      "actualPath": "20245404.jpg"
+    },
+    {
+      "file": "20245405.json",
+      "awardNum": "20245405",
+      "issue": "Photo path mismatch: has '20245405.jpg', expected 'images/20245405.jpg'",
+      "expectedPath": "images/20245405.jpg",
+      "actualPath": "20245405.jpg"
+    }
+  ]
 }

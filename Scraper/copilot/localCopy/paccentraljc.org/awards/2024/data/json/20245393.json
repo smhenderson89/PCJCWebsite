@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245393",
+  "genus": "Phalaepnosis",
+  "species": "bellina",
+  "clone": "Chen",
+  "cross": "species",
+  "award": "CCE",
+  "awardpoints": 95,
+  "exhibitor": "Yang, Min-Hsien",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245393.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 5,
+    "NSV": 5.4,
+    "DSW": 2,
+    "DSL": 2.7,
+    "PETW": 2.2,
+    "PETL": 2.4,
+    "LSW": 1.9,
+    "LSL": 2.9,
+    "LIPW": 1.2,
+    "LIPL": 2.2,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Fifteen flowers and 3 buds on one 25-cm tri-branched inflorescence; plant exceptionally grown, 55 cm wide, 29 cm tall, six meticulous shiny dark green leaves, grown in bark in 19-cm diameter, 21-cm tall round pot; sepals and petals light green, darker distally, lateral sepals overlaid purple inferior half basal 2/3rds; lip white, overlaid dark yellow, midlobe overlaid purple; column purple, anther cap white; substance firm; texture matte."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.957Z",
+  "photo": "20245393.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.958Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

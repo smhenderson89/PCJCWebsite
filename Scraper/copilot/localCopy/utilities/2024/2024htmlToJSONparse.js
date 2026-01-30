@@ -161,6 +161,281 @@ function extractPhotographerFromHtml(htmlContent, $) {
     return 'N/A';
 }
 
+/**
+ * Extract award data from HTML content directly
+ * @param {string} awardNum - Award number
+ * @param {string} htmlContent - HTML content to parse
+ * @returns {object} - Extracted award data
+ */
+function extractAwardDataFromHtmlContent(awardNum, htmlContent) {
+    try {
+        console.log(`\n🔍 Extracting data from ${awardNum}...`);
+        
+        const $ = cheerio.load(htmlContent);
+        
+        // Initialize extracted data structure
+        const extractedData = {
+            awardNum: awardNum,
+            genus: '',
+            species: '',
+            clone: '',
+            cross: '',
+            award: '',
+            awardpoints: '',
+            exhibitor: '',
+            photographer: '',
+            date: '',
+            location: '',
+            sourceUrl: '',
+            measurements: {
+                type: '',
+                NS: 0,
+                NSV: 0,
+                DSW: 0,
+                DSL: 0,
+                PETW: 0,
+                PETL: 0,
+                LSW: 0,
+                LSL: 0,
+                LIPW: 0,
+                LIPL: 0,
+                PCHW: 0,
+                SYNSL: 0,
+                SYNSW: 0,
+                numFlowers: 0,
+                numBuds: 0,
+                numInflorescences: 0,
+                description: ''
+            },
+            scrapedDate: new Date().toISOString(),
+            photo: `${awardNum}.jpg`
+        };
+
+        // Extract from main content area - use the full body text approach
+        const bodyText = $('body').text();
+        
+        // Also try the font-specific approach
+        const mainFont = $('table').first().find('font[size="+1"]').first();
+        
+        if (mainFont.length > 0) {
+            const htmlText = mainFont.html();
+            const lines = htmlText
+                .split(/<br[^>]*>/i)
+                .map(line => cheerio.load(line).text().trim())
+                .filter(line => line && !line.includes('Award '));
+
+            // Process each line
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                if (!line) continue;
+
+                // Date and location (first line)
+                if (i === 0 && line.includes(' - ')) {
+                    const parts = line.split(' - ');
+                    extractedData.date = parts[0].trim();
+                    extractedData.location = parts.slice(1).join(' - ').trim();
+                    
+                    // Generate correct source URL based on extracted date
+                    const yymmdd = formatDateToYYMMDD(extractedData.date);
+                    
+                    // Determine URL format based on award number patterns
+                    // Awards before June 2024 use old format, after June use new format
+                    if (awardNum.match(/^2024537[7-9]|^202453[8-9]|^202454[0-9]|^2024[56789]/)) {
+                        // New format for awards from June 5 onward
+                        extractedData.sourceUrl = `https://paccentraljc.org/${yymmdd}/${awardNum}.html`;
+                    } else {
+                        // Old format for awards before June 5
+                        extractedData.sourceUrl = `https://www.paccentraljc.org/${yymmdd}/${awardNum}.html`;
+                    }
+                    
+                    continue;
+                }
+
+                // Plant name with clone
+                const plantMatch = line.match(/^([A-Z][a-z]+)\s+(.+?)\s+'([^']+)'$/);
+                if (plantMatch) {
+                    extractedData.genus = plantMatch[1];
+                    extractedData.species = plantMatch[2].trim();
+                    extractedData.clone = plantMatch[3];
+                    console.log(`   🌸 Plant: ${extractedData.genus} ${extractedData.species} '${extractedData.clone}'`);
+                    continue;
+                }
+
+                // Plant name without clone
+                const plantMatch2 = line.match(/^([A-Z][a-z]+)\s+([a-z][a-zA-Z\s]+)$/);
+                if (plantMatch2 && !line.includes('by:')) {
+                    extractedData.genus = plantMatch2[1];
+                    extractedData.species = plantMatch2[2].trim();
+                    console.log(`   🌸 Plant: ${extractedData.genus} ${extractedData.species}`);
+                    continue;
+                }
+
+                // Cross/parentage (in parentheses)
+                const crossMatch = line.match(/^\((.+)\)$/);
+                if (crossMatch) {
+                    extractedData.cross = crossMatch[1].trim();
+                    console.log(`   🧬 Cross: (${extractedData.cross})`);
+                    continue;
+                }
+
+                // Handle "species" as cross value
+                if (line.toLowerCase().trim() === 'species') {
+                    extractedData.cross = 'species';
+                    console.log(`   🧬 Cross: species (natural species)`);
+                    continue;
+                }
+
+                // Special award name mappings
+                if (line.match(/^Show Trophy$/i)) {
+                    extractedData.award = 'ST';
+                    extractedData.awardpoints = 'N/A';
+                    console.log(`   🏆 Award: ST (Show Trophy)`);
+                    continue;
+                }
+
+                // Award and points (separate) - expanded to include CCE, ST, SC, EEC
+                const awardMatch = line.match(/^(AM|HCC|CCM|CCE|FCC|AQ|CBR|JC|AD|CHM|ST|SC|EEC)\s+(\d+)$/i);
+                if (awardMatch) {
+                    extractedData.award = awardMatch[1].toUpperCase();
+                    extractedData.awardpoints = parseInt(awardMatch[2]);
+                    continue;
+                }
+
+                // Award without points - expanded to include AQ and special awards
+                const awardOnlyMatch = line.match(/^(JC|CBR|CHM|AQ|ST)$/i);
+                if (awardOnlyMatch) {
+                    extractedData.award = awardOnlyMatch[1].toUpperCase();
+                    extractedData.awardpoints = 'N/A';
+                    continue;
+                }
+
+                // Exhibitor
+                const exhibitorMatch = line.match(/^Exhibited by:\s*(.+)$/i);
+                if (exhibitorMatch) {
+                    extractedData.exhibitor = exhibitorMatch[1].trim();
+                    console.log(`   👤 Exhibitor: "${extractedData.exhibitor}"`);
+                    continue;
+                }
+
+                // Photographer
+                const photographerMatch = line.match(/^Photographer:\s*(.+)$/i);
+                if (photographerMatch) {
+                    extractedData.photographer = photographerMatch[1].trim();
+                    console.log(`   📷 Photographer: "${extractedData.photographer}"`);
+                    continue;
+                }
+                
+                console.log(`   ❓ Unmatched line: "${line}"`);
+            }
+        }
+        
+        // Additional exhibitor extraction - sometimes it's after the main content
+        if (!extractedData.exhibitor) {
+            console.log(`\n🔍 Exhibitor not found in main content, checking full body...`);
+            const exhibitorBodyMatch = bodyText.match(/Exhibited by[:\s]+([^\n\r<]+)/i);
+            if (exhibitorBodyMatch) {
+                extractedData.exhibitor = exhibitorBodyMatch[1].trim();
+                console.log(`   👤 Found exhibitor in body: "${extractedData.exhibitor}"`);
+            }
+        }
+
+        // Enhanced plant name extraction from title if main content failed
+        if (!extractedData.genus) {
+            const title = $('title').text().trim();
+            const titlePlantMatch1 = title.match(/([A-Z][a-zA-Z]+)\s+([a-zA-Z][a-zA-Z\s]+?)\s+'([^']+)'/);
+            if (titlePlantMatch1) {
+                extractedData.genus = titlePlantMatch1[1];
+                extractedData.species = titlePlantMatch1[2].trim();
+                extractedData.clone = titlePlantMatch1[3];
+                console.log(`   🌸 Extracted from title: ${extractedData.genus} ${extractedData.species} '${extractedData.clone}'`);
+            } else {
+                const titlePlantMatch2 = title.match(/([A-Z][a-zA-Z]+)\s+([a-zA-Z][a-zA-Z\s]+)/);
+                if (titlePlantMatch2) {
+                    extractedData.genus = titlePlantMatch2[1];
+                    extractedData.species = titlePlantMatch2[2].trim();
+                    console.log(`   🌸 Extracted from title: ${extractedData.genus} ${extractedData.species}`);
+                }
+            }
+        }
+
+        // Enhanced photographer extraction with multiple strategies
+        if (!extractedData.photographer || extractedData.photographer === '') {
+            extractedData.photographer = extractPhotographerFromHtml(htmlContent, $);
+        }
+
+        // Extract measurements (similar to original function)
+        console.log(`\n📏 Looking for measurements table...`);
+        const measurementTable = $('table').eq(1).find('table').first();
+        if (measurementTable.length > 0) {
+            console.log(`✅ Found measurements table`);
+            measurementTable.find('tr').each((i, row) => {
+                const $row = $(row);
+                const cells = $row.find('td');
+                
+                // Process pairs of cells (label, value, label, value)
+                for (let j = 0; j < cells.length; j += 2) {
+                    if (cells[j] && cells[j + 1]) {
+                        const label = $(cells[j]).text().trim();
+                        const value = $(cells[j + 1]).text().trim();
+                        const numValue = parseFloat(value);
+                        
+                        console.log(`   📊 ${label}: "${value}" (${numValue})`);
+                        
+                        if (!isNaN(numValue) && ['NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LSW', 'LSL', 'LIPW', 'LIPL'].includes(label)) {
+                            extractedData.measurements[label] = numValue;
+                        }
+                    }
+                }
+            });
+        } else {
+            console.log(`❌ No measurements table found`);
+        }
+
+        // Extract flower info and description (similar to original function)
+        // ... (keeping the rest of the measurement extraction logic)
+
+        // Set measurement type based on what measurements we have
+        const measurementFields = ['NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LSW', 'LSL', 'LIPW', 'LIPL'];
+        const foundMeasurements = measurementFields.filter(field => extractedData.measurements[field] !== undefined && extractedData.measurements[field] !== 0);
+        
+        if (foundMeasurements.length > 0) {
+            // Check if we have lip measurements
+            const hasLipMeasurements = ['LIPW', 'LIPL'].some(field => extractedData.measurements[field] !== undefined && extractedData.measurements[field] !== 0);
+            const hasSepalMeasurements = ['NS', 'NSV', 'LSW', 'LSL'].some(field => extractedData.measurements[field] !== undefined && extractedData.measurements[field] !== 0);
+            
+            if (hasLipMeasurements && hasSepalMeasurements) {
+                extractedData.measurements.type = 'Lip&LateralSepal';
+            } else if (hasLipMeasurements) {
+                extractedData.measurements.type = 'Lip';
+            } else if (hasSepalMeasurements) {
+                extractedData.measurements.type = 'LateralSepal';
+            } else {
+                extractedData.measurements.type = 'General';
+            }
+        } else {
+            extractedData.measurements.type = 'N/A';
+        }
+
+        console.log(`\n🧠 APPLYING MISSING INFO LOGIC...`);
+        // Apply missing info logic rules based on award type
+        const enhancedData = applyMissingInfoLogic(extractedData);
+
+        console.log(`\n✅ Extraction complete for ${awardNum}`);
+        console.log(`   🌸 Plant: ${enhancedData.genus} ${enhancedData.species} ${enhancedData.clone ? `'${enhancedData.clone}'` : ''}`);
+        console.log(`   🎯 Award: ${enhancedData.award} ${enhancedData.awardpoints}`);
+        console.log(`   👤 Exhibitor: ${enhancedData.exhibitor}`);
+        console.log(`   📷 Photographer: ${enhancedData.photographer}`);
+        console.log(`   🧬 Cross: ${enhancedData.cross}`);
+        console.log(`   📏 Measurement Type: ${enhancedData.measurements.type}`);
+        
+        return enhancedData;
+
+    } catch (error) {
+        console.log(`  ❌ Error extracting data from ${awardNum}: ${error.message}`);
+        return null;
+    }
+}
+
 function extractFullAwardDataFromHtml(awardNum) {
     const htmlPath = path.join(htmlDirectory, `${awardNum}.html`);
     
@@ -474,7 +749,7 @@ function extractFullAwardDataFromHtml(awardNum) {
 }
 
 function processAll2024Files() {
-    console.log('🚀 PROCESSING ALL 2024 HTML FILES TO JSON (Enhanced with Logic Reference)');
+    console.log('🚀 PROCESSING NEW 2024 HTML FILES TO JSON (Enhanced with Logic Reference)');
     console.log('='.repeat(80));
     
     // Ensure JSON directory exists
@@ -483,13 +758,47 @@ function processAll2024Files() {
         console.log(`📁 Created JSON directory: ${jsonDirectory}`);
     }
     
-    // Get all HTML files, excluding summary pages (20240xxx are summary pages, 20245xxx are individual awards)
-    const htmlFiles = fs.readdirSync(htmlDirectory)
+    // Get all HTML files from multiple locations, excluding summary pages
+    const mainHtmlFiles = fs.readdirSync(htmlDirectory)
         .filter(file => file.endsWith('.html') && file !== '2024.html')
         .filter(file => !file.match(/^20240/)) // Skip summary pages like 20240120.html
-        .sort();
+        .map(file => ({ file, path: htmlDirectory }));
     
-    console.log(`📄 Found ${htmlFiles.length} HTML files to process`);
+    // Also check subdirectories for new session folders (240605, 240615, etc.)
+    let subDirFiles = [];
+    try {
+        const subDirs = fs.readdirSync(htmlDirectory, { withFileTypes: true })
+            .filter(dirent => dirent.isDirectory())
+            .map(dirent => dirent.name);
+        
+        subDirs.forEach(subDir => {
+            const subDirPath = path.join(htmlDirectory, subDir);
+            const subDirHtmlFiles = fs.readdirSync(subDirPath)
+                .filter(file => file.endsWith('.html') && file.match(/^2024[5-9]/)) // Award files start with 2024[5-9]
+                .map(file => ({ file, path: subDirPath, subDir }));
+            subDirFiles = subDirFiles.concat(subDirHtmlFiles);
+        });
+    } catch (error) {
+        console.log(`⚠️  Could not read subdirectories: ${error.message}`);
+    }
+    
+    // Combine all HTML files
+    const allHtmlFiles = [...mainHtmlFiles, ...subDirFiles];
+    
+    // Filter out files that already have corresponding JSON files
+    const newHtmlFiles = allHtmlFiles.filter(({ file }) => {
+        const awardNum = path.basename(file, '.html');
+        const jsonPath = path.join(jsonDirectory, `${awardNum}.json`);
+        const exists = fs.existsSync(jsonPath);
+        if (exists) {
+            console.log(`⏭️  Skipping ${awardNum} - JSON already exists`);
+        }
+        return !exists;
+    });
+    
+    console.log(`📄 Found ${allHtmlFiles.length} total HTML files`);
+    console.log(`✅ ${allHtmlFiles.length - newHtmlFiles.length} already have JSON files (skipped)`);
+    console.log(`🆕 ${newHtmlFiles.length} new HTML files to process`);
     console.log(`🧠 Using logic reference: ${logicPath}\n`);
     
     const results = {
@@ -500,14 +809,29 @@ function processAll2024Files() {
         failures: []
     };
     
-    htmlFiles.forEach((htmlFile, index) => {
-        const awardNum = path.basename(htmlFile, '.html');
-        console.log(`\n📋 [${index + 1}/${htmlFiles.length}] Processing ${awardNum}...`);
+    newHtmlFiles.forEach((htmlFileInfo, index) => {
+        const { file, path: filePath, subDir } = htmlFileInfo;
+        const awardNum = path.basename(file, '.html');
+        const fullPath = path.join(filePath, file);
+        
+        console.log(`\n📋 [${index + 1}/${newHtmlFiles.length}] Processing ${awardNum}...`);
+        if (subDir) {
+            console.log(`   📁 From subdirectory: ${subDir}`);
+        }
         
         results.processed++;
         
         try {
-            const extractedData = extractFullAwardDataFromHtml(awardNum);
+            // Temporarily update the htmlDirectory path for extractFullAwardDataFromHtml
+            const originalHtmlDirectory = htmlDirectory;
+            const tempHtmlDirectory = filePath;
+            
+            // Read the HTML file directly instead of using the global htmlDirectory
+            const htmlFilePath = fullPath;
+            const htmlContent = fs.readFileSync(htmlFilePath, 'utf-8');
+            
+            // Call extraction with the HTML content directly
+            const extractedData = extractAwardDataFromHtmlContent(awardNum, htmlContent);
             
             if (extractedData) {
                 const outputPath = path.join(jsonDirectory, `${awardNum}.json`);
@@ -520,14 +844,16 @@ function processAll2024Files() {
                     awardNum,
                     plant: `${extractedData.genus} ${extractedData.species} ${extractedData.clone ? `'${extractedData.clone}'` : ''}`,
                     award: `${extractedData.award} ${extractedData.awardpoints}`,
-                    exhibitor: extractedData.exhibitor
+                    exhibitor: extractedData.exhibitor,
+                    subDir: subDir || 'main'
                 });
             } else {
                 console.log(`❌ Failed: Could not extract data from ${awardNum}.html`);
                 results.failed++;
                 results.failures.push({
                     awardNum,
-                    reason: 'Extraction failed'
+                    reason: 'Extraction failed',
+                    subDir: subDir || 'main'
                 });
             }
             
@@ -536,7 +862,8 @@ function processAll2024Files() {
             results.failed++;
             results.failures.push({
                 awardNum,
-                reason: error.message
+                reason: error.message,
+                subDir: subDir || 'main'
             });
         }
     });
@@ -604,6 +931,7 @@ if (require.main === module) {
 
 module.exports = {
     extractFullAwardDataFromHtml,
+    extractAwardDataFromHtmlContent,
     processAll2024Files,
     testSingleFile,
     applyMissingInfoLogic

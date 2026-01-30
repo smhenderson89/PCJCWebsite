@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245391",
+  "genus": "Phalaenopsis",
+  "species": "equestris",
+  "clone": "Join",
+  "cross": "species",
+  "award": "CHM",
+  "awardpoints": 84,
+  "exhibitor": "Lee, Tin Hsun",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245391.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 2.6,
+    "NSV": 2.8,
+    "DSW": 0.7,
+    "DSL": 1.4,
+    "PETW": 0.7,
+    "PETL": 1.1,
+    "LSW": 0.7,
+    "LSL": 1.1,
+    "LIPW": 0.6,
+    "LIPL": 1.1,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Thirty-seven flowers and 15 buds on one 31-cm arching inflorescence and one additional inflorescence on keiki off previously flowered inflorescence; sepals and petals white blushed pink; lip white, spotted maroon basally, side lobes two maroon strips centrally, midlobe blushed pink, speckled maroon basal 4/5ths, callus white spotted maroon; column pink, anther cap white; substance medium; texture crystalline; noted for wild-collected native phalaenopsis on Little Orchid Island off southeast coast of Taiwan."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.949Z",
+  "photo": "20245391.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.950Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "no-point"
+  }
+}

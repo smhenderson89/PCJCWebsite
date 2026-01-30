@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245298",
+  "genus": "Phalaenopsis",
+  "species": "tetraspis f",
+  "clone": "",
+  "cross": "species",
+  "award": "HCC",
+  "awardpoints": 77,
+  "exhibitor": "Evan Shen",
+  "photographer": "Chaunie Langland",
+  "date": "September 21, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/240921/20245298.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 4.1,
+    "NSV": 4.3,
+    "DSW": 1,
+    "DSL": 2.1,
+    "PETW": 0.95,
+    "PETL": 1.9,
+    "LSW": 1.2,
+    "LSL": 2.6,
+    "LIPW": 0.4,
+    "LIPL": 1.6,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Eight stellate flowers and two buds on two branched up to 15.5-cm inflorescences; sepals white randomly overlaid indigo-violet; petals white overlaid indigo-violet; lip white, indigo-blue basally; column white, blotched indigo; substance firm; texture waxy."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.865Z",
+  "photo": "20245298.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.866Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

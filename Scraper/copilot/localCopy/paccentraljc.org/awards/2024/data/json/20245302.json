@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245302",
+  "genus": "Cattleya",
+  "species": "perrinii (Coerulea)",
+  "clone": "Stunner",
+  "cross": "species",
+  "award": "AM",
+  "awardpoints": 86,
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "date": "November 16, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/241116/20245302.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 13.7,
+    "NSV": 14.5,
+    "DSW": 1.7,
+    "DSL": 7.6,
+    "PETW": 2.8,
+    "PETL": 7.7,
+    "LSW": 1.5,
+    "LSL": 6.8,
+    "LIPW": 2,
+    "LIPL": 5,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Six stellate, realtively flat flowers with upright dorsals on two unsupported up-to 23-cm inflorescences; sepals and petals lanceolate, pale suffuse indigo; lip margin ruffled, indigo distally, throat white; column arched, white, anther cap white; substance average; texture crystalline."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.881Z",
+  "photo": "20245302.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.882Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

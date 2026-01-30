@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245304",
+  "genus": "Cattleya",
+  "species": "wittigiana",
+  "clone": "Sarah Langland",
+  "cross": "species",
+  "award": "AM",
+  "awardpoints": 84,
+  "exhibitor": "Chaunie Langland",
+  "photographer": "Chaunie Langland",
+  "date": "December 21, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/241221/20245304.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 7.1,
+    "NSV": 6.1,
+    "DSW": 1.9,
+    "DSL": 2.6,
+    "PETW": 3.9,
+    "PETL": 3.5,
+    "LSW": 1.5,
+    "LSL": 2.8,
+    "LIPW": 1,
+    "LIPL": 1.9,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "One full, flat flower on one 8.0-cm inflorescence; sepals and petals dark rose, deeper rose veination, sepals ovate, petals rhombic; lip cream overlaid dark rose, veined dark rose proximally, throat yellow; column winged, cream, anther cap cream; substance firm; texture diamond dust."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.887Z",
+  "photo": "20245304.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.888Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

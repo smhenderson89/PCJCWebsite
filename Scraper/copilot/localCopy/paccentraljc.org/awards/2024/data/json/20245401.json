@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245401",
+  "genus": "Habenaria",
+  "species": "Regnieri",
+  "clone": "Chi Mei",
+  "cross": "Habenaria carnea x Habenaria rhodocheila",
+  "award": "AM",
+  "awardpoints": 85,
+  "exhibitor": "Wu, San-Xian",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245401.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 2.9,
+    "NSV": 3.5,
+    "DSW": 0.6,
+    "DSL": 1,
+    "PETW": 0.1,
+    "PETL": 0.5,
+    "LSW": 0.8,
+    "LSL": 1,
+    "LIPW": 2.8,
+    "LIPL": 3.1,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Three hundred one flowers and 14 buds stunningly displayed on 20 up to 34.4-cm upright inflorescences; plant 24.5 cm wide x 31.4 cm high in a 25-cm diameter plastic pot, media potting soil; dorsal sepal hooded, white, pink marginally, green centrally; lateral sepals white; petals minute, blushed pink; lip trilobed, coral-pink; spur 5.1cm, green proximal half, salmon-pink distal half; substance soft; texture matte; also awarded a CCE of 93 points, award 20245402."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.985Z",
+  "photo": "20245401.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.986Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

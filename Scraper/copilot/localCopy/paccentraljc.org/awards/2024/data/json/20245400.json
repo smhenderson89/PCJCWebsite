@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245400",
+  "genus": "Phalaenopsis",
+  "species": "Princess Ai",
+  "clone": "Lungting A133",
+  "cross": "Phalaenopsis Ming-Hsing Eagle x Phalaenopsis Sogo Yukidian",
+  "award": "AM",
+  "awardpoints": 85,
+  "exhibitor": "Lung Ting Life Sciences Co., Ltd.",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245400.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 13.8,
+    "NSV": 12,
+    "DSW": 5.5,
+    "DSL": 6.8,
+    "PETW": 8.9,
+    "PETL": 6.9,
+    "LSW": 4.4,
+    "LSL": 6.4,
+    "LIPW": 2.4,
+    "LIPL": 3.3,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Nine flowers and two buds on one 84-cm arching inflorescence; sepals and petals white overlaid shell pink, petals almost touching; lip white, burgundy stripes at base, midlobe white overlaid yellow center and edge, burned orange basally, side lobes white overlaid yellow edge, callus yellow, speckled burgundy; anther cap white; substance firm; texture crystalline."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.981Z",
+  "photo": "20245400.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.982Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

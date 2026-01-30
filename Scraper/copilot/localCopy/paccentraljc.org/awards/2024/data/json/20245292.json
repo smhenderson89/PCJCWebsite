@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245292",
+  "genus": "Paphiopedilum",
+  "species": "victoria-regina",
+  "clone": "Dan Pham",
+  "cross": "species",
+  "award": "HCC",
+  "awardpoints": 78,
+  "exhibitor": "Mary Bui-Pham",
+  "photographer": "Chaunie Langland",
+  "date": "July 20, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/240720/20245292.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 8.9,
+    "NSV": 6.9,
+    "DSW": 4,
+    "DSL": 4.2,
+    "PETW": 1.2,
+    "PETL": 4.9,
+    "LSW": 0,
+    "LSL": 0,
+    "LIPW": 0,
+    "LIPL": 0,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Two flowers and one bud on one 37-cm arched inflorescence; dorsal sepal undulate, hirsute exterior, cream overlaid green medially, striped cordovan proximally; synsepal undulate, hirsute exterior, green; petals narrow, twisted distally, undulate, ciliate, light green blotched cordovan; pouch cream overlaid rose, speckled darker rose; staminode dark olive green; substance firm; texture matte."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.841Z",
+  "photo": "20245292.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.842Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

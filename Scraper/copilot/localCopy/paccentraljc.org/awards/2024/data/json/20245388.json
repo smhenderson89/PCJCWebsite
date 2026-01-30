@@ -1,0 +1,42 @@
+{
+  "awardNum": "20245388",
+  "genus": "Paphiopedilum",
+  "species": "hangianum",
+  "clone": "Summer Wine",
+  "cross": "species",
+  "award": "AM",
+  "awardpoints": 88,
+  "exhibitor": "Shi, Ming-Zhang",
+  "photographer": "N/A",
+  "date": "November 5, 2024",
+  "location": "National Cheng Kung University Fall Orchid Show, Taiwan",
+  "sourceUrl": "https://paccentraljc.org/241105/20245388.html",
+  "measurements": {
+    "type": "Pouch&SynselPal",
+    "NS": 11.7,
+    "NSV": 11.3,
+    "DSW": 5.5,
+    "DSL": 6.8,
+    "PETW": 5.7,
+    "PETL": 7,
+    "LSW": 0,
+    "LSL": 0,
+    "LIPW": 0,
+    "LIPL": 0,
+    "PCHW": 3.7,
+    "SYNSL": 6.5,
+    "SYNSW": 5.2,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "One full flower on one 9-cm erect inflorescence; sepals creamy pale green flushed raspberry basally; petals cream, boldly tessellated rich raspberry, intense burgundy overlaid white hirsute basally; pouch cream, flushed light pink; staminode cream, raspberry markings; substance firm; texture matte.",
+    "PCHL": 4.5
+  },
+  "scrapedDate": "2026-01-30T20:06:57.941Z",
+  "photo": "20245388.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.942Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

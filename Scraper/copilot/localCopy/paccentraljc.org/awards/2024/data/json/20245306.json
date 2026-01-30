@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245306",
+  "genus": "Aerangis",
+  "species": "Lindsay",
+  "clone": "Kevin C. Walters",
+  "cross": "Aerangis leuteoalba v. rhodosticta x Aerangis hyaloides",
+  "award": "CCM",
+  "awardpoints": 85,
+  "exhibitor": "Jim Heilig",
+  "photographer": "Chaunie Langland",
+  "date": "December 21, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/241221/20245306.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 2,
+    "NSV": 2,
+    "DSW": 0.3,
+    "DSL": 1,
+    "PETW": 0.3,
+    "PETL": 1.1,
+    "LSW": 0.3,
+    "LSL": 0.9,
+    "LIPW": 0.6,
+    "LIPL": 1.1,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "Approxiamately four hundred twenty-five flowers and 25 buds on 25 left-sweeping up-to 26-cm inflorescences; incredibly well-grown, immaculate, very compact plant, 22 cm wide, 15 cm tall, 16-cm hardwood branch mount; flowers white; sepals and petals lanceolate; lip spatulate, spur 1.8 cm; column and anther cap bright yellow; substance medium; texture diamond dust."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.895Z",
+  "photo": "20245306.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.896Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

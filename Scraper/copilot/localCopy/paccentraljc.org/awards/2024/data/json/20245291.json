@@ -1,0 +1,41 @@
+{
+  "awardNum": "20245291",
+  "genus": "Epidendrum",
+  "species": "Pacific Parade",
+  "clone": "Pumpkins",
+  "cross": "Epidendrum Sun Valley x Epidendrum Pacific Vista",
+  "award": "AM",
+  "awardpoints": 83,
+  "exhibitor": "Japheth Ko",
+  "photographer": "Chaunie Langland",
+  "date": "July 20, 2024",
+  "location": "Filoli Historic House",
+  "sourceUrl": "https://paccentraljc.org/240720/20245291.html",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "NS": 3.6,
+    "NSV": 4,
+    "DSW": 1.1,
+    "DSL": 1.9,
+    "PETW": 1.1,
+    "PETL": 2,
+    "LSW": 1.1,
+    "LSL": 1.6,
+    "LIPW": 2,
+    "LIPL": 3.6,
+    "PCHW": 0,
+    "SYNSL": 0,
+    "SYNSW": 0,
+    "numFlowers": 0,
+    "numBuds": 0,
+    "numInflorescences": 0,
+    "description": "One hundred twenty-seven umbellate evenly spaced full flowers and 120 buds on five up to 25.3-cm upright inflorescences; sepals and petals orange suffused red; lip tri-lobed, lanciniate, yellow-orange overlaid yellow basally, slighly stippled red; column red, yellow distally; substance medium; texture crystalline, lip matte."
+  },
+  "scrapedDate": "2026-01-30T20:06:57.835Z",
+  "photo": "20245291.jpg",
+  "logicApplied": {
+    "timestamp": "2026-01-30T20:06:57.838Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}
