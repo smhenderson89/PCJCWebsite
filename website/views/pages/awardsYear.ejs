@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <%- include('../partials/head'); %>
+  <!-- Page-specific scripts -->
+  <script src="/js/services/awards-cache-service.js"></script>
+  <script src="/js/pages/awards-year.js"></script>
 </head>
 <body class="container">
 
@@ -10,39 +13,40 @@
 </header>
 
 <main>
+  <!-- Hidden data for JavaScript to access -->
+  <div id="awards-year-data" data-year="<%= year %>" style="display: none;"></div>
+  
   <div class="row">
     <div class="col-sm-8 text-center mx-auto">
-        <h1>Year Awards</h1>
-      </div>
+        <h1><%= year %> Awards</h1>
     </div>
   </div>
   
-  <% if (typeof error !== 'undefined') { %>
-    <div class="alert alert-danger" role="alert">
-      <%= error %>
+  <!-- Loading indicator -->
+  <div id="loading-indicator" class="text-center my-4">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading awards...</span>
     </div>
-  <% } %>
+    <p>Loading awards for <%= year %>...</p>
+  </div>
   
-  <% if (awardCounts && awardCounts.length > 0) { %>
-    <% awardCounts.reverse().forEach(function(yearData) { %>
-      <div class="row">
-        <div class="col">
-          <h6><%= yearData.year %> Awards (<%= yearData.count %> total)</h6>
-        </div>
-        <div class="col">
-          <p><a href="/awards/<%= yearData.year %>" class="btn btn-primary">View <%= yearData.year %> Awards</a></p>
-        </div>
-      </div>
-    <% }); %>
-  <% } else { %>
-    <div class="row">
-      <div class="col">
-        <p>No award data available at this time.</p>
-      </div>
-    </div>
-  <% } %>
-
+  <!-- Error message -->
+  <div id="error-message" class="alert alert-danger d-none" role="alert">
+    Failed to load awards. Please try again later.
+  </div>
+  
+  <!-- Awards container -->
+  <div id="awards-container" class="row d-none">
+    <!-- Awards will be populated here -->
+  </div>
 </main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>
 
 <footer>
   <%- include('../partials/footer'); %>

@@ -11,6 +11,18 @@ app.use(express.static(path.join(__dirname, 'public'), {
   etag: false    // Disable etag generation for better performance
 }));
 
+// Serve database images from /db/images as /images
+app.use('/images', express.static(path.join(__dirname, '..', 'db', 'images'), {
+  maxAge: '1h',
+  etag: false
+}));
+
+// Serve thumbnails from /db/thumbnails as /thumbnails
+app.use('/thumbnails', express.static(path.join(__dirname, '..', 'db', 'thumbnails'), {
+  maxAge: '24h', // Cache thumbnails longer since they don't change
+  etag: false
+}));
+
 // Security middleware (AFTER static files)
 const { setupSecurity } = require('./src/middleware/security');
 
@@ -52,6 +64,12 @@ const port = 8000
 
 // Import routes
 const routes = require('./src/routes/index');
+
+// Import middleware
+const staticAssetRedirects = require('./src/middleware/staticAssetRedirects');
+
+// Apply middleware BEFORE routes
+app.use(staticAssetRedirects()); // Handle PWA icon redirects and well-known requests
 
 // Use routes
 app.use('/', routes.awards.api);     // Awards API routes

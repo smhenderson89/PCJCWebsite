@@ -31,7 +31,12 @@ class DatabaseService {
 
   // Select awards for a specific year
   getAwardsByYear(year) {
-    const stmt = this.db.prepare(`SELECT * FROM awards 
+    const stmt = this.db.prepare(`SELECT *,
+      thumbnail_jpeg_small,
+      thumbnail_jpeg_medium,
+      thumbnail_webp_small,
+      thumbnail_webp_medium
+      FROM awards 
       WHERE year = ? 
       ORDER BY date_iso ASC, awardNum ASC `);
     return stmt.all(year);

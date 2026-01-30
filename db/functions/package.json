@@ -1,0 +1,17 @@
+{
+  "name": "orchid-thumbnail-generator",
+  "version": "1.0.0",
+  "description": "Thumbnail generator for orchid award images",
+  "main": "thumbnail-generator.js",
+  "scripts": {
+    "generate": "node thumbnail-generator.js",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "sharp": "^0.33.0",
+    "better-sqlite3": "^9.2.2"
+  },
+  "keywords": ["thumbnails", "image", "optimization", "orchids"],
+  "author": "",
+  "license": "MIT"
+}

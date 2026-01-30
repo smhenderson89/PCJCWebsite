@@ -55,8 +55,8 @@ class AwardsController {
 
     try {
       const awards = this.dbService.getAwardsByYear(year);
-      const formattedAwards = MeasurementFormatter.formatAwardsArray(awards);
-      res.json({ success: true, data: formattedAwards });
+      // const formattedAwards = MeasurementFormatter.formatAwardsArray(awards);
+      res.json({ success: true, data: awards });
     } catch (error) {
       console.error(`Error getting awards for year ${year}:`, error);
       res.status(500).json({ 

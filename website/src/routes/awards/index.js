@@ -27,17 +27,27 @@ router.get('/awardslist', (req, res) => {
 // Individual year awards page
 router.get('/awards/:year', (req, res) => {
   try {
-    const year = req.params.year;
-    const awards = dbService.getAwardsByYear(year);
+    const year = parseInt(req.params.year, 10);
+    
+    // Validate year
+    if (isNaN(year) || year < 2000 || year > new Date().getFullYear()) {
+      return res.status(404).render('pages/error', { 
+        title: 'Invalid Year - Pacific Central Judging Center',
+        error: `Invalid year: ${req.params.year}`
+      });
+    }
+
+    // Just render the template with the year - let client-side load data
     res.render('pages/awardsYear', { 
-      awards: awards,
-      year: year
+      title: `${year} Awards - Pacific Central Judging Center`,
+      year: year,
+      awards: [] // Empty - will be loaded client-side
     });
   } catch (error) {
-    console.error('Error getting awards for year:', error);
+    console.error('Error rendering awards year page:', error);
     res.status(500).render('pages/error', { 
       title: 'Error - Pacific Central Judging Center',
-      error: `Unable to load awards for ${req.params.year}`
+      error: `Unable to load awards page for ${req.params.year}`
     });
   }
 });
