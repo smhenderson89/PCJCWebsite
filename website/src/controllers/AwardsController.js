@@ -66,6 +66,42 @@ class AwardsController {
     }
   }
 
+  // API endpoint to get award by award number for a specific year
+  async getDetailedAwardInfo(req, res) {
+    // Check if session storage already exists for this year/awardNum?
+    
+    // If yes, then use the sesison data to reurn the specific award info
+    
+    // If no, then fetch from API
+
+    const year = parseInt(req.params.year, 10);
+    const awardNum = req.params.awardNum;
+    if (isNaN(year) || !awardNum) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Invalid year or award number parameter' 
+      });
+    }
+
+    try {
+      const awards = this.dbService.getAwardsByYear(year);
+      const award = awards.find(a => a.awardNum === awardNum);
+      if (award) {
+        res.json({ success: true, data: award });
+      } else {
+        res.status(404).json({ 
+          success: false,
+          error: 'Award not found' 
+        });
+      }
+    } catch (error) {
+      console.error(`Error getting award number ${awardNum} for year ${year}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load award for the specified year and award number' 
+      });
+    }
+  }
   // API endpoint to get awards by day
   async getAwardsByDay(req, res) {
     try {

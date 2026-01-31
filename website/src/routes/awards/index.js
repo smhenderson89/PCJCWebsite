@@ -31,8 +31,8 @@ router.get('/awards/:year', (req, res) => {
     
     // Validate year
     if (isNaN(year) || year < 2000 || year > new Date().getFullYear()) {
-      return res.status(404).render('pages/error', { 
-        title: 'Invalid Year - Pacific Central Judging Center',
+      return res.status(404).json({ 
+        success: false,
         error: `Invalid year: ${req.params.year}`
       });
     }
@@ -45,9 +45,47 @@ router.get('/awards/:year', (req, res) => {
     });
   } catch (error) {
     console.error('Error rendering awards year page:', error);
-    res.status(500).render('pages/error', { 
-      title: 'Error - Pacific Central Judging Center',
+    res.status(500).json({ 
+      success: false,
       error: `Unable to load awards page for ${req.params.year}`
+    });
+  }
+});
+
+
+// Individual award detailed page
+router.get('/award/:year/:awardNum', (req, res) => {
+  try {
+    const year = parseInt(req.params.year, 10);
+    const awardNum = req.params.awardNum;
+    
+    // Validate year
+    if (isNaN(year) || year < 2000 || year > new Date().getFullYear()) {
+      return res.status(404).json({ 
+        success: false,
+        error: `Invalid year: ${req.params.year}`
+      });
+    }
+
+    // Validate award number format (should start with year)
+    if (!awardNum || !awardNum.startsWith(year.toString())) {
+      return res.status(404).json({ 
+        success: false,
+        error: `Invalid award number: ${awardNum}`
+      });
+    }
+
+    // Just render the template with the parameters - let client-side load data
+    res.render('pages/awardDetailed', { 
+      title: `Award ${awardNum} - Pacific Central Judging Center`,
+      year: year,
+      awardNum: awardNum
+    });
+  } catch (error) {
+    console.error('Error rendering award detailed page:', error);
+    res.status(500).json({ 
+      success: false,
+      error: `Unable to load award page for ${req.params.awardNum}`
     });
   }
 });
@@ -64,8 +102,8 @@ router.get('/awards/:year/events', (req, res) => {
     });
   } catch (error) {
     console.error('Error getting awards by day for year:', error);
-    res.status(500).render('pages/error', { 
-      title: 'Error - Pacific Central Judging Center',
+    res.status(500).json({ 
+      success: false,
       error: `Unable to load awards by day for ${req.params.year}`
     });
   }

@@ -262,11 +262,16 @@ function renderAwardsGroupedByDate(groupedAwards) {
           ${awards.map(award => {
             // Generate optimized image HTML with WebP support and responsive sizing
             const imageHTML = generateOptimizedImageHTML(award, 'card');
+            // Get year from page data attribute for the link
+            const yearElement = document.getElementById('awards-year-data');
+            const year = yearElement ? yearElement.dataset.year : '';
             
             return `
             <div class="col-md-3 col-sm-6 mb-3">
               <div class="card">
-                ${imageHTML}
+                <a href="/award/${year}/${award.awardNum}" class="text-decoration-none">
+                  ${imageHTML}
+                </a>
                 <div class="card-body">
                   <h6 class="card-title">${award.award} ${award.awardpoints || ''}</h6>
                   <p class="card-text">${award.genus} ${award.species || ''}</p>

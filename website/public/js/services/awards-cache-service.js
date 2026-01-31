@@ -15,6 +15,7 @@ class AwardsCacheService {
    * @returns {Promise<Object>} Awards data
    */
   async getAwardsByYear(year, maxAgeMinutes = 60) {
+    console.log(`Requesting awards for year: ${year}`);
     const cacheKey = `${this.cachePrefix}${year}`;
     
     // Check session storage first
@@ -93,6 +94,65 @@ class AwardsCacheService {
   isCached(year) {
     const cacheKey = `${this.cachePrefix}${year}`;
     return sessionStorage.getItem(cacheKey) !== null;
+  }
+
+  /**
+   * Get detailed award info for a specific year and award number
+   * Checks sessionStorage cache first, then falls back to API
+   * @param {number} year - The year of the award
+   * @param {string} awardNum - The award number
+   * @param {number} maxAgeMinutes - Maximum age of cached data in minutes (default: 60)
+   * @returns {Promise<Object>} Award data
+   */
+  async getDetailedAwardInfo(year, awardNum, maxAgeMinutes = 60) {
+    console.log(`Requesting detailed info for award ${awardNum} from year ${year}`);
+    
+    // First check if we have cached year data
+    const cacheKey = `${this.cachePrefix}${year}`;
+    const cachedData = sessionStorage.getItem(cacheKey);
+    
+    if (cachedData) {
+      const parsed = JSON.parse(cachedData);
+      
+      // Check if cache has timestamp and is still valid
+      if (parsed.timestamp) {
+        const cacheAge = (Date.now() - parsed.timestamp) / (1000 * 60); // minutes
+        if (cacheAge < maxAgeMinutes && parsed.data && parsed.data.success) {
+          // Search for the specific award in cached data
+          const awards = parsed.data.data || [];
+          const award = awards.find(a => a.awardNum === awardNum);
+          
+          if (award) {
+            console.log(`Found award ${awardNum} in cache (${Math.round(cacheAge)} minutes old)`);
+            return { success: true, data: award, source: 'cache' };
+          } else {
+            console.log(`Award ${awardNum} not found in cached data`);
+          }
+        } else {
+          console.log(`Cache for ${year} expired (${Math.round(cacheAge)} minutes old)`);
+        }
+      }
+    }
+
+    // No cache or award not found in cache - fetch from API
+    console.log(`Fetching detailed award ${awardNum} for ${year} from API`);
+    try {
+      const response = await fetch(`${this.baseUrl}/${year}/award/${awardNum}`);
+      
+      if (!response.ok) {
+        if (response.status === 404) {
+          return { success: false, error: 'Award not found' };
+        }
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      console.log(`Fetched detailed award ${awardNum} from API`);
+      return { ...data, source: 'api' };
+    } catch (error) {
+      console.error(`Error fetching detailed award ${awardNum}:`, error);
+      throw error;
+    }
   }
 
   /**
