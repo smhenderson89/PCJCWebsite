@@ -345,19 +345,20 @@ function trackImageLoadingPerformance() {
     console.log(`📊 Performance: ${totalImages} images to load`);
   }, 100);
   
-  // Listen for image load events
-  document.addEventListener('load', function(e) {
-    if (e.target.tagName === 'IMG' && e.target.classList.contains('card-img-top')) {
-      loadedImages++;
-      const loadTime = performance.now() - loadStartTime;
-      console.log(`📈 Image ${loadedImages}/${totalImages} loaded in ${loadTime.toFixed(0)}ms`);
+  // Listen for image load events - DEUBG ONLY
+//   document.addEventListener('load', function(e) {
+//     if (e.target.tagName === 'IMG' && e.target.classList.contains('card-img-top')) {
+//       loadedImages++;
+//       const loadTime = performance.now() - loadStartTime;
+//       console.log(`📈 Image ${loadedImages}/${totalImages} loaded in ${loadTime.toFixed(0)}ms`);
       
-      if (loadedImages === totalImages) {
-        console.log(`🎉 All images loaded in ${loadTime.toFixed(0)}ms total`);
-      }
-    }
-  }, true);
+//       if (loadedImages === totalImages) {
+//         console.log(`🎉 All images loaded in ${loadTime.toFixed(0)}ms total`);
+//       }
+//     }
+//   }, true);
 }
+
 
 // Make diagnostic functions globally available
 window.showBrowserCapabilities = showBrowserCapabilities;

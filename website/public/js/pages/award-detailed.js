@@ -1,12 +1,15 @@
 /**
- * Award Detailed Page Logic
- * Handles loading and displaying detailed information for a specific award
- * URL pattern: /awards/:year/:awardNum
+ * Award Detailed Page Logic - Clean Version
+ * Handles sessionStorage checking and data fetching for award details
+ * URL pattern: /award/:year/:awardNum
  */
 
 // Initialize page on DOM load
 document.addEventListener('DOMContentLoaded', async function() {
   console.log('🔍 Award Detailed Page - Starting initialization...');
+  
+  // Clear any corrupted sessionStorage data before starting
+  clearCorruptedSessionStorage();
   
   // Parse URL parameters from the current path
   const urlParams = parseUrlParams();
@@ -24,38 +27,60 @@ document.addEventListener('DOMContentLoaded', async function() {
   console.log(`🎯 Loading detailed award page for: Year ${urlParams.year}, Award ${urlParams.awardNum}`);
   
   try {
-    console.log('🔄 Calling awardsCacheService.getDetailedAwardInfo...');
+    // Step 1: Check if sessionStorage already has data for this year
+    console.log('🔍 Step 1: Checking sessionStorage for year data...');
+    let yearAwardsData = checkSessionStorageForYear(urlParams.year);
+    let dataSource = 'cache';
     
-    // Use the cache service to get detailed award info
-    const result = await awardsCacheService.getDetailedAwardInfo(urlParams.year, urlParams.awardNum);
-    
-    console.log('✅ Received response from cache service:', result);
-    
-    if (result.success) {
-      console.log('🎉 SUCCESS! Award data loaded successfully');
-      console.log('==========================================');
-      console.log('📊 AWARD INFORMATION:');
-      console.log('==========================================');
-      console.log('🔹 Award Number:', result.data.awardNum);
-      console.log('🔹 Award Type:', result.data.award);
-      console.log('🔹 Points:', result.data.awardpoints || 'N/A');
-      console.log('🔹 Genus:', result.data.genus || 'N/A');
-      console.log('🔹 Species:', result.data.species || 'N/A');
-      console.log('🔹 Date:', result.data.date || 'N/A');
-      console.log('🔹 Location:', result.data.location || 'N/A');
-      console.log('🔹 Exhibitor:', result.data.exhibitor || 'N/A');
-      console.log('🔹 Photo Path:', result.data.photo || 'N/A');
-      console.log('🔹 Data Source:', result.source);
-      console.log('==========================================');
-      console.log('📋 Full Award Object:', result.data);
-      console.log('==========================================');
-      
-      // Display the award
-      displayAward(result.data, result.source);
+    if (yearAwardsData) {
+      console.log('✅ Found sessionStorage data for year', urlParams.year);
+      console.log('📦 SessionStorage data contains', yearAwardsData.length, 'awards');
     } else {
-      console.error('❌ Award not found:', result.error);
-      console.log('📝 Error details:', result);
-      showError(result.error || 'Award not found');
+      // Step 2: No sessionStorage data exists, make API call to get all awards for the year
+      console.log('❌ No sessionStorage data found for year', urlParams.year);
+      console.log('🔄 Step 2: Making API call to fetch all awards for year...');
+      
+      yearAwardsData = await fetchAwardsForYear(urlParams.year);
+      dataSource = 'api';
+      
+      if (!yearAwardsData) {
+        console.error('❌ Failed to fetch awards data from API');
+        showError('Failed to load awards data');
+        return;
+      }
+      
+      console.log('✅ Fetched', yearAwardsData.length, 'awards from API');
+    }
+    
+    // Step 3: Find the specific award in the year's data
+    console.log('🔍 Step 3: Looking for award', urlParams.awardNum, 'in year data...');
+    const specificAward = findAwardInYearData(yearAwardsData, urlParams.awardNum);
+    
+    if (specificAward) {
+      console.log('🎉 SUCCESS! Found award data');
+    //   console.log('==========================================');
+    //   console.log('📊 AWARD INFORMATION:');
+    //   console.log('==========================================');
+    //   console.log('🔹 Award Number:', specificAward.awardNum);
+    //   console.log('🔹 Award Type:', specificAward.award);
+    //   console.log('🔹 Points:', specificAward.awardpoints || 'N/A');
+    //   console.log('🔹 Genus:', specificAward.genus || 'N/A');
+    //   console.log('🔹 Species:', specificAward.species || 'N/A');
+    //   console.log('🔹 Date:', specificAward.date || 'N/A');
+    //   console.log('🔹 Location:', specificAward.location || 'N/A');
+    //   console.log('🔹 Exhibitor:', specificAward.exhibitor || 'N/A');
+    //   console.log('🔹 Photo Path:', specificAward.photo || 'N/A');
+    //   console.log('🔹 Data Source:', dataSource);
+    //   console.log('==========================================');
+    //   console.log('📋 Full Award Object:', specificAward);
+    //   console.log('==========================================');
+      
+      // Populate the EJS template with the award data
+      populateAwardTemplate(specificAward, dataSource);
+    } else {
+      console.error('❌ Award', urlParams.awardNum, 'not found in year', urlParams.year, 'data');
+      console.log('📝 Available awards in year data:', yearAwardsData.map(a => a.awardNum));
+      showError(`Award ${urlParams.awardNum} not found for year ${urlParams.year}`);
     }
     
   } catch (error) {
@@ -67,15 +92,15 @@ document.addEventListener('DOMContentLoaded', async function() {
 
 /**
  * Parse URL parameters from current location
- * Expects URL pattern: /awards/:year/:awardNum
+ * Expects URL pattern: /award/:year/:awardNum
  * @returns {Object} Object with year and awardNum
  */
 function parseUrlParams() {
   const path = window.location.pathname;
   const parts = path.split('/').filter(part => part.length > 0);
   
-  // Expected: ['awards', 'year', 'awardNum']
-  if (parts.length >= 3 && parts[0] === 'awards') {
+  // Expected: ['award', 'year', 'awardNum']
+  if (parts.length >= 3 && parts[0] === 'award') {
     return {
       year: parseInt(parts[1], 10),
       awardNum: parts[2]
@@ -86,138 +111,238 @@ function parseUrlParams() {
 }
 
 /**
- * Display the award information
- * @param {Object} award - The award data object
- * @param {string} source - Data source ('cache' or 'api')
+ * Clear any corrupted sessionStorage data for awards
  */
-function displayAward(award, source) {
-  console.log(`🎨 Displaying award from: ${source}`);
-  console.log('🎨 Award object for display:', award);
+function clearCorruptedSessionStorage() {
+  console.log('🧹 Checking for corrupted sessionStorage data...');
   
-  // Get container for award display
-  let container = document.getElementById('award-container');
-  
-  // If container doesn't exist, create it in the body
-  if (!container) {
-    console.log('📦 Award container not found, creating one...');
-    container = document.createElement('div');
-    container.id = 'award-container';
-    container.className = 'container mt-4';
-    
-    // Find a good place to insert it (after any existing content)
-    const body = document.body;
-    const main = document.querySelector('main') || body;
-    main.appendChild(container);
-    console.log('📦 Created award container');
+  const keysToCheck = [];
+  for (let i = 0; i < sessionStorage.length; i++) {
+    const key = sessionStorage.key(i);
+    if (key && key.startsWith('awards_')) {
+      keysToCheck.push(key);
+    }
   }
   
-  console.log('📦 Award container found/created:', container);
-  
-  // Create comprehensive award display HTML
-  const html = `
-    <div class="alert alert-success mb-4">
-      <h4 class="alert-heading">✅ Award Loaded Successfully!</h4>
-      <p class="mb-0">Data loaded from: <strong>${source}</strong> | Award ID: <strong>${award.awardNum}</strong></p>
-    </div>
-    
-    <div class="card shadow">
-      <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
-        <h2 class="mb-0">🏆 Award #${award.awardNum}</h2>
-        <span class="badge bg-light text-dark">Source: ${source}</span>
-      </div>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-8">
-            <h3 class="text-primary">${award.award || 'Unknown Award'} ${award.awardpoints ? `(${award.awardpoints} points)` : ''}</h3>
-            <h4 class="text-secondary mb-3">${award.genus || 'Unknown'} ${award.species || ''}</h4>
-            
-            <div class="row mb-3">
-              <div class="col-sm-6">
-                <p><strong>📅 Date:</strong> ${award.date || award.date_iso || 'Unknown'}</p>
-                <p><strong>📍 Location:</strong> ${award.location || 'Unknown'}</p>
-              </div>
-              <div class="col-sm-6">
-                <p><strong>👤 Exhibitor:</strong> ${award.exhibitor || 'Not specified'}</p>
-                <p><strong>🆔 Award Number:</strong> ${award.awardNum}</p>
-              </div>
-            </div>
-            
-            ${award.description ? `
-              <div class="mt-4">
-                <h5><strong>📝 Description:</strong></h5>
-                <div class="border rounded p-3 bg-light">${award.description}</div>
-              </div>
-            ` : ''}
-            
-            <!-- Debug information -->
-            <details class="mt-4">
-              <summary class="btn btn-outline-secondary btn-sm">🔍 Debug: Show Full Award Object</summary>
-              <pre class="mt-2 p-3 bg-dark text-light small rounded" style="max-height: 400px; overflow-y: auto;">${JSON.stringify(award, null, 2)}</pre>
-            </details>
-          </div>
-          
-          <div class="col-md-4">
-            <div class="text-center">
-              ${award.photo ? `
-                <img src="${award.photo.replace('database/images/', '/images/')}" 
-                     class="img-fluid rounded shadow" 
-                     alt="Award ${award.awardNum}"
-                     style="max-height: 400px; object-fit: cover;">
-                <p class="text-muted mt-2 small">Original Image</p>
-              ` : `
-                <div class="bg-light rounded p-4 text-muted">
-                  <i class="fas fa-image fa-3x mb-3"></i>
-                  <p>No image available</p>
-                </div>
-              `}
-              
-              <!-- Show thumbnail info if available -->
-              ${award.thumbnail_webp_small ? `
-                <div class="mt-3">
-                  <img src="/thumbnails/webp/small/${award.awardNum}.webp" 
-                       class="img-thumbnail" 
-                       alt="WebP Thumbnail"
-                       style="max-width: 100px;">
-                  <p class="text-muted small">WebP Thumbnail Available</p>
-                </div>
-              ` : ''}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  `;
-  
-  console.log('🎨 Setting container HTML...');
-  container.innerHTML = html;
-  container.classList.remove('d-none');
-  
-  console.log('🎨 Award display completed');
+  keysToCheck.forEach(key => {
+    try {
+      const data = sessionStorage.getItem(key);
+      if (data) {
+        const parsed = JSON.parse(data);
+        
+        // Check if it's corrupted (missing data or timestamp)
+        if (!parsed.timestamp || !parsed.data || !Array.isArray(parsed.data)) {
+          console.log(`🗑️ Removing corrupted sessionStorage key: ${key}`);
+          sessionStorage.removeItem(key);
+        } else {
+          console.log(`✅ SessionStorage key ${key} is valid (${parsed.data.length} awards)`);
+        }
+      }
+    } catch (error) {
+      console.log(`🗑️ Removing malformed sessionStorage key: ${key}`);
+      sessionStorage.removeItem(key);
+    }
+  });
 }
 
 /**
- * Show error message
+ * Step 1: Check sessionStorage for existing year data
+ * @param {number} year - The year to check for
+ * @returns {Array|null} Awards data from sessionStorage or null if not found
+ */
+function checkSessionStorageForYear(year) {
+  console.log('🔍 Checking sessionStorage for year:', year);
+  
+  const cacheKey = `awards_${year}`;
+  const cachedData = sessionStorage.getItem(cacheKey);
+  
+  if (!cachedData) {
+    console.log('❌ No sessionStorage data found for key:', cacheKey);
+    return null;
+  }
+  
+  try {
+    const parsedData = JSON.parse(cachedData);
+    console.log('✅ Found sessionStorage data structure:', Object.keys(parsedData));
+    console.log('📊 Raw sessionStorage data:', parsedData);
+    
+    // Check if data has the correct structure
+    if (!parsedData.timestamp) {
+      console.log('⚠️ SessionStorage data missing timestamp, removing corrupted data');
+      sessionStorage.removeItem(cacheKey);
+      return null;
+    }
+    
+    if (!parsedData.data) {
+      console.log('⚠️ SessionStorage data missing data array, removing corrupted data');
+      sessionStorage.removeItem(cacheKey);
+      return null;
+    }
+    
+    if (!Array.isArray(parsedData.data)) {
+      console.log('⚠️ SessionStorage data.data is not an array, removing corrupted data');
+      sessionStorage.removeItem(cacheKey);
+      return null;
+    }
+    
+    // Check if data is still valid (not expired)
+    const now = Date.now();
+    const cacheAge = now - parsedData.timestamp;
+    const maxAge = 60 * 60 * 1000; // 1 hour in milliseconds
+    
+    if (cacheAge < maxAge) {
+      console.log('✅ SessionStorage data is still valid (age:', Math.round(cacheAge / 60000), 'minutes)');
+      console.log('📦 Returning', parsedData.data.length, 'awards from sessionStorage');
+      return parsedData.data;
+    } else {
+      console.log('⚠️ SessionStorage data is expired (age:', Math.round(cacheAge / 60000), 'minutes)');
+      sessionStorage.removeItem(cacheKey);
+      return null;
+    }
+  } catch (error) {
+    console.error('❌ Error parsing sessionStorage data:', error);
+    console.log('🗑️ Removing corrupted sessionStorage data');
+    sessionStorage.removeItem(cacheKey);
+    return null;
+  }
+}
+
+/**
+ * Step 2: Fetch awards data from API for the specified year
+ * @param {number} year - The year to fetch awards for
+ * @returns {Array|null} Awards data from API or null if failed
+ */
+async function fetchAwardsForYear(year) {
+  console.log('🔄 Fetching awards from API for year:', year);
+  
+  try {
+    const apiUrl = `/api/awards/${year}`;
+    console.log('📡 Making API request to:', apiUrl);
+    
+    const response = await fetch(apiUrl);
+    
+    if (!response.ok) {
+      console.error('❌ API response not OK:', response.status, response.statusText);
+      const responseText = await response.text();
+      console.error('📄 Response body:', responseText.substring(0, 200));
+      return null;
+    }
+    
+    const awardsData = await response.json();
+    
+    // Validate the API response
+    if (!Array.isArray(awardsData)) {
+      console.error('❌ API response is not an array:', typeof awardsData);
+      return null;
+    }
+    
+    console.log('✅ API response received:', awardsData.length, 'awards');
+    
+    // Log a sample award for debugging
+    if (awardsData.length > 0) {
+      console.log('📋 Sample award structure:', {
+        awardNum: awardsData[0].awardNum,
+        award: awardsData[0].award,
+        genus: awardsData[0].genus,
+        hasPhoto: !!awardsData[0].photo
+      });
+    }
+    
+    // Store in sessionStorage for future use
+    const cacheKey = `awards_${year}`;
+    const cacheData = {
+      timestamp: Date.now(),
+      data: awardsData
+    };
+    
+    console.log('💾 Preparing to save to sessionStorage with key:', cacheKey);
+    console.log('📊 Cache data structure:', {
+      timestamp: cacheData.timestamp,
+      dataLength: cacheData.data.length,
+      dataType: typeof cacheData.data
+    });
+    
+    // Clear any existing corrupted data first
+    sessionStorage.removeItem(cacheKey);
+    
+    // Save the new data
+    sessionStorage.setItem(cacheKey, JSON.stringify(cacheData));
+    console.log('✅ Successfully saved awards data to sessionStorage');
+    
+    // Verify the save worked correctly
+    const verification = sessionStorage.getItem(cacheKey);
+    if (verification) {
+      const verified = JSON.parse(verification);
+      console.log('✓ Verification: sessionStorage contains', verified.data?.length || 0, 'awards');
+    }
+    
+    return awardsData;
+  } catch (error) {
+    console.error('❌ Error fetching awards from API:', error);
+    console.error('📝 Error details:', error.message);
+    return null;
+  }
+}
+
+/**
+ * Step 3: Find specific award in the year's awards data
+ * @param {Array} awardsData - Array of awards for the year
+ * @param {string} awardNum - The award number to find
+ * @returns {Object|null} The specific award object or null if not found
+ */
+function findAwardInYearData(awardsData, awardNum) {
+  console.log('🔍 Looking for award', awardNum, 'in', awardsData.length, 'awards');
+  
+  // Find the award by awardNum (could be string or number comparison)
+  const award = awardsData.find(award => {
+    return award.awardNum === awardNum || award.awardNum === parseInt(awardNum, 10);
+  });
+  
+  if (award) {
+    console.log('✅ Found award:', award.awardNum);
+    return award;
+  } else {
+    console.log('❌ Award not found. Available awardNums:', awardsData.map(a => a.awardNum).slice(0, 10));
+    return null;
+  }
+}
+
+/**
+ * Populate the EJS template with award data from client-side fetching
+ * @param {Object} award - The award data object
+ * @param {string} source - Data source ('cache' or 'api')
+ */
+function populateAwardTemplate(award, source) {
+  console.log(`🎨 Populating EJS template with award data from: ${source}`);
+  console.log('🎨 Award object for template population:', award);
+  
+  // Hide any existing loading states
+  const loadingElement = document.querySelector('.loading-indicator');
+  if (loadingElement) {
+    loadingElement.style.display = 'none';
+  }
+  
+  // Send award data to server to populate the template
+  // We'll reload the page with the award data as URL parameters
+  const currentUrl = new URL(window.location);
+  currentUrl.searchParams.set('data', btoa(JSON.stringify(award)));
+  currentUrl.searchParams.set('source', source);
+  
+  console.log('🔄 Reloading page with award data...');
+  window.location.href = currentUrl.toString();
+}
+
+/**
+ * Show error message by redirecting to error state
  * @param {string} message - Error message to display
  */
 function showError(message) {
   console.error('📢 Showing error:', message);
   
-  // Create error container if it doesn't exist
-  let container = document.getElementById('award-container');
-  if (!container) {
-    container = document.createElement('div');
-    container.id = 'award-container';
-    container.className = 'container mt-4';
-    const main = document.querySelector('main') || document.body;
-    main.appendChild(container);
-  }
-  
-  container.innerHTML = `
-    <div class="alert alert-danger">
-      <h4 class="alert-heading">❌ Error</h4>
-      <p class="mb-0">${message}</p>
-    </div>
-  `;
+  // Redirect to show error in EJS template
+  const currentUrl = new URL(window.location);
+  currentUrl.searchParams.set('error', message);
+  window.location.href = currentUrl.toString();
 }
 
 /**

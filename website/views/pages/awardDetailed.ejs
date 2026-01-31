@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <%- include('../partials/head'); %>
-    <script src="/js/services/awards-cache-service.js"></script>
+    <title><%= title %></title>
 </head>
 <body class="container">
 
@@ -11,37 +11,147 @@
 </header>
 
 <main>
-  <!-- Hidden data for JavaScript to access -->
-  <div id="awards-year-data" data-year="<%= year %>" style="display: none;"></div>
-  
-  <div class="row">
-    <div class="col-sm-8 text-center mx-auto">
-        <h1><%= year %> Awards Detailed Information</h1>
+  <% if (error) { %>
+    <!-- Error Display -->
+    <div class="alert alert-danger mt-4">
+      <h4 class="alert-heading">❌ Error</h4>
+      <p class="mb-0"><%= error %></p>
+      <hr>
+      <p class="mb-0">
+        <a href="/awards" class="btn btn-primary">← Back to Awards</a>
+        <% if (year) { %>
+          <a href="/awards/<%= year %>" class="btn btn-outline-primary">View <%= year %> Awards</a>
+        <% } %>
+      </p>
     </div>
-  </div>
-  
-  <!-- Loading indicator -->
-  <div id="loading-indicator" class="text-center my-4">
-    <div class="spinner-border" role="status">
-      <span class="visually-hidden">Loading awards...</span>
+  <% } else if (award) { %>
+    <!-- Award Display -->
+    <div class="row mt-4">
+      <div class="col-12">
+        <!-- Back navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/awards">Awards</a></li>
+            <li class="breadcrumb-item"><a href="/awards/<%= year %>"><%= year %></a></li>
+            <li class="breadcrumb-item active" aria-current="page">Award #<%= award.awardNum %></li>
+          </ol>
+        </nav>
+      </div>
     </div>
-    <p>Loading awards for <%= year %>...</p>
-  </div>
-  
-  <!-- Error message -->
-  <div id="error-message" class="alert alert-danger d-none" role="alert">
-    Failed to load awards. Please try again later.
-  </div>
-  
-  <!-- Awards container -->
-  <div id="awards-container" class="row d-none">
-    <!-- Awards will be populated here -->
-  </div>
 
+    <div class="card shadow mt-3">
+      <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+        <h1 class="mb-0">🏆 Award #<%= award.awardNum %></h1>
+        <span class="badge bg-light text-dark"><%= year %></span>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-8">
+            <h2 class="text-primary"><%= award.award || 'Unknown Award' %> 
+              <% if (award.awardpoints) { %><span class="text-muted">(<%= award.awardpoints %> points)</span><% } %>
+            </h2>
+            <h3 class="text-secondary mb-4">
+              <em><%= award.genus || 'Unknown' %><% if (award.species) { %> <%= award.species %><% } %></em>
+            </h3>
+            
+            <div class="row mb-4">
+              <div class="col-sm-6">
+                <p><strong>Date:</strong> 
+                  <% if (award.date) { %>
+                    <%= award.date %>
+                  <% } else if (award.date_iso) { %>
+                    <%= new Date(award.date_iso).toLocaleDateString() %>
+                  <% } else { %>
+                    Unknown
+                  <% } %>
+                </p>
+                <p><strong>Location:</strong> <%= award.location || 'Unknown' %></p>
+              </div>
+              <div class="col-sm-6">
+                <p><strong>Exhibitor:</strong> <%= award.exhibitor || 'Not specified' %></p>
+                <p><strong>Photographer:</strong> <%= award.photographer || 'Not specified' %></p>
+              </div>
+            </div>
+            
+            <% if (award.description) { %>
+              <div class="mt-4">
+                <h5><strong>Description:</strong></h5>
+                <div class="border rounded p-3 bg-light"><%= award.description %></div>
+              </div>
+            <% } %>
+
+            <!-- Cross information -->
+            <% if (award.seedParent || award.pollenParent) { %>
+              <div class="mt-4">
+                <h5><strong>Cross Information:</strong></h5>
+                <div class="border rounded p-3 bg-light">
+                  <% if (award.seedParent) { %>
+                    <p><strong>Seed Parent:</strong> <em><%= award.seedParent %></em></p>
+                  <% } %>
+                  <% if (award.pollenParent) { %>
+                    <p class="mb-0"><strong>Pollen Parent:</strong> <em><%= award.pollenParent %></em></p>
+                  <% } %>
+                </div>
+              </div>
+            <% } %>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="text-center">
+              <% if (award.photo) { %>
+                <img src="<%= award.photo.replace('database/images/', '/images/') %>" 
+                     class="img-fluid rounded shadow" 
+                     alt="Award <%= award.awardNum %>"
+                     style="max-height: 400px; object-fit: cover;">
+                <p class="text-muted mt-2 small">Original Image</p>
+              <% } else { %>
+                <div class="bg-light rounded p-5 text-muted mb-3">
+                  <i class="fas fa-image fa-3x mb-3"></i>
+                  <p>No image available</p>
+                </div>
+              <% } %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Measurement Data Inclusion -->
+    <% if (award) { %>
+      <div class="mt-4">
+        <%- include('../partials/plantdata'); %>
+      </div>
+    <% } %>
+
+  <% } else { %>
+    <!-- Loading/No data state - Client-side will fetch data -->
+    <div class="loading-indicator mt-4">
+      <div class="alert alert-info">
+        <h4 class="alert-heading">🔄 Loading Award Data...</h4>
+        <p class="mb-0">Fetching award information from cache or API...</p>
+        <div class="spinner-border spinner-border-sm mt-2" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Empty state for when no award data available -->
+    <div class="alert alert-info mt-4" style="display: none;" id="no-data-alert">
+      <h4 class="alert-heading">ℹ️ No Award Data</h4>
+      <p class="mb-0">No award information available for the specified parameters.</p>
+    </div>
+  <% } %>
+</main>
 
 <footer>
   <%- include('../partials/footer'); %>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- Include award-detailed.js for client-side sessionStorage logic -->
+<% if (!award && !error) { %>
+<script src="/js/pages/award-detailed.js"></script>
+<% } %>
 </body>
 </html>

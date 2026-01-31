@@ -53,39 +53,87 @@ router.get('/awards/:year', (req, res) => {
 });
 
 
-// Individual award detailed page
+// Individual award detailed page - serves template for client-side data fetching
 router.get('/award/:year/:awardNum', (req, res) => {
   try {
     const year = parseInt(req.params.year, 10);
     const awardNum = req.params.awardNum;
     
+    // Check if there's an error parameter from client-side
+    if (req.query.error) {
+      return res.render('pages/awardDetailed', {
+        title: 'Award Not Found - Pacific Central Judging Center',
+        year: year,
+        awardNum: awardNum,
+        award: null,
+        error: req.query.error
+      });
+    }
+    
+    // Check if client-side data is being passed back
+    if (req.query.data && req.query.source) {
+      try {
+        const awardData = JSON.parse(atob(req.query.data));
+        return res.render('pages/awardDetailed', {
+          title: `Award #${awardNum} (${year}) - Pacific Central Judging Center`,
+          year: year,
+          awardNum: awardNum,
+          award: awardData,
+          dataSource: req.query.source,
+          error: null
+        });
+      } catch (error) {
+        console.error('Error parsing client-side award data:', error);
+        return res.render('pages/awardDetailed', {
+          title: 'Award Not Found - Pacific Central Judging Center',
+          year: year,
+          awardNum: awardNum,
+          award: null,
+          error: 'Failed to parse award data'
+        });
+      }
+    }
+    
     // Validate year
     if (isNaN(year) || year < 2000 || year > new Date().getFullYear()) {
-      return res.status(404).json({ 
-        success: false,
+      return res.status(404).render('pages/awardDetailed', {
+        title: 'Award Not Found - Pacific Central Judging Center',
+        year: year,
+        awardNum: awardNum,
+        award: null,
         error: `Invalid year: ${req.params.year}`
       });
     }
 
     // Validate award number format (should start with year)
     if (!awardNum || !awardNum.startsWith(year.toString())) {
-      return res.status(404).json({ 
-        success: false,
+      return res.status(404).render('pages/awardDetailed', {
+        title: 'Award Not Found - Pacific Central Judging Center',
+        year: year,
+        awardNum: awardNum,
+        award: null,
         error: `Invalid award number: ${awardNum}`
       });
     }
 
-    // Just render the template with the parameters - let client-side load data
-    res.render('pages/awardDetailed', { 
-      title: `Award ${awardNum} - Pacific Central Judging Center`,
+    // Serve template for client-side data fetching
+    res.render('pages/awardDetailed', {
+      title: `Loading Award #${awardNum} (${year}) - Pacific Central Judging Center`,
       year: year,
-      awardNum: awardNum
+      awardNum: awardNum,
+      award: null, // Client-side will populate
+      dataSource: 'loading',
+      error: null
     });
+    
   } catch (error) {
     console.error('Error rendering award detailed page:', error);
-    res.status(500).json({ 
-      success: false,
-      error: `Unable to load award page for ${req.params.awardNum}`
+    res.status(500).render('pages/awardDetailed', {
+      title: 'Error - Pacific Central Judging Center',
+      year: req.params.year,
+      awardNum: req.params.awardNum,
+      award: null,
+      error: 'Unable to load award details'
     });
   }
 });
