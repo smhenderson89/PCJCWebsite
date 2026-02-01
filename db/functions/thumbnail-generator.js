@@ -398,7 +398,7 @@ class ThumbnailGenerator {
   /**
    * Main processing function
    */
-  async run() {
+  async run(year = 2024) {
     try {
       console.log('🚀 Starting Thumbnail Generation Pipeline');
       console.log(`📂 Images path: ${this.imagesPath}`);
@@ -406,9 +406,9 @@ class ThumbnailGenerator {
       console.log('🎯 Target: 15-30KB per thumbnail');
       console.log('🚫 Excluding low-quality thumb.jpg files\n');
 
-      // Get all 2024 awards (excluding thumb.jpg files)
-      const awards = this.getAllAwards2024();
-      console.log(`📋 Found ${awards.length} awards from 2024 to process\n`);
+      // Get all awards for the specified year (excluding thumb.jpg files)
+      const awards = this.getAllAwardsByYear(year);
+      console.log(`📋 Found ${awards.length} awards from ${year} to process\n`);
 
       // Process each award with progress tracking
       const results = [];
@@ -451,8 +451,25 @@ async function checkDependencies() {
 // Run the thumbnail generator
 async function main() {
   if (await checkDependencies()) {
+    // Parse command line arguments
+    const args = process.argv.slice(2);
+    let year = 2024; // default year
+    
+    if (args.length > 0) {
+      const yearArg = parseInt(args[0], 10);
+      if (isNaN(yearArg) || yearArg < 2000 || yearArg > new Date().getFullYear()) {
+        console.error(`❌ Invalid year: ${args[0]}. Please provide a year between 2000 and ${new Date().getFullYear()}`);
+        console.log('Usage: node thumbnail-generator.js [year]');
+        console.log('Example: node thumbnail-generator.js 2025');
+        process.exit(1);
+      }
+      year = yearArg;
+    }
+    
+    console.log(`🎯 Processing thumbnails for year: ${year}\n`);
+    
     const generator = new ThumbnailGenerator();
-    await generator.run();
+    await generator.run(year);
   }
 }
 
