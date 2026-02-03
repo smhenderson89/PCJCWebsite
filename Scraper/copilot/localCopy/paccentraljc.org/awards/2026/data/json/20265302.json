@@ -1,0 +1,40 @@
+{
+  "awardNum": "20265302",
+  "award": "HCC",
+  "awardpoints": 79,
+  "location": "Filoli Historic House",
+  "date": "January 17, 2026",
+  "genus": "Laelia",
+  "species": "anceps",
+  "clone": "Snowfall",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20265302.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 26,
+    "numBuds": 0,
+    "numInflorescences": 7,
+    "description": "Twenty-six full white flowers well-arranged on seven up to 91-cm inflorescences; \nsepals lanceolate, white;\n petals ovate, white;\n lip ruffled, broad, white, throat pale green, magenta striations,\n  keel pale yellow;\n column pale green, anther cap white;\n substance firm; texture crystalline.",
+    "NS": 10.6,
+    "NSV": 10.6,
+    "DSW": 2.2,
+    "DSL": 7.2,
+    "PETW": 4.2,
+    "PETL": 6.3,
+    "LSW": 2.1,
+    "LSL": 7,
+    "LIPW": 5.3,
+    "LIPL": 6
+  },
+  "scrapedDate": "2026-02-03T04:07:52.605Z",
+  "sourceUrl": "https://www.paccentraljc.org/260117/20265302.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2026/html/20265302.html",
+  "year": 2026,
+  "logicApplied": {
+    "timestamp": "2026-02-03T04:07:52.607Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

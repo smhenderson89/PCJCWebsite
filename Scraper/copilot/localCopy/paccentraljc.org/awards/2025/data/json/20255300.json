@@ -12,7 +12,7 @@
   "photographer": "Chaunie Langland",
   "photo": "images/20255300.jpg",
   "measurements": {
-    "type": "Pouch&SynselPal",
+    "type": "LateralSepal",
     "numFlowers": 3,
     "numBuds": 4,
     "numInflorescences": 1,
@@ -22,18 +22,14 @@
     "DSW": 4.5,
     "DSL": 3.6,
     "PETW": 3.1,
-    "PETL": 5,
-    "SYNSW": 2.4,
-    "SYNSL": 7.8,
-    "PCHW": 2.6,
-    "PCHL": 4.5
+    "PETL": 5
   },
-  "scrapedDate": "2026-01-19T02:38:06.050Z",
+  "scrapedDate": "2026-02-03T04:05:09.739Z",
   "sourceUrl": "https://www.paccentraljc.org/250517/20255300.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255300.html",
   "year": 2025,
   "logicApplied": {
-    "timestamp": "2026-01-19T02:38:06.051Z",
+    "timestamp": "2026-02-03T04:05:09.740Z",
     "rules": "logicReference/missingInfoLogic.json",
     "awardCategory": "point-based"
   }

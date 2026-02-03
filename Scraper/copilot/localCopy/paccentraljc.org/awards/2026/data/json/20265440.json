@@ -1,0 +1,40 @@
+{
+  "awardNum": "20265440",
+  "award": "HCC",
+  "awardpoints": 76,
+  "location": "San Francisco",
+  "date": "January 6, 2026",
+  "genus": "Cattlianthe",
+  "species": "Faikon Ball",
+  "clone": "Seed Studio Mango Mochi",
+  "cross": "Cattleya cernua x Cattlianthe Candy Ball",
+  "exhibitor": "Evan Shen",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20265440.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 6,
+    "numBuds": 0,
+    "numInflorescences": 3,
+    "description": "Six upward facing flowers on three up to 3.2-cm inflorescences;\n sepals oblong, clear yellow;\n petals ovate, yellow, orange blush basally, slight ruffle on upper margin;\n lip orange-yellow, blushed red margins, red stripe centrally, slight narrowing tip;\n\n substance firm; texture matte.",
+    "NS": 3.3,
+    "NSV": 3.2,
+    "DSW": 0.7,
+    "DSL": 1.4,
+    "PETW": 1.4,
+    "PETL": 1.5,
+    "LSW": 0.7,
+    "LSL": 1.2,
+    "LIPW": 0.6,
+    "LIPL": 1.2
+  },
+  "scrapedDate": "2026-02-03T04:07:52.615Z",
+  "sourceUrl": "https://www.paccentraljc.org/260106/20265440.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2026/html/20265440.html",
+  "year": 2026,
+  "logicApplied": {
+    "timestamp": "2026-02-03T04:07:52.617Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

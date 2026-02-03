@@ -1,0 +1,40 @@
+{
+  "awardNum": "20265300",
+  "award": "AM",
+  "awardpoints": 80,
+  "location": "Filoli Historic House",
+  "date": "January 17, 2026",
+  "genus": "Laelia",
+  "species": "anceps",
+  "clone": "Select",
+  "cross": "species",
+  "exhibitor": "Amy and Ken Jacobsen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20265300.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 9,
+    "numBuds": 0,
+    "numInflorescences": 2,
+    "description": "Nine flowers on two up to 71-cm inflorescences; \nsepals lanceolate, white;\n petals ovate, white;\n lip fluted, margins undulate, side-lobes almost enclose column, midlobe purple,\n lighter on margins, white centrally, overlaid yellow,\n veined maroon centrally-basally, broad keel yellow;\n column light green, anther cap white;\n substance firm; texture diamond dust.",
+    "NS": 12,
+    "NSV": 10,
+    "DSW": 2.2,
+    "DSL": 7.5,
+    "PETW": 4,
+    "PETL": 6.2,
+    "LSW": 2,
+    "LSL": 6,
+    "LIPW": 3.2,
+    "LIPL": 3.5
+  },
+  "scrapedDate": "2026-02-03T04:07:52.585Z",
+  "sourceUrl": "https://www.paccentraljc.org/260117/20265300.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2026/html/20265300.html",
+  "year": 2026,
+  "logicApplied": {
+    "timestamp": "2026-02-03T04:07:52.597Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20265441",
+  "award": "AM",
+  "awardpoints": 81,
+  "location": "San Francisco",
+  "date": "January 6, 2026",
+  "genus": "Cochlezella",
+  "species": "Tsiku Chuchango",
+  "clone": "Raging Water",
+  "cross": "Warczewiczella amazonica x Cochlezella Amazing",
+  "exhibitor": "Japheth Ko",
+  "photographer": "Ken Jacobsen",
+  "photo": "images/20265441.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 1,
+    "numBuds": 1,
+    "numInflorescences": 2,
+    "description": "One lovely pristine white flower and one bud on two up to 17-cm inflorescences;\n dorsal sepal recurved, undulate; lateral sepals slightly twisted;\n petals ruffled, reflexed sharply at tips;\n lip ruffled margins, striped violet centrally and coalescing to finer lines, stippling on margins;\n\n substance firm; texture matte.",
+    "NS": 9.2,
+    "NSV": 8.4,
+    "DSW": 1.9,
+    "DSL": 3.6,
+    "PETW": 2.2,
+    "PETL": 3.6,
+    "LSW": 2,
+    "LSL": 4.2,
+    "LIPW": 6.4,
+    "LIPL": 6
+  },
+  "scrapedDate": "2026-02-03T04:07:52.619Z",
+  "sourceUrl": "https://www.paccentraljc.org/260106/20265441.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2026/html/20265441.html",
+  "year": 2026,
+  "logicApplied": {
+    "timestamp": "2026-02-03T04:07:52.620Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

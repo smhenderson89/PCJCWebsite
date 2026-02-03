@@ -81,6 +81,35 @@ class ThumbnailGenerator {
   }
 
   /**
+   * Scan images directory directly for files matching the year pattern
+   * Returns array in same format as database query: {awardNum, photo}
+   */
+  async getImageFilesForYear(year) {
+    try {
+      const files = await fs.readdir(this.imagesPath);
+      
+      // Filter for files that start with the year and are image files
+      const yearPattern = new RegExp(`^${year}\\d+\\.(jpg|jpeg|png|webp)$`, 'i');
+      const imageFiles = files.filter(file => {
+        return yearPattern.test(file) && !file.includes('thumb.jpg');
+      });
+      
+      // Convert to same format as database results
+      return imageFiles.map(filename => {
+        const awardNum = filename.replace(/\.(jpg|jpeg|png|webp)$/i, '');
+        return {
+          awardNum: awardNum,
+          photo: `images/${filename}`
+        };
+      }).sort((a, b) => a.awardNum.localeCompare(b.awardNum));
+      
+    } catch (error) {
+      console.error('Error reading images directory:', error);
+      return [];
+    }
+  }
+
+  /**
    * Check if original image file exists
    */
   async imageExists(photoPath) {
@@ -406,9 +435,9 @@ class ThumbnailGenerator {
       console.log('🎯 Target: 15-30KB per thumbnail');
       console.log('🚫 Excluding low-quality thumb.jpg files\n');
 
-      // Get all awards for the specified year (excluding thumb.jpg files)
-      const awards = this.getAllAwardsByYear(year);
-      console.log(`📋 Found ${awards.length} awards from ${year} to process\n`);
+      // Get all image files for the specified year (scan filesystem directly)
+      const awards = await this.getImageFilesForYear(year);
+      console.log(`📋 Found ${awards.length} image files from ${year} to process\n`);
 
       // Process each award with progress tracking
       const results = [];

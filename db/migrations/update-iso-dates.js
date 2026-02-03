@@ -1,37 +1,40 @@
 /**
- * Update ISO Dates for New 2024 Awards
- * Converts human-readable dates to ISO format for the newly imported 2024 awards
- * This will make dates sortable and consistent with other years
+ * Update ISO Dates for All Awards
+ * Scans the entire database and converts human-readable dates to ISO format
+ * for any awards that don't already have ISO dates.
+ * This ensures all dates are sortable and consistent across all years.
+ * 
+ * Usage:
+ *   node update-iso-dates.js        - Process all awards missing ISO dates
  */
 
 const Database = require('better-sqlite3');
 const path = require('path');
+const fs = require('fs');
 
 // Database path
 const dbPath = path.join(__dirname, '../orchid_awards.sqlite');
 
-// Award number ranges for new 2024 awards that need ISO date updates
-const NEW_AWARD_RANGES = [
-    { start: 20245286, end: 20245310 }, // Missing 20245309
-    { start: 20245350, end: 20245405 }
-];
-
 /**
- * Generate list of new award numbers to update
- * @returns {Array} - Array of award numbers to update
+ * Get all awards that need ISO date updates (those with missing date_iso)
+ * @returns {Array} - Array of award objects {awardNum, date, date_iso}
  */
-function getNewAwardNumbers() {
-    const awardNumbers = [];
+function getAwardsNeedingISODates() {
+    const db = new Database(dbPath);
     
-    for (const range of NEW_AWARD_RANGES) {
-        for (let i = range.start; i <= range.end; i++) {
-            // Skip 20245309 as it doesn't exist
-            if (i === 20245309) continue;
-            awardNumbers.push(i.toString());
-        }
-    }
+    const stmt = db.prepare(`
+        SELECT awardNum, date, date_iso 
+        FROM awards 
+        WHERE date IS NOT NULL 
+        AND date != '' 
+        AND (date_iso IS NULL OR date_iso = '')
+        ORDER BY awardNum ASC
+    `);
     
-    return awardNumbers;
+    const awards = stmt.all();
+    db.close();
+    
+    return awards;
 }
 
 /**
@@ -58,35 +61,35 @@ function convertToISODate(humanDate) {
 }
 
 /**
- * Update ISO dates for all newly imported 2024 awards
+ * Update ISO dates for all awards missing them
  */
 function updateISODates() {
-    console.log('📅 UPDATING ISO DATES FOR NEW 2024 AWARDS');
+    console.log('📅 UPDATING ISO DATES FOR ALL AWARDS');
     console.log('=' .repeat(60));
     console.log(`📂 Database: ${dbPath}`);
     console.log(`🔄 Update Date: ${new Date().toISOString()}`);
+    console.log('');
+    
+    // Get awards that need ISO date updates
+    console.log('🔍 Scanning database for awards missing ISO dates...');
+    const awardsToUpdate = getAwardsNeedingISODates();
+    console.log(`📊 Awards needing ISO dates: ${awardsToUpdate.length}`);
+    
+    if (awardsToUpdate.length === 0) {
+        console.log('🎉 All awards already have ISO dates!');
+        return;
+    }
+    
     console.log('');
     
     // Connect to database
     const db = new Database(dbPath);
     console.log('📄 Connected to SQLite database');
     
-    // Get awards that need ISO date updates
-    const newAwardNumbers = getNewAwardNumbers();
-    console.log(`📊 Awards to update: ${newAwardNumbers.length}`);
-    console.log('');
-    
     // Prepare update statement
     const updateStmt = db.prepare(`
         UPDATE awards 
         SET date_iso = ? 
-        WHERE awardNum = ?
-    `);
-    
-    // Prepare select statement to get current dates
-    const selectStmt = db.prepare(`
-        SELECT awardNum, date, date_iso 
-        FROM awards 
         WHERE awardNum = ?
     `);
     
@@ -97,20 +100,16 @@ function updateISODates() {
     console.log('🔄 Processing awards...');
     console.log('');
     
-    for (const awardNum of newAwardNumbers) {
+    for (const [index, award] of awardsToUpdate.entries()) {
         try {
-            // Get current award data
-            const award = selectStmt.get(awardNum);
-            
-            if (!award) {
-                console.log(`⚠️  Award ${awardNum} not found in database`);
-                skipped++;
-                continue;
+            // Show progress for every 50 awards
+            if ((index + 1) % 50 === 0) {
+                console.log(`📊 Progress: ${index + 1}/${awardsToUpdate.length} awards processed`);
             }
             
-            // Skip if ISO date is already set
-            if (award.date_iso) {
-                console.log(`ℹ️  Award ${awardNum} already has ISO date: ${award.date_iso}`);
+            // Double-check that ISO date is not already set (safety check)
+            if (award.date_iso && award.date_iso.trim() !== '') {
+                console.log(`ℹ️  Award ${award.awardNum} already has ISO date: ${award.date_iso}`);
                 skipped++;
                 continue;
             }
@@ -119,18 +118,22 @@ function updateISODates() {
             const isoDate = convertToISODate(award.date);
             
             if (!isoDate) {
-                console.log(`❌ Failed to parse date for ${awardNum}: "${award.date}"`);
+                console.log(`❌ Failed to parse date for ${award.awardNum}: "${award.date}"`);
                 errors++;
                 continue;
             }
             
             // Update the database
-            updateStmt.run(isoDate, awardNum);
-            console.log(`✅ Updated ${awardNum}: "${award.date}" → ${isoDate}`);
+            updateStmt.run(isoDate, award.awardNum);
+            
+            // Only show first 20 updates to avoid spam, then show every 100th
+            if (updated < 20 || (updated + 1) % 100 === 0) {
+                console.log(`✅ Updated ${award.awardNum}: "${award.date}" → ${isoDate}`);
+            }
             updated++;
             
         } catch (error) {
-            console.log(`❌ Error updating ${awardNum}: ${error.message}`);
+            console.log(`❌ Error updating ${award.awardNum}: ${error.message}`);
             errors++;
         }
     }
@@ -143,17 +146,17 @@ function updateISODates() {
     console.log(`❌ Errors: ${errors}`);
     console.log(`📊 Total processed: ${updated + skipped + errors}`);
     
-    // Verify a few updates
+    // Verify a few recent updates
     console.log('');
-    console.log('🔍 VERIFICATION SAMPLE');
-    console.log('=' .repeat(30));
+    console.log('🔍 VERIFICATION SAMPLE (Recent Updates)');
+    console.log('=' .repeat(40));
     
     const verifyStmt = db.prepare(`
         SELECT awardNum, date, date_iso 
         FROM awards 
-        WHERE year = 2024 
-        AND awardNum >= '20245286' 
-        ORDER BY date_iso DESC 
+        WHERE date_iso IS NOT NULL 
+        AND date_iso != '' 
+        ORDER BY awardNum DESC 
         LIMIT 5
     `);
     
@@ -161,6 +164,19 @@ function updateISODates() {
     samples.forEach(award => {
         console.log(`${award.awardNum}: ${award.date} → ${award.date_iso}`);
     });
+    
+    // Check remaining awards without ISO dates
+    const remainingStmt = db.prepare(`
+        SELECT COUNT(*) as count 
+        FROM awards 
+        WHERE date IS NOT NULL 
+        AND date != '' 
+        AND (date_iso IS NULL OR date_iso = '')
+    `);
+    
+    const remaining = remainingStmt.get();
+    console.log('');
+    console.log(`🔍 Awards still missing ISO dates: ${remaining.count}`);
     
     db.close();
     console.log('');
@@ -170,17 +186,17 @@ function updateISODates() {
     const report = {
         updateDate: new Date().toISOString(),
         databasePath: dbPath,
-        awardRanges: NEW_AWARD_RANGES,
+        processedAwards: awardsToUpdate.length,
         results: {
             updated,
             skipped,
             errors,
             totalProcessed: updated + skipped + errors
-        }
+        },
+        remainingWithoutISO: remaining.count
     };
     
-    const reportPath = path.join(__dirname, 'update-iso-dates-2024-report.json');
-    const fs = require('fs');
+    const reportPath = path.join(__dirname, 'update-iso-dates-report.json');
     fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
     console.log(`📄 Update report saved: ${reportPath}`);
 }
@@ -193,5 +209,5 @@ if (require.main === module) {
 module.exports = {
     updateISODates,
     convertToISODate,
-    getNewAwardNumbers
+    getAwardsNeedingISODates
 };

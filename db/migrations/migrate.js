@@ -1,6 +1,11 @@
 /**
  * Migrate JSON Award Data to SQLite Database
- * Loads all award JSON files from 2015-2025 into the SQLite database
+ * Loads award JSON files into the SQLite database
+ * 
+ * Usage:
+ *   node migrate.js        - Process all years (2015-2025) 
+ *   node migrate.js 2026   - Process only 2026
+ *   node migrate.js 2025   - Process only 2025
  */
 
 const fs = require('fs');
@@ -9,8 +14,8 @@ const Database = require('better-sqlite3');
 const { initializeDatabase } = require('../schema');
 
 // Paths
-const baseDataPath = path.join(__dirname, '../webScraper/copilot/localCopy/paccentraljc.org/awards');
-const dbPath = path.join(__dirname, 'orchid_awards.sqlite');
+const baseDataPath = path.join(__dirname, '../../scraper/copilot/localCopy/paccentraljc.org/awards');
+const dbPath = path.join(__dirname, '../orchid_awards.sqlite');
 
 /**
  * Get all JSON files from a specific year
@@ -46,23 +51,41 @@ function getJsonFilesForYear(year) {
 }
 
 /**
- * Insert award data into database
+ * Check if award already exists in database
+ * @param {Object} db - SQLite database connection
+ * @param {string} awardNum - Award number to check
+ * @returns {boolean} - True if award exists
+ */
+function awardExists(db, awardNum) {
+    const checkStmt = db.prepare('SELECT COUNT(*) as count FROM awards WHERE awardNum = ?');
+    const result = checkStmt.get(awardNum);
+    return result.count > 0;
+}
+
+/**
+ * Insert award data into database (with duplicate checking)
  * @param {Object} db - SQLite database connection
  * @param {Object} awardData - Award data from JSON
+ * @returns {string} - 'inserted', 'skipped', or 'error'
  */
 function insertAwardData(db, awardData) {
-    // Prepare statement for the single awards table
-    const insertAward = db.prepare(`
-        INSERT OR REPLACE INTO awards (
-            awardNum, award, awardpoints, location, date, genus, species, clone, cross,
-            exhibitor, photographer, photo, sourceUrl, htmlReference, year, scrapedDate,
-            measurementType, description, numFlowers, numBuds, numInflorescences,
-            NS, NSV, DSW, DSL, PETW, PETL, LSW, LSL, LIPW, LIPL,
-            SYNSW, SYNSL, PCHW, PCHL
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    `);
-    
     try {
+        // Check if award already exists
+        if (awardExists(db, awardData.awardNum)) {
+            return 'skipped';
+        }
+        
+        // Prepare statement for inserting new awards only
+        const insertAward = db.prepare(`
+            INSERT INTO awards (
+                awardNum, award, awardpoints, location, date, genus, species, clone, cross,
+                exhibitor, photographer, photo, sourceUrl, htmlReference, year, scrapedDate,
+                measurementType, description, numFlowers, numBuds, numInflorescences,
+                NS, NSV, DSW, DSL, PETW, PETL, LSW, LSL, LIPW, LIPL,
+                SYNSW, SYNSL, PCHW, PCHL
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        `);
+        
         // Extract measurement data if it exists
         const measurements = awardData.measurements || {};
         
@@ -106,6 +129,7 @@ function insertAwardData(db, awardData) {
         ];
         
         insertAward.run(awardValues);
+        return 'inserted';
         
     } catch (error) {
         throw new Error(`Failed to insert award ${awardData.awardNum}: ${error.message}`);
@@ -126,13 +150,29 @@ async function migrateJsonToDatabase() {
         console.log('🔧 Initializing database schema...');
         await initializeDatabase(dbPath);
         
-        // Years to process (2015-2025)
-        const years = Array.from({ length: 11 }, (_, i) => 2015 + i);
+        // Parse command line arguments for year specification
+        const yearArg = process.argv[2];
+        let years;
+        
+        if (yearArg) {
+            const specifiedYear = parseInt(yearArg);
+            if (isNaN(specifiedYear) || specifiedYear < 2000 || specifiedYear > new Date().getFullYear()) {
+                console.error(`❌ Invalid year: ${yearArg}. Must be between 2000 and ${new Date().getFullYear()}`);
+                process.exit(1);
+            }
+            years = [specifiedYear];
+            console.log(`🎯 Processing only year: ${specifiedYear}`);
+        } else {
+            // Default: process all years (2015-2025)
+            years = Array.from({ length: 11 }, (_, i) => 2015 + i);
+            console.log('📅 Processing all years: 2015-2025');
+        }
         
         const db = new Database(dbPath);
         
         let totalAwards = 0;
         let successfulInserts = 0;
+        let skippedDuplicates = 0;
         let errors = [];
         
         for (const year of years) {
@@ -147,35 +187,36 @@ async function migrateJsonToDatabase() {
             
             totalAwards += yearData.length;
             
-            // Use transaction for better performance
-            const transaction = db.transaction((awards) => {
-                for (const awardData of awards) {
-                    insertAwardData(db, awardData);
-                }
-            });
+            // Process each award individually to check for duplicates
+            let yearInserts = 0;
+            let yearSkips = 0;
+            let yearErrors = 0;
             
-            try {
-                transaction(yearData);
-                console.log(`   ✅ Inserted all ${yearData.length} awards for ${year}`);
-                successfulInserts += yearData.length;
-            } catch (error) {
-                // If transaction fails, try individual inserts to identify problematic records
-                console.log(`   ⚠️  Transaction failed, trying individual inserts...`);
-                for (const [index, awardData] of yearData.entries()) {
-                    try {
-                        insertAwardData(db, awardData);
-                        console.log(`   ✅ [${index + 1}/${yearData.length}] Inserted ${awardData.awardNum}`);
+            for (const [index, awardData] of yearData.entries()) {
+                try {
+                    const result = insertAwardData(db, awardData);
+                    
+                    if (result === 'inserted') {
+                        yearInserts++;
                         successfulInserts++;
-                    } catch (insertError) {
-                        console.log(`   ❌ [${index + 1}/${yearData.length}] Failed ${awardData.awardNum}: ${insertError.message}`);
-                        errors.push({
-                            year: year,
-                            awardNum: awardData.awardNum,
-                            error: insertError.message
-                        });
+                        console.log(`   ✅ [${index + 1}/${yearData.length}] Inserted ${awardData.awardNum}`);
+                    } else if (result === 'skipped') {
+                        yearSkips++;
+                        skippedDuplicates++;
+                        console.log(`   ⏭️  [${index + 1}/${yearData.length}] Skipped ${awardData.awardNum} (already exists)`);
                     }
+                } catch (insertError) {
+                    yearErrors++;
+                    console.log(`   ❌ [${index + 1}/${yearData.length}] Failed ${awardData.awardNum}: ${insertError.message}`);
+                    errors.push({
+                        year: year,
+                        awardNum: awardData.awardNum,
+                        error: insertError.message
+                    });
                 }
             }
+            
+            console.log(`   📊 Year ${year} summary: ${yearInserts} inserted, ${yearSkips} skipped, ${yearErrors} errors`);
         }
         
         db.close();
@@ -187,11 +228,12 @@ async function migrateJsonToDatabase() {
         console.log(`📈 PROCESSING STATS:`);
         console.log(`   Total awards found: ${totalAwards}`);
         console.log(`   Successfully inserted: ${successfulInserts}`);
+        console.log(`   Skipped duplicates: ${skippedDuplicates}`);
         console.log(`   Failed inserts: ${errors.length}`);
         
         if (totalAwards > 0) {
-            const successRate = ((successfulInserts / totalAwards) * 100).toFixed(1);
-            console.log(`   Success rate: ${successRate}%`);
+            const successRate = (((successfulInserts + skippedDuplicates) / totalAwards) * 100).toFixed(1);
+            console.log(`   Overall success rate: ${successRate}%`);
         }
         
         if (errors.length > 0) {
@@ -207,8 +249,9 @@ async function migrateJsonToDatabase() {
             databasePath: dbPath,
             totalAwards: totalAwards,
             successfulInserts: successfulInserts,
+            skippedDuplicates: skippedDuplicates,
             failedInserts: errors.length,
-            successRate: totalAwards > 0 ? ((successfulInserts / totalAwards) * 100).toFixed(1) + '%' : 'N/A',
+            successRate: totalAwards > 0 ? (((successfulInserts + skippedDuplicates) / totalAwards) * 100).toFixed(1) + '%' : 'N/A',
             errors: errors
         };
         

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20265301",
+  "award": "CCM",
+  "awardpoints": 83,
+  "location": "Filoli Historic House",
+  "date": "January 17, 2026",
+  "genus": "Masdevallia",
+  "species": "floribunda",
+  "clone": "Magenta Mist",
+  "cross": "species",
+  "exhibitor": "Sharon Palmisand",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20265301.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 26,
+    "numBuds": 0,
+    "numInflorescences": 7,
+    "description": "Fifty-eight flowers arranged around the circumference on 58 up-to 6-cm inflorescences;\n plant 17 cm wide by 9 cm tall, in a 6-cm plastic pot, bark media;\n sepals white, spotted magenta, caudae yellow;\n lip white heavily overlaid light rose;\n substance firm; texture matte;\n dorsal cauda 1.4 cm, lateral caudae 0.6 cm, segment measurements include caudae,\n awarded for floriferousness on a small plant.",
+    "NS": 1.5,
+    "NSV": 3.2,
+    "DSW": 0.6,
+    "DSL": 2.2,
+    "PETW": 0.1,
+    "PETL": 0.3,
+    "LSW": 1,
+    "LSL": 1.6,
+    "LIPW": 0.2,
+    "LIPL": 0.5
+  },
+  "scrapedDate": "2026-02-03T04:07:52.600Z",
+  "sourceUrl": "https://www.paccentraljc.org/260117/20265301.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2026/html/20265301.html",
+  "year": 2026,
+  "logicApplied": {
+    "timestamp": "2026-02-03T04:07:52.603Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

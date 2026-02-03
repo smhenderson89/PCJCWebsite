@@ -50,6 +50,8 @@ class ThumbnailDatabaseIntegration {
         success: true, 
         totalThumbnails: existingThumbnails.length,
         updated: updateResult.updated,
+        alreadyHasThumbnails: updateResult.alreadyHasThumbnails,
+        skipped: updateResult.skipped,
         errors: updateResult.errors
       };
 
@@ -178,10 +180,19 @@ class ThumbnailDatabaseIntegration {
     `);
 
     const checkStmt = this.db.prepare('SELECT awardNum FROM awards WHERE awardNum = ?');
+    
+    // Check for existing thumbnails in database
+    const checkThumbnailsStmt = this.db.prepare(`
+      SELECT awardNum, thumbnail_jpeg_small, thumbnail_jpeg_medium, 
+             thumbnail_webp_small, thumbnail_webp_medium 
+      FROM awards 
+      WHERE awardNum = ?
+    `);
 
     let updated = 0;
     let errors = 0;
     let skipped = 0;
+    let alreadyHasThumbnails = 0;
 
     // Process in batches for better performance
     const batchSize = 50;
@@ -192,10 +203,24 @@ class ThumbnailDatabaseIntegration {
         for (const thumbnail of batch) {
           try {
             // Check if award exists in database
-            const exists = checkStmt.get(thumbnail.awardNum);
-            if (!exists) {
+            const award = checkThumbnailsStmt.get(thumbnail.awardNum);
+            if (!award) {
               console.log(`⚠️  Award ${thumbnail.awardNum} not found in database, skipping`);
               skipped++;
+              continue;
+            }
+
+            // Check if award already has thumbnails
+            if (award.thumbnail_jpeg_small && 
+                award.thumbnail_jpeg_medium && 
+                award.thumbnail_webp_small && 
+                award.thumbnail_webp_medium) {
+              
+              // Only show first 10 to avoid spam
+              if (alreadyHasThumbnails < 10) {
+                console.log(`ℹ️  Award ${thumbnail.awardNum} already has thumbnails, skipping`);
+              }
+              alreadyHasThumbnails++;
               continue;
             }
 
@@ -208,6 +233,10 @@ class ThumbnailDatabaseIntegration {
             );
             
             if (result.changes > 0) {
+              // Only show first 20 updates to avoid spam
+              if (updated < 20) {
+                console.log(`✅ Updated award ${thumbnail.awardNum} with thumbnail paths`);
+              }
               updated++;
             }
           } catch (error) {
@@ -228,10 +257,11 @@ class ThumbnailDatabaseIntegration {
 
     console.log(`✅ Database update completed:`);
     console.log(`   Updated: ${updated} records`);
+    console.log(`   Already had thumbnails: ${alreadyHasThumbnails} records`);
     console.log(`   Skipped: ${skipped} records (not found in DB)`);
     console.log(`   Errors: ${errors} records`);
     
-    return { updated, errors, skipped };
+    return { updated, errors, skipped, alreadyHasThumbnails };
   }
 
   /**

@@ -1,0 +1,40 @@
+{
+  "awardNum": "20265303",
+  "award": "HCC",
+  "awardpoints": 75,
+  "location": "Filoli Historic House",
+  "date": "January 17, 2026",
+  "genus": "Cymbidium",
+  "species": "lancifolium",
+  "clone": "Seed Studio Bunny Ears",
+  "cross": "species",
+  "exhibitor": "Evan Shen",
+  "photographer": "Chaunie Langland",
+  "photo": "images/20265303.jpg",
+  "measurements": {
+    "type": "Lip&LateralSepal",
+    "numFlowers": 26,
+    "numBuds": 0,
+    "numInflorescences": 7,
+    "description": "Fifteen starry flowers and one bud on four up to 26-cm inflorescences;\n sepals and petals lanceolate, ivory, sepals light burgundy center stripe basally,\n petals porrect, heavy burgundy center stripe basal two thirds;\n lip heavily recurved, ivory barred burgundy;\n column ivory, anterior marked burgundy, anther cap pale yellow;\n substance medium; texture matte.",
+    "NS": 5.3,
+    "NSV": 5.6,
+    "DSW": 0.5,
+    "DSL": 3.2,
+    "PETW": 0.7,
+    "PETL": 2.8,
+    "LSW": 0.5,
+    "LSL": 3,
+    "LIPW": 0.9,
+    "LIPL": 1.4
+  },
+  "scrapedDate": "2026-02-03T04:07:52.608Z",
+  "sourceUrl": "https://www.paccentraljc.org/260117/20265303.html",
+  "htmlReference": "localCopy/paccentraljc.org/awards/2026/html/20265303.html",
+  "year": 2026,
+  "logicApplied": {
+    "timestamp": "2026-02-03T04:07:52.611Z",
+    "rules": "logicReference/missingInfoLogic.json",
+    "awardCategory": "point-based"
+  }
+}

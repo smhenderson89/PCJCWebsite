@@ -12,7 +12,7 @@
   "photographer": "Ken Jacobsen",
   "photo": "images/20255364.jpg",
   "measurements": {
-    "type": "Other",
+    "type": "N/A",
     "numFlowers": "N/A",
     "numBuds": "N/A",
     "numInflorescences": "N/A",
@@ -29,12 +29,12 @@
     "SYNSL": "N/A",
     "SYNSW": "N/A"
   },
-  "scrapedDate": "2026-01-19T02:38:06.251Z",
+  "scrapedDate": "2026-02-03T04:05:10.193Z",
   "sourceUrl": "https://www.paccentraljc.org/250227/20255364.html",
   "htmlReference": "localCopy/paccentraljc.org/awards/2025/html/20255364.html",
   "year": 2025,
   "logicApplied": {
-    "timestamp": "2026-01-19T02:38:06.252Z",
+    "timestamp": "2026-02-03T04:05:10.194Z",
     "rules": "logicReference/missingInfoLogic.json",
     "awardCategory": "display"
   }
