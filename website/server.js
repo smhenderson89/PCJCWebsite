@@ -47,8 +47,8 @@ app.use((req, res, next) => {
 setupSecurity(app);
 
 // Server information
-const hostname = "127.0.0.1"
-const port = 8000
+const hostname = "0.0.0.0"; // Use 0.0.0.0 for both development and production
+const port = process.env.PORT || 8000; // Use PORT env variable for production, fallback to 8000 for development
 
 // Temporarily disable livereload for performance testing
 // const livereload = require("livereload")
