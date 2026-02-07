@@ -163,9 +163,6 @@ router.get('/awards/exhibitor/:exhibitor', (req, res) => {
     const exhibitor = req.params.exhibitor;
     const awardsByExhibitor = dbService.getAwardsByExhibitor(exhibitor);
 
-    console.log(`Found ${awardsByExhibitor.length} awards for exhibitor ${exhibitor}`);
-    console.log(awardsByExhibitor);
-
     res.render('pages/exhibitor', { 
       title: `Awards for Exhibitor ${exhibitor} - Pacific Central Judging Center`,
       awards: awardsByExhibitor,

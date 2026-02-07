@@ -4,6 +4,33 @@
  * URL pattern: /award/:year/:awardNum
  */
 
+/**
+ * Process award description to create links for referenced award numbers
+ * @param {string} description - The award description text
+ * @param {number|string} currentYear - The current award's year
+ * @returns {string} Processed description with award number links
+ */
+function processAwardDescription(description, currentYear) {
+  if (!description) return '';
+  
+  // Regex to find potential award numbers (at least 8 digits)
+  const awardRegex = /\b(\d{8,})\b/g;
+  
+  return description.replace(awardRegex, (match) => {
+    const awardNum = match;
+    
+    // Extract year from award number (first 4 digits)
+    const awardYear = parseInt(awardNum.substring(0, 4), 10);
+    
+    // Validate: must be at least 8 digits and year must match current award's year
+    if (awardNum.length >= 8 && awardYear === parseInt(currentYear, 10)) {
+      return `<a href="/award/${awardYear}/${awardNum}" class="award-reference-link" data-award="${awardNum}" data-year="${awardYear}">${awardNum}</a>`;
+    }
+    
+    return match; // Return unchanged if not valid
+  });
+}
+
 // Initialize page on DOM load
 document.addEventListener('DOMContentLoaded', async function() {
   // Parse URL parameters from the current path
@@ -172,10 +199,15 @@ async function populateAwardData(award, year) {
   
   safeSetText('award-photographer', award.photographer || 'Not specified');
   
-  // Description
+  // Description with award number linking
   if (award.description) {
-    safeSetText('award-description', award.description);
-    safeSetDisplay('description-section', 'block');
+    const descriptionElement = document.getElementById('award-description');
+    if (descriptionElement) {
+      const processedDescription = processAwardDescription(award.description, award.year);
+      descriptionElement.innerHTML = processedDescription;
+    }
+    const descriptionSection = document.getElementById('description-section');
+    if (descriptionSection) descriptionSection.style.display = 'block';
   }
   
   // Photo handling with loading states

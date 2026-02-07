@@ -3,6 +3,29 @@
 <head>
     <%- include('../partials/head'); %>
     <title><%= title %></title>
+    <%
+    // Helper function to process award descriptions and create links
+    function processAwardDescription(description, currentYear) {
+      if (!description) return '';
+      
+      // Regex to find potential award numbers (at least 8 digits)
+      const awardRegex = /\b(\d{8,})\b/g;
+      
+      return description.replace(awardRegex, (match) => {
+        const awardNum = match;
+        
+        // Extract year from award number (first 4 digits)
+        const awardYear = parseInt(awardNum.substring(0, 4), 10);
+        
+        // Validate: must be at least 8 digits and year must match current award's year
+        if (awardNum.length >= 8 && awardYear === parseInt(currentYear, 10)) {
+          return `<a href="/award/${awardYear}/${awardNum}" class="award-reference-link" data-award="${awardNum}" data-year="${awardYear}">${awardNum}</a>`;
+        }
+        
+        return match; // Return unchanged if not valid
+      });
+    }
+    %>
 </head>
 <body class="container">
 
@@ -199,7 +222,7 @@
               <h5><strong>Description:</strong></h5>
               <div class="description-box p-3" id="award-description">
                 <% if (award && award.description) { %>
-                  <%= award.description %>
+                  <%- processAwardDescription(award.description, award.year) %>
                 <% } %>
               </div>
             </div>
@@ -218,7 +241,7 @@
                  <% } else { %>
                    style="display: none;"
                  <% } %>>
-              <h5><strong>Measurements:</strong></h5>
+              <h5><strong>Measurements (in cm):</strong></h5>
               <div class="measurements-table-container">
                 <table class="table table-striped measurements-table" id="measurements-table">
                   <tbody>
