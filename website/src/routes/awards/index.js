@@ -157,5 +157,29 @@ router.get('/awards/:year/events', (req, res) => {
   }
 });
 
+// Exhibitor-specific awards page
+router.get('/awards/exhibitor/:exhibitor', (req, res) => {
+  try {
+    const exhibitor = req.params.exhibitor;
+    const awardsByExhibitor = dbService.getAwardsByExhibitor(exhibitor);
+
+    console.log(`Found ${awardsByExhibitor.length} awards for exhibitor ${exhibitor}`);
+    console.log(awardsByExhibitor);
+
+    res.render('pages/exhibitor', { 
+      title: `Awards for Exhibitor ${exhibitor} - Pacific Central Judging Center`,
+      awards: awardsByExhibitor,
+      exhibitor: exhibitor
+    });
+
+  } catch (error) {
+    console.error('Error getting awards by exhibitor:', error);
+    res.status(500).json({ 
+      success: false,
+      error: `Unable to load awards for exhibitor ${req.params.exhibitor}`
+    });
+  }
+});
+
 
 module.exports = router;

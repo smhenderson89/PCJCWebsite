@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+  <title><%= title %></title>
+</head>
+<body class="container">
+
+<header>
+  <%- include('../partials/header'); %>
+</header>
+
+<main>
+  <div class="row mt-4">
+    <div class="col-12">
+      <!-- Back navigation -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/awardslist">Awards</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Exhibitor: <%= exhibitor %></li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <div class="card shadow mt-3">
+    <div class="card-header">
+      <h1 class="mb-0">Awards for <%= exhibitor %></h1>
+      <p class="text-muted mb-0">Total Awards: <%= awards.length %></p>
+    </div>
+    <div class="card-body">
+      <% if (awards && awards.length > 0) { %>
+        <%
+        // Group awards by year
+        const awardsByYear = {};
+        awards.forEach(award => {
+          if (!awardsByYear[award.year]) {
+            awardsByYear[award.year] = [];
+          }
+          awardsByYear[award.year].push(award);
+        });
+        
+        // Sort years in descending order
+        const sortedYears = Object.keys(awardsByYear).sort((a, b) => b - a);
+        %>
+        
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Awards</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% sortedYears.forEach(year => { %>
+                <tr>
+                  <td><strong><%= year %></strong></td>
+                  <td>
+                    <% awardsByYear[year].forEach((award, index) => { %>
+                      <a href="/award/<%= year %>/<%= award.awardNum %>" class="award-link">
+                        <%= award.awardNum %>
+                        <% if (award.award && award.awardpoints) { %>
+                          (<%= award.award %> <%= award.awardpoints %>)
+                        <% } else if (award.award) { %>
+                          (<%= award.award %>)
+                        <% } %>
+                      </a><% if (index < awardsByYear[year].length - 1) { %>, <% } %>
+                    <% }); %>
+                  </td>
+                </tr>
+              <% }); %>
+            </tbody>
+          </table>
+        </div>
+      <% } else { %>
+        <div class="alert alert-info">
+          <h4 class="alert-heading">No Awards Found</h4>
+          <p class="mb-0">No awards found for exhibitor "<%= exhibitor %>". This could mean:</p>
+          <ul class="mb-0">
+            <li>The exhibitor name was misspelled</li>
+            <li>This person hasn't won any awards yet</li>
+            <li>Awards may be listed under a different name variation</li>
+          </ul>
+        </div>
+      <% } %>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+<style>
+.award-link {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+.award-link:hover {
+  text-decoration: underline;
+  color: #0a58ca;
+}
+
+.table th {
+  border-top: none;
+}
+
+.table td {
+  vertical-align: top;
+}
+</style>
+
+</body>
+</html>

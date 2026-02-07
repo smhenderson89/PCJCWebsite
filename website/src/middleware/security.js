@@ -43,8 +43,10 @@ function setupSecurity(app) {
       connectSrc: ["'self'", "http:", "https:", "ws:", "wss:", "*"],
       frameSrc: ["'self'", "*"],
       objectSrc: ["'none'"],
-      mediaSrc: ["'self'", "*"]
-    }
+      mediaSrc: ["'self'", "*"],
+      upgradeInsecureRequests: null  // Disable in development
+    },
+    reportOnly: true  // Allow navigation and DevTools in development
   } : {
     // Production CSP - more restrictive
     directives: {
@@ -84,7 +86,8 @@ function setupSecurity(app) {
 
   // Security headers (includes XSS protection)
   app.use(helmet({
-    contentSecurityPolicy: cspConfig,
+    // Completely disable CSP in development for easier development
+    contentSecurityPolicy: isDevelopment ? false : cspConfig,
     // Disable strict MIME checking to be more forgiving with CSS files
     noSniff: false
   }));

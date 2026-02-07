@@ -18,128 +18,321 @@
       <p class="mb-0"><%= error %></p>
       <hr>
       <p class="mb-0">
-        <a href="/awards" class="btn btn-primary">← Back to Awards</a>
+        <a href="/awardslist" class="btn btn-primary">← Back to Awards</a>
         <% if (year) { %>
           <a href="/awards/<%= year %>" class="btn btn-outline-primary">View <%= year %> Awards</a>
         <% } %>
       </p>
     </div>
-  <% } else if (award) { %>
-    <!-- Award Display -->
+  <% } else { %>
+    <!-- Unified Award Display - works for both server and client-side data -->
     <div class="row mt-4">
       <div class="col-12">
         <!-- Back navigation -->
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/awards">Awards</a></li>
-            <li class="breadcrumb-item"><a href="/awards/<%= year %>"><%= year %></a></li>
-            <li class="breadcrumb-item active" aria-current="page">Award #<%= award.awardNum %></li>
+            <li class="breadcrumb-item"><a href="/awardslist">Awards</a></li>
+            <% if (award && year) { %>
+              <li class="breadcrumb-item"><a href="/awards/<%= year %>"><%= year %></a></li>
+              <li class="breadcrumb-item active" aria-current="page">Award <%= award.awardNum %></li>
+            <% } else { %>
+              <li class="breadcrumb-item"><a href="#" id="year-link">Year</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Award <span id="breadcrumb-award-num">Loading...</span></li>
+            <% } %>
           </ol>
         </nav>
       </div>
     </div>
 
-    <div class="card shadow mt-3">
-      <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
-        <h1 class="mb-0">🏆 Award #<%= award.awardNum %></h1>
-        <span class="badge bg-light text-dark"><%= year %></span>
+    <div class="card shadow mt-3" id="award-card"<% if (!award) { %> style="display: none;"<% } %>>
+      <div class="card-header text-center">
+        <h4 class="mb-0"> Award <span id="award-number">
+          <% if (award) { %>
+            <%= award.awardNum %>
+          <% } else { %>
+            Loading...
+          <% } %>
+        </span></h4>
       </div>
       <div class="card-body">
-        <div class="row">
-          <div class="col-md-8">
-            <h2 class="text-primary"><%= award.award || 'Unknown Award' %> 
-              <% if (award.awardpoints) { %><span class="text-muted">(<%= award.awardpoints %> points)</span><% } %>
-            </h2>
-            <h3 class="text-secondary mb-4">
-              <em><%= award.genus || 'Unknown' %><% if (award.species) { %> <%= award.species %><% } %></em>
-            </h3>
+        <!-- Image Container with Better Centering -->
+        <div class="award-image-container">
+          <!-- Bootstrap placeholder while loading -->
+          <div id="image-placeholder" class="placeholder-glow"<% if (award) { %> style="display: none;"<% } %>>
+            <div class="placeholder rounded shadow"></div>
+          </div>
             
+          <!-- Actual image -->
+          <% if (award && award.photo) { %>
+            <img id="award-photo" 
+                 src="<%= award.photo.replace('database/images/', '/images/') %>" 
+                 class="rounded shadow" 
+                 alt="Award <%= award.awardNum %>">
+            <p class="text-muted mt-2 small text-center position-absolute" id="photo-caption" style="display: none; bottom: -30px; left: 50%; transform: translateX(-50%);"></p>
+          <% } else if (award) { %>
+            <img id="award-photo" 
+                 src="/images/icons8-no-image-100.png" 
+                 class="rounded shadow" 
+                 alt="Default orchid image">
+            <p class="text-muted mt-2 small text-center position-absolute" id="photo-caption" style="bottom: -30px; left: 50%; transform: translateX(-50%);">No photo available</p>
+          <% } else { %>
+            <img id="award-photo" 
+                 src="" 
+                 class="rounded shadow d-none" 
+                 alt="Award Photo">
+            <p class="text-muted mt-2 small text-center position-absolute" id="photo-caption" style="bottom: -30px; left: 50%; transform: translateX(-50%);">Loading image...</p>
+          <% } %>
+        </div>
+
+            <!-- Award Details Below Image -->
+            <!-- Line 1: Genus Species 'Clone' -->
+            <div class="text-center mb-2" id="genus-species-display" 
+                 <% if (award && (award.genus || award.species || award.clone)) { %>
+                   style="display: block;"
+                 <% } else { %>
+                   style="display: none;"
+                 <% } %>>
+                <span id="award-genus">
+                  <% if (award && award.genus) { %>
+                    <%= award.genus %>
+                  <% } %>
+                </span>
+                <span id="award-species">
+                  <% if (award && award.species) { %>
+                    <%= ' ' + award.species %>
+                  <% } %>
+                </span>
+                <span id="award-clone">
+                  <% if (award && award.clone) { %>
+                    <%= " '" + award.clone + "'" %>
+                  <% } %>
+                </span>
+            </div>
+            
+            <!-- Line 2: Cross Information -->
+            <div class="text-center mb-2" id="cross-info-display" 
+                 <% if (award && award.cross) { %>
+                   style="display: block;"
+                 <% } else { %>
+                   style="display: none;"
+                 <% } %>>
+                <em id="cross-info-text">
+                  <% if (award && award.cross) { %>
+                    <%= award.cross %>
+                  <% } %>
+                </em>
+            </div>
+            
+            <!-- Line 3: Award Name and Points -->
+            <div class="text-center mb-4" id="award-name-display" 
+                 <% if (award && (award.award || award.awardpoints)) { %>
+                   style="display: block;"
+                 <% } else { %>
+                   style="display: none;"
+                 <% } %>>
+  
+                <span id="award-name">
+                  <% if (award && award.award) { %>
+                    <%= award.award %>
+                  <% } %>
+                </span>
+                <span id="award-points">
+                  <% if (award && award.awardpoints) { %>
+                    <%= ' ' + award.awardpoints %>
+                  <% } %>
+                </span>
+            </div>
+            
+            <!-- Additional Details Section -->
             <div class="row mb-4">
               <div class="col-sm-6">
-                <p><strong>Date:</strong> 
-                  <% if (award.date) { %>
-                    <%= award.date %>
-                  <% } else if (award.date_iso) { %>
-                    <%= new Date(award.date_iso).toLocaleDateString() %>
+                <p><strong>Date:</strong> <span id="award-date">
+                  <% if (award) { %>
+                    <% if (award.date) { %>
+                      <%= award.date %>
+                    <% } else if (award.date_iso) { %>
+                      <%= new Date(award.date_iso).toLocaleDateString() %>
+                    <% } else { %>
+                      Unknown
+                    <% } %>
                   <% } else { %>
                     Unknown
                   <% } %>
-                </p>
-                <p><strong>Location:</strong> <%= award.location || 'Unknown' %></p>
+                </span></p>
+                <p><strong>Location:</strong> <span id="award-location">
+                  <% if (award) { %>
+                    <%= award.location || 'Unknown' %>
+                  <% } else { %>
+                    Unknown
+                  <% } %>
+                </span></p>
               </div>
               <div class="col-sm-6">
-                <p><strong>Exhibitor:</strong> <%= award.exhibitor || 'Not specified' %></p>
-                <p><strong>Photographer:</strong> <%= award.photographer || 'Not specified' %></p>
+                <p><strong>Exhibitor:</strong> 
+                  <% if (award && award.exhibitor && award.exhibitor !== 'Not specified') { %>
+                    <a href="/awards/exhibitor/<%= encodeURIComponent(award.exhibitor) %>" id="award-exhibitor">
+                      <%= award.exhibitor %>
+                    </a>
+                  <% } else if (award) { %>
+                    <span id="award-exhibitor">Not specified</span>
+                  <% } else { %>
+                    <span id="award-exhibitor">Not specified</span>
+                  <% } %>
+                </p>
+                <p><strong>Photographer:</strong> <span id="award-photographer">
+                  <% if (award) { %>
+                    <%= award.photographer || 'Not specified' %>
+                  <% } else { %>
+                    Not specified
+                  <% } %>
+                </span></p>
               </div>
             </div>
             
-            <% if (award.description) { %>
-              <div class="mt-4">
-                <h5><strong>Description:</strong></h5>
-                <div class="border rounded p-3 bg-light"><%= award.description %></div>
+            <!-- Award Description Section -->
+            <div class="mt-4" id="description-section"
+                 <% if (award && award.description) { %>
+                   style="display: block;"
+                 <% } else { %>
+                   style="display: none;"
+                 <% } %>>
+              <h5><strong>Description:</strong></h5>
+              <div class="description-box p-3" id="award-description">
+                <% if (award && award.description) { %>
+                  <%= award.description %>
+                <% } %>
               </div>
-            <% } %>
-
-            <!-- Cross information -->
-            <% if (award.seedParent || award.pollenParent) { %>
-              <div class="mt-4">
-                <h5><strong>Cross Information:</strong></h5>
-                <div class="border rounded p-3 bg-light">
-                  <% if (award.seedParent) { %>
-                    <p><strong>Seed Parent:</strong> <em><%= award.seedParent %></em></p>
-                  <% } %>
-                  <% if (award.pollenParent) { %>
-                    <p class="mb-0"><strong>Pollen Parent:</strong> <em><%= award.pollenParent %></em></p>
-                  <% } %>
-                </div>
-              </div>
-            <% } %>
-          </div>
-          
-          <div class="col-md-4">
-            <div class="text-center">
-              <% if (award.photo) { %>
-                <img src="<%= award.photo.replace('database/images/', '/images/') %>" 
-                     class="img-fluid rounded shadow" 
-                     alt="Award <%= award.awardNum %>"
-                     style="max-height: 400px; object-fit: cover;">
-                <p class="text-muted mt-2 small">Original Image</p>
-              <% } else { %>
-                <div class="bg-light rounded p-5 text-muted mb-3">
-                  <i class="fas fa-image fa-3x mb-3"></i>
-                  <p>No image available</p>
-                </div>
-              <% } %>
             </div>
+
+            <!-- Measurements Table Section -->
+            <div class="mt-4" id="measurements-section"
+                 <% 
+                 let hasMeasurements = false;
+                 if (award) {
+                   const measurements = ['NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LSW', 'LSL', 'LIPW', 'LIPL', 'SYNSW', 'SYNSL', 'PCHW', 'PCHL'];
+                   hasMeasurements = measurements.some(field => award[field]);
+                 }
+                 %>
+                 <% if (hasMeasurements) { %>
+                   style="display: block;"
+                 <% } else { %>
+                   style="display: none;"
+                 <% } %>>
+              <h5><strong>Measurements:</strong></h5>
+              <div class="measurements-table-container">
+                <table class="table table-striped measurements-table" id="measurements-table">
+                  <tbody>
+                    <!-- Primary measurements always shown first if available -->
+                    <% if (award && award.NS) { %>
+                      <tr><td><strong>Natural Spread:</strong></td><td><span id="measurement-ns"><%= award.NS %></span></td></tr>
+                    <% } %>
+                    <% if (award && award.NSV) { %>
+                      <tr><td><strong>Natural Spread Vertical:</strong></td><td><span id="measurement-nsv"><%= award.NSV %></span></td></tr>
+                    <% } %>
+                    <% if (award && award.DSW) { %>
+                      <tr><td><strong>Dorsal Sepal Width:</strong></td><td><span id="measurement-dsw"><%= award.DSW %></span></td></tr>
+                    <% } %>
+                    <% if (award && award.DSL) { %>
+                      <tr><td><strong>Dorsal Sepal Length:</strong></td><td><span id="measurement-dsl"><%= award.DSL %></span></td></tr>
+                    <% } %>
+                    <% if (award && award.PETW) { %>
+                      <tr><td><strong>Petal Width:</strong></td><td><span id="measurement-petw"><%= award.PETW %></span></td></tr>
+                    <% } %>
+                    <% if (award && award.PETL) { %>
+                      <tr><td><strong>Petal Length:</strong></td><td><span id="measurement-petl"><%= award.PETL %></span></td></tr>
+                    <% } %>
+                    
+                    <!-- Lateral Sepal and Lip measurements (if valid) -->
+                    <% 
+                    let hasLateralLip = false;
+                    if (award && (award.LSW || award.LSL || award.LIPW || award.LIPL)) {
+                      hasLateralLip = true;
+                    }
+                    %>
+                    <% if (hasLateralLip) { %>
+                      <% if (award.LSW) { %>
+                        <tr><td><strong>Lateral Sepal Width:</strong></td><td><span id="measurement-lsw"><%= award.LSW %></span></td></tr>
+                      <% } %>
+                      <% if (award.LSL) { %>
+                        <tr><td><strong>Lateral Sepal Length:</strong></td><td><span id="measurement-lsl"><%= award.LSL %></span></td></tr>
+                      <% } %>
+                      <% if (award.LIPW) { %>
+                        <tr><td><strong>Lip Width:</strong></td><td><span id="measurement-lipw"><%= award.LIPW %></span></td></tr>
+                      <% } %>
+                      <% if (award.LIPL) { %>
+                        <tr><td><strong>Lip Length:</strong></td><td><span id="measurement-lipl"><%= award.LIPL %></span></td></tr>
+                      <% } %>
+                    <% } %>
+                    
+                    <!-- Synsepal and Pouch measurements (alternative to lateral/lip) -->
+                    <% 
+                    let hasSynsepalPouch = false;
+                    if (award && !hasLateralLip && (award.SYNSW || award.SYNSL || award.PCHW || award.PCHL)) {
+                      hasSynsepalPouch = true;
+                    }
+                    %>
+                    <% if (hasSynsepalPouch) { %>
+                      <% if (award.SYNSW) { %>
+                        <tr><td><strong>Synsepal Width:</strong></td><td><span id="measurement-synsw"><%= award.SYNSW %></span></td></tr>
+                      <% } %>
+                      <% if (award.SYNSL) { %>
+                        <tr><td><strong>Synsepal Length:</strong></td><td><span id="measurement-synsl"><%= award.SYNSL %></span></td></tr>
+                      <% } %>
+                      <% if (award.PCHW) { %>
+                        <tr><td><strong>Pouch Width:</strong></td><td><span id="measurement-pchw"><%= award.PCHW %></span></td></tr>
+                      <% } %>
+                      <% if (award.PCHL) { %>
+                        <tr><td><strong>Pouch Length:</strong></td><td><span id="measurement-pchl"><%= award.PCHL %></span></td></tr>
+                      <% } %>
+                    <% } %>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Measurement Data Inclusion -->
+    <!-- Measurement Data Inclusion for server-side data -->
     <% if (award) { %>
       <div class="mt-4">
         <%- include('../partials/plantdata'); %>
       </div>
     <% } %>
 
-  <% } else { %>
-    <!-- Loading/No data state - Client-side will fetch data -->
-    <div class="loading-indicator mt-4">
-      <div class="alert alert-info">
-        <h4 class="alert-heading">🔄 Loading Award Data...</h4>
-        <p class="mb-0">Fetching award information from cache or API...</p>
-        <div class="spinner-border spinner-border-sm mt-2" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
+    <!-- Loading state (only shown for client-side loading) -->
+    <% if (!award) { %>
+    <div class="alert alert-info mt-4" id="loading-alert">
+      <h4 class="alert-heading">🔄 Loading Award Data...</h4>
+      <p class="mb-0">Fetching award information from cache or API...</p>
+      <div class="spinner-border spinner-border-sm mt-2" role="status">
+        <span class="visually-hidden">Loading...</span>
       </div>
     </div>
-    
-    <!-- Empty state for when no award data available -->
+
+    <!-- Error state -->
+    <div class="alert alert-danger mt-4" style="display: none;" id="error-alert">
+      <h4 class="alert-heading">❌ Error Loading Award</h4>
+      <p class="mb-0" id="error-message">Unable to load award information.</p>
+      <hr>
+      <p class="mb-0">
+        <a href="/awardslist" class="btn btn-primary">← Back to Awards</a>
+        <a href="#" id="year-awards-link" class="btn btn-outline-primary">View Year Awards</a>
+      </p>
+    </div>
+
+    <!-- No data state -->
     <div class="alert alert-info mt-4" style="display: none;" id="no-data-alert">
       <h4 class="alert-heading">ℹ️ No Award Data</h4>
       <p class="mb-0">No award information available for the specified parameters.</p>
+      <hr>
+      <p class="mb-0">
+        <a href="/awardslist" class="btn btn-primary">← Back to Awards</a>
+      </p>
     </div>
+    <% } %>
   <% } %>
 </main>
 

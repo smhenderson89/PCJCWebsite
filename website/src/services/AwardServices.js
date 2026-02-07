@@ -55,6 +55,18 @@ class DatabaseService {
     return stmt.all(year);
   }
 
+  // Get awards grouped by a particular exhibitor
+  getAwardsByExhibitor(exhibitor) {
+    const stmt = this.db.prepare(`
+      SELECT *
+      FROM awards
+      WHERE exhibitor LIKE ?
+      ORDER BY year ASC, date_iso ASC, awardNum ASC
+    `);
+    const likePattern = `%${exhibitor}%`;
+    return stmt.all(likePattern);
+  }
+
   // Close database connection
   close() {
     this.db.close();

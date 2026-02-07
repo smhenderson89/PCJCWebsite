@@ -1,4 +1,7 @@
 {
+	"scripts": {
+		"dev": "cd website && pnpm run dev"
+	},
 	"dependencies": {
 		"cheerio": "^1.2.0"
 	}

@@ -160,6 +160,30 @@ class AwardsController {
     }
   }
 
+  // API endpoint to get awards by a particular exhibitor
+  async getAwardsByExhibitor(req, res) {
+    const exhibitor = req.params.exhibitor;
+    
+    if (!exhibitor) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Invalid exhibitor parameter' 
+      });
+    }
+
+    try {
+      const awards = this.dbService.getAwardsByExhibitor(exhibitor);
+      const formattedAwards = MeasurementFormatter.formatAwardsArray(awards);
+      res.json({ success: true, data: formattedAwards });
+    } catch (error) {
+      console.error(`Error getting awards for exhibitor ${exhibitor}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load awards for the specified exhibitor' 
+      });
+    }
+  }
+
   // Close database connection when done
   close() {
     this.dbService.close();

@@ -5,9 +5,14 @@ var app = express();
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
+// Disable view caching in development
+if (process.env.NODE_ENV !== 'production') {
+  app.set('view cache', false);
+}
+
 // Static files FIRST (simplified and optimized)
 app.use(express.static(path.join(__dirname, 'public'), { 
-  maxAge: '1h',  // Cache static files for 1 hour
+  maxAge: process.env.NODE_ENV === 'production' ? '1h' : 0,  // No cache in development
   etag: false    // Disable etag generation for better performance
 }));
 
