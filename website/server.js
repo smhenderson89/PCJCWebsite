@@ -83,6 +83,16 @@ app.use('/', routes.awards.pages);   // Awards page routes
 app.use('/', routes.admin.pages);    // Admin page routes
 app.use('/', routes.general.pages);  // General/static page routes
 
+// Health check endpoint for deployment verification
+app.get('/health', (req, res) => {
+  res.json({
+    status: 'healthy',
+    timestamp: new Date().toISOString(),
+    environment: process.env.NODE_ENV || 'development',
+    uptime: process.uptime()
+  });
+});
+
 // Basic homepage route (temporary)
 app.get('/', (req, res) => {
   res.render('pages/index');

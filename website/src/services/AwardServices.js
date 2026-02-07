@@ -5,8 +5,8 @@ const path = require('path');
 
 class DatabaseService {
   constructor() {
-    const dbPath = path.join(__dirname, '..', '..', '..', 'db', 'orchid_awards.sqlite');
-    // console.log('Database path:', dbPath); // Debug log
+    const dbPath = process.env.DATABASE_PATH || path.join(__dirname, '..', '..', '..', 'db', 'orchid_awards.sqlite');
+    console.log('Database path:', dbPath); // Debug log for deployment
     this.db = new Database(dbPath);
     
     // Enable WAL mode for better performance with concurrent access

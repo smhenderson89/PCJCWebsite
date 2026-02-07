@@ -1,8 +1,24 @@
 {
+	"name": "pcjc-website",
+	"version": "1.0.0",
+	"private": true,
+	"engines": {
+		"node": ">=18.0.0",
+		"pnpm": ">=8.0.0"
+	},
 	"scripts": {
-		"dev": "cd website && pnpm run dev"
+		"install": "cd website && pnpm install",
+		"build": "cd website && pnpm install && pnpm run build",
+		"start": "cd website && pnpm start",
+		"dev": "cd website && pnpm run dev",
+		"deploy:render": "pnpm run build && pnpm start"
 	},
 	"dependencies": {
 		"cheerio": "^1.2.0"
-	}
+	},
+	"files": [
+		"website/",
+		"db/orchid_awards.sqlite",
+		"db/images/"
+	]
 }

@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: pcjc-website
+    runtime: node
+    buildCommand: pnpm install && pnpm run build
+    startCommand: pnpm start
+    plan: free
+    env:
+      - key: NODE_ENV
+        value: production
+      - key: PNPM_VERSION
+        value: "8"
+    healthCheckPath: /
+    # Ignore unnecessary files during deploy
+    ignorePaths:
+      - figmaSketch/**
+      - scraper/**
+      - utilities/**
+      - webScraper/**
+      - "*.md"
+      - db/migrations/**
+      - db/adminDB/**
+      - website/sass/**
+      - website/test/**
