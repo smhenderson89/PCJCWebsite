@@ -9,6 +9,7 @@
 	"scripts": {
 		"install": "cd website && pnpm install",
 		"build": "cd website && pnpm install && pnpm run build",
+		"build:production": "pnpm install --frozen-lockfile && pnpm run build",
 		"start": "cd website && pnpm start",
 		"dev": "cd website && pnpm run dev",
 		"deploy:render": "pnpm run build && pnpm start"

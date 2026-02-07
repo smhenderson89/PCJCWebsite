@@ -2,7 +2,7 @@ services:
   - type: web
     name: pcjc-website
     runtime: node
-    buildCommand: pnpm install --frozen-lockfile && pnpm run build
+    buildCommand: pnpm run build:production
     startCommand: pnpm start
     plan: free
     env:
