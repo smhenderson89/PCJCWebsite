@@ -98,6 +98,7 @@ function setupSecurity(app) {
   if (!isLocalhost) {
     helmetConfig.crossOriginOpenerPolicy = { policy: "same-origin" };
     helmetConfig.crossOriginResourcePolicy = { policy: "cross-origin" };
+    helmetConfig.originAgentCluster = true;
     helmetConfig.hsts = {
       maxAge: 31536000,
       includeSubDomains: true,
