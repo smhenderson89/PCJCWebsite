@@ -31,6 +31,8 @@ function sanitizeInput(req, res, next) {
 function setupSecurity(app) {
   // Determine if we're in development mode
   const isDevelopment = process.env.NODE_ENV !== 'production';
+  // Check if we're running on localhost (even in production mode, for local testing)
+  const isLocalhost = !process.env.RENDER && !process.env.VERCEL && !process.env.HEROKU;
   
   // More permissive CSP for development
   const cspConfig = isDevelopment ? {
@@ -85,12 +87,25 @@ function setupSecurity(app) {
   };
 
   // Security headers (includes XSS protection)
-  app.use(helmet({
+  const helmetConfig = {
     // Completely disable CSP in development for easier development
     contentSecurityPolicy: isDevelopment ? false : cspConfig,
     // Disable strict MIME checking to be more forgiving with CSS files
     noSniff: false
-  }));
+  };
+
+  // Only apply HTTPS-required headers when not on localhost
+  if (!isLocalhost) {
+    helmetConfig.crossOriginOpenerPolicy = { policy: "same-origin" };
+    helmetConfig.crossOriginResourcePolicy = { policy: "cross-origin" };
+    helmetConfig.hsts = {
+      maxAge: 31536000,
+      includeSubDomains: true,
+      preload: true
+    };
+  }
+
+  app.use(helmet(helmetConfig));
   
   // CORS (enhanced version)
   app.use(cors({
