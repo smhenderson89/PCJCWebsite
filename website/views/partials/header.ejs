@@ -1,22 +1,31 @@
-<!-- TODO: Fix header not shwoing on mobile view, needs to collaspe into a harmburger icon ---->
+<!-- TODO: Fix header not showing on mobile view, needs to collapse into a hamburger icon ---->
 
-<div class = "container">
+<div class="container">
   <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Attend
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Location Information</a></li>
-                <li><a class="dropdown-item" href="#">Upcoming Events</a></li>
-              </ul>
-            </li>
+    <div class="container-fluid">
+      <!-- Navbar brand (optional) -->
+      <a class="navbar-brand d-lg-none" href="/">PCJC</a>
+      
+      <!-- Mobile toggle button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Collapsible navbar content -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Attend
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Location Information</a></li>
+              <li><a class="dropdown-item" href="#">Upcoming Events</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/awardslist">Awards</a>
@@ -29,7 +38,7 @@
               <li><a class="dropdown-item" href="#">PCJC Personnel</a></li>
               <li><a class="dropdown-item" href="#">American Orchid Society</a></li>
               <li><a class="dropdown-item" href="#">Photography Information</a></li>
-              <li><a class="dropdown-item" href="#">Internet Orchid Encycolopedia</a></li>
+              <li><a class="dropdown-item" href="#">Internet Orchid Encyclopedia</a></li>
               <li><a class="dropdown-item" href="#">Contact Us</a></li>
             </ul>
           </li>
@@ -37,13 +46,12 @@
             <a class="nav-link" href="#">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Register</a>
-          </li>
+            <a class="nav-link" href="#">Register</a></li>
           <li class="nav-item">
             <a class="nav-link" href="/submit">Submit</a>
           </li>
-          </ul>
-        </div>
+        </ul>
       </div>
+    </div>
   </nav>
 </div>
