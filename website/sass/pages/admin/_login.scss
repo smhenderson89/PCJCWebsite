@@ -1,13 +1,42 @@
 #emailInput, #passwordInput {
-    width: 50%;
-    margin: 0 auto;
-    display: block;
+    margin: 0 auto !important;
+    display: block !important;
+    max-width: 400px; // Set a reasonable max-width
+}
+
+#emailInputLabel, #passwordInputLabel {
+    display: block !important;
+    text-align: left !important;
+    width: 50% !important;
+    max-width: 400px; // Match input max-width
+    margin: 0 auto 0.5rem auto !important;
 }
 
 #inputFieldsRow {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    
+    // Target the form itself for better layout
+    form {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .form-group {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
+#title {
+    padding-bottom: 1rem;
 }

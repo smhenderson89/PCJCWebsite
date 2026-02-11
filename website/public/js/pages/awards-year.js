@@ -156,9 +156,7 @@ function generateOptimizedImageHTML(award, context = 'card', additionalClasses =
     `;
   } else {
     // Standard JPEG (either thumbnail or original)
-    setTimeout(() => setupImageLoadHandlers(imageId, containerId), 0);
-    
-    return `
+    const imageHtml = `
       <div id="${containerId}" class="award-image-container">
         <!-- Loading spinner -->
         <div class="spinner-border text-primary award-image-spinner" role="status">
@@ -173,6 +171,11 @@ function generateOptimizedImageHTML(award, context = 'card', additionalClasses =
              ${supportsLazyLoading ? 'loading="lazy"' : ''}>
       </div>
     `;
+    
+    // Set up handlers immediately after DOM insertion
+    setTimeout(() => setupImageLoadHandlers(imageId, containerId), 1);
+    
+    return imageHtml;
   }
 }
 
@@ -190,7 +193,11 @@ function setupImageLoadHandlers(imageId, containerId) {
   // Handle successful image load
   img.addEventListener('load', function() {
     this.classList.add('loaded');
-    if (spinner) spinner.classList.add('spinner-hidden');
+    if (spinner) {
+      // Use both CSS class and direct style for maximum compatibility
+      spinner.classList.add('spinner-hidden');
+      spinner.style.display = 'none';
+    }
   });
   
   // Handle image load error
