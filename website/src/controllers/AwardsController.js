@@ -55,6 +55,14 @@ class AwardsController {
 
     try {
       const awards = this.dbService.getAwardsByYear(year);
+
+      // Check if awards is empty and return 404 if so
+      if (!awards || awards.length === 0) {
+        return res.status(404).json({ 
+          success: false,
+          error: `No awards found for year ${year}` 
+        });
+      }
       // const formattedAwards = MeasurementFormatter.formatAwardsArray(awards);
       res.json({ success: true, data: awards });
     } catch (error) {
@@ -183,6 +191,37 @@ class AwardsController {
       });
     }
   }
+
+  // API endpoint to get info for a specific award by award number
+  async getAwardByNumber(req, res) {
+    const awardNum = req.params.awardNum;
+    
+    if (!awardNum) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Invalid award number parameter' 
+      });
+    }
+
+    try {
+      const awardInfo = this.dbService.getAwardByNumber(awardNum);
+      if (awardInfo) {
+        const formattedAward = MeasurementFormatter.formatAward(awardInfo);
+        res.json({ success: true, data: formattedAward });
+      } else {
+        res.status(404).json({ 
+          success: false,
+          error: 'Award not found' 
+        });
+      }
+    } catch (error) {
+      console.error(`Error getting award by number ${awardNum}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load award details for the specified award number' 
+      });
+    }
+  } 
 
   // Close database connection when done
   close() {

@@ -12,14 +12,14 @@ router.get('/about', (req, res) => {
 
 // Personnel page
 router.get('/personnel', (req, res) => {
-  res.render('pages/personnel', { 
+  res.render('pages/resources/personnel', { 
     title: 'Personnel - Pacific Central Judging Center' 
   });
 });
 
 // Calendar page (may need database access in the future)
 router.get('/calendar', (req, res) => {
-  res.render('pages/calendar', { 
+  res.render('pages/attend/calendar', { 
     title: 'Calendar - Pacific Central Judging Center' 
   });
 });

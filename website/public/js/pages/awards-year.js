@@ -25,21 +25,25 @@ document.addEventListener('DOMContentLoaded', async function() {
   }
   
   const year = parseInt(yearElement.dataset.year, 10);
+  console.log('Awards year page - requesting year:', year); // Debug
   
   try {
     // Use the cache service to get awards
     const response = await awardsCacheService.getAwardsByYear(year);
     
+    console.log('Awards year page - response:', response); // Debug
+    
     if (response.success) {
+      console.log('Awards year page - awards count:', response.data ? response.data.length : 0); // Debug
       displayAwards(response.data, year);
       hideLoading();
       
       // Start performance tracking
       trackImageLoadingPerformance();
     } else {
+      console.error('Awards year page - error:', response.error); // Debug
       showError(response.error || 'Failed to load awards');
-    }
-    
+    }    
   } catch (error) {
     console.error('Error loading awards:', error);
     showError('Failed to load awards');
@@ -86,7 +90,15 @@ function getOptimalImageSize(context = 'card') {
  */
 function generateOptimizedImageHTML(award, context = 'card', additionalClasses = '') {
   if (!award.photo && (!award.thumbnail_jpeg_small && !award.thumbnail_webp_small)) {
-    return ''; // No image available
+    // Return placeholder image for awards without images (useful for debugging)
+    return `
+      <div class="image-container" style="position: relative; height: 200px; background: #f8f9fa; display: flex; align-items: center; justify-content: center;">
+        <img src="/images/No-Image-Placeholder-med.png" 
+             class="card-img-top ${additionalClasses}" 
+             alt="No image available for Award ${award.awardNum}"
+             style="width: 100%; height: 200px; object-fit: contain; opacity: 0.7;">
+      </div>
+    `;
   }
   
   const size = getOptimalImageSize(context);
@@ -196,9 +208,13 @@ function setupImageLoadHandlers(imageId, containerId) {
 }
 
 function displayAwards(awards, year) {
+  console.log('displayAwards called with:', awards ? awards.length : 0, 'awards for year', year); // Debug
+  console.log('Sample award data:', awards && awards.length > 0 ? awards[0] : 'none'); // Debug
+  
   const container = document.getElementById('awards-container');
   
   if (!awards || awards.length === 0) {
+    console.log('No awards found, showing empty message'); // Debug
     container.innerHTML = `
       <div class="col-12 text-center">
         <p class="text-muted">No awards found for ${year}</p>
@@ -207,6 +223,7 @@ function displayAwards(awards, year) {
   } else {
     // Group awards by date
     const groupedByDate = groupAwardsByDate(awards);
+    console.log('Awards grouped by date:', Object.keys(groupedByDate)); // Debug
     container.innerHTML = renderAwardsGroupedByDate(groupedByDate);
   }
   

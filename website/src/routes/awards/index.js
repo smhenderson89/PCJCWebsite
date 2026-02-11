@@ -10,13 +10,13 @@ const dbService = new DatabaseService();
 router.get('/awardslist', (req, res) => {
   try {
     const awardCounts = dbService.getAwardCountsByYear();
-    res.render('pages/awardslist', { 
+    res.render('pages/awards/awardslist', { 
       title: 'Awards List - Pacific Central Judging Center',
       awardCounts: awardCounts
     });
   } catch (error) {
     console.error('Error getting award counts:', error);
-    res.status(500).render('pages/awardslist', { 
+    res.status(500).render('pages/awards/awardslist', { 
       title: 'Awards List - Pacific Central Judging Center',
       awardCounts: [],
       error: 'Unable to load award counts'
@@ -38,15 +38,17 @@ router.get('/awards/:year', (req, res) => {
     }
 
     // Just render the template with the year - let client-side load data
-    res.render('pages/awardsYear', { 
+    res.render('pages/awards/awardsYear', { 
       title: `${year} Awards - Pacific Central Judging Center`,
       year: year,
       awards: [] // Empty - will be loaded client-side
     });
   } catch (error) {
     console.error('Error rendering awards year page:', error);
-    res.status(500).json({ 
-      success: false,
+    res.status(500).render('pages/awards/awardsYear', { 
+      title: `Error - Pacific Central Judging Center`,
+      year: req.params.year,
+      awards: [],
       error: `Unable to load awards page for ${req.params.year}`
     });
   }
@@ -61,7 +63,7 @@ router.get('/award/:year/:awardNum', (req, res) => {
     
     // Check if there's an error parameter from client-side
     if (req.query.error) {
-      return res.render('pages/awardDetailed', {
+      return res.render('pages/awards/awardDetailed', {
         title: 'Award Not Found - Pacific Central Judging Center',
         year: year,
         awardNum: awardNum,
@@ -74,7 +76,7 @@ router.get('/award/:year/:awardNum', (req, res) => {
     if (req.query.data && req.query.source) {
       try {
         const awardData = JSON.parse(atob(req.query.data));
-        return res.render('pages/awardDetailed', {
+        return res.render('pages/awards/awardDetailed', {
           title: `Award #${awardNum} (${year}) - Pacific Central Judging Center`,
           year: year,
           awardNum: awardNum,
@@ -84,7 +86,7 @@ router.get('/award/:year/:awardNum', (req, res) => {
         });
       } catch (error) {
         console.error('Error parsing client-side award data:', error);
-        return res.render('pages/awardDetailed', {
+        return res.render('pages/awards/awardDetailed', {
           title: 'Award Not Found - Pacific Central Judging Center',
           year: year,
           awardNum: awardNum,
@@ -96,7 +98,7 @@ router.get('/award/:year/:awardNum', (req, res) => {
     
     // Validate year
     if (isNaN(year) || year < 2000 || year > new Date().getFullYear()) {
-      return res.status(404).render('pages/awardDetailed', {
+      return res.status(404).render('pages/awards/awardDetailed', {
         title: 'Award Not Found - Pacific Central Judging Center',
         year: year,
         awardNum: awardNum,
@@ -107,7 +109,7 @@ router.get('/award/:year/:awardNum', (req, res) => {
 
     // Validate award number format (should start with year)
     if (!awardNum || !awardNum.startsWith(year.toString())) {
-      return res.status(404).render('pages/awardDetailed', {
+      return res.status(404).render('pages/awards/awardDetailed', {
         title: 'Award Not Found - Pacific Central Judging Center',
         year: year,
         awardNum: awardNum,
@@ -117,7 +119,7 @@ router.get('/award/:year/:awardNum', (req, res) => {
     }
 
     // Serve template for client-side data fetching
-    res.render('pages/awardDetailed', {
+    res.render('pages/awards/awardDetailed', {
       title: `Loading Award #${awardNum} (${year}) - Pacific Central Judging Center`,
       year: year,
       awardNum: awardNum,
@@ -128,7 +130,7 @@ router.get('/award/:year/:awardNum', (req, res) => {
     
   } catch (error) {
     console.error('Error rendering award detailed page:', error);
-    res.status(500).render('pages/awardDetailed', {
+    res.status(500).render('pages/awards/awardDetailed', {
       title: 'Error - Pacific Central Judging Center',
       year: req.params.year,
       awardNum: req.params.awardNum,
@@ -143,15 +145,17 @@ router.get('/awards/:year/events', (req, res) => {
   try {
     const year = req.params.year;
     const awardsByDay = dbService.getAwardsByDayForYear(year);
-    res.render('pages/awardsByDay', { 
+    res.render('pages/awards/awardsByDay', { 
       title: `Awards by Day for ${year} - Pacific Central Judging Center`,
       awardsByDay: awardsByDay,
       year: year
     });
   } catch (error) {
     console.error('Error getting awards by day for year:', error);
-    res.status(500).json({ 
-      success: false,
+    res.status(500).render('pages/awards/awardsByDay', { 
+      title: `Error - Pacific Central Judging Center`,
+      year: req.params.year,
+      awardsByDay: [],
       error: `Unable to load awards by day for ${req.params.year}`
     });
   }
@@ -163,7 +167,7 @@ router.get('/awards/exhibitor/:exhibitor', (req, res) => {
     const exhibitor = req.params.exhibitor;
     const awardsByExhibitor = dbService.getAwardsByExhibitor(exhibitor);
 
-    res.render('pages/exhibitor', { 
+    res.render('pages/awards/exhibitor', { 
       title: `Awards for Exhibitor ${exhibitor} - Pacific Central Judging Center`,
       awards: awardsByExhibitor,
       exhibitor: exhibitor
@@ -171,9 +175,38 @@ router.get('/awards/exhibitor/:exhibitor', (req, res) => {
 
   } catch (error) {
     console.error('Error getting awards by exhibitor:', error);
+    res.status(500).render('pages/awards/exhibitor', { 
+      title: `Error - Pacific Central Judging Center`,
+      exhibitor: req.params.exhibitor,
+      awards: [],
+      error: `Unable to load awards for exhibitor ${req.params.exhibitor}`
+    });
+  }
+});
+
+// Get info for a specific award by award number
+router.get('/award/:awardNum', (req, res) => {
+  try {
+    const awardNum = req.params.awardNum;
+    const awardInfo = dbService.getAwardByNumber(awardNum);
+
+    if (!awardInfo) {
+      return res.status(404).json({ 
+        success: false,
+        error: `Award not found: ${awardNum}`
+      });
+    }
+
+    res.json({ 
+      success: true,
+      data: awardInfo
+    });
+
+  } catch (error) {
+    console.error('Error getting award by number:', error);
     res.status(500).json({ 
       success: false,
-      error: `Unable to load awards for exhibitor ${req.params.exhibitor}`
+      error: `Unable to load award details for ${req.params.awardNum}`
     });
   }
 });

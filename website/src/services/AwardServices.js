@@ -6,11 +6,15 @@ const path = require('path');
 class DatabaseService {
   constructor() {
     const dbPath = path.join(__dirname, '..', '..', '..', 'db', 'orchid_awards.sqlite');
-    // console.log('Database path:', dbPath); // Debug log
+    console.log('Database path:', dbPath); // Debug log
     this.db = new Database(dbPath);
     
     // Enable WAL mode for better performance with concurrent access
     this.db.pragma('journal_mode = WAL');
+    
+    // Debug: Check total award count
+    const totalCount = this.db.prepare('SELECT COUNT(*) as count FROM awards').get();
+    console.log('Total awards in database:', totalCount.count);
   }
 
   // Get all awards grouped by award number
@@ -31,6 +35,7 @@ class DatabaseService {
 
   // Select awards for a specific year
   getAwardsByYear(year) {
+    console.log('getAwardsByYear called with year:', year, 'type:', typeof year); // Debug
     const stmt = this.db.prepare(`SELECT *,
       thumbnail_jpeg_small,
       thumbnail_jpeg_medium,
@@ -39,7 +44,12 @@ class DatabaseService {
       FROM awards 
       WHERE year = ? 
       ORDER BY date_iso ASC, awardNum ASC `);
-    return stmt.all(year);
+    const results = stmt.all(year);
+    console.log('getAwardsByYear results count:', results.length); // Debug
+    if (results.length > 0) {
+      console.log('First few results for year', year, ':', results.slice(0, 3).map(r => `${r.awardNum}-${r.year}`)); // Debug
+    }
+    return results;
   }
 
   // Counts of awards by day/event for a specific year
@@ -65,6 +75,16 @@ class DatabaseService {
     `);
     const likePattern = `%${exhibitor}%`;
     return stmt.all(likePattern);
+  }
+
+  // Get info for a specific award by award number
+  getAwardByNumber(awardNum) {
+    const stmt = this.db.prepare(`
+      SELECT *
+      FROM awards
+      WHERE awardNum = ?
+    `);
+    return stmt.get(awardNum);
   }
 
   // Close database connection

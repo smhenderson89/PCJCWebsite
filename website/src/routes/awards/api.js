@@ -24,4 +24,7 @@ router.get('/api/awards-by-day', awardsController.getAwardsByDay.bind(awardsCont
 // Awards grouped by a particular exhibitor
 router.get('/api/awards-by-exhibitor/:exhibitor', awardsController.getAwardsByExhibitor.bind(awardsController));
 
+// Get info for a specific award by award number
+router.get('/api/award/:awardNum', awardsController.getAwardByNumber.bind(awardsController));
+
 module.exports = router;

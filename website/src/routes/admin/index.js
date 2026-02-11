@@ -24,7 +24,7 @@ router.get('/submit', async (req, res) => {
             Promise.resolve(adminService.getAwardTypesList())
         ]);
 
-        res.render('pages/submit', {
+        res.render('pages/admin/submit', {
             title: 'Submit Award - Pacific Central Judging Center',
             exhibitors: exhibitors,
             awardTypes: awardTypes,
