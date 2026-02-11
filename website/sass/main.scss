@@ -9,9 +9,15 @@
 
 /* layout styles for pages and views */
 
-// pages
-@use 'pages/submit';
-@use 'pages/awardDetailed';
+// PAGES 
+
+// Admin pages
+@use 'pages/admin/submit';
+@use 'pages/admin/login';
+
+// Awards pages
+@use 'pages/awards/awardDetailed';
+@use 'pages/awards/awardYear';
 
 // components
 @use 'components/footer';

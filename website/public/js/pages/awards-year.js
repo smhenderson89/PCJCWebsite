@@ -92,11 +92,10 @@ function generateOptimizedImageHTML(award, context = 'card', additionalClasses =
   if (!award.photo && (!award.thumbnail_jpeg_small && !award.thumbnail_webp_small)) {
     // Return placeholder image for awards without images (useful for debugging)
     return `
-      <div class="image-container" style="position: relative; height: 200px; background: #f8f9fa; display: flex; align-items: center; justify-content: center;">
+      <div class="award-image-container">
         <img src="/images/No-Image-Placeholder-med.png" 
-             class="card-img-top ${additionalClasses}" 
-             alt="No image available for Award ${award.awardNum}"
-             style="width: 100%; height: 200px; object-fit: contain; opacity: 0.7;">
+             class="card-img-top award-placeholder-image ${additionalClasses}" 
+             alt="No image available for Award ${award.awardNum}">
       </div>
     `;
   }
@@ -138,21 +137,20 @@ function generateOptimizedImageHTML(award, context = 'card', additionalClasses =
     setTimeout(() => setupImageLoadHandlers(imageId, containerId), 0);
     
     return `
-      <div id="${containerId}" class="image-container" style="position: relative; height: 200px; background: #f8f9fa; display: flex; align-items: center; justify-content: center;">
+      <div id="${containerId}" class="award-image-container">
         <!-- Loading spinner -->
-        <div class="spinner-border text-primary" role="status" style="width: 2rem; height: 2rem;">
+        <div class="spinner-border text-primary award-image-spinner" role="status">
           <span class="visually-hidden">Loading image...</span>
         </div>
         
         <!-- Main image with WebP support -->
-        <picture style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        <picture class="award-picture-container">
           <source srcset="${webpSrc}" type="image/webp">
           <img id="${imageId}"
                src="${jpegSrc}" 
-               class="card-img-top ${additionalClasses}" 
+               class="card-img-top award-image ${additionalClasses}" 
                alt="Award ${award.awardNum}"
-               ${supportsLazyLoading ? 'loading="lazy"' : ''}
-               style="width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.3s ease;">
+               ${supportsLazyLoading ? 'loading="lazy"' : ''}>
         </picture>
       </div>
     `;
@@ -161,19 +159,18 @@ function generateOptimizedImageHTML(award, context = 'card', additionalClasses =
     setTimeout(() => setupImageLoadHandlers(imageId, containerId), 0);
     
     return `
-      <div id="${containerId}" class="image-container" style="position: relative; height: 200px; background: #f8f9fa; display: flex; align-items: center; justify-content: center;">
+      <div id="${containerId}" class="award-image-container">
         <!-- Loading spinner -->
-        <div class="spinner-border text-primary" role="status" style="width: 2rem; height: 2rem;">
+        <div class="spinner-border text-primary award-image-spinner" role="status">
           <span class="visually-hidden">Loading image...</span>
         </div>
         
         <!-- Main image -->
         <img id="${imageId}"
              src="${jpegSrc}" 
-             class="card-img-top ${additionalClasses}" 
+             class="card-img-top award-image positioned ${additionalClasses}" 
              alt="Award ${award.awardNum}"
-             ${supportsLazyLoading ? 'loading="lazy"' : ''}
-             style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.3s ease;">
+             ${supportsLazyLoading ? 'loading="lazy"' : ''}>
       </div>
     `;
   }
@@ -192,13 +189,13 @@ function setupImageLoadHandlers(imageId, containerId) {
   
   // Handle successful image load
   img.addEventListener('load', function() {
-    this.style.opacity = '1';
-    if (spinner) spinner.style.display = 'none';
+    this.classList.add('loaded');
+    if (spinner) spinner.classList.add('spinner-hidden');
   });
   
   // Handle image load error
   img.addEventListener('error', function() {
-    this.style.display = 'none';
+    this.classList.add('hidden');
     if (spinner) {
       spinner.innerHTML = '<small class="text-muted">Image unavailable</small>';
       spinner.classList.remove('spinner-border');
@@ -332,8 +329,7 @@ function showBrowserCapabilities() {
   
   // Also show in page for visual confirmation
   const alertDiv = document.createElement('div');
-  alertDiv.className = 'alert alert-info position-fixed';
-  alertDiv.style.cssText = 'top: 10px; right: 10px; z-index: 1050; max-width: 300px; font-size: 12px;';
+  alertDiv.className = 'alert alert-info position-fixed debug-alert';
   alertDiv.innerHTML = `
     <strong>Browser Capabilities:</strong><br>
     WebP: ${browserCapabilities.supportsWebP ? '✅' : '❌'}<br>

@@ -17,6 +17,13 @@ router.get('/personnel', (req, res) => {
   });
 });
 
+// Location page
+router.get('/location', (req, res) => {
+  res.render('pages/attend/location', { 
+    title: 'Location - Pacific Central Judging Center' 
+  });
+});
+
 // Calendar page (may need database access in the future)
 router.get('/calendar', (req, res) => {
   res.render('pages/attend/calendar', { 
@@ -24,6 +31,12 @@ router.get('/calendar', (req, res) => {
   });
 });
 
+// Login page
+router.get('/login', (req, res) => {
+  res.render('pages/admin/login', { 
+    title: 'Login - Pacific Central Judging Center' 
+  });
+});
 
 
 module.exports = router;

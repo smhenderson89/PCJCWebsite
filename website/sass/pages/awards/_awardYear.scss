@@ -1,0 +1,81 @@
+/* Awards Year Page Styles */
+
+// Award card image container
+.award-image-container {
+  position: relative;
+  height: 200px;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Placeholder image styling for awards without photos
+.award-placeholder-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  opacity: 0.7;
+}
+
+// Loading spinner for image containers
+.award-image-spinner {
+  width: 2rem;
+  height: 2rem;
+}
+
+// Picture element positioning for WebP support
+.award-picture-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// Main award images with loading states
+.award-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  // Loaded state
+  &.loaded {
+    opacity: 1;
+  }
+
+  // Hidden state for error handling
+  &.hidden {
+    display: none;
+  }
+
+  // Image positioned absolutely in container
+  &.positioned {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+// Debug alert styling
+.debug-alert {
+  top: 10px;
+  right: 10px;
+  z-index: 1050;
+  max-width: 300px;
+  font-size: 12px;
+}
+
+// Loading spinner hidden state
+.spinner-hidden {
+  display: none !important;
+}
+
+// Error state for loading spinner
+.spinner-error {
+  .spinner-border {
+    display: none;
+  }
+}

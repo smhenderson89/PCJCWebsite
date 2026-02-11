@@ -11,7 +11,7 @@ async function loadExhibitors() {
         const response = await fetch('/api/exhibitors');
         const responseData = await response.json();
 
-        console.log('API Response:', responseData);
+        // console.log('API Response:', responseData);
         
         // Extract exhibitors from the data property
         const exhibitors = responseData.data;
@@ -42,7 +42,7 @@ async function loadAwardTypes() {
         const response = await fetch('/api/award-types');
         const responseData = await response.json();
 
-        console.log('API Response:', responseData);
+        // console.log('API Response:', responseData);
         
         // Extract award types from the data property
         const awardTypes = responseData.data;

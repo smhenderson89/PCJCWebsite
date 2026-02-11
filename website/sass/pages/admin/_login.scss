@@ -1,0 +1,13 @@
+#emailInput, #passwordInput {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+#inputFieldsRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

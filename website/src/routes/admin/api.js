@@ -22,4 +22,6 @@ router.get('/api/award-types', adminController.getAwardTypesList.bind(adminContr
 // Combined route to get all submit form data using Promise.all
 router.get('/api/submit-prep', adminController.getPrepareSubmitData.bind(adminController));
 
+
+
 module.exports = router;

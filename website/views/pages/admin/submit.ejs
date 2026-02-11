@@ -58,8 +58,134 @@
             <div class = "col-6">
                 <input type="text" id="newAwardTypeInput" name="newAwardType" disabled>
             </div>
-
         </div>
+
+        <div class = "form-label">Award Value</div>
+            <input type="form control" class="form-control" id="awardValue" name = "awardValue" placeholder="##" required>
+
+            <div class = "form-label">Award Number</div>
+            <input type="form control" class="form-control" id="awardValue" name = "awardValue" placeholder="2025####" required>
+
+            <div class = "form-label">Event Title</div>
+            <input type="form control" class="form-control" name = "event Title" id="eventTitle" placeholder="Event Title" required>
+
+            <div class="form-label">Event Date</div>
+            <input type="date" id="eventDate" name="eventDate" required>
+
+            <div class = "form-label">Genus</div>
+            <input type="form control" class="form-control" id="genus" name = "genus" placeholder="Genus" required>
+
+            <div class = "form-label">Hybrid/species</div>
+            <input type="form control" class="form-control" name = "hybrid/species" id="Hybrid/species" placeholder="X / X" required>
+
+            <div class = "form-label">Clonal Name (don't incldue quotes around the name)</div>
+            <input type="form control" class="form-control" id="clonalName" name = "clonalName" placeholder="Clonal Name" required>
+
+            <div class = "form-label">Cross (don't incldue quotes around the name)</div>
+            <input type="form control" class="form-control" id="crossName" name = "crossName" placeholder="Cross" required>
+
+            <div class = "form-label">Exhibited By</div>
+            <input type="form control" class="form-control" id="exhibitor" name = "exhibitor" placeholder="Exhibited By" required>
+
+            <div class = "form-label">Photographed By</div>
+            <input type="form control" class="form-control" id="photographer" name = "photographer" placeholder="Photographer" required>
+
+            <div for="formFile" class="form-label">Award Photo (submit file uncompressed)</div>
+            <input class="form-control" type="file" id="awardPhoto" name = "awardPhoto" requried>
+            
+            <br>
+            <div class = "bold">Measurements (in centimeters)</div>
+
+            <div class = "form-label">Natural Spread (NS)</div>
+            <input type="form control" class="form-control" id="NS" name = "NS" placeholder="XX" required>
+
+            <div class = "form-label">Natural Spread Vertical (NSV)</div>
+            <input type="form control" class="form-control" id="NSV" name = "NSV" placeholder="XX" required>
+
+            <div class = "form-label">Dorsal Speal Width (DSW)</div>
+            <input type="form control" class="form-control" id="DSW" name = "DSW" placeholder="XX" required>
+
+            <div class = "form-label">Dorsal Speal Length (DSL)</div>
+            <input type="form control" class="form-control" id="DSL" name = "DSL" placeholder="XX" required>
+            
+            <div class = "form-label">Petal Width (PETW)</div>
+            <input type="form control" class="form-control" id="PETW" name = "PETW" placeholder="XX" required>
+
+            <div class = "form-label">Petal Length (PETL)</div>
+            <input type="form control" class="form-control" id="PETL" name = "PETL" placeholder="XX" required>
+
+            <div class = "form-label">Pouch and Synsepal or Lip and Lateral Sepal measurements</div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="measurements" id="Pouch&Synsepal" checked>
+                <label class="form-check-label" for="Pouch&Synsepal">Pouch and Synsepal</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="measurements" id="Lip&LateralSepal">
+                <label class="form-check-label" for="Lip&LateralSepal">Lip and Lateral Sepal</label>
+              </div>
+
+            <div class = "row" style = "display: none;">
+                <div class = "form-label">Hidden Menu for data submission</div>
+                <select class="form-select" id="lipOrSepal" name = "lipOrSepal">
+                    <option selected value = "Pouch&Synsepal">Pouch&Synsepal</option>
+                    <option value="Lip&LateralSepal">Lip&LateralSepal</option>
+                </select>
+            </div>
+            <br>
+            <div class = "row" id = "pouchSynsepalGroup">
+                <h5>Pounch and Synsepal</h5>
+
+                <div class = "form-label">Lateral Sepal Width (LSL)</div>
+                <input type="form control" class="form-control" id="lsw" name = "lsl" placeholder="XX">
+
+                <div class = "form-label">Lateral Sepal Width (LSW)</div>
+                <input type="form control" class="form-control" id="lsw" name = "lsw" placeholder="XX">
+
+                <div class = "form-label">Pouch Width (PCHW)</div>
+                <input type="form control" class="form-control" id="pchw" name = "pchw" placeholder="XX">
+
+                <div class = "form-label">Pouch Length (SYNSL)</div>
+                <input type="form control" class="form-control" id="synsl" name = "synsl" placeholder="XX">
+            </div>
+            <div class = "row" id = "lipLateralGroup" style="display: none;">
+                <h5>Lip and Lateral Speal</h5>
+                <div class = "form-label">Synsepal Width (SYNSW)</div>
+                <input type="form control" class="form-control" id="synsw" name = "synsw" placeholder="XX">
+    
+                <div class = "form-label">Lip Width (LIPW)</div>
+                <input type="form control" class="form-control" id="lipw" name = "lipw" placeholder="XX" >
+    
+                <div class = "form-label">Lip Length (LIPL)</div>
+                <input type="form control" class="form-control" id="lipl" name = "lipl" placeholder="XX">
+            </div>   
+
+            <div class = "form-label">Number of Flowers</div>
+            <input type="form control" class="form-control" id="numflowers" name = "numflowers" placeholder="XX" required>
+
+            <div class = "form-label">Number of Buds</div>
+            <input type="form control" class="form-control" id="numBuds" name = "numBuds" placeholder="XX" required>
+
+            <div class = "form-label">Number of Inflorescences</div>
+            <input type="form control" class="form-control" id="numInfloresecnes" name = "numInfloresecnes" placeholder="XX" required>
+
+            <div class = "form-label">Inflorescence Length</div>
+            <input type="form control" class="form-control" id="infloLength" name = "infloLength" placeholder="XX" required>
+
+            <div class = "form-label">Plant Width/Diameter</div>
+            <input type="form control" class="form-control" id="width" name = "width" placeholder="XX" required>
+
+            <div class = "form-label">Dorsal Height</div>
+            <input type="form control" class="form-control" id="height" name = "height" placeholder="XX" required>
+
+            <div class = "form-label">Plant description</label>
+            <textarea class="form-control" id="description" name = "description" rows="5" required></textarea>
+
+            <!-- TODO: Submit form data to text file while database is being built-->
+             <br>
+            <input id = "submitBtn" type = "button" class = "btn btn-secondary" value = "Submit Form">
+            <input type = "button" class = "btn btn-info" disabled onclick = "" value = "Put N/A for empty measurements">
+            <input id = "testBtn" type = "button" class = "btn btn-success" value = "Test Submission">
+        </form>
 
     </form>
 </div>

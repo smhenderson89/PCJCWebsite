@@ -93,31 +93,25 @@
                  src="<%= award.photo.replace('database/images/', '/images/') %>" 
                  class="rounded shadow" 
                  alt="Award <%= award.awardNum %>">
-            <p class="text-muted mt-2 small text-center position-absolute" id="photo-caption" style="display: none; bottom: -30px; left: 50%; transform: translateX(-50%);"></p>
+            <p class="text-muted mt-2 small text-center photo-caption hidden" id="photo-caption"></p>
           <% } else if (award) { %>
             <img id="award-photo" 
                  src="/images/No-Image-Placeholder-med.png" 
-                 class="rounded shadow" 
-                 alt="No image available for Award <%= award.awardNum %>"
-                 style="width: 100%; height: 200px; object-fit: contain; opacity: 0.7;">
-            <p class="text-muted mt-2 small text-center position-absolute" id="photo-caption" style="bottom: -30px; left: 50%; transform: translateX(-50%);"></p>
+                 class="rounded shadow no-image-placeholder" 
+                 alt="No image available for Award <%= award.awardNum %>">
+            <p class="text-muted mt-2 small text-center photo-caption hidden" id="photo-caption"></p>
           <% } else { %>
             <img id="award-photo" 
                  src="" 
                  class="rounded shadow d-none" 
                  alt="Award Photo">
-            <p class="text-muted mt-2 small text-center position-absolute" id="photo-caption" style="bottom: -30px; left: 50%; transform: translateX(-50%);">Loading image...</p>
+            <p class="text-muted mt-2 small text-center photo-caption" id="photo-caption">Loading image...</p>
           <% } %>
         </div>
 
             <!-- Award Details Below Image -->
             <!-- Line 1: Genus Species 'Clone' -->
-            <div class="text-center mb-2" id="genus-species-display" 
-                 <% if (award && (award.genus || award.species || award.clone)) { %>
-                   style="display: block;"
-                 <% } else { %>
-                   style="display: none;"
-                 <% } %>>
+            <div class="text-center mb-2 award-section <%= (award && (award.genus || award.species || award.clone)) ? 'visible' : 'hidden' %>" id="genus-species-display">
                 <span id="award-genus">
                   <% if (award && award.genus) { %>
                     <%= award.genus %>
@@ -136,12 +130,7 @@
             </div>
             
             <!-- Line 2: Cross Information -->
-            <div class="text-center mb-2" id="cross-info-display" 
-                 <% if (award && award.cross) { %>
-                   style="display: block;"
-                 <% } else { %>
-                   style="display: none;"
-                 <% } %>>
+            <div class="text-center mb-2 award-section <%= (award && award.cross) ? 'visible' : 'hidden' %>" id="cross-info-display">
                 <em id="cross-info-text">
                   <% if (award && award.cross) { %>
                     <%= award.cross %>
@@ -150,12 +139,7 @@
             </div>
             
             <!-- Line 3: Award Name and Points -->
-            <div class="text-center mb-4" id="award-name-display" 
-                 <% if (award && (award.award || award.awardpoints)) { %>
-                   style="display: block;"
-                 <% } else { %>
-                   style="display: none;"
-                 <% } %>>
+            <div class="text-center mb-4 award-section <%= (award && (award.award || award.awardpoints)) ? 'visible' : 'hidden' %>" id="award-name-display">
   
                 <span id="award-name">
                   <% if (award && award.award) { %>
@@ -216,12 +200,7 @@
             </div>
             
             <!-- Award Description Section -->
-            <div class="mt-4" id="description-section"
-                 <% if (award && award.description) { %>
-                   style="display: block;"
-                 <% } else { %>
-                   style="display: none;"
-                 <% } %>>
+            <div class="mt-4 award-section <%= (award && award.description) ? 'visible' : 'hidden' %>" id="description-section">
               <h5><strong>Description:</strong></h5>
               <div class="description-box p-3" id="award-description">
                 <% if (award && award.description) { %>
@@ -231,7 +210,7 @@
             </div>
 
             <!-- Measurements Table Section -->
-            <div class="mt-4" id="measurements-section"
+            <div class="mt-4 award-section 
                  <% 
                  let hasMeasurements = false;
                  if (award) {
@@ -239,11 +218,7 @@
                    hasMeasurements = measurements.some(field => award[field]);
                  }
                  %>
-                 <% if (hasMeasurements) { %>
-                   style="display: block;"
-                 <% } else { %>
-                   style="display: none;"
-                 <% } %>>
+                 <%= hasMeasurements ? 'visible' : 'hidden' %>" id="measurements-section">
               <h5><strong>Measurements (in cm):</strong></h5>
               <div class="measurements-table-container">
                 <table class="table table-striped measurements-table" id="measurements-table">

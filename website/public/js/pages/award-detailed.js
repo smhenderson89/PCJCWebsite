@@ -31,6 +31,26 @@ function processAwardDescription(description, currentYear) {
   });
 }
 
+/**
+ * Show or hide element using CSS classes instead of inline styles
+ * @param {string} elementId - ID of element to toggle
+ * @param {boolean} show - Whether to show (true) or hide (false) the element
+ */
+function toggleElementVisibility(elementId, show) {
+  const element = document.getElementById(elementId);
+  if (element) {
+    if (show) {
+      element.classList.remove('hidden');
+      element.classList.add('visible');
+    } else {
+      element.classList.remove('visible');
+      element.classList.add('hidden');
+    }
+  } else {
+    console.warn(`Element with id '${elementId}' not found`);
+  }
+}
+
 // Initialize page on DOM load
 document.addEventListener('DOMContentLoaded', async function() {
   // Parse URL parameters from the current path
@@ -104,13 +124,13 @@ document.addEventListener('DOMContentLoaded', async function() {
 async function populateAwardData(award, year) {
   // Hide loading state
   const loadingAlert = document.getElementById('loading-alert');
-  if (loadingAlert) loadingAlert.style.display = 'none';
+  if (loadingAlert) loadingAlert.classList.add('hidden');
   
   // Show award content
   const awardContent = document.getElementById('award-content');
   const awardCard = document.getElementById('award-card');
-  if (awardContent) awardContent.style.display = 'block';
-  if (awardCard) awardCard.style.display = 'block';
+  if (awardContent) awardContent.classList.add('show-block');
+  if (awardCard) awardCard.classList.add('show-block');
   
   // Wait a moment for elements to be visible in DOM
   await new Promise(resolve => setTimeout(resolve, 10));
@@ -126,10 +146,16 @@ async function populateAwardData(award, year) {
   };
   
   // Helper function to safely set element display
-  const safeSetDisplay = (id, displayValue) => {
+  const safeSetDisplay = (id, show) => {
     const element = document.getElementById(id);
     if (element) {
-      element.style.display = displayValue;
+      if (show) {
+        element.classList.remove('hidden');
+        element.classList.add('show-block');
+      } else {
+        element.classList.remove('show-block');
+        element.classList.add('hidden');
+      }
     } else {
       console.warn(`Element with id '${id}' not found`);
     }
@@ -155,17 +181,16 @@ async function populateAwardData(award, year) {
   }
   
   if (hasGenusSpeciesClone) {
-    const genusSpeciesDisplay = document.getElementById('genus-species-display');
-    if (genusSpeciesDisplay) genusSpeciesDisplay.style.display = 'block';
+    toggleElementVisibility('genus-species-display', true);
   }
   
   // Line 2: Use cross information directly from award.cross
   if (award.cross) {
+    toggleElementVisibility('cross-info-display', true);
     const crossInfoDisplay = document.getElementById('cross-info-display');
     if (crossInfoDisplay) {
       const crossInfoEm = crossInfoDisplay.querySelector('em');
       if (crossInfoEm) crossInfoEm.textContent = award.cross;
-      crossInfoDisplay.style.display = 'block';
     }
   }
   
@@ -181,8 +206,7 @@ async function populateAwardData(award, year) {
   }
   
   if (hasAwardNamePoints) {
-    const awardNameDisplay = document.getElementById('award-name-display');
-    if (awardNameDisplay) awardNameDisplay.style.display = 'block';
+    toggleElementVisibility('award-name-display', true);
   }
   
   // Award details
@@ -206,8 +230,7 @@ async function populateAwardData(award, year) {
       const processedDescription = processAwardDescription(award.description, award.year);
       descriptionElement.innerHTML = processedDescription;
     }
-    const descriptionSection = document.getElementById('description-section');
-    if (descriptionSection) descriptionSection.style.display = 'block';
+    toggleElementVisibility('description-section', true);
   }
   
   // Photo handling with loading states
@@ -234,32 +257,32 @@ async function populateAwardData(award, year) {
       // Handle image load/error events
       photoElement.onload = function() {
         // Image loaded successfully
-        placeholderElement.style.display = 'none';
+        placeholderElement.classList.add('hidden');
         photoElement.classList.remove('d-none');
-        if (captionElement) captionElement.style.display = 'none';
+        if (captionElement) captionElement.classList.add('hidden');
       };
       
       photoElement.onerror = function() {
         // Image failed to load, use default
-        photoElement.src = '/images/default-orchid.jpg';
-        photoElement.alt = 'Default orchid image';
-        placeholderElement.style.display = 'none';
+        photoElement.src = '/images/No-Image-Placeholder-med.png';
+        photoElement.alt = 'No image available';
+        photoElement.classList.add('no-image-placeholder');
+        placeholderElement.classList.add('hidden');
         photoElement.classList.remove('d-none');
         if (captionElement) {
-          captionElement.textContent = 'No photo available';
-          captionElement.style.display = 'block';
+          captionElement.classList.add('hidden');
         }
       };
       
     } else {
       // No photo available, use default immediately
-      photoElement.src = '/images/default-orchid.jpg';
-      photoElement.alt = 'Default orchid image';
-      placeholderElement.style.display = 'none';
+      photoElement.src = '/images/No-Image-Placeholder-med.png';
+      photoElement.alt = 'No image available';
+      photoElement.classList.add('no-image-placeholder');
+      placeholderElement.classList.add('hidden');
       photoElement.classList.remove('d-none');
       if (captionElement) {
-        captionElement.textContent = 'No photo available';
-        captionElement.style.display = 'block';
+        captionElement.classList.add('hidden');
       }
     }
   }
@@ -319,7 +342,8 @@ function populateMeasurements(award) {
   if (hasMeasurements) {
     const measurementsSection = document.getElementById('measurements-section');
     if (measurementsSection) {
-      measurementsSection.style.display = 'block';
+      measurementsSection.classList.add('show-block');
+      measurementsSection.classList.remove('hidden');
     }
     
     // Find the table body and populate it
@@ -409,7 +433,7 @@ function showErrorState(message, year) {
   const errorMessage = document.getElementById('error-message');
   const yearAwardsLink = document.getElementById('year-awards-link');
   
-  if (loadingAlert) loadingAlert.style.display = 'none';
+  if (loadingAlert) loadingAlert.classList.add('hidden');
   if (errorMessage) errorMessage.textContent = message;
   
   if (yearAwardsLink) {
@@ -417,7 +441,7 @@ function showErrorState(message, year) {
     yearAwardsLink.textContent = `View ${year || 'All'} Awards`;
   }
   
-  if (errorAlert) errorAlert.style.display = 'block';
+  if (errorAlert) errorAlert.classList.add('show-block');
 };
 
 

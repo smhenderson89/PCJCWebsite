@@ -12,12 +12,52 @@
     height: auto;
     object-fit: contain;
     display: block;
+
+    // Specific styling for no-image placeholder
+    &.no-image-placeholder {
+      max-width: 200px;
+      height: auto;
+      object-fit: contain;
+      opacity: 0.7;
+    }
   }
 
   .placeholder {
     max-width: 600px;
     width: 90%;
     height: 400px;
+  }
+}
+
+// Photo caption styling
+.photo-caption {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  &.hidden {
+    display: none;
+  }
+}
+
+// Conditional display classes
+.show-block {
+  display: block !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+// Section visibility classes
+.award-section {
+  &.hidden {
+    display: none;
+  }
+  
+  &.visible {
+    display: block;
   }
 }
 
