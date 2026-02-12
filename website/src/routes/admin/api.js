@@ -37,6 +37,9 @@ router.get('/api/award-types', adminController.getAwardTypesList.bind(adminContr
 // Route to get all the previous event names
 router.get('/api/event-names', adminController.getEventNamesList.bind(adminController));
 
+// Route to get all previous photographers
+router.get('/api/photographers', adminController.getPhotographersList.bind(adminController));
+
 // Combined route to get all submit form data using Promise.all
 router.get('/api/submit-prep', adminController.getPrepareSubmitData.bind(adminController));
 

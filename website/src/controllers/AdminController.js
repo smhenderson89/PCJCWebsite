@@ -84,6 +84,20 @@ class AdminController {
       });
     }
   }
+
+  // API endpoint to get all previous photographers
+  async getPhotographersList(req, res) {
+    try {
+      const photographers = this.adminService.getPhotographersList();
+      res.json({ success: true, data: photographers });
+    } catch (error) {
+      console.error('Error getting photographers list:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load photographers list' 
+      });
+    }
+  }
   
   // Combined API endpoint using existing methods with Promise.all
   async getPrepareSubmitData(req, res) {

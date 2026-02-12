@@ -51,13 +51,19 @@ class AdminServices {
         return results.map(row => row.award);
     }
 
-    // Get list of all previous event names
-    getEventNamesList() {
-        const stmt = this.db.prepare(`SELECT DISTINCT location FROM awards ORDER BY location ASC`);
-        const results = stmt.all();
-        return results.map(row => row.location);
-    }
+  // Get list of all previous event names
+  getEventNamesList() {
+      const stmt = this.db.prepare(`SELECT DISTINCT location FROM awards ORDER BY location ASC`);
+      const results = stmt.all();
+      return results.map(row => row.location);
+  }
 
+  // Get list of all previous photographers
+  getPhotographersList() {
+      const stmt = this.db.prepare(`SELECT DISTINCT photographer FROM awards ORDER BY photographer ASC`);
+      const results = stmt.all();
+      return results.map(row => row.photographer);
+  }
 
   // Get all data needed for submit form in one call
   getSubmitFormData() {

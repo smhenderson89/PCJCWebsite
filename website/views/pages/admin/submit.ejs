@@ -8,7 +8,7 @@
   <%- include('../../partials/header'); %>
 </header>
 
-<h3 class="text-center">Orchid Input Form - Submit an award</h3>
+<h3 class="text-center">Admin - Orchid Input Form</h3>
 <!-- Submission form -->
 
 <div class = "container">
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class = "col-3"> 
-                <label for="exhibitorName">Exhibitor Name:</label>
+                <label for="newExhibitorNameInput">Exhibitor Name:</label>
             </div>
             <div class = "col-6">
                 <input type="text" id="newExhibitorNameInput" name="newExhibitorName" disabled>
@@ -45,7 +45,7 @@
             </div>
         </div>
 
-        <div class = "row">
+        <div class = "row mb-3">
             <div class = "col-3">
                 <div class = "form-check">
                     <input class = "form-check-input" type="checkbox" value="" id="newAwardTypeCheck">
@@ -60,51 +60,128 @@
             </div>
         </div>
 
-        <div class = "form-label">Award Value</div>
-            <input type="form control" class="form-control" id="awardValue" name = "awardValue" placeholder="##" required>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                 <div class = "form-label">Award Value</div>
+            </div>
+            <div class = "col-3">
+                <input type="form control" class="form-control" id="awardValue" name = "awardValue" placeholder="##" required>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                <div class = "form-label">Award Number</div>
+            </div>
+            <div class = "col-3">
+                <input type="form control" class="form-control" id="awardNumber" name = "awardNumber" placeholder="" required>
+            </div>
+        </div>
 
-            <div class = "form-label">Award Number</div>
-            <input type="form control" class="form-control" id="awardValue" name = "awardValue" placeholder="2025####" required>
+        <div class = "row mb-3">
+            <div class = "col-2">
+                <div class = "form-label">Event Title</div>
+            </div>
+            <div class = "col-10">
+                <!-- Dynamic dropdown from previous events -->
+                <select class = "eventSelect" name="" id="eventSelect">
+                    <option value="" disabled selected>SeventSelectelect Event</option>
+                </select>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                <div class="form-label">Event Date</div>
+            </div>
+            <div class = "col-9">
+                <input type="date" id="eventDate" name="eventDate" required>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                <div class = "form-label">Genus</div>
+            </div>
+            <div class = "col-9">
+                <input type="form control" class="form-control" id="genus" name = "genus" placeholder="Genus" required>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                <div class = "form-label">Hybrid/species</div>
+            </div>
+            <div class = "col-9">
+                <input type="form control" class="form-control" name = "hybrid/species" id="Hybrid/species" placeholder="X / X" required>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                <div class = "form-label">Clonal Name (plaintext)</div>
+            </div>
+            <div class = "col-9">
+                 <input type="form control" class="form-control" id="clonalName" name = "clonalName" placeholder="Clonal Name" required>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                <div class = "form-label">Cross (plaintext)</div>
+            </div>
+            <div class = "col-9">   
+                <input type="form control" class="form-control" id="crossName" name = "crossName" placeholder="Cross" required>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-6">
+                <div class = "form-label">Chose a Previous Photographer</div>
+            </div>
+            <div class = "col-6">
+                <select class = "photographerSelect" name="photographerSelect" id="photographerSelect">
+                    <option value="" disabled selected>Select Photographer</option>
+                </select>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                <div class = "form-check">
+                    <input class = "form-check-input" type="checkbox" value="" id="newPhotographerCheck">
+                    <label class = "form-check-label" for="newPhotographerCheck">New Photographer?</label>
+                </div>
+            </div>
+            <div class = "col-3">
+                <label for="newPhotographerInput">Photographer Name:</label>
+            </div>
+            <div class = "col-6">   
+                <input type="form control" class="form-control" id="newPhotographerInput" name = "photographer" placeholder="Photographer" required>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                <div for="formFile" class="form-label">Award Photo (submit file uncompressed)</div>
+            </div>
+            <div class = "col-9">
+                <input class="form-control" type="file" id="awardPhoto" name = "awardPhoto" required>
+            </div>
+        </div>
 
-
-            <div class = "form-label">Event Title</div>
-            <!-- Dynamic dropdown from previous events -->
-            <select class = "eventSelect" name="eventSelect" id="eventSelect">
-                <option value="" disabled selected>Select Event</option>
-            </select>
-
-            <div class="form-label">Event Date</div>
-            <input type="date" id="eventDate" name="eventDate" required>
-
-            <div class = "form-label">Genus</div>
-            <input type="form control" class="form-control" id="genus" name = "genus" placeholder="Genus" required>
-
-            <div class = "form-label">Hybrid/species</div>
-            <input type="form control" class="form-control" name = "hybrid/species" id="Hybrid/species" placeholder="X / X" required>
-
-            <div class = "form-label">Clonal Name (don't incldue quotes around the name)</div>
-            <input type="form control" class="form-control" id="clonalName" name = "clonalName" placeholder="Clonal Name" required>
-
-            <div class = "form-label">Cross (don't incldue quotes around the name)</div>
-            <input type="form control" class="form-control" id="crossName" name = "crossName" placeholder="Cross" required>
-
-            <div class = "form-label">Exhibited By</div>
-            <input type="form control" class="form-control" id="exhibitor" name = "exhibitor" placeholder="Exhibited By" required>
-
-            <div class = "form-label">Photographed By</div>
-            <input type="form control" class="form-control" id="photographer" name = "photographer" placeholder="Photographer" required>
-
-            <div for="formFile" class="form-label">Award Photo (submit file uncompressed)</div>
-            <input class="form-control" type="file" id="awardPhoto" name = "awardPhoto" requried>
-            
-            <br>
-            <div class = "bold">Measurements (in centimeters)</div>
-
-            <div class = "form-label">Natural Spread (NS)</div>
-            <input type="form control" class="form-control" id="NS" name = "NS" placeholder="XX" required>
-
-            <div class = "form-label">Natural Spread Vertical (NSV)</div>
-            <input type="form control" class="form-control" id="NSV" name = "NSV" placeholder="XX" required>
+        <div class = "row mb-3">
+            <div class = "text-center">
+                <h6>Plant Measurements (in centimeters)</h6>
+            </div>
+        </div>  
+        <div class= "row mb-3">
+            <div class = "col-3">
+                <div class = "form-label">Natural Spread (NS)</div>
+            </div>
+            <div class = "col-3">
+                <input type="form control" class="form-control" id="NS" name = "NS" placeholder="XX" required>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                <div class = "form-label">Natural Spread Vertical (NSV)</div>
+            </div>
+             <div class = "col-3">
+                <input type="form control" class="form-control" id="NSV" name = "NSV" placeholder="XX" required>
+            </div>
+        </div>
 
             <div class = "form-label">Dorsal Speal Width (DSW)</div>
             <input type="form control" class="form-control" id="DSW" name = "DSW" placeholder="XX" required>
@@ -140,7 +217,7 @@
                 <h5>Pounch and Synsepal</h5>
 
                 <div class = "form-label">Lateral Sepal Width (LSL)</div>
-                <input type="form control" class="form-control" id="lsw" name = "lsl" placeholder="XX">
+                <input type="form control" class="form-control" id="lsl" name = "lsl" placeholder="XX">
 
                 <div class = "form-label">Lateral Sepal Width (LSW)</div>
                 <input type="form control" class="form-control" id="lsw" name = "lsw" placeholder="XX">
@@ -202,7 +279,7 @@
   <%- include('../../partials/footer'); %>
 </footer>
 
-<script src="/js/submit/submit-loadInfo.js"></script>
+<script src="/js/submit/loadInfo.js"></script>
 <script src="/js/submit/formControl.js"></script>
 
 </body>
