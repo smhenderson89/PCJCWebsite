@@ -4,6 +4,21 @@ const AwardsController = require('../../controllers/AwardsController');
 
 const awardsController = new AwardsController();
 
+// Middleware to explicitly disable CSP for all API routes
+router.use('/api', (req, res, next) => {
+  // Force remove CSP headers for all API endpoints
+  res.removeHeader('Content-Security-Policy');
+  res.removeHeader('Content-Security-Policy-Report-Only');
+  
+  // Set CORS headers to be permissive for development
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', '*');
+  
+  console.log(`🔧 API request to ${req.path} - CSP forcibly disabled`);
+  next();
+});
+
 // API routes - return JSON data
 
 // All awards

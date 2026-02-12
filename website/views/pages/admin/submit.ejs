@@ -66,8 +66,12 @@
             <div class = "form-label">Award Number</div>
             <input type="form control" class="form-control" id="awardValue" name = "awardValue" placeholder="2025####" required>
 
+
             <div class = "form-label">Event Title</div>
-            <input type="form control" class="form-control" name = "event Title" id="eventTitle" placeholder="Event Title" required>
+            <!-- Dynamic dropdown from previous events -->
+            <select class = "eventSelect" name="eventSelect" id="eventSelect">
+                <option value="" disabled selected>Select Event</option>
+            </select>
 
             <div class="form-label">Event Date</div>
             <input type="date" id="eventDate" name="eventDate" required>

@@ -51,10 +51,13 @@ class AdminServices {
         return results.map(row => row.award);
     }
 
-  // Close database connection
-  close() {
-    this.db.close();
-  }
+    // Get list of all previous event names
+    getEventNamesList() {
+        const stmt = this.db.prepare(`SELECT DISTINCT location FROM awards ORDER BY location ASC`);
+        const results = stmt.all();
+        return results.map(row => row.location);
+    }
+
 
   // Get all data needed for submit form in one call
   getSubmitFormData() {
@@ -62,17 +65,23 @@ class AdminServices {
       const exhibitors = this.getExhibitorsList();
       const awardTypes = this.getAwardTypesList();
       const awardCounts = this.getAwardCountsByExhibitor();
-      
+      const eventNames = this.getEventNamesList();
       return {
         exhibitors,
         awardTypes, 
         awardCounts,
+        eventNames,
         // Add any other data the submit form needs
       };
     } catch (error) {
       console.error('Error getting submit form data:', error);
       throw error;
     }
+  }
+
+  // Close database connection
+  close() {
+    this.db.close();
   }
 }
 

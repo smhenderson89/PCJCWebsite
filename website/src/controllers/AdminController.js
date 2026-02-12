@@ -70,6 +70,20 @@ class AdminController {
       });
     }
   }
+
+  // API endpoint to get all the previous event names
+  async getEventNamesList(req, res) {
+    try {
+      const eventNames = this.adminService.getEventNamesList();
+      res.json({ success: true, data: eventNames });
+    } catch (error) {
+      console.error('Error getting event names list:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load event names list' 
+      });
+    }
+  }
   
   // Combined API endpoint using existing methods with Promise.all
   async getPrepareSubmitData(req, res) {

@@ -7,6 +7,21 @@ const router = express.Router();
 // Initialize admin controller
 const adminController = new AdminController();
 
+// Middleware to explicitly disable CSP for all API routes
+router.use('/api', (req, res, next) => {
+  // Force remove CSP headers for all API endpoints
+  res.removeHeader('Content-Security-Policy');
+  res.removeHeader('Content-Security-Policy-Report-Only');
+  
+  // Set CORS headers to be permissive for development
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', '*');
+  
+  console.log(`🔧 API request to ${req.path} - CSP forcibly disabled`);
+  next();
+});
+
 // Route to get all exhibitors
 router.get('/api/exhibitors', adminController.getExhibitorsList.bind(adminController));
 
@@ -19,8 +34,13 @@ router.get('/api/exhibitor/counts', adminController.getAwardCountsByExhibitor.bi
 // Route to get award types list
 router.get('/api/award-types', adminController.getAwardTypesList.bind(adminController));
 
+// Route to get all the previous event names
+router.get('/api/event-names', adminController.getEventNamesList.bind(adminController));
+
 // Combined route to get all submit form data using Promise.all
 router.get('/api/submit-prep', adminController.getPrepareSubmitData.bind(adminController));
+
+
 
 
 
