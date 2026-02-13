@@ -43,8 +43,4 @@ router.get('/api/photographers', adminController.getPhotographersList.bind(admin
 // Combined route to get all submit form data using Promise.all
 router.get('/api/submit-prep', adminController.getPrepareSubmitData.bind(adminController));
 
-
-
-
-
 module.exports = router;

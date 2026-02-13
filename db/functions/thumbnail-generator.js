@@ -247,19 +247,42 @@ class ThumbnailGenerator {
       return { awardNum, status: 'no_photo' };
     }
 
-    // Check if thumbnails already exist (skip if they do)
+    // Check if ALL thumbnails already exist (skip only if all 4 exist)
     const jpegFilename = `${awardNum}.jpg`;
     const webpFilename = `${awardNum}.webp`;
+    
+    // Define all 4 required thumbnail paths
     const smallJpegPath = path.join(this.jpegSmallPath, jpegFilename);
+    const mediumJpegPath = path.join(this.jpegMediumPath, jpegFilename);
     const webpSmallPath = path.join(this.webpSmallPath, webpFilename);
+    const webpMediumPath = path.join(this.webpMediumPath, webpFilename);
     
     try {
+      // Check that ALL 4 thumbnails exist AND are not empty (>0 bytes)
       await fs.access(smallJpegPath);
+      await fs.access(mediumJpegPath);
       await fs.access(webpSmallPath);
-      console.log(`${progress} ⏭️  Award ${awardNum}: Thumbnails already exist, skipping`);
-      return { awardNum, status: 'skipped' };
+      await fs.access(webpMediumPath);
+      
+      // Additional check: ensure files are not empty (>0 bytes)
+      const [smallJpegStat, mediumJpegStat, webpSmallStat, webpMediumStat] = await Promise.all([
+        fs.stat(smallJpegPath),
+        fs.stat(mediumJpegPath),
+        fs.stat(webpSmallPath),
+        fs.stat(webpMediumPath)
+      ]);
+      
+      // Only skip if ALL files exist AND are not empty
+      if (smallJpegStat.size > 0 && mediumJpegStat.size > 0 && 
+          webpSmallStat.size > 0 && webpMediumStat.size > 0) {
+        console.log(`${progress} ⏭️  Award ${awardNum}: All thumbnails already exist, skipping`);
+        return { awardNum, status: 'skipped' };
+      } else {
+        console.log(`${progress} 🔧 Award ${awardNum}: Some thumbnails empty/corrupt, regenerating`);
+      }
     } catch {
-      // Thumbnails don't exist, continue processing
+      // Some/all thumbnails don't exist, continue processing
+      console.log(`${progress} 🔨 Award ${awardNum}: Missing thumbnails, generating`);
     }
 
     // Check if original image exists
