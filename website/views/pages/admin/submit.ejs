@@ -22,6 +22,8 @@
             <select class = "exhibitorSelect" name="exhibitorSelect" id="exhibitorSelect">
                 <option value="" disabled selected>Select Exhibitor</option>
             </select>
+                <div class = "valid-feedback">Looks good!</div>
+                <div class = "invalid-feedback">Select an exhibitor from the dropdown or check the "New Exhibitor" box.</div>
             </div>
         </div>
         <div class = "row mb-3">
@@ -30,20 +32,30 @@
                     <input class = "form-check-input" type="checkbox" value="" id="newExhibitorCheck">
                     <label class = "form-check-label" for="newExhibitorCheck">New Exhibitor?</label>
                 </div>
+                <div class = "valid-feedback">Looks good!</div>
+                <div class = "invalid-feedback">Please check if this is a new exhibitor.</div>
             </div>
             <div class = "col-3"> 
                 <label for="newExhibitorNameInput">Exhibitor Name:</label>
             </div>
             <div class = "col-6">
                 <input type="text" id="newExhibitorNameInput" name="newExhibitorName" disabled>
+                <div class = "valid-feedback">Looks good!</div>
+                <div class = "invalid-feedback">Please enter a new exhibitor name.</div>
             </div>
         </div>
+            
+        </div>
         <div class = "row mb-3">
-            <div class = "col">
-                <label for="awardSelect">Award Type (AM, HCC, CEE, etc)</label>
+            <div class = "col-3">
+                <label for="awardSelect">Award Type</label>
+            </div>
+            <div class = "col-9">
                 <select class = "awardSelect" name="awardSelect" id="awardSelect">
-                <option value="" disabled selected>Select Award</option>
-            </select>
+                    <option value="" disabled selected>Select Award</option>
+                </select>
+                <div class = "valid-feedback">Looks good!</div>
+                <div class = "invalid-feedback">Select an award from the dropdown or check the "New Award Type" box.</div>
             </div>
         </div>
 
@@ -59,6 +71,8 @@
             </div>
             <div class = "col-3">
                 <input type="text" id="newAwardTypeInput" name="newAwardType" disabled>
+                <div class = "valid-feedback">Looks good!</div>
+                <div class = "invalid-feedback">Please enter a new award type.</div>
             </div>
         </div>
 
@@ -68,6 +82,12 @@
             </div>
             <div class = "col-3">
                 <input type="form control" class="form-control" id="awardValue" name = "awardValue" placeholder="##" required>
+                <div class = "valid-feedback">Looks good!</div>
+                <div class = "invalid-feedback">Please enter a valid award value.</div>
+            </div>
+            <div class = "col-3">
+                <input class = "form-check-input" type="checkbox" value="" id="nullAwardValueCheck">
+                <label class = "form-check-label" for="nullAwardValueCheck">Award Value N/A?</label>
             </div>
         </div>
         <div class = "row mb-3">
@@ -76,6 +96,8 @@
             </div>
             <div class = "col-3">
                 <input type="form control" class="form-control" id="awardNumber" name = "awardNumber" placeholder="" required>
+                <div class = "valid-feedback">Looks good!</div>
+                <div class = "invalid-feedback">Please enter an award number.</div>
             </div>
         </div>
 
@@ -356,7 +378,8 @@
 
 <script src="/js/submit/loadInfo.js"></script>
 <script src="/js/submit/formControl.js"></script>
-<script src="/js/submit/formSubmit.js"></script>
+<script src="/js/submit/formValidate.js"></script>
+<script src="/js/submit/testSubmit.js"></script>
 
 </body>
 </html>

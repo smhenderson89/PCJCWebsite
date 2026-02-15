@@ -39,6 +39,17 @@ document.getElementById('newAwardTypeCheck').addEventListener('change', function
     }
 });
 
+// Award value N/A checkbox event listener
+document.getElementById('nullAwardValueCheck').addEventListener('change', function() {
+
+    // If checked, disable the award value input field and clear its value; otherwise, enable it
+    const awardValueInput = document.getElementById('awardValue');
+    awardValueInput.disabled = this.checked;
+    if (this.checked) {
+        awardValueInput.value = '';
+    }
+});
+
 // New event name checkbox event listener
 document.getElementById('newEventCheck').addEventListener('change', function() {
 
