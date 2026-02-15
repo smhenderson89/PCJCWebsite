@@ -117,7 +117,7 @@ async function loadPhotographers() {
         // Remove null or empty string entries from the photographers list
         responseData.data = responseData.data.filter(photographer => photographer && photographer.trim() !== '');
         
-        console.log('API Response:', responseData);
+        // console.log('API Response:', responseData);
 
         // Extract photographers from the data property
         const photographers = responseData.data;

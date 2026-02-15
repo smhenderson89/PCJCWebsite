@@ -7,8 +7,10 @@
 <header>
   <%- include('../../partials/header'); %>
 </header>
+<div class ="row mb-3">
+    <h3 class="text-center">Admin - Orchid Input Form</h3>
+</div>
 
-<h3 class="text-center">Admin - Orchid Input Form</h3>
 <!-- Submission form -->
 
 <div class = "container">
@@ -156,9 +158,6 @@
                     <label class = "form-check-label" for="newPhotographerCheck">New Photographer?</label>
                 </div>
             </div>
-            <div class = "col-3">
-                <label for="newPhotographerInput">Photographer Name:</label>
-            </div>
             <div class = "col-6">   
                 <input type="form control" class="form-control" id="newPhotographerInput" name = "photographer" placeholder="Photographer" required disabled>
             </div>
@@ -224,62 +223,57 @@
         <div class = "row mb-3">
             <div class ="col-4">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="measurements" id="Lip&LateralSepal">
-                    <label class="form-check-label" for="Lip&LateralSepal">Lip and Lateral Sepal</label>
+                    <input class="form-check-input" type="radio" name="measurements" id="Lip&LateralSepalOption" checked>
+                    <label class="form-check-label" for="Lip&LateralSepalOption">Lip and Lateral Sepal</label>
                 </div>
             </div>
             <div class = "col-4">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="measurements" id="Pouch&Synsepal" checked>
-                    <label class="form-check-label" for="Pouch&Synsepal">Pouch and Synsepal</label>
+                    <input class="form-check-input" type="radio" name="measurements" id="Pouch&SynsepalOption">
+                    <label class="form-check-label" for="Pouch&SynsepalOption">Pouch and Synsepal</label>
                 </div>
             </div>
             <div class = "col-4">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="measurements" id="NAOption">
-                    <label class="form-check-label" for="Other">Other (Displays, etc.)</label>
+                    <input class="form-check-input" type="radio" name="measurements" id="OtherOption">
+                    <label class="form-check-label" for="OtherOption">Other (Displays, etc.)</label>
                 </div>
             </div>
         </div>
-
-        <div class = "row mb-3" style = "display: none;">
-            <div class = "form-label">Hidden Menu for data submission</div>
-            <select class="form-select" id="lipOrSepal" name = "lipOrSepal">
-                <option selected value = "Pouch&Synsepal">Pouch&Synsepal</option>
-                <option value="Lip&LateralSepal">Lip&LateralSepal</option>
-            </select>
-        </div>
-
-        <div class = "row mb-3" id = "pouchSynsepalGroup">
+        <div id = "lipLateralGroup">
             <h6 class="text-center">Lip and Lateral Sepal</h6>
-            <div class = "col-3">
-                <div class = "form-label">Lateral Sepal Width (LSW)</div>
+            <div class = "row mb-3">
+                <div class = "col-3">
+                    <div class = "form-label">Lateral Sepal Width (LSW)</div>
+                </div>
+                <div class = "col-3">
+                    <input type="form control" class="form-control" id="lsw" name = "lsw" placeholder="XX">
+                </div>
+                <div class = "col-3">
+                    <div class = "form-label">Lateral Sepal Length (LSL)</div>
+                </div>
+                <div class = "col-3">
+                    <input type="form control" class="form-control" id="lsl" name = "lsl" placeholder="XX">
+                </div>
             </div>
-            <div class = "col-3">
-                <input type="form control" class="form-control" id="lsw" name = "lsw" placeholder="XX">
-            </div>
-            <div class = "col-3">
-                <div class = "form-label">Lateral Sepal Length (LSL)</div>
-            </div>
-            <div class = "col-3">
-                <input type="form control" class="form-control" id="lsl" name = "lsl" placeholder="XX">
-            </div>
-            <div class = "col-3">
-                <div class = "form-label">Lip Width (LIPW)</div>
-            </div>
-            <div class = "col-3">
-                <input type="form control" class="form-control" id="lipw" name = "lipw" placeholder="XX">
-            </div>
-            <div class = "col-3">
-                <div class = "form-label">Lip Length (LIPL)</div>
-            </div>
-            <div class = "col-3">
-                <input type="form control" class="form-control" id="lipl" name = "lipl" placeholder="XX">
+            <div class = "row mb-3">
+                <div class = "col-3">
+                    <div class = "form-label">Lip Width (LIPW)</div>
+                </div>
+                <div class = "col-3">
+                    <input type="form control" class="form-control" id="lipw" name = "lipw" placeholder="XX">
+                </div>
+                <div class = "col-3">
+                    <div class = "form-label">Lip Length (LIPL)</div>
+                </div>
+                <div class = "col-3">
+                    <input type="form control" class="form-control" id="lipl" name = "lipl" placeholder="XX">
+                </div>
             </div>
         </div>
         <!-- Show Lip and Lateral group while updating the html, change to display none when not needed -->
-        <div id = "pouchSynsepalGroup">
-        <h6 class="text-center">Pouch and Synsepal</h6>
+        <div id = "pouchSynsepalGroup" style = "display:none">
+            <h6 class="text-center">Pouch and Synsepal</h6>
             <div class = "row mb-3">
                 <div class = "col-3">
                     <div class = "form-label">Synsepal Width (SYNSW)</div>
@@ -340,11 +334,10 @@
                 </div>
             </div>
 
-            <div class = "form-label">Plant description</label>
+            <div class = "form-label">Plant description</div>
             <textarea class="form-control" id="description" name = "description" rows="5" required></textarea>
 
-            <!-- TODO: Submit form data to text file while database is being built-->
-             <br>
+            <br>
             <input id = "submitBtn" type = "button" class = "btn btn-secondary" value = "Submit Form">
             <input type = "button" class = "btn btn-info" disabled onclick = "" value = "Put N/A for empty measurements">
             <input id = "testBtn" type = "button" class = "btn btn-success" value = "Test Submission">
@@ -363,6 +356,7 @@
 
 <script src="/js/submit/loadInfo.js"></script>
 <script src="/js/submit/formControl.js"></script>
+<script src="/js/submit/formSubmit.js"></script>
 
 </body>
 </html>
