@@ -101,11 +101,14 @@ async function loadEventNames() {
     }
 }
 
-// Check the year and input as default award number prefix
+// Check the year and input as default award number prefix and date
 async function checkYear() {
     const awardNumberInput = document.getElementById('awardNumber');
     const currentYear = new Date().getFullYear();
     awardNumberInput.placeholder = `${currentYear}XXXX`;
+
+    const eventDateInput = document.getElementById('eventDate');
+    eventDateInput.max = `${currentYear}-12-31`; // Set max date to December 31st of the current year
 }
 
 // Load previous photographers when page loads

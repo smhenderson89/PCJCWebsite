@@ -99,9 +99,14 @@ function checkFormValidity() {
     let invalidCounts = 0; // Number of invalid fields, used to determine overall form validity
 
     // Check each formValidate function and increment invalidCounts if any field is invalid
-    formValidateExhibtor();
+    formValidateExhibitor();
     formValidateAwardType();
     formValidateAwardValueAndNumber();
+    formValidateEvent();
+    formValidateEventCalendarDate();
+    
+    formValidatePhotographer();
+    formValidateDescription();
 
     // If any fields are invalid, show alert and return false to prevent form submission
     if (document.querySelectorAll('.is-invalid').length > 0) {
@@ -115,7 +120,7 @@ function checkFormValidity() {
     return true; // Form is valid
 }
 
-function formValidateExhibtor() {
+function formValidateExhibitor() {
     // Check Exibitor Logic: either dropdown must be selected or new exhibitor must be filled
     const exhibitorSelect = document.getElementById('exhibitorSelect');
     const newExhibitorCheck = document.getElementById('newExhibitorCheck');
@@ -226,6 +231,96 @@ function formValidateAwardValueAndNumber() {
 
     } else {
         awardNumber.classList.add('is-invalid');
+        return false;
+    }
+}
+
+function formValidateEvent() {
+    // Similar logic to exhibitor validation, but for event name
+    const eventSelect = document.getElementById('eventSelect');
+    const newEventCheck = document.getElementById('newEventCheck');
+    const newEventInput = document.getElementById('newEventInput');
+
+    // Clear validation states for all event name fields before checking
+    resetValidation('eventSelect');
+    resetValidation('newEventCheck');
+    resetValidation('newEventInput');
+
+    // Check if select dropdown menu
+    if (eventSelect.value && !newEventCheck.checked) {
+        eventSelect.classList.add('is-valid'); // Mark dropdown as valid
+    } else if (!eventSelect.value && !newEventCheck.checked) { // If dropdown is not selected
+        eventSelect.classList.add('is-invalid');
+        return false; // Form is invalid if neither dropdown nor new event name is provided
+    }
+
+    // Check if new event name input is checked and has a value 
+    if (newEventCheck.checked && newEventInput.value.trim()) {
+        newEventCheck.classList.add('is-valid'); // Mark checkbox as valid
+        newEventInput.classList.add('is-valid'); // Mark input as valid
+    } else if (newEventCheck.checked && !newEventInput.value.trim()) { // If checkbox is checked but input is empty
+        newEventCheck.classList.add('is-invalid'); // Mark checkbox as invalid
+        newEventInput.classList.add('is-invalid'); // Mark input as invalid
+        return false;
+    }    
+}
+
+function formValidateEventCalendarDate() {
+    const eventDate = document.getElementById('eventDate');
+
+    // Reset validation state for event date field before checking
+    resetValidation('eventDate');
+
+    // Check if event date is provided
+    if (eventDate.value) {
+        eventDate.classList.add('is-valid'); // Mark event date as valid
+    } else {
+        eventDate.classList.add('is-invalid'); // Mark event date as invalid
+        return false;
+    }
+}
+
+function formValidatePhotographer() {
+    // Similar logic to exhibitor validation, but for photographer name
+    const photographerSelect = document.getElementById('photographerSelect');
+    const newPhotographerCheck = document.getElementById('newPhotographerCheck');
+    const newPhotographerInput = document.getElementById('newPhotographerInput');
+
+    // Clear validation states for all photographer name fields before checking
+    resetValidation('photographerSelect');
+    resetValidation('newPhotographerCheck');
+    resetValidation('newPhotographerInput');
+
+    // Check if select dropdown menu
+    if (photographerSelect.value && !newPhotographerCheck.checked) {
+        photographerSelect.classList.add('is-valid'); // Mark dropdown as valid
+    } else if (!photographerSelect.value && !newPhotographerCheck.checked) { // If dropdown is not selected
+        photographerSelect.classList.add('is-invalid');
+        return false; // Form is invalid if neither dropdown nor new photographer name is provided
+    }
+
+    // Check if new photographer name input is checked and has a value 
+    if (newPhotographerCheck.checked && newPhotographerInput.value.trim()) {
+        newPhotographerCheck.classList.add('is-valid'); // Mark checkbox as valid
+        newPhotographerInput.classList.add('is-valid'); // Mark input as valid
+    } else if (newPhotographerCheck.checked && !newPhotographerInput.value.trim()) { // If checkbox is checked but input is empty
+        newPhotographerCheck.classList.add('is-invalid'); // Mark checkbox as invalid
+        newPhotographerInput.classList.add('is-invalid'); // Mark input as invalid
+        return false;
+    }
+}
+
+function formValidateDescription() {
+    const descriptionInput = document.getElementById('descriptionBox');
+
+    // Reset validation state for description field before checking
+    resetValidation('descriptionBox');
+
+    // Check if description is provided and is at least 10 characters long
+    if (descriptionInput.value && descriptionInput.value.trim().length >= 10) {
+        descriptionInput.classList.add('is-valid'); // Mark description as valid
+    } else {
+        descriptionInput.classList.add('is-invalid'); // Mark description as invalid
         return false;
     }
 }
