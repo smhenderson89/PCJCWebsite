@@ -42,4 +42,9 @@ router.get('/api/awards-by-exhibitor/:exhibitor', awardsController.getAwardsByEx
 // Get info for a specific award by award number
 router.get('/api/award/:awardNum', awardsController.getAwardByNumber.bind(awardsController));
 
+// Award Debug Info
+
+// Get info on all awards for a specific category
+router.get('/api/all-awards/:category', awardsController.getAwardsByCategory.bind(awardsController));
+
 module.exports = router;

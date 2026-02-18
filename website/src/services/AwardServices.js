@@ -87,6 +87,14 @@ class DatabaseService {
     return stmt.get(awardNum);
   }
 
+  // Get awards for a specific category - filter all awards by category (e.g. genus) for debugging purposes
+  getAwardsByCategory(category) {
+    const stmt = this.db.prepare(`
+      SELECT * FROM awards ORDER BY genus ASC
+    `);
+    return stmt.all(category);
+  }
+
   // Close database connection
   close() {
     this.db.close();

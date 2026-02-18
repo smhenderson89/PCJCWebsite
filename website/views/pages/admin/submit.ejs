@@ -140,7 +140,13 @@
             <div class = "col-3">
                 <div class = "form-label">Genus</div>
             </div>
-            <div class = "col-9">
+            <div class = "col-3">
+                <input class = "form-check-input" type="checkbox" value="" id="nullGenusCheck">
+                <label class = "form-check-label" for="nullGenusCheck">Genus N/A?</label>
+                <div class = "valid-feedback">Looks good!</div>
+                <div class = "invalid-feedback">If no genus is applicable, please check the box.</div>
+            </div>
+            <div class = "col-6">
                 <input type="form control" class="form-control" id="genus" name = "genus" placeholder="Genus" required>
                 <div class = "valid-feedback">Looks good!</div>
                 <div class = "invalid-feedback">Please enter a valid genus.</div>
@@ -151,7 +157,9 @@
                 <div class = "form-label">Hybrid/species</div>
             </div>
             <div class = "col-9">
-                <input type="form control" class="form-control" name = "hybrid/species" id="Hybrid/species" placeholder="X / X" required>
+                <input type="form control" class="form-control" name = "hybrid/species" id="Hybrid/species" placeholder="Hybrid or Species" required>
+                <div class = "valid-feedback">Looks good!</div>
+                <div class = "invalid-feedback">Please enter a valid hybrid/species.</div>
             </div>
         </div>
         <div class = "row mb-3">
@@ -382,7 +390,6 @@
 
             <br>
             <input id = "submitBtn" type = "button" class = "btn btn-secondary" value = "Submit Form">
-            <input type = "button" class = "btn btn-info" disabled onclick = "" value = "Put N/A for empty measurements">
             <input id = "testBtn" type = "button" class = "btn btn-success" value = "Test Submission">
         </form>
 

@@ -223,6 +223,49 @@ class AwardsController {
     }
   } 
 
+  // API endpoint to get awards by category (for debugging)
+  async getAwardsByCategory(req, res) {
+    const category = req.params.category;
+    
+    if (!category) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Invalid category parameter' 
+      });
+    }
+
+    try {
+      const awards = this.dbService.getAllAwards();
+      const formattedAwards = MeasurementFormatter.formatAwardsArray(awards);
+      console.log(`Filtering awards by category: ${category}`); // Debug
+
+      let categoryInfo = {category: category};
+      let characterObject = {}
+
+      // Iterate over the awards and count characters in the specified category to get a sense of how much data is in that category and if there are any anomalies (e.g. extremely long entries that might be causing issues)
+      formattedAwards.forEach(award => {
+        const categoryValue = award[category];
+        if (categoryValue) {
+          let characterCount = categoryValue.length;
+          if (characterObject[characterCount]) {
+            characterObject[characterCount] += characterCount;
+          } else {
+            characterObject[characterCount] = characterCount;
+          }
+          categoryInfo.characterCount = characterObject;
+        }
+      });
+
+      res.json({ success: true, data: categoryInfo });
+    } catch (error) {
+      console.error(`Error getting awards for category ${category}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load awards for the specified category' 
+      });
+    }
+  }
+
   // Close database connection when done
   close() {
     this.dbService.close();
