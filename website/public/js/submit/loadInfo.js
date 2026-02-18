@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     loadExhibitors();
     loadAwardTypes();
     loadEventNames();
+    loadGenus();
     checkYear();
     loadPhotographers();
 });
@@ -109,6 +110,37 @@ async function checkYear() {
 
     const eventDateInput = document.getElementById('eventDate');
     eventDateInput.max = `${currentYear}-12-31`; // Set max date to December 31st of the current year
+}
+
+// Load previous genus when page loads
+async function loadGenus() {
+    try {
+        const response = await fetch('/api/plant-details/genus');
+        const responseData = await response.json();
+
+        // console.log('API Response:', responseData);
+        
+        // Extract genus from the data property
+        const genusList = responseData.data;
+        
+        const genusSelect = document.getElementById('genusSelect');
+        
+        // Clear existing options except the placeholder
+        genusSelect.innerHTML = '<option value="" disabled selected>Select Genus</option>';
+        
+        // Add each genus as an option
+        genusList.forEach(genus => {
+            const option = document.createElement('option');
+            option.value = genus;
+            option.textContent = genus;
+            genusSelect.appendChild(option);
+        });
+    } catch (error) {
+        console.error('Error loading genus:', error);
+        // Optionally show user-friendly error message
+        const genusSelect = document.getElementById('genusSelect');
+        genusSelect.innerHTML = '<option value="" disabled selected>Error loading genus</option>';
+    }
 }
 
 // Load previous photographers when page loads

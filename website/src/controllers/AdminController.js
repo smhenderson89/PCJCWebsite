@@ -98,6 +98,30 @@ class AdminController {
       });
     }
   }
+
+  // Api endpoint to get all previous award numbers
+  async getAwardNumbersList(req, res) {
+    try {
+      const awardNumbers = this.adminService.getAwardNumbersList();
+      // Sort award numbers into categories by their first 4 digits, then move them into an object with that key
+      const categorizedAwardNumbers = awardNumbers.reduce((acc, awardNum) => {
+        const key = awardNum.substring(0, 4);
+        if (!acc[key]) {
+          acc[key] = [];
+        }
+        acc[key].push(awardNum);
+        return acc;
+      }, {});
+
+      res.json({ success: true, data: categorizedAwardNumbers });
+    } catch (error) {
+      console.error('Error getting award numbers list:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load award numbers list' 
+      });
+    }
+  }
   
   // Combined API endpoint using existing methods with Promise.all
   async getPrepareSubmitData(req, res) {

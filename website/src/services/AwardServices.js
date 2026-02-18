@@ -87,6 +87,37 @@ class DatabaseService {
     return stmt.get(awardNum);
   }
 
+  // Get unique instances of plant details (genus, species, hybrid, cross)
+  getUniquePlantDetails(detail) {
+    const validDetails = ['genus', 'species', 'clone', 'cross'];
+    if (!validDetails.includes(detail)) {
+      throw new Error('Invalid detail type');
+    }
+    const stmt = this.db.prepare(`
+      SELECT DISTINCT ${detail}
+      FROM awards
+      WHERE ${detail} IS NOT NULL AND ${detail} != ''
+      ORDER BY ${detail} ASC
+    `);
+    return stmt.all().map(row => row[detail]);
+  }
+
+  // Get counts for unique instances of plant details (genus, species, hybrid, cross)
+  getUniquePlantDetailsCounts(detail) {
+    const validDetails = ['genus', 'species', 'clone', 'cross'];
+    if (!validDetails.includes(detail)) {
+      throw new Error('Invalid detail type');
+    }
+    const stmt = this.db.prepare(`
+      SELECT ${detail}, COUNT(*) as count
+      FROM awards
+      WHERE ${detail} IS NOT NULL AND ${detail} != ''
+      GROUP BY ${detail}
+      ORDER BY count DESC
+    `);
+    return stmt.all();
+  }
+
   // Get awards for a specific category - filter all awards by category (e.g. genus) for debugging purposes
   getAwardsByCategory(category) {
     const stmt = this.db.prepare(`

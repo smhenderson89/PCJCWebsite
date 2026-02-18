@@ -223,6 +223,69 @@ class AwardsController {
     }
   } 
 
+  // API endpoint to get unique instances of plant details (genus, species, hybrid, cross)
+  async getUniquePlantDetails(req, res) {
+    const detail = req.params.detail;
+    
+    const validDetails = ['genus', 'species', 'clone', 'cross'];
+    if (!validDetails.includes(detail)) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Invalid detail parameter' 
+      });
+    }
+
+    try {
+      const details = this.dbService.getUniquePlantDetails(detail);
+      res.json({ success: true, data: details });
+    } catch (error) {
+      console.error(`Error getting unique plant details for ${detail}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load unique plant details for the specified category' 
+      });
+    }
+  }
+
+  // API endpoint to get counts for unique instances of plant details (genus, species, hybrid, cross)
+  async getUniquePlantDetailsCounts(req, res) {
+    const detail = req.params.detail;
+    
+    const validDetails = ['genus', 'species', 'clone', 'cross'];
+    if (!validDetails.includes(detail)) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Invalid detail parameter' 
+      });
+    }
+
+    try {
+      const detailsCounts = this.dbService.getUniquePlantDetailsCounts(detail);
+      
+      // data is being returned as an array of objects with the detail and count, 
+      // Convert into an object with key/value pair of the counts to make it easier to process
+      const detailsCountsObject = {};
+      detailsCounts.forEach(item => {
+        detailsCountsObject[item[detail]] = item.count;
+      });
+
+      // Organize by count in descending order to make it easier to see which details are most common
+      const sortedDetailsCounts = Object.entries(detailsCountsObject).sort((a, b) => b[1] - a[1]);
+      const sortedDetailsCountsObject = {};
+      sortedDetailsCounts.forEach(item => {
+        sortedDetailsCountsObject[item[0]] = item[1];
+      });
+
+      res.json({ success: true, data: detailsCountsObject });
+    } catch (error) {
+      console.error(`Error getting unique plant details counts for ${detail}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load unique plant details counts for the specified category' 
+      });
+    }
+  }
+
   // API endpoint to get awards by category (for debugging)
   async getAwardsByCategory(req, res) {
     const category = req.params.category;

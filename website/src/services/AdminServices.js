@@ -65,6 +65,13 @@ class AdminServices {
       return results.map(row => row.photographer);
   }
 
+  // Get list of all previous award numbers
+  getAwardNumbersList() {
+      const stmt = this.db.prepare(`SELECT DISTINCT awardNum FROM awards ORDER BY awardNum ASC`);
+      const results = stmt.all();
+      return results.map(row => row.awardNum);
+  }
+
   // Get all data needed for submit form in one call
   getSubmitFormData() {
     try {
@@ -72,6 +79,7 @@ class AdminServices {
       const awardTypes = this.getAwardTypesList();
       const awardCounts = this.getAwardCountsByExhibitor();
       const eventNames = this.getEventNamesList();
+      const awardNumbers = this.getAwardNumbersList();
       return {
         exhibitors,
         awardTypes, 

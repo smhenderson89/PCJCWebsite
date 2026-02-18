@@ -42,6 +42,12 @@ router.get('/api/awards-by-exhibitor/:exhibitor', awardsController.getAwardsByEx
 // Get info for a specific award by award number
 router.get('/api/award/:awardNum', awardsController.getAwardByNumber.bind(awardsController));
 
+// Get info for unique instances of plant details (genus, species, hybrid, cross)
+router.get('/api/plant-details/:detail', awardsController.getUniquePlantDetails.bind(awardsController));
+
+// Get counts for unique instances of plant details (genus, species, hybrid, cross)
+router.get('/api/plant-details/count/:detail', awardsController.getUniquePlantDetailsCounts.bind(awardsController));
+
 // Award Debug Info
 
 // Get info on all awards for a specific category

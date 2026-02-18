@@ -69,6 +69,60 @@ document.getElementById('newEventCheck').addEventListener('change', function() {
     }
 });
 
+// New Genus checkbox event listener
+document.getElementById('newGenusCheck').addEventListener('change', function() {
+
+    // If checked, enable the new genus input field; otherwise, disable it
+    const newGenusInput = document.getElementById('newGenusInput');
+    newGenusInput.disabled = !this.checked;
+    if (!this.checked) {
+        newGenusInput.value = '';
+        document.getElementById('genusSelect').disabled = false;
+    } else {
+        // Disable the dropdown menu when new genus is checked
+        document.getElementById('genusSelect').disabled = true;
+
+        // Reset the dropdown to the placeholder option when new genus is checked
+        const genusSelect = document.getElementById('genusSelect');
+        genusSelect.value = '';
+    }
+});
+
+// New Clonal name checkbox event listener
+document.getElementById('clonalNACheck').addEventListener('change', function() {
+
+    // If checked, disable the clonal name input field and clear its value; otherwise, enable it
+    const clonalNameInput = document.getElementById('clonalName');
+    clonalNameInput.disabled = this.checked;
+    if (this.checked) {
+        clonalNameInput.value = '';
+    }
+});
+
+// Cross radio button event listeners
+// Handle all three radio buttons in the radioCross group
+const radioCrossButtons = document.getElementsByName('radioCross');
+const newCrossInput = document.getElementById('NewcrossName');
+
+// Set default state - disable the new cross input field
+newCrossInput.disabled = true;
+
+radioCrossButtons.forEach(radio => {
+    radio.addEventListener('change', function() {
+        if (this.checked) {
+            
+            if (this.id === 'radioNewSpecies') {
+                // Enable the new cross input field when "New Cross" is selected
+                newCrossInput.disabled = false;
+            } else {
+                // Disable and clear the new cross input field for other options
+                newCrossInput.disabled = true;
+                newCrossInput.value = '';
+            }
+        }
+    });
+});
+
 // Photographer event listener
 document.getElementById('newPhotographerCheck').addEventListener('change', function() {
 
@@ -85,6 +139,16 @@ document.getElementById('newPhotographerCheck').addEventListener('change', funct
         // Reset the dropdown to the placeholder option when new photographer is checked
         const photographerSelect = document.getElementById('photographerSelect');
         photographerSelect.value = '';
+    }
+});
+
+// Award Photo event listener
+// If No Photo checkbox is checked, disable the photo upload input and clear any selected file; otherwise, enable it
+document.getElementById('noPhotoCheck').addEventListener('change', function() {
+    const photoUploadInput = document.getElementById('awardPhoto');
+    photoUploadInput.disabled = this.checked;
+    if (this.checked) {
+        photoUploadInput.value = '';
     }
 });
 

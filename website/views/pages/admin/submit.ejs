@@ -35,22 +35,18 @@
                 <div class = "valid-feedback">Looks good!</div>
                 <div class = "invalid-feedback">Please check if this is a new exhibitor.</div>
             </div>
-            <div class = "col-3"> 
-                <label for="newExhibitorNameInput">Exhibitor Name:</label>
-            </div>
             <div class = "col-6">
                 <input type="text" id="newExhibitorNameInput" name="newExhibitorName" disabled>
                 <div class = "valid-feedback">Looks good!</div>
                 <div class = "invalid-feedback">Please enter a new exhibitor name.</div>
             </div>
         </div>
-            
-        </div>
+        <hr>
         <div class = "row mb-3">
-            <div class = "col-3">
-                <label for="awardSelect">Award Type</label>
+            <div class = "col-4">
+                <label for="awardSelect">Choose a Previous Award Type</label>
             </div>
-            <div class = "col-9">
+            <div class = "col-3">
                 <select class = "awardSelect" name="awardSelect" id="awardSelect">
                     <option value="" disabled selected>Select Award</option>
                 </select>
@@ -58,7 +54,6 @@
                 <div class = "invalid-feedback">Select an award from the dropdown or check the "New Award Type" box.</div>
             </div>
         </div>
-
         <div class = "row mb-3">
             <div class = "col-3">
                 <div class = "form-check">
@@ -67,15 +62,12 @@
                 </div>
             </div>
             <div class = "col-3">
-                <label for="newAwardTypeInput">Award Type:</label>
-            </div>
-            <div class = "col-3">
                 <input type="text" id="newAwardTypeInput" name="newAwardType" disabled>
                 <div class = "valid-feedback">Looks good!</div>
                 <div class = "invalid-feedback">Please enter a new award type.</div>
             </div>
         </div>
-
+        <hr>
         <div class = "row mb-3">
             <div class = "col-3">
                  <div class = "form-label">Award Value</div>
@@ -90,6 +82,7 @@
                 <label class = "form-check-label" for="nullAwardValueCheck">Award Value N/A?</label>
             </div>
         </div>
+        <hr>
         <div class = "row mb-3">
             <div class = "col-3">
                 <div class = "form-label">Award Number</div>
@@ -97,13 +90,14 @@
             <div class = "col-3">
                 <input type="form control" class="form-control" id="awardNumber" name = "awardNumber" placeholder="" required>
                 <div class = "valid-feedback">Looks good!</div>
-                <div class = "invalid-feedback">Please enter an award number.</div>
+                <div class = "invalid-feedback">Please enter a valid award number.</div>
+                <div class = "awardConflict-feedback" >Award number already exists.</div>
             </div>
         </div>
-
+        <hr>
         <div class = "row mb-3">
             <div class = "col-2">
-                <div class = "form-label">Event Title</div>
+                <div class = "form-label">Event Title?</div>
             </div>
             <div class = "col-10">
                 <select class = "eventSelect" name="" id="eventSelect">
@@ -117,7 +111,7 @@
             <div class = "col-3">
                 <div class = "form-check">
                     <input class = "form-check-input" type="checkbox" value="" id="newEventCheck">
-                    <label class = "form-check-label" for="newEventCheck">New Event?</label>
+                    <label class = "form-check-label" for="newEventCheck">New Event Name?</label>
                 </div>
             </div>
             <div class = "col-9">
@@ -126,6 +120,7 @@
                 <div class = "invalid-feedback">Please enter a new event title.</div>
             </div>
         </div>
+        <hr>
         <div class = "row mb-3">
             <div class = "col-3">
                 <div class="form-label">Event Date</div>
@@ -136,22 +131,33 @@
                 <div class = "invalid-feedback">Please enter a valid event date.</div>
             </div>
         </div>
+        <hr>
         <div class = "row mb-3">
             <div class = "col-3">
-                <div class = "form-label">Genus</div>
-            </div>
-            <div class = "col-3">
-                <input class = "form-check-input" type="checkbox" value="" id="nullGenusCheck">
-                <label class = "form-check-label" for="nullGenusCheck">Genus N/A?</label>
-                <div class = "valid-feedback">Looks good!</div>
-                <div class = "invalid-feedback">If no genus is applicable, please check the box.</div>
+                <div class = "form-label">Previous Genus?</div>
             </div>
             <div class = "col-6">
-                <input type="form control" class="form-control" id="genus" name = "genus" placeholder="Genus" required>
+                <select class = "genusSelect" name="genusSelect" id="genusSelect">
+                    <option value="" disabled selected>Select Genus</option>
+                </select>
                 <div class = "valid-feedback">Looks good!</div>
-                <div class = "invalid-feedback">Please enter a valid genus.</div>
+                <div class = "invalid-feedback">Select a genus from the dropdown or check the "New Genus" box and enter a name.</div>
             </div>
         </div>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                <div class = "form-check">
+                    <input class = "form-check-input" type="checkbox" value="" id="newGenusCheck">
+                    <label class = "form-check-label" for="newGenusCheck">New Genus?</label>
+                </div>
+            </div>
+            <div class = "col-6">
+                <input type="text" id="newGenusInput" name="newGenus" class="form-control" placeholder="Genus Name" disabled>
+                <div class = "valid-feedback">Looks good!</div>
+                <div class = "invalid-feedback">Please enter a new genus name.</div>
+            </div>
+        </div>
+        <hr>
         <div class = "row mb-3">
             <div class = "col-3">
                 <div class = "form-label">Hybrid/species</div>
@@ -162,22 +168,48 @@
                 <div class = "invalid-feedback">Please enter a valid hybrid/species.</div>
             </div>
         </div>
+        <hr>
         <div class = "row mb-3">
-            <div class = "col-3">
+            <div class = "col-2">
                 <div class = "form-label">Clonal Name</div>
             </div>
-            <div class = "col-9">
-                 <input type="form control" class="form-control" id="clonalName" name = "clonalName" placeholder="Clonal Name (plaintext)" required>
+            <div class = "col-2 text-center">
+                <input class = "form-check-input" type="checkbox" value="" id="clonalNACheck">
+                <label class = "form-check-label" for="clonalNACheck">N/A</label>
+            </div>
+            <div class = "col-8">
+                <input type="form control" class="form-control" id="clonalName" name = "clonalName" placeholder="Clonal Name (plaintext)" required>
             </div>
         </div>
+        <hr>
         <div class = "row mb-3">
             <div class = "col-3">
                 <div class = "form-label">Cross</div>
             </div>
-            <div class = "col-9">   
-                <input type="form control" class="form-control" id="crossName" name = "crossName" placeholder="Cross (plaintext)" required>
+            <div class = "col-6">
+                <div class = "form-check form-check-inline">
+                     <input class = "form-check-input" type="radio" value="" name = "radioCross" id="radioSpecies" checked>
+                     <label class = "form-check-label" for="radioSpecies">Species?</label>
+                </div>
+                <div class = "form-check form-check-inline">
+                    <input class = "form-check-input" type="radio" value="" name = "radioCross" id="radioNA">
+                    <label class = "form-check-label" for="radioNA">N/A?</label>
+                </div>
+                <div class = "form-check form-check-inline">
+                    <input class = "form-check-input" type="radio" value="" name = "radioCross" id="radioNewSpecies">
+                    <label class = "form-check-label" for="radioNewSpecies">New Cross?</label>
+                </div>
             </div>
         </div>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                <div>Enter New Cross: </div>
+            </div>
+            <div class = "col-9">   
+                <input type="form control" class="form-control" id="NewcrossName" name = "crossName" placeholder="Cross (plaintext)" required disabled>
+            </div>
+        </div>
+        <hr>
         <div class = "row mb-3">
             <div class = "col-3">
                 <div class = "form-label">Photographer</div>
@@ -205,13 +237,15 @@
                 <div class = "invalid-feedback">Please enter a name for the new photographer.</div>
             </div>
         </div>
+        <hr>
         <div class = "row mb-3">
             <div class = "col-3">
-                <div for="formFile" class="form-label">Award Photo (submit file uncompressed)</div>
+                <div for="formFile" class="form-label">Award Photo</div>
+                <div class = "small text-muted">Max file size: 10MB</div>
             </div>
             <div class = "col-3">
                 <input class="form-check-input" type="checkbox" value="" id="noPhotoCheck">
-                <label class="form-check-label" for="noPhotoCheck">No Photo?</label>
+                <label class="form-check-label" for="noPhotoCheck">No Photo right now?</label>
             </div>
             <div class = "col-6">
                 <input class="form-control" type="file" id="awardPhoto" name = "awardPhoto" required>
@@ -264,6 +298,7 @@
                 <input type="form control" class="form-control" id="PETL" name = "PETL" placeholder="XX" required>
             </div>
         </div>
+        <hr>
         <h5>
             <div class = "form-label text-center">Select option for measurements</div>
         </h5>
@@ -350,6 +385,7 @@
                 </div>  
             </div>
         </div>
+        <hr>
         <div id = "generalMeasurements">
             <h5 class = "text-center">General Measurements</h5>
             <div class ="row mb-3">
