@@ -5,7 +5,7 @@ const router = express.Router();
 
 // About page
 router.get('/about', (req, res) => {
-  res.render('pages/about', { 
+  res.render('pages/resources/about', { 
     title: 'About Pacific Central Judging Center' 
   });
 });
@@ -14,6 +14,13 @@ router.get('/about', (req, res) => {
 router.get('/personnel', (req, res) => {
   res.render('pages/resources/personnel', { 
     title: 'Personnel - Pacific Central Judging Center' 
+  });
+});
+
+// Donate Page
+router.get('/donate', (req, res) => {
+  res.render('pages/resources/donate', { 
+    title: 'Donate - Pacific Central Judging Center' 
   });
 });
 
