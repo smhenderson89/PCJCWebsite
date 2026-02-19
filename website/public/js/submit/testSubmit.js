@@ -86,7 +86,7 @@ function testSubmit() {
     fillTestInput('genus', testGenera[Math.floor(Math.random() * testGenera.length)]);
     
     fillTestInput('Hybrid/species', 'Test hybrid name');
-    fillTestInput('clonalName', '\'Test Clone\'');
+    fillTestInput('clonalName', 'Test Clone');
     fillTestInput('crossName', '(Test Parent 1 x Test Parent 2)');
     
     // Fill measurements with random test values
