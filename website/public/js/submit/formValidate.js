@@ -1,13 +1,3 @@
-// function submitForm() {
-//     let form = document.getElementById("submissionForm");
-    
-//     let awardType = document.getElementById("awardType").value
-//     let awardNotFound = document.getElementById("awardTypeNotFound").value
-//     let awardValue = document.getElementById("awardValue").value;
-
-//     console.log(`${awardType}, ${awardNotFound}, ${awardValue}`)
-// }
-
 // TODO: Grab values from form and submit to database, updating the server via an API endpoint.
 
 /* Event listener for form submission */
@@ -83,6 +73,7 @@ function submitForm() {
     
     // TODO: Send data to your API endpoint
 
+
 }
 
 // Function to reset validation state of a field
@@ -104,6 +95,10 @@ function checkFormValidity() {
     formValidateAwardValueAndNumber();
     formValidateEvent();
     formValidateEventCalendarDate();
+    formValidateGenus();
+    formValidateHybridSpecies();
+    formValidateClonalName();
+    formValidateCrossType();
     
     formValidatePhotographer();
     formValidateDescription();
@@ -114,9 +109,23 @@ function checkFormValidity() {
         return false;
     }
 
-    // TODO: Add additional form validation functions as needed and call them here
-    // Check awardNumber doesn't conflict with existing award numbers in the database (fetch existing award numbers from server and compare)
+    /* TODO: Double check submissions against existing database entries to prevent duplicates 
+    (e.g. if new exhibitor name already exists in database, 
+    show error message and prevent submission) 
+    
+    Items to check for user input if selected "new" option:
+    - Exhibitor
+    - Award Type
+    - Award Number
+    - Event Name
+    - Genus
+    - Photographer
 
+    If duplicate entry is found, show error message and prevent form submission. (duplicate-feedback divs in submit.ejs can be used to show specific error messages for each field if duplicate is found, similar to how invalid-feedback divs are used to show error messages for invalid fields)
+
+    */
+
+    
     return true; // Form is valid
 }
 
@@ -140,10 +149,10 @@ function formValidateExhibitor() {
     }
 
     // Check if new exhibitor input is checked and has a value 
-    if (newExhibitorCheck.checked && newExhibitorInput.value.trim()) {
+    if (newExhibitorCheck.checked && newExhibitorInput.value.trim().length >= 3) {
         newExhibitorCheck.classList.add('is-valid'); // Mark checkbox as valid
         newExhibitorInput.classList.add('is-valid'); // Mark input as valid
-    } else if (newExhibitorCheck.checked && !newExhibitorInput.value.trim()) { // If checkbox is checked but input is empty
+    } else if (newExhibitorCheck.checked && newExhibitorInput.value.trim().length < 3) { // If checkbox is checked but input is empty or too short
         newExhibitorCheck.classList.add('is-valid'); // Mark checkbox as invalid
         newExhibitorInput.classList.add('is-invalid'); // Mark input as invalid
         return false;
@@ -211,15 +220,10 @@ function formValidateAwardValueAndNumber() {
 
     // Check if award number is provided and is a valid number
     if (awardNumber.value && !isNaN(awardNumber.value)) {
-    
-        
-        // Check if award number doesn't conflict with existing award numbers in the database 
-        // (TODO: implement this logic by fetching existing award numbers from the server and comparing)
 
         // Check if award number has atleast 8 digits
         let valueString = awardNumber.value.toString();
         
-        // TOOD: Work on number validation, this doesn't seem to be working properly, 
         // maybe because the value is being treated as a number instead of a string? Need to investigate further and add more robust validation logic (e.g. regex pattern matching for specific award number formats)
         if (valueString.length >= 8) {
         awardNumber.classList.add('is-valid'); 
@@ -280,6 +284,95 @@ function formValidateEventCalendarDate() {
     }
 }
 
+function formValidateGenus() {
+    const genusSelect = document.getElementById('genusSelect');
+    const genusCheck = document.getElementById('newGenusCheck');
+    const genusInput = document.getElementById('newGenusInput');
+
+    // Reset validation state for genus field before checking
+    resetValidation('genusSelect');
+    resetValidation('newGenusCheck');
+    resetValidation('newGenusInput');
+
+    // Check if previous genus
+    if (genusSelect.value != "" && !genusCheck.checked) { // If dropdown selected
+        genusSelect.classList.add('is-valid'); 
+    } else if (!genusSelect.value && !genusCheck.checked) { // If dropdown is not selected and checkbox is not checked
+        genusSelect.classList.add('is-invalid');
+        return false;
+    } else if (genusCheck.checked && genusInput.value.trim()) { // If checkbox is checked and input has value
+        genusInput.classList.add('is-valid'); 
+    } else if (genusCheck.checked && !genusInput.value.trim()) { // If checkbox is checked but input is empty
+        genusInput.classList.add('is-invalid'); // Mark input as invalid
+        return false;
+    } else {
+        console.log('Genus validation logic needs to be reviewed and updated as needed'); // This else block should never be reached, if it is reached then there is likely a logic error in the validation function that needs to be addressed
+    }
+}
+    
+function formValidateHybridSpecies() {
+    const speciesInput = document.getElementById('HybridSpeciesInput');
+
+    resetValidation('HybridSpeciesInput');
+
+    // Check if hybrid/species is provided
+    if (speciesInput.value && speciesInput.value.trim().length >= 3) { // Check if input is atleast 3 characters
+        speciesInput.classList.add('is-valid'); 
+    } else if (!speciesInput.value || speciesInput.value.trim().length < 3) { // If input is empty or less than 3 characters, mark as invalid
+        speciesInput.classList.add('is-invalid'); 
+        return false;
+    } else {
+        console.log('Hybrid/species validation logic needs to be reviewed and updated as needed');
+    }
+}
+
+function formValidateClonalName() {
+    const clonalNameInput = document.getElementById('clonalName');
+    const clonalNACheck = document.getElementById('clonalNACheck');
+
+    // Reset validation state for clonal name field before checking
+    resetValidation('clonalName');
+    resetValidation('clonalNACheck');
+
+    // Check if clonal name is provided or N/A checkbox is checked
+    if (clonalNameInput.value && clonalNameInput.value.trim().length >= 2) { // If clonal name is provided and is atleast 2 characters long, mark as valid
+        clonalNameInput.classList.add('is-valid'); 
+    } else if (clonalNACheck.checked) { // If N/A checkbox is checked, mark checkbox as valid
+        clonalNACheck.classList.add('is-valid'); 
+    } else if (!clonalNameInput.value || clonalNameInput.value.trim().length < 2) { // If clonal name input is empty or less than 2 characters, mark as invalid (unless N/A checkbox is checked)
+        clonalNameInput.classList.add('is-invalid'); 
+        return false;
+    } else {
+        console.log('Clonal name validation logic needs to be reviewed and updated as needed');
+    }
+}
+
+function formValidateCrossType() {
+    const crossTypeRadios = document.getElementsByName('radioCross');
+    const crossTypeInput = document.getElementById('NewcrossName');
+
+    // Reset validation state for cross type radio buttons before checking
+    crossTypeRadios.forEach(radio => resetValidation(radio.id));
+    resetValidation('NewcrossName');
+
+    // Check if any cross type radio button is selected
+    const selectedCrossType = Array.from(crossTypeRadios).find(radio => radio.checked);
+    
+    if (selectedCrossType.id == "radioSpecies" || selectedCrossType.id == "radioNA") {
+        selectedCrossType.classList.add('is-valid'); // Mark selected radio button as valid
+    } else if (selectedCrossType.id == "radioNewSpecies" && crossTypeInput.value.trim().length >= 3) { // If "New Cross" is selected, check if input has value and is atleast 3 characters long
+        selectedCrossType.classList.add('is-valid'); // Mark "New Cross" radio button as valid
+        crossTypeInput.classList.add('is-valid'); // Mark input as valid
+    } else if (selectedCrossType.id == "radioNewSpecies" && (!crossTypeInput.value || crossTypeInput.value.trim().length < 3)) { // If "New Cross" is selected but input is empty or less than 3 characters, mark as invalid
+        selectedCrossType.classList.add('is-invalid'); // Mark "New Cross" radio button as invalid
+        crossTypeInput.classList.add('is-invalid'); // Mark input as invalid
+        return false;
+    } else if (!selectedCrossType) { // If no radio button is selected, mark all radio buttons as invalid
+        crossTypeRadios.forEach(radio => radio.classList.add('is-invalid')); // Mark all radio buttons as invalid if none are selected
+        return false;
+    }
+}
+
 function formValidatePhotographer() {
     // Similar logic to exhibitor validation, but for photographer name
     const photographerSelect = document.getElementById('photographerSelect');
@@ -310,6 +403,15 @@ function formValidatePhotographer() {
     }
 }
 
+function formValdiatePlantMeasurements() {
+    const heightInput = document.getElementById('heightInput');
+    const spreadInput = document.getElementById('spreadInput');
+
+    // Reset validation state for plant measurement fields before checking
+    resetValidation('heightInput');
+    resetValidation('spreadInput');
+
+}
 function formValidateDescription() {
     const descriptionInput = document.getElementById('descriptionBox');
 
