@@ -72,6 +72,12 @@ class AdminServices {
       return results.map(row => row.awardNum);
   }
 
+  // Get list of awards missing an image
+  getAwardsMissingImage() {
+      const stmt = this.db.prepare(`SELECT * FROM awards WHERE photo IS NULL OR photo = ''`);
+      return stmt.all();
+  }
+
   // Get all data needed for submit form in one call
   getSubmitFormData() {
     try {
@@ -85,6 +91,7 @@ class AdminServices {
         awardTypes, 
         awardCounts,
         eventNames,
+        awardNumbers,
         // Add any other data the submit form needs
       };
     } catch (error) {

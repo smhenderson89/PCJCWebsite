@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../../partials/head'); %>
+</head>
+<body class="container">
+<header>
+  <%- include('../../partials/header'); %>
+</header>
+<div class ="row mb-3">
+    <h3 class="text-center">Admin - Upload Photos for awards missing photos</h3>
+</div>
+
+<main>
+    <div class = "container">
+        <h4>Awards Missing Photos</h4>
+        <div class = "row mb-3">
+            <div class = "col-6">
+                <label for="missingAwards" class="form-label">Award</label>
+                <select class="form-select" id="missingAwards" disabled>
+                    <option value="">Select an award</option>
+                </select>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <h5>Selected Award Details</h5>
+            <div class = "col-6" id="awardDetails">
+                <!-- Details of the selected award will be displayed here -->
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-12">
+                <label for="photoInput" class="form-label">Upload Photos </label>
+                <div class = "text-muted mb-2">Select photos to upload for the selected award. Accepted formats: JPEG, PNG, WEBP.</div>
+                <input type="file" class="form-control" id="photoInput" multiple disabled>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-6 text-center">
+                <button id="submitBtn" class="btn btn-primary" disabled>Submit</button>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer>
+  <%- include('../../partials/footer'); %>
+</footer>
+
+<script src="/js/pages/upload/grabMissing.js"></script>
+<script src="/js/pages/upload/photoUpload.js"></script>
+</body>
+</html>

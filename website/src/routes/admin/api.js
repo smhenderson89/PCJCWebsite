@@ -42,6 +42,9 @@ router.get('/api/award-numbers', adminController.getAwardNumbersList.bind(adminC
 // Route to get all previous photographers
 router.get('/api/photographers', adminController.getPhotographersList.bind(adminController));
 
+// Route to get all awards missing an image
+router.get('/api/missing-image', adminController.getAwardsMissingImage.bind(adminController));
+
 // Combined route to get all submit form data using Promise.all
 router.get('/api/submit-prep', adminController.getPrepareSubmitData.bind(adminController));
 

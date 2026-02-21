@@ -122,6 +122,20 @@ class AdminController {
       });
     }
   }
+
+  // API endpoint to get all awards missing an image
+  async getAwardsMissingImage(req, res) {
+    try {
+      const awardsMissingImage = this.adminService.getAwardsMissingImage();
+      res.json({ success: true, data: awardsMissingImage });
+    } catch (error) {
+      console.error('Error getting awards missing image:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load awards missing image' 
+      });
+    }
+  }
   
   // Combined API endpoint using existing methods with Promise.all
   async getPrepareSubmitData(req, res) {

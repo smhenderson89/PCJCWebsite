@@ -39,6 +39,11 @@ router.get('/submit', async (req, res) => {
     }
 });
 
-// TODO: Add in admin panel for entering in awards
+// Render page for upload photos after award submission
+router.get('/upload', (req, res) => {
+    res.render('pages/admin/upload', {
+        title: 'Upload Photos - Pacific Central Judging Center'
+    });
+});
 
 module.exports = router;
