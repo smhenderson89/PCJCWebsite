@@ -152,6 +152,9 @@ document.getElementById('noPhotoCheck').addEventListener('change', function() {
     }
 });
 
+// Plant Measurement Type event listeners
+
+
 // Measurement type event listeners
 const measurementRadios = document.getElementsByName('measurements');
 measurementRadios.forEach(radio => {
