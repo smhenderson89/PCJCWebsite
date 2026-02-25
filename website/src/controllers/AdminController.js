@@ -136,6 +136,38 @@ class AdminController {
       });
     }
   }
+
+  // API endpoint to get all awards with a null value in a field
+  async getAwardsWithNullValues(req, res) {
+    const category = req.params.category;
+    if (!category) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Category parameter required' 
+      });
+    }
+
+    try {
+      const nullAwards = this.adminService.getAwardsWithNullValues(category);
+
+      // Don't return awards with exhibtior value of "Test Name" since those are just test entries we added to find null values
+      const filteredNullAwards = nullAwards.filter(award => award.exhibitor !== 'Test Name');
+
+      // Trim nullAwards to only include the id and awardNum for easier display
+      const trimmedNullAwards = filteredNullAwards.map(award => ({
+        awardNum: award.awardNum,
+        exhibitor: award.exhibitor
+      }));
+
+      res.json({ success: true, category: category, data: trimmedNullAwards });
+    } catch (error) {
+      console.error(`Error getting awards with null values for category ${category}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load awards with null values for the specified category' 
+      });
+    }
+  }
   
   // Combined API endpoint using existing methods with Promise.all
   async getPrepareSubmitData(req, res) {

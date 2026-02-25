@@ -200,9 +200,11 @@ async function populateAwardData(award, year) {
     safeSetText('award-name', award.award);
     hasAwardNamePoints = true;
   }
-  if (award.awardpoints) {
+  if (award.awardpoints && award.awardpoints !== 'N/A') { //     // If awardpoints value is equal to N/A, then don't display it
     safeSetText('award-points', ' ' + award.awardpoints);
     hasAwardNamePoints = true;
+  } else {
+    safeSetDisplay('award-points', false); // Hide the award points element if we don't have valid points to show
   }
   
   if (hasAwardNamePoints) {

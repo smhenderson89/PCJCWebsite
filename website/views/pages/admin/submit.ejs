@@ -15,6 +15,11 @@
 
 <div class = "container">
     <form class = "needs-validation" id="submissionForm" enctype="multipart/form-data" novalidate>
+        <div class = "row mb-3">
+            <div class = "col">
+                <div class = "text-center">Need to upload a photo to a previous award? Head to the <a href = "/upload">upload page</a>.</div>
+            </div>
+        </div>
         <!-- Exhibitor Name input from API -->
         <div class = "row mb-3">
             <div class = "col-3">
@@ -282,7 +287,7 @@
                 <div class = "valid-feedback"></div>
             </div>
             <div class = "col-2">
-                <input type="text" class="form-control" id="NS" name = "NS" placeholder="XX" required>
+                <input type="text" class="form-control" id="NSinput" name = "NSinput" placeholder="XX" required>
                 <div class = "valid-feedback"></div>
                 <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
             </div>
@@ -295,7 +300,7 @@
                 <div class = "valid-feedback"></div>
              </div>
              <div class = "col-2">
-                <input type="text" class="form-control" id="NSV" name = "NSV" placeholder="XX" required>
+                <input type="text" class="form-control" id="NSVinput" name = "NSVinput" placeholder="XX" required>
                 <div class = "valid-feedback"></div>
                 <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
             </div>
@@ -310,7 +315,7 @@
                 <div class = "valid-feedback"></div>
             </div>
              <div class = "col-2">
-                <input type="text" class="form-control" id="DSW" name = "DSW" placeholder="XX" required>
+                <input type="text" class="form-control" id="DSWinput" name = "DSWinput" placeholder="XX" required>
                 <div class = "valid-feedback"></div>
                 <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
             </div>
@@ -323,7 +328,7 @@
                 <div class = "valid-feedback"></div>    
             </div>
              <div class = "col-2">
-                <input type="text" class="form-control" id="DSL" name = "DSL" placeholder="XX" required>
+                <input type="text" class="form-control" id="DSLinput" name = "DSLinput" placeholder="XX" required>
                 <div class = "valid-feedback"></div>
                 <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
             </div>
@@ -338,7 +343,7 @@
                 <div class = "valid-feedback"></div>
             </div>  
              <div class = "col-2">
-                <input type="text" class="form-control" id="PETW" name = "PETW" placeholder="XX" required>
+                <input type="text" class="form-control" id="PETWinput" name = "PETWinput" placeholder="XX" required>
                 <div class = "valid-feedback"></div>
                 <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
             </div>
@@ -351,7 +356,7 @@
                 <div class = "valid-feedback"></div>    
              </div>
             <div class = "col-2">
-                <input type="text" class="form-control" id="PETL" name = "PETL" placeholder="XX" required>
+                <input type="text" class="form-control" id="PETLinput" name = "PETLinput" placeholder="XX" required>
                 <div class = "valid-feedback"></div>
                 <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
             </div>
@@ -505,10 +510,10 @@
   <%- include('../../partials/footer'); %>
 </footer>
 
-<script src="/js/submit/loadInfo.js"></script>
-<script src="/js/submit/formControl.js"></script>
-<script src="/js/submit/formValidate.js"></script>
-<script src="/js/submit/testSubmit.js"></script>
+<script src="../js/pages/submit/loadInfo.js"></script>
+<script src="../js/pages/submit/formControl.js"></script>
+<script src="../js/pages/submit/formValidate.js"></script>
+<script src="../js/pages/submit/testSubmit.js"></script>
 
 </body>
 </html>

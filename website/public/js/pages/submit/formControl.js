@@ -152,7 +152,74 @@ document.getElementById('noPhotoCheck').addEventListener('change', function() {
     }
 });
 
-// Plant Measurement Type event listeners
+/* Plant Measurement Type event listeners */
+// Natural spread N/A checkbox event listener
+
+document.getElementById('nsNACheck').addEventListener('change', function() {
+    if (document.getElementById('nsNACheck').checked) {
+        // If checked, disable all natural spread input fields and clear their values
+        document.getElementById('NSinput').disabled = true;
+        document.getElementById('NSinput').value = '';
+    } else {
+        // If unchecked, enable all natural spread input fields
+        document.getElementById('NSinput').disabled = false;
+    }
+});
+
+document.getElementById('nsvNACheck').addEventListener('change', function() {
+    if (document.getElementById('nsvNACheck').checked) {
+        // If checked, disable all natural spread input fields and clear their values
+        document.getElementById('NSVinput').disabled = true;
+        document.getElementById('NSVinput').value = '';
+    } else {
+        // If unchecked, enable all natural spread input fields
+        document.getElementById('NSVinput').disabled = false;
+    }
+});
+
+document.getElementById('dswNACheck').addEventListener('change', function() {
+    if (document.getElementById('dswNACheck').checked) {
+        // If checked, disable all natural spread input fields and clear their values
+        document.getElementById('DSWinput').disabled = true;
+        document.getElementById('DSWinput').value = '';
+    } else {
+        // If unchecked, enable all natural spread input fields
+        document.getElementById('DSWinput').disabled = false;
+    }
+});
+
+document.getElementById('dslNACheck').addEventListener('change', function() {
+    if (document.getElementById('dslNACheck').checked) {
+        // If checked, disable all natural spread input fields and clear their values
+        document.getElementById('DSLinput').disabled = true;
+        document.getElementById('DSLinput').value = '';
+    } else {
+        // If unchecked, enable all natural spread input fields
+        document.getElementById('DSLinput').disabled = false;
+    }
+});
+
+document.getElementById('petwNACheck').addEventListener('change', function() {
+    if (document.getElementById('petwNACheck').checked) {
+        // If checked, disable all natural spread input fields and clear their values
+        document.getElementById('PETWinput').disabled = true;
+        document.getElementById('PETWinput').value = '';
+    } else {
+        // If unchecked, enable all natural spread input fields
+        document.getElementById('PETWinput').disabled = false;
+    }
+});
+
+document.getElementById('petlNACheck').addEventListener('change', function() {
+    if (document.getElementById('petlNACheck').checked) {
+        // If checked, disable all natural spread input fields and clear their values
+        document.getElementById('PETLinput').disabled = true;
+        document.getElementById('PETLinput').value = '';
+    } else {
+        // If unchecked, enable all natural spread input fields
+        document.getElementById('PETLinput').disabled = false;
+    }
+});
 
 
 // Measurement type event listeners

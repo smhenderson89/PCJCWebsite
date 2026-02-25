@@ -78,6 +78,16 @@ class AdminServices {
       return stmt.all();
   }
 
+  // Get list of awards with a null value or an empty value in a field based on the category parameter (e.g. exhibitor, location, photographer)
+  getAwardsWithNullValues(category) {
+      const validCategories = ['awardpoints','clone', 'cross','exhibitor','measurementType', 'description', 'location', 'photographer', 'award', 'year', 'awardNum', 'numBuds', 'numFlowers', 'NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LSW', 'LSL', 'LIPW', 'LIPL', 'SYNSW', 'SYNSL', 'PCHW', 'PCHL', 'genus', 'species','cross'];
+      if (!validCategories.includes(category)) {
+          throw new Error('Invalid category for null value check');
+      }
+      const stmt = this.db.prepare(`SELECT * FROM awards WHERE ${category} IS NULL OR ${category} = ''`);
+      return stmt.all();
+  }
+
   // Get all data needed for submit form in one call
   getSubmitFormData() {
     try {
