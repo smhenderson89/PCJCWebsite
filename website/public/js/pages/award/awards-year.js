@@ -25,16 +25,16 @@ document.addEventListener('DOMContentLoaded', async function() {
   }
   
   const year = parseInt(yearElement.dataset.year, 10);
-  console.log('Awards year page - requesting year:', year); // Debug
+  // console.log('Awards year page - requesting year:', year); // Debug
   
   try {
     // Use the cache service to get awards
     const response = await awardsCacheService.getAwardsByYear(year);
     
-    console.log('Awards year page - response:', response); // Debug
+    // console.log('Awards year page - response:', response); // Debug
     
     if (response.success) {
-      console.log('Awards year page - awards count:', response.data ? response.data.length : 0); // Debug
+      // console.log('Awards year page - awards count:', response.data ? response.data.length : 0); // Debug
       displayAwards(response.data, year);
       hideLoading();
       
@@ -212,8 +212,8 @@ function setupImageLoadHandlers(imageId, containerId) {
 }
 
 function displayAwards(awards, year) {
-  console.log('displayAwards called with:', awards ? awards.length : 0, 'awards for year', year); // Debug
-  console.log('Sample award data:', awards && awards.length > 0 ? awards[0] : 'none'); // Debug
+  // console.log('displayAwards called with:', awards ? awards.length : 0, 'awards for year', year); // Debug
+  // console.log('Sample award data:', awards && awards.length > 0 ? awards[0] : 'none'); // Debug
   
   const container = document.getElementById('awards-container');
   
@@ -227,7 +227,7 @@ function displayAwards(awards, year) {
   } else {
     // Group awards by date
     const groupedByDate = groupAwardsByDate(awards);
-    console.log('Awards grouped by date:', Object.keys(groupedByDate)); // Debug
+    // console.log('Awards grouped by date:', Object.keys(groupedByDate)); // Debug
     container.innerHTML = renderAwardsGroupedByDate(groupedByDate);
   }
   
@@ -272,6 +272,13 @@ function renderAwardsGroupedByDate(groupedAwards) {
     const dateGroup = groupedAwards[date];
     const awards = dateGroup.awards;
     const location = dateGroup.location;
+
+    // If award is a type with no associated awardpoints, then don't display the awardpoints (e.g. cultural awards)
+    awards.forEach(award => {
+      if (award.awardpoints == "N/A") {
+        award.awardpoints = '';
+      }
+    });
     
     html += `
       <div class="col-12 mb-4">
@@ -294,6 +301,7 @@ function renderAwardsGroupedByDate(groupedAwards) {
                   ${imageHTML}
                 </a>
                 <div class="card-body">
+                
                   <h6 class="card-title">${award.award} ${award.awardpoints || ''}</h6>
                   <p class="card-text">${award.genus} ${award.species || ''}</p>
                   <small class="text-muted">Award #${award.awardNum}</small>
@@ -362,7 +370,7 @@ function trackImageLoadingPerformance() {
   // Count images on page
   setTimeout(() => {
     totalImages = document.querySelectorAll('.card-img-top').length;
-    console.log(`📊 Performance: ${totalImages} images to load`);
+    // console.log(`📊 Performance: ${totalImages} images to load`);
   }, 100);
   
   // Listen for image load events - DEUBG ONLY

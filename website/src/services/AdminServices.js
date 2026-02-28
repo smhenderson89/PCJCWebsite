@@ -88,6 +88,21 @@ class AdminServices {
       return stmt.all();
   }
 
+  // Get list of awards that reference another award in the description field, check it is displaying properly in the admin panel
+  getAwardsReferencingAwards() {
+      const stmt = this.db.prepare(`SELECT DISTINCT a.*
+      FROM awards a
+      JOIN awards b
+        ON a.rowid <> b.rowid
+      AND a.description IS NOT NULL
+      AND a.description <> ''
+      AND (
+            a.description LIKE '%' || b.awardNum || '%'
+        OR a.description LIKE '%#' || b.awardNum || '%'
+      );`);
+      return stmt.all();
+   }
+
   // Get all data needed for submit form in one call
   getSubmitFormData() {
     try {

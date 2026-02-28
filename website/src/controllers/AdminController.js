@@ -168,6 +168,61 @@ class AdminController {
       });
     }
   }
+
+  // API endpoint to get all awards that reference another award in the description field, check it is displaying properly in the admin panel
+  async getAwardsReferencingAwards(req, res) {
+    console.log('DEBUG - Getting awards referencing awards');
+    try {
+      const referencingAwards = this.adminService.getAwardsReferencingAwards();
+
+      // Look up descriptions of referenced awards and add them to the results
+      for (const award of referencingAwards) {
+        const referencedAwardNums = [];
+
+        // Use regex to find all occurrences of award numbers in the description, looking for patterns like "1234", "#1234", "award 1234", etc.
+        const regex = /(?:#?)(\d{8,})/g;
+        let match;
+        while ((match = regex.exec(award.description)) !== null) {
+          // Determine year of the referenced award based on the first 4 digits of the award number
+          let referencedYear = String(match[1]).substring(0, 4);
+          if (referencedYear.length === 4 && !isNaN(referencedYear)) {
+            // check if found year is not already within the reference year list
+            if (award.referencedYears && award.referencedYears.includes(referencedYear)) {
+              continue;
+            }
+
+            referencedYear = parseInt(referencedYear);
+          } else {
+            referencedYear = 'Unknown Year';
+          }
+
+          referencedAwardNums.push([match[1], referencedYear]);
+        }
+        award.referencedAwards = referencedAwardNums.map(item => item[0]);
+        award.referencedYears = referencedAwardNums.map(item => item[1]);
+
+      }
+
+      // Trim results to only include awardNum, exhibitor, description, and referencedAwards for easier display
+      const trimmedReferencingAwards = referencingAwards.map(award => ({
+        awardNum: award.awardNum,
+        date: award.date,
+        exhibitor: award.exhibitor,
+        description: award.description,
+        referencedAwards: award.referencedAwards,
+        referencedYears: award.referencedYears
+      }));
+
+
+      res.json({ success: true, data: trimmedReferencingAwards });
+    } catch (error) {
+      console.error('Error getting awards referencing awards:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load awards referencing awards' 
+      });
+    }
+  }
   
   // Combined API endpoint using existing methods with Promise.all
   async getPrepareSubmitData(req, res) {

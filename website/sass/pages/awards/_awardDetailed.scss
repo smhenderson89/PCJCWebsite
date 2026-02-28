@@ -126,6 +126,50 @@
   }
 }
 
+/* Additional table styling */
+
+#additional-measurements-table > tr > td {
+  padding: 0;
+  border: 0;
+}
+
+#additional-measurements-table .inner-additional-table {
+  margin-bottom: 0;
+}
+
+#additional-measurements-table .inner-additional-table thead th {
+  border-top: 0;
+}
+
+#additional-measurements-table .inner-additional-table th,
+#additional-measurements-table .inner-additional-table td {
+  border-left: 0;
+  border-right: 0;
+}
+
+#additional-measurements-table .inner-additional-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+#measurements-table > tbody:first-of-type > tr:last-child > th,
+#measurements-table > tbody:first-of-type > tr:last-child > td {
+  border-bottom: 1px solid var(--bs-border-color, #dee2e6) !important;
+}
+
+/* Optional: remove any gap before additional section */
+#measurements-table {
+  margin-bottom: 0;
+}
+#additional-measurements-table > tr > td {
+  padding-top: 0;
+}
+
+/* Table center values within the table */
+.measurements-table td,
+#additional-measurements-table td {
+  text-align: center;
+}
+
 // Mobile responsiveness
 @media (max-width: 768px) {
   .award-image-container {

@@ -48,7 +48,12 @@ router.get('/api/missing-image', adminController.getAwardsMissingImage.bind(admi
 // Route to get all awards with a null value in a field
 router.get('/api/null-awards/:category', adminController.getAwardsWithNullValues.bind(adminController));
 
+// Route to get all awards that reference another award in the description field, check it is displaying properly in the admin panel
+router.get('/api/awards-linking', adminController.getAwardsReferencingAwards.bind(adminController));
+
 // Combined route to get all submit form data using Promise.all
 router.get('/api/submit-prep', adminController.getPrepareSubmitData.bind(adminController));
+
+
 
 module.exports = router;

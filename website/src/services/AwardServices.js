@@ -23,6 +23,12 @@ class DatabaseService {
     return stmt.all();
   }
 
+  // Get all unique award numbers
+  getAllAwardNumbers() {
+    const stmt = this.db.prepare(`SELECT DISTINCT awardNum FROM awards ORDER BY awardNum ASC`);
+    return stmt.all().map(row => row.awardNum);
+  }
+
   // Get award counts by year
   getAwardCountsByYear() {
     const stmt = this.db.prepare(`SELECT year, COUNT(*) as count 
@@ -35,7 +41,7 @@ class DatabaseService {
 
   // Select awards for a specific year
   getAwardsByYear(year) {
-    console.log('getAwardsByYear called with year:', year, 'type:', typeof year); // Debug
+    // console.log('getAwardsByYear called with year:', year, 'type:', typeof year); // Debug
     const stmt = this.db.prepare(`SELECT *,
       thumbnail_jpeg_small,
       thumbnail_jpeg_medium,
@@ -45,9 +51,9 @@ class DatabaseService {
       WHERE year = ? 
       ORDER BY date_iso ASC, awardNum ASC `);
     const results = stmt.all(year);
-    console.log('getAwardsByYear results count:', results.length); // Debug
+    // console.log('getAwardsByYear results count:', results.length); // Debug
     if (results.length > 0) {
-      console.log('First few results for year', year, ':', results.slice(0, 3).map(r => `${r.awardNum}-${r.year}`)); // Debug
+      // console.log('First few results for year', year, ':', results.slice(0, 3).map(r => `${r.awardNum}-${r.year}`)); // Debug
     }
     return results;
   }

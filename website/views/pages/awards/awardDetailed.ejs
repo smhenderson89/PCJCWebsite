@@ -5,31 +5,8 @@
 <head>
     <%- include('../../partials/head'); %>
     <title><%= title %></title>
-    <%
-    // Helper function to process award descriptions and create links
-    function processAwardDescription(description, currentYear) {
-      if (!description) return '';
-      
-      // Regex to find potential award numbers (at least 8 digits)
-      const awardRegex = /\b(\d{8,})\b/g;
-      
-      return description.replace(awardRegex, (match) => {
-        const awardNum = match;
-        
-        // Extract year from award number (first 4 digits)
-        const awardYear = parseInt(awardNum.substring(0, 4), 10);
-        
-        // Validate: must be at least 8 digits and year must match current award's year
-        if (awardNum.length >= 8 && awardYear === parseInt(currentYear, 10)) {
-          return `<a href="/award/${awardYear}/${awardNum}" class="award-reference-link" data-award="${awardNum}" data-year="${awardYear}">${awardNum}</a>`;
-        }
-        
-        return match; // Return unchanged if not valid
-      });
-    }
-    %>
 </head>
-<body class="container">
+<body class="container" data-has-award="<%= award ? 'true' : 'false' %>" data-current-year="<%= award?.year || year || '' %>">
 
 <header>
   <%- include('../../partials/header'); %>
@@ -204,7 +181,7 @@
               <h5><strong>Description:</strong></h5>
               <div class="description-box p-3" id="award-description">
                 <% if (award && award.description) { %>
-                  <%- processAwardDescription(award.description, award.year) %>
+                  <%- award.description %>
                 <% } %>
               </div>
             </div>
@@ -219,78 +196,48 @@
                  }
                  %>
                  <%= hasMeasurements ? 'visible' : 'hidden' %>" id="measurements-section">
-              <h5><strong>Measurements (in cm):</strong></h5>
+              <h5><div class="text-center"><strong>Measurements (in cm):</strong></div></h5>
               <div class="measurements-table-container">
                 <table class="table table-striped measurements-table" id="measurements-table">
                   <tbody>
-                    <!-- Primary measurements always shown first if available -->
-                    <% if (award && award.NS) { %>
-                      <tr><td><strong>Natural Spread:</strong></td><td><span id="measurement-ns"><%= award.NS %></span></td></tr>
-                    <% } %>
-                    <% if (award && award.NSV) { %>
-                      <tr><td><strong>Natural Spread Vertical:</strong></td><td><span id="measurement-nsv"><%= award.NSV %></span></td></tr>
-                    <% } %>
-                    <% if (award && award.DSW) { %>
-                      <tr><td><strong>Dorsal Sepal Width:</strong></td><td><span id="measurement-dsw"><%= award.DSW %></span></td></tr>
-                    <% } %>
-                    <% if (award && award.DSL) { %>
-                      <tr><td><strong>Dorsal Sepal Length:</strong></td><td><span id="measurement-dsl"><%= award.DSL %></span></td></tr>
-                    <% } %>
-                    <% if (award && award.PETW) { %>
-                      <tr><td><strong>Petal Width:</strong></td><td><span id="measurement-petw"><%= award.PETW %></span></td></tr>
-                    <% } %>
-                    <% if (award && award.PETL) { %>
-                      <tr><td><strong>Petal Length:</strong></td><td><span id="measurement-petl"><%= award.PETL %></span></td></tr>
-                    <% } %>
-                    
-                    <!-- Lateral Sepal and Lip measurements (if valid) -->
-                    <% 
-                    let hasLateralLip = false;
-                    if (award && (award.LSW || award.LSL || award.LIPW || award.LIPL)) {
-                      hasLateralLip = true;
-                    }
-                    %>
-                    <% if (hasLateralLip) { %>
-                      <% if (award.LSW) { %>
-                        <tr><td><strong>Lateral Sepal Width:</strong></td><td><span id="measurement-lsw"><%= award.LSW %></span></td></tr>
-                      <% } %>
-                      <% if (award.LSL) { %>
-                        <tr><td><strong>Lateral Sepal Length:</strong></td><td><span id="measurement-lsl"><%= award.LSL %></span></td></tr>
-                      <% } %>
-                      <% if (award.LIPW) { %>
-                        <tr><td><strong>Lip Width:</strong></td><td><span id="measurement-lipw"><%= award.LIPW %></span></td></tr>
-                      <% } %>
-                      <% if (award.LIPL) { %>
-                        <tr><td><strong>Lip Length:</strong></td><td><span id="measurement-lipl"><%= award.LIPL %></span></td></tr>
-                      <% } %>
-                    <% } %>
-                    
-                    <!-- Synsepal and Pouch measurements (alternative to lateral/lip) -->
-                    <% 
-                    let hasSynsepalPouch = false;
-                    if (award && !hasLateralLip && (award.SYNSW || award.SYNSL || award.PCHW || award.PCHL)) {
-                      hasSynsepalPouch = true;
-                    }
-                    %>
-                    <% if (hasSynsepalPouch) { %>
-                      <% if (award.SYNSW) { %>
-                        <tr><td><strong>Synsepal Width:</strong></td><td><span id="measurement-synsw"><%= award.SYNSW %></span></td></tr>
-                      <% } %>
-                      <% if (award.SYNSL) { %>
-                        <tr><td><strong>Synsepal Length:</strong></td><td><span id="measurement-synsl"><%= award.SYNSL %></span></td></tr>
-                      <% } %>
-                      <% if (award.PCHW) { %>
-                        <tr><td><strong>Pouch Width:</strong></td><td><span id="measurement-pchw"><%= award.PCHW %></span></td></tr>
-                      <% } %>
-                      <% if (award.PCHL) { %>
-                        <tr><td><strong>Pouch Length:</strong></td><td><span id="measurement-pchl"><%= award.PCHL %></span></td></tr>
-                      <% } %>
-                    <% } %>
+                    <!-- keep your existing measurement rows here -->
+                  </tbody>
+
+                  <tbody id="additional-measurements-table">
+                    <tr>
+                      <td colspan="4">
+                        <%
+                          const displayCount = (value) => {
+                            if (value == null || value === 'null') return '0';
+                            if (value === 'N/A') return 'N/A';
+                            return value;
+                          };
+                          const numFlowersDisplay = displayCount(award?.numFlowers);
+                          const numBudsDisplay = displayCount(award?.numBuds);
+                          const numInflorescencesDisplay = displayCount(award?.numInflorescences);
+                        %>
+                        <table class="table table-striped inner-additional-table">
+                          <thead>
+                            <tr>
+                              <th>Number of Flowers</th>
+                              <th>Number of Buds</th>
+                              <th>Number of Inflorescences</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td id="num-flowers"><%= numFlowersDisplay %></td>
+                              <td id="num-buds"><%= numBudsDisplay %></td>
+                              <td id="num-inflorescences"><%= numInflorescencesDisplay %></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -344,8 +291,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <!-- Include award-detailed.js for client-side sessionStorage logic -->
-<% if (!award && !error) { %>
-<script src="/js/pages/award-detailed.js"></script>
-<% } %>
+<script src="/js/services/awards-cache-service.js"></script>
+<script src="/js/pages/award/award-detailed.js"></script>
 </body>
 </html>

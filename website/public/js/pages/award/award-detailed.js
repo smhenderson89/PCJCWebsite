@@ -4,30 +4,158 @@
  * URL pattern: /award/:year/:awardNum
  */
 
+const DEBUG_AWARD_LINKS =
+  new URLSearchParams(window.location.search).get('debugAwardLinks') === '1' ||
+  sessionStorage.getItem('debugAwardLinks') === '1';
+
+function logAwardLinkDecision(payload) {
+  if (!DEBUG_AWARD_LINKS) return;
+  console.log('[award-link-check]', payload);
+}
+
+function parseYearAwardsFromCache(year) {
+  const cachedData = sessionStorage.getItem(`orchid_awards_${year}`);
+  if (!cachedData) return [];
+
+  try {
+    const parsedData = JSON.parse(cachedData);
+    if (parsedData?.data?.data && Array.isArray(parsedData.data.data)) {
+      return parsedData.data.data;
+    }
+    if (parsedData?.data && Array.isArray(parsedData.data)) {
+      return parsedData.data;
+    }
+  } catch (error) {
+    console.error(`Error parsing year cache for ${year}:`, error);
+  }
+
+  return [];
+}
+
+async function ensureYearCache(year) {
+  const existing = parseYearAwardsFromCache(year);
+  if (existing.length > 0) {
+    return existing;
+  }
+
+  if (typeof awardsCacheService?.getAwardsByYear === 'function') {
+    try {
+      await awardsCacheService.getAwardsByYear(year);
+    } catch (error) {
+      console.error(`Error creating year cache for ${year}:`, error);
+    }
+  }
+
+  return parseYearAwardsFromCache(year);
+}
+
+function isAwardInYearCache(year, awardNum) {
+  const yearAwards = parseYearAwardsFromCache(year);
+  return yearAwards.some(award => String(award.awardNum) === String(awardNum));
+}
+
+function isAwardInAllNumbersCache(year, awardNum, allAwardNumbers) {
+  if (!allAwardNumbers || typeof allAwardNumbers !== 'object') {
+    return false;
+  }
+
+  const yearKey = String(year);
+  const yearAwards = allAwardNumbers[yearKey];
+  if (!Array.isArray(yearAwards)) {
+    return false;
+  }
+
+  return yearAwards.some(cachedAwardNum => String(cachedAwardNum) === String(awardNum));
+}
+
 /**
  * Process award description to create links for referenced award numbers
  * @param {string} description - The award description text
  * @param {number|string} currentYear - The current award's year
- * @returns {string} Processed description with award number links
+ * @returns {Promise<string>} Processed description with award number links
  */
-function processAwardDescription(description, currentYear) {
+async function processAwardDescription(description, currentYear) {
   if (!description) return '';
-  
-  // Regex to find potential award numbers (at least 8 digits)
-  const awardRegex = /\b(\d{8,})\b/g;
-  
-  return description.replace(awardRegex, (match) => {
-    const awardNum = match;
-    
-    // Extract year from award number (first 4 digits)
-    const awardYear = parseInt(awardNum.substring(0, 4), 10);
-    
-    // Validate: must be at least 8 digits and year must match current award's year
-    if (awardNum.length >= 8 && awardYear === parseInt(currentYear, 10)) {
-      return `<a href="/award/${awardYear}/${awardNum}" class="award-reference-link" data-award="${awardNum}" data-year="${awardYear}">${awardNum}</a>`;
+
+  const awardRegex = /(#)?(\d{8,})(\.)?/g;
+  const referencedYears = new Set();
+
+  description.replace(awardRegex, (match, hashPrefix, awardNum, trailingPeriod, offset, fullText) => {
+    const prevChar = offset > 0 ? fullText[offset - 1] : '';
+    const nextChar = fullText[offset + match.length] || '';
+
+    if (/\d/.test(prevChar) || /\d/.test(nextChar)) {
+      return match;
     }
-    
-    return match; // Return unchanged if not valid
+
+    const awardYear = parseInt(String(awardNum).slice(0, 4), 10);
+    if (!isNaN(awardYear)) {
+      referencedYears.add(awardYear);
+    }
+
+    return match;
+  });
+
+  if (currentYear) {
+    const currentYearNum = parseInt(currentYear, 10);
+    if (!isNaN(currentYearNum)) {
+      referencedYears.add(currentYearNum);
+    }
+  }
+
+  await Promise.all([...referencedYears].map(year => ensureYearCache(year)));
+
+  let allAwardNumbers = null;
+  if (typeof getAllCachedAwardNumbers === 'function') {
+    try {
+      allAwardNumbers = await getAllCachedAwardNumbers();
+    } catch (error) {
+      console.error('Error creating all-award-numbers cache:', error);
+    }
+  }
+
+  return description.replace(awardRegex, (match, hashPrefix, awardNum, trailingPeriod, offset, fullText) => {
+    const prevChar = offset > 0 ? fullText[offset - 1] : '';
+    const nextChar = fullText[offset + match.length] || '';
+
+    if (/\d/.test(prevChar) || /\d/.test(nextChar)) {
+      return match;
+    }
+
+    const awardYear = parseInt(String(awardNum).slice(0, 4), 10);
+    if (isNaN(awardYear)) {
+      logAwardLinkDecision({
+        match,
+        awardNum,
+        status: 'not-linked',
+        reason: 'invalid-year'
+      });
+      return match;
+    }
+
+    const isValidInYearCache = isAwardInYearCache(awardYear, awardNum);
+    const isValidInAllNumbers = isAwardInAllNumbersCache(awardYear, awardNum, allAwardNumbers);
+
+    if (isValidInYearCache || isValidInAllNumbers) {
+      logAwardLinkDecision({
+        match,
+        awardNum,
+        awardYear,
+        status: 'linked',
+        source: isValidInYearCache ? 'year-cache' : 'all-numbers-cache'
+      });
+      return `${hashPrefix || ''}<a href="/award/${awardYear}/${awardNum}" class="award-reference-link" data-award="${awardNum}" data-year="${awardYear}">${awardNum}</a>${trailingPeriod || ''}`;
+    }
+
+    logAwardLinkDecision({
+      match,
+      awardNum,
+      awardYear,
+      status: 'not-linked',
+      reason: 'not-found-in-cache'
+    });
+
+    return match;
   });
 }
 
@@ -51,8 +179,29 @@ function toggleElementVisibility(elementId, show) {
   }
 }
 
+async function processExistingDescription() {
+  const descriptionElement = document.getElementById('award-description');
+  if (!descriptionElement || !descriptionElement.innerHTML.trim()) {
+    return;
+  }
+
+  const currentYear = document.body?.dataset?.currentYear;
+  if (!currentYear) {
+    return;
+  }
+
+  const processedDescription = await processAwardDescription(descriptionElement.innerHTML, currentYear);
+  descriptionElement.innerHTML = processedDescription;
+}
+
 // Initialize page on DOM load
 document.addEventListener('DOMContentLoaded', async function() {
+  const hasServerAward = document.body?.dataset?.hasAward === 'true';
+  if (hasServerAward) {
+    await processExistingDescription();
+    return;
+  }
+
   // Parse URL parameters from the current path
   const urlParams = parseUrlParams();
   
@@ -171,13 +320,16 @@ async function populateAwardData(award, year) {
     safeSetText('award-genus', award.genus);
     hasGenusSpeciesClone = true;
   }
-  if (award.species) {
+  if (award.species && award.species !== 'N/A') {
     safeSetText('award-species', ' ' + award.species);
-    hasGenusSpeciesClone = true;
+  } else if (award.species === 'N/A') {
+    safeSetText('award-species', '');
   }
-  if (award.clone) {
+
+  if (award.clone && award.clone !== 'N/A') {
     safeSetText('award-clone', ` '${award.clone}'`);
-    hasGenusSpeciesClone = true;
+  } else if (award.clone === 'N/A') {
+    safeSetText('award-clone', '');
   }
   
   if (hasGenusSpeciesClone) {
@@ -185,7 +337,15 @@ async function populateAwardData(award, year) {
   }
   
   // Line 2: Use cross information directly from award.cross
-  if (award.cross) {
+  if (award.cros && award.cros !== 'N/A') {
+    toggleElementVisibility('cross-info-display', true);
+    const crossInfoDisplay = document.getElementById('cross-info-display');
+    if (crossInfoDisplay) {
+      const crossInfoEm = crossInfoDisplay.querySelector('em');
+      if (crossInfoEm) crossInfoEm.textContent = award.cros;
+    }
+  } else if (award.cross && award.cross !== 'N/A') {
+    // Don't display the cross information if it's just "N/A"
     toggleElementVisibility('cross-info-display', true);
     const crossInfoDisplay = document.getElementById('cross-info-display');
     if (crossInfoDisplay) {
@@ -229,7 +389,7 @@ async function populateAwardData(award, year) {
   if (award.description) {
     const descriptionElement = document.getElementById('award-description');
     if (descriptionElement) {
-      const processedDescription = processAwardDescription(award.description, award.year);
+      const processedDescription = await processAwardDescription(award.description, award.year);
       descriptionElement.innerHTML = processedDescription;
     }
     toggleElementVisibility('description-section', true);
@@ -291,6 +451,7 @@ async function populateAwardData(award, year) {
   
   // Populate measurements
   populateMeasurements(award);
+  populateAdditionalInfo(award);
   
   // Update navigation links safely
   const yearLink = document.getElementById('year-link');
@@ -395,6 +556,36 @@ function populateMeasurements(award) {
         tableBody.appendChild(row);
       }
     }
+  }
+}
+
+/* Populate 1x3 column at bottom of measurement table with additional information 
+Use information for numFlowers, NumBuds, and NumInflo
+*/
+
+function populateAdditionalInfo(award) {
+  console.log(`award.numBuds: ${award.numBuds}, award.numFlowers: ${award.numFlowers}, award.numInflorescences: ${award.numInflorescences}`);
+  
+  const numBudsElement = document.getElementById('num-buds');
+  const numFlowersElement = document.getElementById('num-flowers');
+  const numInfloElement = document.getElementById('num-inflorescences');
+
+  const formatCountDisplay = (value) => {
+    if (value == null || value === 'null') return '0';
+    if (value === 'N/A') return 'N/A';
+    return String(value);
+  };
+
+  if (numBudsElement) {
+    numBudsElement.textContent = formatCountDisplay(award.numBuds);
+  }
+
+  if (numInfloElement) {
+    numInfloElement.textContent = formatCountDisplay(award.numInflorescences);
+  }
+
+  if (numFlowersElement) {
+    numFlowersElement.textContent = formatCountDisplay(award.numFlowers);
   }
 }
 
