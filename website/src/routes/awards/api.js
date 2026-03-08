@@ -24,6 +24,9 @@ router.use('/api', (req, res, next) => {
 // All awards
 router.get('/api/all-awards', awardsController.getAllAwards.bind(awardsController));
 
+// All Award numbers
+router.get('/api/award-numbers', awardsController.getAllAwardNumbers.bind(awardsController));
+
 // Award counts by year
 router.get('/api/awards-count', awardsController.getAwardCounts.bind(awardsController));
 

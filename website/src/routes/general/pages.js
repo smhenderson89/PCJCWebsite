@@ -24,6 +24,13 @@ router.get('/donate', (req, res) => {
   });
 });
 
+// Contact page
+router.get('/contact', (req, res) => {
+  res.render('pages/resources/contact', { 
+    title: 'Contact - Pacific Central Judging Center' 
+  });
+});
+
 // Location page
 router.get('/location', (req, res) => {
   res.render('pages/attend/location', { 
