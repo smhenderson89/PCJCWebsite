@@ -51,6 +51,26 @@ class AdminServices {
         return results.map(row => row.award);
     }
 
+  // Get list of all awards for a specific award type
+  getAwardsByType(type) {
+    const stmt = this.db.prepare(`
+      SELECT * FROM awards
+      WHERE award = ?
+      ORDER BY year DESC, awardNum ASC
+    `);
+    return stmt.all(type);
+  }
+
+  // Get list of all awards for a specific award type filtered by measurement Type
+  getAwardsByTypeAndMeasurement(type) {
+    const stmt = this.db.prepare(`
+      SELECT * FROM awards
+      WHERE award = ?
+      ORDER BY year DESC, awardNum ASC
+    `);
+    return stmt.all(type, measurement);
+  }
+
   // Get list of all previous event names
   getEventNamesList() {
       const stmt = this.db.prepare(`SELECT DISTINCT location FROM awards ORDER BY location ASC`);

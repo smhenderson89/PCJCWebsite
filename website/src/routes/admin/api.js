@@ -33,6 +33,12 @@ router.get('/api/exhibitor/counts', adminController.getAwardCountsByExhibitor.bi
 // Route to get award types list
 router.get('/api/award-types', adminController.getAwardTypesList.bind(adminController));
 
+// Route to get all awards for a specific award type
+router.get('/api/award-type/:type', adminController.getAwardsByType.bind(adminController));
+
+// Route to get all award for a specific award type filtered by measurement Type
+router.get('/api/award-type/:type/group', adminController.getAwardsByTypeAndMeasurement.bind(adminController));
+
 // Route to get all the previous event names
 router.get('/api/event-names', adminController.getEventNamesList.bind(adminController));
 

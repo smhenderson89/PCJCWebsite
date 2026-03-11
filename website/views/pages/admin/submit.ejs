@@ -261,14 +261,18 @@
         <div class = "row mb-3">
             <div class = "col-3">
                 <div for="formFile" class="form-label">Award Photo</div>
-                <div class = "small text-muted">Max file size: 10MB</div>
+                <div class = "small text-muted">Max file size: 10MB. Accepted file types: .jpg, .jpeg, .png</div>
             </div>
             <div class = "col-3">
                 <input class="form-check-input" type="checkbox" value="" id="noPhotoCheck">
                 <label class="form-check-label" for="noPhotoCheck">No Photo right now?</label>
+                <div class = "valid-feedback"></div>
+                <div class = "invalid-feedback"></div>
             </div>
             <div class = "col-6">
                 <input class="form-control" type="file" id="awardPhoto" name = "awardPhoto" required>
+                <div class = "valid-feedback"></div>
+                <div class = "invalid-feedback">Please upload a photo of the award or check "No Photo Right Now" box</div>
             </div>
         </div>
         <hr>
@@ -477,14 +481,6 @@
                     <input type="text" class="form-control" id="numInfloresecnes" name = "numInfloresecnes" placeholder="XX" required>
                     <div class = "valid-feedback"> </div>
                     <div class = "invalid-feedback">Please enter a valid number.</div>
-                </div>
-                <div class = "col-3">
-                    <div class = "form-label">Inflorescence Length</div>
-                </div>
-                 <div class = "col-3">
-                    <input type="text" class="form-control" id="infloLength" name = "infloLength" placeholder="XX" required>
-                    <div class = "valid-feedback"> </div>
-                    <div class = "invalid-feedback">Please enter a valid measurement.</div>
                 </div>
             </div>
 

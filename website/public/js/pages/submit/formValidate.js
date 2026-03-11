@@ -99,6 +99,7 @@ function checkFormValidity() {
     formValidateHybridSpecies();
     formValidateClonalName();
     formValidateCrossType();
+    formValidateImage();
     
     formValidatePhotographer();
     formValidateDescription();
@@ -401,6 +402,48 @@ function formValidatePhotographer() {
         newPhotographerInput.classList.add('is-invalid'); // Mark input as invalid
         return false;
     }
+}
+
+function formValidateImage() {
+    const imageInput = document.getElementById('awardPhoto');
+    const noPhotoCheck = document.getElementById('noPhotoCheck');
+
+     // Reset validation state for image input field before checking
+     resetValidation('awardPhoto');
+     resetValidation('noPhotoCheck');
+
+    // Check if "No Photo" checkbox is checked
+    if (noPhotoCheck.checked) {
+        noPhotoCheck.classList.add('is-valid'); // Mark checkbox as valid
+        return true; // If "No Photo" is checked, we can consider the image field valid without requiring a file upload
+    } else {
+        // Check if an image is uploaded
+        if (checkImageUpload()) {
+            imageInput.classList.add('is-valid'); // Mark image input as valid if a valid image is uploaded
+            return true;
+        } else {
+            imageInput.classList.add('is-invalid'); // Mark image input as invalid if no valid image is uploaded
+            return false;
+        }
+    }
+}
+
+// Helper function to check if a valid image file is uploaded
+function checkImageUpload() {
+    const imageInput = document.getElementById('awardPhoto');
+
+    if (imageInput.files && imageInput.files.length > 0) {
+        const file = imageInput.files[0];
+        const validImageTypes = ['image/jpeg', 'image/png', 'image/gif'];
+        
+        if (validImageTypes.includes(file.type)) {
+            return true;
+        } else {
+            return false;
+        }
+    } else {
+        return false;
+    }   
 }
 
 function formValdiatePlantMeasurements() {

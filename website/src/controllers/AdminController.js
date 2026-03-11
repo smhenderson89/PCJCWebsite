@@ -71,6 +71,70 @@ class AdminController {
     }
   }
 
+  // API endpoint to get all awards for a specific award type
+  async getAwardsByType(req, res) {
+    const type = req.params.type;
+    if (!type) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Type parameter required' 
+      });
+    }
+
+    try {
+      const awards = this.adminService.getAwardsByType(type);
+      res.json({ success: true, data: awards });
+    } catch (error) {
+      console.error(`Error getting awards for type ${type}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load awards for the specified type' 
+      });
+    }
+  }
+
+
+  // Api endpoint to get all awards for a specific award type grouped by measurementType
+  async getAwardsByTypeAndMeasurement(req, res) {
+    let type = req.params.type;
+
+    // Convert params to all uppercase
+    if (type) {
+      type = type.toUpperCase();
+    }
+
+    if (!type) {
+      return res.status(400).json({
+        success: false,
+        error: 'Type parameter required'
+      });
+    }
+
+    try {
+      const awards = this.adminService.getAwardsByType(type);
+
+      // Count awards by measurementType for the selected award type
+      const measurementCounts = awards.reduce((acc, award) => {
+        const measurementType = award.measurementType || 'Unknown';
+        if (!acc[measurementType]) {
+          acc[measurementType] = 0;
+        }
+        acc[measurementType]++;
+        return acc;
+      }, {});
+
+      res.json({ success: true, award: type, data: measurementCounts });
+    } catch (error) {
+      console.error(`Error getting grouped awards for type ${type}:`, error);
+      res.status(500).json({
+        success: false,
+        error: 'Unable to load grouped awards for the specified type'
+      });
+    }
+  }
+
+
+
   // API endpoint to get all the previous event names
   async getEventNamesList(req, res) {
     try {

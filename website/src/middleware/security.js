@@ -40,13 +40,34 @@ function setupSecurity(app) {
   console.log(`   CSP will be: ${isDevelopment ? 'DISABLED' : 'ENABLED'}`);
   console.log(`   Note: API routes have additional CSP removal middleware`);
   
+  // Helper to merge optional origin lists from env vars without duplicates
+  const parseOriginList = (value) => {
+    if (!value) {
+      return [];
+    }
+    return value
+      .split(',')
+      .map(item => item.trim())
+      .filter(Boolean);
+  };
+
+  const additionalConnectSrc = parseOriginList(process.env.CSP_CONNECT_SRC);
+
   // Don't use any helmet CSP at all in development
   if (isDevelopment) {
+    // Some browsers/extensions can cache CSP aggressively during local testing.
+    // Ensure we strip CSP headers on every response in development.
+    app.use((req, res, next) => {
+      res.removeHeader('Content-Security-Policy');
+      res.removeHeader('Content-Security-Policy-Report-Only');
+      next();
+    });
+
     app.use(helmet({
       contentSecurityPolicy: false,  // FORCE OFF
       noSniff: false
     }));
-    console.log('🔧 Development mode: CSP is DISABLED');
+    console.log('🔧 Development mode: CSP is DISABLED (all local connections allowed)');
   } else {
     // Production CSP configuration
     const productionCspConfig = {
@@ -80,7 +101,8 @@ function setupSecurity(app) {
           "https://cdn.jsdelivr.net",
           "https://cdnjs.cloudflare.com",
           "https://stackpath.bootstrapcdn.com",
-          "https://maxcdn.bootstrapcdn.com"
+          "https://maxcdn.bootstrapcdn.com",
+          ...additionalConnectSrc
         ]
       }
     };
