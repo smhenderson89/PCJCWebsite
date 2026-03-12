@@ -404,6 +404,7 @@ function formValidatePhotographer() {
     }
 }
 
+// Function to validate impage upload field, checking if either a valid image is uploaded or "No Photo" checkbox is checked
 function formValidateImage() {
     const imageInput = document.getElementById('awardPhoto');
     const noPhotoCheck = document.getElementById('noPhotoCheck');
