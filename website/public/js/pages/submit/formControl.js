@@ -222,23 +222,65 @@ document.getElementById('petlNACheck').addEventListener('change', function() {
 });
 
 
-// Measurement type event listeners
-const measurementRadios = document.getElementsByName('measurements');
-measurementRadios.forEach(radio => {
-    radio.addEventListener('change', function() {
-        // Logic to toggle between measurement options
+// Measurement type dropdown listener
+const measurementSelect = document.getElementById('measurementsSelect');
+const lipLateralGroup = document.getElementById('lipLateralGroup');
+const pouchSynsepalGroup = document.getElementById('pouchSynsepalGroup');
+const otherMeasurementsCheckGroup = document.getElementById('otherMeasurementsCheckGroup'); // Only show the "Display Other N/A?" checkbox for the "Other" measurement type
 
-        if (this.id === 'Lip&LateralSepalOption') {
-            document.getElementById('lipLateralGroup').style.display = 'block';
-            document.getElementById('pouchSynsepalGroup').style.display = 'none';
-        } else if (this.id === 'Pouch&SynsepalOption') {
-            document.getElementById('lipLateralGroup').style.display = 'none';
-            document.getElementById('pouchSynsepalGroup').style.display = 'block';
-        } else if (this.id === 'OtherOption') {
-            document.getElementById('lipLateralGroup').style.display = 'block';
-            document.getElementById('pouchSynsepalGroup').style.display = 'block';
+function updateMeasurementGroups(selectedValue) {
+    if (selectedValue === 'lipLateral') {
+        lipLateralGroup.style.display = 'block';
+        pouchSynsepalGroup.style.display = 'none';
+        otherMeasurementsCheckGroup.style.display = 'none';
+
+    } else if (selectedValue === 'pouchSynsepal') {
+        lipLateralGroup.style.display = 'none';
+        pouchSynsepalGroup.style.display = 'block';
+        otherMeasurementsCheckGroup.style.display = 'none';
+
+    } else if (selectedValue === 'other') {
+        lipLateralGroup.style.display = 'block';
+        pouchSynsepalGroup.style.display = 'block';
+        otherMeasurementsCheckGroup.style.display = 'block';
+    } else {
+        lipLateralGroup.style.display = 'none';
+        pouchSynsepalGroup.style.display = 'none';
+        otherMeasurementsCheckGroup.style.display = 'none';
+    }
+}
+
+measurementSelect.addEventListener('change', function() {
+    updateMeasurementGroups(this.value);
+});
+
+// Display Other N/A? checkbox listener
+// If the "Display Other N/A?" checkbox is checked, show the N/A checkboxes for all measurement types; 
+
+function checkDisplayOtherNA() {
+    const displayOtherNA = document.getElementById('displayOtherMeasurementsCheck').checked;
+
+    // List of all measurements to disable if "Display Other N/A?" is checked
+    let measurementsToToggle = ["lsw",'lsl','lipw','lipl','petw','petl','synsw','synsl','pouchw','pouchl','numflowers','numBuds','numInfloresecnes'];
+
+    // For each text box, disable it and clear its value if "Display Other N/A?" is checked; otherwise, enable it
+    measurementsToToggle.forEach(measurement => {
+        const inputElement = document.getElementById(`${measurement}`);
+        if (inputElement) {
+            inputElement.disabled = displayOtherNA;
+            if (displayOtherNA) {
+                inputElement.value = 'N/A';
+            }
         }
     });
-});
+}
+
+document.getElementById('displayOtherMeasurementsCheck').addEventListener('change', checkDisplayOtherNA);
+
+// Initial call to set the correct visibility of N/A checkboxes on page load
+checkDisplayOtherNA();
+
+// Ensure correct section visibility on initial page load
+updateMeasurementGroups(measurementSelect.value);
 
 

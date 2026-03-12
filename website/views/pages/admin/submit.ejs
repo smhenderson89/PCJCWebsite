@@ -369,25 +369,32 @@
         <h5>
             <div class = "form-label text-center">Select option for measurements</div>
         </h5>
+        <div class = "row mb-4">
+            <div class = "col-4">
+            </div>
+            <div class = "col-4 text-center">
+                <select class = "form-select" name="measurementsSelect" id="measurementsSelect" required>
+                    <option value="" disabled selected>Select Measurement Type</option>
+                    <option value="lipLateral">Lip and Lateral Sepal</option>
+                    <option value="pouchSynsepal">Pouch and Synsepal</option>
+                    <option value="other">Other (Displays, etc.)</option>
+                </select>
+                <div class = "valid-feedback"></div>
+                <div class = "invalid-feedback">Select a measurement type from the dropdown to display measurement inputs</div>
+            </div>
+            <div class = "col-4">
+
+            </div>
+        </div>
         <div class = "row mb-3">
-            <div class ="col-4">
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="measurements" id="Lip&LateralSepalOption" checked>
-                    <label class="form-check-label" for="Lip&LateralSepalOption">Lip and Lateral Sepal</label>
-                </div>
-            </div>
+            <div class = "col-4"></div>
             <div class = "col-4">
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="measurements" id="Pouch&SynsepalOption">
-                    <label class="form-check-label" for="Pouch&SynsepalOption">Pouch and Synsepal</label>
-                </div>
+                <div class = "form-check" id = "otherMeasurementsCheckGroup" style = "display:none">
+                    <input class = "form-check-input" type="checkbox" value="" id="displayOtherMeasurementsCheck">
+                    <label class = "form-check-label" for="displayOtherMeasurementsCheck">Display Other N/A?</label>
+                </div> 
             </div>
-            <div class = "col-4">
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="measurements" id="OtherOption">
-                    <label class="form-check-label" for="OtherOption">Other (Displays, etc.)</label>
-                </div>
-            </div>
+            <div class = "col-4"></div>
         </div>
         <div id = "lipLateralGroup">
             <h6 class="text-center">Lip and Lateral Sepal</h6>

@@ -50,6 +50,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0.25rem;
 }
 
+#measurementsSelect {
+  text-align: center; /* fallback */
+  text-align-last: center; /* centers the selected value in most browsers */
+}
+
+#measurementsSelect option {
+  text-align: center; /* dropdown list items */
+}
+
 #emailInput, #passwordInput {
   margin: 0 auto !important;
   display: block !important;
