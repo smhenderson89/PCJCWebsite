@@ -82,12 +82,38 @@ function testSubmit() {
     fillTestInput('eventDate', today);
     
     // Fill plant info with test data
-    const testGenera = ['Cattleya', 'Phalaenopsis', 'Dendrobium', 'Oncidium', 'Paphiopedilum'];
-    fillTestInput('genus', testGenera[Math.floor(Math.random() * testGenera.length)]);
+    const newGenus = Math.random() < 0.3;
+    if (newGenus) {
+        document.getElementById('newGenusCheck').checked = true;
+        document.getElementById('newGenusInput').disabled = false;
+
+        // Randomly select a test genus from a list of common orchid genera
+        const testGenera = ['Cattleyai', 'Phalaenopsisi', 'Dendrobiumi', 'Oncidiumi', 'Paphiopedilumi'];
+        const selectedGenus = testGenera[Math.floor(Math.random() * testGenera.length)];
+        fillTestInput('newGenusInput', selectedGenus);
+    } else {
+        document.getElementById('newGenusCheck').checked = false;
+        genusSelect.value = randomSelectFromDropdown('genusSelect');
+    }
     
-    fillTestInput('Hybrid/species', 'Test hybrid name');
+    fillTestInput('speciesInput', 'Test species');
+        // Select option from dropdown table
+
+    
+    fillTestInput('HybridSpeciesInput', 'Test hybrid name');
     fillTestInput('clonalName', 'Test Clone');
-    fillTestInput('crossName', '(Test Parent 1 x Test Parent 2)');
+
+    const newCross = Math.random()
+ 
+    if (newCross <= 0.3) {
+        document.getElementById('radioNewSpecies').checked = true;
+        document.getElementById('NewcrossName').disabled = false;
+        fillTestInput('NewcrossName', 'Test Parent 1 x Test Parent 2');
+    } else if (newCross >= 0.3 && newCross < 0.6) {
+        document.getElementById('radioSpecies').checked = true;
+    } else {
+        document.getElementById('radioNA').checked = true;
+    }
     
     // Fill measurements with random test values
     fillTestInput('NSinput', String(Math.floor(Math.random() * 20) + 5));

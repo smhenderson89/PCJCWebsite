@@ -22,7 +22,7 @@ class AwardsController {
     }
   }
 
-  // API endpoint to get all award numbers  async getAllAwardNumbers(req, res) {
+  // API endpoint to get all award numbers
   async getAllAwardNumbers(req, res) {
     try {
       const awardNumbers = this.dbService.getAllAwardNumbers();
@@ -32,6 +32,27 @@ class AwardsController {
       res.status(500).json({ 
         success: false,
         error: 'Unable to load award numbers' 
+      });
+    }
+  }
+
+  // API endpoint to get award numbers for a specific year
+  async getAwardNumbersByYear(req, res) {
+    const year = parseInt(req.params.year, 10);
+    if (isNaN(year)) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Invalid year parameter' 
+      });
+    }
+    try {
+      const awardNumbers = this.dbService.getAwardNumbersByYear(year);
+      res.json({ success: true, data: awardNumbers });
+    } catch (error) {
+      console.error(`Error getting award numbers for year ${year}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load award numbers for the specified year' 
       });
     }
   }

@@ -23,6 +23,12 @@ class DatabaseService {
     return stmt.all();
   }
 
+  // Get all award numbers for a specific year
+  getAwardNumbersByYear(year) {
+    const stmt = this.db.prepare(`SELECT DISTINCT awardNum FROM awards WHERE year = ? ORDER BY awardNum ASC`);
+    return stmt.all(year).map(row => row.awardNum);
+  }
+
   // Get all unique award numbers
   getAllAwardNumbers() {
     const stmt = this.db.prepare(`SELECT DISTINCT awardNum FROM awards ORDER BY awardNum ASC`);

@@ -27,6 +27,9 @@ router.get('/api/all-awards', awardsController.getAllAwards.bind(awardsControlle
 // All Award numbers
 router.get('/api/award-numbers', awardsController.getAllAwardNumbers.bind(awardsController));
 
+// All Awards numbers for a specific year
+router.get('/api/award-numbers/:year', awardsController.getAwardNumbersByYear.bind(awardsController));
+
 // Award counts by year
 router.get('/api/awards-count', awardsController.getAwardCounts.bind(awardsController));
 
