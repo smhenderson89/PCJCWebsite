@@ -90,66 +90,74 @@ function testSubmit() {
     fillTestInput('crossName', '(Test Parent 1 x Test Parent 2)');
     
     // Fill measurements with random test values
-    fillTestInput('NS', String(Math.floor(Math.random() * 20) + 5));
-    fillTestInput('NSV', String(Math.floor(Math.random() * 15) + 5));
-    fillTestInput('DSW', String(Math.floor(Math.random() * 8) + 2));
-    fillTestInput('DSL', String(Math.floor(Math.random() * 10) + 3));
-    fillTestInput('PETW', String(Math.floor(Math.random() * 8) + 2));
-    fillTestInput('PETL', String(Math.floor(Math.random() * 10) + 3));
+    fillTestInput('NSinput', String(Math.floor(Math.random() * 20) + 5));
+    fillTestInput('NSVinput', String(Math.floor(Math.random() * 15) + 5));
+    fillTestInput('DSWinput', String(Math.floor(Math.random() * 8) + 2));
+    fillTestInput('DSLinput', String(Math.floor(Math.random() * 10) + 3));
+    fillTestInput('PETWinput', String(Math.floor(Math.random() * 8) + 2));
+    fillTestInput('PETLinput', String(Math.floor(Math.random() * 10) + 3));
 
-    // Randomly select measurement type and fill corresponding fields
+    // Randomly select measurement type from dropdown and trigger visibility updates
     const measurementOptions = [
-        { id: 'Lip&LateralSepalOption', name: 'Lip and Lateral Sepal' },
-        { id: 'Pouch&SynsepalOption', name: 'Pouch and Synsepal' },
-        { id: 'OtherOption', name: 'Other (Displays)' }
+        { value: 'lipLateral', name: 'Lip and Lateral Sepal' },
+        { value: 'pouchSynsepal', name: 'Pouch and Synsepal' },
+        { value: 'other', name: 'Other (Displays)' }
     ];
     const selectedOption = measurementOptions[Math.floor(Math.random() * measurementOptions.length)];
-    
     console.log(`🎲 Randomly selected measurement type: ${selectedOption.name}`);
-    
-    // Use querySelector to handle special characters in ID
-    const radioButton = document.querySelector(`input[name="measurements"][id="${selectedOption.id}"]`);
-    if (radioButton) {
-        // First uncheck all radio buttons in this group
-        document.querySelectorAll('input[name="measurements"]').forEach(radio => {
-            radio.checked = false;
-        });
-        
-        // Then check the selected one
-        radioButton.checked = true;
-        console.log(`✅ Radio button selected: ${selectedOption.id}`);
-        
-        // Trigger change event to update visibility
-        const changeEvent = new Event('change', { bubbles: true });
-        radioButton.dispatchEvent(changeEvent);
-        console.log(`🔄 Change event dispatched`);
+
+    const measurementSelect = document.getElementById('measurementsSelect');
+    if (measurementSelect) {
+        measurementSelect.value = selectedOption.value;
+        measurementSelect.dispatchEvent(new Event('change', { bubbles: true }));
+        console.log(`✅ Dropdown selected: ${selectedOption.value}`);
     } else {
-        console.error(`❌ Could not find radio button with ID: ${selectedOption.id}`);
+        console.error('❌ Could not find #measurementsSelect dropdown');
     }
     
     // Fill measurement fields based on selection  
-    if (selectedOption.id === 'Lip&LateralSepalOption') {
+    let valueRange = {
+        'numflowers': [0, 100000],
+        'numBuds': [0, 5000],
+        'numInfloresecnes': [0, 5000],
+        'NSinput': [0, 50],
+        'NSVinput': [0, 100],
+        'DSWinput': [0, 50],
+        'DSLinput': [0, 100],
+        'PETWinput': [0, 25],
+        'PETLinput': [0, 100],
+        'lsw': [0, 25],
+        'lsl': [0, 25],
+        'lipw': [0, 25],
+        'lipl': [0, 25],
+        'synsw': [0, 25],
+        'synsl': [0, 25],
+        'pouchw': [0, 25],
+        'pouchl': [0, 25]
+    }
+
+    if (selectedOption.value === 'lipLateral') {
         // Lip and Lateral Sepal measurements
-        fillTestInput('lsw', String(Math.floor(Math.random() * 8) + 2));
-        fillTestInput('lsl', String(Math.floor(Math.random() * 10) + 3));
-        fillTestInput('lipw', String(Math.floor(Math.random() * 6) + 2));
-        fillTestInput('lipl', String(Math.floor(Math.random() * 8) + 3));
-    } else if (selectedOption.id === 'Pouch&SynsepalOption') {
+        fillTestInput('lsw', String(Math.floor(Math.random() * (valueRange['lsw'][1] - valueRange['lsw'][0] + 1)) + valueRange['lsw'][0]));
+        fillTestInput('lsl', String(Math.floor(Math.random() * (valueRange['lsl'][1] - valueRange['lsl'][0] + 1)) + valueRange['lsl'][0]));
+        fillTestInput('lipw', String(Math.floor(Math.random() * (valueRange['lipw'][1] - valueRange['lipw'][0] + 1)) + valueRange['lipw'][0]));
+        fillTestInput('lipl', String(Math.floor(Math.random() * (valueRange['lipl'][1] - valueRange['lipl'][0] + 1)) + valueRange['lipl'][0]));
+    } else if (selectedOption.value === 'pouchSynsepal') {
         // Pouch and Synsepal measurements  
-        fillTestInput('synsw', String(Math.floor(Math.random() * 12) + 4));
-        fillTestInput('synsl', String(Math.floor(Math.random() * 15) + 5));
-        fillTestInput('pouchw', String(Math.floor(Math.random() * 8) + 3));
-        fillTestInput('pouchl', String(Math.floor(Math.random() * 10) + 4));
-    } else if (selectedOption.id === 'OtherOption') {
+        fillTestInput('synsw', String(Math.floor(Math.random() * (valueRange['synsw'][1] - valueRange['synsw'][0] + 1)) + valueRange['synsw'][0]));
+        fillTestInput('synsl', String(Math.floor(Math.random() * (valueRange['synsl'][1] - valueRange['synsl'][0] + 1)) + valueRange['synsl'][0]));
+        fillTestInput('pouchw', String(Math.floor(Math.random() * (valueRange['pouchw'][1] - valueRange['pouchw'][0] + 1)) + valueRange['pouchw'][0]));
+        fillTestInput('pouchl', String(Math.floor(Math.random() * (valueRange['pouchl'][1] - valueRange['pouchl'][0] + 1)) + valueRange['pouchl'][0]));
+    } else if (selectedOption.value === 'other') {
         // Fill both sets for "Other" option
-        fillTestInput('lsw', String(Math.floor(Math.random() * 8) + 2));
-        fillTestInput('lsl', String(Math.floor(Math.random() * 10) + 3));
-        fillTestInput('lipw', String(Math.floor(Math.random() * 6) + 2));
-        fillTestInput('lipl', String(Math.floor(Math.random() * 8) + 3));
-        fillTestInput('synsw', String(Math.floor(Math.random() * 12) + 4));
-        fillTestInput('synsl', String(Math.floor(Math.random() * 15) + 5));
-        fillTestInput('pouchw', String(Math.floor(Math.random() * 8) + 3));
-        fillTestInput('pouchl', String(Math.floor(Math.random() * 10) + 4));
+        fillTestInput('lsw', String(Math.floor(Math.random() * (valueRange['lsw'][1] - valueRange['lsw'][0] + 1)) + valueRange['lsw'][0]));
+        fillTestInput('lsl', String(Math.floor(Math.random() * (valueRange['lsl'][1] - valueRange['lsl'][0] + 1)) + valueRange['lsl'][0]));
+        fillTestInput('lipw', String(Math.floor(Math.random() * (valueRange['lipw'][1] - valueRange['lipw'][0] + 1)) + valueRange['lipw'][0]));
+        fillTestInput('lipl', String(Math.floor(Math.random() * (valueRange['lipl'][1] - valueRange['lipl'][0] + 1)) + valueRange['lipl'][0]));
+        fillTestInput('synsw', String(Math.floor(Math.random() * (valueRange['synsw'][1] - valueRange['synsw'][0] + 1)) + valueRange['synsw'][0]));
+        fillTestInput('synsl', String(Math.floor(Math.random() * (valueRange['synsl'][1] - valueRange['synsl'][0] + 1)) + valueRange['synsl'][0]));
+        fillTestInput('pouchw', String(Math.floor(Math.random() * (valueRange['pouchw'][1] - valueRange['pouchw'][0] + 1)) + valueRange['pouchw'][0]));
+        fillTestInput('pouchl', String(Math.floor(Math.random() * (valueRange['pouchl'][1] - valueRange['pouchl'][0] + 1)) + valueRange['pouchl'][0]));
     }
 
     fillTestInput('numflowers', String(Math.floor(Math.random() * 5) + 1));

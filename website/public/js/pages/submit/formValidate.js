@@ -100,8 +100,10 @@ function checkFormValidity() {
     formValidateClonalName();
     formValidateCrossType();
     formValidateImage();
-    
     formValidatePhotographer();
+
+    formValidatePlantMeasurements();
+
     formValidateDescription();
 
     // If any fields are invalid, show alert and return false to prevent form submission
@@ -447,13 +449,98 @@ function checkImageUpload() {
     }   
 }
 
-function formValdiatePlantMeasurements() {
-    const heightInput = document.getElementById('heightInput');
-    const spreadInput = document.getElementById('spreadInput');
+function formValidatePlantMeasurements() {
+    let errors = 0;
 
-    // Reset validation state for plant measurement fields before checking
-    resetValidation('heightInput');
-    resetValidation('spreadInput');
+    // Reset Validation state for all plant measurement fields before checking
+    const measurementFields = ["NSinput","NSVinput","DSWinput","DSLinput","PETWinput","PETLinput",
+                                "lsw",'lsl','lipw','lipl',
+                                'synsw','synsl','pouchw','pouchl',
+                                'numflowers','numBuds','numInfloresecnes'];
+    measurementFields.forEach(fieldID => resetValidation(fieldID));
+
+    // Define consants
+    const topfields = ['NSinput','NSVinput','DSWinput','DSLinput','PETWinput','PETLinput'];
+    const lipLateralFields = ['lsw','lsl','lipw','lipl'];
+    const pouchSynsepalFields = ['synsw','synsl','pouchw','pouchl'];
+    const numFields = ['numflowers','numBuds','numInfloresecnes'];
+
+    let valueRange = {
+        'numflowers': [0, 100000],
+        'numBuds': [0, 5000],
+        'numInfloresecnes': [0, 5000],
+        'NSinput': [0, 50],
+        'NSVinput': [0, 100],
+        'DSWinput': [0, 50],
+        'DSLinput': [0, 100],
+        'PETWinput': [0, 25],
+        'PETLinput': [0, 100],
+        'lsw': [0, 25],
+        'lsl': [0, 25],
+        'lipw': [0, 25],
+        'lipl': [0, 25],
+        'synsw': [0, 25],
+        'synsl': [0, 25],
+        'pouchw': [0, 25],
+        'pouchl': [0, 25]
+    }
+
+    // Check which measurement type is selected (if any) and validate corresponding fields
+    let measurementTypeSelected = document.getElementById('measurementsSelect').value;
+
+    if (measurementTypeSelected === 'lipLateral') {
+        for (let fieldID of [...topfields, ...lipLateralFields, ...numFields]) {
+            const field = document.getElementById(fieldID);
+            if (field.value && !isNaN(field.value)) {
+                // Validate value is within the defined range for each measurement field
+                let [min, max] = valueRange[fieldID];
+                if (field.value >= min && field.value <= max) {
+                    field.classList.add('is-valid'); 
+                } else {
+                    field.classList.add('is-invalid');
+                    errors++;
+                }
+            } else {
+                field.classList.add('is-invalid');
+                errors++;
+            }
+        }
+    } else if (measurementTypeSelected === 'pouchSynsepal') {
+        for (let fieldID of [...topfields, ...pouchSynsepalFields, ...numFields]) {
+            const field = document.getElementById(fieldID);
+            if (field.value && !isNaN(field.value)) {
+                // Validate value is within the defined range for each measurement field
+                let [min, max] = valueRange[fieldID];
+                if (field.value >= min && field.value <= max) {
+                    field.classList.add('is-valid'); 
+                } else {
+                    field.classList.add('is-invalid');
+                    errors++;
+                }
+            } else {
+                field.classList.add('is-invalid');
+                errors++;
+            }
+        }
+    } else if (measurementTypeSelected === 'other') {
+        for(let fieldID of measurementFields) {
+            const field = document.getElementById(fieldID);
+            if (field.value == 'N/A') {
+                field.classList.add('is-valid');
+            } else {
+                field.classList.add('is-invalid');
+                errors++;
+            }
+        }
+
+    } 
+
+    // Check for errors
+    if (errors > 0) {
+        return false;
+    } else {
+        return true;
+    }
 
 }
 function formValidateDescription() {
@@ -465,6 +552,7 @@ function formValidateDescription() {
     // Check if description is provided and is at least 10 characters long
     if (descriptionInput.value && descriptionInput.value.trim().length >= 10) {
         descriptionInput.classList.add('is-valid'); // Mark description as valid
+        return true;
     } else {
         descriptionInput.classList.add('is-invalid'); // Mark description as invalid
         return false;

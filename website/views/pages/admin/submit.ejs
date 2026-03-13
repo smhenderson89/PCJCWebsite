@@ -280,7 +280,33 @@
             <h5 class ="text-center">Plant Measurements (in centimeters)</h5>
             <div class = "muted text-center">If measurement is not applicable, enter N/A</div>
         </div>
-
+        <div class = "row mb-3">
+            <div class = "muted text-center">Select option for measurements</div>
+        </div>
+        <div class = "row mb-4">
+            <div class = "col-4 col-sm-3"></div>
+            <div class = "col-4 col-sm-6 text-center">
+                <select class = "form-select" name="measurementsSelect" id="measurementsSelect" required>
+                    <!-- <option value="" disabled>Select Measurement Type</option> -->
+                    <option value="lipLateral" selected>Lip and Lateral Sepal</option>
+                    <option value="pouchSynsepal">Pouch and Synsepal</option>
+                    <option value="other">Other (Displays, etc.)</option>
+                </select>
+                <div class = "valid-feedback"></div>
+                <div class = "invalid-feedback">Select a measurement type from the dropdown to display measurement inputs</div>
+            </div>
+            <div class = "col-4 col-sm-3"></div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-4"></div>
+            <div class = "col-4">
+                <div class = "form-check" id = "otherMeasurementsCheckGroup" style = "display:none">
+                    <input class = "form-check-input" type="checkbox" value="" id="displayOtherMeasurementsCheck">
+                    <label class = "form-check-label" for="displayOtherMeasurementsCheck" id = "displayOtherMeasurementsLabel">Display Other N/A?</label>
+                </div> 
+            </div>
+            <div class = "col-4"></div>
+        </div>
         <div class= "row mb-3">
             <div class = "col-2">
                 <div class = "form-label">Natural Spread (NS)</div>
@@ -366,36 +392,7 @@
             </div>
         </div>
         <hr>
-        <h5>
-            <div class = "form-label text-center">Select option for measurements</div>
-        </h5>
-        <div class = "row mb-4">
-            <div class = "col-4">
-            </div>
-            <div class = "col-4 text-center">
-                <select class = "form-select" name="measurementsSelect" id="measurementsSelect" required>
-                    <option value="" disabled selected>Select Measurement Type</option>
-                    <option value="lipLateral">Lip and Lateral Sepal</option>
-                    <option value="pouchSynsepal">Pouch and Synsepal</option>
-                    <option value="other">Other (Displays, etc.)</option>
-                </select>
-                <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback">Select a measurement type from the dropdown to display measurement inputs</div>
-            </div>
-            <div class = "col-4">
 
-            </div>
-        </div>
-        <div class = "row mb-3">
-            <div class = "col-4"></div>
-            <div class = "col-4">
-                <div class = "form-check" id = "otherMeasurementsCheckGroup" style = "display:none">
-                    <input class = "form-check-input" type="checkbox" value="" id="displayOtherMeasurementsCheck">
-                    <label class = "form-check-label" for="displayOtherMeasurementsCheck">Display Other N/A?</label>
-                </div> 
-            </div>
-            <div class = "col-4"></div>
-        </div>
         <div id = "lipLateralGroup">
             <h6 class="text-center">Lip and Lateral Sepal</h6>
             <div class = "row mb-3">
@@ -404,12 +401,16 @@
                 </div>
                 <div class = "col-3">
                     <input type="text" class="form-control" id="lsw" name = "lsw" placeholder="XX">
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement.</div>
                 </div>
                 <div class = "col-3">
                     <div class = "form-label">Lateral Sepal Length (LSL)</div>
                 </div>
                 <div class = "col-3">
                     <input type="text" class="form-control" id="lsl" name = "lsl" placeholder="XX">
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement.</div>
                 </div>
             </div>
             <div class = "row mb-3">
@@ -418,12 +419,16 @@
                 </div>
                 <div class = "col-3">
                     <input type="text" class="form-control" id="lipw" name = "lipw" placeholder="XX">
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement.</div>
                 </div>
                 <div class = "col-3">
                     <div class = "form-label">Lip Length (LIPL)</div>
                 </div>
                 <div class = "col-3">
                     <input type="text" class="form-control" id="lipl" name = "lipl" placeholder="XX">
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement.</div>
                 </div>
             </div>
         </div>
@@ -436,12 +441,16 @@
                 </div>
                 <div class = "col-3">
                     <input type="text" class="form-control" id="synsw" name = "synsw" placeholder="XX">
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement.</div>
                 </div>
                 <div class = "col-3">
                     <div class = "form-label">Synsepal Length (SYNSL)</div>
                 </div>
                 <div class = "col-3">
                     <input type="text" class="form-control" id="synsl" name = "synsl" placeholder="XX">
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement.</div>
                 </div>
             </div>
             <div class = "row mb-3">
@@ -450,18 +459,22 @@
                 </div>
                 <div class = "col-3">
                     <input type="text" class="form-control" id="pouchw" name = "pouchw" placeholder="XX">
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement.</div>
                 </div>
                 <div class = "col-3">
                     <div class = "form-label">Pouch Length (PCHL)</div>
                 </div>
                 <div class = "col-3">
                     <input type="text" class="form-control" id="pouchl" name = "pouchl" placeholder="XX">
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement.</div>
                 </div>  
             </div>
         </div>
         <hr>
         <div id = "generalMeasurements">
-            <h5 class = "text-center">General Measurements</h5>
+            <h6 class = "text-center">General Measurements</h6>
             <div class ="row mb-3">
                 <div class = "col-3">
                     <div class = "form-label">Number of Flowers</div>

@@ -1,5 +1,8 @@
 /* Event Listeners for Form Control */
 
+// Global values
+let measurementValues = {}; // For saving information for measurement before erased with N/A option
+
 // Exhibitor event listern 
 document.getElementById('newExhibitorCheck').addEventListener('change', function() {
 
@@ -261,16 +264,25 @@ function checkDisplayOtherNA() {
     const displayOtherNA = document.getElementById('displayOtherMeasurementsCheck').checked;
 
     // List of all measurements to disable if "Display Other N/A?" is checked
-    let measurementsToToggle = ["lsw",'lsl','lipw','lipl','petw','petl','synsw','synsl','pouchw','pouchl','numflowers','numBuds','numInfloresecnes'];
+    let measurementsToToggle = ["NSinput","NSVinput","DSWinput","DSLinput","PETWinput","PETLinput",
+                                "lsw",'lsl','lipw','lipl',
+                                'synsw','synsl','pouchw','pouchl',
+                                'numflowers','numBuds','numInfloresecnes'];
 
     // For each text box, disable it and clear its value if "Display Other N/A?" is checked; otherwise, enable it
     measurementsToToggle.forEach(measurement => {
         const inputElement = document.getElementById(`${measurement}`);
         if (inputElement) {
-            inputElement.disabled = displayOtherNA;
             if (displayOtherNA) {
+                // Save the current value before setting to N/A
+                measurementValues[measurement] = inputElement.value;
                 inputElement.value = 'N/A';
+            } else {
+                // Restore the saved value when unchecked
+                inputElement.value = measurementValues[measurement] || '';
             }
+            inputElement.disabled = displayOtherNA;
+
         }
     });
 }
