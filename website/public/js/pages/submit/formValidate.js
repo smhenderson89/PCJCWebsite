@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const testBtn = document.getElementById('testBtn');
     
     if (submitBtn) {
-        submitBtn.addEventListener('click', function(event) {
+        submitBtn.addEventListener('click', async function(event) {
             event.preventDefault(); // Prevent default button behavior
-            submitForm();
+            await checkFormValidity();
         });
     }
     
@@ -49,12 +49,6 @@ function submitForm() {
         return;
     }
 
-    // Check form validity before submission
-    if(!checkFormValidity()) {
-        console.log('Form validation failed. Please correct the errors and try again.');
-        return;
-    }
-
     const formData = new FormData(form);
     
     // Convert FormData to a plain object
@@ -72,8 +66,7 @@ function submitForm() {
     console.log('Form Data:', data);
     
     // TODO: Send data to your API endpoint
-
-
+    return true;
 }
 
 // Function to reset validation state of a field
@@ -85,7 +78,7 @@ function resetValidation(fieldID) {
 /* Function to verify validiation, trigger bootstarp CSS valid/invalid for sumbit.ejs
 Returns false if form is invalid, true if form is valid */
 
-function checkFormValidity() {
+async function checkFormValidity() {
 
     let numErrors = 0; // Number of invalid fields, used to determine overall form validity
     let failingTest = []; // Array to track which validation tests are failing for debugging purposes
@@ -110,7 +103,7 @@ function checkFormValidity() {
     ];
 
     for (const validate of validators) {
-        const result = validate();
+        const result = await validate();
         if (!result) {
             numErrors++;
             failingTest.push(validate.name); // Add name of failing test to array for debugging
@@ -118,6 +111,7 @@ function checkFormValidity() {
     }
 
     if (numErrors === 0) {
+        submitForm(); // If no errors, submit the form
         return true;
     } else {
         console.log('Form validation failed. Failing tests:', failingTest);
@@ -126,6 +120,7 @@ function checkFormValidity() {
 }
 
 function formValidateExhibitor() {
+    console.log('Validating exhibitor...'); // Log for debugging
     // Check Exibitor Logic: either dropdown must be selected or new exhibitor must be filled
     const exhibitorSelect = document.getElementById('exhibitorSelect');
     const newExhibitorCheck = document.getElementById('newExhibitorCheck');
@@ -375,7 +370,7 @@ function formValidateClonalName() {
 
     // Check if clonal name is provided or N/A checkbox is checked
     if (clonalNameInput.value && clonalNameInput.value.trim().length >= 2) { // If clonal name is provided and is atleast 2 characters long, mark as valid
-        console.log('Clonal name provided:', clonalNameInput.value); // Log for debugging
+        // console.log('Clonal name provided:', clonalNameInput.value); // Log for debugging
         clonalNameInput.classList.add('is-valid'); 
         return true;
     } else if (clonalNACheck.checked) { // If N/A checkbox is checked, mark checkbox as valid
