@@ -41,7 +41,7 @@ function getFieldValue(dropdownId, checkboxId, inputId) {
     return null;
 }
 
-function submitForm() {
+async function submitForm() {
     const form = document.querySelector('form'); // Get the form element
     
     if (!form) {
@@ -66,6 +66,19 @@ function submitForm() {
     console.log('Form Data:', data);
     
     // TODO: Send data to your API endpoint
+    try {
+        const response = await fetch('/api/submit-award', {
+            method: 'POST',
+            body: JSON.stringify(data),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+        const result = await response.json();
+        console.log('Submission result:', result);
+    } catch (error) {
+        console.error('Error submitting form:', error);
+    }
     return true;
 }
 
@@ -111,7 +124,7 @@ async function checkFormValidity() {
     }
 
     if (numErrors === 0) {
-        submitForm(); // If no errors, submit the form
+        await submitForm(); // If no errors, submit the form
         return true;
     } else {
         console.log('Form validation failed. Failing tests:', failingTest);

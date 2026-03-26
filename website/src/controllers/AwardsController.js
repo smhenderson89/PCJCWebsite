@@ -364,6 +364,29 @@ class AwardsController {
     }
   }
 
+  /* POST Routes */
+
+  async submitAward(req, res) {
+    console.log('Form fields received:', req.body);
+    console.log('File received:', req.file);
+
+    return res.status(200).json({
+      success: true,
+      received: {
+        fields: req.body,
+        file: req.file
+          ? {
+              originalname: req.file.originalname,
+              mimetype: req.file.mimetype,
+              size: req.file.size,
+              filename: req.file.filename
+            }
+          : null
+      }
+    });
+  }
+
+
   // Close database connection when done
   close() {
     this.dbService.close();

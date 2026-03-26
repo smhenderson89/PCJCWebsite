@@ -6,15 +6,10 @@ const path = require('path');
 class DatabaseService {
   constructor() {
     const dbPath = path.join(__dirname, '..', '..', '..', 'db', 'orchid_awards.sqlite');
-    // console.log('Database path:', dbPath); // Debug log
     this.db = new Database(dbPath);
     
     // Enable WAL mode for better performance with concurrent access
     this.db.pragma('journal_mode = WAL');
-    
-    // Debug: Check total award count
-    const totalCount = this.db.prepare('SELECT COUNT(*) as count FROM awards').get();
-    // console.log('Total awards in database:', totalCount.count); // Debug
   }
 
   // Get all awards grouped by award number

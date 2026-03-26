@@ -2,6 +2,10 @@ const express = require('express');
 const router = express.Router();
 const AwardsController = require('../../controllers/AwardsController');
 
+// Multer middleware for handling multipart/form-data (for image uploads)
+const multer = require('multer');
+const upload = multer({ dest: 'uploads/' }); // Temporary storage for uploaded files
+
 const awardsController = new AwardsController();
 
 // Middleware to explicitly disable CSP for all API routes
@@ -58,5 +62,10 @@ router.get('/api/plant-details/count/:detail', awardsController.getUniquePlantDe
 
 // Get info on all awards for a specific category
 router.get('/api/all-awards/:category', awardsController.getAwardsByCategory.bind(awardsController));
+
+/* Post Routes */
+
+// Submit a new award entry
+router.post('/api/submit-award', upload.single('image'), awardsController.submitAward.bind(awardsController));
 
 module.exports = router;
