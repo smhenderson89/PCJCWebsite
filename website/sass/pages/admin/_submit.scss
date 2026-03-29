@@ -1,0 +1,34 @@
+#newExhibitorNameInput {
+    width: 100%; // full width of the column
+}
+
+#newAwardTypeInput {
+    width: 100%; // full width of the column
+}
+
+.awardConflict-feedback {
+    display: none; // hide by default
+    color: red; 
+    font-size: 0.875em; 
+    margin-top: 0.25rem; 
+}
+
+.duplicate-feedback {
+    display: none; // hide by default
+    color: red; 
+    font-size: 0.875em; 
+    margin-top: 0.25rem; 
+}
+
+#measurementsSelect {
+  text-align: center;        /* fallback */
+  text-align-last: center;   /* centers the selected value in most browsers */
+}
+
+#measurementsSelect option {
+  text-align: center;        /* dropdown list items */
+}
+
+#displayOtherMeasurementsLabel {
+    text-decoration: underline;
+}

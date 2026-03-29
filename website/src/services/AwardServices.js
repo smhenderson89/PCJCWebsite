@@ -6,7 +6,6 @@ const path = require('path');
 class DatabaseService {
   constructor() {
     const dbPath = path.join(__dirname, '..', '..', '..', 'db', 'orchid_awards.sqlite');
-    // console.log('Database path:', dbPath); // Debug log
     this.db = new Database(dbPath);
     
     // Enable WAL mode for better performance with concurrent access
@@ -17,6 +16,18 @@ class DatabaseService {
   getAllAwards() {
     const stmt = this.db.prepare(`SELECT * FROM awards ORDER BY awardNum ASC`);
     return stmt.all();
+  }
+
+  // Get all award numbers for a specific year
+  getAwardNumbersByYear(year) {
+    const stmt = this.db.prepare(`SELECT DISTINCT awardNum FROM awards WHERE year = ? ORDER BY awardNum ASC`);
+    return stmt.all(year).map(row => row.awardNum);
+  }
+
+  // Get all unique award numbers
+  getAllAwardNumbers() {
+    const stmt = this.db.prepare(`SELECT DISTINCT awardNum FROM awards ORDER BY awardNum ASC`);
+    return stmt.all().map(row => row.awardNum);
   }
 
   // Get award counts by year
@@ -31,6 +42,7 @@ class DatabaseService {
 
   // Select awards for a specific year
   getAwardsByYear(year) {
+    // console.log('getAwardsByYear called with year:', year, 'type:', typeof year); // Debug
     const stmt = this.db.prepare(`SELECT *,
       thumbnail_jpeg_small,
       thumbnail_jpeg_medium,
@@ -39,7 +51,12 @@ class DatabaseService {
       FROM awards 
       WHERE year = ? 
       ORDER BY date_iso ASC, awardNum ASC `);
-    return stmt.all(year);
+    const results = stmt.all(year);
+    // console.log('getAwardsByYear results count:', results.length); // Debug
+    if (results.length > 0) {
+      // console.log('First few results for year', year, ':', results.slice(0, 3).map(r => `${r.awardNum}-${r.year}`)); // Debug
+    }
+    return results;
   }
 
   // Counts of awards by day/event for a specific year
@@ -65,6 +82,55 @@ class DatabaseService {
     `);
     const likePattern = `%${exhibitor}%`;
     return stmt.all(likePattern);
+  }
+
+  // Get info for a specific award by award number
+  getAwardByNumber(awardNum) {
+    const stmt = this.db.prepare(`
+      SELECT *
+      FROM awards
+      WHERE awardNum = ?
+    `);
+    return stmt.get(awardNum);
+  }
+
+  // Get unique instances of plant details (genus, species, hybrid, cross)
+  getUniquePlantDetails(detail) {
+    const validDetails = ['genus', 'species', 'clone', 'cross'];
+    if (!validDetails.includes(detail)) {
+      throw new Error('Invalid detail type');
+    }
+    const stmt = this.db.prepare(`
+      SELECT DISTINCT ${detail}
+      FROM awards
+      WHERE ${detail} IS NOT NULL AND ${detail} != ''
+      ORDER BY ${detail} ASC
+    `);
+    return stmt.all().map(row => row[detail]);
+  }
+
+  // Get counts for unique instances of plant details (genus, species, hybrid, cross)
+  getUniquePlantDetailsCounts(detail) {
+    const validDetails = ['genus', 'species', 'clone', 'cross'];
+    if (!validDetails.includes(detail)) {
+      throw new Error('Invalid detail type');
+    }
+    const stmt = this.db.prepare(`
+      SELECT ${detail}, COUNT(*) as count
+      FROM awards
+      WHERE ${detail} IS NOT NULL AND ${detail} != ''
+      GROUP BY ${detail}
+      ORDER BY count DESC
+    `);
+    return stmt.all();
+  }
+
+  // Get awards for a specific category - filter all awards by category (e.g. genus) for debugging purposes
+  getAwardsByCategory(category) {
+    const stmt = this.db.prepare(`
+      SELECT * FROM awards ORDER BY genus ASC
+    `);
+    return stmt.all(category);
   }
 
   // Close database connection

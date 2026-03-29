@@ -1,3 +1,7 @@
+const startTime = Date.now(); // must be first line - captures full startup cost
+const t = () => `+${Date.now() - startTime}ms`;
+global._startTime = startTime;
+
 var express = require('express');
 const path = require('path');
 var app = express();
@@ -89,9 +93,9 @@ app.get('/', (req, res) => {
 });
 
 // Start server
-const startTime = Date.now();
 app.listen(port, hostname, function() {
   const serverStartupTime = Date.now() - startTime;
+  console.log(`[timing] server listening ${t()}`);
   console.log(`Server running at http://${hostname}:${port}`)
   console.log(`Server startup time: ${serverStartupTime}ms`);
 });

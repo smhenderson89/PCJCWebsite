@@ -1,0 +1,122 @@
+/* Awards Year Page Styles */
+
+// Award card image container - ONLY for awards year list page
+.container .row .col .card .award-image-container,
+.awards-grid .award-image-container {
+  position: relative;
+  height: 200px;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; // Prevent images from breaking out
+}
+
+// Placeholder image styling for awards without photos - cards only
+.container .row .col .card .award-placeholder-image,
+.awards-grid .award-placeholder-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  opacity: 0.7;
+}
+
+// Loading spinner for image containers
+.award-image-spinner {
+  width: 2rem;
+  height: 2rem;
+}
+
+// Picture element positioning for WebP support - cards only
+.container .row .col .card .award-picture-container,
+.awards-grid .award-picture-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; // Prevent images from breaking out of container
+}
+
+// Main award images with loading states - cards only
+.container .row .col .card .award-image,
+.awards-grid .award-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  // Loaded state
+  &.loaded {
+    opacity: 1;
+  }
+
+  // Hidden state for error handling
+  &.hidden {
+    display: none;
+  }
+
+  // Image positioned absolutely in container - constrained properly
+  &.positioned {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+// Debug alert styling
+.debug-alert {
+  top: 10px;
+  right: 10px;
+  z-index: 1050;
+  max-width: 300px;
+  font-size: 12px;
+}
+
+// Loading spinner hidden state - high specificity to override Bootstrap
+.award-image-container .spinner-border.spinner-hidden,
+.award-image-container .award-image-spinner.spinner-hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+// Error state for loading spinner
+.spinner-error {
+  .spinner-border {
+    display: none;
+  }
+}
+
+// Mobile responsive styles - cards only
+@media (max-width: 768px) {
+  .container .row .col .card .award-image-container,
+  .awards-grid .award-image-container {
+    height: 180px; // Slightly smaller on mobile
+    min-height: 180px;
+  }
+
+  .container .row .col .card .award-placeholder-image,
+  .awards-grid .award-placeholder-image {
+    height: 180px;
+    max-width: 100%;
+    object-fit: contain;
+  }
+}
+
+// Extra small devices (phones, less than 576px) - cards only
+@media (max-width: 575.98px) {
+  .container .row .col .card .award-image-container,
+  .awards-grid .award-image-container {
+    height: 150px; 
+    min-height: 150px;
+  }
+
+  .container .row .col .card .award-placeholder-image,
+  .awards-grid .award-placeholder-image {
+    height: 150px;
+  }
+}
