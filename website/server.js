@@ -51,8 +51,8 @@ app.use((req, res, next) => {
 setupSecurity(app);
 
 // Server information
-const hostname = "127.0.0.1"
-const port = 8000
+const hostname = "0.0.0.0"; // Use 0.0.0.0 for both development and production
+const port = process.env.PORT || 8000; // Use PORT env variable for production, fallback to 8000 for development
 
 // Temporarily disable livereload for performance testing
 // const livereload = require("livereload")
@@ -86,6 +86,16 @@ app.use('/', routes.admin.api);      // Admin API routes
 app.use('/', routes.awards.pages);   // Awards page routes  
 app.use('/', routes.admin.pages);    // Admin page routes
 app.use('/', routes.general.pages);  // General/static page routes
+
+// Health check endpoint for deployment verification
+app.get('/health', (req, res) => {
+  res.json({
+    status: 'healthy',
+    timestamp: new Date().toISOString(),
+    environment: process.env.NODE_ENV || 'development',
+    uptime: process.uptime()
+  });
+});
 
 // Basic homepage route (temporary)
 app.get('/', (req, res) => {
