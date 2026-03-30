@@ -1,0 +1,53 @@
+<!-- Awards by year page, showing all awards for a specific year -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../../partials/head'); %>
+  <!-- Page-specific scripts -->
+
+</head>
+<body class="container">
+
+<header>
+  <%- include('../../partials/header'); %>
+</header>
+
+<main>
+  <!-- Hidden data for JavaScript to access -->
+  <div id="awards-year-data" data-year="<%= year %>" style="display: none;"></div>
+  
+  <div class="row">
+    <div class="col-sm-8 text-center mx-auto">
+        <h1><%= year %> Awards</h1>
+        <a href="/awardslist" class="btn btn-secondary mb-3">Back to Awards Overview</a>
+    </div>
+  </div>
+  
+  <!-- Loading indicator -->
+  <div id="loading-indicator" class="text-center my-4">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading awards...</span>
+    </div>
+    <p>Loading awards for <%= year %>...</p>
+  </div>
+  
+  <!-- Error message -->
+  <div id="error-message" class="alert alert-danger d-none" role="alert">
+    Failed to load awards. Please try again later.
+  </div>
+  
+  <!-- Awards container -->
+  <div id="awards-container" class="row d-none">
+    <!-- Awards will be populated here -->
+  </div>
+</main>
+
+<footer>
+  <%- include('../../partials/footer'); %>
+  <script src="/js/services/awards-cache-service.js"></script>
+  <script src="/js/pages/award/awards-year.js"></script>
+</footer>
+
+</body>
+</html>

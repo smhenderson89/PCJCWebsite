@@ -180,5 +180,55 @@ class AwardsCacheService {
   }
 }
 
+/* Get cache info for award numbers for all years */
+
+async function getAllCachedAwardNumbers() {
+  // Fetch all unique award numbers from api request
+
+  // Check if cached information already exist, otherwise fetch from API and cache it for future use. 
+  // This is to optimize the performance of award detailed page which needs to look up award information by award number and year, 
+  // and having a local cache of all award numbers can speed up the lookup process significantly without needing to make multiple API calls for each award number.
+
+  // /api/award-number
+
+  // Check session storage for cached award numbers
+  const cachedAwardNumbers = sessionStorage.getItem('orchid_awards_all_numbers');
+  if (cachedAwardNumbers) {
+    try {
+      const parsed = JSON.parse(cachedAwardNumbers);
+      if (parsed.data && parsed.data.success) {
+        console.log('Loaded all award numbers from cache');
+        return parsed.data.data;
+      }
+    } catch (error) {
+      console.error('Error parsing cached award numbers:', error);
+    }
+  }
+
+  // If not cached, fetch from API
+  console.log('Fetching all award numbers from API');
+  try {
+    const response = await fetch('/api/award-numbers');
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    if (data.success) {
+      // Cache the result for future use
+      sessionStorage.setItem('orchid_awards_all_numbers', JSON.stringify({
+        data: data,
+        timestamp: Date.now()
+      }));
+      console.log('Cached all award numbers');
+      return data.data;
+    } else {
+      throw new Error(data.error || 'API returned error');
+    }
+  } catch (error) {
+    console.error('Error fetching all award numbers:', error);
+    return [];
+  }
+}
+
 // Export for use in other files
 const awardsCacheService = new AwardsCacheService();

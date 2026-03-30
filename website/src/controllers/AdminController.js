@@ -70,6 +70,223 @@ class AdminController {
       });
     }
   }
+
+  // API endpoint to get all awards for a specific award type
+  async getAwardsByType(req, res) {
+    const type = req.params.type;
+    if (!type) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Type parameter required' 
+      });
+    }
+
+    try {
+      const awards = this.adminService.getAwardsByType(type);
+      res.json({ success: true, data: awards });
+    } catch (error) {
+      console.error(`Error getting awards for type ${type}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load awards for the specified type' 
+      });
+    }
+  }
+
+
+  // Api endpoint to get all awards for a specific award type grouped by measurementType
+  async getAwardsByTypeAndMeasurement(req, res) {
+    let type = req.params.type;
+
+    // Convert params to all uppercase
+    if (type) {
+      type = type.toUpperCase();
+    }
+
+    if (!type) {
+      return res.status(400).json({
+        success: false,
+        error: 'Type parameter required'
+      });
+    }
+
+    try {
+      const awards = this.adminService.getAwardsByType(type);
+
+      // Count awards by measurementType for the selected award type
+      const measurementCounts = awards.reduce((acc, award) => {
+        const measurementType = award.measurementType || 'Unknown';
+        if (!acc[measurementType]) {
+          acc[measurementType] = 0;
+        }
+        acc[measurementType]++;
+        return acc;
+      }, {});
+
+      res.json({ success: true, award: type, data: measurementCounts });
+    } catch (error) {
+      console.error(`Error getting grouped awards for type ${type}:`, error);
+      res.status(500).json({
+        success: false,
+        error: 'Unable to load grouped awards for the specified type'
+      });
+    }
+  }
+
+
+
+  // API endpoint to get all the previous event names
+  async getEventNamesList(req, res) {
+    try {
+      const eventNames = this.adminService.getEventNamesList();
+      res.json({ success: true, data: eventNames });
+    } catch (error) {
+      console.error('Error getting event names list:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load event names list' 
+      });
+    }
+  }
+
+  // API endpoint to get all previous photographers
+  async getPhotographersList(req, res) {
+    try {
+      const photographers = this.adminService.getPhotographersList();
+      res.json({ success: true, data: photographers });
+    } catch (error) {
+      console.error('Error getting photographers list:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load photographers list' 
+      });
+    }
+  }
+
+  // Api endpoint to get all previous award numbers
+  async getAwardNumbersList(req, res) {
+    try {
+      const awardNumbers = this.adminService.getAwardNumbersList();
+      // Sort award numbers into categories by their first 4 digits, then move them into an object with that key
+      const categorizedAwardNumbers = awardNumbers.reduce((acc, awardNum) => {
+        const key = awardNum.substring(0, 4);
+        if (!acc[key]) {
+          acc[key] = [];
+        }
+        acc[key].push(awardNum);
+        return acc;
+      }, {});
+
+      res.json({ success: true, data: categorizedAwardNumbers });
+    } catch (error) {
+      console.error('Error getting award numbers list:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load award numbers list' 
+      });
+    }
+  }
+
+  // API endpoint to get all awards missing an image
+  async getAwardsMissingImage(req, res) {
+    try {
+      const awardsMissingImage = this.adminService.getAwardsMissingImage();
+      res.json({ success: true, data: awardsMissingImage });
+    } catch (error) {
+      console.error('Error getting awards missing image:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load awards missing image' 
+      });
+    }
+  }
+
+  // API endpoint to get all awards with a null value in a field
+  async getAwardsWithNullValues(req, res) {
+    const category = req.params.category;
+    if (!category) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Category parameter required' 
+      });
+    }
+
+    try {
+      const nullAwards = this.adminService.getAwardsWithNullValues(category);
+
+      // Don't return awards with exhibtior value of "Test Name" since those are just test entries we added to find null values
+      const filteredNullAwards = nullAwards.filter(award => award.exhibitor !== 'Test Name');
+
+      // Trim nullAwards to only include the id and awardNum for easier display
+      const trimmedNullAwards = filteredNullAwards.map(award => ({
+        awardNum: award.awardNum,
+        exhibitor: award.exhibitor
+      }));
+
+      res.json({ success: true, category: category, data: trimmedNullAwards });
+    } catch (error) {
+      console.error(`Error getting awards with null values for category ${category}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load awards with null values for the specified category' 
+      });
+    }
+  }
+
+  // API endpoint to get all awards that reference another award in the description field, check it is displaying properly in the admin panel
+  async getAwardsReferencingAwards(req, res) {
+    console.log('DEBUG - Getting awards referencing awards');
+    try {
+      const referencingAwards = this.adminService.getAwardsReferencingAwards();
+
+      // Look up descriptions of referenced awards and add them to the results
+      for (const award of referencingAwards) {
+        const referencedAwardNums = [];
+
+        // Use regex to find all occurrences of award numbers in the description, looking for patterns like "1234", "#1234", "award 1234", etc.
+        const regex = /(?:#?)(\d{8,})/g;
+        let match;
+        while ((match = regex.exec(award.description)) !== null) {
+          // Determine year of the referenced award based on the first 4 digits of the award number
+          let referencedYear = String(match[1]).substring(0, 4);
+          if (referencedYear.length === 4 && !isNaN(referencedYear)) {
+            // check if found year is not already within the reference year list
+            if (award.referencedYears && award.referencedYears.includes(referencedYear)) {
+              continue;
+            }
+
+            referencedYear = parseInt(referencedYear);
+          } else {
+            referencedYear = 'Unknown Year';
+          }
+
+          referencedAwardNums.push([match[1], referencedYear]);
+        }
+        award.referencedAwards = referencedAwardNums.map(item => item[0]);
+        award.referencedYears = referencedAwardNums.map(item => item[1]);
+
+      }
+
+      // Trim results to only include awardNum, exhibitor, description, and referencedAwards for easier display
+      const trimmedReferencingAwards = referencingAwards.map(award => ({
+        awardNum: award.awardNum,
+        date: award.date,
+        exhibitor: award.exhibitor,
+        description: award.description,
+        referencedAwards: award.referencedAwards,
+        referencedYears: award.referencedYears
+      }));
+
+
+      res.json({ success: true, data: trimmedReferencingAwards });
+    } catch (error) {
+      console.error('Error getting awards referencing awards:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load awards referencing awards' 
+      });
+    }
+  }
   
   // Combined API endpoint using existing methods with Promise.all
   async getPrepareSubmitData(req, res) {

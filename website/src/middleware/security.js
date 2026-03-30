@@ -29,84 +29,90 @@ function sanitizeInput(req, res, next) {
 }
 
 function setupSecurity(app) {
-  // Determine if we're in development mode
-  const isDevelopment = process.env.NODE_ENV !== 'production';
-  // Check if we're running on localhost (even in production mode, for local testing)
-  const isLocalhost = !process.env.RENDER && !process.env.VERCEL && !process.env.HEROKU;
+  // Determine if we're in development mode - be more explicit
+  const nodeEnv = process.env.NODE_ENV || 'development';
+  const isDevelopment = nodeEnv !== 'production';
   
-  // More permissive CSP for development
-  const cspConfig = isDevelopment ? {
-    directives: {
-      defaultSrc: ["'self'", "http://localhost:*", "http://127.0.0.1:*"],
-      styleSrc: ["'self'", "'unsafe-inline'", "*"],
-      scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'", "*"],
-      fontSrc: ["'self'", "data:", "*"],
-      imgSrc: ["'self'", "data:", "http:", "https:", "*"],
-      connectSrc: ["'self'", "http:", "https:", "ws:", "wss:", "*"],
-      frameSrc: ["'self'", "*"],
-      objectSrc: ["'none'"],
-      mediaSrc: ["'self'", "*"],
-      upgradeInsecureRequests: null  // Disable in development
-    },
-    reportOnly: true  // Allow navigation and DevTools in development
-  } : {
-    // Production CSP - more restrictive
-    directives: {
-      defaultSrc: ["'self'"],
-      styleSrc: [
-        "'self'", 
-        "'unsafe-inline'",
-        "https://cdn.jsdelivr.net",
-        "https://cdnjs.cloudflare.com",
-        "https://stackpath.bootstrapcdn.com",
-        "https://maxcdn.bootstrapcdn.com",
-        "https://fonts.googleapis.com"
-      ],
-      scriptSrc: [
-        "'self'",
-        "https://cdn.jsdelivr.net",
-        "https://cdnjs.cloudflare.com",
-        "https://stackpath.bootstrapcdn.com",
-        "https://maxcdn.bootstrapcdn.com"
-      ],
-      fontSrc: [
-        "'self'",
-        "https://fonts.googleapis.com",
-        "https://fonts.gstatic.com",
-        "data:"
-      ],
-      imgSrc: ["'self'", "data:", "https:", "http:"],
-      connectSrc: [
-        "'self'",
-        "https://cdn.jsdelivr.net",
-        "https://cdnjs.cloudflare.com",
-        "https://stackpath.bootstrapcdn.com",
-        "https://maxcdn.bootstrapcdn.com"
-      ]
+  console.log(`🔍 Security middleware loaded:`);
+  console.log(`   NODE_ENV: "${process.env.NODE_ENV}" (raw)`);
+  console.log(`   Detected nodeEnv: "${nodeEnv}"`);
+  console.log(`   isDevelopment: ${isDevelopment}`);
+  console.log(`   CSP will be: ${isDevelopment ? 'DISABLED' : 'ENABLED'}`);
+  console.log(`   Note: API routes have additional CSP removal middleware`);
+  
+  // Helper to merge optional origin lists from env vars without duplicates
+  const parseOriginList = (value) => {
+    if (!value) {
+      return [];
     }
+    return value
+      .split(',')
+      .map(item => item.trim())
+      .filter(Boolean);
   };
 
-  // Security headers (includes XSS protection)
-  const helmetConfig = {
-    // Completely disable CSP in development for easier development
-    contentSecurityPolicy: isDevelopment ? false : cspConfig,
-    // Disable strict MIME checking to be more forgiving with CSS files
-    noSniff: false
-  };
+  const additionalConnectSrc = parseOriginList(process.env.CSP_CONNECT_SRC);
 
-  // Only apply HTTPS-required headers when not on localhost
-  if (!isLocalhost) {
-    helmetConfig.crossOriginOpenerPolicy = { policy: "same-origin" };
-    helmetConfig.crossOriginResourcePolicy = { policy: "cross-origin" };
-    helmetConfig.originAgentCluster = true;
-    helmetConfig.hsts = {
-      maxAge: 31536000,
-      includeSubDomains: true,
-      preload: true
+  // Don't use any helmet CSP at all in development
+  if (isDevelopment) {
+    // Some browsers/extensions can cache CSP aggressively during local testing.
+    // Ensure we strip CSP headers on every response in development.
+    app.use((req, res, next) => {
+      res.removeHeader('Content-Security-Policy');
+      res.removeHeader('Content-Security-Policy-Report-Only');
+      next();
+    });
+
+    app.use(helmet({
+      contentSecurityPolicy: false,  // FORCE OFF
+      noSniff: false
+    }));
+    console.log('🔧 Development mode: CSP is DISABLED (all local connections allowed)');
+  } else {
+    // Production CSP configuration
+    const productionCspConfig = {
+      directives: {
+        defaultSrc: ["'self'"],
+        styleSrc: [
+          "'self'", 
+          "'unsafe-inline'",
+          "https://cdn.jsdelivr.net",
+          "https://cdnjs.cloudflare.com",
+          "https://stackpath.bootstrapcdn.com",
+          "https://maxcdn.bootstrapcdn.com",
+          "https://fonts.googleapis.com"
+        ],
+        scriptSrc: [
+          "'self'",
+          "https://cdn.jsdelivr.net",
+          "https://cdnjs.cloudflare.com",
+          "https://stackpath.bootstrapcdn.com",
+          "https://maxcdn.bootstrapcdn.com"
+        ],
+        fontSrc: [
+          "'self'",
+          "https://fonts.googleapis.com",
+          "https://fonts.gstatic.com",
+          "data:"
+        ],
+        imgSrc: ["'self'", "data:", "https:", "http:"],
+        connectSrc: [
+          "'self'",
+          "https://cdn.jsdelivr.net",
+          "https://cdnjs.cloudflare.com",
+          "https://stackpath.bootstrapcdn.com",
+          "https://maxcdn.bootstrapcdn.com",
+          ...additionalConnectSrc
+        ]
+      }
     };
-  }
 
-  app.use(helmet(helmetConfig));
+    app.use(helmet({
+      contentSecurityPolicy: productionCspConfig,
+      noSniff: false
+    }));
+    console.log('🔒 Production mode: CSP is ENABLED for security');
+  }
   
   // CORS (enhanced version)
   app.use(cors({

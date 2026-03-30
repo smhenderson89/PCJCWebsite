@@ -51,10 +51,77 @@ class AdminServices {
         return results.map(row => row.award);
     }
 
-  // Close database connection
-  close() {
-    this.db.close();
+  // Get list of all awards for a specific award type
+  getAwardsByType(type) {
+    const stmt = this.db.prepare(`
+      SELECT * FROM awards
+      WHERE award = ?
+      ORDER BY year DESC, awardNum ASC
+    `);
+    return stmt.all(type);
   }
+
+  // Get list of all awards for a specific award type filtered by measurement Type
+  getAwardsByTypeAndMeasurement(type) {
+    const stmt = this.db.prepare(`
+      SELECT * FROM awards
+      WHERE award = ?
+      ORDER BY year DESC, awardNum ASC
+    `);
+    return stmt.all(type, measurement);
+  }
+
+  // Get list of all previous event names
+  getEventNamesList() {
+      const stmt = this.db.prepare(`SELECT DISTINCT location FROM awards ORDER BY location ASC`);
+      const results = stmt.all();
+      return results.map(row => row.location);
+  }
+
+  // Get list of all previous photographers
+  getPhotographersList() {
+      const stmt = this.db.prepare(`SELECT DISTINCT photographer FROM awards ORDER BY photographer ASC`);
+      const results = stmt.all();
+      return results.map(row => row.photographer);
+  }
+
+  // Get list of all previous award numbers
+  getAwardNumbersList() {
+      const stmt = this.db.prepare(`SELECT DISTINCT awardNum FROM awards ORDER BY awardNum ASC`);
+      const results = stmt.all();
+      return results.map(row => row.awardNum);
+  }
+
+  // Get list of awards missing an image
+  getAwardsMissingImage() {
+      const stmt = this.db.prepare(`SELECT * FROM awards WHERE photo IS NULL OR photo = ''`);
+      return stmt.all();
+  }
+
+  // Get list of awards with a null value or an empty value in a field based on the category parameter (e.g. exhibitor, location, photographer)
+  getAwardsWithNullValues(category) {
+      const validCategories = ['awardpoints','clone', 'cross','exhibitor','measurementType', 'description', 'location', 'photographer', 'award', 'year', 'awardNum', 'numBuds', 'numFlowers', 'NS', 'NSV', 'DSW', 'DSL', 'PETW', 'PETL', 'LSW', 'LSL', 'LIPW', 'LIPL', 'SYNSW', 'SYNSL', 'PCHW', 'PCHL', 'genus', 'species','cross'];
+      if (!validCategories.includes(category)) {
+          throw new Error('Invalid category for null value check');
+      }
+      const stmt = this.db.prepare(`SELECT * FROM awards WHERE ${category} IS NULL OR ${category} = ''`);
+      return stmt.all();
+  }
+
+  // Get list of awards that reference another award in the description field, check it is displaying properly in the admin panel
+  getAwardsReferencingAwards() {
+      const stmt = this.db.prepare(`SELECT DISTINCT a.*
+      FROM awards a
+      JOIN awards b
+        ON a.rowid <> b.rowid
+      AND a.description IS NOT NULL
+      AND a.description <> ''
+      AND (
+            a.description LIKE '%' || b.awardNum || '%'
+        OR a.description LIKE '%#' || b.awardNum || '%'
+      );`);
+      return stmt.all();
+   }
 
   // Get all data needed for submit form in one call
   getSubmitFormData() {
@@ -62,17 +129,25 @@ class AdminServices {
       const exhibitors = this.getExhibitorsList();
       const awardTypes = this.getAwardTypesList();
       const awardCounts = this.getAwardCountsByExhibitor();
-      
+      const eventNames = this.getEventNamesList();
+      const awardNumbers = this.getAwardNumbersList();
       return {
         exhibitors,
         awardTypes, 
         awardCounts,
+        eventNames,
+        awardNumbers,
         // Add any other data the submit form needs
       };
     } catch (error) {
       console.error('Error getting submit form data:', error);
       throw error;
     }
+  }
+
+  // Close database connection
+  close() {
+    this.db.close();
   }
 }
 

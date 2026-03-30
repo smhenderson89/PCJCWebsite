@@ -1,0 +1,190 @@
+/* Award Detailed Page Styles */
+
+.award-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+
+  img {
+    max-height: 60vh;
+    // max-width: 90%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+
+    // Specific styling for no-image placeholder
+    &.no-image-placeholder {
+      max-width: 200px;
+      height: auto;
+      object-fit: contain;
+      opacity: 0.7;
+    }
+  }
+
+  .placeholder {
+    max-width: 600px;
+    width: 90%;
+    height: 400px;
+  }
+}
+
+// Photo caption styling
+.photo-caption {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  &.hidden {
+    display: none;
+  }
+}
+
+// Conditional display classes
+.show-block {
+  display: block !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+// Section visibility classes
+.award-section {
+  &.hidden {
+    display: none;
+  }
+  
+  &.visible {
+    display: block;
+  }
+}
+
+// Description box styling
+.description-box {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  min-height: 3rem;
+  font-style: italic;
+  
+  .award-reference-link {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 500;
+    
+    &:hover {
+      color: #0a58ca;
+      text-decoration: underline;
+    }
+  }
+}
+
+// Measurements table styling
+.measurements-table-container {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.measurements-table {
+  margin-bottom: 0;
+  width: auto;
+  table-layout: auto;
+  
+  td {
+    padding: 0.5rem;
+    border: none;
+    vertical-align: top;
+    white-space: nowrap;
+    
+    &:nth-child(1), &:nth-child(3) {
+      font-weight: 500;
+      padding-right: 1rem;
+      text-align: left;
+    }
+    
+    &:nth-child(2) {
+      text-align: right;
+      font-family: monospace;
+      padding-right: 2rem;
+    }
+    
+    &:nth-child(4) {
+      text-align: right;
+      font-family: monospace;
+      padding-right: 0;
+    }
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
+
+/* Additional table styling */
+
+#additional-measurements-table > tr > td {
+  padding: 0;
+  border: 0;
+}
+
+#additional-measurements-table .inner-additional-table {
+  margin-bottom: 0;
+}
+
+#additional-measurements-table .inner-additional-table thead th {
+  border-top: 0;
+}
+
+#additional-measurements-table .inner-additional-table th,
+#additional-measurements-table .inner-additional-table td {
+  border-left: 0;
+  border-right: 0;
+}
+
+#additional-measurements-table .inner-additional-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+#measurements-table > tbody:first-of-type > tr:last-child > th,
+#measurements-table > tbody:first-of-type > tr:last-child > td {
+  border-bottom: 1px solid var(--bs-border-color, #dee2e6) !important;
+}
+
+/* Optional: remove any gap before additional section */
+#measurements-table {
+  margin-bottom: 0;
+}
+#additional-measurements-table > tr > td {
+  padding-top: 0;
+}
+
+/* Table center values within the table */
+.measurements-table td,
+#additional-measurements-table td {
+  text-align: center;
+}
+
+// Mobile responsiveness
+@media (max-width: 768px) {
+  .award-image-container {
+    min-height: 40vh;
+
+    img {
+      max-height: 50vh;
+      max-width: 95%;
+    }
+  }
+  
+  .measurements-table {
+    td:first-child {
+      width: 50%;
+      font-size: 0.9rem;
+    }
+  }
+}

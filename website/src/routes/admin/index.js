@@ -24,7 +24,7 @@ router.get('/submit', async (req, res) => {
             Promise.resolve(adminService.getAwardTypesList())
         ]);
 
-        res.render('pages/submit', {
+        res.render('pages/admin/submit', {
             title: 'Submit Award - Pacific Central Judging Center',
             exhibitors: exhibitors,
             awardTypes: awardTypes,
@@ -39,6 +39,11 @@ router.get('/submit', async (req, res) => {
     }
 });
 
-// TODO: Add in admin panel for entering in awards
+// Render page for upload photos after award submission
+router.get('/upload', (req, res) => {
+    res.render('pages/admin/upload', {
+        title: 'Upload Photos - Pacific Central Judging Center'
+    });
+});
 
 module.exports = router;

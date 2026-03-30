@@ -1,0 +1,12 @@
+{
+  "watch": ["server.js", "src/", "views/"],
+  "ext": "js,ejs",
+  "ignore": [
+    "public/",
+    "uploads/",
+    "test/",
+    "node_modules/",
+    "../db/images/",
+    "../db/thumbnails/"
+  ]
+}

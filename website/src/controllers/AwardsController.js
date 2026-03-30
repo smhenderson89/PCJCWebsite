@@ -22,6 +22,41 @@ class AwardsController {
     }
   }
 
+  // API endpoint to get all award numbers
+  async getAllAwardNumbers(req, res) {
+    try {
+      const awardNumbers = this.dbService.getAllAwardNumbers();
+      res.json({ success: true, data: awardNumbers });
+    } catch (error) {
+      console.error('Error getting award numbers:', error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load award numbers' 
+      });
+    }
+  }
+
+  // API endpoint to get award numbers for a specific year
+  async getAwardNumbersByYear(req, res) {
+    const year = parseInt(req.params.year, 10);
+    if (isNaN(year)) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Invalid year parameter' 
+      });
+    }
+    try {
+      const awardNumbers = this.dbService.getAwardNumbersByYear(year);
+      res.json({ success: true, data: awardNumbers });
+    } catch (error) {
+      console.error(`Error getting award numbers for year ${year}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load award numbers for the specified year' 
+      });
+    }
+  }
+
   // API endpoint to get awards counts by event(day) for a specific year
   async groupAwardsByDayForYear(req, res) {
     const year = parseInt(req.params.year, 10);
@@ -55,6 +90,14 @@ class AwardsController {
 
     try {
       const awards = this.dbService.getAwardsByYear(year);
+
+      // Check if awards is empty and return 404 if so
+      if (!awards || awards.length === 0) {
+        return res.status(404).json({ 
+          success: false,
+          error: `No awards found for year ${year}` 
+        });
+      }
       // const formattedAwards = MeasurementFormatter.formatAwardsArray(awards);
       res.json({ success: true, data: awards });
     } catch (error) {
@@ -183,6 +226,166 @@ class AwardsController {
       });
     }
   }
+
+  // API endpoint to get info for a specific award by award number
+  async getAwardByNumber(req, res) {
+    const awardNum = req.params.awardNum;
+    
+    if (!awardNum) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Invalid award number parameter' 
+      });
+    }
+
+    try {
+      const awardInfo = this.dbService.getAwardByNumber(awardNum);
+      if (awardInfo) {
+        const formattedAward = MeasurementFormatter.formatAward(awardInfo);
+        res.json({ success: true, data: formattedAward });
+      } else {
+        res.status(404).json({ 
+          success: false,
+          error: 'Award not found' 
+        });
+      }
+    } catch (error) {
+      console.error(`Error getting award by number ${awardNum}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load award details for the specified award number' 
+      });
+    }
+  } 
+
+  // API endpoint to get unique instances of plant details (genus, species, hybrid, cross)
+  async getUniquePlantDetails(req, res) {
+    const detail = req.params.detail;
+    
+    const validDetails = ['genus', 'species', 'clone', 'cross'];
+    if (!validDetails.includes(detail)) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Invalid detail parameter' 
+      });
+    }
+
+    try {
+      const details = this.dbService.getUniquePlantDetails(detail);
+      res.json({ success: true, data: details });
+    } catch (error) {
+      console.error(`Error getting unique plant details for ${detail}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load unique plant details for the specified category' 
+      });
+    }
+  }
+
+  // API endpoint to get counts for unique instances of plant details (genus, species, hybrid, cross)
+  async getUniquePlantDetailsCounts(req, res) {
+    const detail = req.params.detail;
+    
+    const validDetails = ['genus', 'species', 'clone', 'cross'];
+    if (!validDetails.includes(detail)) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Invalid detail parameter' 
+      });
+    }
+
+    try {
+      const detailsCounts = this.dbService.getUniquePlantDetailsCounts(detail);
+      
+      // data is being returned as an array of objects with the detail and count, 
+      // Convert into an object with key/value pair of the counts to make it easier to process
+      const detailsCountsObject = {};
+      detailsCounts.forEach(item => {
+        detailsCountsObject[item[detail]] = item.count;
+      });
+
+      // Organize by count in descending order to make it easier to see which details are most common
+      const sortedDetailsCounts = Object.entries(detailsCountsObject).sort((a, b) => b[1] - a[1]);
+      const sortedDetailsCountsObject = {};
+      sortedDetailsCounts.forEach(item => {
+        sortedDetailsCountsObject[item[0]] = item[1];
+      });
+
+      res.json({ success: true, data: detailsCountsObject });
+    } catch (error) {
+      console.error(`Error getting unique plant details counts for ${detail}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load unique plant details counts for the specified category' 
+      });
+    }
+  }
+
+  // API endpoint to get awards by category (for debugging)
+  async getAwardsByCategory(req, res) {
+    const category = req.params.category;
+    
+    if (!category) {
+      return res.status(400).json({ 
+        success: false,
+        error: 'Invalid category parameter' 
+      });
+    }
+
+    try {
+      const awards = this.dbService.getAllAwards();
+      const formattedAwards = MeasurementFormatter.formatAwardsArray(awards);
+      console.log(`Filtering awards by category: ${category}`); // Debug
+
+      let categoryInfo = {category: category};
+      let characterObject = {}
+
+      // Iterate over the awards and count characters in the specified category to get a sense of how much data is in that category and if there are any anomalies (e.g. extremely long entries that might be causing issues)
+      formattedAwards.forEach(award => {
+        const categoryValue = award[category];
+        if (categoryValue) {
+          let characterCount = categoryValue.length;
+          if (characterObject[characterCount]) {
+            characterObject[characterCount] += characterCount;
+          } else {
+            characterObject[characterCount] = characterCount;
+          }
+          categoryInfo.characterCount = characterObject;
+        }
+      });
+
+      res.json({ success: true, data: categoryInfo });
+    } catch (error) {
+      console.error(`Error getting awards for category ${category}:`, error);
+      res.status(500).json({ 
+        success: false,
+        error: 'Unable to load awards for the specified category' 
+      });
+    }
+  }
+
+  /* POST Routes */
+
+  async submitAward(req, res) {
+    console.log('Form fields received:', req.body);
+    console.log('File received:', req.file);
+
+    return res.status(200).json({
+      success: true,
+      received: {
+        fields: req.body,
+        file: req.file
+          ? {
+              originalname: req.file.originalname,
+              mimetype: req.file.mimetype,
+              size: req.file.size,
+              filename: req.file.filename
+            }
+          : null
+      }
+    });
+  }
+
 
   // Close database connection when done
   close() {
