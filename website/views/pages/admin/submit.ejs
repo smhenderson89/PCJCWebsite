@@ -20,7 +20,45 @@
                 <div class = "text-center">Need to upload a photo to a previous award? Head to the <a href = "/upload">upload page</a>.</div>
             </div>
         </div>
-        <!-- Exhibitor Name input from API -->
+
+        <!-- Put Event Title and Date at the top of the form -->
+        <div class = "row mb-3">
+            <div class = "col-2">
+                <div class = "form-label">Event Title?</div>
+            </div>
+            <div class = "col-10">
+                <select class = "form-select" name="eventSelect" id="eventSelect" required>
+                    <option value="" disabled selected>Select Event</option>
+                </select>
+                <div class = "valid-feedback"></div>
+                <div class = "invalid-feedback">Select an event from the dropdown or check the "New Event" box.</div>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                <div class = "form-check">
+                    <input class = "form-check-input" type="checkbox" value="" id="newEventCheck">
+                    <label class = "form-check-label" for="newEventCheck">New Event Name?</label>
+                </div>
+            </div>
+            <div class = "col-9">
+                <input type="text" id="newEventInput" name="newEvent" class="form-control" placeholder="Event Title" disabled>
+                <div class = "valid-feedback"></div>
+                <div class = "invalid-feedback">Please enter a new event title.</div>
+            </div>
+        </div>
+        <div class = "row mb-3">
+            <div class = "col-3">
+                <div class="form-label">Event Date</div>
+            </div>
+            <div class = "col-6">
+                <input type="date" id="eventDate" name="eventDate" required min = "2015-01-01" max = "2026-01-01" class="form-control">
+                <div class = "valid-feedback"></div>
+                <div class = "invalid-feedback">Please enter a valid event date.</div>
+            </div>
+        </div>
+        <hr>
+
         <div class = "row mb-3">
             <div class = "col-3">
                 <label for="exhibitorSelect" class = "form-label">Choose a Previous Exhibitor:</label>
@@ -80,16 +118,16 @@
         <hr>
         <div class = "row mb-3">
             <div class = "col-3">
-                 <div class = "form-label">Award Value</div>
+                 <div class = "form-label">Award Score</div>
             </div>
             <div class = "col-3">
                 <input type="text" class="form-control" id="awardValue" name = "awardValue" placeholder="##" required>
                 <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback">Please enter a valid award value.</div>
+                <div class = "invalid-feedback">Please enter a valid award Score.</div>
             </div>
             <div class = "col-3">
                 <input class = "form-check-input" type="checkbox" value="" id="nullAwardValueCheck">
-                <label class = "form-check-label" for="nullAwardValueCheck">Award Value N/A?</label>
+                <label class = "form-check-label" for="nullAwardValueCheck">Award Score N/A?</label>
             </div>
         </div>
         <hr>
@@ -105,42 +143,7 @@
             </div>
         </div>
         <hr>
-        <div class = "row mb-3">
-            <div class = "col-2">
-                <div class = "form-label">Event Title?</div>
-            </div>
-            <div class = "col-10">
-                <select class = "form-select" name="eventSelect" id="eventSelect" required>
-                    <option value="" disabled selected>Select Event</option>
-                </select>
-                <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback">Select an event from the dropdown or check the "New Event" box.</div>
-            </div>
-        </div>
-        <div class = "row mb-3">
-            <div class = "col-3">
-                <div class = "form-check">
-                    <input class = "form-check-input" type="checkbox" value="" id="newEventCheck">
-                    <label class = "form-check-label" for="newEventCheck">New Event Name?</label>
-                </div>
-            </div>
-            <div class = "col-9">
-                <input type="text" id="newEventInput" name="newEvent" class="form-control" placeholder="Event Title" disabled>
-                <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback">Please enter a new event title.</div>
-            </div>
-        </div>
-        <hr>
-        <div class = "row mb-3">
-            <div class = "col-3">
-                <div class="form-label">Event Date</div>
-            </div>
-            <div class = "col-6">
-                <input type="date" id="eventDate" name="eventDate" required min = "2015-01-01" max = "2026-01-01" class="form-control">
-                <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback">Please enter a valid event date.</div>
-            </div>
-        </div>
+        
         <hr>
         <div class = "row mb-3">
             <div class = "col-3">
@@ -197,7 +200,7 @@
         <hr>
         <div class = "row mb-3">
             <div class = "col-3">
-                <div class = "form-label">Cross Type</div>
+                <div class = "form-label">Parent Type</div>
             </div>
             <div class = "col-6">
                 <div class = "form-check form-check-inline">
@@ -212,14 +215,14 @@
                 </div>
                 <div class = "form-check form-check-inline">
                     <input class = "form-check-input" type="radio" value="" name = "radioCross" id="radioNewSpecies">
-                    <label class = "form-check-label" for="radioNewSpecies">New Cross</label>
+                    <label class = "form-check-label" for="radioNewSpecies">New Parent</label>
                     <div class = "valid-feedback"></div>
                 </div>
             </div>
         </div>
         <div class = "row mb-3">
             <div class = "col-3">
-                <div>Enter New Cross: </div>
+                <div>Enter New Parent: </div>
             </div>
             <div class = "col-9">   
                 <input type="text" class="form-control" id="NewcrossName" name = "NewcrossName" placeholder="Cross (plaintext)" required disabled>
