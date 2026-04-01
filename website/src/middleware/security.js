@@ -65,9 +65,12 @@ function setupSecurity(app) {
 
     app.use(helmet({
       contentSecurityPolicy: false,  // FORCE OFF
+      crossOriginOpenerPolicy: false,
+      crossOriginEmbedderPolicy: false,
+      originAgentCluster: false,
       noSniff: false
     }));
-    console.log('🔧 Development mode: CSP is DISABLED (all local connections allowed)');
+    console.log('🔧 Development mode: CSP/COOP/COEP/OAC are DISABLED (all local connections allowed)');
   } else {
     // Production CSP configuration
     const productionCspConfig = {

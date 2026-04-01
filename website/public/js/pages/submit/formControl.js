@@ -145,16 +145,6 @@ document.getElementById('newPhotographerCheck').addEventListener('change', funct
     }
 });
 
-// Award Photo event listener
-// If No Photo checkbox is checked, disable the photo upload input and clear any selected file; otherwise, enable it
-document.getElementById('noPhotoCheck').addEventListener('change', function() {
-    const photoUploadInput = document.getElementById('awardPhoto');
-    photoUploadInput.disabled = this.checked;
-    if (this.checked) {
-        photoUploadInput.value = '';
-    }
-});
-
 /* Plant Measurement Type event listeners */
 // Natural spread N/A checkbox event listener
 
@@ -228,28 +218,34 @@ document.getElementById('petlNACheck').addEventListener('change', function() {
 // Measurement type dropdown listener
 const measurementSelect = document.getElementById('measurementsSelect');
 const lipLateralGroup = document.getElementById('lipLateralGroup');
+const generalMeasurementsGroup = document.getElementById('generalMeasurementsGroup');
+const flowersBudsInflorescencesGroup = document.getElementById('flowersBudsInflorescencesGroup');
 const pouchSynsepalGroup = document.getElementById('pouchSynsepalGroup');
-const otherMeasurementsCheckGroup = document.getElementById('otherMeasurementsCheckGroup'); // Only show the "Display Other N/A?" checkbox for the "Other" measurement type
+const displayMeasurementsGroup = document.getElementById('displayMeasurementsGroup');
 
 function updateMeasurementGroups(selectedValue) {
     if (selectedValue === 'lipLateral') {
+        generalMeasurementsGroup.style.display = 'block';
+        flowersBudsInflorescencesGroup.style.display = 'block';
         lipLateralGroup.style.display = 'block';
         pouchSynsepalGroup.style.display = 'none';
-        otherMeasurementsCheckGroup.style.display = 'none';
+        displayMeasurementsGroup.style.display = 'none';
 
     } else if (selectedValue === 'pouchSynsepal') {
+        generalMeasurementsGroup.style.display = 'block';
+        flowersBudsInflorescencesGroup.style.display = 'block';
         lipLateralGroup.style.display = 'none';
         pouchSynsepalGroup.style.display = 'block';
-        otherMeasurementsCheckGroup.style.display = 'none';
+        displayMeasurementsGroup.style.display = 'none';
 
     } else if (selectedValue === 'other') {
-        lipLateralGroup.style.display = 'block';
-        pouchSynsepalGroup.style.display = 'block';
-        otherMeasurementsCheckGroup.style.display = 'block';
-    } else {
+        generalMeasurementsGroup.style.display = 'none';
+        flowersBudsInflorescencesGroup.style.display = 'none';
         lipLateralGroup.style.display = 'none';
         pouchSynsepalGroup.style.display = 'none';
-        otherMeasurementsCheckGroup.style.display = 'none';
+        displayMeasurementsGroup.style.display = 'block';
+    } else {
+        console.log(`Unexpected measurement type selected: ${selectedValue}`);
     }
 }
 
@@ -260,37 +256,37 @@ measurementSelect.addEventListener('change', function() {
 // Display Other N/A? checkbox listener
 // If the "Display Other N/A?" checkbox is checked, show the N/A checkboxes for all measurement types; 
 
-function checkDisplayOtherNA() {
-    const displayOtherNA = document.getElementById('displayOtherMeasurementsCheck').checked;
+// function checkDisplayOtherNA() {
+//     const displayOtherNA = document.getElementById('displayOtherMeasurementsCheck').checked;
 
-    // List of all measurements to disable if "Display Other N/A?" is checked
-    let measurementsToToggle = ["NSinput","NSVinput","DSWinput","DSLinput","PETWinput","PETLinput",
-                                "lsw",'lsl','lipw','lipl',
-                                'synsw','synsl','pouchw','pouchl',
-                                'numflowers','numBuds','numInfloresecnes'];
+//     // List of all measurements to disable if "Display Other N/A?" is checked
+//     let measurementsToToggle = ["NSinput","NSVinput","DSWinput","DSLinput","PETWinput","PETLinput",
+//                                 "lsw",'lsl','lipw','lipl',
+//                                 'synsw','synsl','pouchw','pouchl',
+//                                 'numflowers','numBuds','numInflorescences'];
 
-    // For each text box, disable it and clear its value if "Display Other N/A?" is checked; otherwise, enable it
-    measurementsToToggle.forEach(measurement => {
-        const inputElement = document.getElementById(`${measurement}`);
-        if (inputElement) {
-            if (displayOtherNA) {
-                // Save the current value before setting to N/A
-                measurementValues[measurement] = inputElement.value;
-                inputElement.value = 'N/A';
-            } else {
-                // Restore the saved value when unchecked
-                inputElement.value = measurementValues[measurement] || '';
-            }
-            inputElement.disabled = displayOtherNA;
+//     // For each text box, disable it and clear its value if "Display Other N/A?" is checked; otherwise, enable it
+//     measurementsToToggle.forEach(measurement => {
+//         const inputElement = document.getElementById(`${measurement}`);
+//         if (inputElement) {
+//             if (displayOtherNA) {
+//                 // Save the current value before setting to N/A
+//                 measurementValues[measurement] = inputElement.value;
+//                 inputElement.value = 'N/A';
+//             } else {
+//                 // Restore the saved value when unchecked
+//                 inputElement.value = measurementValues[measurement] || '';
+//             }
+//             inputElement.disabled = displayOtherNA;
 
-        }
-    });
-}
+//         }
+//     });
+// }
 
-document.getElementById('displayOtherMeasurementsCheck').addEventListener('change', checkDisplayOtherNA);
+// document.getElementById('displayOtherMeasurementsCheck').addEventListener('change', checkDisplayOtherNA);
 
 // Initial call to set the correct visibility of N/A checkboxes on page load
-checkDisplayOtherNA();
+// checkDisplayOtherNA();
 
 // Ensure correct section visibility on initial page load
 updateMeasurementGroups(measurementSelect.value);

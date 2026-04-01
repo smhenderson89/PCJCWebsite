@@ -225,9 +225,9 @@
                 <div>Enter New Parent: </div>
             </div>
             <div class = "col-9">   
-                <input type="text" class="form-control" id="NewcrossName" name = "NewcrossName" placeholder="Cross (plaintext)" required disabled>
+                <input type="text" class="form-control" id="NewcrossName" name = "NewcrossName" placeholder="Parent 1 x Parent 2" required disabled>
                 <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback">Please enter a name for the new cross.</div>
+                <div class = "invalid-feedback">Please enter a name for the new parents.</div>
             </div>
         </div>
         <hr>
@@ -262,24 +262,19 @@
         <div class = "row mb-3">
             <div class = "col-3">
                 <div for="formFile" class="form-label">Award Photo</div>
-                <div class = "small text-muted">Max file size: 10MB. Accepted file types: .jpg, .jpeg, .png</div>
+                <!-- <div class = "small text-muted">Max file size: 10MB. Accepted file types: .jpg, .jpeg, .png</div> -->
             </div>
-            <div class = "col-3">
-                <input class="form-check-input" type="checkbox" value="" id="noPhotoCheck">
-                <label class="form-check-label" for="noPhotoCheck">No Photo right now?</label>
-                <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback"></div>
-            </div>
-            <div class = "col-6">
+            <div class = "col-9">
                 <input class="form-control" type="file" id="awardPhoto" name = "awardPhoto" required>
                 <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback">Please upload a photo of the award or check "No Photo Right Now" box</div>
+                <div class = "invalid-feedback">Please upload a photo of the orchid</div>
             </div>
         </div>
         <hr>
         <div class = "row mb-3">
             <h5 class ="text-center">Plant Measurements (in centimeters)</h5>
-            <div class = "muted text-center">If measurement is not applicable, enter N/A</div>
+            <div class = "muted text-center">Enter N/A if measurement is not applicable</div>
+            <div class = "muted text-center">Enter N/M if measurement is not measurable</div>
         </div>
         <div class = "row mb-3">
             <div class = "muted text-center">Select option for measurements</div>
@@ -298,101 +293,106 @@
             </div>
             <div class = "col-4 col-sm-3"></div>
         </div>
-        <div class = "row mb-3">
-            <div class = "col-4"></div>
-            <div class = "col-4">
-                <div class = "form-check" id = "otherMeasurementsCheckGroup" style = "display:none">
-                    <input class = "form-check-input" type="checkbox" value="" id="displayOtherMeasurementsCheck">
-                    <label class = "form-check-label" for="displayOtherMeasurementsCheck" id = "displayOtherMeasurementsLabel">Display Other N/A?</label>
-                </div> 
+        <div id="generalMeasurementsGroup">
+            <div class= "row mb-3">
+                <div class = "col-3">
+                    <div class = "form-label">Natural Spread (NS)</div>
+
+                    <div class = "form-check form-check-inline">
+                        <input class = "form-check-input" type="checkbox" value="" id="nsNACheck">
+                        <label class = "form-check-label" for="nsNACheck">N/A</label>
+                        <div class = "valid-feedback"></div>
+                    </div>
+                    <div class = "form-check form-check-inline">
+                        <input class = "form-check-input" type="checkbox" value="" id="nsNMCheck">
+                        <label class = "form-check-label" for="nsNMCheck">N/M</label>
+                        <div class = "valid-feedback"></div>
+                    </div>
+                </div>
+
+                <div class = "col-3">
+                    <input type="text" class="form-control" id="NSinput" name = "NSinput" placeholder="XX" required>
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
+                </div>
+
+                <div class = "col-3">
+                    <div class = "form-label">Natural Spread Vertical (NSV)</div>
+                    <div class = "form-check form-check-inline">
+                        <input class = "form-check-input" type="checkbox" value="" id="nsvNACheck">
+                        <label class = "form-check-label" for="nsvNACheck">N/A</label>
+                        <div class = "valid-feedback"></div>
+                    </div>
+                    <div class = "form-check form-check-inline">
+                        <input class = "form-check-input" type="checkbox" value="" id="nsvNMCheck">
+                        <label class = "form-check-label" for="nsvNMCheck">N/M</label>
+                        <div class = "valid-feedback"></div>
+                    </div>
+                </div>
+                <div class = "col-3">
+                    <input type="text" class="form-control" id="NSVinput" name = "NSVinput" placeholder="XX" required>
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
+                </div>
             </div>
-            <div class = "col-4"></div>
-        </div>
-        <div class= "row mb-3">
-            <div class = "col-2">
-                <div class = "form-label">Natural Spread (NS)</div>
+            <div class = "row mb-3">
+                <div class = "col-2">
+                    <div class = "form-label">Dorsal Sepal Width (DSW)</div>
+                </div>
+                <div class = "col-2 text-center">
+                    <input class = "form-check-input" type="checkbox" value="" id="dswNACheck">
+                    <label class = "form-check-label" for="dswNACheck">N/A</label>
+                    <div class = "valid-feedback"></div>
+                </div>
+                <div class = "col-2">
+                    <input type="text" class="form-control" id="DSWinput" name = "DSWinput" placeholder="XX" required>
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
+                </div>
+                <div class = "col-2">
+                    <div class = "form-label">Dorsal Sepal Length (DSL)</div>
+                </div>
+                <div class = "col-2 text-center">
+                    <input class = "form-check-input" type="checkbox" value="" id="dslNACheck">
+                    <label class = "form-check-label" for="dslNACheck">N/A</label>
+                    <div class = "valid-feedback"></div>    
+                </div>
+                <div class = "col-2">
+                    <input type="text" class="form-control" id="DSLinput" name = "DSLinput" placeholder="XX" required>
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
+                </div>
             </div>
-            <div class = "col-2 text-center">
-                <input class = "form-check-input" type="checkbox" value="" id="nsNACheck">
-                <label class = "form-check-label" for="nsNACheck">N/A</label>
-                <div class = "valid-feedback"></div>
+            <div class = "row mb-3">
+                <div class = "col-2">
+                    <div class = "form-label">Petal Width (PETW)</div>
+                </div>
+                <div class = "col-2 text-center">
+                    <input class = "form-check-input" type="checkbox" value="" id="petwNACheck">
+                    <label class = "form-check-label" for="petwNACheck">N/A</label>
+                    <div class = "valid-feedback"></div>
+                </div>  
+                <div class = "col-2">
+                    <input type="text" class="form-control" id="PETWinput" name = "PETWinput" placeholder="XX" required>
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
+                </div>
+                <div class = "col-2">
+                    <div class = "form-label">Petal Length (PETL)</div>
+                </div>
+                <div class = "col-2 text-center">
+                    <input class = "form-check-input" type="checkbox" value="" id="petlNACheck">
+                    <label class = "form-check-label" for="petlNACheck">N/A</label>
+                    <div class = "valid-feedback"></div>    
+                </div>
+                <div class = "col-2">
+                    <input type="text" class="form-control" id="PETLinput" name = "PETLinput" placeholder="XX" required>
+                    <div class = "valid-feedback"></div>
+                    <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
+                </div>
             </div>
-            <div class = "col-2">
-                <input type="text" class="form-control" id="NSinput" name = "NSinput" placeholder="XX" required>
-                <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
-            </div>
-            <div class = "col-2">
-                <div class = "form-label">Natural Spread Vertical (NSV)</div>
-            </div>
-            <div class = "col-2 text-center">
-                <input class = "form-check-input" type="checkbox" value="" id="nsvNACheck">
-                <label class = "form-check-label" for="nsvNACheck">N/A</label>
-                <div class = "valid-feedback"></div>
-             </div>
-             <div class = "col-2">
-                <input type="text" class="form-control" id="NSVinput" name = "NSVinput" placeholder="XX" required>
-                <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
-            </div>
-        </div>
-        <div class = "row mb-3">
-            <div class = "col-2">
-                <div class = "form-label">Dorsal Speal Width (DSW)</div>
-            </div>
-            <div class = "col-2 text-center">
-                <input class = "form-check-input" type="checkbox" value="" id="dswNACheck">
-                <label class = "form-check-label" for="dswNACheck">N/A</label>
-                <div class = "valid-feedback"></div>
-            </div>
-             <div class = "col-2">
-                <input type="text" class="form-control" id="DSWinput" name = "DSWinput" placeholder="XX" required>
-                <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
-            </div>
-            <div class = "col-2">
-                <div class = "form-label">Dorsal Speal Length (DSL)</div>
-            </div>
-            <div class = "col-2 text-center">
-                <input class = "form-check-input" type="checkbox" value="" id="dslNACheck">
-                <label class = "form-check-label" for="dslNACheck">N/A</label>
-                <div class = "valid-feedback"></div>    
-            </div>
-             <div class = "col-2">
-                <input type="text" class="form-control" id="DSLinput" name = "DSLinput" placeholder="XX" required>
-                <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
-            </div>
-        </div>
-        <div class = "row mb-3">
-            <div class = "col-2">
-                <div class = "form-label">Petal Width (PETW)</div>
-            </div>
-            <div class = "col-2 text-center">
-                <input class = "form-check-input" type="checkbox" value="" id="petwNACheck">
-                <label class = "form-check-label" for="petwNACheck">N/A</label>
-                <div class = "valid-feedback"></div>
-            </div>  
-             <div class = "col-2">
-                <input type="text" class="form-control" id="PETWinput" name = "PETWinput" placeholder="XX" required>
-                <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
-            </div>
-            <div class = "col-2">
-                <div class = "form-label">Petal Length (PETL)</div>
-            </div>
-            <div class = "col-2 text-center">
-                <input class = "form-check-input" type="checkbox" value="" id="petlNACheck">
-                <label class = "form-check-label" for="petlNACheck">N/A</label>
-                <div class = "valid-feedback"></div>    
-             </div>
-            <div class = "col-2">
-                <input type="text" class="form-control" id="PETLinput" name = "PETLinput" placeholder="XX" required>
-                <div class = "valid-feedback"></div>
-                <div class = "invalid-feedback">Please enter a valid measurement or N/A.</div>
-            </div>
-        </div>
         <hr>
+        </div>
 
         <div id = "lipLateralGroup">
             <h6 class="text-center">Lip and Lateral Sepal</h6>
@@ -474,7 +474,7 @@
             </div>
         </div>
         <hr>
-        <div id = "generalMeasurements">
+        <div id = "flowersBudsInflorescencesGroup">
             <h6 class = "text-center">General Measurements</h6>
             <div class ="row mb-3">
                 <div class = "col-3">
@@ -504,18 +504,26 @@
                     <div class = "invalid-feedback">Please enter a valid number.</div>
                 </div>
             </div>
+            <hr>
+        </div>
+        <div class = "row mb-3" id = "displayMeasurementsGroup" style = "display:none">
+            <h6 class = "text-center">Display Award Measurements </h6>
+                <div class = "text-center">For display award measurements, all measurements will be set to N/A </div>
+        </div>
 
-            <div class = "form-label">Plant description</div>
+        <div class = "form-label">Plant description</div>
             <div>
                 <textarea class="form-control" id="descriptionBox" name = "descriptionBox" rows="5" required></textarea>
                 <div class = "valid-feedback"></div>
                 <div class = "invalid-feedback">Please enter a description for the plant.</div>
             </div>
+        </div>
 
             <br>
             <input id = "submitBtn" type = "button" class = "btn btn-secondary" value = "Submit Form">
             <input id = "testBtn" type = "button" class = "btn btn-success" value = "Test Submission">
-        </form>
+    
+    </form>
 
 </div>
 
