@@ -1,0 +1,225 @@
+{
+  "createdAt": "2026-04-12T03:32:05.224Z",
+  "paths": {
+    "dbPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/db/orchid_awards.sqlite",
+    "jsonDir": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/scraper/copilot/localCopy/paccentraljc.org/awards/2015/data/json",
+    "htmlDir": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/scraper/copilot/localCopy/paccentraljc.org/awards/2015/html"
+  },
+  "summary": {
+    "year": 2015,
+    "totals": {
+      "jsonFiles": 74,
+      "jsonRecords": 74,
+      "dbRows": 74,
+      "htmlFiles": 94,
+      "htmlAwardFiles": 74
+    },
+    "issues": {
+      "jsonParseErrors": 0,
+      "missingInDb": 0,
+      "extraInDb": 0,
+      "fieldMismatches": 11,
+      "referenceIssues": 0,
+      "htmlWithoutJson": 0
+    }
+  },
+  "details": {
+    "jsonParseErrors": [],
+    "missingInDb": [],
+    "extraInDb": [],
+    "htmlWithoutJson": [],
+    "fieldMismatches": [
+      {
+        "awardNum": "20152294",
+        "mismatches": [
+          {
+            "field": "exhibitor",
+            "jsonValue": "Terry and Margaret Boomer",
+            "dbValue": "Terry & Margaret Boomer"
+          }
+        ]
+      },
+      {
+        "awardNum": "20152295",
+        "mismatches": [
+          {
+            "field": "exhibitor",
+            "jsonValue": "Cal-Orchid",
+            "dbValue": "Cal-Orchid, Inc."
+          }
+        ]
+      },
+      {
+        "awardNum": "20152302",
+        "mismatches": [
+          {
+            "field": "exhibitor",
+            "jsonValue": "Amy and Ken Jacobsen",
+            "dbValue": "Amy & Ken Jacobsen"
+          }
+        ]
+      },
+      {
+        "awardNum": "20152303",
+        "mismatches": [
+          {
+            "field": "exhibitor",
+            "jsonValue": "Amy and Ken Jacobsen",
+            "dbValue": "Amy & Ken Jacobsen"
+          }
+        ]
+      },
+      {
+        "awardNum": "20152304",
+        "mismatches": [
+          {
+            "field": "exhibitor",
+            "jsonValue": "Amy and Ken Jacobsen",
+            "dbValue": "Amy & Ken Jacobsen"
+          }
+        ]
+      },
+      {
+        "awardNum": "20152305",
+        "mismatches": [
+          {
+            "field": "exhibitor",
+            "jsonValue": "Amy and Ken Jacobsen",
+            "dbValue": "Amy & Ken Jacobsen"
+          }
+        ]
+      },
+      {
+        "awardNum": "20152307",
+        "mismatches": [
+          {
+            "field": "exhibitor",
+            "jsonValue": "Ken and Amy Jacobsen",
+            "dbValue": "Amy & Ken Jacobsen"
+          }
+        ]
+      },
+      {
+        "awardNum": "20152329",
+        "mismatches": [
+          {
+            "field": "measurements.numInflorescences",
+            "jsonValue": 0,
+            "dbValue": 20
+          }
+        ]
+      },
+      {
+        "awardNum": "20152342",
+        "mismatches": [
+          {
+            "field": "exhibitor",
+            "jsonValue": "Amy and Ken Jacobsen",
+            "dbValue": "Amy & Ken Jacobsen"
+          }
+        ]
+      },
+      {
+        "awardNum": "20152353",
+        "mismatches": [
+          {
+            "field": "measurements.numInflorescences",
+            "jsonValue": 0,
+            "dbValue": 53
+          }
+        ]
+      },
+      {
+        "awardNum": "20152371",
+        "mismatches": [
+          {
+            "field": "measurements.numFlowers",
+            "jsonValue": 0,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.numInflorescences",
+            "jsonValue": 0,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.NS",
+            "jsonValue": null,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.NSV",
+            "jsonValue": null,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.DSW",
+            "jsonValue": null,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.DSL",
+            "jsonValue": null,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.PETW",
+            "jsonValue": null,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.PETL",
+            "jsonValue": null,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.LSW",
+            "jsonValue": null,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.LSL",
+            "jsonValue": null,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.LIPW",
+            "jsonValue": null,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.LIPL",
+            "jsonValue": null,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.SYNSW",
+            "jsonValue": null,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.SYNSL",
+            "jsonValue": null,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.PCHW",
+            "jsonValue": null,
+            "dbValue": "NM"
+          },
+          {
+            "field": "measurements.PCHL",
+            "jsonValue": null,
+            "dbValue": "NM"
+          }
+        ]
+      }
+    ],
+    "referenceIssues": []
+  }
+}

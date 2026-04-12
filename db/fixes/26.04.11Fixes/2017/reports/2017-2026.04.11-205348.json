@@ -1,0 +1,326 @@
+{
+  "createdAt": "2026-04-12T03:53:48.498Z",
+  "paths": {
+    "dbPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/db/orchid_awards.sqlite",
+    "jsonDir": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/scraper/copilot/localCopy/paccentraljc.org/awards/2017/data/json",
+    "htmlDir": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/scraper/copilot/localCopy/paccentraljc.org/awards/2017/html"
+  },
+  "summary": {
+    "year": 2017,
+    "totals": {
+      "jsonFiles": 57,
+      "jsonRecords": 57,
+      "dbRows": 57,
+      "htmlFiles": 75,
+      "htmlAwardFiles": 57
+    },
+    "issues": {
+      "jsonParseErrors": 0,
+      "missingInDb": 0,
+      "extraInDb": 0,
+      "fieldMismatches": 26,
+      "referenceIssues": 0,
+      "htmlWithoutJson": 0
+    }
+  },
+  "details": {
+    "jsonParseErrors": [],
+    "missingInDb": [],
+    "extraInDb": [],
+    "htmlWithoutJson": [],
+    "fieldMismatches": [
+      {
+        "awardNum": "20174085",
+        "sourceUrl": "https://www.paccentraljc.org/20170905/20174085.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174115",
+        "sourceUrl": "https://www.paccentraljc.org/20170103/20174115.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174119",
+        "sourceUrl": "https://www.paccentraljc.org/20170113/20174119.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174121",
+        "sourceUrl": "https://www.paccentraljc.org/20170210/20174121.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174126",
+        "sourceUrl": "https://www.paccentraljc.org/20170223/20174126.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174130",
+        "sourceUrl": "https://www.paccentraljc.org/20170307/20174130.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174131",
+        "sourceUrl": "https://www.paccentraljc.org/20170401/20174131.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174133",
+        "sourceUrl": "https://www.paccentraljc.org/20170404/20174133.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174137",
+        "sourceUrl": "https://www.paccentraljc.org/20170801/20174137.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174138",
+        "sourceUrl": "https://www.paccentraljc.org/20170801/20174138.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174140",
+        "sourceUrl": "https://www.paccentraljc.org/20170801/20174140.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174142",
+        "sourceUrl": "https://www.paccentraljc.org/20170801/20174142.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174147",
+        "sourceUrl": "https://www.paccentraljc.org/20170116/20174147.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174148",
+        "sourceUrl": "https://www.paccentraljc.org/20170220/20174148.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174149",
+        "sourceUrl": "https://www.paccentraljc.org/20170320/20174149.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174151",
+        "sourceUrl": "https://www.paccentraljc.org/20170417/20174151.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174154",
+        "sourceUrl": "https://www.paccentraljc.org/20170515/20174154.html",
+        "mismatches": [
+          {
+            "field": "measurements.numFlowers",
+            "jsonValue": 0,
+            "dbValue": null
+          },
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174155",
+        "sourceUrl": "https://www.paccentraljc.org/20170821/20174155.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174161",
+        "sourceUrl": "https://www.paccentraljc.org/20170422/20174161.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174165",
+        "sourceUrl": "https://www.paccentraljc.org/20170513/20174165.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174169",
+        "sourceUrl": "https://www.paccentraljc.org/20170606/20174169.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174171",
+        "sourceUrl": "https://www.paccentraljc.org/20170619/20174171.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174172",
+        "sourceUrl": "https://www.paccentraljc.org/20170619/20174172.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174174",
+        "sourceUrl": "https://www.paccentraljc.org/20171120/20174174.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174175",
+        "sourceUrl": "https://www.paccentraljc.org/20171120/20174175.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      },
+      {
+        "awardNum": "20174176",
+        "sourceUrl": "https://www.paccentraljc.org/20171218/20174176.html",
+        "mismatches": [
+          {
+            "field": "measurements.numBuds",
+            "jsonValue": 0,
+            "dbValue": null
+          }
+        ]
+      }
+    ],
+    "referenceIssues": []
+  }
+}

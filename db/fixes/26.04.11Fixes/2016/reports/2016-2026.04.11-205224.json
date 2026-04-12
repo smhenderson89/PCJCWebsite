@@ -1,0 +1,34 @@
+{
+  "createdAt": "2026-04-12T03:52:24.217Z",
+  "paths": {
+    "dbPath": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/db/orchid_awards.sqlite",
+    "jsonDir": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/scraper/copilot/localCopy/paccentraljc.org/awards/2016/data/json",
+    "htmlDir": "/Users/scotthenderson/Programming/Freelancing/Orchid Society/Github/PCJCWebsite/scraper/copilot/localCopy/paccentraljc.org/awards/2016/html"
+  },
+  "summary": {
+    "year": 2016,
+    "totals": {
+      "jsonFiles": 60,
+      "jsonRecords": 60,
+      "dbRows": 60,
+      "htmlFiles": 71,
+      "htmlAwardFiles": 60
+    },
+    "issues": {
+      "jsonParseErrors": 0,
+      "missingInDb": 0,
+      "extraInDb": 0,
+      "fieldMismatches": 0,
+      "referenceIssues": 0,
+      "htmlWithoutJson": 0
+    }
+  },
+  "details": {
+    "jsonParseErrors": [],
+    "missingInDb": [],
+    "extraInDb": [],
+    "htmlWithoutJson": [],
+    "fieldMismatches": [],
+    "referenceIssues": []
+  }
+}

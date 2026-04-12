@@ -1,0 +1,3798 @@
+{
+  "createdAt": "2026-04-12T04:06:26.891Z",
+  "year": 2015,
+  "totalAwards": 74,
+  "awardsWithMismatch": 1,
+  "fieldSummary": {
+    "PETW": {
+      "nmInHtml": 10,
+      "nullInJson": 9,
+      "nullInDb": 6,
+      "mismatch": 0
+    },
+    "PETL": {
+      "nmInHtml": 10,
+      "nullInJson": 10,
+      "nullInDb": 6,
+      "mismatch": 0
+    },
+    "LSW": {
+      "nmInHtml": 2,
+      "nullInJson": 8,
+      "nullInDb": 7,
+      "mismatch": 0
+    },
+    "LSL": {
+      "nmInHtml": 7,
+      "nullInJson": 10,
+      "nullInDb": 8,
+      "mismatch": 1
+    },
+    "LIPW": {
+      "nmInHtml": 7,
+      "nullInJson": 13,
+      "nullInDb": 10,
+      "mismatch": 0
+    },
+    "LIPL": {
+      "nmInHtml": 7,
+      "nullInJson": 15,
+      "nullInDb": 11,
+      "mismatch": 1
+    }
+  },
+  "mismatches": [
+    {
+      "awardNum": "20152307",
+      "sourceUrl": "https://www.paccentraljc.org/20150724/20152307.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6,
+          "dbValue": 6,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 8.6,
+          "dbValue": 8.6,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.9,
+          "dbValue": 2.9,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": true
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9,
+          "dbValue": 9,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": true
+        }
+      },
+      "hasAnyMismatch": true
+    }
+  ],
+  "allResults": [
+    {
+      "awardNum": "20152291",
+      "sourceUrl": "https://www.paccentraljc.org/20150123/20152291.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.1,
+          "dbValue": 4.1,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.5,
+          "dbValue": 5.5,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.5,
+          "dbValue": 5.5,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 8.4,
+          "dbValue": 8.4,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.8,
+          "dbValue": 2.8,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.4,
+          "dbValue": 4.4,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152292",
+      "sourceUrl": "https://www.paccentraljc.org/20150123/20152292.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.6,
+          "dbValue": 1.6,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.9,
+          "dbValue": 0.9,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.3,
+          "dbValue": 2.3,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.6,
+          "dbValue": 2.6,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.5,
+          "dbValue": 2.5,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152293",
+      "sourceUrl": "https://www.paccentraljc.org/20150123/20152293.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.8,
+          "dbValue": 0.8,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.4,
+          "dbValue": 1.4,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.8,
+          "dbValue": 0.8,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.9,
+          "dbValue": 0.9,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152294",
+      "sourceUrl": "https://www.paccentraljc.org/20150123/20152294.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.9,
+          "dbValue": 3.9,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.6,
+          "dbValue": 2.6,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.8,
+          "dbValue": 3.8,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.8,
+          "dbValue": 2.8,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152295",
+      "sourceUrl": "https://www.paccentraljc.org/20150123/20152295.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5,
+          "dbValue": 5,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.2,
+          "dbValue": 5.2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.6,
+          "dbValue": 5.6,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7.3,
+          "dbValue": 7.3,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.7,
+          "dbValue": 3.7,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152296",
+      "sourceUrl": "https://www.paccentraljc.org/20150119/20152296.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.6,
+          "dbValue": 3.6,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4,
+          "dbValue": 4,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3,
+          "dbValue": 3,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.2,
+          "dbValue": 4.2,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3,
+          "dbValue": 3,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.7,
+          "dbValue": 3.7,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152297",
+      "sourceUrl": "https://www.paccentraljc.org/20150505/20152297.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.3,
+          "dbValue": 0.3,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.4,
+          "dbValue": 2.4,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 8.8,
+          "dbValue": 8.8,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152298",
+      "sourceUrl": "https://www.paccentraljc.org/20150505/20152298.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.8,
+          "dbValue": 1.8,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.3,
+          "dbValue": 2.3,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.3,
+          "dbValue": 3.3,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.4,
+          "dbValue": 1.4,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152299",
+      "sourceUrl": "https://www.paccentraljc.org/20150505/20152299.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.8,
+          "dbValue": 1.8,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.3,
+          "dbValue": 2.3,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.3,
+          "dbValue": 3.3,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.4,
+          "dbValue": 1.4,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152300",
+      "sourceUrl": "https://www.paccentraljc.org/20150602/20152300.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.4,
+          "dbValue": 0.4,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.4,
+          "dbValue": 0.4,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.1,
+          "dbValue": 0.1,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152301",
+      "sourceUrl": "https://www.paccentraljc.org/20150602/20152301.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.3,
+          "dbValue": 0.3,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.4,
+          "dbValue": 2.4,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7.9,
+          "dbValue": 7.9,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.3,
+          "dbValue": 0.3,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.4,
+          "dbValue": 0.4,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152302",
+      "sourceUrl": "https://www.paccentraljc.org/20150707/20152302.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.1,
+          "dbValue": 5.1,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 11.2,
+          "dbValue": 11.2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.4,
+          "dbValue": 2.4,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 10.3,
+          "dbValue": 10.3,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.4,
+          "dbValue": 5.4,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 8,
+          "dbValue": 8,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152303",
+      "sourceUrl": "https://www.paccentraljc.org/20150707/20152303.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.5,
+          "dbValue": 4.5,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 10.8,
+          "dbValue": 10.8,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.4,
+          "dbValue": 2.4,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 11,
+          "dbValue": 11,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.3,
+          "dbValue": 5.3,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9.4,
+          "dbValue": 9.4,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152304",
+      "sourceUrl": "https://www.paccentraljc.org/20150707/20152304.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4,
+          "dbValue": 4,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9.2,
+          "dbValue": 9.2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.4,
+          "dbValue": 2.4,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 8.9,
+          "dbValue": 8.9,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.9,
+          "dbValue": 4.9,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9.1,
+          "dbValue": 9.1,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152305",
+      "sourceUrl": "https://www.paccentraljc.org/20150707/20152305.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.2,
+          "dbValue": 4.2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9.5,
+          "dbValue": 9.5,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.3,
+          "dbValue": 2.3,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9.5,
+          "dbValue": 9.5,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.5,
+          "dbValue": 4.5,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9,
+          "dbValue": 9,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152306",
+      "sourceUrl": "https://www.paccentraljc.org/20150724/20152306.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.1,
+          "dbValue": 3.1,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 8.2,
+          "dbValue": 8.2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.6,
+          "dbValue": 2.6,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 8,
+          "dbValue": 8,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.2,
+          "dbValue": 5.2,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7.2,
+          "dbValue": 7.2,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152307",
+      "sourceUrl": "https://www.paccentraljc.org/20150724/20152307.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6,
+          "dbValue": 6,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 8.6,
+          "dbValue": 8.6,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.9,
+          "dbValue": 2.9,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": true
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9,
+          "dbValue": 9,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": true
+        }
+      },
+      "hasAnyMismatch": true
+    },
+    {
+      "awardNum": "20152308",
+      "sourceUrl": "https://www.paccentraljc.org/20151103/20152308.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.1,
+          "dbValue": 0.1,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.8,
+          "dbValue": 0.8,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.8,
+          "dbValue": 0.8,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.6,
+          "dbValue": 0.6,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7,
+          "dbValue": 7,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6,
+          "dbValue": 6,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152309",
+      "sourceUrl": "https://www.paccentraljc.org/20151103/20152309.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.1,
+          "dbValue": 0.1,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.8,
+          "dbValue": 0.8,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.8,
+          "dbValue": 0.8,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.6,
+          "dbValue": 0.6,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7,
+          "dbValue": 7,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6,
+          "dbValue": 6,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152310",
+      "sourceUrl": "https://www.paccentraljc.org/20151114/20152310.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.2,
+          "dbValue": 1.2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.6,
+          "dbValue": 3.6,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.5,
+          "dbValue": 1.5,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.1,
+          "dbValue": 3.1,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.6,
+          "dbValue": 1.6,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.9,
+          "dbValue": 2.9,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152311",
+      "sourceUrl": "https://www.paccentraljc.org/20151114/20152311.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.2,
+          "dbValue": 5.2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.9,
+          "dbValue": 5.9,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6.5,
+          "dbValue": 6.5,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6.9,
+          "dbValue": 6.9,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.7,
+          "dbValue": 1.7,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.4,
+          "dbValue": 2.4,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152321",
+      "sourceUrl": "https://www.paccentraljc.org/20150804/20152321.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6.2,
+          "dbValue": 6.2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7,
+          "dbValue": 7,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152326",
+      "sourceUrl": "https://www.paccentraljc.org/20150216/20152326.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.2,
+          "dbValue": 5.2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7,
+          "dbValue": 7,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152327",
+      "sourceUrl": "https://www.paccentraljc.org/20150216/20152327.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.8,
+          "dbValue": 1.8,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.8,
+          "dbValue": 3.8,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.3,
+          "dbValue": 2.3,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.8,
+          "dbValue": 3.8,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.5,
+          "dbValue": 2.5,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.1,
+          "dbValue": 3.1,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152328",
+      "sourceUrl": "https://www.paccentraljc.org/20150306/20152328.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.6,
+          "dbValue": 0.6,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.1,
+          "dbValue": 1.1,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1,
+          "dbValue": 1,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.2,
+          "dbValue": 1.2,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.4,
+          "dbValue": 0.4,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.6,
+          "dbValue": 0.6,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152329",
+      "sourceUrl": "https://www.paccentraljc.org/20150316/20152329.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.5,
+          "dbValue": 3.5,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.2,
+          "dbValue": 1.2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3,
+          "dbValue": 3,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.5,
+          "dbValue": 1.5,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.3,
+          "dbValue": 3.3,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152330",
+      "sourceUrl": "https://www.paccentraljc.org/20150321/20152330.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.9,
+          "dbValue": 3.9,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.9,
+          "dbValue": 2.9,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.6,
+          "dbValue": 1.6,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.7,
+          "dbValue": 2.7,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.1,
+          "dbValue": 1.1,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.2,
+          "dbValue": 2.2,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152331",
+      "sourceUrl": "https://www.paccentraljc.org/20150321/20152331.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.6,
+          "dbValue": 4.6,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.5,
+          "dbValue": 5.5,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6.5,
+          "dbValue": 6.5,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7.5,
+          "dbValue": 7.5,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.6,
+          "dbValue": 2.6,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.3,
+          "dbValue": 4.3,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152332",
+      "sourceUrl": "https://www.paccentraljc.org/20150328/20152332.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.5,
+          "dbValue": 2.5,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 8.4,
+          "dbValue": 8.4,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.2,
+          "dbValue": 2.2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 8.6,
+          "dbValue": 8.6,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7.6,
+          "dbValue": 7.6,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7.4,
+          "dbValue": 7.4,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152335",
+      "sourceUrl": "https://www.paccentraljc.org/20150417/20152335.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.7,
+          "dbValue": 1.7,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.5,
+          "dbValue": 3.5,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.2,
+          "dbValue": 2.2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.5,
+          "dbValue": 3.5,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.7,
+          "dbValue": 1.7,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.4,
+          "dbValue": 2.4,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152342",
+      "sourceUrl": "https://www.paccentraljc.org/20150106/20152342.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.2,
+          "dbValue": 5.2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.8,
+          "dbValue": 5.8,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.4,
+          "dbValue": 2.4,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.3,
+          "dbValue": 5.3,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.9,
+          "dbValue": 3.9,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.7,
+          "dbValue": 4.7,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152343",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152343.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.9,
+          "dbValue": 4.9,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.8,
+          "dbValue": 5.8,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152344",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152344.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.1,
+          "dbValue": 0.1,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.1,
+          "dbValue": 0.1,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.1,
+          "dbValue": 0.1,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.3,
+          "dbValue": 0.3,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152345",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152345.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1,
+          "dbValue": 1,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152346",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152346.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.1,
+          "dbValue": 0.1,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.1,
+          "dbValue": 0.1,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3,
+          "dbValue": 3,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 12,
+          "dbValue": 12,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1,
+          "dbValue": 1,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.5,
+          "dbValue": 0.5,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152347",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152347.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 8.2,
+          "dbValue": 8.2,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.6,
+          "dbValue": 0.6,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.6,
+          "dbValue": 0.6,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152348",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152348.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.1,
+          "dbValue": 0.1,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.5,
+          "dbValue": 0.5,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.2,
+          "dbValue": 3.2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 10,
+          "dbValue": 10,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.4,
+          "dbValue": 1.4,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.5,
+          "dbValue": 1.5,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152349",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152349.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.9,
+          "dbValue": 2.9,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9,
+          "dbValue": 9,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.5,
+          "dbValue": 0.5,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1,
+          "dbValue": 1,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152350",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152350.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.3,
+          "dbValue": 4.3,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.7,
+          "dbValue": 4.7,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152351",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152351.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.5,
+          "dbValue": 2.5,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.2,
+          "dbValue": 4.2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.8,
+          "dbValue": 1.8,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.3,
+          "dbValue": 3.3,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.5,
+          "dbValue": 2.5,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152352",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152352.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4,
+          "dbValue": 4,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6.9,
+          "dbValue": 6.9,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.1,
+          "dbValue": 4.1,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7.8,
+          "dbValue": 7.8,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.7,
+          "dbValue": 2.7,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.4,
+          "dbValue": 3.4,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152353",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152353.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.7,
+          "dbValue": 0.7,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.3,
+          "dbValue": 1.3,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3,
+          "dbValue": 3,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.7,
+          "dbValue": 1.7,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.8,
+          "dbValue": 3.8,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152354",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152354.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.6,
+          "dbValue": 3.6,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.2,
+          "dbValue": 1.2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.1,
+          "dbValue": 4.1,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.7,
+          "dbValue": 2.7,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.7,
+          "dbValue": 4.7,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152355",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152355.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.5,
+          "dbValue": 1.5,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 16.1,
+          "dbValue": 16.1,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152356",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152356.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.6,
+          "dbValue": 3.6,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 13,
+          "dbValue": 13,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.5,
+          "dbValue": 1.5,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152357",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152357.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.5,
+          "dbValue": 0.5,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.8,
+          "dbValue": 0.8,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.4,
+          "dbValue": 0.4,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152358",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152358.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.2,
+          "dbValue": 2.2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.1,
+          "dbValue": 2.1,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.7,
+          "dbValue": 2.7,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152359",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152359.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.3,
+          "dbValue": 0.3,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.2,
+          "dbValue": 2.2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9,
+          "dbValue": 9,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.4,
+          "dbValue": 0.4,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.2,
+          "dbValue": 0.2,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152360",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152360.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1,
+          "dbValue": 1,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.3,
+          "dbValue": 2.3,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152362",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152362.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.2,
+          "dbValue": 3.2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.3,
+          "dbValue": 4.3,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152363",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152363.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.8,
+          "dbValue": 1.8,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6.1,
+          "dbValue": 6.1,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152365",
+      "sourceUrl": "https://www.paccentraljc.org/20150417/20152365.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.2,
+          "dbValue": 1.2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.5,
+          "dbValue": 2.5,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.4,
+          "dbValue": 1.4,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.8,
+          "dbValue": 2.8,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.4,
+          "dbValue": 1.4,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152366",
+      "sourceUrl": "https://www.paccentraljc.org/20150420/20152366.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.4,
+          "dbValue": 2.4,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.6,
+          "dbValue": 5.6,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152367",
+      "sourceUrl": "https://www.paccentraljc.org/20150615/20152367.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.6,
+          "dbValue": 1.6,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7.3,
+          "dbValue": 7.3,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 8.8,
+          "dbValue": 8.8,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.5,
+          "dbValue": 3.5,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6.7,
+          "dbValue": 6.7,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152368",
+      "sourceUrl": "https://www.paccentraljc.org/20150420/20152368.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.1,
+          "dbValue": 2.1,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": 5.8,
+          "dbValue": 5.8,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152369",
+      "sourceUrl": "https://www.paccentraljc.org/20150828/20152369.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.7,
+          "dbValue": 0.7,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.6,
+          "dbValue": 2.6,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 15.5,
+          "dbValue": 15.5,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.7,
+          "dbValue": 0.7,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152370",
+      "sourceUrl": "https://www.paccentraljc.org/20150901/20152370.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.6,
+          "dbValue": 2.6,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.3,
+          "dbValue": 2.3,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.6,
+          "dbValue": 1.6,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.2,
+          "dbValue": 2.2,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.3,
+          "dbValue": 1.3,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.8,
+          "dbValue": 1.8,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152371",
+      "sourceUrl": "https://www.paccentraljc.org/20150219/20152371.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": true,
+          "fieldPresentInHtml": true,
+          "jsonValue": null,
+          "dbValue": "NM",
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152372",
+      "sourceUrl": "https://www.paccentraljc.org/20150407/20152372.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.3,
+          "dbValue": 1.3,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.8,
+          "dbValue": 4.8,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": false,
+          "jsonValue": null,
+          "dbValue": null,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152373",
+      "sourceUrl": "https://www.paccentraljc.org/20150407/20152373.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.9,
+          "dbValue": 0.9,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.2,
+          "dbValue": 1.2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.8,
+          "dbValue": 2.8,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1,
+          "dbValue": 1,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152375",
+      "sourceUrl": "https://www.paccentraljc.org/20150921/20152375.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.4,
+          "dbValue": 1.4,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.3,
+          "dbValue": 1.3,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.5,
+          "dbValue": 2.5,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.6,
+          "dbValue": 0.6,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.3,
+          "dbValue": 1.3,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152376",
+      "sourceUrl": "https://www.paccentraljc.org/20151006/20152376.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.9,
+          "dbValue": 0.9,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.8,
+          "dbValue": 0.8,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.2,
+          "dbValue": 1.2,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152377",
+      "sourceUrl": "https://www.paccentraljc.org/20151006/20152377.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.4,
+          "dbValue": 2.4,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.8,
+          "dbValue": 1.8,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.3,
+          "dbValue": 2.3,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.2,
+          "dbValue": 1.2,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.6,
+          "dbValue": 1.6,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152378",
+      "sourceUrl": "https://www.paccentraljc.org/20151221/20152378.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.5,
+          "dbValue": 1.5,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.7,
+          "dbValue": 2.7,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.8,
+          "dbValue": 0.8,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3,
+          "dbValue": 3,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.6,
+          "dbValue": 2.6,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.9,
+          "dbValue": 3.9,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152379",
+      "sourceUrl": "https://www.paccentraljc.org/20150828/20152379.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.5,
+          "dbValue": 0.5,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.1,
+          "dbValue": 2.1,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.8,
+          "dbValue": 0.8,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.5,
+          "dbValue": 1.5,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.7,
+          "dbValue": 2.7,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152380",
+      "sourceUrl": "https://www.paccentraljc.org/20151221/20152380.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.1,
+          "dbValue": 4.1,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9.3,
+          "dbValue": 9.3,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9.6,
+          "dbValue": 9.6,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3,
+          "dbValue": 3,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.9,
+          "dbValue": 4.9,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152399",
+      "sourceUrl": "https://www.paccentraljc.org/20150303/20152399.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.9,
+          "dbValue": 2.9,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9.1,
+          "dbValue": 9.1,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.5,
+          "dbValue": 1.5,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6,
+          "dbValue": 6,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.1,
+          "dbValue": 4.1,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152400",
+      "sourceUrl": "https://www.paccentraljc.org/20150303/20152400.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.9,
+          "dbValue": 2.9,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 9.1,
+          "dbValue": 9.1,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.5,
+          "dbValue": 1.5,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6,
+          "dbValue": 6,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.1,
+          "dbValue": 4.1,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152401",
+      "sourceUrl": "https://www.paccentraljc.org/20150304/20152401.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.1,
+          "dbValue": 3.1,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6,
+          "dbValue": 6,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.3,
+          "dbValue": 3.3,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7.4,
+          "dbValue": 7.4,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3,
+          "dbValue": 3,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 4.2,
+          "dbValue": 4.2,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152402",
+      "sourceUrl": "https://www.paccentraljc.org/20151019/20152402.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.5,
+          "dbValue": 2.5,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.2,
+          "dbValue": 2.2,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.2,
+          "dbValue": 3.2,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.3,
+          "dbValue": 1.3,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2,
+          "dbValue": 2,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152403",
+      "sourceUrl": "https://www.paccentraljc.org/20151019/20152403.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.6,
+          "dbValue": 1.6,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.2,
+          "dbValue": 2.2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.6,
+          "dbValue": 1.6,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.5,
+          "dbValue": 2.5,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.7,
+          "dbValue": 0.7,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.6,
+          "dbValue": 1.6,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152404",
+      "sourceUrl": "https://www.paccentraljc.org/20151019/20152404.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.4,
+          "dbValue": 1.4,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 7.2,
+          "dbValue": 7.2,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.1,
+          "dbValue": 2.1,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 6.8,
+          "dbValue": 6.8,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.6,
+          "dbValue": 2.6,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 8.3,
+          "dbValue": 8.3,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152405",
+      "sourceUrl": "https://www.paccentraljc.org/20151116/20152405.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.6,
+          "dbValue": 2.6,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.1,
+          "dbValue": 3.1,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.9,
+          "dbValue": 0.9,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.1,
+          "dbValue": 2.1,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    },
+    {
+      "awardNum": "20152406",
+      "sourceUrl": "https://www.paccentraljc.org/20151116/20152406.html",
+      "htmlExists": true,
+      "fields": {
+        "PETW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        },
+        "PETL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 2.6,
+          "dbValue": 2.6,
+          "mismatch": false
+        },
+        "LSW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.9,
+          "dbValue": 1.9,
+          "mismatch": false
+        },
+        "LSL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 3.2,
+          "dbValue": 3.2,
+          "mismatch": false
+        },
+        "LIPW": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 0.9,
+          "dbValue": 0.9,
+          "mismatch": false
+        },
+        "LIPL": {
+          "nmInHtml": false,
+          "fieldPresentInHtml": true,
+          "jsonValue": 1.8,
+          "dbValue": 1.8,
+          "mismatch": false
+        }
+      },
+      "hasAnyMismatch": false
+    }
+  ]
+}
