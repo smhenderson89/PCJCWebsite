@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "async": "^3.2.6",
-    "axios": "^1.14.0",
+    "axios": "^1.15.0",
     "better-sqlite3": "^12.8.0",
     "bootstrap": "^5.3.8",
     "connect-livereload": "^0.6.1",
