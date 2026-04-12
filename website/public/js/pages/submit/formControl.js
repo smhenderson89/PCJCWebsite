@@ -148,6 +148,10 @@ document.getElementById('newPhotographerCheck').addEventListener('change', funct
 /* Plant Measurement Type event listeners */
 // Natural spread N/A checkbox event listener
 
+// TODO: Update all of these to use a common function that takes in the checkbox ID and the corresponding input field ID to reduce code repetition
+// Fields: NSinput, NSVinput, DSWinput, DSLinput, PETWinput, PETLinput
+// Checkboxes: nsNACheck, nsvNACheck, dswNACheck, dslNACheck, petwNACheck, petlNACheck
+
 document.getElementById('nsNACheck').addEventListener('change', function() {
     if (document.getElementById('nsNACheck').checked) {
         // If checked, disable all natural spread input fields and clear their values
