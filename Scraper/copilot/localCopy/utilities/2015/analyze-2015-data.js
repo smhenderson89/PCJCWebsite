@@ -119,7 +119,12 @@ async function analyze2015DataWithSourceUrls(focusedMode = true, saveFile = true
         const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
         const mode = focusedMode ? 'missing-data' : 'full-data';
         const filename = `2015-${mode}-${timestamp}.json`;
-        const outputPath = path.resolve(path.join(htmlDirectory, '../data', filename));
+
+        const reportsDir = path.join(__dirname, 'reports');
+            if (!fs.existsSync(reportsDir)) {
+            fs.mkdirSync(reportsDir, { recursive: true });
+            }
+        const outputPath = path.resolve(path.join(reportsDir, filename));
         
         const enhancedOutput = {
             metadata: {

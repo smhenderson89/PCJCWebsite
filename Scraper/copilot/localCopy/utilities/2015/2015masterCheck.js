@@ -267,7 +267,7 @@ function runMasterCheck() {
     printSummary(results);
     
     // Save detailed report
-    const reportPath = path.join(__dirname, '2015-master-check-report.json');
+    const reportPath = path.join(__dirname, 'reports', '2015-master-check-report.json');
     fs.writeFileSync(reportPath, JSON.stringify(results, null, 2));
     console.log(`\n📊 Detailed report saved: ${path.basename(reportPath)}`);
 }
